@@ -1,1 +1,76 @@
-
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Léxico · Conlang</title>
+  <meta name="description" content="Léxico canónico del conlang">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="page-header">
+  <div class="wrap">
+    <div class="brand"><a href="index.html">CONLANG</a></div>
+    <nav class="site-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="lexico.html">Léxico</a>
+      <a href="pronombres.html">Pronombres</a>
+      <a href="gramatica.html">Gramática</a>
+      <a href="fonologia.html">Fonología</a>
+      <a href="historia.html">Historia</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero compact">
+    <p class="eyebrow">Fuente léxica</p>
+    <h1>Léxico</h1>
+    <p>Inventario de raíces, afijos, glosas y etiquetas actualmente documentadas. Las formas se conservan con su grafía y diacríticos.</p>
+  </section>
+  <div id="alphabet" class="alphabet"></div>
+  <div id="lexicon"><p>Cargando léxico…</p></div>
+</main>
+<footer class="page-footer"><div class="wrap">Fuente canónica de trabajo del proyecto.</div></footer>
+<script>
+const files=['lexico-1.txt','lexico-2.txt','lexico-3.txt','lexico-4.txt'];
+const origin=new Set(['Nat-plen','Nat-mod','Nova','Latin','Frances','Español','Portugues','Italico','Germanico','Anglo','Griego','Slavo','Celta','Arabe','Baltico','Persa','Sinico','Indico']);
+const cls=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/ñ/g,'n').replace(/[^a-z0-9-]+/g,'-');
+const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function render(text){
+  const host=document.getElementById('lexicon');
+  const alpha=document.getElementById('alphabet');
+  host.innerHTML='';
+  let tbody=null,lastGloss=null;
+  for(const raw of text.split(/\r?\n/)){
+    const line=raw.trimEnd(), t=line.trim();
+    if(!t) continue;
+    if(/^\[[^\]]+\]$/.test(t)){
+      const name=t.slice(1,-1), id='sec-'+cls(name);
+      alpha.insertAdjacentHTML('beforeend',`<a href="#${id}">${esc(name)}</a>`);
+      const sec=document.createElement('section'); sec.className='lex-section'; sec.id=id;
+      sec.innerHTML=`<h2>${esc(name)}</h2><div class="table-wrap"><table class="lex-table"><thead><tr><th>Forma</th><th>Glosa</th><th>Etiquetas</th></tr></thead><tbody></tbody></table></div>`;
+      host.appendChild(sec); tbody=sec.querySelector('tbody'); continue;
+    }
+    if(t.startsWith('Nota visible:')||t.startsWith('Nota:')){
+      if(lastGloss){const d=document.createElement('div'); d.className='entry-note'; d.textContent=t.replace(/^Nota(?: visible)?:\s*/,''); lastGloss.appendChild(d)}
+      continue;
+    }
+    if(!tbody||!line.includes('|')) continue;
+    const pos=line.indexOf('|'); let left=line.slice(0,pos).trim(), right=line.slice(pos+1).trim(), form=left, gloss='';
+    if(left.includes('=')){const eq=left.indexOf('='); form=left.slice(0,eq).trim(); gloss=left.slice(eq+1).trim();}
+    const tr=document.createElement('tr'), td1=document.createElement('td'), td2=document.createElement('td'), td3=document.createElement('td');
+    td1.className='form'; td2.className='gloss'; td3.className='tags';
+    const code=document.createElement('code'); code.textContent=form; td1.appendChild(code); td2.textContent=gloss; lastGloss=td2;
+    for(const tok of right.split(/\s+/)){
+      if(tok.startsWith('#')){const n=tok.slice(1), sp=document.createElement('span'); sp.className='tag '+(origin.has(n)?cls(n):'generic'); sp.textContent=n; td3.appendChild(sp)}
+      else if(tok){const sp=document.createElement('span'); sp.className='meta-extra'; sp.textContent=' '+tok; td3.appendChild(sp)}
+    }
+    tr.append(td1,td2,td3); tbody.appendChild(tr);
+  }
+}
+Promise.all(files.map(f=>fetch(f).then(r=>{if(!r.ok)throw new Error(f);return r.text()})))
+  .then(parts=>render(parts.join('\n')))
+  .catch(err=>{document.getElementById('lexicon').innerHTML='<section class="notice"><strong>Error:</strong> no se pudieron cargar los datos léxicos.</section>'; console.error(err)});
+</script>
+</body>
+</html>
