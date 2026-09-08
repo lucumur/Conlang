@@ -18,23 +18,19 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          import re
 
           p = Path('lexico.html')
           s = p.read_text(encoding='utf-8')
 
-          # 1. Corregir *-AJ: "adverbial" pertenece a la glosa.
           old = '<td class="form"><code>*-AJ (adverbial)</code></td><td class="gloss"></td>'
           new = '<td class="form"><code>*-AJ</code></td><td class="gloss">adverbial</td>'
           if old not in s:
               raise SystemExit('No se encontró la entrada *-AJ esperada')
           s = s.replace(old, new, 1)
 
-          # 2. Eliminar etiquetas redundantes del proyecto.
           s = s.replace('<span class="tag generic">Espro</span>', '')
           s = s.replace('<span class="tag generic">Verbal</span>', '')
 
-          # 3. Añadir buscador si todavía no existe.
           if 'id="lex-search"' not in s:
               marker = '<nav class="alphabet" aria-label="Índice alfabético">'
               search = '''<div class="lex-search-box">
@@ -49,7 +45,6 @@ jobs:
                   raise SystemExit('No se encontró el índice alfabético')
               s = s.replace(marker, search + marker, 1)
 
-          # 4. Estilos del buscador, embebidos para que lexico.html sea autosuficiente salvo la hoja general.
           if '/* lex-search */' not in s:
               style = '''
 <style>
@@ -59,7 +54,6 @@ jobs:
 '''
               s = s.replace('</head>', style + '</head>', 1)
 
-          # 5. Filtro instantáneo de filas y secciones.
           if 'function filterLexicon' not in s:
               script = r'''
 <script>
@@ -90,7 +84,6 @@ jobs:
 '''
               s = s.replace('</body>', script + '</body>', 1)
 
-          # Verificaciones.
           assert '*-AJ (adverbial)' not in s
           assert '<code>*-AJ</code></td><td class="gloss">adverbial</td>' in s
           assert '>Espro<' not in s
