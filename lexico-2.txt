@@ -1,0 +1,286 @@
+[F]
+
+*FAB- = haba, frijol | #Raiz #Espro
+*FABL- = contar | #Raiz #Espro
+*FABR- = fabricar | #Raiz #Espro
+*FAC- = haya | #Raiz #Espro
+*FAJ-R = encender | #Raiz #Espro
+*FAJF- = silbar | #Raiz #Espro
+*FAJN- = fino | #Raiz #Espro
+*FALK = halcon | #Raiz #Espro #Germanico
+*FAND- = fundirse | #Raiz #Espro
+*FAR- = hacer, fabricar | #Raiz #Espro
+*FARB- = pintar | #Raiz #Espro
+*FAŽ- = fachada, frente ⭐ | #Raiz #Espro
+*FEN-IK- = fenix, purpura-violeta | #Raiz #Espro #Griego
+
+*FEB-R = fiebre | #Raiz #Espro
+*FEBL- = debil | #Raiz #Espro
+*FEK- = heces | #Raiz #Espro
+*FEL- = pelaje | #Raiz #Espro
+*FEM- = hembra | #Raiz #Espro
+*FEND- = hendir | #Raiz #Espro
+*FERM- = firme | #Raiz #Espro
+*FES- = festejar | #Raiz #Espro
+*FI- = verguenza | #Raiz #Espro
+*FIG- = higo | #Raiz #Espro
+*FIK- = fijar | #Raiz #Espro
+*FIL- = hijo | #Raiz #Espro
+*FILM- = pelicula | #Raiz #Espro
+*FIN- = terminar | #Raiz #Espro
+*FING- = dedo | #Raiz #Espro
+*FIŠ- = pescar | #Raiz #Espro
+*FIΘ- = creer ⭐ | #Raiz #Espro #Nova
+  Nota: raiz mixta.
+*FJASK- = fracasar | #Raiz #Espro #Italico
+*FJER- = salvaje, fiero, orgulloso | #Raiz #Espro #Frances
+
+*FLA- = amarillo | #Raiz #Espro
+*FLA- = inflar | #Raiz #Espro
+*FLAC- = superficial | #Raiz #Espro #Germanico
+*FLAN- = lados | #Raiz #Espro
+*FLAR- = oler | #Raiz #Espro
+*FLEB- = vena | #Raiz #Espro
+*FLEK-S = doblar ⭐ | #Raiz #Espro
+*FLIŽ- = feliz | #Raiz #Espro
+*FLO- = florecer | #Raiz #Espro
+*FLU- = flotar, fluir | #Raiz #Espro
+*FLUG- = volar | #Raiz #Espro
+*FO-T- = foto | #Raiz #Espro
+*FOB- = miedo | #Raiz #Espro #Griego
+*FOK- = enfocar | #Raiz #Espro
+*FOL- = caer | #Raiz #Espro
+*FON-T- = fuente, brotar | #Raiz #Espro
+*-FOR- = fuera, lejos | #sufijo #Espro
+*FOR-T = fuerza, potencia | #Raiz #Espro
+*FORG- = olvidar | #Raiz #Espro
+*FORM- = formar | #Raiz #Espro
+*FOS-T = poste ⭐ | #Raiz #Espro
+*FOSF- = fosfato | #Raiz #Espro #Griego
+
+*FRA- = hermano | #Raiz #Espro #Latin
+*FRAK- = quebrar | #Raiz #Espro #Latin
+*FRAND- = delicia | #Raiz #Espro #Frances
+*FRANK- = hombre libre | #Raiz #Espro #Germanico
+*FRAP- = golpear / golpetear suave | #Raiz #Espro #Frances
+*FREM- = extraño | #Raiz #Espro #Germanico
+*FREN- = mente ⭐ | #Raiz #Espro #Griego
+*FRIC- = frio | #Raiz #Espro #Latin
+*FRIS- = fresco | #Raiz #Espro #Latin
+*FRIV- = frivolo | #Raiz #Espro #Latin
+*FRON- = cara, frente | #Raiz #Espro #Latin
+*FROS- = frotar | #Raiz #Espro #Germanico
+*FRU- = temprano | #Raiz #Espro #Germanico
+*FUM- = fumar | #Raiz #Espro #Latin
+*FUND- = fondo | #Raiz #Espro #Latin
+*FUR-Z = peer | #Raiz #Espro #Germanico
+*FUZ- = refutar | #Raiz #Espro #Nat-mod
+Fujigea = Japon | #nom #Espro
+
+[G / Ĝ]
+
+*GAD-R- = cuadro | #Raiz #Espro #Nat-mod
+*GAJN- = ganar, obtener | #Raiz #Espro #Anglo
+*GAK- = croar | #Raiz #Espro #Nova #Nat-mod
+*GAL- = bilis | #Raiz #Espro #Anglo
+*GAL- = galos | #Raiz #Espro #Latin
+*GAM- = camaron, langosta | #Raiz #Espro #Italico
+*GAMB- = muslo, femur | #Raiz #Espro #Italico
+*GAN- (KVAN-) = aunque | #Raiz #Espro #Nat-mod
+*GAR-Ž = Cuarzo | #Raiz #Espro #Germanico
+*GARD- = observar, guardar | #Raiz #Espro
+*GAS- = recibir | #Raiz #Espro
+*GAT-R = cuatro | #Raiz #Espro #Nat-mod
+*GAZ- = pasto | #Raiz #Espro
+*GAŠ- = torrentoso | #Raiz #Espro
+
+*-GE- = dual | #sufijo #Espro
+*GE- = Gaia | #Raiz #Espro #Griego
+*GEK- = lagartija | #Raiz #Espro #Germanico
+*GEM- = yema / gema | #Raiz #Espro
+*GENV- = rodilla | #Raiz #Espro #Nat-mod
+*GERK- = roble | #Raiz #Espro
+*GID- = guiar | #Raiz #Espro #Frances
+*GIG- = gigantes | #Raiz #Espro #Griego
+*GIN-K = cinco | #Raiz #Espro #Nat-mod
+*GIS- = colar | #Raiz #Espro
+*GJET- = quieto, callado | #Raiz #Espro #Nat-mod
+
+*-GO (objeto) | #sufijo #Espro
+*GLAM- = colorido | #Raiz #Espro #Nova
+*GLAS- = vidrio, brillar | #Raiz #Espro
+*GLAT- = lindo, gentil | #Raiz #Espro
+*GLAV- = espada | #Raiz #Espro
+*GLIT- = resbalarse | #Raiz #Espro
+*GLU- = pegajoso | #Raiz #Espro
+*GLUT- = deglutir, tragar | #Raiz #Espro
+*GLUŽ- = dulce | #Raiz #Espro #Griego
+*GOR- = garganta | #Raiz #Espro
+*GORIL- = gorila | #Raiz #Espro #Griego
+
+*GERN- = grano | #Raiz #Espro #Nova
+*GRAF- = Conde | #Raiz #Espro #Germanico
+*GRAN- = anciano | #Raiz #Espro #Frances
+*GRAV- = peso ⭐ | #Raiz #Espro #Latin
+*GREK- = griego | #Raiz #Espro #Latin
+*GREN- = verde | #Raiz #Espro #Germanico
+*GROT- = cueva | #Raiz #Espro #Frances
+*GROU- = grava | #Raiz #Espro #Germanico
+*GUDR- = brea | #Raiz #Espro #Arabe
+*GUM- = goma | #Raiz #Espro #Latin
+
+*ĜARD- = cerca | #Raiz #Espro
+*ĜABL- = diablo, demonio | #Raiz #Espro #Nat-mod
+
+*ĜEJN- = molestar | #Raiz #Espro
+*ĜEL- = gel | #Raiz #Espro
+*ĜEN- = procrear ⭐ | #Raiz #Espro
+*ĜER- = comportarse | #Raiz #Espro
+*ĜER- = hierro ⭐ | #Raiz #Espro #Nova
+*ĜEST- = digerir | #Raiz #Espro
+*ĜI- = ese (anim.) | #Raiz #Espro
+*ĜIB- = joroba | #Raiz #Espro
+*ĜINK- = mujer | #Raiz #Espro #Griego #Nova
+*ĜINĜ- = jenjibre | #Raiz #Espro #Nova
+*ĜIS = hasta | #Raiz #Espro #Part.
+
+*-ĜO = objeto que hace | #sufijo #Espro
+*ĜOJ- = gusto | #Raiz #Espro
+
+[I]
+
+*-ID- = descendiente | #sufijo #Espro
+*-IN = participio animante | #sufijo #Espro
+*-ISMA = sistema | #sufijo #Espro
+*-IST = dedicacion | #sufijo #Espro #Raiz
+*-IŠ- = parecido, un poco | #sufijo #Espro #Raiz
+*I- = uno, esto | #Raiz #Espro #Nova
+*ID- = igualar | #Raiz #Espro
+*IKN- = arder | #Raiz #Espro
+*IM- = imaginar | #Raiz #Espro #Nova
+*IND- = indio | #Raiz #Espro #Mundial
+*INK- = tinta | #Raiz #Espro
+*IR- = ir, andar | #Raiz #Espro
+*IS- = isla | #Raiz #Espro #Nova
+*ISM- = arabes | #Raiz #Espro
+  Nota visible: de la casa de Ismael
+*ITAL- = Italia | #Raiz #Espro
+*IVAN- = iguana | #Raiz #Espro #Nat-mod
+*IVR- = Irlanda | #Raiz #Espro #Nat-mod
+*IĜ- = hacerse | #Raiz #Espro
+*-IS = adjetivo, participio pasivo | #sufijo #Espro
+
+[J]
+
+*-JA- = otra vez, de nuevo | #sufijo #Espro
+*JAN- = Janus (Dios Romano) | #Raiz #Espro #Latin
+*JAR- = año | #Raiz #Espro
+*JARAF- = jirafa | #Raiz #Espro #Arabe
+*JAT-R = sanar | #Raiz #Espro #Griego
+*JE = ser | #Raiz #Espro #Nova
+*JET- = lanzar | #Raiz #Espro
+*JAVAR- = jaguar | #Raiz #Espro #Portugues
+
+*-JO = mujer (alternativo) | #sufijo #Espro
+*JON- = ion | #Raiz #Espro #Griego
+*JON- = lejos | #Raiz #Espro
+JO = ohh! | #Part. #Espro
+
+*JU- = ustedes | #Raiz #Espro #Nova
+*JU- = joya | #Raiz #Espro
+*JUN = uno, unir ⭐ | #Raiz #Espro #Nova
+*JUN- = joven | #Raiz #Espro
+*JUR- = Dia | #Raiz #Espro
+*JUR- = jurar | #Raiz #Espro
+*JUS- = justo | #Raiz #Espro
+
+[K]
+
+*K- (copulativo) | #Raiz #Espro #Nova
+*K- = relativo | #Raiz #Espro #Nova
+*KAF- = café | #Raiz #Espro #Arabe
+*KAJS- = Cesar | #Raiz #Espro #Nova
+*KAL-K = copa | #Raiz #Espro
+*KAL-Ž = caliza, cal | #Raiz #Espro #Latin
+*KAML- = camello | #Raiz #Espro
+*KAMP- = campo | #Raiz #Espro
+*KAND- = candido | #Raiz #Espro #Latin
+*KANGA- = canguro | #Raiz #Espro #Anglo
+*KANK- = cangrejo, tenaza | #Raiz #Espro
+*KANT- = cantar | #Raiz #Espro
+*KAP- = cabeza | #Raiz #Espro
+*KAP-N = humo | #Raiz #Espro
+*KAP-R- = cabra | #Raiz #Espro
+*KAR- = querer | #Raiz #Espro
+*KARAP- = caparazon | #Raiz #Espro #Frances
+*KARB- = carbon | #Raiz #Espro #Latin
+*KAT- = gato | #Raiz #Espro
+*KAV- = hueco | #Raiz #Espro
+*KAV-R = agacharse, cuclillas | #Raiz #Espro #Germanico
+*KAZ- = ocurrir | #Raiz #Espro
+*KAĈ- = capturar | #Raiz #Espro
+*KAŠ- = caja, esconder | #Raiz #Espro
+
+*KER- = cortar | #Raiz #Espro
+*KERN- = nucleo | #Raiz #Espro
+*KEST- = conquistar | #Raiz #Espro
+*KIR- = adquirir | #Raiz #Espro
+*KIRK- = iglesia | #Raiz #Espro
+*KLAD- = tipo | #Raiz #Espro
+*KLAK- = clac | #Raiz #Espro
+*KLAM- = clamar | #Raiz #Espro
+*KLAR- = claro | #Raiz #Espro
+*KLAV- = llave | #Raiz #Espro
+*KLER- = educar | #Raiz #Espro
+*KLIĈ- = rechinar | #Raiz #Espro
+*KLOK- = campana | #Raiz #Espro
+*KLOMB- = paloma | #Raiz #Espro
+*KLONŠ- = tintinear | #Raiz #Espro
+*KLOŠ- = pantalla | #Raiz #Espro
+*KLUP- = esculpir | #Raiz #Espro
+
+*-KO = objeto | #sufijo #Espro
+*KNID- = polipo de mar | #Raiz #Espro #Griego
+*KOBL- = duende | #Raiz #Espro
+*KOJN- = oinkear | #Raiz #Espro
+*KOK- = cocinar | #Raiz #Espro
+*KOK- = kikirikear | #Raiz #Espro
+*KOKO = fruta grande | #Raiz #Espro
+*KOL- = coles | #Raiz #Espro #Nova
+*KOL- = cuello | #Raiz #Espro
+*KOL-T = cosechar | #Raiz #Espro
+*KOLP- = regazo | #Raiz #Espro
+*KOM- = peinar | #Raiz #Espro
+*KOMIK = comico | #Raiz #Espro #Griego
+*KON- = conocer | #Raiz #Espro
+*KONC- = concha | #Raiz #Espro
+*KONT- = contar | #Raiz #Espro
+*KOPL- = pareja | #Raiz #Espro #Nova
+*KOR- = cuervo | #Raiz #Espro
+*KORD- = corazon | #Raiz #Espro
+*KORP- = cuerpo | #Raiz #Espro
+*KORT- = corte | #Raiz #Espro #Frances
+*KOS-L = consultar | #Raiz #Espro
+*KOS-M = universo | #Raiz #Espro #Griego
+*KOT- = lodo | #Raiz #Espro
+*KOZ- = causar | #Raiz #Espro
+*KOŠ- = cadera, pelvis | #Raiz #Espro
+
+*KRAC- = crujir | #Raiz #Espro
+*KRAD- = reja | #Raiz #Espro
+*KRAMP- = grapa | #Raiz #Espro
+*KRANG- = bang | #Raiz #Espro
+*KRAŠ- = chocar | #Raiz #Espro
+*KRET- = Creta | #Raiz #Espro
+*KRI- = gritar | #Raiz #Espro
+*KRIĈ- = chirria | #Raiz #Espro
+*KRO- = excepto | #Raiz #Espro
+*KRON- = corona | #Raiz #Espro
+*KRUD- = crudo, cruel | #Raiz #Espro
+*KSIP- = embarcar | #Raiz #Espro #Nat-mod
+*KUN- = juntar | #Raiz #Espro
+*KUNKL- = Conejo | #Raiz #Espro
+*KUR- = cuidar | #Raiz #Espro
+*KURS- = correr ⭐ | #Raiz #Espro
+*KUG- = tejer | #Raiz #Espro #Nat-mod
+*KUŠ- = estar acostado | #Raiz #Espro
