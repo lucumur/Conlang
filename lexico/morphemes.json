@@ -1932,6 +1932,72 @@
       "etymology": null,
       "notes": [],
       "row_class": ""
+    },
+    {
+      "id": "morph-ot",
+      "form": "*-OT-",
+      "gloss": "estativo nominal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ev",
+      "form": "*-EV-",
+      "gloss": "época",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-il",
+      "form": "*-IL",
+      "gloss": "para inanimados",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-et",
+      "form": "*-ET-",
+      "gloss": "función pendiente; atestiguado en aĝeta",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [
+        "Función no canonizada todavía."
+      ],
+      "row_class": ""
     }
   ]
 }

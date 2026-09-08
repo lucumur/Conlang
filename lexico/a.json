@@ -395,8 +395,28 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. aĉ- / aĉa → *AĈ-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-ace",
+          "form": "aĉe",
+          "gloss": "escoria, escombros",
+          "analysis_html": "AĈ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "AĈ + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-ag-2-2",
@@ -420,8 +440,193 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. aĝo → *AĜ-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-agxos",
+          "form": "aĝos",
+          "gloss": "crecer, envejecer",
+          "analysis_html": "AĜ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "AĜ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-agxoton",
+          "form": "aĝoton",
+          "gloss": "adulto",
+          "analysis_html": "AĜ + <a class=\"morph-link\" href=\"#morph-ot\">-OT-</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "AĜ + -OT- + -ON",
+          "refs": [
+            {
+              "id": "morph-ot",
+              "label": "-OT-"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-agxeva",
+          "form": "aĝeva",
+          "gloss": "edad",
+          "analysis_html": "AĜ + <a class=\"morph-link\" href=\"#morph-ev\">-EV-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "AĜ + -EV- + -A",
+          "refs": [
+            {
+              "id": "morph-ev",
+              "label": "-EV-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-agxeta",
+          "form": "aĝeta",
+          "gloss": "año",
+          "analysis_html": "AĜ + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "AĜ + -ET- + -A",
+          "refs": [
+            {
+              "id": "morph-et",
+              "label": "-ET-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-lontagxeva",
+          "form": "lontaĝeva",
+          "gloss": "eternidad",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-lont\">LONT</a> + <a class=\"morph-link\" href=\"#root-ag-2-2\">AĜ</a> + <a class=\"morph-link\" href=\"#morph-ev\">-EV-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "LONT + AĜ + -EV- + -A",
+          "refs": [
+            {
+              "id": "root-lont",
+              "label": "LONT"
+            },
+            {
+              "id": "root-ag-2-2",
+              "label": "AĜ"
+            },
+            {
+              "id": "morph-ev",
+              "label": "-EV-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-lontagxol",
+          "form": "lontaĝol",
+          "gloss": "eterno",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-lont\">LONT</a> + <a class=\"morph-link\" href=\"#root-ag-2-2\">AĜ</a> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "LONT + AĜ + -OL",
+          "refs": [
+            {
+              "id": "root-lont",
+              "label": "LONT"
+            },
+            {
+              "id": "root-ag-2-2",
+              "label": "AĜ"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-agxin",
+          "form": "aĝin",
+          "gloss": "crecido, madurado",
+          "analysis_html": "AĜ + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "AĜ + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio IN"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-agxil",
+          "form": "aĝil",
+          "gloss": "crecido, madurado",
+          "analysis_html": "AĜ + <a class=\"morph-link\" href=\"#morph-il\">-IL</a>",
+          "analysis_text": "AĜ + -IL",
+          "refs": [
+            {
+              "id": "morph-il",
+              "label": "-IL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado IL"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-aj",
