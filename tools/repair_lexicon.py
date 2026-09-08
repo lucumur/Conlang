@@ -3,14 +3,33 @@ import base64
 import gzip
 import html
 import re
+import subprocess
 
 p = Path('lexico.html')
 src = p.read_text(encoding='utf-8')
 m = re.search(r'<script id="lex-gzip"[^>]*>(.*?)</script>', src, re.S)
-if not m:
-    raise SystemExit('No se encontró el bloque lex-gzip')
 
-data = gzip.decompress(base64.b64decode(m.group(1).strip())).decode('utf-8')
+data = None
+if m:
+    try:
+        data = gzip.decompress(base64.b64decode(m.group(1).strip())).decode('utf-8')
+    except Exception:
+        data = None
+
+# El bloque gzip actual quedó truncado. Recuperar las cuatro partes históricas
+# directamente desde los blobs que existían antes de eliminarlas del repo.
+if data is None:
+    blob_shas = [
+        '971147a09147acd9b722e1693390ec736094f5ca',
+        'b9a1005c588445a8a9037b3455fbc1323d9114b3',
+        'b5acc3102330da3926a6015b0b88770ab511ae3b',
+        '34f51ca51cc17b31702d0889afc4964df3a217a3',
+    ]
+    parts = []
+    for sha in blob_shas:
+        parts.append(subprocess.check_output(['git','cat-file','-p',sha]).decode('utf-8'))
+    data = '\n'.join(parts)
+
 data = data.replace('#Nativo', '#Nat-plen').replace('#Mod', '#Nat-mod')
 data = data.replace('Š', 'Ŝ').replace('š', 'ŝ')
 data = data.replace('[S / Ŝ]', '[S]')
@@ -143,5 +162,6 @@ assert 'DecompressionStream' not in output
 assert 'No se pudo cargar el léxico' not in output
 assert '>S<' in output and '>Ŝ<' in output
 assert 'Š' not in output
+assert '#Foranea' not in output
 p.write_text(output, encoding='utf-8')
 print(f'Escritas {sum(len(s["entries"]) for s in sections)} entradas en {len(sections)} secciones.')
