@@ -1,0 +1,1114 @@
+{
+  "schema_version": 1,
+  "letter": "L",
+  "key": "l",
+  "entries": [
+    {
+      "id": "root-cer-2",
+      "form": "*ĈER-",
+      "gloss": "cuerno",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-labr",
+      "form": "*LABR-",
+      "gloss": "trabajar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lag",
+      "form": "*LAG-",
+      "gloss": "lago",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lam",
+      "form": "*LAM-",
+      "gloss": "cojear",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lamp",
+      "form": "*LAMP-",
+      "gloss": "lampara",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-land",
+      "form": "*LAND-",
+      "gloss": "tierra",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lanz",
+      "form": "*LANẐ-",
+      "gloss": "lanza",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        },
+        {
+          "class": "generic",
+          "label": "Bas"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-larm",
+      "form": "*LARM-",
+      "gloss": "lagrima",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-las",
+      "form": "*LAS-",
+      "gloss": "dejar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lat",
+      "form": "*LAT-",
+      "gloss": "leche",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-latv",
+      "form": "*LATV-",
+      "gloss": "letonia",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lav",
+      "form": "*LAV-",
+      "gloss": "estruendoso",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lav-2",
+      "form": "*LAV-",
+      "gloss": "lavar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lav-3",
+      "form": "*LAV-",
+      "gloss": "segun, como",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lav-r",
+      "form": "*LAV-R",
+      "gloss": "laurel",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-laz",
+      "form": "*LAZ-",
+      "gloss": "enlace",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-laz-2",
+      "form": "*LAẐ-",
+      "gloss": "cansarse",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-leg",
+      "form": "*LEG-",
+      "gloss": "leer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-leks",
+      "form": "*LEKS-",
+      "gloss": "elegir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-leo",
+      "form": "*LEO-",
+      "gloss": "leon",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lep",
+      "form": "*LEP-",
+      "gloss": "liebre",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ler",
+      "form": "*LER-",
+      "gloss": "estudiar, aprender",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-letv",
+      "form": "*LETV-",
+      "gloss": "Lituania",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "baltico",
+          "label": "Baltico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lev",
+      "form": "*LEV-",
+      "gloss": "levantar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-letheta",
+      "form": "*LEΘ-",
+      "gloss": "cuero",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-li",
+      "form": "*LI-",
+      "gloss": "acostarse",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lig",
+      "form": "*LIG-",
+      "gloss": "hule, ligar, plastico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lik",
+      "form": "*LIK-",
+      "gloss": "fugar, perder",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lil",
+      "form": "*LIL-",
+      "gloss": "lila",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lim",
+      "form": "*LIM-",
+      "gloss": "baba",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lin",
+      "form": "*LIN-",
+      "gloss": "lino",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lingw",
+      "form": "*LINGW-",
+      "gloss": "lengua",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lip",
+      "form": "*LIP-",
+      "gloss": "labio",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lir",
+      "form": "*LIR-",
+      "gloss": "lira",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-list",
+      "form": "*LIST-",
+      "gloss": "lista",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-livr",
+      "form": "*LIVR-",
+      "gloss": "entregar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-litheta",
+      "form": "*LIΘ-",
+      "gloss": "lito, calculo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-liz",
+      "form": "*LIẐ-",
+      "gloss": "permitir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-loj",
+      "form": "*LOJ-",
+      "gloss": "leal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lok",
+      "form": "*LOK-",
+      "gloss": "poner",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-long",
+      "form": "*LONG-",
+      "gloss": "largo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lont",
+      "form": "*LONT-",
+      "gloss": "lejos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lord",
+      "form": "*LORD-",
+      "gloss": "señor",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lot",
+      "form": "*LOT-",
+      "gloss": "lote, suerte",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-log",
+      "form": "*LOĜ-",
+      "gloss": "habitar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-loz",
+      "form": "*LOẐ-",
+      "gloss": "aflojar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lu",
+      "form": "*LU-",
+      "gloss": "ellos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lud",
+      "form": "*LUD-",
+      "gloss": "jugar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-luf",
+      "form": "*LUF-",
+      "gloss": "amor",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-luk",
+      "form": "*LUK-",
+      "gloss": "seducir, atraer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lum",
+      "form": "*LUM-",
+      "gloss": "iluminar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lumb",
+      "form": "*LUMB-",
+      "gloss": "lumbar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lun",
+      "form": "*LUN-",
+      "gloss": "luna",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lup",
+      "form": "*LUP-",
+      "gloss": "lobo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-lus",
+      "form": "*LUS-",
+      "gloss": "pulga",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}

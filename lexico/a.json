@@ -1,0 +1,1548 @@
+{
+  "schema_version": 1,
+  "letter": "A",
+  "key": "a",
+  "entries": [
+    {
+      "id": "root-ag",
+      "form": "*AG-",
+      "gloss": "comportarse",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. agi → *AG-",
+      "notes": [],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-agos",
+          "form": "agos",
+          "gloss": "comportarse, portarse",
+          "analysis_html": "AG + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "AG + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-agitas",
+          "form": "agitas",
+          "gloss": "tratar a alguien, manejar un problema",
+          "analysis_html": "AG + <a class=\"morph-link\" href=\"#morph-it\">-IT-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "AG + -IT- + -AS",
+          "refs": [
+            {
+              "id": "morph-it",
+              "label": "-IT-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-agolos",
+          "form": "agolos",
+          "gloss": "actuar, interpretar",
+          "analysis_html": "AG + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "AG + -OL- + -OS",
+          "refs": [
+            {
+              "id": "morph-ol",
+              "label": "-OL-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-agolas",
+          "form": "agolas",
+          "gloss": "interpretar un personaje",
+          "analysis_html": "AG + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "AG + -OL- + -AS",
+          "refs": [
+            {
+              "id": "morph-ol",
+              "label": "-OL-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-agolistan",
+          "form": "agolistan",
+          "gloss": "actor",
+          "analysis_html": "AG + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an\">-AN</a>",
+          "analysis_text": "AG + -OL- + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ol",
+              "label": "-OL-"
+            },
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-agura",
+          "form": "agura",
+          "gloss": "comportamiento",
+          "analysis_html": "AG + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "AG + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-agolura",
+          "form": "agolura",
+          "gloss": "actuación",
+          "analysis_html": "AG + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "AG + -OL- + -URA",
+          "refs": [
+            {
+              "id": "morph-ol",
+              "label": "-OL-"
+            },
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-bonagaj",
+          "form": "bonagaj",
+          "gloss": "modales",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bon\">BON</a> + <a class=\"morph-link\" href=\"#root-ag\">AG</a> + <a class=\"morph-link\" href=\"#morph-aj\">-AJ</a>",
+          "analysis_text": "BON + AG + -AJ",
+          "refs": [
+            {
+              "id": "root-bon",
+              "label": "BON"
+            },
+            {
+              "id": "root-ag",
+              "label": "AG"
+            },
+            {
+              "id": "morph-aj",
+              "label": "-AJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A plural"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ag-2",
+      "form": "*AG-",
+      "gloss": "gran",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "esper",
+          "label": "Esper"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. -eg- / ega → *AG-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-agl",
+      "form": "*AGL-",
+      "gloss": "aguila",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. aglo → *AGL-",
+      "notes": [],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-aglagen",
+          "form": "aglagen",
+          "gloss": "aguila",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-agl\">AGL</a> + <a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "AGL + AG- + -EN",
+          "refs": [
+            {
+              "id": "root-agl",
+              "label": "AGL"
+            },
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "id": "lexeme-agliken",
+          "form": "agliken",
+          "gloss": "aguililla",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-agl\">AGL</a> + <a class=\"morph-link\" href=\"#morph-ik\">-IK-</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "AGL + -IK- + -EN",
+          "refs": [
+            {
+              "id": "root-agl",
+              "label": "AGL"
+            },
+            {
+              "id": "morph-ik",
+              "label": "-IK-"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "id": "lexeme-andaglen",
+          "form": "andaglen",
+          "gloss": "condor",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-and\">AND</a> + <a class=\"morph-link\" href=\"#root-agl\">AGL</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "AND + AGL + -EN",
+          "refs": [
+            {
+              "id": "root-and",
+              "label": "AND"
+            },
+            {
+              "id": "root-agl",
+              "label": "AGL"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": []
+        },
+        {
+          "id": "lexeme-orkaglen",
+          "form": "orkaglen",
+          "gloss": "milano",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ork\">ORK</a> + <a class=\"morph-link\" href=\"#root-agl\">AGL</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "ORK + AGL + -EN",
+          "refs": [
+            {
+              "id": "root-ork",
+              "label": "ORK"
+            },
+            {
+              "id": "root-agl",
+              "label": "AGL"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "root-ajn",
+      "form": "*AJN-",
+      "gloss": "cualquiera",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. ajn → *AJN-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ac",
+      "form": "*AĈ-",
+      "gloss": "escoria",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "esper",
+          "label": "Esper"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. aĉ- / aĉa → *AĈ-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ag-2-2",
+      "form": "*AĜ-",
+      "gloss": "envejecer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. aĝo → *AĜ-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-aj",
+      "form": "*AJ-",
+      "gloss": "hacer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "esper",
+          "label": "Esper"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. agi → *AJ-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ajn-2",
+      "form": "*AJN-",
+      "gloss": "cualquiera",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. ajn → *AJN-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-al",
+      "form": "*AL-",
+      "gloss": "alto",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. alta → *AL-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-al-2",
+      "form": "*AL-",
+      "gloss": "otro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. alia → *AL-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-alb",
+      "form": "*ALB-",
+      "gloss": "blanco ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. albino → *ALB-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-alc",
+      "form": "*ALC-",
+      "gloss": "ajo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. ajlo → *ALC-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-alj",
+      "form": "*ALJ-",
+      "gloss": "alearse",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. aliĝi → *ALJ-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-alk",
+      "form": "*ALK-",
+      "gloss": "alcali",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "arabe",
+          "label": "Arabe"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. alkalo → *ALK-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-alm",
+      "form": "*ALM-",
+      "gloss": "respirar ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. de novo; latín anima → anma → *ALM-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-alum",
+      "form": "*ALUM-",
+      "gloss": "alumbre",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. aluno → *ALUM-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-am",
+      "form": "*AM-",
+      "gloss": "amar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. ami → *AM-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ambr",
+      "form": "*AMBR-",
+      "gloss": "ambar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. ambro → *AMBR-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-amer",
+      "form": "*AMER-",
+      "gloss": "america",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. Ameriko → *AMER-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-and",
+      "form": "*AND-",
+      "gloss": "Andes",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. Andoj → *AND-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ang",
+      "form": "*ANG-",
+      "gloss": "angor",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. angoro → *ANG-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ang-2",
+      "form": "*ANG-",
+      "gloss": "angulo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. angulo → *ANG-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-angl",
+      "form": "*ANGL-",
+      "gloss": "ingles",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. angla → *ANGL-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ans",
+      "form": "*ANS-",
+      "gloss": "pato",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. anaso → *ANS-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ant",
+      "form": "*ANT-",
+      "gloss": "anterior ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. antaŭ → *ANT-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ang-3",
+      "form": "*ANĜ-",
+      "gloss": "angel",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. anĝelo → *ANĜ-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-apol",
+      "form": "*APOL-",
+      "gloss": "Apolo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "helenico",
+          "label": "Helenico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. Apolono → *APOL-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-afru",
+      "form": "*AFRU-",
+      "gloss": "Afrodita",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "helenico",
+          "label": "Helenico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. Afrodito → *AFRU-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-apr",
+      "form": "*APR-",
+      "gloss": "aparecer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. aperi → *APR-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-afr",
+      "form": "*AFR-",
+      "gloss": "Africa",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. Afriko → *AFR-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-apu",
+      "form": "*APU-",
+      "gloss": "a un lado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. apud → *APU-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ar",
+      "form": "*AR-",
+      "gloss": "aire",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. aero → *AR-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-arb",
+      "form": "*ARB-",
+      "gloss": "arbol",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. arbo → *ARB-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-arc",
+      "form": "*ARC-",
+      "gloss": "arcaico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-arc-a",
+      "form": "*ARC-A",
+      "gloss": "regir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "helenico",
+          "label": "Helenico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. de novo; griego arkhes → *ARC-A",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-arg",
+      "form": "*ARG-",
+      "gloss": "argon",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "helenico",
+          "label": "Helenico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. argono → *ARG-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ari",
+      "form": "*ARI-",
+      "gloss": "arido",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. arida → *ARI-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ark",
+      "form": "*ARK-",
+      "gloss": "guardar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. de novo; latín arca → *ARK-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-arc-2",
+      "form": "*ARĈ-",
+      "gloss": "arquear",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. arĉo → *ARĈ-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-arg-2",
+      "form": "*ARĜ-",
+      "gloss": "plata",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. arĝento → *ARĜ-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-arz",
+      "form": "*ARẐ-",
+      "gloss": "articular, embonar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. artiko → artko → *ARẐ-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-as-tr",
+      "form": "*AS-TR",
+      "gloss": "estrella",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "helenico",
+          "label": "Helenico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. astro → *AS-TR",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-asp-r",
+      "form": "*ASP-R",
+      "gloss": "aspero",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. aspra → *ASP-R",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-athetal",
+      "form": "*AΘL-",
+      "gloss": "competir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "helenico",
+          "label": "Helenico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. atleto → *AΘL-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-av",
+      "form": "*AV-",
+      "gloss": "abuelo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. avo → *AV-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-av-2",
+      "form": "*AV-",
+      "gloss": "avellana",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. avelo → *AV-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-av-3",
+      "form": "*AV-",
+      "gloss": "tener ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. havi → *AV-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-az",
+      "form": "*AZ-",
+      "gloss": "burro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. azeno → *AZ-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-az-2",
+      "form": "*AZ-",
+      "gloss": "nitrogeno",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. azoto → *AZ-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-asv",
+      "form": "*ASV-",
+      "gloss": "agua",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "neo",
+          "label": "Neo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. akvo → *ASV-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-avg",
+      "form": "*AVG-",
+      "gloss": "Agosto",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "Etym. Eo. aŭgusto → *AVG-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}

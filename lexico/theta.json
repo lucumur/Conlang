@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "letter": "Θ",
+  "key": "theta",
+  "entries": [
+    {
+      "id": "root-thetaa",
+      "form": "*ΘA-",
+      "gloss": "aunque",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaan",
+      "form": "*ΘAN-",
+      "gloss": "morir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaerm",
+      "form": "*ΘERM-",
+      "gloss": "caliente",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaar",
+      "form": "*ΘAR-",
+      "gloss": "orden",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "indico",
+          "label": "Indico"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [
+        "origen vinculado a «dharma»."
+      ],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetae",
+      "form": "*ΘE-",
+      "gloss": "dios",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetae-2",
+      "form": "*ΘE-",
+      "gloss": "te",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "sinico",
+          "label": "Sinico"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaea",
+      "form": "*ΘEA-",
+      "gloss": "observar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "generic",
+          "label": "arcaico"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaem",
+      "form": "*ΘEM-",
+      "gloss": "problema",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaenk",
+      "form": "*ΘENK-",
+      "gloss": "considerar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetai",
+      "form": "*ΘI-",
+      "gloss": "particula pasiva",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Part."
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "kind": "other"
+    },
+    {
+      "id": "root-thetai-2",
+      "form": "*ΘI-",
+      "gloss": "tu",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaik",
+      "form": "*ΘIK-",
+      "gloss": "grueso",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaim",
+      "form": "*ΘIM-",
+      "gloss": "animo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetain",
+      "form": "*ΘIN-",
+      "gloss": "delgado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaiz",
+      "form": "*ΘIZ-",
+      "gloss": "estornudar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaor",
+      "form": "*ΘOR-",
+      "gloss": "torax",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetarand",
+      "form": "*ΘRAND-",
+      "gloss": "orilla",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaron",
+      "form": "*ΘRON-",
+      "gloss": "trono, asiento real",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-thetaun",
+      "form": "*ΘUN-",
+      "gloss": "atunidos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}

@@ -1,0 +1,690 @@
+{
+  "schema_version": 1,
+  "letter": "R",
+  "key": "r",
+  "entries": [
+    {
+      "id": "root-raj-d",
+      "form": "*RAJ-D",
+      "gloss": "montar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-raj-t",
+      "form": "*RAJ-T",
+      "gloss": "derecho",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        },
+        {
+          "class": "generic",
+          "label": "Bas"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ram",
+      "form": "*RAM-",
+      "gloss": "arrancar, halar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ramf",
+      "form": "*RAMF-",
+      "gloss": "pico curvo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ramp",
+      "form": "*RAMP-",
+      "gloss": "arrastrarse",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        },
+        {
+          "class": "generic",
+          "label": "Bas"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ran",
+      "form": "*RAN-",
+      "gloss": "rana",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        },
+        {
+          "class": "generic",
+          "label": "Bas"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rang",
+      "form": "*RANG-",
+      "gloss": "acomodar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rav-d",
+      "form": "*RAV-D",
+      "gloss": "rapido",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rag",
+      "form": "*RAĜ-",
+      "gloss": "rabia",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        },
+        {
+          "class": "generic",
+          "label": "Bas"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-raz",
+      "form": "*RAẐ-",
+      "gloss": "irradiar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-re",
+      "form": "*RE-",
+      "gloss": "Real",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rec",
+      "form": "*REC-",
+      "gloss": "regular",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rest",
+      "form": "*REST-",
+      "gloss": "quedar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rev",
+      "form": "*REV-",
+      "gloss": "soñar, imaginar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rid",
+      "form": "*RID-",
+      "gloss": "reir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rif",
+      "form": "*RIF-",
+      "gloss": "orilla-veta (2)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rip",
+      "form": "*RIP-",
+      "gloss": "orilla, costilla",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ris",
+      "form": "*RIS-",
+      "gloss": "enjuagar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-risk",
+      "form": "*RISK-",
+      "gloss": "riesgo, peligro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-riv",
+      "form": "*RIV-",
+      "gloss": "fluir ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ric",
+      "form": "*RIĈ-",
+      "gloss": "rico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-riz",
+      "form": "*RIẐ-",
+      "gloss": "raiz",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rob",
+      "form": "*ROB-",
+      "gloss": "ropa",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rom",
+      "form": "*ROM-",
+      "gloss": "Roma",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rom-2",
+      "form": "*ROM-",
+      "gloss": "romo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rond",
+      "form": "*ROND-",
+      "gloss": "redondo ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ronk",
+      "form": "*RONK-",
+      "gloss": "roncar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rong",
+      "form": "*RONG-",
+      "gloss": "roer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ros",
+      "form": "*ROS-",
+      "gloss": "roer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ru",
+      "form": "*RU-",
+      "gloss": "rojo, color",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rujn",
+      "form": "*RUJN-",
+      "gloss": "ruina",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-run",
+      "form": "*RUN-",
+      "gloss": "signos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        },
+        {
+          "class": "generic",
+          "label": "Bas"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-rur",
+      "form": "*RUR-",
+      "gloss": "rural",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ruks",
+      "form": "*RUKS-",
+      "gloss": "eructar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ruz",
+      "form": "*RUZ-",
+      "gloss": "astuto",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}

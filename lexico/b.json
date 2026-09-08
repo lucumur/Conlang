@@ -1,0 +1,1053 @@
+{
+  "schema_version": 1,
+  "letter": "B",
+  "key": "b",
+  "entries": [
+    {
+      "id": "root-ba-f",
+      "form": "*BA-F",
+      "gloss": "bah! ah!",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "generic",
+          "label": "onomato"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bab-l",
+      "form": "*BAB-L",
+      "gloss": "balbucear, parlotear, hablar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bac",
+      "form": "*BAC-",
+      "gloss": "Baco",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-baj",
+      "form": "*BAJ-",
+      "gloss": "por",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bak",
+      "form": "*BAK-",
+      "gloss": "hornear",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bal",
+      "form": "*BAL-",
+      "gloss": "bailar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bal-2",
+      "form": "*BAL-",
+      "gloss": "giba, balon",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bald",
+      "form": "*BALD-",
+      "gloss": "pronto",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bamb",
+      "form": "*BAMB-",
+      "gloss": "bambu",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-band",
+      "form": "*BAND-",
+      "gloss": "banda, grupo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        },
+        {
+          "class": "generic",
+          "label": "Bas"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bar",
+      "form": "*BAR-",
+      "gloss": "barrer, escobar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bar-b",
+      "form": "*BAR-B",
+      "gloss": "barba, borde ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        },
+        {
+          "class": "generic",
+          "label": "Bas"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bas",
+      "form": "*BAS-",
+      "gloss": "base",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bat",
+      "form": "*BAT-",
+      "gloss": "abatir, batear ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bav",
+      "form": "*BAV-",
+      "gloss": "Baviera",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bel",
+      "form": "*BEL-",
+      "gloss": "bonito, bueno",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-belg",
+      "form": "*BELG-",
+      "gloss": "Belgica",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "celta",
+          "label": "Celta"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bend",
+      "form": "*BEND-",
+      "gloss": "cinta",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ber",
+      "form": "*BER-",
+      "gloss": "mora",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-best",
+      "form": "*BEST-",
+      "gloss": "bestia",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bet",
+      "form": "*BET-",
+      "gloss": "abedul",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bet-2",
+      "form": "*BET-",
+      "gloss": "verdura larga",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bid",
+      "form": "*BID-",
+      "gloss": "cuenta",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bif",
+      "form": "*BIF-",
+      "gloss": "bufalo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [
+        "raiz mixta de «beef» y «bufalo»."
+      ],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bild",
+      "form": "*BILD-",
+      "gloss": "imagen",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bizn",
+      "form": "*BIZN-",
+      "gloss": "negocio",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bjat",
+      "form": "*BJAT-",
+      "gloss": "dicha, fortuna",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bjel",
+      "form": "*BJEL-",
+      "gloss": "blanco (connotacion rusa)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-blank",
+      "form": "*BLANK-",
+      "gloss": "vacio, blanco, borrado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-blok",
+      "form": "*BLOK-",
+      "gloss": "bloquear",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-blov",
+      "form": "*BLOV-",
+      "gloss": "soplar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-blu",
+      "form": "*BLU-",
+      "gloss": "azul",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bob",
+      "form": "*BOB-",
+      "gloss": "burbuja",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-boj",
+      "form": "*BOJ-",
+      "gloss": "ladrar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bomb",
+      "form": "*BOMB-",
+      "gloss": "explotar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bon",
+      "form": "*BON-",
+      "gloss": "bueno",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bor",
+      "form": "*BOR-",
+      "gloss": "taladrar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bov",
+      "form": "*BOV-",
+      "gloss": "buey",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bor-2",
+      "form": "*BOR-",
+      "gloss": "borraja (sal)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "arabe",
+          "label": "Arabe"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bra-nk",
+      "form": "*BRA-NK",
+      "gloss": "rama",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-brav",
+      "form": "*BRAV-",
+      "gloss": "bravo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bril",
+      "form": "*BRIL-",
+      "gloss": "brillar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-brov",
+      "form": "*BROV-",
+      "gloss": "ceja",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-broc",
+      "form": "*BROĈ-",
+      "gloss": "broche",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bru",
+      "form": "*BRU-",
+      "gloss": "hacer ruido",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bru-l",
+      "form": "*BRU-L",
+      "gloss": "quemar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-brus",
+      "form": "*BRUS-",
+      "gloss": "pecho",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bu",
+      "form": "*BU-",
+      "gloss": "esos dos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bub",
+      "form": "*BUB-",
+      "gloss": "chico travieso",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bul",
+      "form": "*BUL-",
+      "gloss": "bola, punto",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bulg",
+      "form": "*BULG-",
+      "gloss": "bulgaro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-burg",
+      "form": "*BURG-",
+      "gloss": "Castillo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-burg-2",
+      "form": "*BURG-",
+      "gloss": "brote",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-butk",
+      "form": "*BUTK-",
+      "gloss": "tienda",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bus",
+      "form": "*BUS-",
+      "gloss": "boca",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-bzon",
+      "form": "*BZON-",
+      "gloss": "necesitar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}

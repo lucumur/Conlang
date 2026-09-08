@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "letter": "Ĉ",
+  "key": "circ-c",
+  "entries": [
+    {
+      "id": "root-ca",
+      "form": "*ĈA-",
+      "gloss": "(interrogativo)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cagr",
+      "form": "*ĈAGR-",
+      "gloss": "ira, rabia",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-calp",
+      "form": "*ĈALP-",
+      "gloss": "escalpa",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cam-br",
+      "form": "*ĈAM-BR",
+      "gloss": "camara",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cam-n",
+      "form": "*ĈAM-N",
+      "gloss": "chimenea",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-camp",
+      "form": "*ĈAMP-",
+      "gloss": "cabeza",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-can",
+      "form": "*ĈAN-",
+      "gloss": "surco",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cap",
+      "form": "*ĈAP-",
+      "gloss": "carro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-carm",
+      "form": "*ĈARM-",
+      "gloss": "encantar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-carp",
+      "form": "*ĈARP-",
+      "gloss": "madera",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ce",
+      "form": "*ĈE-",
+      "gloss": "aqui, en",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cef",
+      "form": "*ĈEF-",
+      "gloss": "cabeza ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cel-2",
+      "form": "*ĈEL-",
+      "gloss": "celda ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cerp",
+      "form": "*ĈERP-",
+      "gloss": "sacar, extraer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "slavo",
+          "label": "Slavo"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cerv",
+      "form": "*ĈERV-",
+      "gloss": "ciervo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cerz",
+      "form": "*ĈERZ-",
+      "gloss": "cereza",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ces",
+      "form": "*ĈES-",
+      "gloss": "cesar, parar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cev",
+      "form": "*ĈEV-",
+      "gloss": "recibir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cirp",
+      "form": "*ĈIRP-",
+      "gloss": "chirpiar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cit",
+      "form": "*ĈIT-",
+      "gloss": "callarse",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ciz",
+      "form": "*ĈIZ-",
+      "gloss": "Cortar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-comp",
+      "form": "*ĈOMP-",
+      "gloss": "arrancar bocado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "generic",
+          "label": "Sono"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-crig-strig",
+      "form": "*ĈRIG- (<STRIG)",
+      "gloss": "buho",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cri",
+      "form": "*ĈRI-",
+      "gloss": "linea",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-criv",
+      "form": "*ĈRIV-",
+      "gloss": "escribir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-crump",
+      "form": "*ĈRUMP-",
+      "gloss": "calcetines",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cu",
+      "form": "*ĈU-",
+      "gloss": "Interrogativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-cuf-2",
+      "form": "*ĈUF-",
+      "gloss": "sonido de tren",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}

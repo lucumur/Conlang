@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "letter": "Z",
+  "key": "z",
+  "entries": [
+    {
+      "id": "root-zed-r",
+      "form": "*ZED-R",
+      "gloss": "cedro, enebro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zen",
+      "form": "*ZEN-",
+      "gloss": "asno",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zet",
+      "form": "*ZET-",
+      "gloss": "tiempo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zib-r",
+      "form": "*ZIB-R",
+      "gloss": "cibernetico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zir",
+      "form": "*ZIR-",
+      "gloss": "desear",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zon",
+      "form": "*ZON-",
+      "gloss": "zona, cinturon",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zorg",
+      "form": "*ZORG-",
+      "gloss": "inquietud",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zu",
+      "form": "*ZU-",
+      "gloss": "Zeus, Jupiter",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zuk",
+      "form": "*ZUK-",
+      "gloss": "jugo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zum",
+      "form": "*ZUM-",
+      "gloss": "zumbar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zur",
+      "form": "*ZUR-",
+      "gloss": "azul",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zuzu",
+      "form": "*ZUZU-",
+      "gloss": "tararear",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zverg",
+      "form": "*ZVERG-",
+      "gloss": "enano",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-zvi",
+      "form": "*ZVI-",
+      "gloss": "dos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}

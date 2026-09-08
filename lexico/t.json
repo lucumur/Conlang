@@ -1,0 +1,1196 @@
+{
+  "schema_version": 1,
+  "letter": "T",
+  "key": "t",
+  "entries": [
+    {
+      "id": "root-t",
+      "form": "*T-",
+      "gloss": "eso",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "pronombre"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "kind": "other"
+    },
+    {
+      "id": "root-tab",
+      "form": "*TAB-",
+      "gloss": "madera",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tajl",
+      "form": "*TAJL-",
+      "gloss": "tallar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tak",
+      "form": "*TAK-",
+      "gloss": "hacer masa",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-taks",
+      "form": "*TAKS-",
+      "gloss": "taxar, calificar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tard",
+      "form": "*TARD-",
+      "gloss": "tarde",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tartar",
+      "form": "*TARTAR-",
+      "gloss": "tartaro, inframundo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tav-r",
+      "form": "*TAV-R",
+      "gloss": "toro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ten-br",
+      "form": "*TEN-BR-",
+      "gloss": "tinieblas, oscuridad",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-te",
+      "form": "*TE-",
+      "gloss": "deictico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "generic",
+          "label": "Part."
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tenc",
+      "form": "*TENC-",
+      "gloss": "tecnica",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ted",
+      "form": "*TED-",
+      "gloss": "tedio",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-teg",
+      "form": "*TEG-",
+      "gloss": "cubrir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ten",
+      "form": "*TEN-",
+      "gloss": "tener ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tend",
+      "form": "*TEND-",
+      "gloss": "extender",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ter",
+      "form": "*TER-",
+      "gloss": "tierra",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-test",
+      "form": "*TEST-",
+      "gloss": "testigo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tevd",
+      "form": "*TEVD-",
+      "gloss": "teuton",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tes",
+      "form": "*TES-",
+      "gloss": "tejer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tibr",
+      "form": "*TIBR-",
+      "gloss": "Tiber",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tif",
+      "form": "*TIF-",
+      "gloss": "tifon",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tig",
+      "form": "*TIG-",
+      "gloss": "tibia",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tig-2",
+      "form": "*TIG-",
+      "gloss": "Tigre",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-til",
+      "form": "*TIL-",
+      "gloss": "tilo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tim",
+      "form": "*TIM-",
+      "gloss": "temor",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tin",
+      "form": "*TIN-",
+      "gloss": "timbrar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tin-t",
+      "form": "*TIN-T",
+      "gloss": "tinte",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ting",
+      "form": "*TING-",
+      "gloss": "completar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tir",
+      "form": "*TIR-",
+      "gloss": "estirar, tirar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tit",
+      "form": "*TIT-",
+      "gloss": "Titan",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tr",
+      "form": "*TR-",
+      "gloss": "tres",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tra",
+      "form": "*TRA-",
+      "gloss": "atraves",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-trab",
+      "form": "*TRAB-",
+      "gloss": "barra",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-trab-2",
+      "form": "*TRAB-",
+      "gloss": "cuidar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-traj",
+      "form": "*TRAJ-",
+      "gloss": "rasgo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tramp",
+      "form": "*TRAMP-",
+      "gloss": "vagar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tran",
+      "form": "*TRAN-",
+      "gloss": "rebanar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-trang",
+      "form": "*TRANG-",
+      "gloss": "estrangular",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-trat",
+      "form": "*TRAT-",
+      "gloss": "calle",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-trejn",
+      "form": "*TREJN-",
+      "gloss": "entrenar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tremp",
+      "form": "*TREMP-",
+      "gloss": "remojar, dipear",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tret",
+      "form": "*TRET-",
+      "gloss": "pisar, aplastar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-trez",
+      "form": "*TREZ-",
+      "gloss": "tesoro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-trec",
+      "form": "*TREC-",
+      "gloss": "estrecharse, reducirse",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tri",
+      "form": "*TRI-",
+      "gloss": "intentar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-trist",
+      "form": "*TRIST-",
+      "gloss": "triste",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-trof",
+      "form": "*TROF-",
+      "gloss": "nutrir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tromp",
+      "form": "*TROMP-",
+      "gloss": "engañar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-trov",
+      "form": "*TROV-",
+      "gloss": "encontrar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tru",
+      "form": "*TRU-",
+      "gloss": "agujerar, atraves",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-trud",
+      "form": "*TRUD-",
+      "gloss": "imponer, forzar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tog",
+      "form": "*TOG-",
+      "gloss": "apropiado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-toks",
+      "form": "*TOKS-",
+      "gloss": "veneno",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tolr",
+      "form": "*TOLR-",
+      "gloss": "soportar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ton",
+      "form": "*TON-",
+      "gloss": "broncear",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tondr",
+      "form": "*TONDR-",
+      "gloss": "trueno",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tor",
+      "form": "*TOR-",
+      "gloss": "torcer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tuf",
+      "form": "*TUF-",
+      "gloss": "copete",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tuj",
+      "form": "*TUJ-",
+      "gloss": "inmediato",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tuk",
+      "form": "*TUK-",
+      "gloss": "ropa",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tung",
+      "form": "*TUNG-",
+      "gloss": "tocar, frotar, pasar las manos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-turk",
+      "form": "*TURK-",
+      "gloss": "turco",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tus",
+      "form": "*TUS-",
+      "gloss": "tos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tusk",
+      "form": "*TUSK-",
+      "gloss": "colmillo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tus-2",
+      "form": "*TUŜ-",
+      "gloss": "tocar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "letter": "J",
+  "key": "j",
+  "entries": [
+    {
+      "id": "root-jan",
+      "form": "*JAN-",
+      "gloss": "Janus (Dios Romano)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jar",
+      "form": "*JAR-",
+      "gloss": "año",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jaraf",
+      "form": "*JARAF-",
+      "gloss": "jirafa",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "arabe",
+          "label": "Arabe"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jat-r",
+      "form": "*JAT-R",
+      "gloss": "sanar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-je",
+      "form": "*JE-",
+      "gloss": "ser",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jet",
+      "form": "*JET-",
+      "gloss": "lanzar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-javar",
+      "form": "*JAVAR-",
+      "gloss": "jaguar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jon",
+      "form": "*JON-",
+      "gloss": "ion",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jon-2",
+      "form": "*JON-",
+      "gloss": "lejos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jo",
+      "form": "*JO-",
+      "gloss": "ohh!",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Part."
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "kind": "other"
+    },
+    {
+      "id": "root-ju",
+      "form": "*JU-",
+      "gloss": "ustedes",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ju-2",
+      "form": "*JU-",
+      "gloss": "joya",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jun",
+      "form": "*JUN-",
+      "gloss": "uno, unir ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jun-2",
+      "form": "*JUN-",
+      "gloss": "joven",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jur",
+      "form": "*JUR-",
+      "gloss": "Dia",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jur-2",
+      "form": "*JUR-",
+      "gloss": "jurar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-jus",
+      "form": "*JUS-",
+      "gloss": "justo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}

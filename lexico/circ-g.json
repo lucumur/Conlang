@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "letter": "Ĝ",
+  "key": "circ-g",
+  "entries": [
+    {
+      "id": "root-gard-2",
+      "form": "*ĜARD-",
+      "gloss": "cerca",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-gabl",
+      "form": "*ĜABL-",
+      "gloss": "diablo, demonio",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-gejn",
+      "form": "*ĜEJN-",
+      "gloss": "molestar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-gel",
+      "form": "*ĜEL-",
+      "gloss": "gel",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-gen",
+      "form": "*ĜEN-",
+      "gloss": "procrear ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ger",
+      "form": "*ĜER-",
+      "gloss": "comportarse",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ger-2",
+      "form": "*ĜER-",
+      "gloss": "hierro ⭐",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-gest",
+      "form": "*ĜEST-",
+      "gloss": "digerir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-gi",
+      "form": "*ĜI-",
+      "gloss": "ese (anim.)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-gib",
+      "form": "*ĜIB-",
+      "gloss": "joroba",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-gink",
+      "form": "*ĜINK-",
+      "gloss": "mujer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ging",
+      "form": "*ĜINĜ-",
+      "gloss": "jenjibre",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-gis-2",
+      "form": "*ĜIS-",
+      "gloss": "hasta",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "generic",
+          "label": "Part."
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-goj",
+      "form": "*ĜOJ-",
+      "gloss": "gusto",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}

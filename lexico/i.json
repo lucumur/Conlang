@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "letter": "I",
+  "key": "i",
+  "entries": [
+    {
+      "id": "root-i",
+      "form": "*I-",
+      "gloss": "uno, esto",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-id",
+      "form": "*ID-",
+      "gloss": "igualar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ikn",
+      "form": "*IKN-",
+      "gloss": "arder",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-im",
+      "form": "*IM-",
+      "gloss": "imaginar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ind",
+      "form": "*IND-",
+      "gloss": "indio",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "generic",
+          "label": "Mundial"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ink",
+      "form": "*INK-",
+      "gloss": "tinta",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ir",
+      "form": "*IR-",
+      "gloss": "ir, andar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-is",
+      "form": "*IS-",
+      "gloss": "isla",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ism",
+      "form": "*ISM-",
+      "gloss": "arabes",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [
+        "de la casa de Ismael"
+      ],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ital",
+      "form": "*ITAL-",
+      "gloss": "Italia",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ivan",
+      "form": "*IVAN-",
+      "gloss": "iguana",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ivr",
+      "form": "*IVR-",
+      "gloss": "Irlanda",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ig",
+      "form": "*IĜ-",
+      "gloss": "hacerse",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}

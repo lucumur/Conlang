@@ -1,0 +1,1937 @@
+{
+  "schema_version": 1,
+  "morphemes": [
+    {
+      "id": "morph-ad",
+      "form": "*-AD-",
+      "gloss": "arriba, mayor, grupal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-aj",
+      "form": "*-AJ",
+      "gloss": "plural de -A",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ak",
+      "form": "*-AK",
+      "gloss": "adverbial de lugar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-a",
+      "form": "*A-",
+      "gloss": "causativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ag",
+      "form": "*AG-",
+      "gloss": "aumentativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-am",
+      "form": "*-AM",
+      "gloss": "adverbial de tiempo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-amo",
+      "form": "*-AMO",
+      "gloss": "agrupacion",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-an",
+      "form": "*-AN",
+      "gloss": "durativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-an-2",
+      "form": "*-AN",
+      "gloss": "humano agentivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-and",
+      "form": "*-AND-",
+      "gloss": "gerundivo activo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-as",
+      "form": "*-AS",
+      "gloss": "agentivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-al",
+      "form": "*AL-",
+      "gloss": "otros, demas",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-al-2",
+      "form": "*AL-",
+      "gloss": "particula alativa",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-an-2-2",
+      "form": "*-AN-",
+      "gloss": "tambien",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ar",
+      "form": "*-AR-",
+      "gloss": "supra, regio,",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ast",
+      "form": "*-AST",
+      "gloss": "intensificativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-at",
+      "form": "*-AT-",
+      "gloss": "perfectivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ac",
+      "form": "*-AĈ-",
+      "gloss": "intensificativo verbal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ava",
+      "form": "*-AVA",
+      "gloss": "parte de tiempo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ajs",
+      "form": "*-AJS",
+      "gloss": "pretérito moderno agentivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-a-2",
+      "form": "*-A",
+      "gloss": "género de dinamismos abstractos y acciones nominalizadas",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ar-2",
+      "form": "*-AR",
+      "gloss": "participio agentivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-al-3",
+      "form": "*-AL",
+      "gloss": "género locativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-af",
+      "form": "*-AF",
+      "gloss": "adverbial",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ani",
+      "form": "*-ANI",
+      "gloss": "plural de -AN",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-bla",
+      "form": "*-BLA",
+      "gloss": "palabra, habla",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-bo",
+      "form": "*-BO-",
+      "gloss": "circular, esferico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-bo-2",
+      "form": "*-BO-",
+      "gloss": "bueno",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-bro",
+      "form": "*-BRO",
+      "gloss": "fruta, esfera",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-co",
+      "form": "*-CO",
+      "gloss": "nave, vehiculo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ca",
+      "form": "*ĈA-",
+      "gloss": "distributivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-co-2",
+      "form": "*-ĈO",
+      "gloss": "diminutivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-de",
+      "form": "*DE-",
+      "gloss": "ablativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "D",
+      "section": "sec-d",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-en",
+      "form": "*-EN",
+      "gloss": "animado no humano",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-e",
+      "form": "*-E",
+      "gloss": "incontables",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ed",
+      "form": "*-ED-",
+      "gloss": "edificio",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-e-2",
+      "form": "*E-",
+      "gloss": "pretérito arcaico; plenamente funcional con -IS y -ES",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema temporal"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-el",
+      "form": "*-EL",
+      "gloss": "adjetivo directo del nomen",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-eno",
+      "form": "*-ENO",
+      "gloss": "objeto plano",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-er",
+      "form": "*-ER",
+      "gloss": "adjetivo primario no derivado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-eza",
+      "form": "*-EẐA",
+      "gloss": "cualidad abstracta",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-es",
+      "form": "*-ES",
+      "gloss": "estativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-evas",
+      "form": "*-EVAS",
+      "gloss": "pretérito imperfecto agentivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-evos",
+      "form": "*-EVOS",
+      "gloss": "pretérito imperfecto absolutivo dinámico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-eves",
+      "form": "*-EVES",
+      "gloss": "pretérito imperfecto estativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-evis",
+      "form": "*-EVIS",
+      "gloss": "pretérito imperfecto absolutivo pasivo o impersonal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-esas",
+      "form": "*-ESAS",
+      "gloss": "futuro agentivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-esos",
+      "form": "*-ESOS",
+      "gloss": "futuro absolutivo dinámico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-esis",
+      "form": "*-ESIS",
+      "gloss": "futuro absolutivo pasivo o impersonal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-for",
+      "form": "*-FOR-",
+      "gloss": "fuera, lejos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "F",
+      "section": "sec-f",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ge",
+      "form": "*-GE-",
+      "gloss": "dual",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-go-objeto",
+      "form": "*-GO (objeto)",
+      "gloss": "",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-gar",
+      "form": "*GAR-",
+      "gloss": "cuatro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-go",
+      "form": "*-ĜO",
+      "gloss": "objeto que hace",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ik",
+      "form": "*-IK-",
+      "gloss": "diminutivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-it",
+      "form": "*-IT-",
+      "gloss": "[función por definir; atestiguado en ablitas y agitas]",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-id",
+      "form": "*-ID-",
+      "gloss": "descendiente",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-in",
+      "form": "*-IN",
+      "gloss": "participio animante",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-isma",
+      "form": "*-ISMA",
+      "gloss": "sistema",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ist",
+      "form": "*-IST",
+      "gloss": "dedicacion",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-is",
+      "form": "*-IŜ-",
+      "gloss": "parecido, un poco",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-is-2",
+      "form": "*-IS",
+      "gloss": "absolutivo pasivo o absolutivo impersonal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ita",
+      "form": "*-ITA",
+      "gloss": "inflamacion, infeccion",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-i",
+      "form": "*-I",
+      "gloss": "plural de -O",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ja",
+      "form": "*-JA-",
+      "gloss": "otra vez, de nuevo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-jo",
+      "form": "*-JO",
+      "gloss": "mujer (alternativo)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ko",
+      "form": "*-KO",
+      "gloss": "objeto",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "K",
+      "section": "sec-k",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-lo",
+      "form": "*-LO",
+      "gloss": "objeto, partitivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ma",
+      "form": "*-MA",
+      "gloss": "sistema, condicion",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-mo",
+      "form": "*-MO",
+      "gloss": "planitivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-mu",
+      "form": "*-MU",
+      "gloss": "gerundivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-mu-2",
+      "form": "*-MU-",
+      "gloss": "mutuo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ne",
+      "form": "*NE-",
+      "gloss": "negacion",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ol",
+      "form": "*-OL-",
+      "gloss": "caracterizativo/similativo; forma temas de semejanza, papel o representación",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-o",
+      "form": "*-O-",
+      "gloss": "bueno",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-o-2",
+      "form": "*O-",
+      "gloss": "esto",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ol-2",
+      "form": "*-OL",
+      "gloss": "adjetivo de abundancia o parecido",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-on",
+      "form": "*-ON",
+      "gloss": "humano no agentivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ol-2-2",
+      "form": "*OL-",
+      "gloss": "opuesto, similar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-on-2",
+      "form": "*ON-",
+      "gloss": "solo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-or",
+      "form": "*-OR",
+      "gloss": "participio absolutivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-os",
+      "form": "*-OS",
+      "gloss": "absolutivo dinámico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-or-2",
+      "form": "*OR-",
+      "gloss": "primitivo, primero",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ojs",
+      "form": "*-OJS",
+      "gloss": "pretérito moderno absolutivo dinámico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ovas",
+      "form": "*-OVAS",
+      "gloss": "abilitativo agentivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ovos",
+      "form": "*-OVOS",
+      "gloss": "abilitativo absolutivo dinámico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ovis",
+      "form": "*-OVIS",
+      "gloss": "abilitativo absolutivo pasivo o impersonal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-o-3",
+      "form": "*-O",
+      "gloss": "género inanimado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-oni",
+      "form": "*-ONI",
+      "gloss": "plural de -ON",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-par",
+      "form": "*-PAR-",
+      "gloss": "junto a",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-pen",
+      "form": "*-PEN-",
+      "gloss": "casi",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-po",
+      "form": "*PO-",
+      "gloss": "despues",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-pri",
+      "form": "*PRI-",
+      "gloss": "alrededor, cerca de",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-pro",
+      "form": "*PRO-",
+      "gloss": "a causa de, por",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ro",
+      "form": "*-RO",
+      "gloss": "masculino",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ro-2",
+      "form": "*-RO-",
+      "gloss": "rodear, alrededor",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-so",
+      "form": "*-ŜO",
+      "gloss": "cuadrado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-tek",
+      "form": "*TEK-",
+      "gloss": "edificio",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-tos",
+      "form": "*-TOS",
+      "gloss": "intransitivo perfectivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-u",
+      "form": "*-U",
+      "gloss": "sufijo masculino",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-uc",
+      "form": "*-UC-",
+      "gloss": "peyorativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-um",
+      "form": "*-UM-",
+      "gloss": "tendente",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ul",
+      "form": "*-UL-",
+      "gloss": "final, perfectivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-un",
+      "form": "*UN-",
+      "gloss": "factibilidad",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ura",
+      "form": "*-URA",
+      "gloss": "cualidad abstracta",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-utas",
+      "form": "*-UTAS",
+      "gloss": "utilizar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-up",
+      "form": "*UP-",
+      "gloss": "abajo, menor",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ur",
+      "form": "*UR-",
+      "gloss": "primitivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ur-2",
+      "form": "*UR-",
+      "gloss": "antiguo, primario",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-usas",
+      "form": "*-USAS",
+      "gloss": "solitivo agentivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-usos",
+      "form": "*-USOS",
+      "gloss": "solitivo absolutivo dinámico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-usis",
+      "form": "*-USIS",
+      "gloss": "solitivo absolutivo pasivo o impersonal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-uras",
+      "form": "*-URAS",
+      "gloss": "condicional o irrealis agentivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-uros",
+      "form": "*-UROS",
+      "gloss": "condicional o irrealis absolutivo dinámico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-uris",
+      "form": "*-URIS",
+      "gloss": "condicional o irrealis absolutivo pasivo o impersonal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ur-3",
+      "form": "*-UR",
+      "gloss": "adjetivo superlativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-uk",
+      "form": "*-UK",
+      "gloss": "adverbial",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-vor",
+      "form": "*VOR-",
+      "gloss": "de vuelta",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-zha",
+      "form": "*-ẐA",
+      "gloss": "nominalizador abstracto; cualidad, capacidad o estado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "Ẑ",
+      "section": "sec-circ-z",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    }
+  ]
+}

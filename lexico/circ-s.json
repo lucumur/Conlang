@@ -1,0 +1,663 @@
+{
+  "schema_version": 1,
+  "letter": "Ŝ",
+  "key": "circ-s",
+  "entries": [
+    {
+      "id": "root-sad",
+      "form": "*ŜAD-",
+      "gloss": "persuadir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-saj",
+      "form": "*ŜAJ-",
+      "gloss": "oveja",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sajn",
+      "form": "*ŜAJN-",
+      "gloss": "parecer",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sam",
+      "form": "*ŜAM-",
+      "gloss": "espuma",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-san-2",
+      "form": "*ŜAN-",
+      "gloss": "cambiar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sap-2",
+      "form": "*ŜAP-",
+      "gloss": "jabon",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sat-3",
+      "form": "*ŜAT-",
+      "gloss": "encantar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sav-2",
+      "form": "*ŜAV-",
+      "gloss": "eslavico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sel",
+      "form": "*ŜEL-",
+      "gloss": "piel",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sen-2",
+      "form": "*ŜEN-",
+      "gloss": "escena",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ser-l",
+      "form": "*ŜER-L",
+      "gloss": "pelear",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sevd",
+      "form": "*ŜEVD-",
+      "gloss": "falso",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-si",
+      "form": "*ŜI-",
+      "gloss": "ella",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-si-2",
+      "form": "*ŜI-",
+      "gloss": "saber",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sil-2",
+      "form": "*ŜIL-",
+      "gloss": "madera",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sim-2",
+      "form": "*ŜIM-",
+      "gloss": "fango",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sip",
+      "form": "*ŜIP-",
+      "gloss": "tripulacion",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-spik",
+      "form": "*ŜPIK-",
+      "gloss": "espiga",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-srim",
+      "form": "*ŜRIM-",
+      "gloss": "proteger",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-skap",
+      "form": "*ŜKAP-",
+      "gloss": "escapar, evitar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sor-2",
+      "form": "*ŜOR-",
+      "gloss": "escorpion, escarabajo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "slavo",
+          "label": "Slavo"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-slov",
+      "form": "*ŜLOV-",
+      "gloss": "eslavos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "slavo",
+          "label": "Slavo"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sof",
+      "form": "*ŜOF-",
+      "gloss": "alcachofa",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-soc",
+      "form": "*ŜOĈ-",
+      "gloss": "chocar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sos-2",
+      "form": "*ŜOŜ-",
+      "gloss": "cerrar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-span",
+      "form": "*ŜPAN-",
+      "gloss": "España",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-spik-2",
+      "form": "*ŜPIK-",
+      "gloss": "espiga",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-spir",
+      "form": "*ŜPIR-",
+      "gloss": "espirar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-spok",
+      "form": "*ŜPOK-",
+      "gloss": "rayo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-suv",
+      "form": "*ŜUV-",
+      "gloss": "zapato",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-suf",
+      "form": "*ŜUF-",
+      "gloss": "sofocar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sult",
+      "form": "*ŜULT-",
+      "gloss": "hombro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-su",
+      "form": "*ŜU-",
+      "gloss": "echar, arrojar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sus",
+      "form": "*ŜUŜ-",
+      "gloss": "flujo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-su-2",
+      "form": "*ŜU-",
+      "gloss": "particula optativa",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Part."
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "kind": "other"
+    },
+    {
+      "id": "root-svit",
+      "form": "*ŜVIT-",
+      "gloss": "sudar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ŝ",
+      "section": "sec-circ-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
+}
