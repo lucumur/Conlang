@@ -1,0 +1,88 @@
+name: Materialize suffix repertoires
+
+on:
+  push:
+    paths:
+      - '.github/workflows/materialize-suffix-repertoires.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Materialize reciprocal repertoires
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re, unicodedata
+
+          p=Path('lexico.html')
+          s=p.read_text(encoding='utf-8')
+
+          def slug(word):
+              x=unicodedata.normalize('NFKD', word.lower())
+              x=''.join(c for c in x if not unicodedata.combining(c))
+              x=re.sub(r'[^a-z0-9]+','-',x).strip('-')
+              return 'lexeme-'+x
+
+          # Remove the previously generated runtime repertoire script, if present.
+          s=re.sub(r'\n?<script>\s*\(function\(\)\{\s*function makeId\(word\).*?suffix-repertoire-generated.*?</script>\s*', '\n', s, flags=re.S)
+
+          # Remove any previously materialized repertoire blocks so reruns are idempotent.
+          s=re.sub(r'<details class="suffix-repertoire suffix-repertoire-static">.*?</details>', '', s, flags=re.S)
+
+          # Give each derived lexeme a stable source-level anchor.
+          article_re=re.compile(r'<article class="derived-entry"(?: id="[^"]+")?>(.*?)</article>', re.S)
+          def add_article_id(m):
+              body=m.group(1)
+              wm=re.search(r'<div class="derived-word"><code>(.*?)</code></div>', body, re.S)
+              if not wm:
+                  return m.group(0)
+              word=re.sub(r'<.*?>','',wm.group(1)).strip()
+              return f'<article class="derived-entry" id="{slug(word)}">{body}</article>'
+          s=article_re.sub(add_article_id,s)
+
+          # Build suffix -> words from the actual linked analyses.
+          reps={}
+          for m in article_re.finditer(s):
+              body=m.group(1)
+              wm=re.search(r'<div class="derived-word"><code>(.*?)</code></div>', body, re.S)
+              if not wm:
+                  continue
+              word=re.sub(r'<.*?>','',wm.group(1)).strip()
+              aidm=re.search(r'^<article class="derived-entry" id="([^"]+)">', m.group(0))
+              aid=aidm.group(1) if aidm else slug(word)
+              for target in re.findall(r'<a class="morph-link" href="#([^"]+)">', body):
+                  reps.setdefault(target,{})[word]=aid
+
+          # Materialize a visible repertoire inside each suffix gloss cell.
+          for target, words in reps.items():
+              items=sorted(words.items(), key=lambda kv: kv[0].lower())
+              chips=''.join(f'<a class="word-link" href="#{aid}">{word}</a>' for word,aid in items)
+              block=(f'<details class="suffix-repertoire suffix-repertoire-static">'
+                     f'<summary>Repertorio ({len(items)})</summary>'
+                     f'<div class="suffix-word-list">{chips}</div></details>')
+              pat=re.compile(r'(<tr><td class="form"><code id="'+re.escape(target)+r'">.*?</code></td><td class="gloss">)(.*?)(</td><td class="tags">)', re.S)
+              s,n=pat.subn(lambda m: m.group(1)+m.group(2)+block+m.group(3), s, count=1)
+              if n!=1:
+                  print('WARN no suffix target',target)
+
+          # Clicks from suffix repertoire open the parent root's details and scroll to the word.
+          if 'static suffix word links' not in s:
+              js='''\n<script>\n/* static suffix word links */\n(function(){\n  document.addEventListener("click",function(ev){\n    const a=ev.target.closest("a.word-link");\n    if(!a)return;\n    const id=(a.getAttribute("href")||"").replace(/^#/,"");\n    const target=document.getElementById(id);\n    if(!target)return;\n    ev.preventDefault();\n    const input=document.getElementById("lex-search");\n    if(input&&input.value){input.value="";input.dispatchEvent(new Event("input",{bubbles:true}));}\n    let node=target.parentElement;\n    while(node){if(node.tagName==="DETAILS")node.open=true;node=node.parentElement;}\n    requestAnimationFrame(()=>{target.scrollIntoView({behavior:"smooth",block:"center"});history.replaceState(null,"","#"+id);});\n  });\n})();\n</script>\n'''
+              pos=s.rfind('</body>')
+              s=s[:pos]+js+s[pos:]
+
+          p.write_text(s,encoding='utf-8')
+          PY
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico.html
+          git commit -m "Materializar repertorios visibles de sufijos"
+          git push
