@@ -18,6 +18,13 @@
 
 /* derived lexemes */
 .derived-panel{margin-top:8px;border-top:1px dashed var(--line);padding-top:7px}.derived-panel summary{cursor:pointer;font-weight:800;color:var(--accent);font-size:.86rem;user-select:none}.derived-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:10px}.derived-entry{border:1px solid var(--line);border-radius:12px;background:var(--paper);padding:10px 12px}.derived-word{display:flex;align-items:center;justify-content:space-between;gap:8px}.derived-word code{font-size:1rem;font-weight:800}.derived-gloss{margin-top:4px}.derived-analysis{margin-top:7px;color:var(--muted);font-size:.8rem}.derived-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.morph-link{display:inline-block;padding:1px 6px;border-radius:999px;border:1px solid var(--line);text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.78rem;background:#fff}.morph-link:hover{border-color:var(--accent)}
+
+/* reciprocal suffix repertoires */
+.suffix-repertoire{margin-top:7px;padding-top:6px;border-top:1px dashed var(--line)}
+.suffix-repertoire summary{cursor:pointer;color:var(--accent);font-size:.82rem;font-weight:800;user-select:none}
+.suffix-word-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+.word-link{display:inline-block;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:#fff;text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.8rem}
+.word-link:hover{border-color:var(--accent)}
 </style>
 </head>
 <body>
@@ -384,6 +391,92 @@
     if(input&&input.value){input.value="";input.dispatchEvent(new Event("input",{bubbles:true}));}
     requestAnimationFrame(()=>target.scrollIntoView({behavior:"smooth",block:"center"}));
     history.replaceState(null,"","#"+id);
+  });
+})();
+</script>
+
+<script>
+(function(){
+  function makeId(word){
+    return "lexeme-" + word.toLocaleLowerCase("es")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g,"")
+      .replace(/[^a-z0-9]+/g,"-")
+      .replace(/^-+|-+$/g,"");
+  }
+
+  const repertoire = new Map();
+
+  document.querySelectorAll(".derived-entry").forEach(entry=>{
+    const wordEl = entry.querySelector(".derived-word code");
+    if(!wordEl)return;
+    const word = wordEl.textContent.trim();
+    if(!word)return;
+    if(!entry.id) entry.id = makeId(word);
+
+    entry.querySelectorAll("a.morph-link[href^='#']").forEach(link=>{
+      const targetId = link.getAttribute("href").slice(1);
+      if(!targetId)return;
+      if(!repertoire.has(targetId)) repertoire.set(targetId,new Map());
+      repertoire.get(targetId).set(word,{word,id:entry.id});
+    });
+  });
+
+  repertoire.forEach((words,targetId)=>{
+    const target = document.getElementById(targetId);
+    if(!target)return;
+    const row = target.closest("tr");
+    const gloss = row && row.querySelector("td.gloss");
+    if(!gloss)return;
+
+    const old = gloss.querySelector(".suffix-repertoire-generated");
+    if(old) old.remove();
+
+    const items = [...words.values()].sort((a,b)=>a.word.localeCompare(b.word,"es"));
+    const details = document.createElement("details");
+    details.className = "suffix-repertoire suffix-repertoire-generated";
+
+    const summary = document.createElement("summary");
+    summary.textContent = "Repertorio (" + items.length + ")";
+    details.appendChild(summary);
+
+    const list = document.createElement("div");
+    list.className = "suffix-word-list";
+    items.forEach(item=>{
+      const a = document.createElement("a");
+      a.className = "word-link";
+      a.href = "#" + item.id;
+      a.textContent = item.word;
+      list.appendChild(a);
+    });
+    details.appendChild(list);
+    gloss.appendChild(details);
+  });
+
+  document.addEventListener("click",function(ev){
+    const a = ev.target.closest("a.word-link");
+    if(!a)return;
+    const id = (a.getAttribute("href")||"").replace(/^#/,"");
+    const target = document.getElementById(id);
+    if(!target)return;
+    ev.preventDefault();
+
+    const input = document.getElementById("lex-search");
+    if(input && input.value){
+      input.value = "";
+      input.dispatchEvent(new Event("input",{bubbles:true}));
+    }
+
+    let node = target.parentElement;
+    while(node){
+      if(node.tagName === "DETAILS") node.open = true;
+      node = node.parentElement;
+    }
+
+    requestAnimationFrame(()=>{
+      target.scrollIntoView({behavior:"smooth",block:"center"});
+      history.replaceState(null,"","#"+id);
+    });
   });
 })();
 </script>
