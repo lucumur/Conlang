@@ -10,6 +10,11 @@
 <style>
 /* lex-search */
 .lex-search-box{margin:0 0 18px}.lex-search-box label{display:block;margin:0 0 7px;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.lex-search-row{display:flex;align-items:center;gap:12px}.lex-search-row input{width:min(680px,100%);padding:12px 15px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit;outline:none}.lex-search-row input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(67,56,202,.12)}#lex-search-count{color:var(--muted);font-size:.86rem;white-space:nowrap}.lex-search-help{margin-top:7px;color:var(--muted);font-size:.82rem}.lex-section[hidden]{display:none}.lex-table tr[hidden]{display:none}@media(max-width:600px){.lex-search-row{align-items:flex-start;flex-direction:column}#lex-search-count{padding-left:2px}}
+
+/* lex-view-toggle */
+.lex-view-toggle{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin:0 0 14px}.lex-view-toggle .view-label{margin-right:4px;color:var(--muted);font-size:.82rem;font-weight:700}.lex-view-toggle button{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:8px 11px;border-radius:10px;font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}.lex-view-toggle button[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10)}
+.lex-card-view .lex-table thead{display:none}.lex-card-view .lex-table{display:block;width:100%;border:0;background:transparent}.lex-card-view .lex-table tbody{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;width:100%}.lex-card-view .lex-table tbody tr{display:block;border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:12px 14px}.lex-card-view .lex-table tbody tr[hidden]{display:none}.lex-card-view .lex-table tbody td{display:block;border:0;padding:4px 0}.lex-card-view .lex-table tbody td::before{display:block;margin-bottom:2px;color:var(--muted);font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}.lex-card-view .lex-table tbody td.form::before{content:"Forma"}.lex-card-view .lex-table tbody td.gloss::before{content:"Glosa"}.lex-card-view .lex-table tbody td.tags::before{content:"Etiquetas"}.lex-card-view .table-wrap{overflow:visible}
+@media(max-width:600px){.lex-view-toggle{justify-content:flex-start}}
 </style>
 </head>
 <body>
@@ -39,6 +44,11 @@
       <span id="lex-search-count" aria-live="polite"></span>
     </div>
     <div class="lex-search-help">Usa <strong>AND</strong> para exigir ambos términos y <strong>OR</strong> para aceptar cualquiera. AND tiene prioridad sobre OR.</div>
+  </div>
+  <div class="lex-view-toggle" role="group" aria-label="Modo de visualización">
+    <span class="view-label">Vista</span>
+    <button id="lex-view-table" type="button" aria-pressed="true">Tabla</button>
+    <button id="lex-view-cards" type="button" aria-pressed="false">Tarjetas</button>
   </div>
   <nav class="alphabet" aria-label="Índice alfabético"><a href="#sec-a">A</a><a href="#sec-b">B</a><a href="#sec-c">C</a><a href="#sec-circ-c">Ĉ</a><a href="#sec-d">D</a><a href="#sec-e">E</a><a href="#sec-f">F</a><a href="#sec-g">G</a><a href="#sec-circ-g">Ĝ</a><a href="#sec-i">I</a><a href="#sec-j">J</a><a href="#sec-k">K</a><a href="#sec-l">L</a><a href="#sec-m">M</a><a href="#sec-n">N</a><a href="#sec-o">O</a><a href="#sec-p">P</a><a href="#sec-r">R</a><a href="#sec-s">S</a><a href="#sec-circ-s">Ŝ</a><a href="#sec-t">T</a><a href="#sec-theta">Θ</a><a href="#sec-u">U</a><a href="#sec-v">V</a><a href="#sec-z">Z</a><a href="#sec-circ-z">Ẑ</a></nav>
   <section class="lex-section" id="sec-a">
@@ -315,6 +325,27 @@
 
   input.addEventListener("input",filterLexicon);
   filterLexicon();
+})();
+</script>
+
+<script>
+(function(){
+  const tableButton=document.getElementById("lex-view-table");
+  const cardButton=document.getElementById("lex-view-cards");
+  if(!tableButton||!cardButton)return;
+  const storageKey="conlang-lexicon-view";
+  function applyView(view,save=true){
+    const cards=view==="cards";
+    document.body.classList.toggle("lex-card-view",cards);
+    tableButton.setAttribute("aria-pressed",String(!cards));
+    cardButton.setAttribute("aria-pressed",String(cards));
+    if(save){try{localStorage.setItem(storageKey,cards?"cards":"table")}catch(e){}}
+  }
+  tableButton.addEventListener("click",()=>applyView("table"));
+  cardButton.addEventListener("click",()=>applyView("cards"));
+  let initial="table";
+  try{initial=localStorage.getItem(storageKey)||"table"}catch(e){}
+  applyView(initial,false);
 })();
 </script>
 </body>
