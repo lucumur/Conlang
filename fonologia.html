@@ -4,12 +4,104 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fonología · Conlang</title>
-  <meta name="description" content="Fonología">
+  <meta name="description" content="Fonología, ortografía y cambios históricos del conlang">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .status{display:inline-block;padding:2px 8px;border-radius:999px;font-size:.72rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;margin-right:6px}.canon{background:#dff3df}.prov{background:#fff0b8}.open{background:#e7e5e4}.discard{background:#ffd9d9}.doc-section h2{margin-bottom:8px}.doc-section h3{margin:22px 0 8px}.doc-section p,.doc-section li{max-width:900px}.compact-table td:first-child{white-space:nowrap;font-weight:700}.compact-table td,.compact-table th{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}.compact-table th{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:#f1eee6}.compact-table tr:last-child td{border-bottom:0}.letter-row{display:flex;flex-wrap:wrap;gap:9px;margin:12px 0 18px}.letter-chip{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font:700 1.05rem ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}.source-note{color:var(--muted);font-size:.9rem}
+  </style>
 </head>
 <body>
 <header class="page-header"><div class="wrap"><div class="brand"><a href="index.html">CONLANG</a></div><nav class="site-nav" aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="lexico.html">Léxico</a><a href="pronombres.html">Pronombres</a><a href="gramatica.html">Gramática</a><a href="fonologia.html">Fonología</a><a href="historia.html">Historia</a></nav></div></header>
-<main class="wrap"><section class="hero compact"><p class="eyebrow">Documento preparado</p><h1>Fonología</h1><p>Documento destinado al inventario fonológico, fonotáctica y cambios fonológicos vigentes.</p></section><section class="notice"><strong>Estado:</strong> pendiente de consolidar desde las fuentes actuales del proyecto. No se añaden reglas por inferencia.</section></main>
+<main class="wrap">
+<section class="hero compact">
+  <p class="eyebrow">Sonidos y escritura</p>
+  <h1>Fonología</h1>
+  <p>Consolidación de la ortografía, las distinciones fonológicas conocidas y los cambios históricos todavía en desarrollo. Las reglas no formalizadas se mantienen como provisionales.</p>
+</section>
+
+<section class="notice"><strong>Regla ortográfica vigente.</strong> Las únicas letras con marca diacrítica en la ortografía actual son <strong>Ĉ Ĝ Ŝ Ẑ</strong>, todas con circunflejo. <strong>Θ</strong> es una letra independiente, no una letra diacrítica.</section>
+
+<section class="doc-section">
+  <h2>1. Ortografía vigente</h2>
+  <p><span class="status canon">Canónico</span>Las cuatro consonantes con diacrítico son:</p>
+  <div class="letter-row"><span class="letter-chip">Ĉ ĉ</span><span class="letter-chip">Ĝ ĝ</span><span class="letter-chip">Ŝ ŝ</span><span class="letter-chip">Ẑ ẑ</span></div>
+  <p><span class="status canon">Canónico</span><code>C</code> y <code>Ĉ</code>, <code>G</code> y <code>Ĝ</code>, <code>S</code> y <code>Ŝ</code>, y <code>Z</code> y <code>Ẑ</code> son letras distintas y se ordenan por separado en el léxico.</p>
+  <p><span class="status canon">Canónico</span>La letra <code>Θ θ</code> forma parte de la escritura actual y representa el fonema /θ/ en la documentación vigente.</p>
+  <p><span class="status discard">Descartado</span>Las grafías con carón <code>Č č, Š š, Ž ž</code> no pertenecen a la ortografía vigente. Cuando aparezcan en transcripciones antiguas deben normalizarse respectivamente como <code>Ĉ ĉ, Ŝ ŝ, Ẑ ẑ</code>.</p>
+  <p><span class="status discard">Descartado</span>La antigua propuesta de <code>ŕ</code> intervocálica ya no es compatible con la regla ortográfica actual, que limita los diacríticos a <code>Ĉ Ĝ Ŝ Ẑ</code>. Si se desea conservar una oposición especial de /r/, deberá redefinirse con otra solución.</p>
+</section>
+
+<section class="doc-section">
+  <h2>2. Índice ortográfico del léxico</h2>
+  <p><span class="status canon">Canónico</span>El léxico actual organiza entradas bajo las siguientes iniciales:</p>
+  <div class="letter-row"><span class="letter-chip">A</span><span class="letter-chip">B</span><span class="letter-chip">C</span><span class="letter-chip">Ĉ</span><span class="letter-chip">D</span><span class="letter-chip">E</span><span class="letter-chip">F</span><span class="letter-chip">G</span><span class="letter-chip">Ĝ</span><span class="letter-chip">I</span><span class="letter-chip">J</span><span class="letter-chip">K</span><span class="letter-chip">L</span><span class="letter-chip">M</span><span class="letter-chip">N</span><span class="letter-chip">O</span><span class="letter-chip">P</span><span class="letter-chip">R</span><span class="letter-chip">S</span><span class="letter-chip">Ŝ</span><span class="letter-chip">T</span><span class="letter-chip">Θ</span><span class="letter-chip">U</span><span class="letter-chip">V</span><span class="letter-chip">Z</span><span class="letter-chip">Ẑ</span></div>
+  <p class="source-note">Esta lista describe las secciones iniciales existentes en el léxico, no un inventario fonémico completo. No debe usarse para concluir que cualquier grafema ausente de la lista sea imposible en posición interna.</p>
+</section>
+
+<section class="doc-section">
+  <h2>3. Notación de raíces y afijos</h2>
+  <p><span class="status canon">Canónico</span>Las formas léxicas se citan con asterisco y al menos un guion. Ejemplos actuales: <code>*AM-</code>, <code>*CAD-</code>, <code>*EΘ-R</code>, <code>*NORΘ-</code>, <code>*-AJ</code>, <code>*-AT-</code>.</p>
+  <p>Una raíz común suele llevar guion final (<code>*X-</code>). Los sufijos y otros morfemas ligados pueden llevar guion inicial, final o a ambos lados según su posición o grado de ligamiento.</p>
+  <p><span class="status open">Abierto</span>El asterisco y los guiones son notación lexicográfica/morfológica; no se ha documentado que correspondan a segmentos pronunciados.</p>
+</section>
+
+<section class="doc-section">
+  <h2>4. Inventario fonético</h2>
+  <p><span class="status canon">Canónico</span>Está establecida la existencia de /θ/, representado por <code>Θ θ</code>.</p>
+  <p><span class="status open">Abierto</span>No está canonizado todavía un cuadro IPA completo de consonantes y vocales. En particular, esta página no asigna por inferencia valores fonéticos exactos a <code>Ĉ, Ĝ, Ŝ</code> o <code>Ẑ</code> más allá de su condición de grafemas distintos.</p>
+  <p><span class="status open">Abierto</span>Tampoco están formalizados la cantidad vocálica, diptongos, alofonía, asimilaciones, geminación, sonoridad ni procesos de neutralización.</p>
+</section>
+
+<section class="doc-section">
+  <h2>5. Tendencias fonotácticas y estructura de raíz</h2>
+  <p><span class="status prov">Provisional</span>La documentación histórica del proyecto favorece raíces relativamente compactas y con reducción de material vocálico. Se han considerado procesos como síncopa, contracción y pérdida de vocales átonas.</p>
+  <p><span class="status canon">Canónico</span>El léxico moderno admite grupos consonánticos complejos y raíces con divisiones internas, por ejemplo <code>*AS-TR</code>, <code>*DEN-TR-</code>, <code>*MES-TR</code>, <code>*MON-TR</code>, <code>*TEN-BR-</code> o <code>*EΘ-R</code>.</p>
+  <p><span class="status open">Abierto</span>No existe todavía una plantilla silábica general ni una lista completa de ataques y codas permitidos. Por ello no deben eliminarse automáticamente grupos consonánticos solo por parecer marcados.</p>
+</section>
+
+<section class="doc-section">
+  <h2>6. Tratamiento histórico de /h/</h2>
+  <p><span class="status prov">Provisional</span>La documentación anterior propone una fuerte tendencia a debilitar o eliminar /h/, especialmente en posición inicial, como parte de la separación histórica respecto del Esperanto.</p>
+  <p><span class="status open">Abierto</span>No está definido el conjunto de entornos ni los resultados regulares de esa pérdida. Por tanto, no se aplica como sustitución automática a nuevas raíces.</p>
+</section>
+
+<section class="doc-section">
+  <h2>7. Evolución histórica de <code>st</code></h2>
+  <p><span class="status prov">Provisional</span>Una regla histórica antigua del proyecto propone <code>st &gt; ẑ</code> en alguna etapa de la evolución.</p>
+  <p><span class="status open">Necesita formalización</span>El léxico actual conserva numerosas secuencias <code>st</code>, por ejemplo <code>*REST-</code>, <code>*TEST-</code>, <code>*TRIST-</code> y <code>*OST-</code>. Por ello <code>st &gt; ẑ</code> no puede tratarse como un cambio universal sin especificar época, entorno, acento, estrato léxico, préstamos o nivelación analógica.</p>
+  <p>Hasta que esa distribución se defina, la regla debe entenderse como un cambio histórico propuesto y no como una conversión gráfica productiva.</p>
+</section>
+
+<section class="doc-section">
+  <h2>8. Evolución histórica de <code>kv</code></h2>
+  <p><span class="status prov">Provisional</span>La documentación antigua propone el cambio <code>kv &gt; sv</code>.</p>
+  <p><span class="status open">Necesita formalización</span>No se ha fijado todavía su cronología, sus excepciones ni su productividad. La regla no debe aplicarse a todas las secuencias históricas <code>kv</code> sin comprobar primero el léxico y la historia de cada raíz.</p>
+</section>
+
+<section class="doc-section">
+  <h2>9. Consonantes finales</h2>
+  <p><span class="status discard">No vigente como regla general</span>Una nota antigua proponía evitar <code>-t</code> final. El léxico actual contiene formas canónicas con <code>T</code> al final de la forma citada o después de una frontera interna, entre ellas <code>*CAL-T</code>, <code>*CAR-T</code>, <code>*OC-T</code> y <code>*TIN-T</code>.</p>
+  <p>Por tanto, no debe borrarse ni transformar automáticamente una <code>t</code> final. Si existió una restricción histórica, deberá reformularse para un entorno o periodo concreto.</p>
+</section>
+
+<section class="doc-section">
+  <h2>10. Acento y reducción vocálica</h2>
+  <p><span class="status open">Abierto</span>No existe una regla de acento canónica. No debe suponerse automáticamente el acento penúltimo del Esperanto.</p>
+  <p><span class="status prov">Provisional</span>La reducción vocálica y la síncopa son mecanismos históricos previstos para explicar raíces compactas, pero su aplicación depende de que se defina primero el sistema acentual y los entornos fonológicos.</p>
+</section>
+
+<section class="doc-section">
+  <h2>11. Cambios fonéticos frente a decisiones morfológicas</h2>
+  <p><span class="status canon">Canónico</span>La evolución de una forma no debe analizarse como mera sustitución de letras. Deben distinguirse cambio fonético regular, reanálisis morfológico, analogía, préstamo, lexicalización e innovación deliberada.</p>
+  <p>Cuando una forma moderna no corresponda a una regla fonética general, no se la fuerza a encajar: puede pertenecer a otro estrato histórico, ser un préstamo posterior o haber sufrido nivelación analógica.</p>
+</section>
+
+<section class="doc-section">
+  <h2>12. Conflictos documentales pendientes</h2>
+  <p><span class="status open">Pendiente</span><a href="pronombres.html">pronombres.html</a> todavía conserva varias grafías antiguas con <code>č, š, ž</code>. La norma vigente exige <code>ĉ, ŝ, ẑ</code>. Esa normalización debe hacerse en el archivo de pronombres sin cambiar las formas morfológicas salvo el diacrítico.</p>
+  <p><span class="status open">Pendiente</span>Faltan por canonizar: inventario IPA completo, sistema vocálico, valores fonéticos exactos de varios grafemas, fonotáctica, silabificación, acento, procesos alofónicos y cronología precisa de los cambios históricos.</p>
+</section>
+</main>
 <footer class="page-footer"><div class="wrap">Fuente canónica de trabajo del proyecto.</div></footer>
 </body>
 </html>
