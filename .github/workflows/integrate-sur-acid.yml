@@ -23,63 +23,54 @@ jobs:
           lp=Path('lexico.html')
           s=lp.read_text(encoding='utf-8')
 
-          # Canonical meanings for EN and IK.
-          s=s.replace('id="morph-en">*-EN</code></td><td class="gloss">función pendiente; atestiguado en estas formas léxicas',
-                      'id="morph-en">*-EN</code></td><td class="gloss">animado no humano',1)
-          s=s.replace('id="morph-ik">*-IK-</code></td><td class="gloss">función pendiente; atestiguado en <i>agliken</i>',
-                      'id="morph-ik">*-IK-</code></td><td class="gloss">diminutivo',1)
+          s=s.replace('id="morph-en">*-EN</code></td><td class="gloss">función pendiente; atestiguado en estas formas léxicas','id="morph-en">*-EN</code></td><td class="gloss">animado no humano',1)
+          s=s.replace('id="morph-ik">*-IK-</code></td><td class="gloss">función pendiente; atestiguado en <i>agliken</i>','id="morph-ik">*-IK-</code></td><td class="gloss">diminutivo',1)
 
-          # Replace obsolete AKR root.
           s,n=re.subn(r'<tr><td class="form"><code>\*AKR-</code></td><td class="gloss">ranciar, acido</td><td class="tags"><span class="tag generic">Raiz</span><span class="tag griego">Griego</span></td></tr>','',s,count=1)
           if n!=1:
               raise SystemExit('No se encontró la entrada antigua *AKR-')
 
-          # Stable anchors / reciprocal repertoires for morphemes used by SUR words.
-          # -ER
           pat=re.compile(r'<tr><td class="form"><code>\*-ER</code></td><td class="gloss">adjetivo primario no derivado</td><td class="tags">(.*?)</td></tr>',re.S)
           m=pat.search(s)
           if not m: raise SystemExit('No se encontró *-ER')
-          block='<details class="suffix-repertoire suffix-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-surer">surer</a></div></details>'
-          s=pat.sub('<tr><td class="form"><code id="morph-er">*-ER</code></td><td class="gloss">adjetivo primario no derivado'+block+'</td><td class="tags">'+m.group(1)+'</td></tr>',s,count=1)
+          rep='<details class="suffix-repertoire suffix-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-surer">surer</a></div></details>'
+          s=pat.sub('<tr><td class="form"><code id="morph-er">*-ER</code></td><td class="gloss">adjetivo primario no derivado'+rep+'</td><td class="tags">'+m.group(1)+'</td></tr>',s,count=1)
 
-          # -E incontable
           pat=re.compile(r'<tr><td class="form"><code>\*-E</code></td><td class="gloss">incontables</td><td class="tags">(.*?)</td></tr>',re.S)
           m=pat.search(s)
           if not m: raise SystemExit('No se encontró *-E')
-          block='<details class="suffix-repertoire suffix-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-surne">surne</a></div></details>'
-          s=pat.sub('<tr><td class="form"><code id="morph-e">*-E</code></td><td class="gloss">incontables'+block+'</td><td class="tags">'+m.group(1)+'</td></tr>',s,count=1)
+          rep='<details class="suffix-repertoire suffix-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-surne">surne</a></div></details>'
+          s=pat.sub('<tr><td class="form"><code id="morph-e">*-E</code></td><td class="gloss">incontables'+rep+'</td><td class="tags">'+m.group(1)+'</td></tr>',s,count=1)
 
-          # -A abstract/dynamic nominal
           pat=re.compile(r'<tr><td class="form"><code>\*-A</code></td><td class="gloss">género de dinamismos abstractos y acciones nominalizadas</td><td class="tags">(.*?)</td></tr>',re.S)
           m=pat.search(s)
           if not m: raise SystemExit('No se encontró *-A')
-          block='<details class="suffix-repertoire suffix-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-suruda">suruda</a></div></details>'
-          s=pat.sub('<tr><td class="form"><code id="morph-a">*-A</code></td><td class="gloss">género de dinamismos abstractos y acciones nominalizadas'+block+'</td><td class="tags">'+m.group(1)+'</td></tr>',s,count=1)
+          rep='<details class="suffix-repertoire suffix-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-suruda">suruda</a></div></details>'
+          s=pat.sub('<tr><td class="form"><code id="morph-a">*-A</code></td><td class="gloss">género de dinamismos abstractos y acciones nominalizadas'+rep+'</td><td class="tags">'+m.group(1)+'</td></tr>',s,count=1)
 
-          # IĜ root / hacerse
           pat=re.compile(r'<tr><td class="form"><code>\*IĜ-</code></td><td class="gloss">hacerse</td><td class="tags">(.*?)</td></tr>',re.S)
           m=pat.search(s)
           if not m: raise SystemExit('No se encontró *IĜ-')
-          block='<details class="suffix-repertoire root-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-surigos">suriĝos</a></div></details>'
-          s=pat.sub('<tr><td class="form"><code id="root-ig">*IĜ-</code></td><td class="gloss">hacerse'+block+'</td><td class="tags">'+m.group(1)+'</td></tr>',s,count=1)
+          rep='<details class="suffix-repertoire root-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-surigos">suriĝos</a></div></details>'
+          s=pat.sub('<tr><td class="form"><code id="root-ig">*IĜ-</code></td><td class="gloss">hacerse'+rep+'</td><td class="tags">'+m.group(1)+'</td></tr>',s,count=1)
 
-          # Extend -OS repertoire from 2 to 3.
           old='<summary>Repertorio (2)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-agolos">agolos</a><a class="word-link" href="#lexeme-agos">agos</a></div>'
           new='<summary>Repertorio (3)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-agolos">agolos</a><a class="word-link" href="#lexeme-agos">agos</a><a class="word-link" href="#lexeme-surigos">suriĝos</a></div>'
           if old not in s: raise SystemExit('No se encontró repertorio actual de -OS')
           s=s.replace(old,new,1)
 
-          # New SUR acid root. Existing homonymous SUR roots remain distinct.
           if 'id="root-sur-acid"' not in s:
-              panel='''<tr class="lex-root-row"><td class="form"><code id="root-sur-acid">*SUR-</code></td><td class="gloss">
-<span class="root-gloss">ranciar, ácido</span><div class="entry-note">Origen germánico; proveniente de «suraz».</div><details class="derived-panel"><summary>5 palabras derivadas</summary><div class="derived-grid">
-<article class="derived-entry" id="lexeme-surer"><div class="derived-word"><code>surer</code></div><div class="derived-gloss">ácido, rancio</div><div class="derived-analysis"><a class="morph-link" href="#root-sur-acid">SUR</a> + <a class="morph-link" href="#morph-er">-ER</a></div><div class="derived-tags"><span class="tag generic">Adjetivo ER</span></div></article>
-<article class="derived-entry" id="lexeme-fisurir"><div class="derived-word"><code>fisurir</code></div><div class="derived-gloss">ranciado, echado a perder</div><div class="derived-analysis">FI + <a class="morph-link" href="#root-sur-acid">SUR</a> + IR <span class="meta-extra">[función interna de FI/IR pendiente]</span></div></article>
-<article class="derived-entry" id="lexeme-surigos"><div class="derived-word"><code>suriĝos</code></div><div class="derived-gloss">acidificarse</div><div class="derived-analysis"><a class="morph-link" href="#root-sur-acid">SUR</a> + <a class="morph-link" href="#root-ig">IĜ</a> + <a class="morph-link" href="#morph-os">-OS</a></div><div class="derived-tags"><span class="tag generic">Predicado OS</span></div></article>
-<article class="derived-entry" id="lexeme-surne"><div class="derived-word"><code>surne</code></div><div class="derived-gloss">crema ácida</div><div class="derived-analysis"><a class="morph-link" href="#root-sur-acid">SUR(N)</a> + <a class="morph-link" href="#morph-e">-E</a> <span class="meta-extra">[N como extensión de tema; analizar]</span></div><div class="derived-tags"><span class="tag generic">Incontable E</span></div></article>
-<article class="derived-entry" id="lexeme-suruda"><div class="derived-word"><code>suruda</code></div><div class="derived-gloss">acidez</div><div class="derived-analysis"><a class="morph-link" href="#root-sur-acid">SUR(UD)</a> + <a class="morph-link" href="#morph-a">-A</a> <span class="meta-extra">[UD como extensión de tema; analizar]</span></div><div class="derived-tags"><span class="tag generic">Nomen A</span></div></article>
-</div></details>
-</td><td class="tags"><span class="tag generic">Raiz</span><span class="tag germanico">Germanico</span></td></tr>'''
+              panel=(
+                '<tr class="lex-root-row"><td class="form"><code id="root-sur-acid">*SUR-</code></td><td class="gloss">'
+                '<span class="root-gloss">ranciar, ácido</span><div class="entry-note">Origen germánico; proveniente de «suraz».</div>'
+                '<details class="derived-panel"><summary>5 palabras derivadas</summary><div class="derived-grid">'
+                '<article class="derived-entry" id="lexeme-surer"><div class="derived-word"><code>surer</code></div><div class="derived-gloss">ácido, rancio</div><div class="derived-analysis"><a class="morph-link" href="#root-sur-acid">SUR</a> + <a class="morph-link" href="#morph-er">-ER</a></div><div class="derived-tags"><span class="tag generic">Adjetivo ER</span></div></article>'
+                '<article class="derived-entry" id="lexeme-fisurir"><div class="derived-word"><code>fisurir</code></div><div class="derived-gloss">ranciado, echado a perder</div><div class="derived-analysis">FI + <a class="morph-link" href="#root-sur-acid">SUR</a> + IR <span class="meta-extra">[función interna de FI/IR pendiente]</span></div></article>'
+                '<article class="derived-entry" id="lexeme-surigos"><div class="derived-word"><code>suriĝos</code></div><div class="derived-gloss">acidificarse</div><div class="derived-analysis"><a class="morph-link" href="#root-sur-acid">SUR</a> + <a class="morph-link" href="#root-ig">IĜ</a> + <a class="morph-link" href="#morph-os">-OS</a></div><div class="derived-tags"><span class="tag generic">Predicado OS</span></div></article>'
+                '<article class="derived-entry" id="lexeme-surne"><div class="derived-word"><code>surne</code></div><div class="derived-gloss">crema ácida</div><div class="derived-analysis"><a class="morph-link" href="#root-sur-acid">SUR(N)</a> + <a class="morph-link" href="#morph-e">-E</a> <span class="meta-extra">[N como extensión de tema; analizar]</span></div><div class="derived-tags"><span class="tag generic">Incontable E</span></div></article>'
+                '<article class="derived-entry" id="lexeme-suruda"><div class="derived-word"><code>suruda</code></div><div class="derived-gloss">acidez</div><div class="derived-analysis"><a class="morph-link" href="#root-sur-acid">SUR(UD)</a> + <a class="morph-link" href="#morph-a">-A</a> <span class="meta-extra">[UD como extensión de tema; analizar]</span></div><div class="derived-tags"><span class="tag generic">Nomen A</span></div></article>'
+                '</div></details></td><td class="tags"><span class="tag generic">Raiz</span><span class="tag germanico">Germanico</span></td></tr>'
+              )
               marker='<tr><td class="form"><code>*SUR-</code></td><td class="gloss">pantorrilla</td>'
               pos=s.find(marker)
               if pos<0: raise SystemExit('No se encontró punto de inserción SUR en sección S')
@@ -87,7 +78,6 @@ jobs:
 
           lp.write_text(s,encoding='utf-8')
 
-          # Grammar updates.
           gp=Path('gramatica.html')
           g=gp.read_text(encoding='utf-8')
           if '<td><code>-EN</code></td><td>animado no humano</td>' not in g:
