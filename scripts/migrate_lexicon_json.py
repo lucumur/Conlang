@@ -1,0 +1,277 @@
+from pathlib import Path
+import re, json, html, unicodedata
+
+ROOT = Path(__file__).resolve().parents[1]
+src = (ROOT / 'lexico.html').read_text(encoding='utf-8')
+outdir = ROOT / 'lexico'
+outdir.mkdir(exist_ok=True)
+
+SECTIONS = [
+    ('sec-a','A','a'),('sec-b','B','b'),('sec-c','C','c'),('sec-circ-c','Ĉ','circ-c'),
+    ('sec-d','D','d'),('sec-e','E','e'),('sec-f','F','f'),('sec-g','G','g'),('sec-circ-g','Ĝ','circ-g'),
+    ('sec-i','I','i'),('sec-j','J','j'),('sec-k','K','k'),('sec-l','L','l'),('sec-m','M','m'),
+    ('sec-n','N','n'),('sec-o','O','o'),('sec-p','P','p'),('sec-r','R','r'),('sec-s','S','s'),
+    ('sec-circ-s','Ŝ','circ-s'),('sec-t','T','t'),('sec-theta','Θ','theta'),('sec-u','U','u'),
+    ('sec-v','V','v'),('sec-z','Z','z'),('sec-circ-z','Ẑ','circ-z')
+]
+SECTION_KEY = {sid:key for sid,letter,key in SECTIONS}
+
+def strip_tags(s):
+    s = re.sub(r'<br\s*/?>', ' ', s, flags=re.I)
+    s = re.sub(r'<[^>]+>', ' ', s)
+    return ' '.join(html.unescape(s).split()).strip()
+
+def slug(s):
+    t = unicodedata.normalize('NFKD', s)
+    t = ''.join(ch for ch in t if not unicodedata.combining(ch))
+    t = t.lower().replace('θ','theta').replace('ĉ','c').replace('ĝ','g').replace('ŝ','s').replace('ẑ','z')
+    t = re.sub(r'[^a-z0-9]+','-',t).strip('-')
+    return t or 'entry'
+
+def first_code(row):
+    m = re.search(r'<td class="form"><code(?P<attrs>[^>]*)>(?P<form>.*?)</code>', row, re.S)
+    if not m:
+        return None, None
+    attrs, form = m.group('attrs'), strip_tags(m.group('form'))
+    mi = re.search(r'\bid="([^"]+)"', attrs)
+    return form, (mi.group(1) if mi else None)
+
+def tags_from_row(row):
+    m = re.search(r'<td class="tags">(.*?)</td>\s*</tr>', row, re.S)
+    if not m:
+        return []
+    tags=[]
+    for tm in re.finditer(r'<span class="tag(?:\s+([^" ]+))?">(.*?)</span>', m.group(1), re.S):
+        tags.append({'class':tm.group(1) or 'generic','label':strip_tags(tm.group(2))})
+    return tags
+
+def row_class(row):
+    m=re.match(r'<tr(?:\s+class="([^"]*)")?',row)
+    return (m.group(1) or '') if m else ''
+
+def gloss_html_from_row(row):
+    m=re.search(r'<td class="gloss">(.*?)</td><td class="tags">',row,re.S)
+    return m.group(1).strip() if m else ''
+
+def base_gloss(ghtml):
+    m=re.search(r'<span class="root-gloss">(.*?)</span>',ghtml,re.S)
+    if m:
+        return strip_tags(m.group(1))
+    cut=len(ghtml)
+    for token in ('<div class="entry-note','<details'):
+        p=ghtml.find(token)
+        if p>=0:
+            cut=min(cut,p)
+    return strip_tags(ghtml[:cut])
+
+def etymology(ghtml):
+    m=re.search(r'<div class="entry-note etymology">(.*?)</div>',ghtml,re.S)
+    return strip_tags(m.group(1)) if m else None
+
+def notes(ghtml):
+    vals=[]
+    for m in re.finditer(r'<div class="entry-note(?! etymology)[^"]*">(.*?)</div>',ghtml,re.S):
+        t=strip_tags(m.group(1))
+        if t:
+            vals.append(t)
+    return vals
+
+def derived_words(ghtml, root_id):
+    words=[]
+    for i,m in enumerate(re.finditer(r'<article class="derived-entry"(?:\s+id="([^"]+)")?>(.*?)</article>',ghtml,re.S),1):
+        wid=m.group(1) or f'{root_id}-word-{i}'
+        body=m.group(2)
+        wf=re.search(r'<div class="derived-word">.*?<code>(.*?)</code>.*?</div>',body,re.S)
+        wg=re.search(r'<div class="derived-gloss">(.*?)</div>',body,re.S)
+        wa=re.search(r'<div class="derived-analysis">(.*?)</div>',body,re.S)
+        wt=re.search(r'<div class="derived-tags">(.*?)</div>',body,re.S)
+        form=strip_tags(wf.group(1)) if wf else ''
+        gloss=strip_tags(wg.group(1)) if wg else ''
+        analysis_html=wa.group(1).strip() if wa else ''
+        refs=[]
+        for am in re.finditer(r'<a class="morph-link" href="#([^"]+)">(.*?)</a>',analysis_html,re.S):
+            refs.append({'id':am.group(1),'label':strip_tags(am.group(2))})
+        dtags=[]
+        if wt:
+            for tm in re.finditer(r'<span class="tag(?:\s+([^" ]+))?">(.*?)</span>',wt.group(1),re.S):
+                dtags.append({'class':tm.group(1) or 'generic','label':strip_tags(tm.group(2))})
+        words.append({
+            'id':wid,'form':form,'gloss':gloss,'analysis_html':analysis_html,
+            'analysis_text':strip_tags(analysis_html),'refs':refs,'tags':dtags
+        })
+    return words
+
+# Locate current letter sections before replacing the HTML.
+positions=[]
+for sid,letter,key in SECTIONS:
+    marker=f'<section class="lex-section" id="{sid}">'
+    pos=src.find(marker)
+    if pos<0:
+        raise SystemExit(f'No se encontró sección {sid}')
+    positions.append((pos,sid,letter,key))
+positions.sort()
+
+all_roots=[]
+all_morphs=[]
+per_letter={key:[] for _,_,key in SECTIONS}
+id_seen=set()
+counters={}
+
+for idx,(start,sid,letter,key) in enumerate(positions):
+    end=positions[idx+1][0] if idx+1<len(positions) else src.find('</main>',start)
+    block=src[start:end]
+    for rm in re.finditer(r'<tr(?:\s+[^>]*)?>.*?</tr>',block,re.S):
+        row=rm.group(0)
+        form,eid=first_code(row)
+        if not form:
+            continue
+        tags=tags_from_row(row)
+        labels={t['label'].lower() for t in tags}
+        ghtml=gloss_html_from_row(row)
+        gloss=base_gloss(ghtml)
+        if not eid:
+            base=('morph-' if ('sufijo' in labels or 'morfema temporal' in labels) else 'root-')+slug(form)
+            counters[base]=counters.get(base,0)+1
+            eid=base if counters[base]==1 else f'{base}-{counters[base]}'
+        if eid in id_seen:
+            n=2
+            orig=eid
+            while f'{orig}-{n}' in id_seen:
+                n+=1
+            eid=f'{orig}-{n}'
+        id_seen.add(eid)
+
+        kind='morpheme' if ('sufijo' in labels or 'morfema temporal' in labels) else ('root' if 'raiz' in labels else 'other')
+        item={
+            'id':eid,'form':form,'gloss':gloss,'tags':tags,'letter':letter,'section':sid,
+            'etymology':etymology(ghtml),'notes':notes(ghtml),'row_class':row_class(row)
+        }
+        if kind=='root':
+            item['words']=derived_words(ghtml,eid)
+            per_letter[key].append(item)
+            all_roots.append(item)
+        elif kind=='morpheme':
+            all_morphs.append(item)
+        else:
+            item['kind']='other'
+            per_letter[key].append(item)
+
+for sid,letter,key in SECTIONS:
+    payload={'schema_version':1,'letter':letter,'key':key,'entries':per_letter[key]}
+    (outdir/f'{key}.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
+
+(outdir/'morphemes.json').write_text(json.dumps({'schema_version':1,'morphemes':all_morphs},ensure_ascii=False,indent=2),encoding='utf-8')
+
+root_index=[]
+word_index=[]
+for r in all_roots:
+    key=SECTION_KEY[r['section']]
+    parts=[r['form'],r['gloss'],r.get('etymology') or '']+[t['label'] for t in r['tags']]
+    for w in r.get('words',[]):
+        parts += [w['form'],w['gloss'],w.get('analysis_text','')] + [t['label'] for t in w.get('tags',[])]
+        word_index.append({
+            'id':w['id'],'root_id':r['id'],'letter':r['letter'],'key':key,
+            'form':w['form'],'gloss':w['gloss'],'refs':[x['id'] for x in w.get('refs',[])],
+            'search':' '.join([w['form'],w['gloss'],w.get('analysis_text','')]+[t['label'] for t in w.get('tags',[])])
+        })
+    root_index.append({
+        'id':r['id'],'letter':r['letter'],'key':key,'form':r['form'],'gloss':r['gloss'],
+        'tags':[t['label'] for t in r['tags']],'etymology':r.get('etymology'),'search':' '.join(parts)
+    })
+
+morph_index=[]
+for m in all_morphs:
+    morph_index.append({
+        'id':m['id'],'letter':m['letter'],'form':m['form'],'gloss':m['gloss'],
+        'tags':[t['label'] for t in m['tags']],
+        'search':' '.join([m['form'],m['gloss']]+[t['label'] for t in m['tags']])
+    })
+
+index_payload={
+    'schema_version':1,
+    'letters':[{'section':sid,'letter':letter,'key':key,'file':f'lexico/{key}.json'} for sid,letter,key in SECTIONS],
+    'roots':root_index,'words':word_index,'morphemes':morph_index,
+    'counts':{'roots':len(root_index),'words':len(word_index),'morphemes':len(morph_index)}
+}
+(outdir/'index.json').write_text(json.dumps(index_payload,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+
+letters_js=json.dumps([{'letter':letter,'key':key,'file':f'lexico/{key}.json'} for _,letter,key in SECTIONS],ensure_ascii=False)
+alphabet=''.join(f'<a href="#sec-{key}" data-key="{key}">{letter}</a>' for _,letter,key in SECTIONS)
+
+VIEWER=r'''<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Léxico · Conlang</title>
+  <meta name="description" content="Léxico canónico del conlang">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .lex-search-box{margin:0 0 18px}.lex-search-box label{display:block;margin:0 0 7px;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.lex-search-row{display:flex;align-items:center;gap:12px}.lex-search-row input{width:min(680px,100%);padding:12px 15px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit;outline:none}.lex-search-row input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(67,56,202,.12)}#lex-search-count{color:var(--muted);font-size:.86rem;white-space:nowrap}.lex-search-help{margin-top:7px;color:var(--muted);font-size:.82rem}
+    .lex-view-toggle{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin:0 0 14px}.lex-view-toggle .view-label{margin-right:4px;color:var(--muted);font-size:.82rem;font-weight:700}.lex-view-toggle button{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:8px 11px;border-radius:10px;font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}.lex-view-toggle button[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10)}
+    .alphabet a[aria-current="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10);color:var(--accent)}#lex-letter-all{font-size:1.08rem;line-height:1}
+    .lex-card-view .lex-table thead{display:none}.lex-card-view .lex-table{display:block;width:100%;border:0;background:transparent}.lex-card-view .lex-table tbody{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;width:100%}.lex-card-view .lex-table tbody tr{display:block;border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:12px 14px}.lex-card-view .lex-table tbody td{display:block;border:0;padding:4px 0}.lex-card-view .lex-table tbody td::before{display:block;margin-bottom:2px;color:var(--muted);font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}.lex-card-view .lex-table tbody td.form::before{content:"Forma"}.lex-card-view .lex-table tbody td.gloss::before{content:"Glosa"}.lex-card-view .lex-table tbody td.tags::before{content:"Etiquetas"}.lex-card-view .table-wrap{overflow:visible}
+    .derived-panel{margin-top:8px;border-top:1px dashed var(--line);padding-top:7px}.derived-panel summary{cursor:pointer;font-weight:800;color:var(--accent);font-size:.86rem;user-select:none}.derived-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:10px}.derived-entry{border:1px solid var(--line);border-radius:12px;background:var(--paper);padding:10px 12px}.derived-word code{font-size:1rem;font-weight:800}.derived-gloss{margin-top:4px}.derived-analysis{margin-top:7px;color:var(--muted);font-size:.8rem}.derived-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.morph-link{display:inline-block;padding:1px 6px;border-radius:999px;border:1px solid var(--line);text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.78rem;background:#fff}.morph-link:hover{border-color:var(--accent)}
+    .suffix-repertoire{margin-top:7px;padding-top:6px;border-top:1px dashed var(--line)}.suffix-repertoire summary{cursor:pointer;color:var(--accent);font-size:.82rem;font-weight:800;user-select:none}.suffix-word-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}.word-link{display:inline-block;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:#fff;text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.8rem}.word-link:hover{border-color:var(--accent)}
+    .loading-note,.empty-note{padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--muted)}#morpheme-focus{margin:28px 0}#morpheme-focus:empty{display:none}
+    @media(max-width:600px){.lex-search-row{align-items:flex-start;flex-direction:column}.lex-view-toggle{justify-content:flex-start}}
+  </style>
+</head>
+<body>
+<header class="page-header"><div class="wrap"><div class="brand"><a href="index.html">CONLANG</a></div><nav class="site-nav" aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="lexico.html">Léxico</a><a href="pronombres.html">Pronombres</a><a href="gramatica.html">Gramática</a><a href="fonologia.html">Fonología</a><a href="historia.html">Historia</a></nav></div></header>
+<main class="wrap">
+  <section class="hero compact"><p class="eyebrow">Fuente léxica</p><h1>Léxico</h1><p>Inventario de raíces, palabras derivadas, morfemas, etimologías y etiquetas. Los datos se cargan por letra desde archivos JSON.</p></section>
+  <div class="lex-search-box"><label for="lex-search">Buscar en el léxico</label><div class="lex-search-row"><input id="lex-search" type="search" autocomplete="off" spellcheck="false" placeholder="Ej.: helenico AND animal · nat-red OR nova"><span id="lex-search-count" aria-live="polite"></span></div><div class="lex-search-help">La búsqueda recorre todas las letras. Usa <strong>AND</strong> para exigir términos y <strong>OR</strong> para aceptar alternativas.</div></div>
+  <div class="lex-view-toggle" role="group" aria-label="Modo de visualización"><span class="view-label">Vista</span><button id="lex-view-table" type="button" aria-pressed="true">Tabla</button><button id="lex-view-cards" type="button" aria-pressed="false">Tarjetas</button></div>
+  <nav class="alphabet" aria-label="Índice alfabético">__ALPHABET__<a href="#lex-all" id="lex-letter-all" title="Mostrar todas las letras" aria-label="Mostrar todo el léxico">∞</a></nav>
+  <div id="morpheme-focus"></div>
+  <div id="lex-content" aria-live="polite"><div class="loading-note">Cargando A…</div></div>
+</main>
+<footer class="page-footer"><div class="wrap">Conlang · documentación viva</div></footer>
+<script>
+(()=>{
+  const LETTERS=__LETTERS__;
+  const content=document.getElementById('lex-content'),search=document.getElementById('lex-search'),count=document.getElementById('lex-search-count'),morphFocus=document.getElementById('morpheme-focus');
+  const cache=new Map();let indexPromise=null,morphPromise=null,mode='letter',activeKey='a',view=localStorage.getItem('conlang-lexicon-view')||'table';
+  const norm=s=>(s||'').toLocaleLowerCase('es').trim();
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  function parseQuery(raw){const q=norm(raw);if(!q)return[];return q.split(/\s+or\s+/i).map(g=>g.split(/\s+and\s+/i).map(norm).filter(Boolean)).filter(g=>g.length)}
+  function matches(text,groups){const t=norm(text);return !groups.length||groups.some(g=>g.every(term=>t.includes(term)))}
+  async function loadIndex(){if(!indexPromise)indexPromise=fetch('lexico/index.json').then(r=>{if(!r.ok)throw Error('index');return r.json()});return indexPromise}
+  async function loadMorphs(){if(!morphPromise)morphPromise=fetch('lexico/morphemes.json').then(r=>{if(!r.ok)throw Error('morphemes');return r.json()});return morphPromise}
+  async function loadLetter(key){if(cache.has(key))return cache.get(key);const meta=LETTERS.find(x=>x.key===key);if(!meta)throw Error('letter');const p=fetch(meta.file).then(r=>{if(!r.ok)throw Error(meta.file);return r.json()});cache.set(key,p);return p}
+  function tagHTML(tags){return(tags||[]).map(t=>`<span class="tag ${esc(t.class||'generic')}">${esc(t.label)}</span>`).join('')}
+  function repertoireHTML(targetId,idx,currentRootId=null){const words=(idx?.words||[]).filter(w=>w.refs?.includes(targetId)&&(!currentRootId||w.root_id!==currentRootId));if(!words.length)return'';return`<details class="suffix-repertoire"><summary>Repertorio (${words.length})</summary><div class="suffix-word-list">${words.map(w=>`<a class="word-link" href="#${esc(w.id)}" data-word-id="${esc(w.id)}">${esc(w.form)}</a>`).join('')}</div></details>`}
+  function wordHTML(w){return`<article class="derived-entry" id="${esc(w.id)}"><div class="derived-word"><code>${esc(w.form)}</code></div><div class="derived-gloss">${esc(w.gloss)}</div>${w.analysis_html?`<div class="derived-analysis">${w.analysis_html}</div>`:''}${w.tags?.length?`<div class="derived-tags">${tagHTML(w.tags)}</div>`:''}</article>`}
+  function entryRow(e,idx){const et=e.etymology?`<div class="entry-note etymology">${esc(e.etymology)}</div>`:'';const notes=(e.notes||[]).map(n=>`<div class="entry-note">${esc(n)}</div>`).join('');const words=e.words||[];const derived=words.length?`<details class="derived-panel"><summary>${words.length} palabras derivadas</summary><div class="derived-grid">${words.map(wordHTML).join('')}</div></details>`:'';const rep=e.kind==='other'?'':repertoireHTML(e.id,idx,e.id);return`<tr class="${esc(e.row_class||'')}" data-entry-id="${esc(e.id)}"><td class="form"><code id="${esc(e.id)}">${esc(e.form)}</code></td><td class="gloss"><span class="root-gloss">${esc(e.gloss)}</span>${et}${notes}${rep}${derived}</td><td class="tags">${tagHTML(e.tags)}</td></tr>`}
+  function sectionHTML(letter,entries,idx,title=null){return`<section class="lex-section"><h2>${esc(title||letter)}</h2><div class="table-wrap"><table class="lex-table"><thead><tr><th>Forma</th><th>Glosa</th><th>Etiquetas</th></tr></thead><tbody>${entries.map(e=>entryRow(e,idx)).join('')}</tbody></table></div></section>`}
+  function morphemeRow(m,idx){if(!m)return'';return`<tr><td class="form"><code id="${esc(m.id)}">${esc(m.form)}</code></td><td class="gloss">${esc(m.gloss)}${repertoireHTML(m.id,idx)}</td><td class="tags">${tagHTML(m.tags)}</td></tr>`}
+  function setNav(){document.querySelectorAll('.alphabet a[data-key]').forEach(a=>a.toggleAttribute('aria-current',!search.value.trim()&&mode==='letter'&&a.dataset.key===activeKey));document.getElementById('lex-letter-all').toggleAttribute('aria-current',!search.value.trim()&&mode==='all')}
+  function applyView(){document.body.classList.toggle('lex-card-view',view==='cards');document.getElementById('lex-view-table').setAttribute('aria-pressed',String(view==='table'));document.getElementById('lex-view-cards').setAttribute('aria-pressed',String(view==='cards'))}
+  async function renderLetter(key){content.innerHTML='<div class="loading-note">Cargando…</div>';morphFocus.innerHTML='';const[data,idx]=await Promise.all([loadLetter(key),loadIndex()]);content.innerHTML=sectionHTML(data.letter,data.entries,idx);applyView();setNav()}
+  async function renderAll(){content.innerHTML='<div class="loading-note">Cargando todo el léxico…</div>';morphFocus.innerHTML='';const idx=await loadIndex();const datas=await Promise.all(LETTERS.map(x=>loadLetter(x.key)));content.innerHTML=datas.map(d=>sectionHTML(d.letter,d.entries,idx)).join('');applyView();setNav()}
+  document.getElementById('lex-view-table').onclick=()=>{view='table';localStorage.setItem('conlang-lexicon-view',view);applyView()};
+  document.getElementById('lex-view-cards').onclick=()=>{view='cards';localStorage.setItem('conlang-lexicon-view',view);applyView()};
+  document.querySelectorAll('.alphabet a[data-key]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();search.value='';mode='letter';activeKey=a.dataset.key;history.replaceState(null,'','#sec-'+activeKey);renderLetter(activeKey).catch(showError)}));
+  document.getElementById('lex-letter-all').addEventListener('click',e=>{e.preventDefault();search.value='';mode='all';history.replaceState(null,'','#lex-all');renderAll().catch(showError)});
+  async function doSearch(){const raw=search.value.trim();if(!raw){count.textContent='';return mode==='all'?renderAll():renderLetter(activeKey)}const groups=parseQuery(raw),idx=await loadIndex();const roots=idx.roots.filter(r=>matches(r.search,groups));const morphs=idx.morphemes.filter(m=>matches(m.search,groups));const keys=[...new Set(roots.map(r=>r.key))];const datas=await Promise.all(keys.map(loadLetter));const map=new Map(datas.flatMap(d=>d.entries.map(e=>[e.id,e])));const entries=roots.map(r=>map.get(r.id)).filter(Boolean);content.innerHTML=entries.length?sectionHTML('Resultados',entries,idx,'Resultados'):'<div class="empty-note">Sin raíces coincidentes.</div>';if(morphs.length){const md=await loadMorphs();const mm=new Map(md.morphemes.map(m=>[m.id,m]));morphFocus.innerHTML='<section class="lex-section"><h2>Morfemas</h2><div class="table-wrap"><table class="lex-table"><thead><tr><th>Forma</th><th>Glosa</th><th>Etiquetas</th></tr></thead><tbody>'+morphs.map(mi=>morphemeRow(mm.get(mi.id),idx)).join('')+'</tbody></table></div></section>'}else morphFocus.innerHTML='';const total=roots.length+morphs.length;count.textContent=total+' resultado'+(total===1?'':'s');applyView();setNav()}
+  let timer;search.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>doSearch().catch(showError),120)});
+  async function showReference(id){const idx=await loadIndex();const mi=idx.morphemes.find(m=>m.id===id);if(mi){const md=await loadMorphs();const m=md.morphemes.find(x=>x.id===id);morphFocus.innerHTML='<section class="lex-section"><h2>Morfema</h2><div class="table-wrap"><table class="lex-table"><tbody>'+morphemeRow(m,idx)+'</tbody></table></div></section>';morphFocus.scrollIntoView({behavior:'smooth',block:'center'});return}const r=idx.roots.find(x=>x.id===id);if(r){search.value='';mode='letter';activeKey=r.key;await renderLetter(r.key);document.getElementById(id)?.scrollIntoView({behavior:'smooth',block:'center'})}}
+  async function showWord(id){const idx=await loadIndex();const w=idx.words.find(x=>x.id===id);if(!w)return;search.value='';mode='letter';activeKey=w.key;await renderLetter(w.key);const el=document.getElementById(id);if(el){el.closest('details')?.setAttribute('open','');el.scrollIntoView({behavior:'smooth',block:'center'})}}
+  document.addEventListener('click',e=>{const a=e.target.closest('a.morph-link[href^="#"],a.word-link[data-word-id]');if(!a)return;e.preventDefault();if(a.dataset.wordId)showWord(a.dataset.wordId).catch(showError);else showReference(a.getAttribute('href').slice(1)).catch(showError)});
+  function showError(err){console.error(err);content.innerHTML='<div class="empty-note">No se pudo cargar el léxico.</div>'}
+  async function initial(){applyView();const idx=await loadIndex();count.textContent=idx.counts.roots+' raíces · '+idx.counts.words+' palabras';if(location.hash==='#lex-all'){mode='all';await renderAll();return}const hash=location.hash.slice(1);if(hash){const r=idx.roots.find(x=>x.id===hash),w=idx.words.find(x=>x.id===hash),m=idx.morphemes.find(x=>x.id===hash);if(r){activeKey=r.key;await renderLetter(activeKey);document.getElementById(hash)?.scrollIntoView();return}if(w){await showWord(hash);return}if(m){await renderLetter('a');await showReference(hash);return}const lk=LETTERS.find(x=>'sec-'+x.key===hash);if(lk)activeKey=lk.key}await renderLetter(activeKey)}
+  initial().catch(showError);
+})();
+</script>
+</body></html>'''
+
+viewer=VIEWER.replace('__ALPHABET__',alphabet).replace('__LETTERS__',letters_js)
+(ROOT/'lexico.html').write_text(viewer,encoding='utf-8')
+
+# Sanity checks before the workflow commits anything.
+for p in outdir.glob('*.json'):
+    json.loads(p.read_text(encoding='utf-8'))
+assert all((outdir/f'{key}.json').exists() for _,_,key in SECTIONS)
+assert index_payload['counts']['roots'] > 0
+print(json.dumps(index_payload['counts'],ensure_ascii=False))
