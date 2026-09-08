@@ -16,134 +16,158 @@
 <section class="hero compact">
   <p class="eyebrow">Sistema gramatical</p>
   <h1>Gramática</h1>
-  <p>Consolidación de las reglas actualmente documentadas. Se distingue entre información canónica, provisional y todavía abierta; no se completan paradigmas por inferencia.</p>
+  <p>Reglas gramaticales vigentes del conlang. Las decisiones explícitas más recientes prevalecen sobre descripciones anteriores.</p>
 </section>
 
-<section class="notice"><strong>Criterio documental.</strong> El léxico y los paradigmas actuales prevalecen sobre notas antiguas. Cuando una descripción anterior no coincide con los archivos vigentes, se marca como provisional, abierta o descartada en vez de forzar una conciliación.</section>
+<section class="notice"><strong>Criterio documental.</strong> Las reglas marcadas como canónicas han sido fijadas explícitamente. No se completan formas ausentes por analogía aunque el paradigma sugiera una forma posible.</section>
 
 <section class="doc-section">
   <h2>1. Naturaleza y unidad básica</h2>
-  <p><span class="status canon">Canónico</span>La lengua es una construcción históricamente derivada del Esperanto, pero no se trata como una simple reforma ortográfica. Las raíces y morfemas pueden conservar material heredado, sufrir reanálisis o ser innovaciones propias.</p>
-  <p><span class="status canon">Canónico</span>El léxico se organiza alrededor de raíces y afijos. La forma de cita léxica lleva asterisco y al menos un guion. Una raíz ordinaria suele citarse con guion final, por ejemplo <code>*AM-</code>; los afijos pueden mostrar el guion al inicio, a ambos lados o al final según su comportamiento morfológico.</p>
-  <p><span class="status prov">Provisional</span>Existe una tendencia de diseño a que la raíz sea semánticamente flexible y que parte de la categoría gramatical se determine mediante morfología. Esta flexibilidad no autoriza a derivar automáticamente formas no documentadas.</p>
+  <p><span class="status canon">Canónico</span>La lengua deriva históricamente del Esperanto, pero no se trata como una simple reforma ortográfica. Las raíces y morfemas pueden conservar material heredado, sufrir reanálisis o ser innovaciones propias.</p>
+  <p><span class="status canon">Canónico</span>Las formas de cita del léxico llevan asterisco y al menos un guion. Una raíz ordinaria suele citarse con guion final, por ejemplo <code>*AM-</code>; los afijos pueden llevar guion inicial, final o a ambos lados.</p>
 </section>
 
 <section class="doc-section">
-  <h2>2. Predicación y morfología verbal</h2>
-  <p>Las terminaciones heredadas del Esperanto no conservan necesariamente sus antiguos valores temporales. El léxico vigente documenta al menos las siguientes funciones:</p>
-  <div class="table-wrap"><table class="compact-table"><thead><tr><th>Morfema</th><th>Estado</th><th>Función documentada</th></tr></thead><tbody>
-    <tr><td><code>*-AS</code></td><td><span class="status canon">Canónico</span></td><td>verbo activo</td></tr>
-    <tr><td><code>*-OS</code></td><td><span class="status canon">Canónico</span></td><td>verbo intransitivo</td></tr>
-    <tr><td><code>*-IS</code></td><td><span class="status canon">Canónico</span></td><td>adjetivo / participio pasivo</td></tr>
-    <tr><td><code>*-ES</code></td><td><span class="status prov">Provisional</span></td><td>Notas antiguas lo describen como estativo o impersonal, pero el léxico vigente no lo documenta todavía como terminación verbal general.</td></tr>
+  <h2>2. Morfemas predicativos</h2>
+  <p><span class="status canon">Canónico</span>Los cuatro morfemas predicativos básicos expresan alineamiento semántico, voz o tipo de predicación; no son tiempos verbales.</p>
+  <div class="table-wrap"><table class="compact-table"><thead><tr><th>Morfema</th><th>Valor canónico</th></tr></thead><tbody>
+    <tr><td><code>-AS</code></td><td><strong>agentivo</strong></td></tr>
+    <tr><td><code>-OS</code></td><td><strong>absolutivo dinámico</strong></td></tr>
+    <tr><td><code>-IS</code></td><td><strong>absolutivo pasivo</strong> o <strong>absolutivo impersonal</strong></td></tr>
+    <tr><td><code>-ES</code></td><td><strong>estativo</strong></td></tr>
   </tbody></table></div>
-
-  <h3>Interpretación semántica</h3>
-  <p><span class="status prov">Provisional</span>La documentación anterior desarrolla <code>-as</code> como predicación activa/agentiva, <code>-os</code> como predicación dinámica o intransitiva y <code>-is</code> como resultado, cualidad o pasivo. Estas precisiones son compatibles con las glosas actuales, pero necesitan ejemplos sintácticos canónicos antes de considerarse un paradigma completo.</p>
-  <p><span class="status canon">Canónico</span>No debe analizarse automáticamente <code>-as</code> como presente, <code>-is</code> como pasado ni <code>-os</code> como futuro, porque en el léxico actual esos morfemas tienen funciones de voz, valencia o categoría.</p>
-
-  <h3>Aspecto y formas relacionadas</h3>
-  <div class="table-wrap"><table class="compact-table"><thead><tr><th>Morfema</th><th>Función documentada</th></tr></thead><tbody>
-    <tr><td><code>*A-</code></td><td>causativo</td></tr>
-    <tr><td><code>*-AN</code></td><td>durativo</td></tr>
-    <tr><td><code>*-AND-</code></td><td>gerundivo activo</td></tr>
-    <tr><td><code>*-AT-</code></td><td>perfectivo</td></tr>
-    <tr><td><code>*-IN</code></td><td>participio animante</td></tr>
-    <tr><td><code>*-MU</code></td><td>gerundivo</td></tr>
-    <tr><td><code>*-TOS</code></td><td>intransitivo perfectivo</td></tr>
-    <tr><td><code>*E-</code></td><td>tiempo imperfecto</td></tr>
-    <tr><td><code>*-AĈ-</code></td><td>intensificativo verbal</td></tr>
-  </tbody></table></div>
-  <p class="source-note">Estos valores están documentados como entradas morfológicas en el léxico. Su orden relativo, compatibilidad mutua y realización en palabras completas todavía no están formalizados.</p>
+  <p><span class="status discard">Descartado</span>Las descripciones anteriores «verbo activo», «verbo intransitivo» y «adjetivo/participio pasivo» son glosas antiguas demasiado amplias. La terminología canónica es la tabla anterior.</p>
 </section>
 
 <section class="doc-section">
   <h2>3. Tiempo, aspecto y modo</h2>
-  <p><span class="status canon">Canónico</span>El tiempo verbal no se identifica con las antiguas terminaciones esperantistas <code>-as/-is/-os</code>.</p>
-  <p><span class="status canon">Canónico</span>Existe al menos un morfema <code>*E-</code> glosado como «tiempo imperfecto» y morfemas aspectuales como <code>*-AT-</code> «perfectivo», <code>*-AN</code> «durativo» y <code>*-TOS</code> «intransitivo perfectivo».</p>
-  <p><span class="status open">Abierto</span>No está documentado un paradigma completo de presente/pasado/futuro, ni la posición exacta de estos morfemas, ni su interacción con modalidad, negación o subordinación.</p>
-  <p><span class="status canon">Canónico</span>La partícula <code>*ŜU-</code> está documentada como optativa y <code>*ΘI-</code> como partícula pasiva. Su sintaxis detallada sigue abierta.</p>
+  <p><span class="status canon">Canónico</span>El sistema temporal y modal se superpone a los cuatro tipos predicativos. Las formas no mencionadas aquí no se reconstruyen automáticamente.</p>
+
+  <h3>3.1. Pretérito arcaico</h3>
+  <p><code>E-</code> marca <strong>pretérito arcaico</strong>. Es plenamente funcional únicamente con <code>-IS</code> y <code>-ES</code>, precisamente los dos tipos que no poseen pretérito moderno.</p>
+  <p class="code-line">E- + raíz + -IS / -ES</p>
+
+  <h3>3.2. Pretérito moderno</h3>
+  <div class="table-wrap"><table class="compact-table"><thead><tr><th>Forma</th><th>Correspondencia</th></tr></thead><tbody>
+    <tr><td><code>-AJS</code></td><td>pretérito moderno de la serie agentiva <code>-AS</code></td></tr>
+    <tr><td><code>-OJS</code></td><td>pretérito moderno de la serie absolutiva dinámica <code>-OS</code></td></tr>
+  </tbody></table></div>
+  <p class="source-note">No se documentan formas modernas equivalentes para <code>-IS</code> ni <code>-ES</code>; estas emplean el pretérito arcaico con <code>E-</code>.</p>
+
+  <h3>3.3. Pretérito imperfecto</h3>
+  <p><span class="status canon">Canónico</span>Serie completa:</p>
+  <p class="code-line">-EVAS · -EVOS · -EVES · -EVIS</p>
+
+  <h3>3.4. Abilitativo</h3>
+  <p><span class="status canon">Canónico</span>Formas documentadas:</p>
+  <p class="code-line">-OVAS · -OVOS · -OVIS</p>
+  <p class="source-note">No se añade una forma estativa en <code>-ES</code> porque no ha sido definida.</p>
+
+  <h3>3.5. Futuro</h3>
+  <p><span class="status canon">Canónico</span>Formas documentadas:</p>
+  <p class="code-line">-ESAS · -ESOS · -ESIS</p>
+  <p class="source-note">No se añade una cuarta forma por analogía.</p>
+
+  <h3>3.6. Solitivo</h3>
+  <p><span class="status canon">Canónico</span>Formas documentadas:</p>
+  <p class="code-line">-USAS · -USOS · -USIS</p>
+  <p class="source-note">No se añade una cuarta forma por analogía.</p>
+
+  <h3>3.7. Condicional / irrealis</h3>
+  <p><span class="status canon">Canónico</span>Formas documentadas:</p>
+  <p class="code-line">-URAS · -UROS · -URIS</p>
+  <p class="source-note">La categoría se describe actualmente como condicional o irrealis. No se añade una forma en <code>-ES</code> sin decisión explícita.</p>
+
+  <h3>3.8. Otros morfemas aspectuales documentados</h3>
+  <div class="table-wrap"><table class="compact-table"><thead><tr><th>Morfema</th><th>Función documentada</th></tr></thead><tbody>
+    <tr><td><code>A-</code></td><td>causativo</td></tr>
+    <tr><td><code>-AN</code></td><td>durativo</td></tr>
+    <tr><td><code>-AND-</code></td><td>gerundivo activo</td></tr>
+    <tr><td><code>-AT-</code></td><td>perfectivo</td></tr>
+    <tr><td><code>-IN</code></td><td>participio animante</td></tr>
+    <tr><td><code>-MU</code></td><td>gerundivo</td></tr>
+    <tr><td><code>-TOS</code></td><td>intransitivo perfectivo</td></tr>
+    <tr><td><code>-AĈ-</code></td><td>intensificativo verbal</td></tr>
+  </tbody></table></div>
 </section>
 
 <section class="doc-section">
-  <h2>4. Casos y relaciones nominales</h2>
-  <p><span class="status canon">Canónico</span>Los paradigmas pronominales distinguen una forma básica y columnas funcionales de <strong>ergativo</strong>, <strong>alativo/dativo</strong>, <strong>genitivo/ablativo</strong> y <strong>colectivo</strong>.</p>
-  <p>Ejemplo documentado de primera persona:</p>
+  <h2>4. Géneros nominales y clases derivativas</h2>
+  <p><span class="status canon">Canónico</span>La lengua clasifica nombres y derivados mediante terminaciones que funcionan como géneros o clases morfológicas.</p>
+  <div class="table-wrap"><table class="compact-table"><thead><tr><th>Terminación</th><th>Valor canónico</th></tr></thead><tbody>
+    <tr><td><code>-O</code></td><td>inanimados</td></tr>
+    <tr><td><code>-A</code></td><td>dinamismos abstractos; acciones nominalizadas</td></tr>
+    <tr><td><code>-ON</code></td><td>humanos no agentivos</td></tr>
+    <tr><td><code>-AN</code></td><td>humanos agentivos</td></tr>
+    <tr><td><code>-AR</code></td><td>participio agentivo</td></tr>
+    <tr><td><code>-OR</code></td><td>participio absolutivo</td></tr>
+    <tr><td><code>-AL</code></td><td>género locativo</td></tr>
+    <tr><td><code>-E</code></td><td>incontables</td></tr>
+  </tbody></table></div>
+</section>
+
+<section class="doc-section">
+  <h2>5. Adjetivos</h2>
+  <div class="table-wrap"><table class="compact-table"><thead><tr><th>Terminación</th><th>Función</th></tr></thead><tbody>
+    <tr><td><code>-EL</code></td><td>adjetivo derivado directamente del nomen</td></tr>
+    <tr><td><code>-OL</code></td><td>adjetivo de abundancia o parecido</td></tr>
+    <tr><td><code>-ER</code></td><td>adjetivo primario, no derivado</td></tr>
+    <tr><td><code>-UR</code></td><td>adjetivo superlativo</td></tr>
+  </tbody></table></div>
+  <p><span class="status canon">Canónico</span>Ejemplo de derivación nominal directa: <code>kordo</code> «corazón» → <code>kordel</code> «cardíaco».</p>
+</section>
+
+<section class="doc-section">
+  <h2>6. Adverbios</h2>
+  <div class="table-wrap"><table class="compact-table"><thead><tr><th>Terminación</th><th>Función</th></tr></thead><tbody>
+    <tr><td><code>-UK</code></td><td>adverbial</td></tr>
+    <tr><td><code>-AM</code></td><td>adverbial de tiempo</td></tr>
+    <tr><td><code>-AF</code></td><td>adverbial</td></tr>
+  </tbody></table></div>
+</section>
+
+<section class="doc-section">
+  <h2>7. Número</h2>
+  <p><span class="status canon">Canónico</span>El plural depende de la clase nominal. Se documentan estas correspondencias:</p>
+  <div class="table-wrap"><table class="compact-table"><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody>
+    <tr><td><code>-O</code></td><td><code>-I</code></td></tr>
+    <tr><td><code>-ON</code></td><td><code>-ONI</code></td></tr>
+    <tr><td><code>-AN</code></td><td><code>-ANI</code></td></tr>
+    <tr><td><code>-A</code></td><td><code>-AJ</code></td></tr>
+  </tbody></table></div>
+  <p class="source-note">No se extrapolan plurales para las demás clases hasta que sean definidos explícitamente.</p>
+</section>
+
+<section class="doc-section">
+  <h2>8. Casos y relaciones pronominales</h2>
+  <p><span class="status canon">Canónico</span>Los paradigmas pronominales distinguen una forma básica y columnas funcionales de ergativo, alativo/dativo, genitivo/ablativo y colectivo.</p>
   <p class="code-line">mi = yo | ma / mu | min | mes | mek = conmigo</p>
-  <p>La primera columna es la forma de cita; las siguientes corresponden, en el orden del documento pronominal, a ergativo, alativo/dativo, genitivo/ablativo y colectivo.</p>
-  <p><span class="status open">Abierto</span>No está demostrado que las terminaciones de un pronombre sean sufijos nominales universales. Por tanto, la antigua descripción que trataba <code>ma / mi / mis / min / mek</code> como un juego general de casos nominales no se considera actualmente una regla segura.</p>
+  <p><span class="status open">Abierto</span>La extensión exacta de estas flexiones a los nombres generales todavía debe documentarse; no se reconstruye automáticamente a partir de los pronombres.</p>
   <p>Los paradigmas completos se mantienen en <a href="pronombres.html">pronombres.html</a>.</p>
 </section>
 
 <section class="doc-section">
-  <h2>5. Pronombres y número</h2>
-  <p><span class="status canon">Canónico</span>La documentación distingue varias series morfológicas pronominales: una serie en <code>-i</code>, otra en <code>-a</code>, una serie plural en <code>-oj</code> y series posesivas, entre ellas formas en <code>-el</code>.</p>
-  <p><span class="status canon">Canónico</span>Existe oposición de número dentro de los pronombres; por ejemplo, se documentan series singulares y plurales diferenciadas.</p>
-  <p><span class="status open">Abierto</span>La existencia de estas oposiciones no establece por sí sola un sufijo general de plural para todos los sustantivos. El número nominal general todavía requiere una regla explícita.</p>
-  <p><span class="status open">Pendiente documental</span>El archivo de pronombres conserva algunas grafías antiguas con carón (<code>č, š, ž</code>). La ortografía vigente exige circunflejo (<code>ĉ, ŝ, ẑ</code>); esas formas deben normalizarse en el propio archivo de pronombres sin alterar sus paradigmas.</p>
+  <h2>9. Artículos, deixis y correlativos</h2>
+  <p><span class="status canon">Canónico</span>El paradigma pronominal documenta <code>to</code> como artículo inanimado singular y <code>ti</code> como contraparte plural, además de series correlativas interrogativas y demostrativas.</p>
+  <p><span class="status open">Abierto</span>La sintaxis completa de determinantes, posición respecto al nombre y compatibilidad con las clases nominales todavía requiere formalización.</p>
 </section>
 
 <section class="doc-section">
-  <h2>6. Artículos, deixis y correlativos</h2>
-  <p><span class="status canon">Canónico</span>El paradigma pronominal actual documenta <code>to</code> como artículo inanimado singular («el inanimado») y <code>ti</code> como su contraparte plural («los, inanimado»), con formas flexionadas propias.</p>
-  <p><span class="status canon">Canónico</span>También existe un sistema correlativo organizado por series semánticas. Normalizando la ortografía a la convención vigente, aparecen bases como:</p>
-  <div class="table-wrap"><table class="compact-table"><thead><tr><th>Forma</th><th>Valor documentado</th></tr></thead><tbody>
-    <tr><td><code>ĉom</code></td><td>¿cuánto?</td></tr>
-    <tr><td><code>ĉam</code></td><td>¿cuándo?</td></tr>
-    <tr><td><code>ĉok</code></td><td>¿dónde?</td></tr>
-    <tr><td><code>ĉor</code></td><td>¿de qué forma?, ¿cómo?</td></tr>
-    <tr><td><code>ĉaj</code></td><td>¿por qué?</td></tr>
-  </tbody></table></div>
-  <p><span class="status open">Abierto</span>La antigua lista <code>to / ĝo / ĝi / la / li</code> como cinco artículos no coincide de forma clara con el paradigma actual y no se toma como inventario canónico de artículos sin una nueva decisión explícita.</p>
-</section>
-
-<section class="doc-section">
-  <h2>7. Negación e interrogación</h2>
+  <h2>10. Negación e interrogación</h2>
   <p><span class="status canon">Canónico</span>El léxico documenta <code>*NE-</code> con valor de negación y <code>*N-</code> con glosa «no».</p>
-  <p><span class="status canon">Canónico</span><code>*ĈU-</code> está documentado como interrogativo, y la serie correlativa interrogativa emplea <code>ĉ-</code>.</p>
-  <p><span class="status open">Abierto</span>No está formalizada la posición sintáctica de la negación, el alcance de <code>ĉu</code>, la entonación interrogativa ni la interacción con foco.</p>
+  <p><span class="status canon">Canónico</span><code>*ĈU-</code> está documentado como interrogativo y la serie correlativa interrogativa emplea <code>ĉ-</code>.</p>
+  <p><span class="status open">Abierto</span>Su posición sintáctica, alcance, interacción con foco y entonación no están formalizados.</p>
 </section>
 
 <section class="doc-section">
-  <h2>8. Derivación</h2>
-  <p><span class="status canon">Canónico</span>La derivación es productiva y el léxico contiene numerosos afijos especializados. Entre los ya documentados están:</p>
-  <div class="table-wrap"><table class="compact-table"><thead><tr><th>Morfema</th><th>Glosa</th></tr></thead><tbody>
-    <tr><td><code>*AG-</code></td><td>aumentativo</td></tr>
-    <tr><td><code>*-ĈO</code></td><td>diminutivo</td></tr>
-    <tr><td><code>*-EL</code></td><td>posesivo adjetivo</td></tr>
-    <tr><td><code>*-ER</code></td><td>locativo</td></tr>
-    <tr><td><code>*-OR</code></td><td>colectivo</td></tr>
-    <tr><td><code>*-EẐA</code></td><td>cualidad abstracta</td></tr>
-    <tr><td><code>*-URA</code></td><td>cualidad abstracta</td></tr>
-    <tr><td><code>*-RO</code></td><td>masculino</td></tr>
-    <tr><td><code>*-U</code></td><td>masculino</td></tr>
-  </tbody></table></div>
-  <p><span class="status open">Abierto</span>Cuando dos afijos comparten una glosa, como los dos marcadores de «masculino» o los dos de «cualidad abstracta», no se infiere una distribución. Puede tratarse de alomorfía, estratos históricos, competencia derivativa o funciones diferentes todavía no documentadas.</p>
+  <h2>11. Sintaxis</h2>
+  <p><span class="status open">Abierto</span>El orden básico de constituyentes no está canonizado. Tampoco están fijadas de forma general la posición del adjetivo, la subordinación, coordinación, relativos ni la estructura informativa.</p>
 </section>
 
 <section class="doc-section">
-  <h2>9. Sintaxis</h2>
-  <p><span class="status open">Abierto</span>El orden básico de constituyentes no está canonizado. No debe suponerse automáticamente SVO por herencia del Esperanto.</p>
-  <p><span class="status open">Abierto</span>Tampoco están fijadas de manera general la posición del adjetivo, la concordancia, la subordinación, la coordinación, los relativos, la topicalización ni el orden interno de los morfemas verbales.</p>
-  <p><span class="status prov">Provisional</span>La riqueza de flexión pronominal y las marcas de relación favorecen potencialmente cierta libertad de orden, pero esto es una inferencia tipológica, no una regla canónica.</p>
-</section>
-
-<section class="doc-section">
-  <h2>10. Composición y categorías léxicas</h2>
-  <p><span class="status canon">Canónico</span>El léxico admite raíces simples, raíces con estructura interna marcada por guiones y afijos productivos.</p>
-  <p><span class="status prov">Provisional</span>La composición se considera un mecanismo importante de creación léxica, pero todavía no existe una regla completa para encuentros consonánticos, reducción de miembros, acento o lexicalización.</p>
-</section>
-
-<section class="doc-section">
-  <h2>11. Reanálisis histórico</h2>
-  <p><span class="status canon">Canónico</span>La lengua puede reutilizar material del Esperanto con funciones nuevas. El cambio funcional de <code>-as</code>, <code>-is</code> y <code>-os</code> es el ejemplo más claro: sus funciones actuales no son las temporales del Esperanto estándar.</p>
-  <p><span class="status prov">Provisional</span>La analogía, la erosión, la gramaticalización y la nivelación paradigmática son mecanismos admitidos para explicar la historia interna, pero cada cambio concreto debe documentarse antes de aplicarse productivamente.</p>
-</section>
-
-<section class="doc-section">
-  <h2>12. Cuestiones todavía abiertas</h2>
-  <p>No están completamente canonizados, entre otros: el paradigma nominal de casos, plural nominal, orden básico, concordancia, sistema temporal completo, modalidad, imperativo, infinitivo, jerarquía de afijos, subordinación, relativos, posesión nominal general y distribución exacta de varios morfemas homónimos.</p>
-  <p>La ausencia de una regla en esta página no autoriza a completarla por analogía. Para formas concretas deben consultarse también <a href="lexico.html">lexico.html</a> y <a href="pronombres.html">pronombres.html</a>.</p>
+  <h2>12. Pendientes documentales</h2>
+  <p><span class="status open">Pendiente</span>El léxico todavía contiene algunas glosas antiguas para morfemas que ahora han sido redefinidos, especialmente <code>-AS</code>, <code>-OS</code>, <code>-IS</code>, <code>E-</code>, <code>-EL</code>, <code>-ER</code>, <code>-OR</code> y otras terminaciones de clase. Debe sincronizarse <a href="lexico.html">lexico.html</a> con esta gramática sin alterar raíces no relacionadas.</p>
+  <p><span class="status open">Pendiente</span>El archivo de pronombres conserva grafías antiguas con carón; la ortografía vigente exige circunflejo.</p>
 </section>
 </main>
 <footer class="page-footer"><div class="wrap">Fuente canónica de trabajo del proyecto.</div></footer>
