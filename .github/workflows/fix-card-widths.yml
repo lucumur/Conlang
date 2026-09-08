@@ -1,0 +1,38 @@
+name: Fix lexicon card widths
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-card-widths.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fix card content widths
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('lexico.html')
+          s=p.read_text(encoding='utf-8')
+          old='.lex-card-view .lex-table tbody td{display:grid;grid-template-columns:76px minmax(0,1fr);column-gap:10px;align-items:start;border:0;padding:5px 0}'
+          new='.lex-card-view .lex-table tbody td{display:grid;grid-template-columns:76px minmax(0,1fr);column-gap:10px;align-items:start;border:0;padding:5px 0;width:100%;max-width:none}.lex-card-view .lex-table tbody td.form,.lex-card-view .lex-table tbody td.gloss,.lex-card-view .lex-table tbody td.tags{width:100%}'
+          if old not in s:
+              raise SystemExit('No se encontro el bloque CSS esperado')
+          s=s.replace(old,new,1)
+          old2='.lex-card-view .lex-table tbody td.tags>.cell-value{display:flex;flex-wrap:wrap;align-items:center;gap:5px 6px}'
+          new2='.lex-card-view .lex-table tbody td.tags>.cell-value{display:flex;flex-wrap:wrap;align-items:center;gap:5px 6px;width:100%}.lex-card-view .lex-table tbody td.tags>.cell-value .tag{white-space:nowrap;flex:0 0 auto}.lex-card-view .entry-note.etymology{white-space:normal;overflow-wrap:normal;word-break:normal}'
+          if old2 not in s:
+              raise SystemExit('No se encontro el bloque de etiquetas esperado')
+          s=s.replace(old2,new2,1)
+          p.write_text(s,encoding='utf-8')
+          PY
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico.html
+          git commit -m "Corregir ancho de contenido en tarjetas"
+          git push
