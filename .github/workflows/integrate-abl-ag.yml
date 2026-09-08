@@ -20,71 +20,73 @@ jobs:
           from pathlib import Path
           import re
 
-          p=Path('lexico.html')
-          s=p.read_text(encoding='utf-8')
+          p = Path('lexico.html')
+          s = p.read_text(encoding='utf-8')
 
-          css='''
-/* derived lexemes */
-.derived-panel{margin-top:8px;border-top:1px dashed var(--line);padding-top:7px}.derived-panel summary{cursor:pointer;font-weight:800;color:var(--accent);font-size:.86rem;user-select:none}.derived-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:10px}.derived-entry{border:1px solid var(--line);border-radius:12px;background:var(--paper);padding:10px 12px}.derived-word{display:flex;align-items:center;justify-content:space-between;gap:8px}.derived-word code{font-size:1rem;font-weight:800}.derived-gloss{margin-top:4px}.derived-analysis{margin-top:7px;color:var(--muted);font-size:.8rem}.derived-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.morph-link{display:inline-block;padding:1px 6px;border-radius:999px;border:1px solid var(--line);text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.78rem;background:#fff}.morph-link:hover{border-color:var(--accent)}
-'''
+          css = """
+          /* derived lexemes */
+          .derived-panel{margin-top:8px;border-top:1px dashed var(--line);padding-top:7px}.derived-panel summary{cursor:pointer;font-weight:800;color:var(--accent);font-size:.86rem;user-select:none}.derived-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:10px}.derived-entry{border:1px solid var(--line);border-radius:12px;background:var(--paper);padding:10px 12px}.derived-word{display:flex;align-items:center;justify-content:space-between;gap:8px}.derived-word code{font-size:1rem;font-weight:800}.derived-gloss{margin-top:4px}.derived-analysis{margin-top:7px;color:var(--muted);font-size:.8rem}.derived-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.morph-link{display:inline-block;padding:1px 6px;border-radius:999px;border:1px solid var(--line);text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.78rem;background:#fff}.morph-link:hover{border-color:var(--accent)}
+          """
           if '/* derived lexemes */' not in s:
-              pos=s.find('</style>')
-              if pos<0: raise SystemExit('No </style>')
-              s=s[:pos]+css+s[pos:]
+              pos = s.find('</style>')
+              if pos < 0:
+                  raise SystemExit('No </style>')
+              s = s[:pos] + css + s[pos:]
 
-          # Ensure internal suffix anchors exist.
-          def add_id(form, gloss_fragment, idv):
-              nonlocal_s=[s]
-              pat=re.compile(r'(<tr><td class="form"><code)(>\*'+re.escape(form)+r'</code></td><td class="gloss">'+re.escape(gloss_fragment)+r')')
-              ns,n=pat.subn(r'\1 id="'+idv+r'"\2', nonlocal_s[0], count=1)
-              return ns,n
+          def anchor(form, gloss, ident):
+              global s
+              if f'id="{ident}"' in s:
+                  return
+              needle = f'<code>*{form}</code></td><td class="gloss">{gloss}'
+              repl = f'<code id="{ident}">*{form}</code></td><td class="gloss">{gloss}'
+              if needle in s:
+                  s = s.replace(needle, repl, 1)
+              else:
+                  print('WARN missing anchor', form, gloss)
 
-          targets=[
-            ('-ES','estativo','morph-es'),
-            ('-AS','agentivo','morph-as'),
-            ('-OS','absolutivo dinámico','morph-os'),
-            ('-IN','participio animante','morph-in'),
-            ('-ẐA','nominalizador abstracto; cualidad, capacidad o estado','morph-zha'),
-            ('-IST','dedicacion','morph-ist'),
-            ('-AN','humano agentivo','morph-an'),
-            ('-URA','cualidad abstracta','morph-ura'),
-            ('-AJ','plural de -A','morph-aj'),
-          ]
-          for form,gloss,idv in targets:
-              if f'id="{idv}"' not in s:
-                  s,n=add_id(form,gloss,idv)
-                  if n!=1: print('WARN anchor',form,gloss,n)
+          anchor('-ES', 'estativo', 'morph-es')
+          anchor('-AS', 'agentivo', 'morph-as')
+          anchor('-OS', 'absolutivo dinámico', 'morph-os')
+          anchor('-IN', 'participio animante', 'morph-in')
+          anchor('-ẐA', 'nominalizador abstracto; cualidad, capacidad o estado', 'morph-zha')
+          anchor('-IST', 'dedicacion', 'morph-ist')
+          anchor('-AN', 'humano agentivo', 'morph-an')
+          anchor('-URA', 'cualidad abstracta', 'morph-ura')
+          anchor('-AJ', 'plural de -A', 'morph-aj')
 
-          # Add attested but semantically undefined -IT- if absent.
           if '*-IT-' not in s:
-              m=re.search(r'(<section class="lex-section" id="sec-i">.*?<tbody>)',s,re.S)
-              if not m: raise SystemExit('No sec-i')
-              row='<tr><td class="form"><code id="morph-it">*-IT-</code></td><td class="gloss">[función por definir; atestiguado en ablitas y agitas]</td><td class="tags"><span class="tag generic">sufijo</span><span class="meta-extra">[REVISAR]</span></td></tr>'
-              s=s[:m.end()]+row+s[m.end():]
+              m = re.search(r'(<section class="lex-section" id="sec-i">.*?<tbody>)', s, re.S)
+              if not m:
+                  raise SystemExit('No sec-i')
+              row = '<tr><td class="form"><code id="morph-it">*-IT-</code></td><td class="gloss">[función por definir; atestiguado en ablitas y agitas]</td><td class="tags"><span class="tag generic">sufijo</span><span class="meta-extra">[REVISAR]</span></td></tr>'
+              s = s[:m.end()] + row + s[m.end():]
           elif 'id="morph-it"' not in s:
-              s=s.replace('<code>*-IT-</code>','<code id="morph-it">*-IT-</code>',1)
+              s = s.replace('<code>*-IT-</code>', '<code id="morph-it">*-IT-</code>', 1)
 
-          # Add semiproductive internal -OL- entry if absent, using the accepted analysis.
           if '<code id="morph-ol">*-OL-</code>' not in s:
-              m=re.search(r'(<section class="lex-section" id="sec-o">.*?<tbody>)',s,re.S)
-              if not m: raise SystemExit('No sec-o')
-              row='<tr><td class="form"><code id="morph-ol">*-OL-</code></td><td class="gloss">caracterizativo/similativo; forma temas de semejanza, papel o representación</td><td class="tags"><span class="tag generic">sufijo</span></td></tr>'
-              s=s[:m.end()]+row+s[m.end():]
+              m = re.search(r'(<section class="lex-section" id="sec-o">.*?<tbody>)', s, re.S)
+              if not m:
+                  raise SystemExit('No sec-o')
+              row = '<tr><td class="form"><code id="morph-ol">*-OL-</code></td><td class="gloss">caracterizativo/similativo; forma temas de semejanza, papel o representación</td><td class="tags"><span class="tag generic">sufijo</span></td></tr>'
+              s = s[:m.end()] + row + s[m.end():]
 
-          abl_details='''<span class="root-gloss">ser capaz</span><details class="derived-panel"><summary>5 palabras derivadas</summary><div class="derived-grid">
+          abl_details = """
+          <span class="root-gloss">ser capaz</span><details class="derived-panel"><summary>5 palabras derivadas</summary><div class="derived-grid">
           <article class="derived-entry"><div class="derived-word"><code>ables</code></div><div class="derived-gloss">ser capaz, tener capacidad</div><div class="derived-analysis">ABL + <a class="morph-link" href="#morph-es">-ES</a></div><div class="derived-tags"><span class="tag generic">Predicado ES</span></div></article>
           <article class="derived-entry"><div class="derived-word"><code>ablitas</code></div><div class="derived-gloss">habilitar, capacitar</div><div class="derived-analysis">ABL + <a class="morph-link" href="#morph-it">-IT-</a> + <a class="morph-link" href="#morph-as">-AS</a></div><div class="derived-tags"><span class="tag generic">Predicado AS</span></div></article>
           <article class="derived-entry"><div class="derived-word"><code>ableẑa</code></div><div class="derived-gloss">capacidad, habilidad</div><div class="derived-analysis">ABL(E) + <a class="morph-link" href="#morph-zha">-ẐA</a></div><div class="derived-tags"><span class="tag generic">Nomen A</span></div></article>
           <article class="derived-entry"><div class="derived-word"><code>ablin</code></div><div class="derived-gloss">que puede, válido</div><div class="derived-analysis">ABL + <a class="morph-link" href="#morph-in">-IN</a></div><div class="derived-tags"><span class="tag generic">Humano IN</span></div></article>
           <article class="derived-entry"><div class="derived-word"><code>malablin</code></div><div class="derived-gloss">inválido, discapacitado</div><div class="derived-analysis">MAL + ABL + <a class="morph-link" href="#morph-in">-IN</a></div><div class="derived-tags"><span class="tag generic">Humano IN</span></div></article>
-          </div></details>'''
+          </div></details>
+          """
+          pat = re.compile(r'<tr><td class="form"><code>\*ABL-</code></td><td class="gloss">ser capaz</td><td class="tags">.*?</td></tr>')
+          repl = '<tr class="lex-root-row"><td class="form"><code>*ABL-</code></td><td class="gloss">' + abl_details + '</td><td class="tags"><span class="tag generic">Raiz</span><span class="tag latin">Latin</span></td></tr>'
+          s, n = pat.subn(repl, s, count=1)
+          if n != 1 and '5 palabras derivadas' not in s:
+              raise SystemExit(f'ABL replace {n}')
 
-          pat_abl=re.compile(r'<tr><td class="form"><code>\*ABL-</code></td><td class="gloss">ser capaz</td><td class="tags">(.*?)</td></tr>')
-          repl_abl='<tr class="lex-root-row"><td class="form"><code>*ABL-</code></td><td class="gloss">'+abl_details+'</td><td class="tags"><span class="tag generic">Raiz</span><span class="tag latin">Latin</span></td></tr>'
-          s,n=pat_abl.subn(repl_abl,s,count=1)
-          if n!=1 and '5 palabras derivadas' not in s: raise SystemExit(f'ABL replace {n}')
-
-          ag_details='''<span class="root-gloss">comportarse</span><details class="derived-panel"><summary>8 palabras derivadas</summary><div class="derived-grid">
+          ag_details = """
+          <span class="root-gloss">comportarse</span><details class="derived-panel"><summary>8 palabras derivadas</summary><div class="derived-grid">
           <article class="derived-entry"><div class="derived-word"><code>agos</code></div><div class="derived-gloss">comportarse, portarse</div><div class="derived-analysis">AG + <a class="morph-link" href="#morph-os">-OS</a></div><div class="derived-tags"><span class="tag generic">Predicado OS</span></div></article>
           <article class="derived-entry"><div class="derived-word"><code>agitas</code></div><div class="derived-gloss">tratar a alguien, manejar un problema</div><div class="derived-analysis">AG + <a class="morph-link" href="#morph-it">-IT-</a> + <a class="morph-link" href="#morph-as">-AS</a></div><div class="derived-tags"><span class="tag generic">Predicado AS</span></div></article>
           <article class="derived-entry"><div class="derived-word"><code>agolos</code></div><div class="derived-gloss">actuar, interpretar</div><div class="derived-analysis">AG + <a class="morph-link" href="#morph-ol">-OL-</a> + <a class="morph-link" href="#morph-os">-OS</a></div><div class="derived-tags"><span class="tag generic">Predicado OS</span></div></article>
@@ -93,37 +95,37 @@ jobs:
           <article class="derived-entry"><div class="derived-word"><code>agura</code></div><div class="derived-gloss">comportamiento</div><div class="derived-analysis">AG + <a class="morph-link" href="#morph-ura">-URA</a></div><div class="derived-tags"><span class="tag generic">Nomen A</span></div></article>
           <article class="derived-entry"><div class="derived-word"><code>agolura</code></div><div class="derived-gloss">actuación</div><div class="derived-analysis">AG + <a class="morph-link" href="#morph-ol">-OL-</a> + <a class="morph-link" href="#morph-ura">-URA</a></div><div class="derived-tags"><span class="tag generic">Nomen A</span></div></article>
           <article class="derived-entry"><div class="derived-word"><code>bonagaj</code></div><div class="derived-gloss">modales</div><div class="derived-analysis">BON + AG + <a class="morph-link" href="#morph-aj">-AJ</a></div><div class="derived-tags"><span class="tag generic">Nomen A plural</span></div></article>
-          </div></details>'''
+          </div></details>
+          """
+          pat = re.compile(r'<tr><td class="form"><code>\*AG-</code></td><td class="gloss">comportarse</td><td class="tags">.*?</td></tr>')
+          repl = '<tr class="lex-root-row"><td class="form"><code>*AG-</code></td><td class="gloss">' + ag_details + '</td><td class="tags"><span class="tag generic">Raiz</span><span class="tag latin">Latin</span></td></tr>'
+          s, n = pat.subn(repl, s, count=1)
+          if n != 1 and '8 palabras derivadas' not in s:
+              raise SystemExit(f'AG replace {n}')
 
-          pat_ag=re.compile(r'<tr><td class="form"><code>\*AG-</code></td><td class="gloss">comportarse</td><td class="tags">(.*?)</td></tr>')
-          repl_ag='<tr class="lex-root-row"><td class="form"><code>*AG-</code></td><td class="gloss">'+ag_details+'</td><td class="tags"><span class="tag generic">Raiz</span><span class="tag latin">Latin</span></td></tr>'
-          s,n=pat_ag.subn(repl_ag,s,count=1)
-          if n!=1 and '8 palabras derivadas' not in s: raise SystemExit(f'AG replace {n}')
+          js = """
+          <script>
+          (function(){
+            document.addEventListener("click",function(ev){
+              const a=ev.target.closest("a.morph-link");
+              if(!a)return;
+              const id=(a.getAttribute("href")||"").replace(/^#/,"");
+              const target=document.getElementById(id);
+              if(!target)return;
+              ev.preventDefault();
+              const input=document.getElementById("lex-search");
+              if(input&&input.value){input.value="";input.dispatchEvent(new Event("input",{bubbles:true}));}
+              requestAnimationFrame(()=>target.scrollIntoView({behavior:"smooth",block:"center"}));
+              history.replaceState(null,"","#"+id);
+            });
+          })();
+          </script>
+          """
+          if 'document.addEventListener("click",function(ev)' not in s:
+              pos = s.rfind('</body>')
+              s = s[:pos] + js + s[pos:]
 
-          # Internal links clear active search before jumping to suffix entry.
-          js='''
-<script>
-(function(){
-  document.addEventListener("click",function(ev){
-    const a=ev.target.closest("a.morph-link");
-    if(!a)return;
-    const id=(a.getAttribute("href")||"").replace(/^#/,"");
-    const target=document.getElementById(id);
-    if(!target)return;
-    ev.preventDefault();
-    const input=document.getElementById("lex-search");
-    if(input&&input.value){input.value="";input.dispatchEvent(new Event("input",{bubbles:true}));}
-    requestAnimationFrame(()=>target.scrollIntoView({behavior:"smooth",block:"center"}));
-    history.replaceState(null,"","#"+id);
-  });
-})();
-</script>
-'''
-          if 'a.morph-link' not in s[s.rfind('<script>'):]:
-              pos=s.rfind('</body>')
-              s=s[:pos]+js+s[pos:]
-
-          p.write_text(s,encoding='utf-8')
+          p.write_text(s, encoding='utf-8')
           PY
       - name: Commit changes
         run: |
