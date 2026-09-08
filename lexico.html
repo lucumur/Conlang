@@ -9,7 +9,7 @@
 
 <style>
 /* lex-search */
-.lex-search-box{margin:0 0 18px}.lex-search-box label{display:block;margin:0 0 7px;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.lex-search-row{display:flex;align-items:center;gap:12px}.lex-search-row input{width:min(680px,100%);padding:12px 15px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit;outline:none}.lex-search-row input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(67,56,202,.12)}#lex-search-count{color:var(--muted);font-size:.86rem;white-space:nowrap}.lex-section[hidden]{display:none}.lex-table tr[hidden]{display:none}@media(max-width:600px){.lex-search-row{align-items:flex-start;flex-direction:column}#lex-search-count{padding-left:2px}}
+.lex-search-box{margin:0 0 18px}.lex-search-box label{display:block;margin:0 0 7px;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.lex-search-row{display:flex;align-items:center;gap:12px}.lex-search-row input{width:min(680px,100%);padding:12px 15px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit;outline:none}.lex-search-row input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(67,56,202,.12)}#lex-search-count{color:var(--muted);font-size:.86rem;white-space:nowrap}.lex-search-help{margin-top:7px;color:var(--muted);font-size:.82rem}.lex-section[hidden]{display:none}.lex-table tr[hidden]{display:none}@media(max-width:600px){.lex-search-row{align-items:flex-start;flex-direction:column}#lex-search-count{padding-left:2px}}
 </style>
 </head>
 <body>
@@ -35,9 +35,10 @@
   <div class="lex-search-box">
     <label for="lex-search">Buscar en el léxico</label>
     <div class="lex-search-row">
-      <input id="lex-search" type="search" autocomplete="off" spellcheck="false" placeholder="Escribe una raíz, glosa o etiqueta…">
+      <input id="lex-search" type="search" autocomplete="off" spellcheck="false" placeholder="Ej.: griego AND animal · griego OR latin">
       <span id="lex-search-count" aria-live="polite"></span>
     </div>
+    <div class="lex-search-help">Usa <strong>AND</strong> para exigir ambos términos y <strong>OR</strong> para aceptar cualquiera. AND tiene prioridad sobre OR.</div>
   </div>
   <nav class="alphabet" aria-label="Índice alfabético"><a href="#sec-a">A</a><a href="#sec-b">B</a><a href="#sec-c">C</a><a href="#sec-circ-c">Ĉ</a><a href="#sec-d">D</a><a href="#sec-e">E</a><a href="#sec-f">F</a><a href="#sec-g">G</a><a href="#sec-circ-g">Ĝ</a><a href="#sec-i">I</a><a href="#sec-j">J</a><a href="#sec-k">K</a><a href="#sec-l">L</a><a href="#sec-m">M</a><a href="#sec-n">N</a><a href="#sec-o">O</a><a href="#sec-p">P</a><a href="#sec-r">R</a><a href="#sec-s">S</a><a href="#sec-circ-s">Ŝ</a><a href="#sec-t">T</a><a href="#sec-theta">Θ</a><a href="#sec-u">U</a><a href="#sec-v">V</a><a href="#sec-z">Z</a><a href="#sec-circ-z">Ẑ</a></nav>
   <section class="lex-section" id="sec-a">
@@ -278,7 +279,43 @@
 <footer class="page-footer"><div class="wrap">Fuente canónica de trabajo del proyecto.</div></footer>
 
 <script>
-(function(){const input=document.getElementById("lex-search"),count=document.getElementById("lex-search-count");if(!input)return;const sections=[...document.querySelectorAll(".lex-section")],rows=[...document.querySelectorAll(".lex-table tbody tr")],norm=s=>s.toLocaleLowerCase("es").trim();function filterLexicon(){const q=norm(input.value);let shown=0;rows.forEach(row=>{const match=!q||norm(row.textContent).includes(q);row.hidden=!match;if(match)shown++});sections.forEach(section=>{section.hidden=![...section.querySelectorAll("tbody tr")].some(r=>!r.hidden)});count.textContent=q?(shown+" resultado"+(shown===1?"":"s")):(rows.length+" entradas")}input.addEventListener("input",filterLexicon);filterLexicon()})();
+(function(){
+  const input=document.getElementById("lex-search"),count=document.getElementById("lex-search-count");
+  if(!input)return;
+  const sections=[...document.querySelectorAll(".lex-section")],rows=[...document.querySelectorAll(".lex-table tbody tr")];
+  const norm=s=>s.toLocaleLowerCase("es").trim();
+
+  function parseQuery(raw){
+    const q=norm(raw);
+    if(!q)return [];
+    return q.split(/\s+or\s+/i)
+      .map(group=>group.split(/\s+and\s+/i).map(term=>norm(term)).filter(Boolean))
+      .filter(group=>group.length);
+  }
+
+  function rowMatches(text,groups){
+    if(!groups.length)return true;
+    return groups.some(group=>group.every(term=>text.includes(term)));
+  }
+
+  function filterLexicon(){
+    const groups=parseQuery(input.value);
+    let shown=0;
+    rows.forEach(row=>{
+      const match=rowMatches(norm(row.textContent),groups);
+      row.hidden=!match;
+      if(match)shown++;
+    });
+    sections.forEach(section=>{
+      const visible=section.querySelectorAll("tbody tr:not([hidden])").length>0;
+      section.hidden=!visible;
+    });
+    count.textContent=input.value.trim()?(shown+" resultado"+(shown===1?"":"s")):(rows.length+" entradas");
+  }
+
+  input.addEventListener("input",filterLexicon);
+  filterLexicon();
+})();
 </script>
 </body>
 </html>
