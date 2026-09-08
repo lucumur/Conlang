@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Convert lexicon to static HTML
         run: python tools/repair_lexicon.py
       - name: Commit repaired lexicon
