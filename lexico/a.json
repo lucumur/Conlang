@@ -630,7 +630,7 @@
     },
     {
       "id": "root-aj",
-      "form": "*AJ-",
+      "form": "*AĴ-",
       "gloss": "hacer",
       "tags": [
         {
@@ -648,10 +648,198 @@
       ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": "Etym. Eo. agi → *AJ-",
+      "etymology": "Etym. Eo. agi → *AĴ-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-ajhas",
+          "form": "aĵas",
+          "gloss": "hacer",
+          "analysis_html": "AĴ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "AĴ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-ajhos",
+          "form": "aĵos",
+          "gloss": "hacerse",
+          "analysis_html": "AĴ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "AĴ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-ajhes",
+          "form": "aĵes",
+          "gloss": "estar hecho",
+          "analysis_html": "AĴ + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "AĴ + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-nejhas",
+          "form": "neĵas",
+          "gloss": "no hacer",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ne\">NE-</a> + AĴ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "NE- + AĴ + -AS",
+          "refs": [
+            {
+              "id": "morph-ne",
+              "label": "NE-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Auxiliar"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-ajhan",
+          "form": "aĵan",
+          "gloss": "agente",
+          "analysis_html": "AĴ + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "AĴ + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-ajhumur",
+          "form": "aĵumur",
+          "gloss": "facil",
+          "analysis_html": "AĴ + <a class=\"morph-link\" href=\"#morph-um\">-UM-</a> + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "AĴ + -UM- + -UR",
+          "refs": [
+            {
+              "id": "morph-um",
+              "label": "-UM-"
+            },
+            {
+              "id": "morph-ur-3",
+              "label": "-UR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo UR"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-ajha",
+          "form": "aĵa",
+          "gloss": "accion",
+          "analysis_html": "AĴ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "AĴ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-opajha",
+          "form": "opaĵa",
+          "gloss": "reaccion",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-op\">OP</a> + AĴ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "OP + AĴ + -A",
+          "refs": [
+            {
+              "id": "root-op",
+              "label": "OP"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-ajhumezha",
+          "form": "aĵumeẑa",
+          "gloss": "facilidad",
+          "analysis_html": "AĴ + <a class=\"morph-link\" href=\"#morph-um\">-UM-</a> + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "AĴ + -UM- + -EẐA",
+          "refs": [
+            {
+              "id": "morph-um",
+              "label": "-UM-"
+            },
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen abstracto"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-ajn-2",
