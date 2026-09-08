@@ -1,0 +1,170 @@
+name: Add AJH lexical family
+on:
+  push:
+    paths:
+      - '.github/workflows/add-ajh-family.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update lexicon phonology and grammar
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          def tag(label):
+              return {"class":"generic","label":label}
+
+          # --- AĴ root and repertoire ---
+          ap = Path('lexico/a.json')
+          data = json.loads(ap.read_text(encoding='utf-8'))
+          entries = {e['id']: e for e in data['entries']}
+          root = entries['root-aj']
+          root['form'] = '*AĴ-'
+          root['gloss'] = 'hacer'
+          root['etymology'] = 'Etym. Eo. agi → *AĴ-'
+          root['row_class'] = 'lex-root-row'
+          root['words'] = [
+              {
+                  "id":"lexeme-ajhas",
+                  "form":"aĵas",
+                  "gloss":"hacer",
+                  "analysis_html":"AĴ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+                  "analysis_text":"AĴ + -AS",
+                  "refs":[{"id":"morph-as","label":"-AS"}],
+                  "tags":[tag("Predicado AS")]
+              },
+              {
+                  "id":"lexeme-ajhos",
+                  "form":"aĵos",
+                  "gloss":"hacerse",
+                  "analysis_html":"AĴ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+                  "analysis_text":"AĴ + -OS",
+                  "refs":[{"id":"morph-os","label":"-OS"}],
+                  "tags":[tag("Predicado OS")]
+              },
+              {
+                  "id":"lexeme-ajhes",
+                  "form":"aĵes",
+                  "gloss":"estar hecho",
+                  "analysis_html":"AĴ + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+                  "analysis_text":"AĴ + -ES",
+                  "refs":[{"id":"morph-es","label":"-ES"}],
+                  "tags":[tag("Predicado ES")]
+              },
+              {
+                  "id":"lexeme-nejhas",
+                  "form":"neĵas",
+                  "gloss":"no hacer",
+                  "analysis_html":"<a class=\"morph-link\" href=\"#morph-ne\">NE-</a> + AĴ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+                  "analysis_text":"NE- + AĴ + -AS",
+                  "refs":[{"id":"morph-ne","label":"NE-"},{"id":"morph-as","label":"-AS"}],
+                  "tags":[tag("Auxiliar")]
+              },
+              {
+                  "id":"lexeme-ajhan",
+                  "form":"aĵan",
+                  "gloss":"agente",
+                  "analysis_html":"AĴ + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+                  "analysis_text":"AĴ + -AN",
+                  "refs":[{"id":"morph-an-2","label":"-AN"}],
+                  "tags":[tag("Humano AN")]
+              },
+              {
+                  "id":"lexeme-ajhumur",
+                  "form":"aĵumur",
+                  "gloss":"facil",
+                  "analysis_html":"AĴ + <a class=\"morph-link\" href=\"#morph-um\">-UM-</a> + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+                  "analysis_text":"AĴ + -UM- + -UR",
+                  "refs":[{"id":"morph-um","label":"-UM-"},{"id":"morph-ur-3","label":"-UR"}],
+                  "tags":[tag("Adjetivo UR")]
+              },
+              {
+                  "id":"lexeme-ajha",
+                  "form":"aĵa",
+                  "gloss":"accion",
+                  "analysis_html":"AĴ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+                  "analysis_text":"AĴ + -A",
+                  "refs":[{"id":"morph-a-2","label":"-A"}],
+                  "tags":[tag("Nomen A")]
+              },
+              {
+                  "id":"lexeme-opajha",
+                  "form":"opaĵa",
+                  "gloss":"reaccion",
+                  "analysis_html":"<a class=\"morph-link\" href=\"#root-op\">OP</a> + AĴ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+                  "analysis_text":"OP + AĴ + -A",
+                  "refs":[{"id":"root-op","label":"OP"},{"id":"morph-a-2","label":"-A"}],
+                  "tags":[tag("Nomen A")]
+              },
+              {
+                  "id":"lexeme-ajhumezha",
+                  "form":"aĵumeẑa",
+                  "gloss":"facilidad",
+                  "analysis_html":"AĴ + <a class=\"morph-link\" href=\"#morph-um\">-UM-</a> + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+                  "analysis_text":"AĴ + -UM- + -EẐA",
+                  "refs":[{"id":"morph-um","label":"-UM-"},{"id":"morph-eza","label":"-EẐA"}],
+                  "tags":[tag("Nomen abstracto")]
+              }
+          ]
+          ap.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # --- OP- is 'opuesto' ---
+          op = Path('lexico/o.json')
+          od = json.loads(op.read_text(encoding='utf-8'))
+          oe = {e['id']:e for e in od['entries']}
+          if 'root-op' not in oe:
+              raise SystemExit('No se encontró root-op')
+          oe['root-op']['form'] = '*OP-'
+          oe['root-op']['gloss'] = 'opuesto'
+          op.write_text(json.dumps(od, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # --- Phonology: Ĵ is a distinct rare phoneme/grafheme ---
+          fp = Path('fonologia.html')
+          s = fp.read_text(encoding='utf-8')
+          replacements = [
+              ('Las únicas letras con marca diacrítica en la ortografía actual son <strong>Ĉ Ĝ Ŝ Ẑ</strong>', 'Las únicas letras con marca diacrítica en la ortografía actual son <strong>Ĉ Ĝ Ĵ Ŝ Ẑ</strong>'),
+              ('Las cuatro consonantes con diacrítico son:', 'Las cinco consonantes con diacrítico son:'),
+              ('<span class="letter-chip">Ĉ ĉ</span><span class="letter-chip">Ĝ ĝ</span><span class="letter-chip">Ŝ ŝ</span><span class="letter-chip">Ẑ ẑ</span>', '<span class="letter-chip">Ĉ ĉ</span><span class="letter-chip">Ĝ ĝ</span><span class="letter-chip">Ĵ ĵ</span><span class="letter-chip">Ŝ ŝ</span><span class="letter-chip">Ẑ ẑ</span>'),
+              ('<code>C</code> y <code>Ĉ</code>, <code>G</code> y <code>Ĝ</code>, <code>S</code> y <code>Ŝ</code>, y <code>Z</code> y <code>Ẑ</code> son letras distintas', '<code>C</code> y <code>Ĉ</code>, <code>G</code> y <code>Ĝ</code>, <code>J</code> y <code>Ĵ</code>, <code>S</code> y <code>Ŝ</code>, y <code>Z</code> y <code>Ẑ</code> son letras distintas'),
+              ('limita los diacríticos a <code>Ĉ Ĝ Ŝ Ẑ</code>', 'limita los diacríticos a <code>Ĉ Ĝ Ĵ Ŝ Ẑ</code>'),
+              ('valores fonéticos exactos a <code>Ĉ, Ĝ, Ŝ</code> o <code>Ẑ</code>', 'valores fonéticos exactos a <code>Ĉ, Ĝ, Ĵ, Ŝ</code> o <code>Ẑ</code>')
+          ]
+          for old,new in replacements:
+              if old not in s:
+                  raise SystemExit('No se encontró texto fonológico esperado: ' + old[:60])
+              s = s.replace(old,new,1)
+          marker = '<p><span class="status canon">Canónico</span>Está establecida la existencia de /θ/, representado por <code>Θ θ</code>.</p>'
+          addition = marker + '\n  <p><span class="status canon">Canónico</span><code>Ĵ ĵ</code> representa un fonema independiente y de baja frecuencia léxica. Su valor IPA exacto todavía no ha sido especificado.</p>'
+          if '<code>Ĵ ĵ</code> representa un fonema independiente' not in s:
+              if marker not in s:
+                  raise SystemExit('No se encontró ancla de inventario fonético')
+              s = s.replace(marker, addition, 1)
+          fp.write_text(s, encoding='utf-8')
+
+          # --- Grammar: -UM- explicitly confirmed ---
+          gp = Path('gramatica.html')
+          g = gp.read_text(encoding='utf-8')
+          if '<code>-UM-</code></td><td>tendente</td>' not in g:
+              anchor = '    <tr><td><code>-IN</code></td><td>participio animante</td></tr>'
+              if anchor not in g:
+                  raise SystemExit('No se encontró ancla -IN en gramática')
+              g = g.replace(anchor, anchor + '\n    <tr><td><code>-UM-</code></td><td>tendente</td></tr>', 1)
+              gp.write_text(g, encoding='utf-8')
+
+          # --- Rebuild global lexicon index ---
+          import subprocess
+          subprocess.run(['python','scripts/build_lexicon_index.py'], check=True)
+          PY
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/o.json lexico/index.json fonologia.html gramatica.html
+          git commit -m "Añadir repertorio de AĴ y fonema Ĵ"
+          git push
