@@ -18,65 +18,25 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-
           p = Path('lexico.html')
           s = p.read_text(encoding='utf-8')
-
           if 'id="lex-view-table"' in s:
               raise SystemExit('El selector de vista ya existe')
-
-          css = '''
-/* lex-view-toggle */
-.lex-view-toggle{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin:0 0 14px}.lex-view-toggle .view-label{margin-right:4px;color:var(--muted);font-size:.82rem;font-weight:700}.lex-view-toggle button{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:8px 11px;border-radius:10px;font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}.lex-view-toggle button[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10)}
-.lex-card-view .lex-table thead{display:none}.lex-card-view .lex-table{display:block;width:100%;border:0;background:transparent}.lex-card-view .lex-table tbody{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;width:100%}.lex-card-view .lex-table tbody tr{display:block;border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:12px 14px}.lex-card-view .lex-table tbody tr[hidden]{display:none}.lex-card-view .lex-table tbody td{display:block;border:0;padding:4px 0}.lex-card-view .lex-table tbody td::before{display:block;margin-bottom:2px;color:var(--muted);font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}.lex-card-view .lex-table tbody td.form::before{content:"Forma"}.lex-card-view .lex-table tbody td.gloss::before{content:"Glosa"}.lex-card-view .lex-table tbody td.tags::before{content:"Etiquetas"}.lex-card-view .table-wrap{overflow:visible}
-@media(max-width:600px){.lex-view-toggle{justify-content:flex-start}}
-'''
+          css = '\n/* lex-view-toggle */\n.lex-view-toggle{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin:0 0 14px}.lex-view-toggle .view-label{margin-right:4px;color:var(--muted);font-size:.82rem;font-weight:700}.lex-view-toggle button{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:8px 11px;border-radius:10px;font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}.lex-view-toggle button[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10)}\n.lex-card-view .lex-table thead{display:none}.lex-card-view .lex-table{display:block;width:100%;border:0;background:transparent}.lex-card-view .lex-table tbody{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;width:100%}.lex-card-view .lex-table tbody tr{display:block;border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:12px 14px}.lex-card-view .lex-table tbody tr[hidden]{display:none}.lex-card-view .lex-table tbody td{display:block;border:0;padding:4px 0}.lex-card-view .lex-table tbody td::before{display:block;margin-bottom:2px;color:var(--muted);font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}.lex-card-view .lex-table tbody td.form::before{content:"Forma"}.lex-card-view .lex-table tbody td.gloss::before{content:"Glosa"}.lex-card-view .lex-table tbody td.tags::before{content:"Etiquetas"}.lex-card-view .table-wrap{overflow:visible}\n@media(max-width:600px){.lex-view-toggle{justify-content:flex-start}}\n'
           style_end = s.find('</style>')
           if style_end < 0:
               raise SystemExit('No se encontró </style>')
           s = s[:style_end] + css + s[style_end:]
-
           anchor = '  <nav class="alphabet" aria-label="Índice alfabético">'
-          toggle = '''  <div class="lex-view-toggle" role="group" aria-label="Modo de visualización">
-    <span class="view-label">Vista</span>
-    <button id="lex-view-table" type="button" aria-pressed="true">Tabla</button>
-    <button id="lex-view-cards" type="button" aria-pressed="false">Tarjetas</button>
-  </div>
-'''
+          toggle = '  <div class="lex-view-toggle" role="group" aria-label="Modo de visualización">\n    <span class="view-label">Vista</span>\n    <button id="lex-view-table" type="button" aria-pressed="true">Tabla</button>\n    <button id="lex-view-cards" type="button" aria-pressed="false">Tarjetas</button>\n  </div>\n'
           if anchor not in s:
               raise SystemExit('No se encontró el índice alfabético')
           s = s.replace(anchor, toggle + anchor, 1)
-
-          script = '''
-<script>
-(function(){
-  const tableButton=document.getElementById("lex-view-table");
-  const cardButton=document.getElementById("lex-view-cards");
-  if(!tableButton||!cardButton)return;
-  const storageKey="conlang-lexicon-view";
-
-  function applyView(view,save=true){
-    const cards=view==="cards";
-    document.body.classList.toggle("lex-card-view",cards);
-    tableButton.setAttribute("aria-pressed",String(!cards));
-    cardButton.setAttribute("aria-pressed",String(cards));
-    if(save){try{localStorage.setItem(storageKey,cards?"cards":"table")}catch(e){}}
-  }
-
-  tableButton.addEventListener("click",()=>applyView("table"));
-  cardButton.addEventListener("click",()=>applyView("cards"));
-
-  let initial="table";
-  try{initial=localStorage.getItem(storageKey)||"table"}catch(e){}
-  applyView(initial,false);
-})();
-</script>
-'''
+          script = '\n<script>\n(function(){\n  const tableButton=document.getElementById("lex-view-table");\n  const cardButton=document.getElementById("lex-view-cards");\n  if(!tableButton||!cardButton)return;\n  const storageKey="conlang-lexicon-view";\n  function applyView(view,save=true){\n    const cards=view==="cards";\n    document.body.classList.toggle("lex-card-view",cards);\n    tableButton.setAttribute("aria-pressed",String(!cards));\n    cardButton.setAttribute("aria-pressed",String(cards));\n    if(save){try{localStorage.setItem(storageKey,cards?"cards":"table")}catch(e){}}\n  }\n  tableButton.addEventListener("click",()=>applyView("table"));\n  cardButton.addEventListener("click",()=>applyView("cards"));\n  let initial="table";\n  try{initial=localStorage.getItem(storageKey)||"table"}catch(e){}\n  applyView(initial,false);\n})();\n</script>\n'
           body_end = s.rfind('</body>')
           if body_end < 0:
               raise SystemExit('No se encontró </body>')
           s = s[:body_end] + script + s[body_end:]
-
           p.write_text(s, encoding='utf-8')
           PY
       - name: Commit view toggle
