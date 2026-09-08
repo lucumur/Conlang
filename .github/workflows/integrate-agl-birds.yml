@@ -1,0 +1,94 @@
+name: Integrate AGL bird lexicon
+
+on:
+  push:
+    paths:
+      - '.github/workflows/integrate-agl-birds.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Integrate AGL words and reciprocal links
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          p=Path('lexico.html')
+          s=p.read_text(encoding='utf-8')
+
+          # 1) Upgrade AGL root to a derived-word panel.
+          old=re.compile(r'<tr><td class="form"><code>\*AGL-</code></td><td class="gloss">aguila</td><td class="tags">(.*?)</td></tr>', re.S)
+          if not old.search(s):
+              raise SystemExit('No se encontró la raíz *AGL- = aguila')
+
+          panel='''<tr class="lex-root-row"><td class="form"><code id="root-agl">*AGL-</code></td><td class="gloss">
+<span class="root-gloss">aguila</span><details class="derived-panel"><summary>4 palabras derivadas</summary><div class="derived-grid">
+<article class="derived-entry" id="lexeme-aglagen"><div class="derived-word"><code>aglagen</code></div><div class="derived-gloss">aguila</div><div class="derived-analysis"><a class="morph-link" href="#root-agl">AGL</a> + <a class="morph-link" href="#morph-ag">AG-</a> + <a class="morph-link" href="#morph-en">-EN</a></div></article>
+<article class="derived-entry" id="lexeme-agliken"><div class="derived-word"><code>agliken</code></div><div class="derived-gloss">aguililla</div><div class="derived-analysis"><a class="morph-link" href="#root-agl">AGL</a> + <a class="morph-link" href="#morph-ik">-IK-</a> + <a class="morph-link" href="#morph-en">-EN</a></div></article>
+<article class="derived-entry" id="lexeme-andaglen"><div class="derived-word"><code>andaglen</code></div><div class="derived-gloss">condor</div><div class="derived-analysis"><a class="morph-link" href="#root-and">AND</a> + <a class="morph-link" href="#root-agl">AGL</a> + <a class="morph-link" href="#morph-en">-EN</a></div></article>
+<article class="derived-entry" id="lexeme-orkaglen"><div class="derived-word"><code>orkaglen</code></div><div class="derived-gloss">milano</div><div class="derived-analysis"><a class="morph-link" href="#root-ork">ORK</a> + <a class="morph-link" href="#root-agl">AGL</a> + <a class="morph-link" href="#morph-en">-EN</a></div></article>
+</div></details>
+</td><td class="tags">__TAGS__</td></tr>'''
+          m=old.search(s)
+          panel=panel.replace('__TAGS__',m.group(1))
+          s=old.sub(panel,s,count=1)
+
+          # 2) Add AND root before ANG entries if absent.
+          if 'id="root-and"' not in s:
+              row='<tr><td class="form"><code id="root-and">*AND-</code></td><td class="gloss">Andes<details class="suffix-repertoire root-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-andaglen">andaglen</a></div></details></td><td class="tags"><span class="tag generic">Raiz</span></td></tr>'
+              marker='<tr><td class="form"><code>*ANG-</code>'
+              pos=s.find(marker)
+              if pos<0: raise SystemExit('No se encontró punto de inserción para AND')
+              s=s[:pos]+row+s[pos:]
+
+          # 3) Add ORK root before ORN if absent. Glosa not supplied by user, keep explicitly pending.
+          if 'id="root-ork"' not in s:
+              row='<tr><td class="form"><code id="root-ork">*ORK-</code></td><td class="gloss"><span class="root-gloss">glosa pendiente</span><details class="suffix-repertoire root-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-orkaglen">orkaglen</a></div></details></td><td class="tags"><span class="tag generic">Raiz</span></td></tr>'
+              marker='<tr><td class="form"><code>*ORN-</code>'
+              pos=s.find(marker)
+              if pos<0: raise SystemExit('No se encontró punto de inserción para ORK')
+              s=s[:pos]+row+s[pos:]
+
+          # 4) Link existing augmentative AG morpheme and show its repertoire.
+          pat=re.compile(r'<tr><td class="form"><code>\*AG-</code></td><td class="gloss">aumentativo(.*?)</td><td class="tags">(.*?)</td></tr>',re.S)
+          m=pat.search(s)
+          if not m: raise SystemExit('No se encontró *AG- = aumentativo')
+          rep='<details class="suffix-repertoire suffix-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-aglagen">aglagen</a></div></details>'
+          repl='<tr><td class="form"><code id="morph-ag">*AG-</code></td><td class="gloss">aumentativo'+rep+'</td><td class="tags">'+m.group(2)+'</td></tr>'
+          s=pat.sub(repl,s,count=1)
+
+          # 5) Ensure IK and EN morpheme entries exist. Their general function is not yet canonically specified.
+          if 'id="morph-ik"' not in s:
+              row='<tr><td class="form"><code id="morph-ik">*-IK-</code></td><td class="gloss">función pendiente; atestiguado en <i>agliken</i><details class="suffix-repertoire suffix-repertoire-static"><summary>Repertorio (1)</summary><div class="suffix-word-list"><a class="word-link" href="#lexeme-agliken">agliken</a></div></details></td><td class="tags"><span class="tag generic">sufijo</span></td></tr>'
+              sec=re.search(r'(<section class="lex-section" id="sec-i">.*?<tbody>)',s,re.S)
+              if not sec: raise SystemExit('No se encontró sec-i')
+              s=s[:sec.end()]+row+s[sec.end():]
+
+          if 'id="morph-en"' not in s:
+              links=''.join([
+                '<a class="word-link" href="#lexeme-aglagen">aglagen</a>',
+                '<a class="word-link" href="#lexeme-agliken">agliken</a>',
+                '<a class="word-link" href="#lexeme-andaglen">andaglen</a>',
+                '<a class="word-link" href="#lexeme-orkaglen">orkaglen</a>'
+              ])
+              row='<tr><td class="form"><code id="morph-en">*-EN</code></td><td class="gloss">función pendiente; atestiguado en estas formas léxicas<details class="suffix-repertoire suffix-repertoire-static"><summary>Repertorio (4)</summary><div class="suffix-word-list">'+links+'</div></details></td><td class="tags"><span class="tag generic">sufijo</span></td></tr>'
+              sec=re.search(r'(<section class="lex-section" id="sec-e">.*?<tbody>)',s,re.S)
+              if not sec: raise SystemExit('No se encontró sec-e')
+              s=s[:sec.end()]+row+s[sec.end():]
+
+          p.write_text(s,encoding='utf-8')
+          PY
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico.html
+          git commit -m "Incorporar léxico de AGL y aves"
+          git push
