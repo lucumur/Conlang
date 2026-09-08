@@ -21,180 +21,130 @@ jobs:
           import re, html, unicodedata
           from collections import OrderedDict
 
-          p = Path('lexico.html')
-          s = p.read_text(encoding='utf-8')
+          p=Path('lexico.html')
+          s=p.read_text(encoding='utf-8')
 
           def plain(x):
-              return html.unescape(re.sub(r'<[^>]+>', '', x)).strip()
+              return html.unescape(re.sub(r'<[^>]+>','',x)).strip()
+          def norm(x):
+              x=plain(x).lower().strip()
+              return ''.join(c for c in unicodedata.normalize('NFD',x) if unicodedata.category(c)!='Mn')
 
-          def norm_text(x):
-              x = plain(x).lower().strip()
-              return ''.join(c for c in unicodedata.normalize('NFD', x) if unicodedata.category(c) != 'Mn')
-
-          # Solo estas cuatro consonantes con diacrítico forman parte de la ortografía del conlang.
-          allowed = {'Ĉ','Ĝ','Ŝ','Ẑ','ĉ','ĝ','ŝ','ẑ'}
+          allowed={'Ĉ','Ĝ','Ŝ','Ẑ','ĉ','ĝ','ŝ','ẑ'}
           def normalize_form_chars(form):
               out=[]
               for ch in form:
                   if ch in allowed or ch in {'Θ','θ'}:
-                      out.append(ch)
-                      continue
-                  decomp=unicodedata.normalize('NFD', ch)
-                  if len(decomp)>1 and any(unicodedata.category(c)=='Mn' for c in decomp[1:]):
-                      out.append(decomp[0])
+                      out.append(ch); continue
+                  d=unicodedata.normalize('NFD',ch)
+                  if len(d)>1 and any(unicodedata.category(c)=='Mn' for c in d[1:]):
+                      out.append(d[0])
                   else:
                       out.append(ch)
               return ''.join(out)
 
-          # Extraer todas las filas léxicas, independientemente de la sección actual.
-          row_re = re.compile(
-              r'<tr><td class="form"><code>(.*?)</code></td><td class="gloss">(.*?)</td><td class="tags">(.*?)</td></tr>',
-              re.S
-          )
+          row_re=re.compile(r'<tr><td class="form"><code>(.*?)</code></td><td class="gloss">(.*?)</td><td class="tags">(.*?)</td></tr>',re.S)
           rows=[]
           for m in row_re.finditer(s):
-              form_html, gloss_html, tags_html = m.groups()
-              form = plain(form_html)
-              gloss = plain(gloss_html)
-              rows.append({'form':form,'gloss':gloss,'gloss_html':gloss_html,'tags_html':tags_html})
+              fh,gh,th=m.groups()
+              rows.append({'form':plain(fh),'gloss':plain(gh),'gloss_html':gh,'tags_html':th})
+          if not rows: raise SystemExit('No se encontraron entradas')
 
-          if not rows:
-              raise SystemExit('No se encontraron entradas léxicas')
+          def canonical_for(gloss):
+              g=norm(gloss)
+              if g=='hades': return '*CAD-'
+              if g=='detener': return '*CAL-T'
+              if g=='camaleon': return '*CAME-'
+              if g=='caos': return '*CAO-'
+              if g=='fuera': return '*EL-'
+              if g=='costumbre': return '*EΘ-'
+              if g.startswith('eter'): return '*EΘ-R'
+              if g.startswith('grava'): return '*GRU-'
+              if g=='cuero': return '*LEΘ-'
+              if 'mito' in g and 'cuento' in g: return '*MIΘ-'
+              if g=='norte': return '*NORΘ-'
+              if g=='desnudo': return '*NUΘ-'
+              if g=='recto': return '*ORΘ-'
+              if 'padecer' in g and 'sentir' in g: return '*PAΘ-'
+              return None
 
-          # Correcciones explícitas del usuario, identificadas por glosa.
-          exact_by_gloss = {
-              'hades': '*CAD-',
-              'detener': '*CAL-T',
-              'camaleon': '*CAME-',
-              'caos': '*CAO-',
-              'fuera': '*EL-',
-              'costumbre': '*EΘ-',
-              'eter': '*EΘ-R',
-              'grava': '*GRU-',
-              'cuero': '*LEΘ-',
-              'mito, cuento': '*MIΘ-',
-              'norte': '*NORΘ-',
-              'desnudo': '*NUΘ-',
-              'recto': '*ORΘ-',
-              'padecer, sentir': '*PAΘ-',
-          }
-
-          changed=[]
-          deleted=[]
-          corrected=[]
+          explicit=[]; automatic=[]
           for e in rows:
               old=e['form']
-              core = old.strip().lstrip('*').strip('-').strip().upper()
-              # EO queda descartado según "EO (x)".
-              if core == 'EO':
-                  deleted.append((old,e['gloss']))
-                  e['delete']=True
-                  continue
-
-              ng=norm_text(e['gloss'])
-              if ng in exact_by_gloss:
-                  e['form']=exact_by_gloss[ng]
-                  corrected.append((old,e['form'],e['gloss']))
-
-              # Normalización ortográfica solo de la FORMA, no de la glosa española.
+              can=canonical_for(e['gloss'])
+              if can:
+                  e['form']=can
+                  explicit.append((old,e['form'],e['gloss']))
               e['form']=normalize_form_chars(e['form'])
-
-              # Toda forma debe contener asterisco y al menos un guion.
               if not e['form'].startswith('*'):
                   e['form']='*'+e['form'].lstrip('*')
               if '-' not in e['form']:
-                  e['form']=e['form']+'-'
+                  e['form']+='-'
+              if e['form']!=old and not can:
+                  automatic.append((old,e['form'],e['gloss']))
 
-              if e['form'] != old and not any(c[0]==old and c[1]==e['form'] for c in corrected):
-                  changed.append((old,e['form'],e['gloss']))
+          # Reglas globales solicitadas: todas las formas con * y al menos un guion.
+          bad=[(e['form'],e['gloss']) for e in rows if not e['form'].startswith('*') or '-' not in e['form']]
+          if bad: raise SystemExit('Persisten formas mal formadas: '+repr(bad[:30]))
 
-          rows=[e for e in rows if not e.get('delete')]
-
-          # Auditoría final de formato.
-          bad=[e for e in rows if not e['form'].startswith('*') or '-' not in e['form']]
-          if bad:
-              raise SystemExit('Persisten formas sin * o sin guion: '+repr([(e['form'],e['gloss']) for e in bad[:20]]))
-
-          # Verificar que no queden letras diacríticas fuera del inventario permitido en las FORMAS.
+          # Solo Ĉ Ĝ Ŝ Ẑ pueden conservar diacrítico en las formas.
           forbidden=[]
           for e in rows:
               for ch in e['form']:
-                  if ch in allowed or ch in {'Θ','θ'}:
-                      continue
+                  if ch in allowed or ch in {'Θ','θ'}: continue
                   d=unicodedata.normalize('NFD',ch)
                   if len(d)>1 and any(unicodedata.category(c)=='Mn' for c in d[1:]):
                       forbidden.append((e['form'],ch,e['gloss']))
-          if forbidden:
-              raise SystemExit('Persisten diacríticos no permitidos: '+repr(forbidden[:20]))
+          if forbidden: raise SystemExit('Diacríticos no permitidos: '+repr(forbidden[:30]))
 
-          # Reagrupar por letra inicial real para que C/Ĉ, G/Ĝ, S/Ŝ y Z/Ẑ sean secciones distintas.
+          # Después de las sustituciones EΘ, no debe quedar una forma EO/EO-R.
+          eo_left=[(e['form'],e['gloss']) for e in rows if e['form'].lstrip('*-').startswith('EO')]
+          if eo_left: raise SystemExit('Persisten formas EO que deben ser EΘ: '+repr(eo_left))
+
+          # Reagrupar por la primera letra de la forma para mantener las secciones correctas.
           order=['A','B','C','Ĉ','D','E','F','G','Ĝ','I','J','K','L','M','N','O','P','R','S','Ŝ','T','Θ','U','V','Z','Ẑ']
           groups=OrderedDict((k,[]) for k in order)
-
-          def initial(form):
-              x=form.lstrip('*-')
+          def initial(f):
+              x=f.lstrip('*-')
               return x[0].upper() if x else '?'
-
-          extras=[]
+          extra=[]
           for e in rows:
               k=initial(e['form'])
-              if k in groups:
-                  groups[k].append(e)
-              else:
-                  extras.append((k,e['form'],e['gloss']))
-          if extras:
-              raise SystemExit('Formas con inicial fuera del índice: '+repr(extras[:30]))
+              if k in groups: groups[k].append(e)
+              else: extra.append((k,e['form'],e['gloss']))
+          if extra: raise SystemExit('Iniciales fuera del índice: '+repr(extra[:30]))
 
-          def esc(x): return html.escape(x, quote=False)
-          nav=[]; sections=[]; idx=1
-          for letter, entries in groups.items():
-              if not entries:
-                  continue
-              sid='sec-'+('circ-c' if letter=='Ĉ' else 'circ-g' if letter=='Ĝ' else 'circ-s' if letter=='Ŝ' else 'circ-z' if letter=='Ẑ' else re.sub(r'[^A-Za-z0-9]+','-',letter).strip('-').lower() or str(idx))
-              nav.append(f'<a href="#{sid}">{letter}</a>')
+          nav=[]; sections=[]
+          def sid(letter):
+              return {'Ĉ':'sec-circ-c','Ĝ':'sec-circ-g','Ŝ':'sec-circ-s','Ẑ':'sec-circ-z','Θ':'sec-theta'}.get(letter,'sec-'+letter.lower())
+          for letter,entries in groups.items():
+              if not entries: continue
+              secid=sid(letter)
+              nav.append(f'<a href="#{secid}">{letter}</a>')
               body=[]
               for e in entries:
-                  body.append('<tr><td class="form"><code>'+esc(e['form'])+'</code></td><td class="gloss">'+e['gloss_html']+'</td><td class="tags">'+e['tags_html']+'</td></tr>')
-              sections.append(
-                  f'<section class="lex-section" id="{sid}">\n'
-                  f'  <h2>{letter}</h2>\n'
-                  '  <div class="table-wrap">\n'
-                  '    <table class="lex-table">\n'
-                  '      <thead><tr><th>Forma</th><th>Glosa</th><th>Etiquetas</th></tr></thead>\n'
-                  '      <tbody>'+''.join(body)+'</tbody>\n'
-                  '    </table>\n'
-                  '  </div>\n'
-                  '</section>'
-              )
-              idx+=1
+                  form=html.escape(e['form'],quote=False)
+                  body.append('<tr><td class="form"><code>'+form+'</code></td><td class="gloss">'+e['gloss_html']+'</td><td class="tags">'+e['tags_html']+'</td></tr>')
+              sections.append(f'<section class="lex-section" id="{secid}">\n  <h2>{letter}</h2>\n  <div class="table-wrap">\n    <table class="lex-table">\n      <thead><tr><th>Forma</th><th>Glosa</th><th>Etiquetas</th></tr></thead>\n      <tbody>{"".join(body)}</tbody>\n    </table>\n  </div>\n</section>')
 
-          # Sustituir índice y todas las secciones léxicas; conservar buscador, cabecera, footer y JS.
           nav_re=re.compile(r'<nav class="alphabet" aria-label="Índice alfabético">.*?</nav>',re.S)
           s,n=nav_re.subn('<nav class="alphabet" aria-label="Índice alfabético">'+''.join(nav)+'</nav>',s,count=1)
-          if n!=1:
-              raise SystemExit('No se pudo reemplazar el índice alfabético')
+          if n!=1: raise SystemExit('No se pudo reemplazar índice')
+          a=s.find('<section class="lex-section"')
+          b=s.find('</main>',a)
+          if a<0 or b<0: raise SystemExit('No se encontraron secciones')
+          s=s[:a]+'\n'.join(sections)+'\n'+s[b:]
 
-          sec_start=s.find('<section class="lex-section"')
-          main_end=s.find('</main>',sec_start)
-          if sec_start<0 or main_end<0:
-              raise SystemExit('No se encontró el bloque de secciones léxicas')
-          s=s[:sec_start]+'\n'.join(sections)+'\n'+s[main_end:]
-
-          # Validaciones de las correcciones explícitas.
           checks=['*CAD-','*CAL-T','*CAME-','*CAO-','*EL-','*EΘ-','*EΘ-R','*GRU-','*LEΘ-','*MIΘ-','*NORΘ-','*NUΘ-','*ORΘ-','*PAΘ-']
-          for f in checks:
-              if f'<code>{f}</code>' not in s:
-                  raise SystemExit(f'No quedó aplicada la forma {f}')
-          if re.search(r'<code>\*?EO-?</code>',s):
-              raise SystemExit('EO debía quedar eliminado')
+          missing=[f for f in checks if f'<code>{f}</code>' not in s]
+          if missing: raise SystemExit('Correcciones no localizadas/aplicadas: '+repr(missing))
 
           p.write_text(s,encoding='utf-8')
-          print('Entradas finales:',len(rows))
-          print('Correcciones explícitas:',len(corrected))
-          for x in corrected: print('EXPLICITA',x)
-          print('Otras normalizaciones de formato/diacríticos:',len(changed))
-          for x in changed: print('NORMALIZA',x)
-          print('Eliminadas:',deleted)
+          print('Entradas auditadas:',len(rows))
+          print('Correcciones explícitas:',len(explicit))
+          for x in explicit: print('EXPLICITA',x)
+          print('Normalizaciones automáticas:',len(automatic))
+          for x in automatic: print('AUTOMATICA',x)
           PY
       - name: Commit corrected lexicon
         run: |
