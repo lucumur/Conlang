@@ -1,0 +1,110 @@
+name: Normalize conlang orthography
+
+on:
+  push:
+    paths:
+      - '.github/workflows/normalize-orthography.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Normalize diacritics and split alphabet sections
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re, html
+
+          p = Path('lexico.html')
+          s = p.read_text(encoding='utf-8')
+
+          # Ortografía canónica: las consonantes diacríticas usan circunflejo.
+          replacements = {
+              'Č': 'Ĉ', 'č': 'ĉ',
+              'Š': 'Ŝ', 'š': 'ŝ',
+              'Ž': 'Ẑ', 'ž': 'ẑ',
+          }
+          for old, new in replacements.items():
+              s = s.replace(old, new)
+
+          def split_section(source, combined_heading, plain, marked, plain_id, marked_id):
+              # Localiza la sección completa por su <h2>.
+              pat = re.compile(
+                  r'<section class="lex-section" id="[^"]+">\s*'
+                  r'<h2>' + re.escape(combined_heading) + r'</h2>\s*'
+                  r'<div class="table-wrap">\s*'
+                  r'<table class="lex-table">\s*'
+                  r'(<thead>.*?</thead>)\s*'
+                  r'<tbody>(.*?)</tbody>\s*'
+                  r'</table>\s*</div>\s*</section>',
+                  re.S
+              )
+              m = pat.search(source)
+              if not m:
+                  raise SystemExit(f'No se encontró la sección combinada {combined_heading}')
+              thead, tbody = m.group(1), m.group(2)
+              rows = re.findall(r'<tr>.*?</tr>', tbody, re.S)
+              plain_rows, marked_rows = [], []
+              for row in rows:
+                  fm = re.search(r'<code>(.*?)</code>', row, re.S)
+                  form = html.unescape(fm.group(1)).strip() if fm else ''
+                  core = form.lstrip('*-')
+                  if core.startswith(marked):
+                      marked_rows.append(row)
+                  else:
+                      plain_rows.append(row)
+              if not plain_rows or not marked_rows:
+                  raise SystemExit(f'La separación {plain}/{marked} produjo una sección vacía')
+
+              def section(sec_id, heading, sec_rows):
+                  return (
+                      f'<section class="lex-section" id="{sec_id}">\n'
+                      f'  <h2>{heading}</h2>\n'
+                      f'  <div class="table-wrap">\n'
+                      f'    <table class="lex-table">\n'
+                      f'      {thead}\n'
+                      f'      <tbody>{"".join(sec_rows)}</tbody>\n'
+                      f'    </table>\n'
+                      f'  </div>\n'
+                      f'</section>'
+                  )
+
+              replacement = section(plain_id, plain, plain_rows) + '\n' + section(marked_id, marked, marked_rows)
+              source = source[:m.start()] + replacement + source[m.end():]
+
+              # Sustituye la entrada combinada del índice por dos entradas independientes.
+              anchor_pat = re.compile(r'<a href="#[^"]+">' + re.escape(combined_heading) + r'</a>')
+              anchor_repl = f'<a href="#{plain_id}">{plain}</a><a href="#{marked_id}">{marked}</a>'
+              source, n = anchor_pat.subn(anchor_repl, source, count=1)
+              if n != 1:
+                  raise SystemExit(f'No se pudo actualizar el índice para {combined_heading}')
+              return source
+
+          s = split_section(s, 'C / Ĉ', 'C', 'Ĉ', 'sec-c', 'sec-circ-c')
+          s = split_section(s, 'G / Ĝ', 'G', 'Ĝ', 'sec-g', 'sec-circ-g')
+
+          # Verificaciones de integridad.
+          assert 'C / Ĉ' not in s
+          assert 'G / Ĝ' not in s
+          assert '<h2>C</h2>' in s and '<h2>Ĉ</h2>' in s
+          assert '<h2>G</h2>' in s and '<h2>Ĝ</h2>' in s
+          assert '>C</a><a href="#sec-circ-c">Ĉ<' in s
+          assert '>G</a><a href="#sec-circ-g">Ĝ<' in s
+          assert '*ARẐ-' in s
+          for bad in ('Č','č','Š','š','Ž','ž'):
+              assert bad not in s, f'Quedó grafía no canónica: {bad}'
+
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit normalized lexicon
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico.html
+          git commit -m "Separar C/Ĉ y G/Ĝ; normalizar diacríticos" || exit 0
+          git push
