@@ -2517,8 +2517,264 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. antaŭ → *ANT-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-alantos",
+          "form": "alantos",
+          "gloss": "adelantarse",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-al-2\">AL-</a> + ANT + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "AL- + ANT + -OS",
+          "refs": [
+            {
+              "id": "morph-al-2",
+              "label": "AL-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-antur",
+          "form": "antur",
+          "gloss": "anterior",
+          "analysis_html": "ANT + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "ANT + -UR",
+          "refs": [
+            {
+              "id": "morph-ur-3",
+              "label": "-UR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo UR"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-antevur",
+          "form": "antevur",
+          "gloss": "antiguo",
+          "analysis_html": "ANT + <a class=\"morph-link\" href=\"#morph-ev\">-EV-</a> + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "ANT + -EV- + -UR",
+          "refs": [
+            {
+              "id": "morph-ev",
+              "label": "-EV-"
+            },
+            {
+              "id": "morph-ur-3",
+              "label": "-UR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo UR"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-opantur",
+          "form": "opantur",
+          "gloss": "contrario",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-op\">OP</a> + ANT + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "OP + ANT + -UR",
+          "refs": [
+            {
+              "id": "root-op",
+              "label": "OP"
+            },
+            {
+              "id": "morph-ur-3",
+              "label": "-UR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo UR"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-alantur",
+          "form": "alantur",
+          "gloss": "delantero",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-al-2\">AL-</a> + ANT + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "AL- + ANT + -UR",
+          "refs": [
+            {
+              "id": "morph-al-2",
+              "label": "AL-"
+            },
+            {
+              "id": "morph-ur-3",
+              "label": "-UR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo UR"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-antevon",
+          "form": "antevon",
+          "gloss": "hombre de la antigüedad",
+          "analysis_html": "ANT + <a class=\"morph-link\" href=\"#morph-ev\">-EV-</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ANT + -EV- + -ON",
+          "refs": [
+            {
+              "id": "morph-ev",
+              "label": "-EV-"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-antevada",
+          "form": "antevada",
+          "gloss": "la antigüedad",
+          "analysis_html": "ANT + <a class=\"morph-link\" href=\"#morph-ev\">-EV-</a> + <a class=\"morph-link\" href=\"#morph-ad\">-AD-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ANT + -EV- + -AD- + -A",
+          "refs": [
+            {
+              "id": "morph-ev",
+              "label": "-EV-"
+            },
+            {
+              "id": "morph-ad",
+              "label": "-AD-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-antaf",
+          "form": "antaf",
+          "gloss": "enfrente",
+          "analysis_html": "ANT + <a class=\"morph-link\" href=\"#morph-af\">-AF</a>",
+          "analysis_text": "ANT + -AF",
+          "refs": [
+            {
+              "id": "morph-af",
+              "label": "-AF"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio AF"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-antacom",
+          "form": "antaĉom",
+          "gloss": "ante todo, principalmente",
+          "analysis_html": "ANT + AĈOM",
+          "analysis_text": "ANT + AĈOM",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-antam",
+          "form": "antam",
+          "gloss": "antes",
+          "analysis_html": "ANT + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "ANT + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio AM"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-antajur",
+          "form": "antajur",
+          "gloss": "antes de hoy, hace ...",
+          "analysis_html": "ANT + A + <a class=\"morph-link\" href=\"#root-jur\">JUR</a>",
+          "analysis_text": "ANT + A + JUR",
+          "refs": [
+            {
+              "id": "root-jur",
+              "label": "JUR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-alantaf",
+          "form": "alantaf",
+          "gloss": "adelante",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-al-2\">AL-</a> + ANT + <a class=\"morph-link\" href=\"#morph-af\">-AF</a>",
+          "analysis_text": "AL- + ANT + -AF",
+          "refs": [
+            {
+              "id": "morph-al-2",
+              "label": "AL-"
+            },
+            {
+              "id": "morph-af",
+              "label": "-AF"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio AF"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-ang-3",
