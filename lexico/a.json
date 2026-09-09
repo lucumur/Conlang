@@ -1691,9 +1691,13 @@
           "id": "lexeme-alurze",
           "form": "alurze",
           "gloss": "aluminio",
-          "analysis_html": "ALU(RZ) + <a class=\"morph-link\" href=\"#morph-e\">-E</a> <span class=\"meta-extra\">[RZ pendiente de analizar]</span>",
-          "analysis_text": "ALU(RZ) + -E [RZ pendiente de analizar]",
+          "analysis_html": "ALU + <a class=\"morph-link\" href=\"#morph-erz\">-ERZ-</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ALU + -ERZ- + -E",
           "refs": [
+            {
+              "id": "morph-erz",
+              "label": "-ERZ-"
+            },
             {
               "id": "morph-e",
               "label": "-E"

@@ -2082,6 +2082,22 @@
         "Derivado desprendible de *CO-T; la T final de la raíz original es desprendible."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-erz",
+      "form": "*-ERZ-",
+      "gloss": "metal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
     }
   ]
 }
