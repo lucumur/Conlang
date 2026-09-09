@@ -1307,9 +1307,14 @@
           "id": "lexeme-ajlo",
           "form": "ajlo",
           "gloss": "ajo",
-          "analysis_html": "AJL + -O",
+          "analysis_html": "AJL + <a class=\"morph-link\" href=\"#morph-o-3\">-O</a>",
           "analysis_text": "AJL + -O",
-          "refs": [],
+          "refs": [
+            {
+              "id": "morph-o-3",
+              "label": "-O"
+            }
+          ],
           "tags": []
         },
         {
