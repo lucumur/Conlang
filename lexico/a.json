@@ -1404,7 +1404,7 @@
     {
       "id": "root-alm",
       "form": "*ALM-",
-      "gloss": "respirar ⭐",
+      "gloss": "animo",
       "tags": [
         {
           "class": "generic",
@@ -1423,8 +1423,210 @@
       "section": "sec-a",
       "etymology": "Etym. de novo; latín anima → anma → *ALM-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-almas",
+          "form": "almas",
+          "gloss": "animar, dar vida",
+          "analysis_html": "ALM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ALM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-nujalmas",
+          "form": "nujalmas",
+          "gloss": "reanimar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-nu-j\">NU-J</a> + ALM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "NU-J + ALM + -AS",
+          "refs": [
+            {
+              "id": "root-nu-j",
+              "label": "NU-J"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-nujalmida",
+          "form": "nujalmida",
+          "gloss": "reanimacion",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-nu-j\">NU-J</a> + ALM(ID) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">[ID como extensión de tema; analizar]</span>",
+          "analysis_text": "NU-J + ALM(ID) + -A [ID como extensión de tema; analizar]",
+          "refs": [
+            {
+              "id": "root-nu-j",
+              "label": "NU-J"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-almos",
+          "form": "almos",
+          "gloss": "animarse, entusiasmarse",
+          "analysis_html": "ALM + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ALM + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-alma",
+          "form": "alma",
+          "gloss": "anima, alma, espiritu",
+          "analysis_html": "ALM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ALM + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-coalma",
+          "form": "coalma",
+          "gloss": "espiritu santo",
+          "analysis_html": "CO + ALM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">[CO pendiente de analizar]</span>",
+          "analysis_text": "CO + ALM + -A [CO pendiente de analizar]",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-bonalmor",
+          "form": "bonalmor",
+          "gloss": "buena gente, bien intencionado",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bon\">BON</a> + ALM + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "BON + ALM + -OR",
+          "refs": [
+            {
+              "id": "root-bon",
+              "label": "BON"
+            },
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio OR"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-malalmor",
+          "form": "malalmor",
+          "gloss": "desalmado, malvado",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + ALM + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "MAL + ALM + -OR",
+          "refs": [
+            {
+              "id": "root-mal",
+              "label": "MAL"
+            },
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio OR"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-almidaj",
+          "form": "almidaj",
+          "gloss": "animos, ganas, entusiasmo",
+          "analysis_html": "ALM(ID) + <a class=\"morph-link\" href=\"#morph-aj\">-AJ</a> <span class=\"meta-extra\">[ID como extensión de tema; analizar]</span>",
+          "analysis_text": "ALM(ID) + -AJ [ID como extensión de tema; analizar]",
+          "refs": [
+            {
+              "id": "morph-aj",
+              "label": "-AJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A plural"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-almen",
+          "form": "almen",
+          "gloss": "animal, ser vivo",
+          "analysis_html": "ALM + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "ALM + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": []
+        }
+      ]
     },
     {
       "id": "root-alum",
