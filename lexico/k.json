@@ -132,6 +132,11 @@
               "class": "generic",
               "label": "Nomen E"
             }
+          ],
+          "semantic_fields": [
+            "química",
+            "sales",
+            "álcalis"
           ]
         },
         {
@@ -155,6 +160,11 @@
               "class": "generic",
               "label": "Nomen E"
             }
+          ],
+          "semantic_fields": [
+            "química",
+            "elementos",
+            "metales"
           ]
         },
         {
@@ -178,6 +188,10 @@
               "class": "generic",
               "label": "Adjetivo UR"
             }
+          ],
+          "semantic_fields": [
+            "química",
+            "ácido-base"
           ]
         },
         {
@@ -201,6 +215,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "química",
+            "ácido-base"
           ]
         }
       ]
