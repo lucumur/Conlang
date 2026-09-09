@@ -529,6 +529,31 @@
       "words": []
     },
     {
+      "id": "root-tir-tirol",
+      "form": "*TIR-",
+      "gloss": "Tirol, alpino",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "celta",
+          "label": "Celta"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": "Etym. de novo; celtico tir → *TIR-",
+      "notes": [],
+      "row_class": "lex-root-row",
+      "words": []
+    },
+    {
       "id": "root-tit",
       "form": "*TIT-",
       "gloss": "Titan",

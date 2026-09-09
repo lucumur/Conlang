@@ -1000,7 +1000,7 @@
     {
       "id": "root-alb",
       "form": "*ALB-",
-      "gloss": "blanco ⭐",
+      "gloss": "blancor",
       "tags": [
         {
           "class": "generic",
@@ -1019,8 +1019,233 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. albino → *ALB-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-albis",
+          "form": "albis",
+          "gloss": "brillar blanco",
+          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-is\">-IS</a>",
+          "analysis_text": "ALB + -IS",
+          "refs": [
+            {
+              "id": "morph-is",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-soalbol",
+          "form": "soalbol",
+          "gloss": "palido",
+          "analysis_html": "SO + ALB + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "SO + ALB + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-albjol",
+          "form": "albjol",
+          "gloss": "blanco",
+          "analysis_html": "ALB + J + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ALB + J + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-albjon",
+          "form": "albjon",
+          "gloss": "elfo (mitico)",
+          "analysis_html": "ALB + J + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ALB + J + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-albjal",
+          "form": "albjal",
+          "gloss": "Escocia",
+          "analysis_html": "ALB + J + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ALB + J + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-tiralbal",
+          "form": "tiralbal",
+          "gloss": "los Alpes",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tir-tirol\">TIR</a> + ALB + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "TIR + ALB + -AL",
+          "refs": [
+            {
+              "id": "root-tir-tirol",
+              "label": "TIR"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-tiralbiston",
+          "form": "tiralbiston",
+          "gloss": "alpinista",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tir-tirol\">TIR</a> + ALB + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "TIR + ALB + -IST + -ON",
+          "refs": [
+            {
+              "id": "root-tir-tirol",
+              "label": "TIR"
+            },
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-albucon",
+          "form": "albucon",
+          "gloss": "albino",
+          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-uc\">-UC-</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ALB + -UC- + -ON",
+          "refs": [
+            {
+              "id": "morph-uc",
+              "label": "-UC-"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-albucesta",
+          "form": "albucesta",
+          "gloss": "albinismo",
+          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-uc\">-UC-</a> + EST + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ALB + -UC- + EST + -A",
+          "refs": [
+            {
+              "id": "morph-uc",
+              "label": "-UC-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-alba",
+          "form": "alba",
+          "gloss": "palidez, blancor",
+          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ALB + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-albam",
+          "form": "albam",
+          "gloss": "alba, madrugada",
+          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "ALB + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": []
+        }
+      ]
     },
     {
       "id": "root-alc",
