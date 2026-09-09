@@ -1839,7 +1839,7 @@
     },
     {
       "id": "root-amer",
-      "form": "*AMER-",
+      "form": "*AMER-K",
       "gloss": "america",
       "tags": [
         {
@@ -1857,10 +1857,80 @@
       ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": "Etym. Eo. Ameriko → *AMER-",
+      "etymology": "Etym. Eo. Ameriko → *AMER-K",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-amerkel",
+          "form": "amerkel",
+          "gloss": "americano (adjetivo generico)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-amer\">AMER-K</a> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "AMER-K + -EL",
+          "refs": [
+            {
+              "id": "root-amer",
+              "label": "AMER-K"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-amerkal",
+          "form": "Amerkal",
+          "gloss": "America",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-amer\">AMER-K</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "AMER-K + -AL",
+          "refs": [
+            {
+              "id": "root-amer",
+              "label": "AMER-K"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-amerkin",
+          "form": "Amerkin",
+          "gloss": "americano",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-amer\">AMER-K</a> + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "AMER-K + -IN",
+          "refs": [
+            {
+              "id": "root-amer",
+              "label": "AMER-K"
+            },
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio IN"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-and",
