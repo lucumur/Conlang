@@ -2043,11 +2043,11 @@
           ]
         },
         {
-          "id": "lexeme-anka",
-          "form": "anka",
+          "id": "lexeme-anksa",
+          "form": "anksa",
           "gloss": "sofoco, asfixia",
-          "analysis_html": "ANKS + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">[forma superficial anka]</span>",
-          "analysis_text": "ANKS + -A → anka",
+          "analysis_html": "ANKS + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ANKS + -A",
           "refs": [
             {
               "id": "morph-a-2",
