@@ -1,0 +1,51 @@
+name: Apply ZETIK once
+on:
+  push:
+    paths:
+      - '.github/workflows/_apply-zetik-once.yml'
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply lexical change
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          def load(path):
+              return json.loads(Path(path).read_text(encoding='utf-8'))
+          def save(path, data):
+              Path(path).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          zpath = 'lexico/circ-z.json'
+          z = load(zpath)
+          root = next(e for e in z['entries'] if e.get('id') == 'root-zet-2')
+          root['gloss'] = 'ballena, cetaceo'
+          save(zpath, z)
+
+          apath = 'lexico/a.json'
+          a = load(apath)
+          ambr = next(e for e in a['entries'] if e.get('id') == 'root-ambr')
+          word = next(w for w in ambr['words'] if w.get('id') == 'lexeme-zetikambre')
+          word['analysis_html'] = '<a class="morph-link" href="#root-zet-2">ẐET</a> + <a class="morph-link" href="#morph-ik">-IK-</a> + AMBR + <a class="morph-link" href="#morph-e">-E</a>'
+          word['analysis_text'] = 'ẐET + -IK- + AMBR + -E'
+          word['refs'] = [
+              {'id': 'root-zet-2', 'label': 'ẐET'},
+              {'id': 'morph-ik', 'label': '-IK-'},
+              {'id': 'morph-e', 'label': '-E'}
+          ]
+          save(apath, a)
+          PY
+          python scripts/build_lexicon_index.py
+          rm .github/workflows/_apply-zetik-once.yml
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/circ-z.json lexico/index.json .github/workflows/_apply-zetik-once.yml
+          git commit -m "Documentar derivación ẐETIK"
+          git push
