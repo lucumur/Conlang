@@ -1641,8 +1641,8 @@
       ]
     },
     {
-      "id": "root-alum",
-      "form": "*ALUM-",
+      "id": "root-alu",
+      "form": "*ALU-",
       "gloss": "alumbre",
       "tags": [
         {
@@ -1660,10 +1660,53 @@
       ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": "Etym. Eo. aluno → *ALUM-",
+      "etymology": "Etym. Eo. aluno → *ALU-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-alusale",
+          "form": "alusale",
+          "gloss": "alumbre",
+          "analysis_html": "ALU + <a class=\"morph-link\" href=\"#root-sal\">SAL</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ALU + SAL + -E",
+          "refs": [
+            {
+              "id": "root-sal",
+              "label": "SAL"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-alurze",
+          "form": "alurze",
+          "gloss": "aluminio",
+          "analysis_html": "ALU(RZ) + <a class=\"morph-link\" href=\"#morph-e\">-E</a> <span class=\"meta-extra\">[RZ pendiente de analizar]</span>",
+          "analysis_text": "ALU(RZ) + -E [RZ pendiente de analizar]",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-am",
