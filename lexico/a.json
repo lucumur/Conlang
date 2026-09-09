@@ -1044,9 +1044,13 @@
           "id": "lexeme-soalbol",
           "form": "soalbol",
           "gloss": "palido",
-          "analysis_html": "SO + ALB + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "SO + ALB + -OL",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-so-sub\">SO-</a> + ALB + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "SO- + ALB + -OL",
           "refs": [
+            {
+              "id": "morph-so-sub",
+              "label": "SO-"
+            },
             {
               "id": "morph-ol-2",
               "label": "-OL"
@@ -1063,9 +1067,13 @@
           "id": "lexeme-albjol",
           "form": "albjol",
           "gloss": "blanco",
-          "analysis_html": "ALB + J + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "ALB + J + -OL",
+          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ALB + -J- + -OL",
           "refs": [
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
             {
               "id": "morph-ol-2",
               "label": "-OL"
@@ -1082,9 +1090,13 @@
           "id": "lexeme-albjon",
           "form": "albjon",
           "gloss": "elfo (mitico)",
-          "analysis_html": "ALB + J + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "ALB + J + -ON",
+          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ALB + -J- + -ON",
           "refs": [
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
             {
               "id": "morph-on",
               "label": "-ON"
@@ -1101,9 +1113,13 @@
           "id": "lexeme-albjal",
           "form": "albjal",
           "gloss": "Escocia",
-          "analysis_html": "ALB + J + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
-          "analysis_text": "ALB + J + -AL",
+          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ALB + -J- + -AL",
           "refs": [
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
             {
               "id": "morph-al-3",
               "label": "-AL"
@@ -1193,12 +1209,16 @@
           "id": "lexeme-albucesta",
           "form": "albucesta",
           "gloss": "albinismo",
-          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-uc\">-UC-</a> + EST + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "ALB + -UC- + EST + -A",
+          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-uc\">-UC-</a> + <a class=\"morph-link\" href=\"#morph-est-cond\">-EST-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ALB + -UC- + -EST- + -A",
           "refs": [
             {
               "id": "morph-uc",
               "label": "-UC-"
+            },
+            {
+              "id": "morph-est-cond",
+              "label": "-EST-"
             },
             {
               "id": "morph-a-2",

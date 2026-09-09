@@ -1998,6 +1998,56 @@
         "Función no canonizada todavía."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-so-sub",
+      "form": "*SO-",
+      "gloss": "atenuativo; indica un poco, en grado menor",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-est-cond",
+      "form": "*-EST-",
+      "gloss": "condición, estado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-j-theme",
+      "form": "*-J-",
+      "gloss": "extensión de tema / formante derivacional",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [
+        "Puede funcionar como extensión temática o como formante derivacional según la formación léxica."
+      ],
+      "row_class": ""
     }
   ]
 }
