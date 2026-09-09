@@ -391,6 +391,23 @@
       "words": []
     },
     {
+      "id": "root-co",
+      "form": "*CO-",
+      "gloss": "alto, sacro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-co-t",
       "form": "*CO-T",
       "gloss": "alto",

@@ -1471,12 +1471,16 @@
           "id": "lexeme-nujalmida",
           "form": "nujalmida",
           "gloss": "reanimacion",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-nu-j\">NU-J</a> + ALM(ID) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">[ID como extensión de tema; analizar]</span>",
-          "analysis_text": "NU-J + ALM(ID) + -A [ID como extensión de tema; analizar]",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-nu-j\">NU-J</a> + ALM + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NU-J + ALM + -ID- + -A",
           "refs": [
             {
               "id": "root-nu-j",
               "label": "NU-J"
+            },
+            {
+              "id": "morph-id",
+              "label": "-ID-"
             },
             {
               "id": "morph-a-2",
@@ -1532,9 +1536,13 @@
           "id": "lexeme-coalma",
           "form": "coalma",
           "gloss": "espiritu santo",
-          "analysis_html": "CO + ALM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">[CO pendiente de analizar]</span>",
-          "analysis_text": "CO + ALM + -A [CO pendiente de analizar]",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-co\">CO</a> + ALM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CO + ALM + -A",
           "refs": [
+            {
+              "id": "root-co",
+              "label": "CO"
+            },
             {
               "id": "morph-a-2",
               "label": "-A"
@@ -1597,9 +1605,13 @@
           "id": "lexeme-almidaj",
           "form": "almidaj",
           "gloss": "animos, ganas, entusiasmo",
-          "analysis_html": "ALM(ID) + <a class=\"morph-link\" href=\"#morph-aj\">-AJ</a> <span class=\"meta-extra\">[ID como extensión de tema; analizar]</span>",
-          "analysis_text": "ALM(ID) + -AJ [ID como extensión de tema; analizar]",
+          "analysis_html": "ALM + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + <a class=\"morph-link\" href=\"#morph-aj\">-AJ</a>",
+          "analysis_text": "ALM + -ID- + -AJ",
           "refs": [
+            {
+              "id": "morph-id",
+              "label": "-ID-"
+            },
             {
               "id": "morph-aj",
               "label": "-AJ"
