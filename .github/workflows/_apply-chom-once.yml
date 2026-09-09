@@ -1,0 +1,65 @@
+name: Apply CHOM once
+on:
+  push:
+    paths:
+      - '.github/workflows/_apply-chom-once.yml'
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Update lexicon
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          # Add *ĈOM- = mucho as a lexical root if absent.
+          p = Path('lexico/circ-c.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          entry = next((e for e in data['entries'] if e.get('id') == 'root-com'), None)
+          if entry is None:
+              entry = {
+                  'id': 'root-com',
+                  'form': '*ĈOM-',
+                  'gloss': 'mucho',
+                  'tags': [{'class': 'generic', 'label': 'Raiz'}],
+                  'letter': 'Ĉ',
+                  'section': 'sec-circ-c',
+                  'etymology': None,
+                  'notes': [],
+                  'row_class': '',
+                  'words': []
+              }
+              # Keep roughly alphabetical placement.
+              insert_at = next((i for i,e in enumerate(data['entries']) if e.get('form','') > '*ĈOM-'), len(data['entries']))
+              data['entries'].insert(insert_at, entry)
+          else:
+              entry['form'] = '*ĈOM-'
+              entry['gloss'] = 'mucho'
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Correct antaĉom analysis.
+          p = Path('lexico/a.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          ant = next(e for e in data['entries'] if e.get('id') == 'root-ant')
+          w = next(w for w in ant['words'] if w.get('id') == 'lexeme-antacom')
+          w['analysis_html'] = 'ANT + A + <a class="morph-link" href="#root-com">ĈOM</a>'
+          w['analysis_text'] = 'ANT + A + ĈOM'
+          w['refs'] = [{'id': 'root-com', 'label': 'ĈOM'}]
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          python scripts/build_lexicon_index.py
+      - name: Remove one-shot workflow and commit
+        run: |
+          rm .github/workflows/_apply-chom-once.yml
+          git config user.name 'lucumur'
+          git config user.email '86584490+lucumur@users.noreply.github.com'
+          git add lexico/a.json lexico/circ-c.json lexico/index.json .github/workflows/_apply-chom-once.yml
+          git commit -m 'Definir ĈOM como mucho y corregir antaĉom'
+          git push
