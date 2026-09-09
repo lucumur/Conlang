@@ -22,12 +22,14 @@ for letter,key in LETTER_FILES:
             continue
         parts=[e.get('form',''),e.get('gloss',''),e.get('etymology') or '']+labels(e.get('tags'))
         for w in e.get('words',[]):
-            parts += [w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))
+            semantic_fields=w.get('semantic_fields',[]) or []
+            parts += [w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields
             words.append({
                 'id':w['id'],'root_id':e['id'],'letter':letter,'key':key,
                 'form':w.get('form',''),'gloss':w.get('gloss',''),
                 'refs':[r.get('id') for r in w.get('refs',[]) if r.get('id')],
-                'search':' '.join([w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags')))
+                'semantic_fields':semantic_fields,
+                'search':' '.join([w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields)
             })
         roots.append({
             'id':e['id'],'letter':letter,'key':key,'form':e.get('form',''),'gloss':e.get('gloss',''),

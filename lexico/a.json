@@ -907,6 +907,10 @@
               "class": "generic",
               "label": "Adjetivo ER"
             }
+          ],
+          "semantic_fields": [
+            "magnitud",
+            "comparativos"
           ]
         },
         {
@@ -1153,6 +1157,10 @@
               "class": "generic",
               "label": "Locativo AL"
             }
+          ],
+          "semantic_fields": [
+            "montañas",
+            "nevado"
           ]
         },
         {
@@ -1203,6 +1211,10 @@
               "class": "generic",
               "label": "Humano ON"
             }
+          ],
+          "semantic_fields": [
+            "palidez",
+            "congénito"
           ]
         },
         {
