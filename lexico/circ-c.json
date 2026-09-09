@@ -373,6 +373,23 @@
       "words": []
     },
     {
+      "id": "root-com",
+      "form": "*ĈOM-",
+      "gloss": "mucho",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-comp",
       "form": "*ĈOMP-",
       "gloss": "arrancar bocado",

@@ -2703,9 +2703,14 @@
           "id": "lexeme-antacom",
           "form": "antaĉom",
           "gloss": "ante todo, principalmente",
-          "analysis_html": "ANT + AĈOM",
-          "analysis_text": "ANT + AĈOM",
-          "refs": [],
+          "analysis_html": "ANT + A + <a class=\"morph-link\" href=\"#root-com\">ĈOM</a>",
+          "analysis_text": "ANT + A + ĈOM",
+          "refs": [
+            {
+              "id": "root-com",
+              "label": "ĈOM"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
