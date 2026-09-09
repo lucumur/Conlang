@@ -1,0 +1,61 @@
+name: Apply ALU lexicon once
+on:
+  push:
+    paths:
+      - '.github/workflows/_apply-alu-lexicon-once.yml'
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update ALU entry and index
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('lexico/a.json')
+          data=json.loads(p.read_text())
+          target=None
+          for e in data['entries']:
+              if e.get('id')=='root-alum' or e.get('form')=='*ALUM-':
+                  target=e
+                  break
+          if target is None:
+              raise SystemExit('ALUM entry not found')
+          target['id']='root-alu'
+          target['form']='*ALU-'
+          target['gloss']='alumbre'
+          if target.get('etymology'):
+              target['etymology']=target['etymology'].replace('*ALUM-','*ALU-')
+          target['row_class']='lex-root-row'
+          target['words']=[
+            {
+              'id':'lexeme-alusale',
+              'form':'alusale',
+              'gloss':'alumbre',
+              'analysis_html':'ALU + <a class="morph-link" href="#root-sal">SAL</a> + <a class="morph-link" href="#morph-e">-E</a>',
+              'analysis_text':'ALU + SAL + -E',
+              'refs':[{'id':'root-sal','label':'SAL'},{'id':'morph-e','label':'-E'}],
+              'tags':[{'class':'generic','label':'Nomen E'}]
+            },
+            {
+              'id':'lexeme-alurze',
+              'form':'alurze',
+              'gloss':'aluminio',
+              'analysis_html':'ALU(RZ) + <a class="morph-link" href="#morph-e">-E</a> <span class="meta-extra">[RZ pendiente de analizar]</span>',
+              'analysis_text':'ALU(RZ) + -E [RZ pendiente de analizar]',
+              'refs':[{'id':'morph-e','label':'-E'}],
+              'tags':[{'class':'generic','label':'Nomen E'}]
+            }
+          ]
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2)+"\n")
+          PY
+          python scripts/build_lexicon_index.py
+          git rm .github/workflows/_apply-alu-lexicon-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/index.json
+          git commit -m "Cambiar ALUM- a ALU- y añadir derivados"
+          git push
