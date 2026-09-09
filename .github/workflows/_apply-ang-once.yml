@@ -1,0 +1,92 @@
+name: Apply ANG once
+on:
+  push:
+    paths:
+      - '.github/workflows/_apply-ang-once.yml'
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update ANG lexicon
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path('lexico/a.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          root = next(e for e in data['entries'] if e['id'] == 'root-ang-2')
+          root['form'] = '*ANG-'
+          root['gloss'] = 'angulo'
+          root['row_class'] = 'lex-root-row'
+          root['words'] = [
+            {
+              'id': 'lexeme-angudol',
+              'form': 'angudol',
+              'gloss': 'angosto, estrecho',
+              'analysis_html': 'ANG + UD <span class="meta-extra">[extensión lexicalizada inspirada en lat. angustus]</span> + <a class="morph-link" href="#morph-ol-2">-OL</a>',
+              'analysis_text': 'ANG + UD (extensión lexicalizada inspirada en lat. angustus) + -OL',
+              'refs': [
+                {'id': 'morph-ol-2', 'label': '-OL'}
+              ],
+              'tags': [
+                {'class': 'generic', 'label': 'Adjetivo OL'}
+              ]
+            },
+            {
+              'id': 'lexeme-ango',
+              'form': 'ango',
+              'gloss': 'angulo',
+              'analysis_html': 'ANG + <a class="morph-link" href="#morph-o-3">-O</a>',
+              'analysis_text': 'ANG + -O',
+              'refs': [
+                {'id': 'morph-o-3', 'label': '-O'}
+              ],
+              'tags': [
+                {'class': 'generic', 'label': 'Nomen O'}
+              ]
+            },
+            {
+              'id': 'lexeme-gadrango',
+              'form': 'gadrango',
+              'gloss': 'cuadrado',
+              'analysis_html': '<a class="morph-link" href="#root-gad-r">GAD-R</a> + ANG + <a class="morph-link" href="#morph-o-3">-O</a>',
+              'analysis_text': 'GAD-R + ANG + -O',
+              'refs': [
+                {'id': 'root-gad-r', 'label': 'GAD-R'},
+                {'id': 'morph-o-3', 'label': '-O'}
+              ],
+              'tags': [
+                {'class': 'generic', 'label': 'Nomen O'}
+              ]
+            },
+            {
+              'id': 'lexeme-ginkango',
+              'form': 'ginkango',
+              'gloss': 'pentagono',
+              'analysis_html': '<a class="morph-link" href="#root-gin-k">GIN-K</a> + ANG + <a class="morph-link" href="#morph-o-3">-O</a>',
+              'analysis_text': 'GIN-K + ANG + -O',
+              'refs': [
+                {'id': 'root-gin-k', 'label': 'GIN-K'},
+                {'id': 'morph-o-3', 'label': '-O'}
+              ],
+              'tags': [
+                {'class': 'generic', 'label': 'Nomen O'}
+              ]
+            }
+          ]
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+      - name: Rebuild index
+        run: python scripts/build_lexicon_index.py
+      - name: Commit changes
+        run: |
+          rm .github/workflows/_apply-ang-once.yml
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/index.json .github/workflows/_apply-ang-once.yml
+          git commit -m "Actualizar familia ANG"
+          git push
