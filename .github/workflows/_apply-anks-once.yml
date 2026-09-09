@@ -1,0 +1,119 @@
+name: Apply ANKS once
+on:
+  push:
+    paths:
+      - '.github/workflows/_apply-anks-once.yml'
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update ANKS lexicon
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path('lexico/a.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+
+          target = None
+          for e in data['entries']:
+              if e.get('id') == 'root-ang' and e.get('gloss') == 'angor':
+                  target = e
+                  break
+          if target is None:
+              for e in data['entries']:
+                  if e.get('id') == 'root-anks':
+                      target = e
+                      break
+          if target is None:
+              raise SystemExit('No se encontró la raíz ANG/ANKS de angor')
+
+          target['id'] = 'root-anks'
+          target['form'] = '*ANKS-'
+          target['gloss'] = 'angor, sofoco, asfixia'
+          target['etymology'] = 'Etym. Eo. anksio → *ANKS-'
+          target['row_class'] = 'lex-root-row'
+
+          def ref(id_, label):
+              return {'id': id_, 'label': label}
+          def tag(label):
+              return {'class': 'generic', 'label': label}
+
+          target['words'] = [
+              {
+                  'id':'lexeme-anksas','form':'anksas','gloss':'asfixiar',
+                  'analysis_html':'ANKS + <a class="morph-link" href="#morph-as">-AS</a>',
+                  'analysis_text':'ANKS + -AS','refs':[ref('morph-as','-AS')],
+                  'tags':[tag('Predicado AS')]
+              },
+              {
+                  'id':'lexeme-anksos','form':'anksos','gloss':'asfixiarse',
+                  'analysis_html':'ANKS + <a class="morph-link" href="#morph-os">-OS</a>',
+                  'analysis_text':'ANKS + -OS','refs':[ref('morph-os','-OS')],
+                  'tags':[tag('Predicado OS')]
+              },
+              {
+                  'id':'lexeme-kolanksas','form':'kolanksas','gloss':'ahorcar',
+                  'analysis_html':'<a class="morph-link" href="#root-kol-2">KOL</a> + ANKS + <a class="morph-link" href="#morph-as">-AS</a>',
+                  'analysis_text':'KOL + ANKS + -AS','refs':[ref('root-kol-2','KOL'),ref('morph-as','-AS')],
+                  'tags':[tag('Predicado AS')]
+              },
+              {
+                  'id':'lexeme-anka','form':'anka','gloss':'sofoco, asfixia',
+                  'analysis_html':'ANKS + <a class="morph-link" href="#morph-a-2">-A</a> <span class="meta-extra">[forma superficial anka]</span>',
+                  'analysis_text':'ANKS + -A → anka','refs':[ref('morph-a-2','-A')],
+                  'tags':[tag('Nomen A')]
+              },
+              {
+                  'id':'lexeme-kolanksa','form':'kolanksa','gloss':'ahorcamiento',
+                  'analysis_html':'<a class="morph-link" href="#root-kol-2">KOL</a> + ANKS + <a class="morph-link" href="#morph-a-2">-A</a>',
+                  'analysis_text':'KOL + ANKS + -A','refs':[ref('root-kol-2','KOL'),ref('morph-a-2','-A')],
+                  'tags':[tag('Nomen A')]
+              },
+              {
+                  'id':'lexeme-anksidaj','form':'anksidaj','gloss':'ansias, nervios',
+                  'analysis_html':'ANKS + <a class="morph-link" href="#morph-id">-ID-</a> + <a class="morph-link" href="#morph-aj">-AJ</a>',
+                  'analysis_text':'ANKS + -ID- + -AJ','refs':[ref('morph-id','-ID-'),ref('morph-aj','-AJ')],
+                  'tags':[tag('Nomen A plural')]
+              },
+              {
+                  'id':'lexeme-anksema','form':'anksema','gloss':'ansiedad',
+                  'analysis_html':'ANKS + EM + <a class="morph-link" href="#morph-a-2">-A</a>',
+                  'analysis_text':'ANKS + EM + -A','refs':[ref('morph-a-2','-A')],
+                  'tags':[tag('Nomen A')]
+              },
+              {
+                  'id':'lexeme-timanksema','form':'timanksema','gloss':'angustia',
+                  'analysis_html':'<a class="morph-link" href="#root-tim">TIM</a> + ANKS + EM + <a class="morph-link" href="#morph-a-2">-A</a>',
+                  'analysis_text':'TIM + ANKS + EM + -A','refs':[ref('root-tim','TIM'),ref('morph-a-2','-A')],
+                  'tags':[tag('Nomen A')]
+              },
+              {
+                  'id':'lexeme-brustanksa','form':'brustanksa','gloss':'angina de pecho',
+                  'analysis_html':'BRUST + ANKS + <a class="morph-link" href="#morph-a-2">-A</a>',
+                  'analysis_text':'BRUST + ANKS + -A','refs':[ref('morph-a-2','-A')],
+                  'tags':[tag('Nomen A')]
+              },
+              {
+                  'id':'lexeme-brustanksol','form':'brustanksol','gloss':'anginoso',
+                  'analysis_html':'BRUST + ANKS + <a class="morph-link" href="#morph-ol-2">-OL</a>',
+                  'analysis_text':'BRUST + ANKS + -OL','refs':[ref('morph-ol-2','-OL')],
+                  'tags':[tag('Adjetivo OL')]
+              }
+          ]
+
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          python scripts/build_lexicon_index.py
+          rm .github/workflows/_apply-anks-once.yml
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/index.json .github/workflows/_apply-anks-once.yml
+          git commit -m "Actualizar ANKS y derivados"
+          git push
