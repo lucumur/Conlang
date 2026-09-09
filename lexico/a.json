@@ -1958,9 +1958,9 @@
       "words": []
     },
     {
-      "id": "root-ang",
-      "form": "*ANG-",
-      "gloss": "angor",
+      "id": "root-anks",
+      "form": "*ANKS-",
+      "gloss": "angor, sofoco, asfixia",
       "tags": [
         {
           "class": "generic",
@@ -1977,10 +1977,217 @@
       ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": "Etym. Eo. angoro → *ANG-",
+      "etymology": "Etym. Eo. anksio → *ANKS-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-anksas",
+          "form": "anksas",
+          "gloss": "asfixiar",
+          "analysis_html": "ANKS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ANKS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-anksos",
+          "form": "anksos",
+          "gloss": "asfixiarse",
+          "analysis_html": "ANKS + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ANKS + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-kolanksas",
+          "form": "kolanksas",
+          "gloss": "ahorcar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kol-2\">KOL</a> + ANKS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KOL + ANKS + -AS",
+          "refs": [
+            {
+              "id": "root-kol-2",
+              "label": "KOL"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-anka",
+          "form": "anka",
+          "gloss": "sofoco, asfixia",
+          "analysis_html": "ANKS + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">[forma superficial anka]</span>",
+          "analysis_text": "ANKS + -A → anka",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-kolanksa",
+          "form": "kolanksa",
+          "gloss": "ahorcamiento",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kol-2\">KOL</a> + ANKS + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KOL + ANKS + -A",
+          "refs": [
+            {
+              "id": "root-kol-2",
+              "label": "KOL"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-anksidaj",
+          "form": "anksidaj",
+          "gloss": "ansias, nervios",
+          "analysis_html": "ANKS + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + <a class=\"morph-link\" href=\"#morph-aj\">-AJ</a>",
+          "analysis_text": "ANKS + -ID- + -AJ",
+          "refs": [
+            {
+              "id": "morph-id",
+              "label": "-ID-"
+            },
+            {
+              "id": "morph-aj",
+              "label": "-AJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A plural"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-anksema",
+          "form": "anksema",
+          "gloss": "ansiedad",
+          "analysis_html": "ANKS + EM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ANKS + EM + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-timanksema",
+          "form": "timanksema",
+          "gloss": "angustia",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tim\">TIM</a> + ANKS + EM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TIM + ANKS + EM + -A",
+          "refs": [
+            {
+              "id": "root-tim",
+              "label": "TIM"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-brustanksa",
+          "form": "brustanksa",
+          "gloss": "angina de pecho",
+          "analysis_html": "BRUST + ANKS + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BRUST + ANKS + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-brustanksol",
+          "form": "brustanksol",
+          "gloss": "anginoso",
+          "analysis_html": "BRUST + ANKS + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "BRUST + ANKS + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-ang-2",
