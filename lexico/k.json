@@ -88,6 +88,124 @@
       "words": []
     },
     {
+      "id": "root-kal",
+      "form": "*KAL-",
+      "gloss": "alcali",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "K",
+      "section": "sec-k",
+      "etymology": "Etym. de novo; alemán kal- → *KAL-",
+      "notes": [],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-kalsale",
+          "form": "kalsale",
+          "gloss": "potasa",
+          "analysis_html": "KAL + <a class=\"morph-link\" href=\"#root-sal\">SAL</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "KAL + SAL + -E",
+          "refs": [
+            {
+              "id": "root-sal",
+              "label": "SAL"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-kaljone",
+          "form": "kaljone",
+          "gloss": "potasio",
+          "analysis_html": "KAL + <a class=\"morph-link\" href=\"#root-jon\">JON</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "KAL + JON + -E",
+          "refs": [
+            {
+              "id": "root-jon",
+              "label": "JON"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-kaljur",
+          "form": "kaljur",
+          "gloss": "alcalino",
+          "analysis_html": "KAL + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "KAL + -J- + -UR",
+          "refs": [
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-ur-3",
+              "label": "-UR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo UR"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-kalja",
+          "form": "kalja",
+          "gloss": "alcalinidad",
+          "analysis_html": "KAL + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KAL + -J- + -A",
+          "refs": [
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-kal-k",
       "form": "*KAL-K",
       "gloss": "copa",

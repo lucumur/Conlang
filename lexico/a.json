@@ -1402,60 +1402,6 @@
       "words": []
     },
     {
-      "id": "root-alk",
-      "form": "*ALK-",
-      "gloss": "alcali",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "nat-red",
-          "label": "Nat-Red"
-        },
-        {
-          "class": "arabe",
-          "label": "Arabe"
-        }
-      ],
-      "letter": "A",
-      "section": "sec-a",
-      "etymology": "Etym. Eo. alkalo → *ALK-",
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-alkol",
-          "form": "alkol",
-          "gloss": "alcalino",
-          "analysis_html": "ALK + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "ALK + -OL",
-          "refs": [
-            {
-              "id": "morph-ol-2",
-              "label": "-OL"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo OL"
-            }
-          ]
-        },
-        {
-          "id": "lexeme-alkale",
-          "form": "alkale",
-          "gloss": "potasa",
-          "analysis_html": "",
-          "analysis_text": "",
-          "refs": [],
-          "tags": []
-        }
-      ]
-    },
-    {
       "id": "root-alm",
       "form": "*ALM-",
       "gloss": "respirar ⭐",
