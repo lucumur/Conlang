@@ -1,0 +1,95 @@
+name: Apply AJL lexicon update
+on:
+  push:
+    paths:
+      - '.github/workflows/_apply-ajl-update.yml'
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update AJL entries
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          a_path = Path('lexico/a.json')
+          a = json.loads(a_path.read_text(encoding='utf-8'))
+          root = next(e for e in a['entries'] if e.get('id') == 'root-alc')
+          root.update({
+              'id': 'root-ajl',
+              'form': '*AJL-',
+              'gloss': 'ajo',
+              'tags': [
+                  {'class': 'generic', 'label': 'Raiz'},
+                  {'class': 'nat-plen', 'label': 'Nat-Plen'},
+                  {'class': 'italico', 'label': 'Italico'},
+              ],
+              'etymology': 'Etym. Eo. ajlo → *AJL-',
+              'row_class': 'lex-root-row',
+              'words': [
+                  {
+                      'id': 'lexeme-ajlo',
+                      'form': 'ajlo',
+                      'gloss': 'ajo',
+                      'analysis_html': 'AJL + -O',
+                      'analysis_text': 'AJL + -O',
+                      'refs': [],
+                      'tags': []
+                  },
+                  {
+                      'id': 'lexeme-ajlinto',
+                      'form': 'ajlinto',
+                      'gloss': 'diente de ajo',
+                      'analysis_html': 'AJL + <a class="morph-link" href="#morph-into">-INTO</a>',
+                      'analysis_text': 'AJL + -INTO',
+                      'refs': [{'id': 'morph-into', 'label': '-INTO'}],
+                      'tags': [{'class': 'generic', 'label': 'Fragmentivo INTO'}]
+                  },
+                  {
+                      'id': 'lexeme-ajloka',
+                      'form': 'ajloka',
+                      'gloss': 'mal aliento, halitosis',
+                      'analysis_html': 'AJL + <a class="morph-link" href="#root-ok">OK</a> + <a class="morph-link" href="#morph-a-2">-A</a>',
+                      'analysis_text': 'AJL + OK + -A',
+                      'refs': [
+                          {'id': 'root-ok', 'label': 'OK'},
+                          {'id': 'morph-a-2', 'label': '-A'}
+                      ],
+                      'tags': [{'class': 'generic', 'label': 'Nomen A'}]
+                  }
+              ]
+          })
+          a_path.write_text(json.dumps(a, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          o_path = Path('lexico/o.json')
+          o = json.loads(o_path.read_text(encoding='utf-8'))
+          ok = next(e for e in o['entries'] if e.get('id') == 'root-ok')
+          ok['gloss'] = 'hueco, agujero, boca'
+          o_path.write_text(json.dumps(o, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          m_path = Path('lexico/morphemes.json')
+          m = json.loads(m_path.read_text(encoding='utf-8'))
+          if not any(x.get('id') == 'morph-into' for x in m['morphemes']):
+              m['morphemes'].append({
+                  'id': 'morph-into',
+                  'form': '*-INTO',
+                  'gloss': 'fragmento',
+                  'tags': [{'class': 'generic', 'label': 'sufijo'}],
+                  'letter': 'I',
+                  'section': 'sec-i',
+                  'etymology': None,
+                  'notes': [],
+                  'row_class': ''
+              })
+          m_path.write_text(json.dumps(m, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          rm .github/workflows/_apply-ajl-update.yml
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Actualizar raíz AJL y derivados"
+          git push
