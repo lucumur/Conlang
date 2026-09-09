@@ -17,7 +17,6 @@ jobs:
           from pathlib import Path
           import json, subprocess
 
-          # 1) Add canonical semantic fields to the examples already defined by the user.
           ap = Path('lexico/a.json')
           ad = json.loads(ap.read_text(encoding='utf-8'))
           wanted = {
@@ -33,49 +32,46 @@ jobs:
                       found.add(w['form'])
           missing = set(wanted) - found
           if missing:
-              raise SystemExit(f'No se encontraron palabras para campos semánticos: {sorted(missing)}')
+              raise SystemExit('Faltan palabras: ' + ', '.join(sorted(missing)))
           ap.write_text(json.dumps(ad, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # 2) Include semantic fields in the global search index.
           sp = Path('scripts/build_lexicon_index.py')
           s = sp.read_text(encoding='utf-8')
-          old = """            parts += [w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))
-            words.append({
-                'id':w['id'],'root_id':e['id'],'letter':letter,'key':key,
-                'form':w.get('form',''),'gloss':w.get('gloss',''),
-                'refs':[r.get('id') for r in w.get('refs',[]) if r.get('id')],
-                'search':' '.join([w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags')))
-            })
-"""
-          new = """            semantic_fields=w.get('semantic_fields',[]) or []
-            parts += [w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields
-            words.append({
-                'id':w['id'],'root_id':e['id'],'letter':letter,'key':key,
-                'form':w.get('form',''),'gloss':w.get('gloss',''),
-                'refs':[r.get('id') for r in w.get('refs',[]) if r.get('id')],
-                'semantic_fields':semantic_fields,
-                'search':' '.join([w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields)
-            })
-"""
-          if old not in s:
-              raise SystemExit('No se encontró el bloque esperado en build_lexicon_index.py')
-          sp.write_text(s.replace(old,new), encoding='utf-8')
+          old_parts = "            parts += [w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))"
+          new_parts = "            semantic_fields=w.get('semantic_fields',[]) or []\n            parts += [w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields"
+          if old_parts not in s and 'semantic_fields=w.get' not in s:
+              raise SystemExit('No se encontró parts en build_lexicon_index.py')
+          s = s.replace(old_parts, new_parts)
+          old_refs = "                'refs':[r.get('id') for r in w.get('refs',[]) if r.get('id')],"
+          new_refs = old_refs + "\n                'semantic_fields':semantic_fields,"
+          if "'semantic_fields':semantic_fields" not in s:
+              if old_refs not in s:
+                  raise SystemExit('No se encontró refs en build_lexicon_index.py')
+              s = s.replace(old_refs, new_refs, 1)
+          old_search = "                'search':' '.join([w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags')))"
+          new_search = "                'search':' '.join([w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields)"
+          s = s.replace(old_search, new_search)
+          sp.write_text(s, encoding='utf-8')
 
-          # 3) Render semantic fields as a separate horizontal row of chips in each lexical word.
           hp = Path('lexico.html')
           h = hp.read_text(encoding='utf-8')
           old_css = '.derived-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.morph-link'
           new_css = '.derived-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.derived-semantics{display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-top:7px}.semantic-label{color:var(--muted);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em}.semantic-field{display:inline-block;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:var(--paper);font-size:.76rem;white-space:nowrap}.morph-link'
-          if old_css not in h:
-              raise SystemExit('No se encontró el bloque CSS esperado en lexico.html')
-          h = h.replace(old_css,new_css)
-          old_fun = """  function wordHTML(w){return`<article class=\"derived-entry\" id=\"${esc(w.id)}\"><div class=\"derived-word\"><code>${esc(w.form)}</code></div><div class=\"derived-gloss\">${esc(w.gloss)}</div>${w.analysis_html?`<div class=\"derived-analysis\">${w.analysis_html}</div>`:''}${w.tags?.length?`<div class=\"derived-tags\">${tagHTML(w.tags)}</div>`:''}</article>`}
-"""
-          new_fun = """  function wordHTML(w){const sem=w.semantic_fields?.length?`<div class=\"derived-semantics\"><span class=\"semantic-label\">Campos</span>${w.semantic_fields.map(x=>`<span class=\"semantic-field\">${esc(x)}</span>`).join('')}</div>`:'';return`<article class=\"derived-entry\" id=\"${esc(w.id)}\"><div class=\"derived-word\"><code>${esc(w.form)}</code></div><div class=\"derived-gloss\">${esc(w.gloss)}</div>${w.analysis_html?`<div class=\"derived-analysis\">${w.analysis_html}</div>`:''}${sem}${w.tags?.length?`<div class=\"derived-tags\">${tagHTML(w.tags)}</div>`:''}</article>`}
-"""
-          if old_fun not in h:
-              raise SystemExit('No se encontró wordHTML esperado en lexico.html')
-          hp.write_text(h.replace(old_fun,new_fun), encoding='utf-8')
+          if '.derived-semantics{' not in h:
+              if old_css not in h:
+                  raise SystemExit('No se encontró CSS esperado')
+              h = h.replace(old_css, new_css)
+          lines = h.splitlines()
+          replacement = "  function wordHTML(w){const sem=w.semantic_fields?.length?`<div class=\"derived-semantics\"><span class=\"semantic-label\">Campos</span>${w.semantic_fields.map(x=>`<span class=\"semantic-field\">${esc(x)}</span>`).join('')}</div>`:'';return`<article class=\"derived-entry\" id=\"${esc(w.id)}\"><div class=\"derived-word\"><code>${esc(w.form)}</code></div><div class=\"derived-gloss\">${esc(w.gloss)}</div>${w.analysis_html?`<div class=\"derived-analysis\">${w.analysis_html}</div>`:''}${sem}${w.tags?.length?`<div class=\"derived-tags\">${tagHTML(w.tags)}</div>`:''}</article>`}"
+          changed = False
+          for i,line in enumerate(lines):
+              if line.startswith('  function wordHTML(w){'):
+                  lines[i] = replacement
+                  changed = True
+                  break
+          if not changed:
+              raise SystemExit('No se encontró wordHTML')
+          hp.write_text('\n'.join(lines) + '\n', encoding='utf-8')
 
           subprocess.run(['python','scripts/build_lexicon_index.py'], check=True)
           PY
