@@ -1,0 +1,108 @@
+name: Apply ANGL family once
+on:
+  push:
+    paths:
+      - '.github/workflows/_apply-angl-once.yml'
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add ANGL family
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path('lexico/a.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          root = next(e for e in data['entries'] if e['id'] == 'root-angl')
+          root['row_class'] = 'lex-root-row'
+          root['words'] = [
+            {
+              'id': 'lexeme-angler',
+              'form': 'angler',
+              'gloss': 'ingles',
+              'analysis_html': 'ANGL + <a class="morph-link" href="#morph-er">-ER</a>',
+              'analysis_text': 'ANGL + -ER',
+              'refs': [{'id':'morph-er','label':'-ER'}],
+              'tags': [{'class':'generic','label':'Adjetivo ER'}]
+            },
+            {
+              'id': 'lexeme-anglivocon',
+              'form': 'anglivoĉon',
+              'gloss': 'anglofono',
+              'analysis_html': 'ANGL + I + <a class="morph-link" href="#root-voc">VOĈ</a> + <a class="morph-link" href="#morph-on">-ON</a>',
+              'analysis_text': 'ANGL + I + VOĈ + -ON',
+              'refs': [
+                {'id':'root-voc','label':'VOĈ'},
+                {'id':'morph-on','label':'-ON'}
+              ],
+              'tags': [{'class':'generic','label':'Humano ON'}]
+            },
+            {
+              'id': 'lexeme-angleral',
+              'form': 'angleral',
+              'gloss': 'inglaterra',
+              'analysis_html': 'ANGL + <a class="morph-link" href="#morph-er">-ER</a> + <a class="morph-link" href="#morph-al-3">-AL</a>',
+              'analysis_text': 'ANGL + -ER + -AL',
+              'refs': [
+                {'id':'morph-er','label':'-ER'},
+                {'id':'morph-al-3','label':'-AL'}
+              ],
+              'tags': [{'class':'generic','label':'Locativo AL'}]
+            },
+            {
+              'id': 'lexeme-angleron',
+              'form': 'angleron',
+              'gloss': 'ingles',
+              'analysis_html': 'ANGL + <a class="morph-link" href="#morph-er">-ER</a> + <a class="morph-link" href="#morph-on">-ON</a>',
+              'analysis_text': 'ANGL + -ER + -ON',
+              'refs': [
+                {'id':'morph-er','label':'-ER'},
+                {'id':'morph-on','label':'-ON'}
+              ],
+              'tags': [{'class':'generic','label':'Humano ON'}]
+            },
+            {
+              'id': 'lexeme-angloni',
+              'form': 'angloni',
+              'gloss': 'los Anglos',
+              'analysis_html': 'ANGL + <a class="morph-link" href="#morph-oni">-ONI</a>',
+              'analysis_text': 'ANGL + -ONI',
+              'refs': [{'id':'morph-oni','label':'-ONI'}],
+              'tags': [{'class':'generic','label':'Humano ON plural'}]
+            },
+            {
+              'id': 'lexeme-angla',
+              'form': 'angla',
+              'gloss': 'idioma ingles',
+              'analysis_html': 'ANGL + <a class="morph-link" href="#morph-a-2">-A</a>',
+              'analysis_text': 'ANGL + -A',
+              'refs': [{'id':'morph-a-2','label':'-A'}],
+              'tags': [{'class':'generic','label':'Nomen A'}]
+            },
+            {
+              'id': 'lexeme-anglaf',
+              'form': 'anglaf',
+              'gloss': 'en ingles, a la inglesa',
+              'analysis_html': 'ANGL + <a class="morph-link" href="#morph-af">-AF</a>',
+              'analysis_text': 'ANGL + -AF',
+              'refs': [{'id':'morph-af','label':'-AF'}],
+              'tags': [{'class':'generic','label':'Adverbio AF'}]
+            }
+          ]
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+      - name: Rebuild index
+        run: python scripts/build_lexicon_index.py
+      - name: Commit changes
+        run: |
+          rm .github/workflows/_apply-angl-once.yml
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/index.json .github/workflows/_apply-angl-once.yml
+          git commit -m "Agregar familia ANGL"
+          git push
