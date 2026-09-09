@@ -1,0 +1,33 @@
+name: Link ajlo to O once
+on:
+  push:
+    paths:
+      - '.github/workflows/_link-ajlo-o-once.yml'
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link ajlo and rebuild index
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('lexico/a.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          root = next(e for e in data['entries'] if e.get('id') == 'root-ajl')
+          word = next(w for w in root['words'] if w.get('id') == 'lexeme-ajlo')
+          word['analysis_html'] = 'AJL + <a class="morph-link" href="#morph-o-3">-O</a>'
+          word['analysis_text'] = 'AJL + -O'
+          word['refs'] = [{'id': 'morph-o-3', 'label': '-O'}]
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          python scripts/build_lexicon_index.py
+          rm .github/workflows/_link-ajlo-o-once.yml
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Enlazar ajlo con morfema O"
+          git push
