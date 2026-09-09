@@ -1685,6 +1685,10 @@
               "class": "generic",
               "label": "Nomen E"
             }
+          ],
+          "semantic_fields": [
+            "química",
+            "sales"
           ]
         },
         {
@@ -1708,6 +1712,11 @@
               "class": "generic",
               "label": "Nomen E"
             }
+          ],
+          "semantic_fields": [
+            "química",
+            "elementos",
+            "metales"
           ]
         }
       ]
@@ -1759,8 +1768,66 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. ambro → *AMBR-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-ambrol",
+          "form": "ambrol",
+          "gloss": "amarillo (modernamente genérico; históricamente más próximo a amarillo-naranja)",
+          "analysis_html": "AMBR + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "AMBR + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-ambre",
+          "form": "ambre",
+          "gloss": "ambar",
+          "analysis_html": "AMBR + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "AMBR + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-zetikambre",
+          "form": "ẑetikambre",
+          "gloss": "ambar gris",
+          "analysis_html": "ẐETIK + AMBR + <a class=\"morph-link\" href=\"#morph-e\">-E</a> <span class=\"meta-extra\">[ẐETIK pendiente de analizar]</span>",
+          "analysis_text": "ẐETIK + AMBR + -E [ẐETIK pendiente de analizar]",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-amer",
