@@ -868,7 +868,7 @@
     },
     {
       "id": "root-al",
-      "form": "*AL-",
+      "form": "*ALT-",
       "gloss": "alto",
       "tags": [
         {
@@ -876,8 +876,8 @@
           "label": "Raiz"
         },
         {
-          "class": "nat-mod",
-          "label": "Nat-Mod"
+          "class": "nat-plen",
+          "label": "Nat-Plen"
         },
         {
           "class": "latin",
@@ -886,10 +886,91 @@
       ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": "Etym. Eo. alta → *AL-",
+      "etymology": "Etym. Eo. alta → *ALT-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-alter",
+          "form": "alter",
+          "gloss": "alto, elevado",
+          "analysis_html": "ALT + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "ALT + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-altezha",
+          "form": "alteẑa",
+          "gloss": "altura, tamaño",
+          "analysis_html": "ALT + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "ALT + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen abstracto"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-altala",
+          "form": "altala",
+          "gloss": "elevacion, altitud",
+          "analysis_html": "ALT + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ALT + -AL + -A",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-altaf",
+          "form": "altaf",
+          "gloss": "arriba",
+          "analysis_html": "ALT + <a class=\"morph-link\" href=\"#morph-af\">-AF</a>",
+          "analysis_text": "ALT + -AF",
+          "refs": [
+            {
+              "id": "morph-af",
+              "label": "-AF"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio AF"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-al-2",
