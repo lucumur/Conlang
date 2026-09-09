@@ -2048,6 +2048,22 @@
         "Puede funcionar como extensión temática o como formante derivacional según la formación léxica."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-into",
+      "form": "*-INTO",
+      "gloss": "fragmento",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
     }
   ]
 }

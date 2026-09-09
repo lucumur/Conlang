@@ -1280,8 +1280,8 @@
       ]
     },
     {
-      "id": "root-alc",
-      "form": "*ALC-",
+      "id": "root-ajl",
+      "form": "*AJL-",
       "gloss": "ajo",
       "tags": [
         {
@@ -1289,20 +1289,72 @@
           "label": "Raiz"
         },
         {
-          "class": "nat-mod",
-          "label": "Nat-Mod"
+          "class": "nat-plen",
+          "label": "Nat-Plen"
         },
         {
-          "class": "iberico",
-          "label": "Iberico"
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": "Etym. Eo. ajlo → *ALC-",
+      "etymology": "Etym. Eo. ajlo → *AJL-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-ajlo",
+          "form": "ajlo",
+          "gloss": "ajo",
+          "analysis_html": "AJL + -O",
+          "analysis_text": "AJL + -O",
+          "refs": [],
+          "tags": []
+        },
+        {
+          "id": "lexeme-ajlinto",
+          "form": "ajlinto",
+          "gloss": "diente de ajo",
+          "analysis_html": "AJL + <a class=\"morph-link\" href=\"#morph-into\">-INTO</a>",
+          "analysis_text": "AJL + -INTO",
+          "refs": [
+            {
+              "id": "morph-into",
+              "label": "-INTO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Fragmentivo INTO"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-ajloka",
+          "form": "ajloka",
+          "gloss": "mal aliento, halitosis",
+          "analysis_html": "AJL + <a class=\"morph-link\" href=\"#root-ok\">OK</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "AJL + OK + -A",
+          "refs": [
+            {
+              "id": "root-ok",
+              "label": "OK"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-alj",
