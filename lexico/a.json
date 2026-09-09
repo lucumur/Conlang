@@ -1812,9 +1812,17 @@
           "id": "lexeme-zetikambre",
           "form": "ẑetikambre",
           "gloss": "ambar gris",
-          "analysis_html": "ẐETIK + AMBR + <a class=\"morph-link\" href=\"#morph-e\">-E</a> <span class=\"meta-extra\">[ẐETIK pendiente de analizar]</span>",
-          "analysis_text": "ẐETIK + AMBR + -E [ẐETIK pendiente de analizar]",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-zet-2\">ẐET</a> + <a class=\"morph-link\" href=\"#morph-ik\">-IK-</a> + AMBR + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ẐET + -IK- + AMBR + -E",
           "refs": [
+            {
+              "id": "root-zet-2",
+              "label": "ẐET"
+            },
+            {
+              "id": "morph-ik",
+              "label": "-IK-"
+            },
             {
               "id": "morph-e",
               "label": "-E"
