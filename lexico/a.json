@@ -1315,7 +1315,12 @@
               "label": "-O"
             }
           ],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "alimentación",
+            "vegetales",
+            "condimentos"
+          ]
         },
         {
           "id": "lexeme-ajlinto",
@@ -1334,6 +1339,11 @@
               "class": "generic",
               "label": "Fragmentivo INTO"
             }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "vegetales",
+            "partes"
           ]
         },
         {
@@ -1357,6 +1367,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "salud",
+            "boca",
+            "olor"
           ]
         }
       ]
