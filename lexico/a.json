@@ -1536,12 +1536,12 @@
           "id": "lexeme-coalma",
           "form": "coalma",
           "gloss": "espiritu santo",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-co\">CO</a> + ALM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "CO + ALM + -A",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-co-high\">CO-</a> + ALM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CO- + ALM + -A",
           "refs": [
             {
-              "id": "root-co",
-              "label": "CO"
+              "id": "morph-co-high",
+              "label": "CO-"
             },
             {
               "id": "morph-a-2",

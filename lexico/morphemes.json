@@ -2064,6 +2064,24 @@
       "etymology": null,
       "notes": [],
       "row_class": ""
+    },
+    {
+      "id": "morph-co-high",
+      "form": "*CO-",
+      "gloss": "alto, sacro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "prefijo"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": null,
+      "notes": [
+        "Derivado desprendible de *CO-T; la T final de la raíz original es desprendible."
+      ],
+      "row_class": ""
     }
   ]
 }

@@ -391,23 +391,6 @@
       "words": []
     },
     {
-      "id": "root-co",
-      "form": "*CO-",
-      "gloss": "alto, sacro",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
-      "letter": "C",
-      "section": "sec-c",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-co-t",
       "form": "*CO-T",
       "gloss": "alto",
@@ -424,7 +407,9 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CO- es un derivado desprendible de *CO-T; la T final es desprendible."
+      ],
       "row_class": "",
       "words": []
     },
