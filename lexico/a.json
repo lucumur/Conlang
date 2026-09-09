@@ -2217,8 +2217,8 @@
           "id": "lexeme-angudol",
           "form": "angudol",
           "gloss": "angosto, estrecho",
-          "analysis_html": "ANG + UD <span class=\"meta-extra\">[extensión lexicalizada inspirada en lat. angustus]</span> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "ANG + UD (extensión lexicalizada inspirada en lat. angustus) + -OL",
+          "analysis_html": "ANG + UD + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ANG + UD + -OL",
           "refs": [
             {
               "id": "morph-ol-2",
