@@ -1424,7 +1424,36 @@
       "etymology": "Etym. Eo. alkalo → *ALK-",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-alkol",
+          "form": "alkol",
+          "gloss": "alcalino",
+          "analysis_html": "ALK + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ALK + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-alkale",
+          "form": "alkale",
+          "gloss": "potasa",
+          "analysis_html": "",
+          "analysis_text": "",
+          "refs": [],
+          "tags": []
+        }
+      ]
     },
     {
       "id": "root-alm",
