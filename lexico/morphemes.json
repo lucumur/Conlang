@@ -2349,6 +2349,22 @@
       "etymology": null,
       "notes": [],
       "row_class": ""
+    },
+    {
+      "id": "morph-oro",
+      "form": "*-ORO",
+      "gloss": "algo que tiene",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
     }
   ]
 }
