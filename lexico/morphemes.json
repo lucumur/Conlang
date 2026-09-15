@@ -1706,9 +1706,9 @@
       "row_class": ""
     },
     {
-      "id": "morph-utas",
-      "form": "*-UTAS",
-      "gloss": "utilizar",
+      "id": "morph-ut",
+      "form": "*-UT-",
+      "gloss": "uso instrumental o actividad realizada mediante el referente de la base (provisional)",
       "tags": [
         {
           "class": "generic",
@@ -1718,7 +1718,10 @@
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Reanálisis provisional de *-UTAS «utilizar» como *-UT- + -AS.",
+        "Ejemplos: arĉutas «disparar un arco» y arĉuta «arquería»."
+      ],
       "row_class": ""
     },
     {
@@ -2257,7 +2260,7 @@
     {
       "id": "morph-ir-reservative",
       "form": "*-IR",
-      "gloss": "reservado, oculto; formante adjetival (provisional)",
+      "gloss": "adjetivo resultativo o estativo: estado resultante o caracterizado por la base (provisional)",
       "tags": [
         {
           "class": "generic",
@@ -2272,7 +2275,8 @@
       "section": "sec-i",
       "etymology": null,
       "notes": [
-        "Valor inferido provisionalmente de arkir «secreto»; revisar con más ejemplos."
+        "Generalización provisional a partir de arkir «secreto» (< guardado/oculto) y arĉir «arqueado».",
+        "El valor específico depende de la semántica de la raíz."
       ],
       "row_class": ""
     }

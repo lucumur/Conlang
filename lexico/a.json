@@ -4261,7 +4261,7 @@
     {
       "id": "root-arc-2",
       "form": "*ARĈ-",
-      "gloss": "arquear",
+      "gloss": "arco",
       "tags": [
         {
           "class": "generic",
@@ -4280,8 +4280,189 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. arĉo → *ARĈ-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-archas",
+          "form": "arĉas",
+          "gloss": "arquear",
+          "analysis_html": "ARĈ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ARĈ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "curvatura",
+            "forma",
+            "transformación"
+          ]
+        },
+        {
+          "id": "lexeme-archos",
+          "form": "arĉos",
+          "gloss": "arquearse",
+          "analysis_html": "ARĈ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ARĈ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "curvatura",
+            "cambio de estado",
+            "forma"
+          ]
+        },
+        {
+          "id": "lexeme-archutas",
+          "form": "arĉutas",
+          "gloss": "disparar un arco",
+          "analysis_html": "ARĈ + <a class=\"morph-link\" href=\"#morph-ut\">-UT-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ARĈ + -UT- + -AS",
+          "refs": [
+            {
+              "id": "morph-ut",
+              "label": "-UT-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "arquería",
+            "armas",
+            "tiro"
+          ]
+        },
+        {
+          "id": "lexeme-archir",
+          "form": "arĉir",
+          "gloss": "arqueado",
+          "analysis_html": "ARĈ + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a>",
+          "analysis_text": "ARĈ + -IR",
+          "refs": [
+            {
+              "id": "morph-ir-reservative",
+              "label": "-IR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo IR"
+            }
+          ],
+          "semantic_fields": [
+            "curvatura",
+            "forma",
+            "geometría"
+          ]
+        },
+        {
+          "id": "lexeme-archo",
+          "form": "arĉo",
+          "gloss": "arco",
+          "analysis_html": "ARĈ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ARĈ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "arcos",
+            "armas",
+            "geometría"
+          ]
+        },
+        {
+          "id": "lexeme-archistan",
+          "form": "arĉistan",
+          "gloss": "arquero",
+          "analysis_html": "ARĈ + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ARĈ + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "arquería",
+            "oficios",
+            "armas"
+          ]
+        },
+        {
+          "id": "lexeme-archuta",
+          "form": "arĉuta",
+          "gloss": "arquería",
+          "analysis_html": "ARĈ + <a class=\"morph-link\" href=\"#morph-ut\">-UT-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ARĈ + -UT- + -A",
+          "refs": [
+            {
+              "id": "morph-ut",
+              "label": "-UT-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "arquería",
+            "deportes",
+            "armas"
+          ]
+        }
+      ]
     },
     {
       "id": "root-arg-2",
