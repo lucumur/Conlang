@@ -3963,12 +3963,16 @@
           "id": "lexeme-arcipajn",
           "form": "arcipajn",
           "gloss": "Padre, Mayor",
-          "analysis_html": "ARC + <span class=\"meta-extra\">i epentética</span> + <a class=\"morph-link\" href=\"#root-paj\">PAJ</a> + <span class=\"meta-extra\">-n lexicalizado</span>",
-          "analysis_text": "ARC + i epentética + PAJ + -n lexicalizado",
+          "analysis_html": "ARC + i epentética + PAJ + <a class=\"morph-link\" href=\"#morph-ajn-family\">patrón familiar -AJN</a>",
+          "analysis_text": "ARC + i epentética + PAJ + patrón familiar -AJN",
           "refs": [
             {
               "id": "root-paj",
               "label": "PAJ"
+            },
+            {
+              "id": "morph-ajn-family",
+              "label": "-AJN"
             }
           ],
           "tags": [
@@ -3991,8 +3995,8 @@
           "id": "lexeme-arcifrajn",
           "form": "arcifrajn",
           "gloss": "hermano noble",
-          "analysis_html": "ARC + <span class=\"meta-extra\">i epentética</span> + <a class=\"morph-link\" href=\"#root-fra\">FRA</a> + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <span class=\"meta-extra\">-n lexicalizado</span>",
-          "analysis_text": "ARC + i epentética + FRA + -J- + -n lexicalizado",
+          "analysis_html": "ARC + i epentética + FRA + <a class=\"morph-link\" href=\"#morph-ajn-family\">patrón familiar -AJN</a>",
+          "analysis_text": "ARC + i epentética + FRA + patrón familiar -AJN",
           "refs": [
             {
               "id": "root-fra",
@@ -4001,6 +4005,10 @@
             {
               "id": "morph-j-theme",
               "label": "-J-"
+            },
+            {
+              "id": "morph-ajn-family",
+              "label": "-AJN"
             }
           ],
           "tags": [
@@ -5920,7 +5928,7 @@
       "section": "sec-a",
       "etymology": null,
       "notes": [
-        "Las formaciones avajn, avejn, vavaj y avajnda son canónicas, pero sus segmentos internos adicionales no se generalizan como morfemas productivos sin decisión explícita."
+        "-AJN es una terminación familiar; -EJN es su variante femenina; -AJNDA es su forma abstracta. El hipocorístico vavaj permanece lexicalizado hasta que se formalice su patrón."
       ],
       "row_class": "lex-root-row",
       "words": [
@@ -5928,9 +5936,14 @@
           "id": "lexeme-avajn",
           "form": "avajn",
           "gloss": "abuelo materno",
-          "analysis_html": "AV + formación interna lexicalizada",
-          "analysis_text": "AV + formación interna lexicalizada",
-          "refs": [],
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-ajn-family\">-AJN</a>",
+          "analysis_text": "AV + -AJN",
+          "refs": [
+            {
+              "id": "morph-ajn-family",
+              "label": "-AJN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -5947,9 +5960,14 @@
           "id": "lexeme-avejn",
           "form": "avejn",
           "gloss": "abuela materna",
-          "analysis_html": "AV + formación interna lexicalizada",
-          "analysis_text": "AV + formación interna lexicalizada",
-          "refs": [],
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-ejn-family\">-EJN</a>",
+          "analysis_text": "AV + -EJN",
+          "refs": [
+            {
+              "id": "morph-ejn-family",
+              "label": "-EJN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -5985,9 +6003,14 @@
           "id": "lexeme-avajnda",
           "form": "avajnda",
           "gloss": "abolengo, ancestria",
-          "analysis_html": "derivado de AV; formación interna lexicalizada",
-          "analysis_text": "derivado de AV; formación interna lexicalizada",
-          "refs": [],
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-ajnda-family\">-AJNDA</a>",
+          "analysis_text": "AV + -AJNDA",
+          "refs": [
+            {
+              "id": "morph-ajnda-family",
+              "label": "-AJNDA"
+            }
+          ],
           "tags": [
             {
               "class": "generic",

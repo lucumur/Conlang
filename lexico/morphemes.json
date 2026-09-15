@@ -2365,6 +2365,56 @@
       "etymology": null,
       "notes": [],
       "row_class": ""
+    },
+    {
+      "id": "morph-ajn-family",
+      "form": "*-AJN",
+      "gloss": "terminación familiar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo familiar"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [
+        "Atestiguado en la familia AV y en formas familiares como pajn/frajn."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ejn-family",
+      "form": "*-EJN",
+      "gloss": "variante femenina de -AJN",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo familiar femenino"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ajnda-family",
+      "form": "*-AJNDA",
+      "gloss": "forma abstracta de -AJN",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo familiar abstracto"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
     }
   ]
 }
