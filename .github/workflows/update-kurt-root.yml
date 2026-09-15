@@ -1,4 +1,4 @@
-name: Add provisional KURT root
+name: Replace KURT with KORT
 on:
   push:
     paths:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Add provisional KURT and link kurtanĝon
+      - name: Canonize KORT for court and update kortanĝon
         run: |
           python - <<'PY'
           import json
@@ -19,38 +19,24 @@ jobs:
           kp = Path('lexico/k.json')
           kdata = json.loads(kp.read_text(encoding='utf-8'))
           entries = kdata['entries']
-          existing = next((e for e in entries if e.get('id') == 'root-kurt'), None)
-          root = {
-              'id': 'root-kurt',
-              'form': '*KURT-',
-              'gloss': 'corte (palaciega)',
-              'tags': [
-                  {'class': 'generic', 'label': 'Raiz'},
-                  {'class': 'generic', 'label': 'Provisional'}
-              ],
-              'letter': 'K',
-              'section': 'sec-k',
-              'etymology': None,
-              'notes': ['PROVISIONAL: forma destinada a «corte (palaciega)»; revisar frente a *KORT- «corte».'],
-              'row_class': 'lex-root-row',
-              'words': []
-          }
-          if existing is None:
-              pos = next((i + 1 for i, e in enumerate(entries) if e.get('id') == 'root-kurs'), len(entries))
-              entries.insert(pos, root)
-          else:
-              existing.clear()
-              existing.update(root)
+          entries[:] = [e for e in entries if e.get('id') != 'root-kurt']
+          kort = next(e for e in entries if e.get('id') == 'root-kort')
+          kort['gloss'] = 'corte (palaciega)'
+          notes = [n for n in kort.get('notes', []) if 'KURT' not in n]
+          kort['notes'] = notes
           kp.write_text(json.dumps(kdata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
           ap = Path('lexico/a.json')
           adata = json.loads(ap.read_text(encoding='utf-8'))
           ang = next(e for e in adata['entries'] if e.get('id') == 'root-ang-3')
-          word = next(w for w in ang['words'] if w.get('id') == 'lexeme-kurtangxon')
-          word['analysis_html'] = '<a class="morph-link" href="#root-kurt">KURT</a> + ANĜ + <a class="morph-link" href="#morph-on">-ON</a>'
-          word['analysis_text'] = 'KURT + ANĜ + -ON'
+          word = next(w for w in ang['words'] if w.get('id') in ('lexeme-kurtangxon', 'lexeme-kortangxon'))
+          word['id'] = 'lexeme-kortangxon'
+          word['form'] = 'kortanĝon'
+          word['gloss'] = 'asesor, mensajero'
+          word['analysis_html'] = '<a class="morph-link" href="#root-kort">KORT</a> + ANĜ + <a class="morph-link" href="#morph-on">-ON</a>'
+          word['analysis_text'] = 'KORT + ANĜ + -ON'
           word['refs'] = [
-              {'id': 'root-kurt', 'label': 'KURT'},
+              {'id': 'root-kort', 'label': 'KORT'},
               {'id': 'morph-on', 'label': '-ON'}
           ]
           ap.write_text(json.dumps(adata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
@@ -64,5 +50,5 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "Agregar raíz provisional KURT"
+          git commit -m "Usar KORT para corte palaciega"
           git push
