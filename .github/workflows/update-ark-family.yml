@@ -1,0 +1,143 @@
+name: Update ARK family
+on:
+  push:
+    paths:
+      - '.github/workflows/update-ark-family.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update ARK family
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          def tag(label):
+              return {'class':'generic','label':label}
+
+          # Lexicon
+          p = Path('lexico/a.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          ark = next((e for e in data.get('entries', []) if e.get('id') == 'root-ark'), None)
+          if ark is None:
+              raise SystemExit('No se encontró root-ark')
+          ark['row_class'] = 'lex-root-row'
+          ark['words'] = [
+            {
+              'id':'lexeme-arkas','form':'arkas','gloss':'guardar en un baúl',
+              'analysis_html':'ARK + <a class="morph-link" href="#morph-as">-AS</a>',
+              'analysis_text':'ARK + -AS','refs':[{'id':'morph-as','label':'-AS'}],
+              'tags':[tag('Predicado AS')],
+              'semantic_fields':['almacenamiento','custodia','contenedores']
+            },
+            {
+              'id':'lexeme-arkanas','form':'arkanas','gloss':'mantener guardado',
+              'analysis_html':'ARK + <a class="morph-link" href="#morph-an">-AN</a> + <a class="morph-link" href="#morph-as">-AS</a>',
+              'analysis_text':'ARK + -AN + -AS','refs':[{'id':'morph-an','label':'-AN'},{'id':'morph-as','label':'-AS'}],
+              'tags':[tag('Propuesta'),tag('Predicado durativo')],
+              'semantic_fields':['custodia','conservación','duración']
+            },
+            {
+              'id':'lexeme-arkir','form':'arkir','gloss':'secreto',
+              'analysis_html':'ARK + <a class="morph-link" href="#morph-ir-reservative">-IR</a>',
+              'analysis_text':'ARK + -IR','refs':[{'id':'morph-ir-reservative','label':'-IR'}],
+              'tags':[tag('Adjetivo'),tag('Provisional')],
+              'semantic_fields':['secreto','confidencialidad','ocultamiento']
+            },
+            {
+              'id':'lexeme-arkal','form':'arkal','gloss':'banco',
+              'analysis_html':'ARK + <a class="morph-link" href="#morph-al-3">-AL</a>',
+              'analysis_text':'ARK + -AL','refs':[{'id':'morph-al-3','label':'-AL'}],
+              'tags':[tag('Locativo AL')],
+              'semantic_fields':['banca','finanzas','instituciones']
+            },
+            {
+              'id':'lexeme-arkadeza','form':'arkadeẑa','gloss':'tesorería',
+              'analysis_html':'ARK + <a class="morph-link" href="#morph-ad">-AD-</a> + <a class="morph-link" href="#morph-eza">-EẐA</a>',
+              'analysis_text':'ARK + -AD- + -EẐA','refs':[{'id':'morph-ad','label':'-AD-'},{'id':'morph-eza','label':'-EẐA'}],
+              'tags':[tag('Nomen abstracto')],
+              'semantic_fields':['tesorería','finanzas','patrimonio']
+            },
+            {
+              'id':'lexeme-arkadistan','form':'arkadistan','gloss':'tesorero',
+              'analysis_html':'ARK + <a class="morph-link" href="#morph-ad">-AD-</a> + <a class="morph-link" href="#morph-ist">-IST</a> + <a class="morph-link" href="#morph-an-2">-AN</a>',
+              'analysis_text':'ARK + -AD- + -IST + -AN','refs':[{'id':'morph-ad','label':'-AD-'},{'id':'morph-ist','label':'-IST'},{'id':'morph-an-2','label':'-AN'}],
+              'tags':[tag('Humano AN')],
+              'semantic_fields':['tesorería','profesiones','finanzas']
+            },
+            {
+              'id':'lexeme-arkalistan','form':'arkalistan','gloss':'banquero',
+              'analysis_html':'ARK + <a class="morph-link" href="#morph-al-3">-AL</a> + <a class="morph-link" href="#morph-ist">-IST</a> + <a class="morph-link" href="#morph-an-2">-AN</a>',
+              'analysis_text':'ARK + -AL + -IST + -AN','refs':[{'id':'morph-al-3','label':'-AL'},{'id':'morph-ist','label':'-IST'},{'id':'morph-an-2','label':'-AN'}],
+              'tags':[tag('Humano AN')],
+              'semantic_fields':['banca','profesiones','finanzas']
+            },
+            {
+              'id':'lexeme-arkum','form':'arkum','gloss':'ahorros',
+              'analysis_html':'ARK + <a class="morph-link" href="#morph-um">-UM-</a>',
+              'analysis_text':'ARK + -UM-','refs':[{'id':'morph-um','label':'-UM-'}],
+              'tags':[tag('Nomen lexicalizado')],
+              'semantic_fields':['ahorros','finanzas','patrimonio']
+            },
+            {
+              'id':'lexeme-arkalda','form':'arkalda','gloss':'banca (institución)',
+              'analysis_html':'ARK + <a class="morph-link" href="#morph-alda">-ALDA</a>',
+              'analysis_text':'ARK + -ALDA','refs':[{'id':'morph-alda','label':'-ALDA'}],
+              'tags':[tag('Institución')],
+              'semantic_fields':['banca','instituciones','finanzas']
+            }
+          ]
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Morphemes
+          mp = Path('lexico/morphemes.json')
+          mdata = json.loads(mp.read_text(encoding='utf-8'))
+          morphs = mdata.setdefault('morphemes', [])
+          def upsert(m):
+              for i, old in enumerate(morphs):
+                  if old.get('id') == m['id']:
+                      morphs[i] = m
+                      return
+              morphs.append(m)
+
+          upsert({
+            'id':'morph-alda','form':'*-ALDA',
+            'gloss':'institución o actividad abstracta derivada de una forma locativa en -AL',
+            'tags':[tag('sufijo')],'letter':'A','section':'sec-a','etymology':None,
+            'notes':['Derivación canónica ejemplificada por arkal → arkalda.'],'row_class':''
+          })
+          upsert({
+            'id':'morph-ir-reservative','form':'*-IR',
+            'gloss':'reservado, oculto; formante adjetival (provisional)',
+            'tags':[tag('sufijo'),tag('Provisional')],'letter':'I','section':'sec-i','etymology':None,
+            'notes':['Valor inferido provisionalmente de arkir «secreto»; revisar con más ejemplos.'],'row_class':''
+          })
+          mp.write_text(json.dumps(mdata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Grammar coherence
+          gp = Path('gramatica.html')
+          g = gp.read_text(encoding='utf-8')
+          anchor = '<p><span class="status canon">Canónico</span><code>-ẐA</code> es un derivador productivo que forma nombres abstractos, especialmente cualidades, capacidades y estados.</p>'
+          addition = anchor + '\n  <p><span class="status canon">Canónico</span><code>-ALDA</code> forma una institución o actividad abstracta a partir de una forma locativa en <code>-AL</code>: <code>arkal</code> «banco» → <code>arkalda</code> «banca (institución)».</p>\n  <p><span class="status prov">Provisional</span><code>-IR</code> funciona en <code>arkir</code> «secreto» como formante adjetival de reserva u ocultamiento; su alcance productivo queda por comprobar.</p>'
+          if '<code>-ALDA</code> forma una institución' not in g:
+              if anchor not in g:
+                  raise SystemExit('No se encontró ancla en gramatica.html')
+              g = g.replace(anchor, addition, 1)
+          gp.write_text(g, encoding='utf-8')
+          PY
+
+          python scripts/build_lexicon_index.py
+          git rm .github/workflows/update-ark-family.yml
+
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Añadir repertorio de ARK"
+          git push
