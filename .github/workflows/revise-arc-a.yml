@@ -1,0 +1,166 @@
+name: Revise ARC-A
+on:
+  push:
+    paths:
+      - '.github/workflows/revise-arc-a.yml'
+permissions:
+  contents: write
+jobs:
+  revise:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply ARC-A revisions
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          # --- lexico/a.json ---
+          pa = Path('lexico/a.json')
+          data = json.loads(pa.read_text(encoding='utf-8'))
+          root = next(e for e in data['entries'] if e.get('id') == 'root-arc-a')
+          words = {w['id']: w for w in root.get('words', [])}
+
+          # arcan -> arcas
+          w = words.pop('lexeme-arcan')
+          w['id'] = 'lexeme-arcas'
+          w['form'] = 'arcas'
+          w['gloss'] = 'dirigir'
+          w['analysis_html'] = 'ARC-A + <a class="morph-link" href="#morph-as">-AS</a> <span class="meta-extra">(coalescencia de la vocal temática)</span>'
+          w['analysis_text'] = 'ARC-A + -AS (coalescencia de la vocal temática)'
+          w['refs'] = [{'id':'morph-as','label':'-AS'}]
+          w['tags'] = [{'class':'generic','label':'Predicado AS'}]
+          words[w['id']] = w
+
+          # -NZAN: femenino provisional
+          w = words['lexeme-arcanzan']
+          w['analysis_html'] = 'ARC-A + <a class="morph-link" href="#morph-nzan">-NZAN</a>'
+          w['analysis_text'] = 'ARC-A + -NZAN'
+          w['refs'] = [{'id':'morph-nzan','label':'-NZAN'}]
+          w['tags'] = [
+              {'class':'generic','label':'Humano'},
+              {'class':'generic','label':'Femenino provisional'}
+          ]
+
+          # totarcan -> panarcan
+          w = words.pop('lexeme-totarcan')
+          w['id'] = 'lexeme-panarcan'
+          w['form'] = 'panarcan'
+          w['gloss'] = 'rey absoluto, monarca'
+          w['analysis_html'] = '<a class="morph-link" href="#root-pan">PAN</a> + ARC-A + <span class="meta-extra">-n lexicalizado</span>'
+          w['analysis_text'] = 'PAN + ARC-A + -n lexicalizado'
+          w['refs'] = [{'id':'root-pan','label':'PAN'}]
+          words[w['id']] = w
+
+          # arcamor = ARC-A + -AM- + -OR
+          w = words['lexeme-arcamor']
+          w['analysis_html'] = 'ARC-A + <a class="morph-link" href="#morph-am-tendency">-AM-</a> + <a class="morph-link" href="#morph-or">-OR</a> <span class="meta-extra">(coalescencia de la vocal temática)</span>'
+          w['analysis_text'] = 'ARC-A + -AM- + -OR (coalescencia de la vocal temática)'
+          w['refs'] = [
+              {'id':'morph-am-tendency','label':'-AM-'},
+              {'id':'morph-or','label':'-OR'}
+          ]
+          w['tags'] = [{'class':'generic','label':'Adjetivo OR'}]
+
+          # Preserve original order while replacing renamed IDs.
+          new_order = []
+          for old in root.get('words', []):
+              oid = old['id']
+              if oid == 'lexeme-arcan':
+                  new_order.append(words['lexeme-arcas'])
+              elif oid == 'lexeme-totarcan':
+                  new_order.append(words['lexeme-panarcan'])
+              else:
+                  new_order.append(words[oid])
+          root['words'] = new_order
+          pa.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # --- lexico/p.json: PAN ---
+          pp = Path('lexico/p.json')
+          pdata = json.loads(pp.read_text(encoding='utf-8'))
+          pan = next(e for e in pdata['entries'] if e.get('id') == 'root-pan')
+          pan['gloss'] = 'completo, todo'
+          pp.write_text(json.dumps(pdata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # --- morphemes ---
+          pm = Path('lexico/morphemes.json')
+          mdata = json.loads(pm.read_text(encoding='utf-8'))
+          morphs = mdata['morphemes']
+
+          mor = next(m for m in morphs if m.get('id') == 'morph-or')
+          mor['gloss'] = 'adjetivo de grado superior o superlativo'
+
+          if not any(m.get('id') == 'morph-am-tendency' for m in morphs):
+              morphs.append({
+                  'id':'morph-am-tendency',
+                  'form':'*-AM-',
+                  'gloss':'tendencia, inclinación hacia una cualidad o estado',
+                  'tags':[{'class':'generic','label':'morfema'}],
+                  'letter':'A',
+                  'section':'sec-a',
+                  'etymology':None,
+                  'notes':[],
+                  'row_class':''
+              })
+          else:
+              m = next(m for m in morphs if m.get('id') == 'morph-am-tendency')
+              m['gloss'] = 'tendencia, inclinación hacia una cualidad o estado'
+
+          if not any(m.get('id') == 'morph-nzan' for m in morphs):
+              morphs.append({
+                  'id':'morph-nzan',
+                  'form':'*-NZAN',
+                  'gloss':'femenino (provisional)',
+                  'tags':[
+                      {'class':'generic','label':'morfema'},
+                      {'class':'generic','label':'Provisional'}
+                  ],
+                  'letter':'N',
+                  'section':'sec-n',
+                  'etymology':None,
+                  'notes':['Valor femenino provisional; sujeto a revisión.'],
+                  'row_class':''
+              })
+          else:
+              m = next(m for m in morphs if m.get('id') == 'morph-nzan')
+              m['gloss'] = 'femenino (provisional)'
+              m['notes'] = ['Valor femenino provisional; sujeto a revisión.']
+
+          pm.write_text(json.dumps(mdata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # --- gramatica.html ---
+          pg = Path('gramatica.html')
+          g = pg.read_text(encoding='utf-8')
+          old = '    <tr><td><code>-OR</code></td><td>participio absolutivo</td></tr>\n'
+          if old in g:
+              g = g.replace(old, '')
+
+          target = '    <tr><td><code>-UR</code></td><td>adjetivo superlativo</td></tr>\n'
+          insert = target + '    <tr><td><code>-OR</code></td><td>adjetivo de grado superior o superlativo</td></tr>\n'
+          if '<code>-OR</code></td><td>adjetivo de grado superior o superlativo' not in g:
+              g = g.replace(target, insert)
+
+          target2 = '    <tr><td><code>-UM-</code></td><td>tendente</td></tr>\n'
+          insert2 = target2 + '    <tr><td><code>-AM-</code></td><td>tendencia o inclinación hacia una cualidad o estado</td></tr>\n'
+          if '<code>-AM-</code></td><td>tendencia o inclinación' not in g:
+              g = g.replace(target2, insert2)
+
+          anchor = '  <h3>4.2. Diminutivo</h3>\n'
+          provisional = '  <p><span class="status prov">Provisional</span><code>-NZAN</code> marca femenino en formas como <code>arcanzan</code> «reina, consorte». Su estatuto definitivo dentro del sistema de género sigue abierto.</p>\n'
+          if '<code>-NZAN</code> marca femenino' not in g:
+              g = g.replace(anchor, provisional + anchor)
+
+          pg.write_text(g, encoding='utf-8')
+          PY
+
+          rm .github/workflows/revise-arc-a.yml
+
+      - name: Commit revisions
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/p.json lexico/morphemes.json gramatica.html .github/workflows/revise-arc-a.yml
+          git commit -m "Revisar ARC-A, PAN y morfemas asociados"
+          git push
