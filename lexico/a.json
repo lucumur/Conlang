@@ -2492,8 +2492,117 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. anaso → *ANS-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-ansubos",
+          "form": "ansubos",
+          "gloss": "zambullirse",
+          "analysis_html": "ANS + <a class=\"morph-link\" href=\"#morph-ub\">-UB-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ANS + -UB- + -OS",
+          "refs": [
+            {
+              "id": "morph-ub",
+              "label": "-UB-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "aves acuáticas",
+            "inmersión",
+            "movimiento"
+          ]
+        },
+        {
+          "id": "lexeme-ansen",
+          "form": "ansen",
+          "gloss": "pato",
+          "analysis_html": "ANS + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "ANS + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano"
+            }
+          ],
+          "semantic_fields": [
+            "aves",
+            "patos",
+            "fauna"
+          ]
+        },
+        {
+          "id": "lexeme-agansen",
+          "form": "agansen",
+          "gloss": "ganso",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + ANS + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "AG- + ANS + -EN",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano"
+            }
+          ],
+          "semantic_fields": [
+            "aves",
+            "gansos",
+            "fauna"
+          ]
+        },
+        {
+          "id": "lexeme-ansete",
+          "form": "ansete",
+          "gloss": "carne de pato",
+          "analysis_html": "ANS + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ANS + -ET- + -E",
+          "refs": [
+            {
+              "id": "morph-et",
+              "label": "-ET-"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ],
+          "semantic_fields": [
+            "carnes",
+            "alimentación",
+            "aves"
+          ]
+        }
+      ]
     },
     {
       "id": "root-ant",

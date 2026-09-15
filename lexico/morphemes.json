@@ -2279,6 +2279,28 @@
         "El valor específico depende de la semántica de la raíz."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-ub",
+      "form": "*-UB-",
+      "gloss": "submersivo; entrar o bajar bajo una superficie (provisional)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Provisional"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [
+        "Generalización provisional a partir de ansubos «zambullirse»."
+      ],
+      "row_class": ""
     }
   ]
 }
