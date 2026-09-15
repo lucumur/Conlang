@@ -3019,15 +3019,15 @@
           ]
         },
         {
-          "id": "lexeme-kurtangxon",
-          "form": "kurtanĝon",
+          "id": "lexeme-kortangxon",
+          "form": "kortanĝon",
           "gloss": "asesor, mensajero",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-kurt\">KURT</a> + ANĜ + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "KURT + ANĜ + -ON",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kort\">KORT</a> + ANĜ + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "KORT + ANĜ + -ON",
           "refs": [
             {
-              "id": "root-kurt",
-              "label": "KURT"
+              "id": "root-kort",
+              "label": "KORT"
             },
             {
               "id": "morph-on",

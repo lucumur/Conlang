@@ -1218,7 +1218,7 @@
     {
       "id": "root-kort",
       "form": "*KORT-",
-      "gloss": "corte",
+      "gloss": "corte (palaciega)",
       "tags": [
         {
           "class": "generic",
@@ -1599,29 +1599,6 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-kurt",
-      "form": "*KURT-",
-      "gloss": "corte (palaciega)",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "generic",
-          "label": "Provisional"
-        }
-      ],
-      "letter": "K",
-      "section": "sec-k",
-      "etymology": null,
-      "notes": [
-        "PROVISIONAL: forma destinada a «corte (palaciega)»; revisar frente a *KORT- «corte»."
-      ],
-      "row_class": "lex-root-row",
       "words": []
     },
     {
