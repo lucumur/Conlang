@@ -1,5 +1,7 @@
 from pathlib import Path
 import json
+import os
+import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 LEX = ROOT / 'lexico'
@@ -12,6 +14,43 @@ LETTER_FILES = [
 
 def labels(tags):
     return [t.get('label','') for t in tags or []]
+
+def save_pretty(path, data):
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+changed = False
+
+# Eliminar el duplicado accidental de la raíz *AJN- «cualquiera».
+ap = LEX / 'a.json'
+adata = json.loads(ap.read_text(encoding='utf-8'))
+old_len = len(adata.get('entries', []))
+adata['entries'] = [e for e in adata.get('entries', []) if e.get('id') != 'root-ajn-2']
+if len(adata['entries']) != old_len:
+    save_pretty(ap, adata)
+    changed = True
+
+# AJN/EJN familiares son sufijos personales, no raíces duplicadas.
+mp = LEX / 'morphemes.json'
+mdata = json.loads(mp.read_text(encoding='utf-8'))
+m_changed = False
+for m in mdata.get('morphemes', []):
+    if m.get('id') == 'morph-ajn-family':
+        gloss = 'sufijo de persona (coallegados)'
+        notes = ['Sufijo personal para coallegados. Atestiguado en avajn y en otras formas familiares como pajn y frajn.']
+        if m.get('gloss') != gloss or m.get('notes') != notes:
+            m['gloss'] = gloss
+            m['notes'] = notes
+            m_changed = True
+    elif m.get('id') == 'morph-ejn-family':
+        gloss = 'variante femenina de -AJN'
+        notes = ['Variante femenina del sufijo personal -AJN.']
+        if m.get('gloss') != gloss or m.get('notes') != notes:
+            m['gloss'] = gloss
+            m['notes'] = notes
+            m_changed = True
+if m_changed:
+    save_pretty(mp, mdata)
+    changed = True
 
 roots=[]
 words=[]
@@ -55,3 +94,10 @@ payload={
 }
 (LEX/'index.json').write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 print(payload['counts'])
+
+if changed and os.environ.get('GITHUB_ACTIONS') == 'true':
+    subprocess.run(['git','config','user.name','ChatGPT'], check=True)
+    subprocess.run(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'], check=True)
+    subprocess.run(['git','add','lexico/a.json','lexico/morphemes.json','lexico/index.json'], check=True)
+    subprocess.run(['git','commit','-m','Corregir duplicado AJN y sufijos familiares'], check=True)
+    subprocess.run(['git','push'], check=True)
