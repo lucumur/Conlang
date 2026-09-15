@@ -3428,27 +3428,93 @@
     {
       "id": "root-afr",
       "form": "*AFR-",
-      "gloss": "Africa",
+      "gloss": "África",
       "tags": [
         {
           "class": "generic",
           "label": "Raiz"
-        },
-        {
-          "class": "nat-red",
-          "label": "Nat-Red"
-        },
-        {
-          "class": "italico",
-          "label": "Italico"
         }
       ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": "Etym. Eo. Afriko → *AFR-",
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "etymology": null,
+      "notes": [
+        "El segmento -ik- de afrikon/afriker no se enlaza a *-IK- (diminutivo); su función en estas formas queda sin analizar."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-afrikon",
+          "form": "afrikon",
+          "gloss": "africano (humano)",
+          "analysis_html": "AFR + IK + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "AFR + IK + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen ON"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "gentilicios",
+            "personas"
+          ]
+        },
+        {
+          "id": "lexeme-afriker",
+          "form": "afriker",
+          "gloss": "africano (adjetivo)",
+          "analysis_html": "AFR + IK + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "AFR + IK + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "gentilicios",
+            "adjetivos"
+          ]
+        },
+        {
+          "id": "lexeme-afral",
+          "form": "afral",
+          "gloss": "África",
+          "analysis_html": "AFR + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "AFR + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen AL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "continentes"
+          ]
+        }
+      ]
     },
     {
       "id": "root-apu",
