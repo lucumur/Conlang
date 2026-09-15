@@ -2231,6 +2231,46 @@
         "Ejemplo: arjonal «desierto» → arjonatel «desértico»."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-alda",
+      "form": "*-ALDA",
+      "gloss": "institución o actividad abstracta derivada de una forma locativa en -AL",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [
+        "Derivación canónica ejemplificada por arkal → arkalda."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ir-reservative",
+      "form": "*-IR",
+      "gloss": "reservado, oculto; formante adjetival (provisional)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Provisional"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [
+        "Valor inferido provisionalmente de arkir «secreto»; revisar con más ejemplos."
+      ],
+      "row_class": ""
     }
   ]
 }
