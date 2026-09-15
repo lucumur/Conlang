@@ -2240,13 +2240,17 @@
         {
           "class": "generic",
           "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Provisional"
         }
       ],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
       "notes": [
-        "Derivación canónica ejemplificada por arkal → arkalda."
+        "Análisis provisional inferido de arkal → arkalda; la palabra arkalda es canónica, pero la productividad general de -ALDA aún debe confirmarse."
       ],
       "row_class": ""
     },
