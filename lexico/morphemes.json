@@ -2116,24 +2116,6 @@
         "Derivación canónica: adjetivo en -OL → abstracto en -OLDA."
       ],
       "row_class": ""
-    },
-    {
-      "id": "morph-fas",
-      "form": "*-FAS",
-      "gloss": "función derivativa pendiente; atestiguado en arbifas 'fortificar'",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "morfema"
-        }
-      ],
-      "letter": "F",
-      "section": "sec-f",
-      "etymology": null,
-      "notes": [
-        "La función general de -FAS todavía no está canonizada."
-      ],
-      "row_class": ""
     }
   ]
 }

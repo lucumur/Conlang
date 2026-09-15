@@ -3105,12 +3105,12 @@
           "id": "lexeme-natarbo",
           "form": "natarbo",
           "gloss": "arbol de navidad",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-nat\">NAT</a> + ARB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "NAT + ARB + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-na-t\">NA-T</a> + ARB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NA-T + ARB + -O",
           "refs": [
             {
-              "id": "root-nat",
-              "label": "NAT"
+              "id": "root-na-t",
+              "label": "NA-T"
             },
             {
               "id": "morph-o",
@@ -3128,15 +3128,24 @@
           "id": "lexeme-arbifas",
           "form": "arbifas",
           "gloss": "fortificar",
-          "analysis_html": "ARB + <span class=\"meta-extra\">i epentética</span> + <a class=\"morph-link\" href=\"#morph-fas\">-FAS</a>",
-          "analysis_text": "ARB + i epentética + -FAS",
+          "analysis_html": "ARB + <span class=\"meta-extra\">i epentética</span> + <a class=\"morph-link\" href=\"#root-f\">F</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ARB + i epentética + F + -AS",
           "refs": [
             {
-              "id": "morph-fas",
-              "label": "-FAS"
+              "id": "root-f",
+              "label": "F"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
             }
           ],
-          "tags": []
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ]
         },
         {
           "id": "lexeme-arbigos",

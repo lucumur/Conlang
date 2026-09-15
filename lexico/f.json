@@ -4,6 +4,25 @@
   "key": "f",
   "entries": [
     {
+      "id": "root-f",
+      "form": "*F-",
+      "gloss": "hacer, volver, convertir en",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "F",
+      "section": "sec-f",
+      "etymology": null,
+      "notes": [
+        "Raíz derivativa productiva de valor factitivo; la verbalización la aporta -AS."
+      ],
+      "row_class": "lex-root-row",
+      "words": []
+    },
+    {
       "id": "root-fab",
       "form": "*FAB-",
       "gloss": "haba, frijol",
