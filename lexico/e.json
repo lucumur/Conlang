@@ -45,39 +45,58 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": "Etym. Eo. ebla → *EBL-",
-      "notes": [],
+      "notes": [
+        "CANÓNICO: eblis es la forma absolutiva impersonal; eblos es la forma absolutiva dinámica.",
+        "El segmento ON de eblonas/maleblonir queda atestiguado en esta familia sin canonizar aquí un morfema general independiente.",
+        "MEJ en mejeblira queda sin referencia léxica hasta que su estatus se documente explícitamente."
+      ],
       "row_class": "lex-root-row",
       "words": [
         {
-          "id": "lexeme-ebles",
-          "form": "ebles",
-          "gloss": "ser capaz, tener capacidad",
-          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "EBL + -ES",
+          "id": "lexeme-eblis",
+          "form": "eblis",
+          "gloss": "poder ser, poder ocurrir",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "EBL + -IS",
           "refs": [
             {
-              "id": "morph-es",
-              "label": "-ES"
+              "id": "morph-is-2",
+              "label": "-IS"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado ES"
+              "label": "Predicado IS"
             }
           ]
         },
         {
-          "id": "lexeme-eblitas",
-          "form": "eblitas",
-          "gloss": "habilitar, capacitar",
-          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-it\">-IT-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "EBL + -IT- + -AS",
+          "id": "lexeme-eblos",
+          "form": "eblos",
+          "gloss": "ser capaz, tener capacidad",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "EBL + -OS",
           "refs": [
             {
-              "id": "morph-it",
-              "label": "-IT-"
-            },
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-eblonas",
+          "form": "eblonas",
+          "gloss": "capacitar, habilitar",
+          "analysis_html": "EBL + ON + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "EBL + ON + -AS",
+          "refs": [
             {
               "id": "morph-as",
               "label": "-AS"
@@ -91,15 +110,47 @@
           ]
         },
         {
-          "id": "lexeme-eblezha",
-          "form": "ebleẑa",
-          "gloss": "capacidad, habilidad",
-          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-zha\">-ẐA</a>",
-          "analysis_text": "EBL + -ẐA",
+          "id": "lexeme-eblik",
+          "form": "eblik",
+          "gloss": "talvez",
+          "analysis_html": "EBLIS → EBLIK",
+          "analysis_text": "EBLIS → EBLIK",
+          "refs": [],
+          "tags": []
+        },
+        {
+          "id": "lexeme-eblir",
+          "form": "eblir",
+          "gloss": "posible",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a>",
+          "analysis_text": "EBL + -IR",
           "refs": [
             {
-              "id": "morph-zha",
-              "label": "-ẐA"
+              "id": "morph-ir-reservative",
+              "label": "-IR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo IR"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-mejeblira",
+          "form": "mejeblira",
+          "gloss": "posibilidad, chanza",
+          "analysis_html": "MEJ + EBL + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MEJ + EBL + -IR + -A",
+          "refs": [
+            {
+              "id": "morph-ir-reservative",
+              "label": "-IR"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
             }
           ],
           "tags": [
@@ -110,40 +161,90 @@
           ]
         },
         {
-          "id": "lexeme-eblin",
-          "form": "eblin",
-          "gloss": "que puede, válido",
-          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
-          "analysis_text": "EBL + -IN",
+          "id": "lexeme-beleblira",
+          "form": "beleblira",
+          "gloss": "oportunidad",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + EBL + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BEL + EBL + -IR + -A",
           "refs": [
             {
-              "id": "morph-in",
-              "label": "-IN"
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-ir-reservative",
+              "label": "-IR"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Humano IN"
+              "label": "Nomen A"
             }
           ]
         },
         {
-          "id": "lexeme-maleblin",
-          "form": "maleblin",
-          "gloss": "inválido, discapacitado",
-          "analysis_html": "MAL + EBL + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
-          "analysis_text": "MAL + EBL + -IN",
+          "id": "lexeme-eblol",
+          "form": "eblol",
+          "gloss": "habil",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "EBL + -OL",
           "refs": [
             {
-              "id": "morph-in",
-              "label": "-IN"
+              "id": "morph-ol-2",
+              "label": "-OL"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Humano IN"
+              "label": "Adjetivo OL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-eblura",
+          "form": "eblura",
+          "gloss": "capacidad, habilidad",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "EBL + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-maleblonir",
+          "form": "maleblonir",
+          "gloss": "discapacitado",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + EBL + ON + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a>",
+          "analysis_text": "MAL + EBL + ON + -IR",
+          "refs": [
+            {
+              "id": "root-mal",
+              "label": "MAL"
+            },
+            {
+              "id": "morph-ir-reservative",
+              "label": "-IR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo IR"
             }
           ]
         }
