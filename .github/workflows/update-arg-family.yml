@@ -107,6 +107,6 @@ jobs:
         run: |
           git config user.name "ChatGPT"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add lexico/a.json lexico/morphemes.json lexico/index.json gramatica.html .github/workflows/update-arg-family.yml
+          git add -A
           git commit -m "Añadir repertorio de ARG y morfemas EΘ y LE"
           git push
