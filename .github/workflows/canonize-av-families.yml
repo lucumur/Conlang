@@ -1,0 +1,180 @@
+name: Canonize AV families and imperatives
+on:
+  push:
+    paths:
+      - '.github/workflows/canonize-av-families.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Canonize AV families and imperative endings
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          def ref(i, label):
+              return {'id': i, 'label': label}
+          def tag(label):
+              return {'class':'generic','label':label}
+
+          ap = Path('lexico/a.json')
+          ad = json.loads(ap.read_text(encoding='utf-8'))
+          entries = ad['entries']
+          av_nut = next(e for e in entries if e.get('id') == 'root-av-2')
+          av_have = next(e for e in entries if e.get('id') == 'root-av-3')
+
+          av_nut['gloss'] = 'avellana'
+          av_nut['row_class'] = 'lex-root-row'
+          av_nut['words'] = [
+            {
+              'id':'lexeme-avnuso','form':'avnuŝo','gloss':'avellana',
+              'analysis_html':'AV + <a class="morph-link" href="#root-nus">NUŜ</a> + <a class="morph-link" href="#morph-o">-O</a>',
+              'analysis_text':'AV + NUŜ + -O','refs':[ref('root-nus','NUŜ'),ref('morph-o','-O')],
+              'tags':[tag('Nomen O')],'semantic_fields':['alimentación','frutos secos','botánica']
+            },
+            {
+              'id':'lexeme-avelo','form':'avelo','gloss':'avellano (árbol)',
+              'analysis_html':'AV + formación interna lexicalizada + <a class="morph-link" href="#morph-o">-O</a>',
+              'analysis_text':'AV + formación interna lexicalizada + -O','refs':[ref('morph-o','-O')],
+              'tags':[tag('Nomen O')],'semantic_fields':['botánica','árboles','frutos secos']
+            },
+            {
+              'id':'lexeme-avol','form':'avol','gloss':'color avellana',
+              'analysis_html':'AV + <a class="morph-link" href="#morph-ol-2">-OL</a>',
+              'analysis_text':'AV + -OL','refs':[ref('morph-ol-2','-OL')],
+              'tags':[tag('Adjetivo OL')],'semantic_fields':['colores','apariencia','frutos secos']
+            }
+          ]
+
+          av_have['gloss'] = 'tener'
+          av_have['row_class'] = 'lex-root-row'
+          av_have['words'] = [
+            {
+              'id':'lexeme-avas','form':'avas','gloss':'tener',
+              'analysis_html':'AV + <a class="morph-link" href="#morph-as">-AS</a>',
+              'analysis_text':'AV + -AS','refs':[ref('morph-as','-AS')],
+              'tags':[tag('Predicado AS')],'semantic_fields':['posesión','relaciones','estado']
+            },
+            {
+              'id':'lexeme-avitas','form':'avitas','gloss':'poseer',
+              'analysis_html':'AV + <a class="morph-link" href="#morph-it">-IT-</a> + <a class="morph-link" href="#morph-as">-AS</a>',
+              'analysis_text':'AV + -IT- + -AS','refs':[ref('morph-it','-IT-'),ref('morph-as','-AS')],
+              'tags':[tag('Predicado AS')],'semantic_fields':['posesión','propiedad','relaciones']
+            },
+            {
+              'id':'lexeme-proavas','form':'proavas','gloss':'avalar, certificar',
+              'analysis_html':'PRO + AV + <a class="morph-link" href="#morph-as">-AS</a> (función de PRO en esta formación no especificada)',
+              'analysis_text':'PRO + AV + -AS (función de PRO en esta formación no especificada)','refs':[ref('morph-as','-AS')],
+              'tags':[tag('Predicado AS')],'semantic_fields':['certificación','garantía','validación']
+            },
+            {
+              'id':'lexeme-avandas','form':'avandas','gloss':'disponer',
+              'analysis_html':'AV + <a class="morph-link" href="#morph-and">-AND-</a> + <a class="morph-link" href="#morph-as">-AS</a>',
+              'analysis_text':'AV + -AND- + -AS','refs':[ref('morph-and','-AND-'),ref('morph-as','-AS')],
+              'tags':[tag('Predicado AS')],'semantic_fields':['disponibilidad','posesión','uso']
+            },
+            {
+              'id':'lexeme-avandis','form':'avandis','gloss':'estar disponible',
+              'analysis_html':'AV + <a class="morph-link" href="#morph-and">-AND-</a> + <a class="morph-link" href="#morph-is-2">-IS</a>',
+              'analysis_text':'AV + -AND- + -IS','refs':[ref('morph-and','-AND-'),ref('morph-is-2','-IS')],
+              'tags':[tag('Predicado IS')],'semantic_fields':['disponibilidad','estado','uso']
+            },
+            {
+              'id':'lexeme-avos','form':'avos','gloss':'estarse, encontrarse (de alguna manera)',
+              'analysis_html':'AV + <a class="morph-link" href="#morph-os">-OS</a>',
+              'analysis_text':'AV + -OS','refs':[ref('morph-os','-OS')],
+              'tags':[tag('Predicado OS')],'semantic_fields':['estado','situación','presencia']
+            },
+            {
+              'id':'lexeme-avuser','form':'avuser','gloss':'habitual',
+              'analysis_html':'derivado de AV; segmento US y terminación ER no formalizados aquí',
+              'analysis_text':'derivado de AV; segmento US y terminación ER no formalizados aquí','refs':[],
+              'tags':[],'semantic_fields':['hábito','frecuencia','cualidades']
+            },
+            {
+              'id':'lexeme-avila','form':'avila','gloss':'característica',
+              'analysis_html':'derivado de AV; formación interna no especificada',
+              'analysis_text':'derivado de AV; formación interna no especificada','refs':[],
+              'tags':[],'semantic_fields':['cualidades','propiedades','descripción']
+            },
+            {
+              'id':'lexeme-avilor','form':'avilor','gloss':'característico',
+              'analysis_html':'derivado de AV; formación interna no especificada; no se identifica con el -OR superlativo vigente',
+              'analysis_text':'derivado de AV; formación interna no especificada; no se identifica con el -OR superlativo vigente','refs':[],
+              'tags':[],'semantic_fields':['cualidades','propiedades','descripción']
+            },
+            {
+              'id':'lexeme-avusa','form':'avusa','gloss':'hábito',
+              'analysis_html':'derivado de AV; segmento US no formalizado aquí',
+              'analysis_text':'derivado de AV; segmento US no formalizado aquí','refs':[],
+              'tags':[],'semantic_fields':['hábito','conducta','frecuencia']
+            },
+            {
+              'id':'lexeme-avja','form':'avja','gloss':'tenencia, posesión',
+              'analysis_html':'derivado de AV; formación interna no especificada',
+              'analysis_text':'derivado de AV; formación interna no especificada','refs':[],
+              'tags':[],'semantic_fields':['posesión','propiedad','relaciones']
+            },
+            {
+              'id':'lexeme-af','form':'af','gloss':'con',
+              'analysis_html':'forma gramaticalizada derivada de AV; reducción interna no especificada',
+              'analysis_text':'forma gramaticalizada derivada de AV; reducción interna no especificada','refs':[],
+              'tags':[tag('Partícula')],'semantic_fields':['gramática','relaciones','comitativo']
+            },
+            {
+              'id':'lexeme-belavok','form':'belavok','gloss':'hail, salut, ave',
+              'analysis_html':'<a class="morph-link" href="#root-bel">BEL</a> + AV + <a class="morph-link" href="#morph-ok">-OK</a>',
+              'analysis_text':'BEL + AV + -OK','refs':[ref('root-bel','BEL'),ref('morph-ok','-OK')],
+              'tags':[tag('Imperativo OK')],'semantic_fields':['saludos','fórmulas','interjecciones']
+            }
+          ]
+          ap.write_text(json.dumps(ad, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+          mp = Path('lexico/morphemes.json')
+          md = json.loads(mp.read_text(encoding='utf-8'))
+          morphs = md['morphemes']
+          mak = next((m for m in morphs if m.get('id') == 'morph-ak'), None)
+          if mak is None:
+              raise SystemExit('morph-ak not found')
+          mak.update({
+              'form':'*-AK','gloss':'imperativo de -AS',
+              'tags':[tag('sufijo'),tag('imperativo')],
+              'notes':['Forma imperativa correspondiente a la serie agentiva en -AS.']
+          })
+          mok = next((m for m in morphs if m.get('id') == 'morph-ok'), None)
+          payload = {
+              'id':'morph-ok','form':'*-OK','gloss':'imperativo de -OS',
+              'tags':[tag('sufijo'),tag('imperativo')],
+              'letter':'O','section':'sec-o','etymology':None,
+              'notes':['Forma imperativa correspondiente a la serie absolutiva dinámica en -OS.'],
+              'row_class':''
+          }
+          if mok is None:
+              morphs.append(payload)
+          else:
+              mok.update(payload)
+          mp.write_text(json.dumps(md, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+          gp = Path('gramatica.html')
+          g = gp.read_text(encoding='utf-8')
+          anchor = '  <p><span class="status canon">Canónico</span>El sistema temporal y modal se superpone a los cuatro tipos predicativos. Las formas no mencionadas aquí no se reconstruyen automáticamente.</p>\n'
+          block = anchor + '''\n  <h3>Imperativo</h3>\n  <p><span class="status canon">Canónico</span>El imperativo conserva la oposición entre las series predicativas agentiva y absolutiva dinámica: <code>-AK</code> es el imperativo correspondiente a <code>-AS</code>, mientras <code>-OK</code> es el imperativo correspondiente a <code>-OS</code>.</p>\n  <p><span class="status canon">Canónico</span>Ejemplo: <code>belavok</code> «hail, salut, ave» contiene <code>-OK</code> y pertenece a la serie de <code>-OS</code>.</p>\n'''
+          if '<h3>Imperativo</h3>' not in g:
+              if anchor not in g:
+                  raise SystemExit('grammar anchor not found')
+              g = g.replace(anchor, block, 1)
+          gp.write_text(g, encoding='utf-8')
+          PY
+          python scripts/build_lexicon_index.py
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/morphemes.json lexico/index.json gramatica.html
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Canonizar familias AV e imperativos AK OK"
+          git push
