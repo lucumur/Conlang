@@ -2431,7 +2431,7 @@
     {
       "id": "morph-ajn-family",
       "form": "*-AJN",
-      "gloss": "terminación familiar",
+      "gloss": "sufijo de persona (coallegados)",
       "tags": [
         {
           "class": "generic",
@@ -2442,7 +2442,7 @@
       "section": "sec-a",
       "etymology": null,
       "notes": [
-        "Terminación familiar productiva. Atestiguada en avajn y en otras formas familiares como pajn y frajn."
+        "Sufijo personal para coallegados. Atestiguado en avajn y en otras formas familiares como pajn y frajn."
       ],
       "row_class": ""
     },
@@ -2460,7 +2460,7 @@
       "section": "sec-e",
       "etymology": null,
       "notes": [
-        "Variante femenina de -AJN. Atestiguada en avejn «abuela materna»."
+        "Variante femenina del sufijo personal -AJN."
       ],
       "row_class": ""
     },

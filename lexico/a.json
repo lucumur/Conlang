@@ -842,31 +842,6 @@
       ]
     },
     {
-      "id": "root-ajn-2",
-      "form": "*AJN-",
-      "gloss": "cualquiera",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "nat-plen",
-          "label": "Nat-Plen"
-        },
-        {
-          "class": "germanico",
-          "label": "Germanico"
-        }
-      ],
-      "letter": "A",
-      "section": "sec-a",
-      "etymology": "Etym. Eo. ajn → *AJN-",
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-al",
       "form": "*ALT-",
       "gloss": "alto",
