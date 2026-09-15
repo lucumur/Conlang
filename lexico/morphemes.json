@@ -1296,7 +1296,7 @@
     {
       "id": "morph-or",
       "form": "*-OR",
-      "gloss": "participio absolutivo",
+      "gloss": "adjetivo de grado superior o superlativo",
       "tags": [
         {
           "class": "generic",
@@ -2114,6 +2114,44 @@
       "etymology": null,
       "notes": [
         "Derivación canónica: adjetivo en -OL → abstracto en -OLDA."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-am-tendency",
+      "form": "*-AM-",
+      "gloss": "tendencia, inclinación hacia una cualidad o estado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-nzan",
+      "form": "*-NZAN",
+      "gloss": "femenino (provisional)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        },
+        {
+          "class": "generic",
+          "label": "Provisional"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": null,
+      "notes": [
+        "Valor femenino provisional; sujeto a revisión."
       ],
       "row_class": ""
     }

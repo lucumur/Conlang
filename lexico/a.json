@@ -3470,16 +3470,21 @@
       "row_class": "lex-root-row",
       "words": [
         {
-          "id": "lexeme-arcan",
-          "form": "arcan",
+          "id": "lexeme-arcas",
+          "form": "arcas",
           "gloss": "dirigir",
-          "analysis_html": "ARC-A + <span class=\"meta-extra\">-n lexicalizado</span>",
-          "analysis_text": "ARC-A + -n lexicalizado",
-          "refs": [],
+          "analysis_html": "ARC-A + <a class=\"morph-link\" href=\"#morph-as\">-AS</a> <span class=\"meta-extra\">(coalescencia de la vocal temática)</span>",
+          "analysis_text": "ARC-A + -AS (coalescencia de la vocal temática)",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado lexicalizado"
+              "label": "Predicado AS"
             }
           ],
           "semantic_fields": [
@@ -3548,22 +3553,22 @@
           "id": "lexeme-arcanzan",
           "form": "arcanzan",
           "gloss": "reina, consorte",
-          "analysis_html": "ARC-A + <span class=\"meta-extra\">-nz- formante léxico</span> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "ARC-A + -nz- formante léxico + -AN",
+          "analysis_html": "ARC-A + <a class=\"morph-link\" href=\"#morph-nzan\">-NZAN</a>",
+          "analysis_text": "ARC-A + -NZAN",
           "refs": [
             {
-              "id": "morph-an-2",
-              "label": "-AN"
+              "id": "morph-nzan",
+              "label": "-NZAN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Humano AN"
+              "label": "Humano"
             },
             {
               "class": "generic",
-              "label": "Título"
+              "label": "Femenino provisional"
             }
           ],
           "semantic_fields": [
@@ -3665,12 +3670,17 @@
           ]
         },
         {
-          "id": "lexeme-totarcan",
-          "form": "totarcan",
+          "id": "lexeme-panarcan",
+          "form": "panarcan",
           "gloss": "rey absoluto, monarca",
-          "analysis_html": "<span class=\"meta-extra\">TOT- formante léxico no documentado</span> + ARC-A + <span class=\"meta-extra\">-n lexicalizado</span>",
-          "analysis_text": "TOT- formante léxico no documentado + ARC-A + -n lexicalizado",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pan\">PAN</a> + ARC-A + <span class=\"meta-extra\">-n lexicalizado</span>",
+          "analysis_text": "PAN + ARC-A + -n lexicalizado",
+          "refs": [
+            {
+              "id": "root-pan",
+              "label": "PAN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -3695,13 +3705,22 @@
           "id": "lexeme-arcamor",
           "form": "arcamor",
           "gloss": "superior, supremo",
-          "analysis_html": "ARC-A + <span class=\"meta-extra\">-mor formante léxico no documentado</span>",
-          "analysis_text": "ARC-A + -mor formante léxico no documentado",
-          "refs": [],
+          "analysis_html": "ARC-A + <a class=\"morph-link\" href=\"#morph-am-tendency\">-AM-</a> + <a class=\"morph-link\" href=\"#morph-or\">-OR</a> <span class=\"meta-extra\">(coalescencia de la vocal temática)</span>",
+          "analysis_text": "ARC-A + -AM- + -OR (coalescencia de la vocal temática)",
+          "refs": [
+            {
+              "id": "morph-am-tendency",
+              "label": "-AM-"
+            },
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo lexicalizado"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
