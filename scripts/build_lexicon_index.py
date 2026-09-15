@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[1]
 LEX = ROOT / 'lexico'
@@ -15,6 +16,7 @@ def labels(tags):
 
 roots=[]
 words=[]
+semantic_counter=Counter()
 for letter,key in LETTER_FILES:
     data=json.loads((LEX/f'{key}.json').read_text(encoding='utf-8'))
     for e in data.get('entries',[]):
@@ -23,6 +25,7 @@ for letter,key in LETTER_FILES:
         parts=[e.get('form',''),e.get('gloss',''),e.get('etymology') or '']+labels(e.get('tags'))
         for w in e.get('words',[]):
             semantic_fields=w.get('semantic_fields',[]) or []
+            semantic_counter.update(semantic_fields)
             notes=w.get('notes',[]) or []
             parts += [w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields+notes
             words.append({
@@ -54,4 +57,5 @@ payload={
     'counts':{'roots':len(roots),'words':len(words),'morphemes':len(morphemes)}
 }
 (LEX/'index.json').write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+print('SEMANTIC_FIELD_VOCAB', json.dumps(semantic_counter.most_common(), ensure_ascii=False))
 print(payload['counts'])
