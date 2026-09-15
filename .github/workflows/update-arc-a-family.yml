@@ -1,0 +1,116 @@
+name: Update ARC-A family
+on:
+  push:
+    paths:
+      - '.github/workflows/update-arc-a-family.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update ARC-A family
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          p = Path('lexico/a.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          arca = next((e for e in data.get('entries', []) if e.get('id') == 'root-arc-a'), None)
+          if arca is None:
+              raise SystemExit('No se encontró *ARC-A')
+
+          def tag(label):
+              return {'class':'generic','label':label}
+
+          arca['row_class'] = 'lex-root-row'
+          arca['words'] = [
+            {
+              'id':'lexeme-arcan','form':'arcan','gloss':'dirigir',
+              'analysis_html':'ARC-A + <span class="meta-extra">-n lexicalizado</span>',
+              'analysis_text':'ARC-A + -n lexicalizado',
+              'refs':[],
+              'tags':[tag('Predicado lexicalizado')],
+              'semantic_fields':['jerarquía','dirección','títulos']
+            },
+            {
+              'id':'lexeme-arcanes','form':'arcanes','gloss':'regir, ser regente',
+              'analysis_html':'ARC-A + <span class="meta-extra">-n lexicalizado</span> + <a class="morph-link" href="#morph-es">-ES</a>',
+              'analysis_text':'ARC-A + -n lexicalizado + -ES',
+              'refs':[{'id':'morph-es','label':'-ES'}],
+              'tags':[tag('Predicado ES'), tag('Lexicalizado')],
+              'semantic_fields':['jerarquía','dirección','títulos']
+            },
+            {
+              'id':'lexeme-arcantan','form':'arcantan','gloss':'rey, dirigente',
+              'analysis_html':'ARC-A + <span class="meta-extra">-nt- formante léxico</span> + <a class="morph-link" href="#morph-an-2">-AN</a>',
+              'analysis_text':'ARC-A + -nt- formante léxico + -AN',
+              'refs':[{'id':'morph-an-2','label':'-AN'}],
+              'tags':[tag('Humano AN'), tag('Título')],
+              'semantic_fields':['jerarquía','títulos','nobleza']
+            },
+            {
+              'id':'lexeme-arcanzan','form':'arcanzan','gloss':'reina, consorte',
+              'analysis_html':'ARC-A + <span class="meta-extra">-nz- formante léxico</span> + <a class="morph-link" href="#morph-an-2">-AN</a>',
+              'analysis_text':'ARC-A + -nz- formante léxico + -AN',
+              'refs':[{'id':'morph-an-2','label':'-AN'}],
+              'tags':[tag('Humano AN'), tag('Título')],
+              'semantic_fields':['jerarquía','títulos','nobleza']
+            },
+            {
+              'id':'lexeme-zatarcal','form':'ẑatarcal','gloss':'ciudad capital',
+              'analysis_html':'<a class="morph-link" href="#root-zat">ẐAT</a> + ARC-A + <a class="morph-link" href="#morph-al-3">-AL</a> <span class="meta-extra">(fusión vocálica en la forma lexicalizada)</span>',
+              'analysis_text':'ẐAT + ARC-A + -AL (fusión vocálica en la forma lexicalizada)',
+              'refs':[{'id':'root-zat','label':'ẐAT'},{'id':'morph-al-3','label':'-AL'}],
+              'tags':[tag('Locativo AL'), tag('Lexicalizado')],
+              'semantic_fields':['jerarquía','lugares','ciudad']
+            },
+            {
+              'id':'lexeme-arcadal','form':'arcadal','gloss':'reino',
+              'analysis_html':'ARC-A + <span class="meta-extra">-d- formante léxico</span> + <a class="morph-link" href="#morph-al-3">-AL</a>',
+              'analysis_text':'ARC-A + -d- formante léxico + -AL',
+              'refs':[{'id':'morph-al-3','label':'-AL'}],
+              'tags':[tag('Locativo AL'), tag('Lexicalizado')],
+              'semantic_fields':['jerarquía','lugares','nobleza']
+            },
+            {
+              'id':'lexeme-arcadukan','form':'arcadukan','gloss':'duque',
+              'analysis_html':'ARC-A + <a class="morph-link" href="#root-duk">DUK</a> + <a class="morph-link" href="#morph-an-2">-AN</a>',
+              'analysis_text':'ARC-A + DUK + -AN',
+              'refs':[{'id':'root-duk','label':'DUK'},{'id':'morph-an-2','label':'-AN'}],
+              'tags':[tag('Humano AN'), tag('Título')],
+              'semantic_fields':['jerarquía','títulos','nobleza']
+            },
+            {
+              'id':'lexeme-totarcan','form':'totarcan','gloss':'rey absoluto, monarca',
+              'analysis_html':'<span class="meta-extra">TOT- formante léxico no documentado</span> + ARC-A + <span class="meta-extra">-n lexicalizado</span>',
+              'analysis_text':'TOT- formante léxico no documentado + ARC-A + -n lexicalizado',
+              'refs':[],
+              'tags':[tag('Humano'), tag('Título'), tag('Lexicalizado')],
+              'semantic_fields':['jerarquía','títulos','nobleza']
+            },
+            {
+              'id':'lexeme-arcamor','form':'arcamor','gloss':'superior, supremo',
+              'analysis_html':'ARC-A + <span class="meta-extra">-mor formante léxico no documentado</span>',
+              'analysis_text':'ARC-A + -mor formante léxico no documentado',
+              'refs':[],
+              'tags':[tag('Adjetivo lexicalizado')],
+              'semantic_fields':['jerarquía','cualidades','títulos']
+            }
+          ]
+
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+      - name: Rebuild lexicon index
+        run: python scripts/build_lexicon_index.py
+      - name: Remove temporary workflow and commit
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/update-arc-a-family.yml
+          git add lexico/a.json lexico/index.json
+          git commit -m "Añadir repertorio de ARC-A"
+          git push
