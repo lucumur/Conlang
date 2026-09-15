@@ -3022,9 +3022,13 @@
           "id": "lexeme-kurtangxon",
           "form": "kurtanĝon",
           "gloss": "asesor, mensajero",
-          "analysis_html": "KURT + ANĜ + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kurt\">KURT</a> + ANĜ + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
           "analysis_text": "KURT + ANĜ + -ON",
           "refs": [
+            {
+              "id": "root-kurt",
+              "label": "KURT"
+            },
             {
               "id": "morph-on",
               "label": "-ON"
