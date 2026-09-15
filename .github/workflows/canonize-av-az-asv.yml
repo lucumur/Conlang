@@ -1,0 +1,204 @@
+name: Canonize AV AZ ASV families
+on:
+  push:
+    paths:
+      - '.github/workflows/canonize-av-az-asv.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Canonize AV AZ ASV families
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          def ref(i, label):
+              return {'id': i, 'label': label}
+          def tag(label):
+              return {'class':'generic','label':label}
+
+          # Morphemes
+          mp = Path('lexico/morphemes.json')
+          md = json.loads(mp.read_text(encoding='utf-8'))
+          morphs = md['morphemes']
+          def upsert(payload):
+              m = next((x for x in morphs if x.get('id') == payload['id']), None)
+              if m is None:
+                  morphs.append(payload)
+              else:
+                  m.update(payload)
+          upsert({
+              'id':'morph-us-habit','form':'*-US-','gloss':'habituativo; relacionado con algo habitual',
+              'tags':[tag('morfema'),tag('habituativo')],'letter':'U','section':'sec-u','etymology':None,
+              'notes':['Canónico. Atestiguado en avus- → avuser «habitual» y avusa «hábito».'], 'row_class':''
+          })
+          upsert({
+              'id':'morph-il-partitive','form':'*-IL-','gloss':'tipo de partitivo',
+              'tags':[tag('morfema'),tag('partitivo')],'letter':'I','section':'sec-i','etymology':None,
+              'notes':['Canónico. Distinto de *-IL «para inanimados» y de *IL- «de objeto largo, delgado».','Atestiguado en avila «característica».'], 'row_class':''
+          })
+          mp.write_text(json.dumps(md, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+          # Lexicon A
+          ap = Path('lexico/a.json')
+          ad = json.loads(ap.read_text(encoding='utf-8'))
+          entries = ad['entries']
+
+          # AV 'tener': refine derivations
+          av = next(e for e in entries if e.get('id') == 'root-av-3')
+          av['notes'] = [
+              'La partícula comitativa af procede históricamente de av, forma suelta de esta raíz: av > af.',
+              '*-US- es habituativo en avus-; *-IL- es un partitivo en avila y no se confunde con los otros morfemas IL.'
+          ]
+          byform = {w.get('form'): w for w in av.get('words', [])}
+          byform['avuser'].update({
+              'analysis_html':'AV + <a class="morph-link" href="#morph-us-habit">-US-</a> + ER (terminación final no reanalizada aquí)',
+              'analysis_text':'AV + -US- + ER (terminación final no reanalizada aquí)',
+              'refs':[ref('morph-us-habit','-US-')]
+          })
+          byform['avusa'].update({
+              'analysis_html':'AV + <a class="morph-link" href="#morph-us-habit">-US-</a> + <a class="morph-link" href="#morph-a-2">-A</a>',
+              'analysis_text':'AV + -US- + -A',
+              'refs':[ref('morph-us-habit','-US-'),ref('morph-a-2','-A')]
+          })
+          byform['avila'].update({
+              'analysis_html':'AV + <a class="morph-link" href="#morph-il-partitive">-IL-</a> + <a class="morph-link" href="#morph-a-2">-A</a>',
+              'analysis_text':'AV + -IL- + -A',
+              'refs':[ref('morph-il-partitive','-IL-'),ref('morph-a-2','-A')]
+          })
+          byform['avilor'].update({
+              'analysis_html':'AV + <a class="morph-link" href="#morph-il-partitive">-IL-</a> + OR (segmento final no identificado con el -OR superlativo vigente)',
+              'analysis_text':'AV + -IL- + OR (segmento final no identificado con el -OR superlativo vigente)',
+              'refs':[ref('morph-il-partitive','-IL-')]
+          })
+          byform['af'].update({
+              'analysis_html':'AV (forma suelta histórica <code>av</code>) &gt; AF',
+              'analysis_text':'AV (forma suelta histórica av) > AF',
+              'refs':[]
+          })
+
+          # AZ 'asno'
+          az = next(e for e in entries if e.get('id') == 'root-az')
+          az['gloss'] = 'asno'
+          az['row_class'] = 'lex-root-row'
+          az['words'] = [
+              {
+                  'id':'lexeme-azen','form':'azen','gloss':'burro',
+                  'analysis_html':'AZ + <a class="morph-link" href="#morph-en">-EN</a>',
+                  'analysis_text':'AZ + -EN','refs':[ref('morph-en','-EN')],
+                  'tags':[tag('Animado EN')],'semantic_fields':['animales','mamíferos','domésticos']
+              },
+              {
+                  'id':'lexeme-azornen','form':'azornen','gloss':'pelícano',
+                  'analysis_html':'AZ + <a class="morph-link" href="#root-orn">ORN</a> + <a class="morph-link" href="#morph-en">-EN</a>',
+                  'analysis_text':'AZ + ORN + -EN','refs':[ref('root-orn','ORN'),ref('morph-en','-EN')],
+                  'tags':[tag('Animado EN')],'semantic_fields':['aves','animales','acuáticos']
+              }
+          ]
+
+          # AZ 'nitrogeno'
+          azn = next(e for e in entries if e.get('id') == 'root-az-2')
+          azn['gloss'] = 'nitrogeno'
+          azn['row_class'] = 'lex-root-row'
+          azn['words'] = [
+              {
+                  'id':'lexeme-azethe','form':'azeθe','gloss':'nitrogeno',
+                  'analysis_html':'AZ + <a class="morph-link" href="#morph-etheta-gas">-EΘ-</a> + <a class="morph-link" href="#morph-e">-E</a>',
+                  'analysis_text':'AZ + -EΘ- + -E','refs':[ref('morph-etheta-gas','-EΘ-'),ref('morph-e','-E')],
+                  'tags':[tag('Incontable E')],'semantic_fields':['elementos químicos','gases','química']
+              }
+          ]
+
+          # AŜV 'agua' (orthographic correction from ASV)
+          asv = next(e for e in entries if e.get('id') == 'root-asv')
+          asv['form'] = '*AŜV-'
+          asv['gloss'] = 'agua'
+          asv['etymology'] = 'Etym. Eo. akvo → *AŜV-'
+          asv['row_class'] = 'lex-root-row'
+          asv['notes'] = [
+              'La grafía canónica de la raíz es AŜV; la antigua ASV queda obsoleta.',
+              'En aŝvontan y aŝvonar los segmentos ONT/ON permanecen sin función morfológica general canonizada.',
+              'El UR de aŝvur no se identifica con el -UR superlativo vigente.'
+          ]
+          asv['words'] = [
+              {
+                  'id':'lexeme-asve','form':'aŝve','gloss':'agua',
+                  'analysis_html':'AŜV + <a class="morph-link" href="#morph-e">-E</a>',
+                  'analysis_text':'AŜV + -E','refs':[ref('morph-e','-E')],
+                  'tags':[tag('Incontable E')],'semantic_fields':['agua','líquidos','naturaleza']
+              },
+              {
+                  'id':'lexeme-asvontan','form':'aŝvontan','gloss':'aguador',
+                  'analysis_html':'AŜV + ONT (segmento no formalizado) + <a class="morph-link" href="#morph-an-2">-AN</a>',
+                  'analysis_text':'AŜV + ONT (segmento no formalizado) + -AN','refs':[ref('morph-an-2','-AN')],
+                  'tags':[tag('Humano AN')],'semantic_fields':['oficios','agua','personas']
+              },
+              {
+                  'id':'lexeme-asvonas','form':'aŝvonas','gloss':'hidratar',
+                  'analysis_html':'AŜV + <a class="morph-link" href="#morph-onas">-ONAS</a>',
+                  'analysis_text':'AŜV + -ONAS','refs':[ref('morph-onas','-ONAS')],
+                  'tags':[tag('Predicado ONAS')],'semantic_fields':['agua','procesos','hidratación']
+              },
+              {
+                  'id':'lexeme-asvonar','form':'aŝvonar','gloss':'hidratante',
+                  'analysis_html':'AŜV + ON (segmento no formalizado) + <a class="morph-link" href="#morph-ar-2">-AR</a>',
+                  'analysis_text':'AŜV + ON (segmento no formalizado) + -AR','refs':[ref('morph-ar-2','-AR')],
+                  'tags':[tag('Participio agentivo')],'semantic_fields':['agua','hidratación','cualidades']
+              },
+              {
+                  'id':'lexeme-asvigos','form':'aŝviĝos','gloss':'aguadarse, derretirse',
+                  'analysis_html':'AŜV + <a class="morph-link" href="#root-ig">IĜ</a> + <a class="morph-link" href="#morph-os">-OS</a>',
+                  'analysis_text':'AŜV + IĜ + -OS','refs':[ref('root-ig','IĜ'),ref('morph-os','-OS')],
+                  'tags':[tag('Predicado OS')],'semantic_fields':['cambios de estado','líquidos','agua']
+              },
+              {
+                  'id':'lexeme-asvur','form':'aŝvur','gloss':'liquido',
+                  'analysis_html':'AŜV + UR (segmento no identificado con el -UR superlativo vigente)',
+                  'analysis_text':'AŜV + UR (segmento no identificado con el -UR superlativo vigente)','refs':[],
+                  'tags':[],'semantic_fields':['líquidos','materia','estado físico']
+              },
+              {
+                  'id':'lexeme-asvethe','form':'aŝveθe','gloss':'hidrogeno',
+                  'analysis_html':'AŜV + <a class="morph-link" href="#morph-etheta-gas">-EΘ-</a> + <a class="morph-link" href="#morph-e">-E</a>',
+                  'analysis_text':'AŜV + -EΘ- + -E','refs':[ref('morph-etheta-gas','-EΘ-'),ref('morph-e','-E')],
+                  'tags':[tag('Incontable E')],'semantic_fields':['elementos químicos','gases','química']
+              }
+          ]
+
+          # Existing mercury compound follows the corrected root spelling.
+          for e in entries:
+              for w in e.get('words', []):
+                  if w.get('id') == 'lexeme-asvargxe' or w.get('form') == 'asvarĝe':
+                      w['form'] = 'aŝvarĝe'
+                      w['analysis_html'] = '<a class="morph-link" href="#root-asv">AŜV</a> + ARĜ + <a class="morph-link" href="#morph-e">-E</a>'
+                      w['analysis_text'] = 'AŜV + ARĜ + -E'
+                      for r in w.get('refs', []):
+                          if r.get('id') == 'root-asv':
+                              r['label'] = 'AŜV'
+
+          ap.write_text(json.dumps(ad, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+
+          # Grammar: document distinct IL morphemes and habituative US.
+          gp = Path('gramatica.html')
+          g = gp.read_text(encoding='utf-8')
+          old = '    <tr><td><code>-IL</code></td><td>para inanimados</td></tr>\n'
+          new = old + '    <tr><td><code>IL-</code></td><td>de objeto largo, delgado</td></tr>\n    <tr><td><code>-IL-</code></td><td><strong>tipo de partitivo</strong>; distinto de <code>-IL</code> e <code>IL-</code></td></tr>\n    <tr><td><code>-US-</code></td><td><strong>habituativo</strong>; relacionado con algo habitual, como en <code>avus-</code></td></tr>\n'
+          if '<code>-IL-</code></td><td><strong>tipo de partitivo</strong>' not in g:
+              if old not in g:
+                  raise SystemExit('grammar IL row not found')
+              g = g.replace(old, new, 1)
+          gp.write_text(g, encoding='utf-8')
+          PY
+          python scripts/build_lexicon_index.py
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/morphemes.json lexico/index.json gramatica.html
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Canonizar AV AZ AŜV y morfemas US IL"
+          git push
