@@ -2808,7 +2808,7 @@
     },
     {
       "id": "root-apol",
-      "form": "*APOL-",
+      "form": "*APL-U",
       "gloss": "Apolo",
       "tags": [
         {
@@ -2826,10 +2826,77 @@
       ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": "Etym. Eo. Apolono → *APOL-",
+      "etymology": "Etym. Eo. Apolono → *APL-U",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-aplun",
+          "form": "Aplun",
+          "gloss": "Apolo",
+          "analysis_html": "APL-U + <span title=\"extensión nominal lexicalizada\">-N</span>",
+          "analysis_text": "APL-U + -N (extensión nominal lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nombre propio"
+            }
+          ],
+          "semantic_fields": [
+            "mitología",
+            "divinidades",
+            "artes"
+          ]
+        },
+        {
+          "id": "lexeme-apluntel",
+          "form": "apluntel",
+          "gloss": "artistico, apolineo",
+          "analysis_html": "APL-U(N) + <span title=\"formante relacional provisional\">-TEL</span>",
+          "analysis_text": "APL-U(N) + -TEL (formante relacional provisional)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo relacional"
+            }
+          ],
+          "semantic_fields": [
+            "artes",
+            "estética",
+            "mitología"
+          ]
+        },
+        {
+          "id": "lexeme-aplulunda",
+          "form": "Aplulunda",
+          "gloss": "Septiembre",
+          "analysis_html": "APL-U + <a class=\"morph-link\" href=\"#root-lun\">LUND</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "APL-U + LUND + -A",
+          "refs": [
+            {
+              "id": "root-lun",
+              "label": "LUND"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen calendárico"
+            }
+          ],
+          "semantic_fields": [
+            "calendario",
+            "meses",
+            "tiempo"
+          ]
+        }
+      ]
     },
     {
       "id": "root-afru",
