@@ -5914,22 +5914,93 @@
         {
           "class": "generic",
           "label": "Raiz"
-        },
-        {
-          "class": "nat-plen",
-          "label": "Nat-Plen"
-        },
-        {
-          "class": "latin",
-          "label": "Latin"
         }
       ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": "Etym. Eo. avo → *AV-",
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "etymology": null,
+      "notes": [
+        "Las formaciones avajn, avejn, vavaj y avajnda son canónicas, pero sus segmentos internos adicionales no se generalizan como morfemas productivos sin decisión explícita."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-avajn",
+          "form": "avajn",
+          "gloss": "abuelo materno",
+          "analysis_html": "AV + formación interna lexicalizada",
+          "analysis_text": "AV + formación interna lexicalizada",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Parentesco"
+            }
+          ],
+          "semantic_fields": [
+            "parentesco",
+            "familia",
+            "ascendencia"
+          ]
+        },
+        {
+          "id": "lexeme-avejn",
+          "form": "avejn",
+          "gloss": "abuela materna",
+          "analysis_html": "AV + formación interna lexicalizada",
+          "analysis_text": "AV + formación interna lexicalizada",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Parentesco"
+            }
+          ],
+          "semantic_fields": [
+            "parentesco",
+            "familia",
+            "ascendencia"
+          ]
+        },
+        {
+          "id": "lexeme-vavaj",
+          "form": "vavaj",
+          "gloss": "abuelito, abuelita (hipocorístico)",
+          "analysis_html": "derivado hipocorístico de AV; formación interna no generalizada",
+          "analysis_text": "derivado hipocorístico de AV; formación interna no generalizada",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico"
+            }
+          ],
+          "semantic_fields": [
+            "parentesco",
+            "familia",
+            "afectividad"
+          ]
+        },
+        {
+          "id": "lexeme-avajnda",
+          "form": "avajnda",
+          "gloss": "abolengo, ancestria",
+          "analysis_html": "derivado de AV; formación interna lexicalizada",
+          "analysis_text": "derivado de AV; formación interna lexicalizada",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto"
+            }
+          ],
+          "semantic_fields": [
+            "ascendencia",
+            "familia",
+            "genealogía"
+          ]
+        }
+      ]
     },
     {
       "id": "root-av-2",
