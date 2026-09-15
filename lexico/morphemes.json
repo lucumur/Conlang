@@ -346,7 +346,7 @@
     {
       "id": "morph-ar-2",
       "form": "*-AR",
-      "gloss": "participio agentivo",
+      "gloss": "participio de -AS (agentivo)",
       "tags": [
         {
           "class": "generic",
@@ -356,7 +356,9 @@
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Canónico: -AR es el participio correspondiente a la serie predicativa en -AS."
+      ],
       "row_class": ""
     },
     {
@@ -1302,7 +1304,7 @@
     {
       "id": "morph-or",
       "form": "*-OR",
-      "gloss": "adjetivo de grado superior o superlativo",
+      "gloss": "participio de -OS (absolutivo dinámico)",
       "tags": [
         {
           "class": "generic",
@@ -1312,7 +1314,10 @@
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Canónico: -OR es el participio correspondiente a la serie predicativa en -OS.",
+        "El antiguo análisis de -OR como superlativo queda reemplazado; el superlativo productivo se expresa con -UR."
+      ],
       "row_class": ""
     },
     {
@@ -1328,7 +1333,11 @@
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Canónico: -ONAS es un tipo de agentivo.",
+        "Su participio sigue la serie agentiva: -ONAS → -ONAR, por sustitución de -AS por -AR.",
+        "Para «persona dedicada a» una actividad en -ONAS se usa -ONTAN, no el analógico esperado *-ONISTAN."
+      ],
       "row_class": ""
     },
     {
@@ -1907,7 +1916,10 @@
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Canónico: -UR es el superlativizador productivo.",
+        "Se admite ambigüedad formal con usos lexicalizados o históricamente reanalizados de la secuencia -ur en palabras ya documentadas."
+      ],
       "row_class": ""
     },
     {
@@ -2486,6 +2498,28 @@
       "notes": [
         "Canónico. Distinto de *-IL «para inanimados» y de *IL- «de objeto largo, delgado».",
         "Atestiguado en avila «característica»."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ontan",
+      "form": "*-ONTAN",
+      "gloss": "persona dedicada a una actividad expresada en -ONAS",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "humano especializado"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "Derivación canónica de la serie -ONAS. Sustituye al esperado analógico *-ONISTAN para este valor."
       ],
       "row_class": ""
     }

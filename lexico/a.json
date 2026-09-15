@@ -1559,16 +1559,12 @@
           "id": "lexeme-bonalmor",
           "form": "bonalmor",
           "gloss": "buena gente, bien intencionado",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-bon\">BON</a> + ALM + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
-          "analysis_text": "BON + ALM + -OR",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bon\">BON</a> + ALM + OR (segmento final pendiente de reanálisis; no se asume el participio -OR)",
+          "analysis_text": "BON + ALM + OR (segmento final pendiente de reanálisis; no se asume el participio -OR)",
           "refs": [
             {
               "id": "root-bon",
               "label": "BON"
-            },
-            {
-              "id": "morph-or",
-              "label": "-OR"
             }
           ],
           "tags": [
@@ -6356,8 +6352,8 @@
           "id": "lexeme-avilor",
           "form": "avilor",
           "gloss": "característico",
-          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + OR (segmento final no identificado con el -OR superlativo vigente)",
-          "analysis_text": "AV + -IL- + OR (segmento final no identificado con el -OR superlativo vigente)",
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + OR (segmento final no asumido como participio de -OS)",
+          "analysis_text": "AV + -IL- + OR (segmento final no asumido como participio de -OS)",
           "refs": [
             {
               "id": "morph-il-partitive",
@@ -6612,8 +6608,9 @@
       "etymology": "Etym. Eo. akvo → *AŜV-",
       "notes": [
         "La grafía canónica de la raíz es AŜV; la antigua ASV queda obsoleta.",
-        "En aŝvontan y aŝvonar los segmentos ONT/ON permanecen sin función morfológica general canonizada.",
-        "El UR de aŝvur no se identifica con el -UR superlativo vigente."
+        "aŝvontan es el derivado humano especializado de aŝvonas mediante -ONTAN «persona dedicada a»; no *aŝvonistan.",
+        "aŝvonar es el participio de aŝvonas: -ONAS → -ONAR.",
+        "El UR de aŝvur no se identifica automáticamente con el -UR superlativo; la ambigüedad formal se conserva."
       ],
       "row_class": "lex-root-row",
       "words": [
@@ -6645,18 +6642,18 @@
           "id": "lexeme-asvontan",
           "form": "aŝvontan",
           "gloss": "aguador",
-          "analysis_html": "AŜV + ONT (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "AŜV + ONT (segmento no formalizado) + -AN",
+          "analysis_html": "AŜV + <a class=\"morph-link\" href=\"#morph-ontan\">-ONTAN</a>",
+          "analysis_text": "AŜV + -ONTAN",
           "refs": [
             {
-              "id": "morph-an-2",
-              "label": "-AN"
+              "id": "morph-ontan",
+              "label": "-ONTAN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Humano AN"
+              "label": "Humano especializado"
             }
           ],
           "semantic_fields": [
@@ -6693,9 +6690,13 @@
           "id": "lexeme-asvonar",
           "form": "aŝvonar",
           "gloss": "hidratante",
-          "analysis_html": "AŜV + ON (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
-          "analysis_text": "AŜV + ON (segmento no formalizado) + -AR",
+          "analysis_html": "AŜV + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a> → AŜV + -ON- + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "AŜV + -ONAS → AŜV + -ON- + -AR",
           "refs": [
+            {
+              "id": "morph-onas",
+              "label": "-ONAS"
+            },
             {
               "id": "morph-ar-2",
               "label": "-AR"
@@ -6704,7 +6705,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Participio agentivo"
+              "label": "Participio de ONAS"
             }
           ],
           "semantic_fields": [
