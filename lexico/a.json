@@ -4212,22 +4212,18 @@
           "id": "lexeme-arcantan",
           "form": "arcantan",
           "gloss": "rey, dirigente",
-          "analysis_html": "ARC-A + <span class=\"meta-extra\">-nt- formante léxico</span> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "ARC-A + -nt- formante léxico + -AN",
+          "analysis_html": "ARC-A + <a class=\"morph-link\" href=\"#morph-antan\">-ANTAN</a>",
+          "analysis_text": "ARC-A + -ANTAN",
           "refs": [
             {
-              "id": "morph-an-2",
-              "label": "-AN"
+              "id": "morph-antan",
+              "label": "-ANTAN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Humano AN"
-            },
-            {
-              "class": "generic",
-              "label": "Título"
+              "label": "Humano ANTAN"
             }
           ],
           "semantic_fields": [

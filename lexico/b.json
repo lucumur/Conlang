@@ -458,9 +458,7 @@
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [
-        "Los segmentos R de bakro, ANT de bakantan, ER de bakeral y RO de robaketas no se generalizan aquí como morfemas nuevos."
-      ],
+      "notes": [],
       "row_class": "lex-root-row",
       "words": [
         {
@@ -539,18 +537,18 @@
           "id": "lexeme-bakantan",
           "form": "bakantan",
           "gloss": "panadero",
-          "analysis_html": "BAK + ANT (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "BAK + ANT (extensión lexicalizada) + -AN",
+          "analysis_html": "BAK + <a class=\"morph-link\" href=\"#morph-antan\">-ANTAN</a>",
+          "analysis_text": "BAK + -ANTAN",
           "refs": [
             {
-              "id": "morph-an-2",
-              "label": "-AN"
+              "id": "morph-antan",
+              "label": "-ANTAN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Humano AN"
+              "label": "Humano ANTAN"
             }
           ],
           "semantic_fields": [
@@ -681,13 +679,18 @@
           "id": "lexeme-balonton",
           "form": "balonton",
           "gloss": "bailarín",
-          "analysis_html": "BAL + ONTON (formante léxico; función aún no formalizada)",
-          "analysis_text": "BAL + ONTON (formante léxico; función aún no formalizada)",
-          "refs": [],
+          "analysis_html": "BAL + <a class=\"morph-link\" href=\"#morph-onton\">-ONTON</a>",
+          "analysis_text": "BAL + -ONTON",
+          "refs": [
+            {
+              "id": "morph-onton",
+              "label": "-ONTON"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Humano"
+              "label": "Humano ONTON"
             }
           ],
           "semantic_fields": [
@@ -798,9 +801,13 @@
           "id": "lexeme-dorbalo",
           "form": "dorbalo",
           "gloss": "giba, joroba",
-          "analysis_html": "DOR (segmento no formalizado) + BAL + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "DOR (segmento no formalizado) + BAL + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-dors\">DOR</a> (forma primigenia de *DOR-S) + BAL + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DOR (forma primigenia de *DOR-S) + BAL + -O",
           "refs": [
+            {
+              "id": "root-dors",
+              "label": "DOR-S"
+            },
             {
               "id": "morph-o",
               "label": "-O"
@@ -822,9 +829,13 @@
           "id": "lexeme-dorbalin",
           "form": "dorbalin",
           "gloss": "jorobado",
-          "analysis_html": "DOR (segmento no formalizado) + BAL + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
-          "analysis_text": "DOR (segmento no formalizado) + BAL + -IN",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-dors\">DOR</a> (forma primigenia de *DOR-S) + BAL + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "DOR (forma primigenia de *DOR-S) + BAL + -IN",
           "refs": [
+            {
+              "id": "root-dors",
+              "label": "DOR-S"
+            },
             {
               "id": "morph-in",
               "label": "-IN"
@@ -874,22 +885,22 @@
           "id": "lexeme-virbalcha",
           "form": "virbalĉa",
           "gloss": "balanitis",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-vir\">VIR</a> + BAL + Ĉ (formante léxico no formalizado) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "VIR + BAL + Ĉ (formante léxico no formalizado) + -A",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-vir\">VIR</a> + BAL + <a class=\"morph-link\" href=\"#morph-cha-disease\">-ĈA</a>",
+          "analysis_text": "VIR + BAL + -ĈA",
           "refs": [
             {
               "id": "root-vir",
               "label": "VIR"
             },
             {
-              "id": "morph-a-2",
-              "label": "-A"
+              "id": "morph-cha-disease",
+              "label": "-ĈA"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Nomen A"
+              "label": "Enfermedad ĈA"
             }
           ],
           "semantic_fields": [

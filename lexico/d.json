@@ -289,8 +289,8 @@
     },
     {
       "id": "root-dors",
-      "form": "*DORS-",
-      "gloss": "espalda",
+      "form": "*DOR-S",
+      "gloss": "dorsal, espalda",
       "tags": [
         {
           "class": "generic",
@@ -300,7 +300,9 @@
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "DOR- es la forma primigenia; DORS es la forma extendida usual. La forma primigenia aparece en derivados como dorbalo y dorbalin."
+      ],
       "row_class": "",
       "words": []
     },
