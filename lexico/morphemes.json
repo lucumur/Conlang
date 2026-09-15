@@ -2190,6 +2190,28 @@
         "Es deverbal; su valor semántico específico permanece abierto."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-on-territorial",
+      "form": "*-ON- / *-ONAT-",
+      "gloss": "formante territorial o de extensión natural; -ONAT- como variante relacional ante -EL (provisional)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        },
+        {
+          "class": "generic",
+          "label": "Provisional"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "Análisis provisional inferido de arjonal «desierto» y arjonatel «desértico». Puede revisarse cuando aparezcan más ejemplos."
+      ],
+      "row_class": ""
     }
   ]
 }
