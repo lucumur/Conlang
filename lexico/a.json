@@ -5409,15 +5409,15 @@
           ]
         },
         {
-          "id": "lexeme-muarzos",
-          "form": "muarẑos",
+          "id": "lexeme-oarzos",
+          "form": "oarẑos",
           "gloss": "concordar",
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-mu-2\">MU-</a> + ARẐ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "MU- + ARẐ + -OS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-o-mutual\">O-</a> + ARẐ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "O- + ARẐ + -OS",
           "refs": [
             {
-              "id": "morph-mu-2",
-              "label": "MU-"
+              "id": "morph-o-mutual",
+              "label": "O-"
             },
             {
               "id": "morph-os",
@@ -5502,15 +5502,15 @@
           ]
         },
         {
-          "id": "lexeme-muarza",
-          "form": "muarẑa",
+          "id": "lexeme-oarza",
+          "form": "oarẑa",
           "gloss": "concordancia",
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-mu-2\">MU-</a> + ARẐ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "MU- + ARẐ + -A",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-o-mutual\">O-</a> + ARẐ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "O- + ARẐ + -A",
           "refs": [
             {
-              "id": "morph-mu-2",
-              "label": "MU-"
+              "id": "morph-o-mutual",
+              "label": "O-"
             },
             {
               "id": "morph-a-2",
@@ -5685,15 +5685,15 @@
           ]
         },
         {
-          "id": "lexeme-muastropos",
-          "form": "muastropos",
+          "id": "lexeme-oastropos",
+          "form": "oastropos",
           "gloss": "estrellarse, colisionar",
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-mu-2\">MU-</a> + AS-TR + <a class=\"morph-link\" href=\"#morph-op\">-OP-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "MU- + AS-TR + -OP- + -OS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-o-mutual\">O-</a> + AS-TR + <a class=\"morph-link\" href=\"#morph-op\">-OP-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "O- + AS-TR + -OP- + -OS",
           "refs": [
             {
-              "id": "morph-mu-2",
-              "label": "MU-"
+              "id": "morph-o-mutual",
+              "label": "O-"
             },
             {
               "id": "morph-op",
@@ -5712,15 +5712,15 @@
           ]
         },
         {
-          "id": "lexeme-muastropa",
-          "form": "muastropa",
+          "id": "lexeme-oastropa",
+          "form": "oastropa",
           "gloss": "colisión",
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-mu-2\">MU-</a> + AS-TR + <a class=\"morph-link\" href=\"#morph-op\">-OP-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "MU- + AS-TR + -OP- + -A",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-o-mutual\">O-</a> + AS-TR + <a class=\"morph-link\" href=\"#morph-op\">-OP-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "O- + AS-TR + -OP- + -A",
           "refs": [
             {
-              "id": "morph-mu-2",
-              "label": "MU-"
+              "id": "morph-o-mutual",
+              "label": "O-"
             },
             {
               "id": "morph-op",
@@ -5793,15 +5793,15 @@
       "row_class": "lex-root-row",
       "words": [
         {
-          "id": "lexeme-muathlos",
-          "form": "muaθlos",
+          "id": "lexeme-oathlos",
+          "form": "oaθlos",
           "gloss": "competir (entre ambos o varios)",
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-mu-2\">MU-</a> + AΘL + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "MU- + AΘL + -OS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-o-mutual\">O-</a> + AΘL + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "O- + AΘL + -OS",
           "refs": [
             {
-              "id": "morph-mu-2",
-              "label": "MU-"
+              "id": "morph-o-mutual",
+              "label": "O-"
             },
             {
               "id": "morph-os",
