@@ -1,0 +1,114 @@
+name: Add ARZ family
+on:
+  push:
+    paths:
+      - '.github/workflows/add-arz-family.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add canonical ARZ family
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          ap = Path('lexico/a.json')
+          data = json.loads(ap.read_text(encoding='utf-8'))
+          root = next(e for e in data['entries'] if e.get('id') == 'root-arz' or e.get('form') == '*ARẐ-')
+          root['gloss'] = 'articular, embonar'
+          new_words = [
+            {
+              'id': 'lexeme-arzas', 'form': 'arẑas', 'gloss': 'articular, embonar',
+              'analysis_html': 'ARẐ + <a class="morph-link" href="#morph-as">-AS</a>',
+              'analysis_text': 'ARẐ + -AS',
+              'refs': [{'id':'morph-as','label':'-AS'}],
+              'tags': [{'class':'generic','label':'Predicado AS'}]
+            },
+            {
+              'id': 'lexeme-arzos', 'form': 'arẑos', 'gloss': 'encajar, embonar (intransitivo)',
+              'analysis_html': 'ARẐ + <a class="morph-link" href="#morph-os">-OS</a>',
+              'analysis_text': 'ARẐ + -OS',
+              'refs': [{'id':'morph-os','label':'-OS'}],
+              'tags': [{'class':'generic','label':'Predicado OS'}]
+            },
+            {
+              'id': 'lexeme-muarzos', 'form': 'muarẑos', 'gloss': 'concordar',
+              'analysis_html': '<a class="morph-link" href="#morph-mu-2">MU-</a> + ARẐ + <a class="morph-link" href="#morph-os">-OS</a>',
+              'analysis_text': 'MU- + ARẐ + -OS',
+              'refs': [{'id':'morph-mu-2','label':'MU-'},{'id':'morph-os','label':'-OS'}],
+              'tags': [{'class':'generic','label':'Predicado OS'}]
+            },
+            {
+              'id': 'lexeme-arzur', 'form': 'arẑur', 'gloss': 'flexible',
+              'analysis_html': 'ARẐ + UR',
+              'analysis_text': 'ARẐ + UR',
+              'refs': [],
+              'tags': []
+            },
+            {
+              'id': 'lexeme-arzo', 'form': 'arẑo', 'gloss': 'articulacion',
+              'analysis_html': 'ARẐ + <a class="morph-link" href="#morph-o">-O</a>',
+              'analysis_text': 'ARẐ + -O',
+              'refs': [{'id':'morph-o','label':'-O'}],
+              'tags': [{'class':'generic','label':'Nomen O'}]
+            },
+            {
+              'id': 'lexeme-arziko', 'form': 'arẑiko', 'gloss': 'pieza',
+              'analysis_html': 'ARẐ + <a class="morph-link" href="#morph-ik">-IK-</a> + <a class="morph-link" href="#morph-o">-O</a>',
+              'analysis_text': 'ARẐ + -IK- + -O',
+              'refs': [{'id':'morph-ik','label':'-IK-'},{'id':'morph-o','label':'-O'}],
+              'tags': [{'class':'generic','label':'Nomen O'}]
+            },
+            {
+              'id': 'lexeme-arzoro', 'form': 'arẑoro', 'gloss': 'miembro (limb)',
+              'analysis_html': 'ARẐ + OR + <a class="morph-link" href="#morph-o">-O</a>',
+              'analysis_text': 'ARẐ + OR + -O',
+              'refs': [{'id':'morph-o','label':'-O'}],
+              'tags': [{'class':'generic','label':'Nomen O'}]
+            },
+            {
+              'id': 'lexeme-muarza', 'form': 'muarẑa', 'gloss': 'concordancia',
+              'analysis_html': '<a class="morph-link" href="#morph-mu-2">MU-</a> + ARẐ + <a class="morph-link" href="#morph-a-2">-A</a>',
+              'analysis_text': 'MU- + ARẐ + -A',
+              'refs': [{'id':'morph-mu-2','label':'MU-'},{'id':'morph-a-2','label':'-A'}],
+              'tags': [{'class':'generic','label':'Nomen A'}]
+            }
+          ]
+          old_by_id = {w.get('id'): w for w in root.get('words', [])}
+          old_by_form = {w.get('form'): w for w in root.get('words', [])}
+          for nw in new_words:
+              old = old_by_id.get(nw['id']) or old_by_form.get(nw['form'])
+              if old is not None:
+                  old.clear(); old.update(nw)
+              else:
+                  root.setdefault('words', []).append(nw)
+          root.setdefault('notes', [])
+          note = 'Los segmentos UR de arẑur y OR de arẑoro quedan sin referencia morfémica: los morfemas -UR y -OR vigentes tienen valor superlativo y no se asume aquí que sean los mismos.'
+          if note not in root['notes']:
+              root['notes'].append(note)
+          ap.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          mp = Path('lexico/morphemes.json')
+          md = json.loads(mp.read_text(encoding='utf-8'))
+          mu = next(m for m in md['morphemes'] if m.get('id') == 'morph-mu-2')
+          mu['form'] = '*MU-'
+          mu['gloss'] = 'ambos, mutuo'
+          mu['letter'] = 'M'
+          mu['section'] = 'sec-m'
+          mp.write_text(json.dumps(md, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          python scripts/build_lexicon_index.py
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/morphemes.json lexico/index.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Agregar familia canónica ARẐ y precisar MU"
+          git push
