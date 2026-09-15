@@ -1,0 +1,174 @@
+name: Add ASP-R AΘL and ORO
+on:
+  push:
+    paths:
+      - '.github/workflows/add-asp-athl-oro.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update canonical lexicon
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          ap = Path('lexico/a.json')
+          ad = json.loads(ap.read_text(encoding='utf-8'))
+          entries = ad['entries']
+
+          def upsert_root(payload):
+              cur = next((e for e in entries if e.get('id') == payload['id'] or e.get('form') == payload['form']), None)
+              if cur is None:
+                  entries.append(payload)
+                  return payload
+              preserved_words = cur.get('words', [])
+              cur.update({k:v for k,v in payload.items() if k != 'words'})
+              if 'words' in payload:
+                  by_id = {w.get('id'):w for w in preserved_words}
+                  by_form = {w.get('form'):w for w in preserved_words}
+                  for nw in payload['words']:
+                      old = by_id.get(nw['id']) or by_form.get(nw['form'])
+                      if old is None:
+                          preserved_words.append(nw)
+                      else:
+                          old.clear(); old.update(nw)
+                  cur['words'] = preserved_words
+              return cur
+
+          asp = {
+            'id':'root-asp-r','form':'*ASP-R','gloss':'aspero',
+            'tags':[{'class':'generic','label':'Raiz'}],
+            'letter':'A','section':'sec-a','etymology':None,'notes':[],
+            'row_class':'lex-root-row',
+            'words':[
+              {
+                'id':'lexeme-asper','form':'asper','gloss':'aspero, dificil, rugoso',
+                'analysis_html':'ASP-R (realización léxica; formación interna no especificada)',
+                'analysis_text':'ASP-R (realización léxica; formación interna no especificada)',
+                'refs':[],'tags':[]
+              },
+              {
+                'id':'lexeme-asprago','form':'asprago','gloss':'esparrago',
+                'analysis_html':'derivado de ASP-R; formación interna no especificada',
+                'analysis_text':'derivado de ASP-R; formación interna no especificada',
+                'refs':[],'tags':[]
+              }
+            ]
+          }
+          upsert_root(asp)
+
+          athl = {
+            'id':'root-athl','form':'*AΘL-','gloss':'competir',
+            'tags':[{'class':'generic','label':'Raiz'}],
+            'letter':'A','section':'sec-a','etymology':None,'notes':[],
+            'row_class':'lex-root-row',
+            'words':[
+              {
+                'id':'lexeme-muathlos','form':'muaθlos','gloss':'competir (entre ambos o varios)',
+                'analysis_html':'<a class="morph-link" href="#morph-mu-2">MU-</a> + AΘL + <a class="morph-link" href="#morph-os">-OS</a>',
+                'analysis_text':'MU- + AΘL + -OS',
+                'refs':[{'id':'morph-mu-2','label':'MU-'},{'id':'morph-os','label':'-OS'}],
+                'tags':[{'class':'generic','label':'Predicado OS'}]
+              },
+              {
+                'id':'lexeme-athlos','form':'aθlos','gloss':'competir',
+                'analysis_html':'AΘL + <a class="morph-link" href="#morph-os">-OS</a>',
+                'analysis_text':'AΘL + -OS',
+                'refs':[{'id':'morph-os','label':'-OS'}],
+                'tags':[{'class':'generic','label':'Predicado OS'}]
+              },
+              {
+                'id':'lexeme-athla','form':'aθla','gloss':'prueba, competicion',
+                'analysis_html':'AΘL + <a class="morph-link" href="#morph-a-2">-A</a>',
+                'analysis_text':'AΘL + -A',
+                'refs':[{'id':'morph-a-2','label':'-A'}],
+                'tags':[{'class':'generic','label':'Nomen A'}]
+              },
+              {
+                'id':'lexeme-athlisma','form':'aθlisma','gloss':'deporte, atletismo',
+                'analysis_html':'AΘL + <a class="morph-link" href="#morph-isma">-ISMA</a>',
+                'analysis_text':'AΘL + -ISMA',
+                'refs':[{'id':'morph-isma','label':'-ISMA'}],
+                'tags':[]
+              },
+              {
+                'id':'lexeme-athlistan','form':'aθlistan','gloss':'atleta',
+                'analysis_html':'AΘL + <a class="morph-link" href="#morph-ist">-IST</a> + <a class="morph-link" href="#morph-an-2">-AN</a>',
+                'analysis_text':'AΘL + -IST + -AN',
+                'refs':[{'id':'morph-ist','label':'-IST'},{'id':'morph-an-2','label':'-AN'}],
+                'tags':[{'class':'generic','label':'Humano AN'}]
+              },
+              {
+                'id':'lexeme-athlistel','form':'aθlistel','gloss':'atletico',
+                'analysis_html':'AΘL + <a class="morph-link" href="#morph-ist">-IST</a> + <a class="morph-link" href="#morph-el">-EL</a>',
+                'analysis_text':'AΘL + -IST + -EL',
+                'refs':[{'id':'morph-ist','label':'-IST'},{'id':'morph-el','label':'-EL'}],
+                'tags':[]
+              }
+            ]
+          }
+          upsert_root(athl)
+
+          # Resolve arẑoro using the newly canonical -ORO.
+          arz = next((e for e in entries if e.get('id') == 'root-arz' or e.get('form') == '*ARẐ-'), None)
+          if arz is None:
+              raise SystemExit('root-arz not found')
+          word = next((w for w in arz.get('words',[]) if w.get('id') == 'lexeme-arzoro' or w.get('form') == 'arẑoro'), None)
+          if word is None:
+              raise SystemExit('arẑoro not found')
+          word.update({
+              'analysis_html':'ARẐ + <a class="morph-link" href="#morph-oro">-ORO</a>',
+              'analysis_text':'ARẐ + -ORO',
+              'refs':[{'id':'morph-oro','label':'-ORO'}],
+              'tags':word.get('tags',[])
+          })
+          notes=[]
+          for n in arz.get('notes',[]):
+              if 'segmentos UR de arẑur y OR de arẑoro' in n:
+                  notes.append('El segmento UR de arẑur queda sin referencia morfémica: el morfema -UR vigente tiene valor superlativo y no se asume aquí que sea el mismo.')
+              else:
+                  notes.append(n)
+          arz['notes']=notes
+
+          ap.write_text(json.dumps(ad, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          mp = Path('lexico/morphemes.json')
+          md = json.loads(mp.read_text(encoding='utf-8'))
+          morphs = md['morphemes']
+          oro = next((m for m in morphs if m.get('id') == 'morph-oro' or m.get('form') == '*-ORO'), None)
+          payload = {
+            'id':'morph-oro','form':'*-ORO','gloss':'algo que tiene',
+            'tags':[{'class':'generic','label':'sufijo'}],
+            'letter':'O','section':'sec-o','etymology':None,'notes':[],'row_class':''
+          }
+          if oro is None:
+              morphs.append(payload)
+          else:
+              oro.update(payload)
+          mp.write_text(json.dumps(md, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          gp = Path('gramatica.html')
+          g = gp.read_text(encoding='utf-8')
+          row = '    <tr><td><code>-ORO</code></td><td>algo «que tiene»</td></tr>'
+          if row not in g:
+              anchor = '    <tr><td><code>-OT-</code></td><td>estativo nominal</td></tr>'
+              if anchor not in g:
+                  raise SystemExit('grammar morpheme anchor not found')
+              g = g.replace(anchor, anchor + '\n' + row, 1)
+              gp.write_text(g, encoding='utf-8')
+          PY
+          python scripts/build_lexicon_index.py
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/morphemes.json lexico/index.json gramatica.html
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Agregar ASP-R, AΘL y morfema ORO"
+          git push
