@@ -36,17 +36,23 @@
     {
       "id": "morph-ak",
       "form": "*-AK",
-      "gloss": "adverbial de lugar",
+      "gloss": "imperativo de -AS",
       "tags": [
         {
           "class": "generic",
           "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "imperativo"
         }
       ],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Forma imperativa correspondiente a la serie agentiva en -AS."
+      ],
       "row_class": ""
     },
     {
@@ -2414,6 +2420,28 @@
       "section": "sec-a",
       "etymology": null,
       "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ok",
+      "form": "*-OK",
+      "gloss": "imperativo de -OS",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "imperativo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "Forma imperativa correspondiente a la serie absolutiva dinámica en -OS."
+      ],
       "row_class": ""
     }
   ]

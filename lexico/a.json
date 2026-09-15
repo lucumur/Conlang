@@ -6047,13 +6047,90 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. avelo → *AV-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-avnuso",
+          "form": "avnuŝo",
+          "gloss": "avellana",
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#root-nus\">NUŜ</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "AV + NUŜ + -O",
+          "refs": [
+            {
+              "id": "root-nus",
+              "label": "NUŜ"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "frutos secos",
+            "botánica"
+          ]
+        },
+        {
+          "id": "lexeme-avelo",
+          "form": "avelo",
+          "gloss": "avellano (árbol)",
+          "analysis_html": "AV + formación interna lexicalizada + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "AV + formación interna lexicalizada + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "frutos secos"
+          ]
+        },
+        {
+          "id": "lexeme-avol",
+          "form": "avol",
+          "gloss": "color avellana",
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "AV + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia",
+            "frutos secos"
+          ]
+        }
+      ]
     },
     {
       "id": "root-av-3",
       "form": "*AV-",
-      "gloss": "tener ⭐",
+      "gloss": "tener",
       "tags": [
         {
           "class": "generic",
@@ -6072,8 +6149,282 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. havi → *AV-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-avas",
+          "form": "avas",
+          "gloss": "tener",
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "AV + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "posesión",
+            "relaciones",
+            "estado"
+          ]
+        },
+        {
+          "id": "lexeme-avitas",
+          "form": "avitas",
+          "gloss": "poseer",
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-it\">-IT-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "AV + -IT- + -AS",
+          "refs": [
+            {
+              "id": "morph-it",
+              "label": "-IT-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "posesión",
+            "propiedad",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-proavas",
+          "form": "proavas",
+          "gloss": "avalar, certificar",
+          "analysis_html": "PRO + AV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a> (función de PRO en esta formación no especificada)",
+          "analysis_text": "PRO + AV + -AS (función de PRO en esta formación no especificada)",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "certificación",
+            "garantía",
+            "validación"
+          ]
+        },
+        {
+          "id": "lexeme-avandas",
+          "form": "avandas",
+          "gloss": "disponer",
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-and\">-AND-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "AV + -AND- + -AS",
+          "refs": [
+            {
+              "id": "morph-and",
+              "label": "-AND-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "disponibilidad",
+            "posesión",
+            "uso"
+          ]
+        },
+        {
+          "id": "lexeme-avandis",
+          "form": "avandis",
+          "gloss": "estar disponible",
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-and\">-AND-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "AV + -AND- + -IS",
+          "refs": [
+            {
+              "id": "morph-and",
+              "label": "-AND-"
+            },
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "disponibilidad",
+            "estado",
+            "uso"
+          ]
+        },
+        {
+          "id": "lexeme-avos",
+          "form": "avos",
+          "gloss": "estarse, encontrarse (de alguna manera)",
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "AV + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "situación",
+            "presencia"
+          ]
+        },
+        {
+          "id": "lexeme-avuser",
+          "form": "avuser",
+          "gloss": "habitual",
+          "analysis_html": "derivado de AV; segmento US y terminación ER no formalizados aquí",
+          "analysis_text": "derivado de AV; segmento US y terminación ER no formalizados aquí",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "hábito",
+            "frecuencia",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-avila",
+          "form": "avila",
+          "gloss": "característica",
+          "analysis_html": "derivado de AV; formación interna no especificada",
+          "analysis_text": "derivado de AV; formación interna no especificada",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades",
+            "propiedades",
+            "descripción"
+          ]
+        },
+        {
+          "id": "lexeme-avilor",
+          "form": "avilor",
+          "gloss": "característico",
+          "analysis_html": "derivado de AV; formación interna no especificada; no se identifica con el -OR superlativo vigente",
+          "analysis_text": "derivado de AV; formación interna no especificada; no se identifica con el -OR superlativo vigente",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades",
+            "propiedades",
+            "descripción"
+          ]
+        },
+        {
+          "id": "lexeme-avusa",
+          "form": "avusa",
+          "gloss": "hábito",
+          "analysis_html": "derivado de AV; segmento US no formalizado aquí",
+          "analysis_text": "derivado de AV; segmento US no formalizado aquí",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "hábito",
+            "conducta",
+            "frecuencia"
+          ]
+        },
+        {
+          "id": "lexeme-avja",
+          "form": "avja",
+          "gloss": "tenencia, posesión",
+          "analysis_html": "derivado de AV; formación interna no especificada",
+          "analysis_text": "derivado de AV; formación interna no especificada",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "posesión",
+            "propiedad",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-af",
+          "form": "af",
+          "gloss": "con",
+          "analysis_html": "forma gramaticalizada derivada de AV; reducción interna no especificada",
+          "analysis_text": "forma gramaticalizada derivada de AV; reducción interna no especificada",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "relaciones",
+            "comitativo"
+          ]
+        },
+        {
+          "id": "lexeme-belavok",
+          "form": "belavok",
+          "gloss": "hail, salut, ave",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + AV + <a class=\"morph-link\" href=\"#morph-ok\">-OK</a>",
+          "analysis_text": "BEL + AV + -OK",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-ok",
+              "label": "-OK"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Imperativo OK"
+            }
+          ],
+          "semantic_fields": [
+            "saludos",
+            "fórmulas",
+            "interjecciones"
+          ]
+        }
+      ]
     },
     {
       "id": "root-az",
