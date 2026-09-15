@@ -16,57 +16,49 @@ jobs:
           import json
           from pathlib import Path
 
-          # 1) Add canonical root *MEJ- to M lexicon.
           mp = Path('lexico/m.json')
           mdata = json.loads(mp.read_text(encoding='utf-8'))
           entries = mdata['entries']
           mej = next((e for e in entries if e.get('id') == 'root-mej' or e.get('form') == '*MEJ-'), None)
           payload = {
-              'id': 'root-mej',
-              'form': '*MEJ-',
-              'gloss': 'posibilitativo',
+              'id': 'root-mej', 'form': '*MEJ-', 'gloss': 'posibilitativo',
               'tags': [{'class': 'generic', 'label': 'Raiz'}],
-              'letter': 'M',
-              'section': 'sec-m',
-              'etymology': None,
-              'notes': [],
-              'row_class': '',
-              'words': []
+              'letter': 'M', 'section': 'sec-m', 'etymology': None,
+              'notes': [], 'row_class': '', 'words': []
           }
           if mej is None:
               insert_at = len(entries)
               for i, e in enumerate(entries):
                   form = e.get('form', '')
                   if form.startswith('*') and form > '*MEJ-':
-                      insert_at = i
-                      break
+                      insert_at = i; break
               entries.insert(insert_at, payload)
           else:
               old_words = mej.get('words', [])
               mej.clear(); mej.update(payload); mej['words'] = old_words
           mp.write_text(json.dumps(mdata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # 2) Add canonical morpheme *-ONAS.
           morphp = Path('lexico/morphemes.json')
           morphdata = json.loads(morphp.read_text(encoding='utf-8'))
-          ments = morphdata['entries']
+          ments = morphdata['morphemes']
           onas = next((e for e in ments if e.get('id') == 'morph-onas' or e.get('form') == '*-ONAS'), None)
           onas_payload = {
-              'id': 'morph-onas',
-              'form': '*-ONAS',
-              'gloss': 'tipo de agentivo',
-              'tags': [{'class': 'generic', 'label': 'Agentivo'}],
-              'etymology': None,
-              'notes': [],
-              'row_class': ''
+              'id': 'morph-onas', 'form': '*-ONAS', 'gloss': 'tipo de agentivo',
+              'tags': [{'class': 'generic', 'label': 'agentivo'}],
+              'letter': 'O', 'section': 'sec-o', 'etymology': None,
+              'notes': [], 'row_class': ''
           }
           if onas is None:
-              ments.append(onas_payload)
+              insert_at = len(ments)
+              for i, e in enumerate(ments):
+                  form = e.get('form', '')
+                  if form > '*-ONAS':
+                      insert_at = i; break
+              ments.insert(insert_at, onas_payload)
           else:
               onas.clear(); onas.update(onas_payload)
           morphp.write_text(json.dumps(morphdata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # 3) Update EBL family analyses.
           ep = Path('lexico/e.json')
           edata = json.loads(ep.read_text(encoding='utf-8'))
           ebl = next(e for e in edata['entries'] if e.get('id') == 'root-ebl')
@@ -75,7 +67,6 @@ jobs:
               'CANÓNICO: -ONAS es un tipo de agentivo; eblonas emplea este morfema.'
           ]
           by_id = {w.get('id'): w for w in ebl.get('words', [])}
-
           w = by_id['lexeme-eblonas']
           w['analysis_html'] = 'EBL + <a class="morph-link" href="#morph-onas">-ONAS</a>'
           w['analysis_text'] = 'EBL + -ONAS'
@@ -99,7 +90,6 @@ jobs:
           ]
           ep.write_text(json.dumps(edata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # 4) Existing aronas now uses canonical -ONAS rather than provisional -ON- + -AS.
           ap = Path('lexico/a.json')
           adata = json.loads(ap.read_text(encoding='utf-8'))
           found = False
@@ -114,7 +104,6 @@ jobs:
               raise SystemExit('Expected aronas lexeme not found')
           ap.write_text(json.dumps(adata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # 5) Document -ONAS alongside the canonical verbal endings.
           gp = Path('gramatica.html')
           gtxt = gp.read_text(encoding='utf-8')
           row = '    <tr><td><code>-AS</code></td><td><strong>agentivo</strong></td></tr>'
