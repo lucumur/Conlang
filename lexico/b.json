@@ -6,7 +6,7 @@
     {
       "id": "root-ba-f",
       "form": "*BA-F",
-      "gloss": "bah! ah!",
+      "gloss": "interjección de sorpresa o susto",
       "tags": [
         {
           "class": "generic",
@@ -24,9 +24,50 @@
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "notes": [
+        "BA es la forma primigenia y BAF la forma extendida de la misma raíz."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-ba-interj",
+          "form": "ba!",
+          "gloss": "ah! (sorpresa)",
+          "analysis_html": "BA (forma primigenia de *BA-F)",
+          "analysis_text": "BA (forma primigenia de *BA-F)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Interjección"
+            }
+          ],
+          "semantic_fields": [
+            "interjecciones",
+            "emociones",
+            "sorpresa"
+          ]
+        },
+        {
+          "id": "lexeme-baf-interj",
+          "form": "baf",
+          "gloss": "blof, fuh! (susto)",
+          "analysis_html": "BA-F (forma extendida)",
+          "analysis_text": "BA-F (forma extendida)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Interjección"
+            }
+          ],
+          "semantic_fields": [
+            "interjecciones",
+            "emociones",
+            "susto"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bab-l",
@@ -41,9 +82,188 @@
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "notes": [
+        "El segmento UĈ de babluĉos/babluĉa queda atestiguado en estas formas, pero su función general no está canonizada."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-obablos",
+          "form": "obablos",
+          "gloss": "platicar, charlar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-o-mutual\">O-</a> + BAB-L + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "O- + BAB-L + -OS",
+          "refs": [
+            {
+              "id": "morph-o-mutual",
+              "label": "O-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "conversación",
+            "interacción"
+          ]
+        },
+        {
+          "id": "lexeme-babluchos",
+          "form": "babluĉos",
+          "gloss": "balbucear",
+          "analysis_html": "BAB-L + UĈ (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BAB-L + UĈ (segmento no formalizado) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "habla",
+            "comunicación",
+            "infancia"
+          ]
+        },
+        {
+          "id": "lexeme-bablen",
+          "form": "bablen",
+          "gloss": "toddler, infante",
+          "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "BAB-L + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "infancia",
+            "edad"
+          ]
+        },
+        {
+          "id": "lexeme-bablor",
+          "form": "bablor",
+          "gloss": "hablante, parlante",
+          "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "BAB-L + -OR",
+          "refs": [
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio de OS"
+            }
+          ],
+          "semantic_fields": [
+            "habla",
+            "comunicación",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-babla",
+          "form": "babla",
+          "gloss": "habla",
+          "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BAB-L + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "habla",
+            "comunicación",
+            "lenguaje"
+          ]
+        },
+        {
+          "id": "lexeme-bablila",
+          "form": "bablila",
+          "gloss": "plática, charla",
+          "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BAB-L + -IL- + -A",
+          "refs": [
+            {
+              "id": "morph-il-partitive",
+              "label": "-IL-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "conversación",
+            "comunicación",
+            "habla"
+          ]
+        },
+        {
+          "id": "lexeme-bablucha",
+          "form": "babluĉa",
+          "gloss": "balbuceo",
+          "analysis_html": "BAB-L + UĈ (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BAB-L + UĈ (segmento no formalizado) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "habla",
+            "comunicación",
+            "infancia"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bac",
