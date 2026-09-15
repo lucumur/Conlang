@@ -2443,6 +2443,51 @@
         "Forma imperativa correspondiente a la serie absolutiva dinámica en -OS."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-us-habit",
+      "form": "*-US-",
+      "gloss": "habituativo; relacionado con algo habitual",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        },
+        {
+          "class": "generic",
+          "label": "habituativo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [
+        "Canónico. Atestiguado en avus- → avuser «habitual» y avusa «hábito»."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-il-partitive",
+      "form": "*-IL-",
+      "gloss": "tipo de partitivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        },
+        {
+          "class": "generic",
+          "label": "partitivo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [
+        "Canónico. Distinto de *-IL «para inanimados» y de *IL- «de objeto largo, delgado».",
+        "Atestiguado en avila «característica»."
+      ],
+      "row_class": ""
     }
   ]
 }

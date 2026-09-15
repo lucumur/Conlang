@@ -5264,14 +5264,14 @@
         },
         {
           "id": "lexeme-asvargxe",
-          "form": "asvarĝe",
+          "form": "aŝvarĝe",
           "gloss": "mercurio",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-asv\">ASV</a> + ARĜ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
-          "analysis_text": "ASV + ARĜ + -E",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-asv\">AŜV</a> + ARĜ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "AŜV + ARĜ + -E",
           "refs": [
             {
               "id": "root-asv",
-              "label": "ASV"
+              "label": "AŜV"
             },
             {
               "id": "morph-e",
@@ -6148,7 +6148,10 @@
       "letter": "A",
       "section": "sec-a",
       "etymology": "Etym. Eo. havi → *AV-",
-      "notes": [],
+      "notes": [
+        "La partícula comitativa af procede históricamente de av, forma suelta de esta raíz: av > af.",
+        "*-US- es habituativo en avus-; *-IL- es un partitivo en avila y no se confunde con los otros morfemas IL."
+      ],
       "row_class": "lex-root-row",
       "words": [
         {
@@ -6311,9 +6314,14 @@
           "id": "lexeme-avuser",
           "form": "avuser",
           "gloss": "habitual",
-          "analysis_html": "derivado de AV; segmento US y terminación ER no formalizados aquí",
-          "analysis_text": "derivado de AV; segmento US y terminación ER no formalizados aquí",
-          "refs": [],
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-us-habit\">-US-</a> + ER (terminación final no reanalizada aquí)",
+          "analysis_text": "AV + -US- + ER (terminación final no reanalizada aquí)",
+          "refs": [
+            {
+              "id": "morph-us-habit",
+              "label": "-US-"
+            }
+          ],
           "tags": [],
           "semantic_fields": [
             "hábito",
@@ -6325,9 +6333,18 @@
           "id": "lexeme-avila",
           "form": "avila",
           "gloss": "característica",
-          "analysis_html": "derivado de AV; formación interna no especificada",
-          "analysis_text": "derivado de AV; formación interna no especificada",
-          "refs": [],
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "AV + -IL- + -A",
+          "refs": [
+            {
+              "id": "morph-il-partitive",
+              "label": "-IL-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
           "tags": [],
           "semantic_fields": [
             "cualidades",
@@ -6339,9 +6356,14 @@
           "id": "lexeme-avilor",
           "form": "avilor",
           "gloss": "característico",
-          "analysis_html": "derivado de AV; formación interna no especificada; no se identifica con el -OR superlativo vigente",
-          "analysis_text": "derivado de AV; formación interna no especificada; no se identifica con el -OR superlativo vigente",
-          "refs": [],
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + OR (segmento final no identificado con el -OR superlativo vigente)",
+          "analysis_text": "AV + -IL- + OR (segmento final no identificado con el -OR superlativo vigente)",
+          "refs": [
+            {
+              "id": "morph-il-partitive",
+              "label": "-IL-"
+            }
+          ],
           "tags": [],
           "semantic_fields": [
             "cualidades",
@@ -6353,9 +6375,18 @@
           "id": "lexeme-avusa",
           "form": "avusa",
           "gloss": "hábito",
-          "analysis_html": "derivado de AV; segmento US no formalizado aquí",
-          "analysis_text": "derivado de AV; segmento US no formalizado aquí",
-          "refs": [],
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-us-habit\">-US-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "AV + -US- + -A",
+          "refs": [
+            {
+              "id": "morph-us-habit",
+              "label": "-US-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
           "tags": [],
           "semantic_fields": [
             "hábito",
@@ -6381,8 +6412,8 @@
           "id": "lexeme-af",
           "form": "af",
           "gloss": "con",
-          "analysis_html": "forma gramaticalizada derivada de AV; reducción interna no especificada",
-          "analysis_text": "forma gramaticalizada derivada de AV; reducción interna no especificada",
+          "analysis_html": "AV (forma suelta histórica <code>av</code>) &gt; AF",
+          "analysis_text": "AV (forma suelta histórica av) > AF",
           "refs": [],
           "tags": [
             {
@@ -6429,7 +6460,7 @@
     {
       "id": "root-az",
       "form": "*AZ-",
-      "gloss": "burro",
+      "gloss": "asno",
       "tags": [
         {
           "class": "generic",
@@ -6448,8 +6479,61 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. azeno → *AZ-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-azen",
+          "form": "azen",
+          "gloss": "burro",
+          "analysis_html": "AZ + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "AZ + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "animales",
+            "mamíferos",
+            "domésticos"
+          ]
+        },
+        {
+          "id": "lexeme-azornen",
+          "form": "azornen",
+          "gloss": "pelícano",
+          "analysis_html": "AZ + <a class=\"morph-link\" href=\"#root-orn\">ORN</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "AZ + ORN + -EN",
+          "refs": [
+            {
+              "id": "root-orn",
+              "label": "ORN"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "aves",
+            "animales",
+            "acuáticos"
+          ]
+        }
+      ]
     },
     {
       "id": "root-az-2",
@@ -6473,12 +6557,41 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. azoto → *AZ-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-azethe",
+          "form": "azeθe",
+          "gloss": "nitrogeno",
+          "analysis_html": "AZ + <a class=\"morph-link\" href=\"#morph-etheta-gas\">-EΘ-</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "AZ + -EΘ- + -E",
+          "refs": [
+            {
+              "id": "morph-etheta-gas",
+              "label": "-EΘ-"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "elementos químicos",
+            "gases",
+            "química"
+          ]
+        }
+      ]
     },
     {
       "id": "root-asv",
-      "form": "*ASV-",
+      "form": "*AŜV-",
       "gloss": "agua",
       "tags": [
         {
@@ -6496,10 +6609,181 @@
       ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": "Etym. Eo. akvo → *ASV-",
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "etymology": "Etym. Eo. akvo → *AŜV-",
+      "notes": [
+        "La grafía canónica de la raíz es AŜV; la antigua ASV queda obsoleta.",
+        "En aŝvontan y aŝvonar los segmentos ONT/ON permanecen sin función morfológica general canonizada.",
+        "El UR de aŝvur no se identifica con el -UR superlativo vigente."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-asve",
+          "form": "aŝve",
+          "gloss": "agua",
+          "analysis_html": "AŜV + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "AŜV + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "agua",
+            "líquidos",
+            "naturaleza"
+          ]
+        },
+        {
+          "id": "lexeme-asvontan",
+          "form": "aŝvontan",
+          "gloss": "aguador",
+          "analysis_html": "AŜV + ONT (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "AŜV + ONT (segmento no formalizado) + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "oficios",
+            "agua",
+            "personas"
+          ]
+        },
+        {
+          "id": "lexeme-asvonas",
+          "form": "aŝvonas",
+          "gloss": "hidratar",
+          "analysis_html": "AŜV + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a>",
+          "analysis_text": "AŜV + -ONAS",
+          "refs": [
+            {
+              "id": "morph-onas",
+              "label": "-ONAS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ONAS"
+            }
+          ],
+          "semantic_fields": [
+            "agua",
+            "procesos",
+            "hidratación"
+          ]
+        },
+        {
+          "id": "lexeme-asvonar",
+          "form": "aŝvonar",
+          "gloss": "hidratante",
+          "analysis_html": "AŜV + ON (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "AŜV + ON (segmento no formalizado) + -AR",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio agentivo"
+            }
+          ],
+          "semantic_fields": [
+            "agua",
+            "hidratación",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-asvigos",
+          "form": "aŝviĝos",
+          "gloss": "aguadarse, derretirse",
+          "analysis_html": "AŜV + <a class=\"morph-link\" href=\"#root-ig\">IĜ</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "AŜV + IĜ + -OS",
+          "refs": [
+            {
+              "id": "root-ig",
+              "label": "IĜ"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "cambios de estado",
+            "líquidos",
+            "agua"
+          ]
+        },
+        {
+          "id": "lexeme-asvur",
+          "form": "aŝvur",
+          "gloss": "liquido",
+          "analysis_html": "AŜV + UR (segmento no identificado con el -UR superlativo vigente)",
+          "analysis_text": "AŜV + UR (segmento no identificado con el -UR superlativo vigente)",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "líquidos",
+            "materia",
+            "estado físico"
+          ]
+        },
+        {
+          "id": "lexeme-asvethe",
+          "form": "aŝveθe",
+          "gloss": "hidrogeno",
+          "analysis_html": "AŜV + <a class=\"morph-link\" href=\"#morph-etheta-gas\">-EΘ-</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "AŜV + -EΘ- + -E",
+          "refs": [
+            {
+              "id": "morph-etheta-gas",
+              "label": "-EΘ-"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "elementos químicos",
+            "gases",
+            "química"
+          ]
+        }
+      ]
     },
     {
       "id": "root-avg",
