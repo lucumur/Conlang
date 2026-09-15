@@ -1199,8 +1199,8 @@
     },
     {
       "id": "morph-o",
-      "form": "*-O-",
-      "gloss": "bueno",
+      "form": "*-O",
+      "gloss": "inanimados",
       "tags": [
         {
           "class": "generic",
@@ -2097,6 +2097,42 @@
       "section": "sec-e",
       "etymology": null,
       "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-olda",
+      "form": "*-OLDA",
+      "gloss": "forma abstracta derivada de adjetivos en -OL",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "Derivación canónica: adjetivo en -OL → abstracto en -OLDA."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-fas",
+      "form": "*-FAS",
+      "gloss": "función derivativa pendiente; atestiguado en arbifas 'fortificar'",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        }
+      ],
+      "letter": "F",
+      "section": "sec-f",
+      "etymology": null,
+      "notes": [
+        "La función general de -FAS todavía no está canonizada."
+      ],
       "row_class": ""
     }
   ]
