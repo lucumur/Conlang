@@ -47,8 +47,7 @@
       "etymology": "Etym. Eo. ebla → *EBL-",
       "notes": [
         "CANÓNICO: eblis es la forma absolutiva impersonal; eblos es la forma absolutiva dinámica.",
-        "El segmento ON de eblonas/maleblonir queda atestiguado en esta familia sin canonizar aquí un morfema general independiente.",
-        "MEJ en mejeblira queda sin referencia léxica hasta que su estatus se documente explícitamente."
+        "CANÓNICO: -ONAS es un tipo de agentivo; eblonas emplea este morfema."
       ],
       "row_class": "lex-root-row",
       "words": [
@@ -94,12 +93,12 @@
           "id": "lexeme-eblonas",
           "form": "eblonas",
           "gloss": "capacitar, habilitar",
-          "analysis_html": "EBL + ON + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "EBL + ON + -AS",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a>",
+          "analysis_text": "EBL + -ONAS",
           "refs": [
             {
-              "id": "morph-as",
-              "label": "-AS"
+              "id": "morph-onas",
+              "label": "-ONAS"
             }
           ],
           "tags": [
@@ -141,9 +140,13 @@
           "id": "lexeme-mejeblira",
           "form": "mejeblira",
           "gloss": "posibilidad, chanza",
-          "analysis_html": "MEJ + EBL + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mej\">MEJ</a> + EBL + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
           "analysis_text": "MEJ + EBL + -IR + -A",
           "refs": [
+            {
+              "id": "root-mej",
+              "label": "MEJ"
+            },
             {
               "id": "morph-ir-reservative",
               "label": "-IR"
@@ -229,16 +232,16 @@
           "id": "lexeme-maleblonir",
           "form": "maleblonir",
           "gloss": "discapacitado",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + EBL + ON + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a>",
-          "analysis_text": "MAL + EBL + ON + -IR",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + EBLONAS → MALEBLONIR",
+          "analysis_text": "MAL + EBLONAS → MALEBLONIR",
           "refs": [
             {
               "id": "root-mal",
               "label": "MAL"
             },
             {
-              "id": "morph-ir-reservative",
-              "label": "-IR"
+              "id": "morph-onas",
+              "label": "-ONAS"
             }
           ],
           "tags": [

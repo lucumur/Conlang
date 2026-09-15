@@ -3569,12 +3569,12 @@
           "id": "lexeme-aronas",
           "form": "aronas",
           "gloss": "ventilar",
-          "analysis_html": "AR + <span title=\"formante provisional\">-ON-</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "AR + -ON- (extensión verbal provisional) + -AS",
+          "analysis_html": "AR + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a>",
+          "analysis_text": "AR + -ONAS",
           "refs": [
             {
-              "id": "morph-as",
-              "label": "-AS"
+              "id": "morph-onas",
+              "label": "-ONAS"
             }
           ],
           "tags": [

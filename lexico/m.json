@@ -586,6 +586,23 @@
       "words": []
     },
     {
+      "id": "root-mej",
+      "form": "*MEJ-",
+      "gloss": "posibilitativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-mel",
       "form": "*MEL-",
       "gloss": "miel",

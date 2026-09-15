@@ -50,6 +50,22 @@
       "row_class": ""
     },
     {
+      "id": "morph-onas",
+      "form": "*-ONAS",
+      "gloss": "tipo de agentivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "agentivo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
       "id": "morph-a",
       "form": "*A-",
       "gloss": "causativo",
