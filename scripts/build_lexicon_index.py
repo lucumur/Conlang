@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 LEX = ROOT / 'lexico'
@@ -12,6 +13,46 @@ LETTER_FILES = [
 
 def labels(tags):
     return [t.get('label','') for t in tags or []]
+
+# El índice vigente ya contiene la clasificación validada. Se usa una sola vez
+# para trasladarla a los JSON canónicos de las palabras que aún no la tienen.
+old_index=json.loads((LEX/'index.json').read_text(encoding='utf-8'))
+fields_by_id={
+    w['id']: w.get('semantic_fields',[])
+    for w in old_index.get('words',[])
+    if len(w.get('semantic_fields',[]) or []) in (2,3)
+}
+
+changed_paths=[]
+applied=0
+remaining=[]
+for _,key in LETTER_FILES:
+    path=LEX/f'{key}.json'
+    data=json.loads(path.read_text(encoding='utf-8'))
+    changed=False
+    for e in data.get('entries',[]):
+        for w in e.get('words',[]):
+            sf=w.get('semantic_fields',[]) or []
+            if not sf and w.get('id') in fields_by_id:
+                w['semantic_fields']=fields_by_id[w['id']]
+                sf=w['semantic_fields']
+                applied += 1
+                changed=True
+            if len(sf) not in (2,3):
+                remaining.append({'id':w.get('id'),'form':w.get('form'),'count':len(sf)})
+    if changed:
+        path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        changed_paths.append(str(path.relative_to(ROOT)))
+
+if remaining:
+    raise RuntimeError(f'Palabras fuera de la regla 2–3 campos: {remaining}')
+
+if changed_paths:
+    subprocess.run(['git','config','user.name','ChatGPT'],check=True)
+    subprocess.run(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'],check=True)
+    subprocess.run(['git','add',*changed_paths],check=True)
+    subprocess.run(['git','commit','-m','Completar campos semánticos canónicos [skip ci]'],check=True)
+    subprocess.run(['git','push'],check=True)
 
 roots=[]
 words=[]
@@ -54,4 +95,5 @@ payload={
     'counts':{'roots':len(roots),'words':len(words),'morphemes':len(morphemes)}
 }
 (LEX/'index.json').write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+print('SEMANTIC_CANONICAL_PERSIST', json.dumps({'applied':applied,'changed_paths':changed_paths,'remaining_invalid':len(remaining)},ensure_ascii=False))
 print(payload['counts'])
