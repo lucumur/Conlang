@@ -1,0 +1,151 @@
+name: Add ASTR family
+on:
+  push:
+    paths:
+      - '.github/workflows/add-astr-family.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add canonical ASTR family and internal-extension rule
+        run: |
+          python - <<'PY'
+          import json, re
+          from pathlib import Path
+
+          # --- Morphemes ---
+          mp = Path('lexico/morphemes.json')
+          md = json.loads(mp.read_text(encoding='utf-8'))
+          morphs = md['morphemes']
+
+          def upsert_morph(payload):
+              cur = next((m for m in morphs if m.get('id') == payload['id']), None)
+              if cur is None:
+                  morphs.append(payload)
+              else:
+                  cur.update(payload)
+
+          # Keep *-IL intact; add distinct *IL-.
+          upsert_morph({
+              'id': 'morph-il-prefix',
+              'form': '*IL-',
+              'gloss': 'de objeto largo, delgado',
+              'tags': [{'class':'generic','label':'formante'}],
+              'letter': 'I', 'section': 'sec-i',
+              'etymology': None, 'notes': [], 'row_class': ''
+          })
+          upsert_morph({
+              'id': 'morph-op',
+              'form': '*-OP-',
+              'gloss': 'onomatopéyico',
+              'tags': [{'class':'generic','label':'formante'}],
+              'letter': 'O', 'section': 'sec-o',
+              'etymology': None, 'notes': [], 'row_class': ''
+          })
+          bo = next((m for m in morphs if m.get('id') == 'morph-bo'), None)
+          if bo is None:
+              raise SystemExit('morph-bo not found')
+          bo['gloss'] = 'objeto circular o esférico'
+          mp.write_text(json.dumps(md, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # --- AS-TR lexical family ---
+          ap = Path('lexico/a.json')
+          ad = json.loads(ap.read_text(encoding='utf-8'))
+          root = next((e for e in ad['entries'] if e.get('id') == 'root-as-tr' or e.get('form') == '*AS-TR'), None)
+          if root is None:
+              raise SystemExit('root-as-tr not found')
+          root['gloss'] = 'estrella'
+
+          words = [
+            {
+              'id':'lexeme-astro','form':'astro','gloss':'estrella',
+              'analysis_html':'AS-TR + <a class="morph-link" href="#morph-o">-O</a>',
+              'analysis_text':'AS-TR + -O',
+              'refs':[{'id':'morph-o','label':'-O'}],
+              'tags':[{'class':'generic','label':'Nomen O'}]
+            },
+            {
+              'id':'lexeme-astorbo','form':'astorbo','gloss':'planeta',
+              'analysis_html':'AS-TR + <a class="morph-link" href="#morph-bo">-BO-</a> + <a class="morph-link" href="#morph-o">-O</a>',
+              'analysis_text':'AS-TR + -BO- + -O',
+              'refs':[{'id':'morph-bo','label':'-BO-'},{'id':'morph-o','label':'-O'}],
+              'tags':[{'class':'generic','label':'Nomen O'}]
+            },
+            {
+              'id':'lexeme-astriko','form':'astriko','gloss':'ano, recto',
+              'analysis_html':'AS-TR + <a class="morph-link" href="#morph-ik">-IK-</a> + <a class="morph-link" href="#morph-o">-O</a>',
+              'analysis_text':'AS-TR + -IK- + -O',
+              'refs':[{'id':'morph-ik','label':'-IK-'},{'id':'morph-o','label':'-O'}],
+              'tags':[{'class':'generic','label':'Nomen O'}]
+            },
+            {
+              'id':'lexeme-ozastren','form':'oẑastren','gloss':'estrella de mar',
+              'analysis_html':'<a class="morph-link" href="#root-oz-an">OẐ</a> (tema reducido de OẐ-AN) + AS-TR + <a class="morph-link" href="#morph-en">-EN</a>',
+              'analysis_text':'OẐ (tema reducido de OẐ-AN) + AS-TR + -EN',
+              'refs':[{'id':'root-oz-an','label':'OẐ-AN'},{'id':'morph-en','label':'-EN'}],
+              'tags':[{'class':'generic','label':'Animado EN'}]
+            },
+            {
+              'id':'lexeme-astrila','form':'astrila','gloss':'destello, luz de estrella',
+              'analysis_html':'AS-TR + <a class="morph-link" href="#morph-il-prefix">IL-</a> + <a class="morph-link" href="#morph-a-2">-A</a>',
+              'analysis_text':'AS-TR + IL- + -A',
+              'refs':[{'id':'morph-il-prefix','label':'IL-'},{'id':'morph-a-2','label':'-A'}],
+              'tags':[{'class':'generic','label':'Nomen A'}]
+            },
+            {
+              'id':'lexeme-astrilos','form':'astrilos','gloss':'destellar, emitir destellos',
+              'analysis_html':'AS-TR + <a class="morph-link" href="#morph-il-prefix">IL-</a> + <a class="morph-link" href="#morph-os">-OS</a>',
+              'analysis_text':'AS-TR + IL- + -OS',
+              'refs':[{'id':'morph-il-prefix','label':'IL-'},{'id':'morph-os','label':'-OS'}],
+              'tags':[{'class':'generic','label':'Predicado OS'}]
+            },
+            {
+              'id':'lexeme-muastropos','form':'muastropos','gloss':'estrellarse, colisionar',
+              'analysis_html':'<a class="morph-link" href="#morph-mu-2">MU-</a> + AS-TR + <a class="morph-link" href="#morph-op">-OP-</a> + <a class="morph-link" href="#morph-os">-OS</a>',
+              'analysis_text':'MU- + AS-TR + -OP- + -OS',
+              'refs':[{'id':'morph-mu-2','label':'MU-'},{'id':'morph-op','label':'-OP-'},{'id':'morph-os','label':'-OS'}],
+              'tags':[{'class':'generic','label':'Predicado OS'}]
+            },
+            {
+              'id':'lexeme-muastropa','form':'muastropa','gloss':'colisión',
+              'analysis_html':'<a class="morph-link" href="#morph-mu-2">MU-</a> + AS-TR + <a class="morph-link" href="#morph-op">-OP-</a> + <a class="morph-link" href="#morph-a-2">-A</a>',
+              'analysis_text':'MU- + AS-TR + -OP- + -A',
+              'refs':[{'id':'morph-mu-2','label':'MU-'},{'id':'morph-op','label':'-OP-'},{'id':'morph-a-2','label':'-A'}],
+              'tags':[{'class':'generic','label':'Nomen A'}]
+            }
+          ]
+          by_id = {w.get('id'): w for w in root.get('words', [])}
+          by_form = {w.get('form'): w for w in root.get('words', [])}
+          for nw in words:
+              old = by_id.get(nw['id']) or by_form.get(nw['form'])
+              if old is None:
+                  root.setdefault('words', []).append(nw)
+              else:
+                  old.clear(); old.update(nw)
+          ap.write_text(json.dumps(ad, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # --- Canonical documentation for internal root extensions ---
+          fp = Path('fonologia.html')
+          txt = fp.read_text(encoding='utf-8')
+          anchor = '<p><span class="status canon">Canónico</span>El léxico moderno admite grupos consonánticos complejos y raíces con divisiones internas, por ejemplo <code>*AS-TR</code>, <code>*DEN-TR-</code>, <code>*MES-TR</code>, <code>*MON-TR</code>, <code>*TEN-BR-</code> o <code>*EΘ-R</code>.</p>'
+          addition = anchor + '\n  <p><span class="status canon">Canónico</span>En una raíz con guion interno, el material situado después del guion constituye una extensión de raíz que puede aparecer u omitirse en los derivados. La forma reducida sigue remitiendo a la misma raíz y no constituye automáticamente una raíz independiente. Ejemplo: <code>*OẐ-AN-</code> puede aportar el tema reducido <code>OẐ-</code> en <code>oẑastren</code>; del mismo modo, las raíces del tipo <code>*AS-TR</code> admiten derivados con o sin su extensión según la formación léxica.</p>'
+          if 'el material situado después del guion constituye una extensión de raíz' not in txt:
+              if anchor not in txt:
+                  raise SystemExit('phonology anchor not found')
+              txt = txt.replace(anchor, addition, 1)
+          fp.write_text(txt, encoding='utf-8')
+          PY
+          python scripts/build_lexicon_index.py
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/morphemes.json lexico/index.json fonologia.html
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Agregar familia AS-TR y extensiones internas opcionales"
+          git push
