@@ -2193,8 +2193,8 @@
     },
     {
       "id": "morph-on-territorial",
-      "form": "*-ON- / *-ONAT-",
-      "gloss": "formante territorial o de extensión natural; -ONAT- como variante relacional ante -EL (provisional)",
+      "form": "*-ON-",
+      "gloss": "formante territorial o de extensión natural (provisional)",
       "tags": [
         {
           "class": "generic",
@@ -2209,7 +2209,26 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [
-        "Análisis provisional inferido de arjonal «desierto» y arjonatel «desértico». Puede revisarse cuando aparezcan más ejemplos."
+        "Valor territorial provisional; ya no incluye -ONAT-."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-atel",
+      "form": "*-ATEL",
+      "gloss": "adjetivo derivado de una forma locativa en -AL",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [
+        "Regla canónica: una forma locativa en -AL puede formar su adjetivo correspondiente en -ATEL.",
+        "Ejemplo: arjonal «desierto» → arjonatel «desértico»."
       ],
       "row_class": ""
     }

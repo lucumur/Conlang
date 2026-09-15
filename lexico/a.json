@@ -3933,22 +3933,22 @@
           "id": "lexeme-arjonatel",
           "form": "arjonatel",
           "gloss": "desertico",
-          "analysis_html": "ARJ + <a class=\"morph-link\" href=\"#morph-on-territorial\">-ONAT-</a> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
-          "analysis_text": "ARJ + -ONAT- + -EL",
+          "analysis_html": "ARJ + <a class=\"morph-link\" href=\"#morph-on-territorial\">-ON-</a> + <a class=\"morph-link\" href=\"#morph-atel\">-ATEL</a>",
+          "analysis_text": "ARJ + -ON- + -ATEL",
           "refs": [
             {
               "id": "morph-on-territorial",
-              "label": "-ONAT-"
+              "label": "-ON-"
             },
             {
-              "id": "morph-el",
-              "label": "-EL"
+              "id": "morph-atel",
+              "label": "-ATEL"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo EL"
+              "label": "Adjetivo locativo"
             }
           ],
           "semantic_fields": [
