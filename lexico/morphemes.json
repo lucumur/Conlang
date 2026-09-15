@@ -420,7 +420,7 @@
     {
       "id": "morph-bo",
       "form": "*-BO-",
-      "gloss": "circular, esferico",
+      "gloss": "objeto circular o esférico",
       "tags": [
         {
           "class": "generic",
@@ -2316,6 +2316,38 @@
       "notes": [
         "Generalización provisional a partir de ansubos «zambullirse»."
       ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-il-prefix",
+      "form": "*IL-",
+      "gloss": "de objeto largo, delgado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "formante"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-op",
+      "form": "*-OP-",
+      "gloss": "onomatopéyico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "formante"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
       "row_class": ""
     }
   ]

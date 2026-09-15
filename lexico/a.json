@@ -5545,7 +5545,196 @@
       "etymology": "Etym. Eo. astro → *AS-TR",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-astro",
+          "form": "astro",
+          "gloss": "estrella",
+          "analysis_html": "AS-TR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "AS-TR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-astorbo",
+          "form": "astorbo",
+          "gloss": "planeta",
+          "analysis_html": "AS-TR + <a class=\"morph-link\" href=\"#morph-bo\">-BO-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "AS-TR + -BO- + -O",
+          "refs": [
+            {
+              "id": "morph-bo",
+              "label": "-BO-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-astriko",
+          "form": "astriko",
+          "gloss": "ano, recto",
+          "analysis_html": "AS-TR + <a class=\"morph-link\" href=\"#morph-ik\">-IK-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "AS-TR + -IK- + -O",
+          "refs": [
+            {
+              "id": "morph-ik",
+              "label": "-IK-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-ozastren",
+          "form": "oẑastren",
+          "gloss": "estrella de mar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-oz-an\">OẐ</a> (tema reducido de OẐ-AN) + AS-TR + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "OẐ (tema reducido de OẐ-AN) + AS-TR + -EN",
+          "refs": [
+            {
+              "id": "root-oz-an",
+              "label": "OẐ-AN"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-astrila",
+          "form": "astrila",
+          "gloss": "destello, luz de estrella",
+          "analysis_html": "AS-TR + <a class=\"morph-link\" href=\"#morph-il-prefix\">IL-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "AS-TR + IL- + -A",
+          "refs": [
+            {
+              "id": "morph-il-prefix",
+              "label": "IL-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-astrilos",
+          "form": "astrilos",
+          "gloss": "destellar, emitir destellos",
+          "analysis_html": "AS-TR + <a class=\"morph-link\" href=\"#morph-il-prefix\">IL-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "AS-TR + IL- + -OS",
+          "refs": [
+            {
+              "id": "morph-il-prefix",
+              "label": "IL-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-muastropos",
+          "form": "muastropos",
+          "gloss": "estrellarse, colisionar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-mu-2\">MU-</a> + AS-TR + <a class=\"morph-link\" href=\"#morph-op\">-OP-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MU- + AS-TR + -OP- + -OS",
+          "refs": [
+            {
+              "id": "morph-mu-2",
+              "label": "MU-"
+            },
+            {
+              "id": "morph-op",
+              "label": "-OP-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-muastropa",
+          "form": "muastropa",
+          "gloss": "colisión",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-mu-2\">MU-</a> + AS-TR + <a class=\"morph-link\" href=\"#morph-op\">-OP-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MU- + AS-TR + -OP- + -A",
+          "refs": [
+            {
+              "id": "morph-mu-2",
+              "label": "MU-"
+            },
+            {
+              "id": "morph-op",
+              "label": "-OP-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-asp-r",
