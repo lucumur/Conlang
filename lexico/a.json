@@ -5361,9 +5361,166 @@
       "letter": "A",
       "section": "sec-a",
       "etymology": "Etym. Eo. artiko → artko → *ARẐ-",
-      "notes": [],
+      "notes": [
+        "Los segmentos UR de arẑur y OR de arẑoro quedan sin referencia morfémica: los morfemas -UR y -OR vigentes tienen valor superlativo y no se asume aquí que sean los mismos."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-arzas",
+          "form": "arẑas",
+          "gloss": "articular, embonar",
+          "analysis_html": "ARẐ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ARẐ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-arzos",
+          "form": "arẑos",
+          "gloss": "encajar, embonar (intransitivo)",
+          "analysis_html": "ARẐ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ARẐ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-muarzos",
+          "form": "muarẑos",
+          "gloss": "concordar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-mu-2\">MU-</a> + ARẐ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MU- + ARẐ + -OS",
+          "refs": [
+            {
+              "id": "morph-mu-2",
+              "label": "MU-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-arzur",
+          "form": "arẑur",
+          "gloss": "flexible",
+          "analysis_html": "ARẐ + UR",
+          "analysis_text": "ARẐ + UR",
+          "refs": [],
+          "tags": []
+        },
+        {
+          "id": "lexeme-arzo",
+          "form": "arẑo",
+          "gloss": "articulacion",
+          "analysis_html": "ARẐ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ARẐ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-arziko",
+          "form": "arẑiko",
+          "gloss": "pieza",
+          "analysis_html": "ARẐ + <a class=\"morph-link\" href=\"#morph-ik\">-IK-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ARẐ + -IK- + -O",
+          "refs": [
+            {
+              "id": "morph-ik",
+              "label": "-IK-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-arzoro",
+          "form": "arẑoro",
+          "gloss": "miembro (limb)",
+          "analysis_html": "ARẐ + OR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ARẐ + OR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-muarza",
+          "form": "muarẑa",
+          "gloss": "concordancia",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-mu-2\">MU-</a> + ARẐ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MU- + ARẐ + -A",
+          "refs": [
+            {
+              "id": "morph-mu-2",
+              "label": "MU-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-as-tr",
