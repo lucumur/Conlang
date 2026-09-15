@@ -3753,8 +3753,61 @@
       "section": "sec-a",
       "etymology": "Etym. Eo. argono → *ARG-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-argle",
+          "form": "argle",
+          "gloss": "arcilla",
+          "analysis_html": "ARG + <a class=\"morph-link\" href=\"#morph-le-deverbal\">-LE</a>",
+          "analysis_text": "ARG + -LE",
+          "refs": [
+            {
+              "id": "morph-le-deverbal",
+              "label": "-LE"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Derivado deverbal"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "geología",
+            "cerámica"
+          ]
+        },
+        {
+          "id": "lexeme-argethe",
+          "form": "argeθe",
+          "gloss": "argon",
+          "analysis_html": "ARG + <a class=\"morph-link\" href=\"#morph-etheta-gas\">-EΘ-</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ARG + -EΘ- + -E",
+          "refs": [
+            {
+              "id": "morph-etheta-gas",
+              "label": "-EΘ-"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ],
+          "semantic_fields": [
+            "gases",
+            "elementos químicos",
+            "química"
+          ]
+        }
+      ]
     },
     {
       "id": "root-ari",

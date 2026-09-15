@@ -2154,6 +2154,42 @@
         "Valor femenino provisional; sujeto a revisión."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-etheta-gas",
+      "form": "*-EΘ-",
+      "gloss": "gas; formante para sustancias gaseosas",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [
+        "Valor canónico: gas."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-le-deverbal",
+      "form": "*-LE",
+      "gloss": "derivador deverbal; función semántica formal aún no definida",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [
+        "Es deverbal; su valor semántico específico permanece abierto."
+      ],
+      "row_class": ""
     }
   ]
 }
