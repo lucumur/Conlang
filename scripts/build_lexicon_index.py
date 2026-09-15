@@ -1,6 +1,5 @@
 from pathlib import Path
 import json
-import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 LEX = ROOT / 'lexico'
@@ -13,41 +12,6 @@ LETTER_FILES = [
 
 def labels(tags):
     return [t.get('label','') for t in tags or []]
-
-# Migración canónica: el antiguo prefijo recíproco MU- fue sustituido por O-.
-# Es idempotente y sólo afecta a las cinco formas que estaban enlazadas al
-# antiguo morfema; *-MU gerundivo y otras secuencias mu permanecen intactas.
-def migrate_mutual_prefix():
-    path = LEX / 'a.json'
-    data = json.loads(path.read_text(encoding='utf-8'))
-    replacements = {
-        'lexeme-muarzos': ('lexeme-oarzos', 'oarẑos'),
-        'lexeme-muarza': ('lexeme-oarza', 'oarẑa'),
-        'lexeme-muastropos': ('lexeme-oastropos', 'oastropos'),
-        'lexeme-muastropa': ('lexeme-oastropa', 'oastropa'),
-        'lexeme-muathlos': ('lexeme-oathlos', 'oaθlos'),
-    }
-    changed = False
-    for entry in data.get('entries', []):
-        for word in entry.get('words', []):
-            old_id = word.get('id')
-            if old_id not in replacements:
-                continue
-            new_id, new_form = replacements[old_id]
-            word['id'] = new_id
-            word['form'] = new_form
-            word['analysis_html'] = word.get('analysis_html', '').replace('#morph-mu-2', '#morph-o-mutual').replace('>MU-</a>', '>O-</a>')
-            word['analysis_text'] = word.get('analysis_text', '').replace('MU- +', 'O- +')
-            for ref in word.get('refs', []):
-                if ref.get('id') == 'morph-mu-2':
-                    ref['id'] = 'morph-o-mutual'
-                    ref['label'] = 'O-'
-            changed = True
-    if changed:
-        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-        subprocess.run(['git', 'add', 'lexico/a.json'], cwd=ROOT, check=True)
-
-migrate_mutual_prefix()
 
 roots=[]
 words=[]
