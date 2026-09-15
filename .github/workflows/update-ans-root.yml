@@ -1,0 +1,107 @@
+name: Update ANS root
+on:
+  push:
+    paths:
+      - '.github/workflows/update-ans-root.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Update ANS root
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          ap = Path('lexico/a.json')
+          data = json.loads(ap.read_text(encoding='utf-8'))
+          root = next(e for e in data['entries'] if e.get('id') == 'root-ans')
+          root['form'] = '*ANS-'
+          root['gloss'] = 'pato'
+          root['row_class'] = 'lex-root-row'
+          root['words'] = [
+            {
+              'id': 'lexeme-ansubos',
+              'form': 'ansubos',
+              'gloss': 'zambullirse',
+              'analysis_html': 'ANS + <a class="morph-link" href="#morph-ub">-UB-</a> + <a class="morph-link" href="#morph-os">-OS</a>',
+              'analysis_text': 'ANS + -UB- + -OS',
+              'refs': [
+                {'id': 'morph-ub', 'label': '-UB-'},
+                {'id': 'morph-os', 'label': '-OS'}
+              ],
+              'tags': [{'class': 'generic', 'label': 'Predicado OS'}],
+              'semantic_fields': ['aves acuáticas', 'inmersión', 'movimiento']
+            },
+            {
+              'id': 'lexeme-ansen',
+              'form': 'ansen',
+              'gloss': 'pato',
+              'analysis_html': 'ANS + <a class="morph-link" href="#morph-en">-EN</a>',
+              'analysis_text': 'ANS + -EN',
+              'refs': [{'id': 'morph-en', 'label': '-EN'}],
+              'tags': [{'class': 'generic', 'label': 'Animado no humano'}],
+              'semantic_fields': ['aves', 'patos', 'fauna']
+            },
+            {
+              'id': 'lexeme-agansen',
+              'form': 'agansen',
+              'gloss': 'ganso',
+              'analysis_html': '<a class="morph-link" href="#morph-ag">AG-</a> + ANS + <a class="morph-link" href="#morph-en">-EN</a>',
+              'analysis_text': 'AG- + ANS + -EN',
+              'refs': [
+                {'id': 'morph-ag', 'label': 'AG-'},
+                {'id': 'morph-en', 'label': '-EN'}
+              ],
+              'tags': [{'class': 'generic', 'label': 'Animado no humano'}],
+              'semantic_fields': ['aves', 'gansos', 'fauna']
+            },
+            {
+              'id': 'lexeme-ansete',
+              'form': 'ansete',
+              'gloss': 'carne de pato',
+              'analysis_html': 'ANS + <a class="morph-link" href="#morph-et">-ET-</a> + <a class="morph-link" href="#morph-e">-E</a>',
+              'analysis_text': 'ANS + -ET- + -E',
+              'refs': [
+                {'id': 'morph-et', 'label': '-ET-'},
+                {'id': 'morph-e', 'label': '-E'}
+              ],
+              'tags': [{'class': 'generic', 'label': 'Nomen E'}],
+              'semantic_fields': ['carnes', 'alimentación', 'aves']
+            }
+          ]
+          ap.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          mp = Path('lexico/morphemes.json')
+          mor = json.loads(mp.read_text(encoding='utf-8'))
+          if not any(m.get('id') == 'morph-ub' for m in mor['morphemes']):
+              mor['morphemes'].append({
+                'id': 'morph-ub',
+                'form': '*-UB-',
+                'gloss': 'submersivo; entrar o bajar bajo una superficie (provisional)',
+                'tags': [
+                  {'class': 'generic', 'label': 'sufijo'},
+                  {'class': 'generic', 'label': 'Provisional'}
+                ],
+                'letter': 'U',
+                'section': 'sec-u',
+                'etymology': None,
+                'notes': ['Generalización provisional a partir de ansubos «zambullirse».'],
+                'row_class': ''
+              })
+          mp.write_text(json.dumps(mor, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          python scripts/build_lexicon_index.py
+      - name: Commit changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add lexico/a.json lexico/morphemes.json lexico/index.json
+          git diff --cached --quiet || git commit -m 'Actualizar raíz ANS y repertorio'
+          git push
