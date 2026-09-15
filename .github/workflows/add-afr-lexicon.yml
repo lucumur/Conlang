@@ -1,0 +1,106 @@
+name: Add AFR lexicon
+on:
+  push:
+    paths:
+      - '.github/workflows/add-afr-lexicon.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add AFR root and derivatives
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path('lexico/a.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          entries = data['entries']
+
+          root = next((e for e in entries if e.get('id') == 'root-afr' or e.get('form') == '*AFR-'), None)
+          payload = {
+              'id': 'root-afr',
+              'form': '*AFR-',
+              'gloss': 'África',
+              'tags': [
+                  {'class': 'generic', 'label': 'Raiz'}
+              ],
+              'letter': 'A',
+              'section': 'sec-a',
+              'etymology': None,
+              'notes': ['El segmento -ik- de afrikon/afriker no se enlaza a *-IK- (diminutivo); su función en estas formas queda sin analizar.'],
+              'row_class': 'lex-root-row',
+              'words': [
+                  {
+                      'id': 'lexeme-afrikon',
+                      'form': 'afrikon',
+                      'gloss': 'africano (humano)',
+                      'analysis_html': 'AFR + IK + <a class="morph-link" href="#morph-on">-ON</a>',
+                      'analysis_text': 'AFR + IK + -ON',
+                      'refs': [
+                          {'id': 'morph-on', 'label': '-ON'}
+                      ],
+                      'tags': [
+                          {'class': 'generic', 'label': 'Nomen ON'}
+                      ],
+                      'semantic_fields': ['geografía', 'gentilicios', 'personas']
+                  },
+                  {
+                      'id': 'lexeme-afriker',
+                      'form': 'afriker',
+                      'gloss': 'africano (adjetivo)',
+                      'analysis_html': 'AFR + IK + <a class="morph-link" href="#morph-er">-ER</a>',
+                      'analysis_text': 'AFR + IK + -ER',
+                      'refs': [
+                          {'id': 'morph-er', 'label': '-ER'}
+                      ],
+                      'tags': [
+                          {'class': 'generic', 'label': 'Adjetivo ER'}
+                      ],
+                      'semantic_fields': ['geografía', 'gentilicios', 'adjetivos']
+                  },
+                  {
+                      'id': 'lexeme-afral',
+                      'form': 'afral',
+                      'gloss': 'África',
+                      'analysis_html': 'AFR + <a class="morph-link" href="#morph-al-3">-AL</a>',
+                      'analysis_text': 'AFR + -AL',
+                      'refs': [
+                          {'id': 'morph-al-3', 'label': '-AL'}
+                      ],
+                      'tags': [
+                          {'class': 'generic', 'label': 'Nomen AL'}
+                      ],
+                      'semantic_fields': ['geografía', 'continentes']
+                  }
+              ]
+          }
+
+          if root is None:
+              insert_at = len(entries)
+              for i, e in enumerate(entries):
+                  form = e.get('form', '')
+                  if form.startswith('*') and form > '*AFR-':
+                      insert_at = i
+                      break
+              entries.insert(insert_at, payload)
+          else:
+              root.clear()
+              root.update(payload)
+
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          python scripts/build_lexicon_index.py
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/index.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Agregar raíz AFR y derivados"
+          git push
