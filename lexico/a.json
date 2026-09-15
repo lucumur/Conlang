@@ -5361,9 +5361,7 @@
       "letter": "A",
       "section": "sec-a",
       "etymology": "Etym. Eo. artiko → artko → *ARẐ-",
-      "notes": [
-        "El segmento UR de arẑur queda sin referencia morfémica: el morfema -UR vigente tiene valor superlativo y no se asume aquí que sea el mismo."
-      ],
+      "notes": [],
       "row_class": "",
       "words": [
         {
@@ -5434,7 +5432,10 @@
           "analysis_html": "ARẐ + UR",
           "analysis_text": "ARẐ + UR",
           "refs": [],
-          "tags": []
+          "tags": [],
+          "notes": [
+            "El segmento final -ur queda sin análisis morfémico; no se identifica aquí con el superlativo -UR."
+          ]
         },
         {
           "id": "lexeme-arzo",
@@ -6138,9 +6139,7 @@
       "letter": "A",
       "section": "sec-a",
       "etymology": "Etym. Eo. havi → *AV-",
-      "notes": [
-        "La partícula comitativa af procede históricamente de av, forma suelta de esta raíz: av > af."
-      ],
+      "notes": [],
       "row_class": "lex-root-row",
       "words": [
         {
@@ -6414,6 +6413,9 @@
             "gramática",
             "relaciones",
             "comitativo"
+          ],
+          "notes": [
+            "Partícula comitativa procedente de la forma suelta av; la plosiva se fricatiza al quedar en posición final: av > af."
           ]
         },
         {
@@ -6599,9 +6601,7 @@
       "letter": "A",
       "section": "sec-a",
       "etymology": "Etym. Eo. akvo → *AŜV-",
-      "notes": [
-        "La grafía canónica de la raíz es AŜV; la antigua ASV queda obsoleta."
-      ],
+      "notes": [],
       "row_class": "lex-root-row",
       "words": [
         {
