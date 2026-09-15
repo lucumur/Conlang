@@ -3817,11 +3817,19 @@
         {
           "class": "generic",
           "label": "Raiz"
+        },
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": null,
+      "etymology": "Etym. Eo. arida → *ARJ-",
       "notes": [],
       "row_class": "lex-root-row",
       "words": [
@@ -3958,31 +3966,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "root-ari",
-      "form": "*ARI-",
-      "gloss": "arido",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "nat-red",
-          "label": "Nat-Red"
-        },
-        {
-          "class": "latin",
-          "label": "Latin"
-        }
-      ],
-      "letter": "A",
-      "section": "sec-a",
-      "etymology": "Etym. Eo. arida → *ARI-",
-      "notes": [],
-      "row_class": "",
-      "words": []
     },
     {
       "id": "root-ark",
