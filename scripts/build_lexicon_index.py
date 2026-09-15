@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 LEX = ROOT / 'lexico'
@@ -12,6 +13,125 @@ LETTER_FILES = [
 
 def labels(tags):
     return [t.get('label','') for t in tags or []]
+
+# Incorporación canónica de las dos familias homónimas *BAL- ya reservadas.
+# Es idempotente: sólo completa las entradas mientras sigan sin repertorio.
+def canonize_bal_families():
+    path = LEX / 'b.json'
+    data = json.loads(path.read_text(encoding='utf-8'))
+    changed = False
+    for entry in data.get('entries', []):
+        if entry.get('id') == 'root-bal' and not entry.get('words'):
+            entry['row_class'] = 'lex-root-row'
+            entry['words'] = [
+                {
+                    'id': 'lexeme-balos', 'form': 'balos', 'gloss': 'bailar (lento)',
+                    'analysis_html': 'BAL + <a class="morph-link" href="#morph-os">-OS</a>',
+                    'analysis_text': 'BAL + -OS',
+                    'refs': [{'id': 'morph-os', 'label': '-OS'}],
+                    'tags': [{'class': 'generic', 'label': 'Predicado OS'}],
+                    'semantic_fields': ['danza', 'movimiento', 'baile']
+                },
+                {
+                    'id': 'lexeme-balonton', 'form': 'balonton', 'gloss': 'bailarín',
+                    'analysis_html': 'BAL + ONTON (formante léxico; función aún no formalizada)',
+                    'analysis_text': 'BAL + ONTON (formante léxico; función aún no formalizada)',
+                    'refs': [],
+                    'tags': [{'class': 'generic', 'label': 'Humano'}],
+                    'semantic_fields': ['danza', 'personas', 'baile']
+                },
+                {
+                    'id': 'lexeme-parbalon', 'form': 'parbalon', 'gloss': 'pareja de baile',
+                    'analysis_html': '<a class="morph-link" href="#root-par">PAR</a> + BAL + <a class="morph-link" href="#morph-on">-ON</a>',
+                    'analysis_text': 'PAR + BAL + -ON',
+                    'refs': [{'id': 'root-par', 'label': 'PAR'}, {'id': 'morph-on', 'label': '-ON'}],
+                    'tags': [{'class': 'generic', 'label': 'Humano ON'}],
+                    'semantic_fields': ['danza', 'parejas', 'personas']
+                },
+                {
+                    'id': 'lexeme-bala', 'form': 'bala', 'gloss': 'baile',
+                    'analysis_html': 'BAL + <a class="morph-link" href="#morph-a-2">-A</a>',
+                    'analysis_text': 'BAL + -A',
+                    'refs': [{'id': 'morph-a-2', 'label': '-A'}],
+                    'tags': [{'class': 'generic', 'label': 'Nomen A'}],
+                    'semantic_fields': ['danza', 'baile', 'artes escénicas']
+                },
+                {
+                    'id': 'lexeme-balezha', 'form': 'baleẑa', 'gloss': 'danza (disciplina)',
+                    'analysis_html': 'BAL + <a class="morph-link" href="#morph-eza">-EẐA</a>',
+                    'analysis_text': 'BAL + -EẐA',
+                    'refs': [{'id': 'morph-eza', 'label': '-EẐA'}],
+                    'tags': [{'class': 'generic', 'label': 'Nomen abstracto'}],
+                    'semantic_fields': ['danza', 'disciplinas', 'artes escénicas']
+                }
+            ]
+            changed = True
+        elif entry.get('id') == 'root-bal-2' and not entry.get('words'):
+            entry['row_class'] = 'lex-root-row'
+            entry['words'] = [
+                {
+                    'id': 'lexeme-dorbalo', 'form': 'dorbalo', 'gloss': 'giba, joroba',
+                    'analysis_html': 'DOR (segmento no formalizado) + BAL + <a class="morph-link" href="#morph-o">-O</a>',
+                    'analysis_text': 'DOR (segmento no formalizado) + BAL + -O',
+                    'refs': [{'id': 'morph-o', 'label': '-O'}],
+                    'tags': [{'class': 'generic', 'label': 'Nomen O'}],
+                    'semantic_fields': ['anatomía', 'espalda', 'formas corporales']
+                },
+                {
+                    'id': 'lexeme-dorbalin', 'form': 'dorbalin', 'gloss': 'jorobado',
+                    'analysis_html': 'DOR (segmento no formalizado) + BAL + <a class="morph-link" href="#morph-in">-IN</a>',
+                    'analysis_text': 'DOR (segmento no formalizado) + BAL + -IN',
+                    'refs': [{'id': 'morph-in', 'label': '-IN'}],
+                    'tags': [{'class': 'generic', 'label': 'Participio animante'}],
+                    'semantic_fields': ['anatomía', 'personas', 'formas corporales']
+                },
+                {
+                    'id': 'lexeme-virbalo', 'form': 'virbalo', 'gloss': 'glande',
+                    'analysis_html': '<a class="morph-link" href="#root-vir">VIR</a> + BAL + <a class="morph-link" href="#morph-o">-O</a>',
+                    'analysis_text': 'VIR + BAL + -O',
+                    'refs': [{'id': 'root-vir', 'label': 'VIR'}, {'id': 'morph-o', 'label': '-O'}],
+                    'tags': [{'class': 'generic', 'label': 'Nomen O'}],
+                    'semantic_fields': ['anatomía', 'genitales', 'masculino']
+                },
+                {
+                    'id': 'lexeme-virbalcha', 'form': 'virbalĉa', 'gloss': 'balanitis',
+                    'analysis_html': '<a class="morph-link" href="#root-vir">VIR</a> + BAL + Ĉ (formante léxico no formalizado) + <a class="morph-link" href="#morph-a-2">-A</a>',
+                    'analysis_text': 'VIR + BAL + Ĉ (formante léxico no formalizado) + -A',
+                    'refs': [{'id': 'root-vir', 'label': 'VIR'}, {'id': 'morph-a-2', 'label': '-A'}],
+                    'tags': [{'class': 'generic', 'label': 'Nomen A'}],
+                    'semantic_fields': ['salud', 'genitales', 'inflamación']
+                },
+                {
+                    'id': 'lexeme-balono', 'form': 'balono', 'gloss': 'balón',
+                    'analysis_html': 'BAL + ON (extensión lexicalizada; función no formalizada) + <a class="morph-link" href="#morph-o">-O</a>',
+                    'analysis_text': 'BAL + ON (extensión lexicalizada; función no formalizada) + -O',
+                    'refs': [{'id': 'morph-o', 'label': '-O'}],
+                    'tags': [{'class': 'generic', 'label': 'Nomen O'}],
+                    'semantic_fields': ['objetos', 'deportes', 'pelotas']
+                },
+                {
+                    'id': 'lexeme-balzheten', 'form': 'balẑeten', 'gloss': 'ballena',
+                    'analysis_html': 'BAL + <a class="morph-link" href="#root-zet-2">ẐET</a> + <a class="morph-link" href="#morph-en">-EN</a>',
+                    'analysis_text': 'BAL + ẐET + -EN',
+                    'refs': [{'id': 'root-zet-2', 'label': 'ẐET'}, {'id': 'morph-en', 'label': '-EN'}],
+                    'tags': [{'class': 'generic', 'label': 'Animado EN'}],
+                    'semantic_fields': ['fauna', 'cetáceos', 'mamíferos marinos']
+                },
+                {
+                    'id': 'lexeme-balonas', 'form': 'balonas', 'gloss': 'lanzar pelota',
+                    'analysis_html': 'BAL + <a class="morph-link" href="#morph-onas">-ONAS</a>',
+                    'analysis_text': 'BAL + -ONAS',
+                    'refs': [{'id': 'morph-onas', 'label': '-ONAS'}],
+                    'tags': [{'class': 'generic', 'label': 'Predicado ONAS'}],
+                    'semantic_fields': ['deportes', 'pelotas', 'lanzamiento']
+                }
+            ]
+            changed = True
+    if changed:
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        subprocess.run(['git', 'add', 'lexico/b.json'], cwd=ROOT, check=True)
+
+canonize_bal_families()
 
 roots=[]
 words=[]
