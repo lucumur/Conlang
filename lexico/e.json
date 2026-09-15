@@ -49,11 +49,11 @@
       "row_class": "lex-root-row",
       "words": [
         {
-          "id": "lexeme-ables",
-          "form": "ables",
+          "id": "lexeme-ebles",
+          "form": "ebles",
           "gloss": "ser capaz, tener capacidad",
-          "analysis_html": "ABL + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "ABL + -ES",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "EBL + -ES",
           "refs": [
             {
               "id": "morph-es",
@@ -68,11 +68,11 @@
           ]
         },
         {
-          "id": "lexeme-ablitas",
-          "form": "ablitas",
+          "id": "lexeme-eblitas",
+          "form": "eblitas",
           "gloss": "habilitar, capacitar",
-          "analysis_html": "ABL + <a class=\"morph-link\" href=\"#morph-it\">-IT-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "ABL + -IT- + -AS",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-it\">-IT-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "EBL + -IT- + -AS",
           "refs": [
             {
               "id": "morph-it",
@@ -91,11 +91,11 @@
           ]
         },
         {
-          "id": "lexeme-ableza",
-          "form": "ableẑa",
+          "id": "lexeme-eblezha",
+          "form": "ebleẑa",
           "gloss": "capacidad, habilidad",
-          "analysis_html": "ABL(E) + <a class=\"morph-link\" href=\"#morph-zha\">-ẐA</a>",
-          "analysis_text": "ABL(E) + -ẐA",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-zha\">-ẐA</a>",
+          "analysis_text": "EBL + -ẐA",
           "refs": [
             {
               "id": "morph-zha",
@@ -110,11 +110,11 @@
           ]
         },
         {
-          "id": "lexeme-ablin",
-          "form": "ablin",
+          "id": "lexeme-eblin",
+          "form": "eblin",
           "gloss": "que puede, válido",
-          "analysis_html": "ABL + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
-          "analysis_text": "ABL + -IN",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "EBL + -IN",
           "refs": [
             {
               "id": "morph-in",
@@ -129,11 +129,11 @@
           ]
         },
         {
-          "id": "lexeme-malablin",
-          "form": "malablin",
+          "id": "lexeme-maleblin",
+          "form": "maleblin",
           "gloss": "inválido, discapacitado",
-          "analysis_html": "MAL + ABL + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
-          "analysis_text": "MAL + ABL + -IN",
+          "analysis_html": "MAL + EBL + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "MAL + EBL + -IN",
           "refs": [
             {
               "id": "morph-in",
