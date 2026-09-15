@@ -1,0 +1,103 @@
+name: Refine ARJ ATEL
+on:
+  push:
+    paths:
+      - '.github/workflows/refine-arj-atel.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refine ARJ and ATEL
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+
+          # --- lexico/a.json ---
+          p = Path('lexico/a.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          arj = next((e for e in data.get('entries', []) if e.get('id') == 'root-arj'), None)
+          if arj is None:
+              raise SystemExit('No se encontró *ARJ-')
+          words = {w.get('id'): w for w in arj.get('words', [])}
+          if 'lexeme-arjonal' not in words or 'lexeme-arjonatel' not in words:
+              raise SystemExit('No se encontraron arjonal/arjonatel')
+
+          # arjonal remains the locative noun
+          words['lexeme-arjonal']['analysis_html'] = 'ARJ + <a class="morph-link" href="#morph-on-territorial">-ON-</a> + <a class="morph-link" href="#morph-al-3">-AL</a>'
+          words['lexeme-arjonal']['analysis_text'] = 'ARJ + -ON- + -AL'
+          words['lexeme-arjonal']['refs'] = [
+              {'id':'morph-on-territorial','label':'-ON-'},
+              {'id':'morph-al-3','label':'-AL'}
+          ]
+
+          # -AL > -ATEL adjectival derivation
+          words['lexeme-arjonatel']['analysis_html'] = 'ARJ + <a class="morph-link" href="#morph-on-territorial">-ON-</a> + <a class="morph-link" href="#morph-atel">-ATEL</a>'
+          words['lexeme-arjonatel']['analysis_text'] = 'ARJ + -ON- + -ATEL'
+          words['lexeme-arjonatel']['refs'] = [
+              {'id':'morph-on-territorial','label':'-ON-'},
+              {'id':'morph-atel','label':'-ATEL'}
+          ]
+          words['lexeme-arjonatel']['tags'] = [{'class':'generic','label':'Adjetivo locativo'}]
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # --- lexico/morphemes.json ---
+          mp = Path('lexico/morphemes.json')
+          mdata = json.loads(mp.read_text(encoding='utf-8'))
+          morphs = mdata.setdefault('morphemes', [])
+          on = next((m for m in morphs if m.get('id') == 'morph-on-territorial'), None)
+          if on is not None:
+              on['form'] = '*-ON-'
+              on['gloss'] = 'formante territorial o de extensión natural (provisional)'
+              on['notes'] = ['Valor territorial provisional; ya no incluye -ONAT-.']
+
+          atel = {
+              'id':'morph-atel',
+              'form':'*-ATEL',
+              'gloss':'adjetivo derivado de una forma locativa en -AL',
+              'tags':[{'class':'generic','label':'sufijo'}],
+              'letter':'A',
+              'section':'sec-a',
+              'etymology':None,
+              'notes':['Regla canónica: una forma locativa en -AL puede formar su adjetivo correspondiente en -ATEL.', 'Ejemplo: arjonal «desierto» → arjonatel «desértico».'],
+              'row_class':''
+          }
+          for i, old in enumerate(morphs):
+              if old.get('id') == 'morph-atel':
+                  morphs[i] = atel
+                  break
+          else:
+              morphs.append(atel)
+          mp.write_text(json.dumps(mdata, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # --- gramatica.html ---
+          gp = Path('gramatica.html')
+          g = gp.read_text(encoding='utf-8')
+          row = '    <tr><td><code>-ATEL</code></td><td>adjetivo derivado de una forma locativa en <code>-AL</code></td></tr>'
+          if row not in g:
+              marker = '    <tr><td><code>-EL</code></td><td>adjetivo derivado directamente del nomen</td></tr>'
+              if marker not in g:
+                  raise SystemExit('No se encontró fila -EL en gramatica.html')
+              g = g.replace(marker, marker + '\n' + row, 1)
+          ex = '<p><span class="status canon">Canónico</span>Una forma locativa en <code>-AL</code> puede formar un adjetivo correspondiente en <code>-ATEL</code>: <code>arjonal</code> «desierto» → <code>arjonatel</code> «desértico».</p>'
+          if ex not in g:
+              marker2 = '<p><span class="status canon">Canónico</span>Ejemplo de derivación nominal directa: <code>kordo</code> «corazón» → <code>kordel</code> «cardíaco».</p>'
+              if marker2 in g:
+                  g = g.replace(marker2, marker2 + '\n  ' + ex, 1)
+          gp.write_text(g, encoding='utf-8')
+          PY
+
+          python scripts/build_lexicon_index.py
+          rm .github/workflows/refine-arj-atel.yml
+
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Corregir derivación locativa -AL a adjetivo -ATEL"
+          git push
