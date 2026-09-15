@@ -3190,8 +3190,260 @@
       "section": "sec-a",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-arces",
+          "form": "arces",
+          "gloss": "comenzar",
+          "analysis_html": "ARC + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "ARC + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            },
+            {
+              "class": "generic",
+              "label": "Incoativo lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "inicio",
+            "cambio",
+            "procesos"
+          ]
+        },
+        {
+          "id": "lexeme-antarcur",
+          "form": "antarcur",
+          "gloss": "arcaico",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ant\">ANT</a> + ARC + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "ANT + ARC + -UR",
+          "refs": [
+            {
+              "id": "root-ant",
+              "label": "ANT"
+            },
+            {
+              "id": "morph-ur-3",
+              "label": "-UR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo UR"
+            }
+          ],
+          "semantic_fields": [
+            "antigüedad",
+            "tiempo",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-natarcur",
+          "form": "natarcur",
+          "gloss": "primigenio",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-na-t\">NA-T</a> + ARC + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "NA-T + ARC + -UR",
+          "refs": [
+            {
+              "id": "root-na-t",
+              "label": "NA-T"
+            },
+            {
+              "id": "morph-ur-3",
+              "label": "-UR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo UR"
+            }
+          ],
+          "semantic_fields": [
+            "origen",
+            "antigüedad",
+            "primordialidad"
+          ]
+        },
+        {
+          "id": "lexeme-arcipajn",
+          "form": "arcipajn",
+          "gloss": "Padre, Mayor",
+          "analysis_html": "ARC + <span class=\"meta-extra\">i epentética</span> + <a class=\"morph-link\" href=\"#root-paj\">PAJ</a> + <span class=\"meta-extra\">-n lexicalizado</span>",
+          "analysis_text": "ARC + i epentética + PAJ + -n lexicalizado",
+          "refs": [
+            {
+              "id": "root-paj",
+              "label": "PAJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano"
+            },
+            {
+              "class": "generic",
+              "label": "Título"
+            }
+          ],
+          "semantic_fields": [
+            "parentesco",
+            "jerarquía",
+            "títulos"
+          ]
+        },
+        {
+          "id": "lexeme-arcifrajn",
+          "form": "arcifrajn",
+          "gloss": "hermano noble",
+          "analysis_html": "ARC + <span class=\"meta-extra\">i epentética</span> + <a class=\"morph-link\" href=\"#root-fra\">FRA</a> + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <span class=\"meta-extra\">-n lexicalizado</span>",
+          "analysis_text": "ARC + i epentética + FRA + -J- + -n lexicalizado",
+          "refs": [
+            {
+              "id": "root-fra",
+              "label": "FRA"
+            },
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano"
+            },
+            {
+              "class": "generic",
+              "label": "Título"
+            }
+          ],
+          "semantic_fields": [
+            "parentesco",
+            "nobleza",
+            "jerarquía"
+          ]
+        },
+        {
+          "id": "lexeme-antarcaral",
+          "form": "antarcaral",
+          "gloss": "anticuario",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ant\">ANT</a> + ARC + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ANT + ARC + -AR + -AL",
+          "refs": [
+            {
+              "id": "root-ant",
+              "label": "ANT"
+            },
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "antigüedades",
+            "oficios",
+            "comercio"
+          ]
+        },
+        {
+          "id": "lexeme-arcenal",
+          "form": "arcenal",
+          "gloss": "archivo",
+          "analysis_html": "ARC + <span class=\"meta-extra\">-en- formante léxico</span> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ARC + -en- formante léxico + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "documentos",
+            "archivos",
+            "conservación"
+          ]
+        },
+        {
+          "id": "lexeme-urarca",
+          "form": "urarca",
+          "gloss": "inicio, origen",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ur\">UR-</a> + ARC + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "UR- + ARC + -A",
+          "refs": [
+            {
+              "id": "morph-ur",
+              "label": "UR-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "origen",
+            "inicio",
+            "primordialidad"
+          ]
+        },
+        {
+          "id": "lexeme-arcam",
+          "form": "arcam",
+          "gloss": "al principio",
+          "analysis_html": "ARC + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "ARC + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio AM"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "inicio"
+          ]
+        }
+      ]
     },
     {
       "id": "root-arc-a",
