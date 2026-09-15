@@ -38,6 +38,19 @@ for letter,key in LETTER_FILES:
             'search':' '.join(parts)
         })
 
+missing=[w for w in words if not w.get('semantic_fields')]
+wrong_count=[w for w in words if w.get('semantic_fields') and not (2 <= len(w['semantic_fields']) <= 3)]
+print('SEMANTIC_AUDIT_SUMMARY', json.dumps({
+    'total_words': len(words),
+    'missing_or_empty': len(missing),
+    'wrong_count_nonempty': len(wrong_count),
+    'valid_2_to_3': len(words)-len(missing)-len(wrong_count)
+}, ensure_ascii=False, sort_keys=True))
+for w in missing:
+    print('SEMANTIC_AUDIT_MISSING', json.dumps({'id':w['id'],'form':w['form'],'gloss':w['gloss'],'letter':w['letter'],'root_id':w['root_id']}, ensure_ascii=False, sort_keys=True))
+for w in wrong_count:
+    print('SEMANTIC_AUDIT_COUNT', json.dumps({'id':w['id'],'form':w['form'],'gloss':w['gloss'],'letter':w['letter'],'root_id':w['root_id'],'semantic_fields':w['semantic_fields'],'count':len(w['semantic_fields'])}, ensure_ascii=False, sort_keys=True))
+
 mdata=json.loads((LEX/'morphemes.json').read_text(encoding='utf-8'))
 morphemes=[]
 for m in mdata.get('morphemes',[]):
