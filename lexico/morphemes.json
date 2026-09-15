@@ -1708,7 +1708,7 @@
       "section": "sec-u",
       "etymology": null,
       "notes": [
-        "Canónico como sufijo. Su función semántica específica permanece abierta."
+        "Sufijo canónico atestiguado en babluĉos «balbucear» y babluĉa «balbuceo»; su valor semántico general aún no está definido."
       ],
       "row_class": ""
     },
@@ -2442,7 +2442,7 @@
       "section": "sec-a",
       "etymology": null,
       "notes": [
-        "Atestiguado en la familia AV y en formas familiares como pajn/frajn."
+        "Terminación familiar productiva. Atestiguada en avajn y en otras formas familiares como pajn y frajn."
       ],
       "row_class": ""
     },
@@ -2459,7 +2459,9 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Variante femenina de -AJN. Atestiguada en avejn «abuela materna»."
+      ],
       "row_class": ""
     },
     {
@@ -2475,7 +2477,9 @@
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Forma abstracta de -AJN. Atestiguada en avajnda «abolengo, ancestria»."
+      ],
       "row_class": ""
     },
     {
@@ -2518,7 +2522,7 @@
       "section": "sec-u",
       "etymology": null,
       "notes": [
-        "Canónico. Atestiguado en avus- → avuser «habitual» y avusa «hábito»."
+        "Sufijo habituativo. Atestiguado en avus- → avuser «habitual» y avusa «hábito»."
       ],
       "row_class": ""
     },
@@ -2540,8 +2544,7 @@
       "section": "sec-i",
       "etymology": null,
       "notes": [
-        "Canónico. Distinto de *-IL «para inanimados» y de *IL- «de objeto largo, delgado».",
-        "Atestiguado en avila «característica»."
+        "Tipo de partitivo. Distinto de *-IL «inanimado» y de *IL- «de objeto largo, delgado». Atestiguado en avila «característica» y bablila «plática, charla»."
       ],
       "row_class": ""
     },
