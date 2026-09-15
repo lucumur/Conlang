@@ -68,6 +68,11 @@
               "class": "generic",
               "label": "Predicado IS"
             }
+          ],
+          "semantic_fields": [
+            "estado",
+            "procesos",
+            "cualidades"
           ]
         },
         {
@@ -87,6 +92,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "propiedades",
+            "estado"
           ]
         },
         {
@@ -106,6 +116,11 @@
               "class": "generic",
               "label": "Predicado ONAS"
             }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "cualidades",
+            "estado"
           ]
         },
         {
@@ -115,7 +130,11 @@
           "analysis_html": "EBLIS → EBLIK",
           "analysis_text": "EBLIS → EBLIK",
           "refs": [],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "gramática",
+            "estado"
+          ]
         },
         {
           "id": "lexeme-eblir",
@@ -134,6 +153,10 @@
               "class": "generic",
               "label": "Adjetivo IR"
             }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "estado"
           ]
         },
         {
@@ -161,6 +184,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "estado",
+            "cualidades",
+            "procesos"
           ]
         },
         {
@@ -188,6 +216,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "estado",
+            "relaciones",
+            "procesos"
           ]
         },
         {
@@ -207,6 +240,10 @@
               "class": "generic",
               "label": "Adjetivo OL"
             }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "propiedades"
           ]
         },
         {
@@ -226,6 +263,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "propiedades"
           ]
         },
         {
@@ -249,6 +290,11 @@
               "class": "generic",
               "label": "Adjetivo IR"
             }
+          ],
+          "semantic_fields": [
+            "personas",
+            "salud",
+            "cualidades"
           ]
         }
       ]

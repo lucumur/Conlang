@@ -981,6 +981,11 @@
               "class": "generic",
               "label": "Adjetivo ER"
             }
+          ],
+          "semantic_fields": [
+            "ácido-base",
+            "cualidades",
+            "alimentación"
           ]
         },
         {
@@ -995,7 +1000,12 @@
               "label": "SUR"
             }
           ],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "alimentación",
+            "conservación",
+            "estado resultante"
+          ]
         },
         {
           "id": "lexeme-surigos",
@@ -1022,6 +1032,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "ácido-base",
+            "procesos",
+            "cambio de estado"
           ]
         },
         {
@@ -1045,6 +1060,11 @@
               "class": "generic",
               "label": "Incontable E"
             }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "ácido-base",
+            "líquidos"
           ]
         },
         {
@@ -1068,6 +1088,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "ácido-base",
+            "propiedades",
+            "cualidades"
           ]
         }
       ]

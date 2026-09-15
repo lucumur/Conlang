@@ -44,6 +44,10 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "personas"
           ]
         },
         {
@@ -67,6 +71,11 @@
               "class": "generic",
               "label": "Predicado AS"
             }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "relaciones",
+            "personas"
           ]
         },
         {
@@ -90,6 +99,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "artes escénicas",
+            "artes",
+            "personas"
           ]
         },
         {
@@ -113,6 +127,11 @@
               "class": "generic",
               "label": "Predicado AS"
             }
+          ],
+          "semantic_fields": [
+            "artes escénicas",
+            "artes",
+            "personas"
           ]
         },
         {
@@ -140,6 +159,11 @@
               "class": "generic",
               "label": "Humano AN"
             }
+          ],
+          "semantic_fields": [
+            "artes escénicas",
+            "profesiones",
+            "personas"
           ]
         },
         {
@@ -159,6 +183,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "cualidades"
           ]
         },
         {
@@ -182,6 +210,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "artes escénicas",
+            "artes"
           ]
         },
         {
@@ -209,6 +241,11 @@
               "class": "generic",
               "label": "Nomen A plural"
             }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "relaciones",
+            "cualidades"
           ]
         }
       ]
@@ -278,7 +315,11 @@
               "label": "-EN"
             }
           ],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "aves",
+            "fauna"
+          ]
         },
         {
           "id": "lexeme-agliken",
@@ -300,7 +341,11 @@
               "label": "-EN"
             }
           ],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "aves",
+            "fauna"
+          ]
         },
         {
           "id": "lexeme-andaglen",
@@ -322,7 +367,12 @@
               "label": "-EN"
             }
           ],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "aves",
+            "fauna",
+            "montañas"
+          ]
         },
         {
           "id": "lexeme-orkaglen",
@@ -344,7 +394,11 @@
               "label": "-EN"
             }
           ],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "aves",
+            "fauna"
+          ]
         }
       ]
     },
@@ -414,6 +468,10 @@
               "class": "generic",
               "label": "Nomen E"
             }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "geología"
           ]
         }
       ]
@@ -459,6 +517,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "edad",
+            "envejecimiento",
+            "procesos"
           ]
         },
         {
@@ -482,6 +545,10 @@
               "class": "generic",
               "label": "Humano ON"
             }
+          ],
+          "semantic_fields": [
+            "edad",
+            "personas"
           ]
         },
         {
@@ -505,6 +572,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "edad",
+            "tiempo"
           ]
         },
         {
@@ -528,6 +599,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "calendario"
           ]
         },
         {
@@ -559,6 +634,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración"
           ]
         },
         {
@@ -586,6 +665,11 @@
               "class": "generic",
               "label": "Adjetivo OL"
             }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración",
+            "cualidades"
           ]
         },
         {
@@ -605,6 +689,10 @@
               "class": "generic",
               "label": "Participio IN"
             }
+          ],
+          "semantic_fields": [
+            "edad",
+            "estado"
           ]
         },
         {
@@ -624,6 +712,10 @@
               "class": "generic",
               "label": "Inanimado IL"
             }
+          ],
+          "semantic_fields": [
+            "edad",
+            "estado"
           ]
         }
       ]
@@ -669,6 +761,10 @@
               "class": "generic",
               "label": "Predicado AS"
             }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "transformación"
           ]
         },
         {
@@ -688,6 +784,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "transformación",
+            "cambio de estado"
           ]
         },
         {
@@ -707,6 +808,10 @@
               "class": "generic",
               "label": "Predicado ES"
             }
+          ],
+          "semantic_fields": [
+            "estado",
+            "estado resultante"
           ]
         },
         {
@@ -730,6 +835,10 @@
               "class": "generic",
               "label": "Auxiliar"
             }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "cambio"
           ]
         },
         {
@@ -749,6 +858,10 @@
               "class": "generic",
               "label": "Humano AN"
             }
+          ],
+          "semantic_fields": [
+            "personas",
+            "procesos"
           ]
         },
         {
@@ -772,6 +885,10 @@
               "class": "generic",
               "label": "Adjetivo UR"
             }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "descripción"
           ]
         },
         {
@@ -791,6 +908,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "cambio"
           ]
         },
         {
@@ -814,6 +935,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "interacción",
+            "cambio"
           ]
         },
         {
@@ -837,6 +963,10 @@
               "class": "generic",
               "label": "Nomen abstracto"
             }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "propiedades"
           ]
         }
       ]
@@ -905,6 +1035,10 @@
               "class": "generic",
               "label": "Nomen abstracto"
             }
+          ],
+          "semantic_fields": [
+            "magnitud",
+            "cualidades"
           ]
         },
         {
@@ -928,6 +1062,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "magnitud",
+            "espacio"
           ]
         },
         {
@@ -947,6 +1086,10 @@
               "class": "generic",
               "label": "Adverbio AF"
             }
+          ],
+          "semantic_fields": [
+            "dirección",
+            "espacio"
           ]
         }
       ]
@@ -1017,6 +1160,10 @@
               "class": "generic",
               "label": "Predicado IS"
             }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia"
           ]
         },
         {
@@ -1040,6 +1187,11 @@
               "class": "generic",
               "label": "Adjetivo OL"
             }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia",
+            "palidez"
           ]
         },
         {
@@ -1063,6 +1215,10 @@
               "class": "generic",
               "label": "Adjetivo OL"
             }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia"
           ]
         },
         {
@@ -1086,6 +1242,10 @@
               "class": "generic",
               "label": "Humano ON"
             }
+          ],
+          "semantic_fields": [
+            "mitología",
+            "personas"
           ]
         },
         {
@@ -1109,6 +1269,10 @@
               "class": "generic",
               "label": "Locativo AL"
             }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares"
           ]
         },
         {
@@ -1163,6 +1327,11 @@
               "class": "generic",
               "label": "Humano ON"
             }
+          ],
+          "semantic_fields": [
+            "montañas",
+            "deportes",
+            "personas"
           ]
         },
         {
@@ -1217,6 +1386,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "salud",
+            "congénito",
+            "palidez"
           ]
         },
         {
@@ -1236,6 +1410,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "palidez",
+            "colores",
+            "apariencia"
           ]
         },
         {
@@ -1250,7 +1429,11 @@
               "label": "-AM"
             }
           ],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "tiempo",
+            "inicio"
+          ]
         }
       ]
     },
@@ -1417,6 +1600,10 @@
               "class": "generic",
               "label": "Predicado AS"
             }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "vigor"
           ]
         },
         {
@@ -1440,6 +1627,11 @@
               "class": "generic",
               "label": "Predicado AS"
             }
+          ],
+          "semantic_fields": [
+            "salud",
+            "procesos",
+            "vigor"
           ]
         },
         {
@@ -1467,6 +1659,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "salud",
+            "procesos",
+            "vigor"
           ]
         },
         {
@@ -1486,6 +1683,10 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "vigor"
           ]
         },
         {
@@ -1505,6 +1706,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "religión",
+            "mitología"
           ]
         },
         {
@@ -1528,6 +1733,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "cristianismo",
+            "religión",
+            "divinidades"
           ]
         },
         {
@@ -1547,6 +1757,11 @@
               "class": "generic",
               "label": "Participio OR"
             }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "cualidades",
+            "personas"
           ]
         },
         {
@@ -1570,6 +1785,11 @@
               "class": "generic",
               "label": "Participio OR"
             }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "cualidades",
+            "personas"
           ]
         },
         {
@@ -1593,6 +1813,11 @@
               "class": "generic",
               "label": "Nomen A plural"
             }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "vigor",
+            "deseo"
           ]
         },
         {
@@ -1607,7 +1832,11 @@
               "label": "-EN"
             }
           ],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "animales",
+            "fauna"
+          ]
         }
       ]
     },
@@ -1758,6 +1987,10 @@
               "class": "generic",
               "label": "Adjetivo OL"
             }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia"
           ]
         },
         {
@@ -1777,6 +2010,10 @@
               "class": "generic",
               "label": "Nomen E"
             }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "colores"
           ]
         },
         {
@@ -1804,6 +2041,11 @@
               "class": "generic",
               "label": "Nomen E"
             }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "sustancias",
+            "animales acuáticos"
           ]
         }
       ]
@@ -1853,6 +2095,11 @@
               "class": "generic",
               "label": "Adjetivo EL"
             }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "geografía",
+            "descripción"
           ]
         },
         {
@@ -1876,6 +2123,10 @@
               "class": "generic",
               "label": "Locativo AL"
             }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "continentes"
           ]
         },
         {
@@ -1899,6 +2150,11 @@
               "class": "generic",
               "label": "Participio IN"
             }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "geografía"
           ]
         }
       ]
@@ -1969,6 +2225,10 @@
               "class": "generic",
               "label": "Predicado AS"
             }
+          ],
+          "semantic_fields": [
+            "salud",
+            "procesos"
           ]
         },
         {
@@ -1988,6 +2248,10 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "salud",
+            "procesos"
           ]
         },
         {
@@ -2011,6 +2275,10 @@
               "class": "generic",
               "label": "Predicado AS"
             }
+          ],
+          "semantic_fields": [
+            "salud",
+            "procesos"
           ]
         },
         {
@@ -2030,6 +2298,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "salud",
+            "estado"
           ]
         },
         {
@@ -2053,6 +2325,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "salud",
+            "procesos"
           ]
         },
         {
@@ -2076,6 +2352,10 @@
               "class": "generic",
               "label": "Nomen A plural"
             }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "salud"
           ]
         },
         {
@@ -2095,6 +2375,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "salud"
           ]
         },
         {
@@ -2118,6 +2402,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "salud"
           ]
         },
         {
@@ -2137,6 +2425,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "salud",
+            "anatomía"
           ]
         },
         {
@@ -2156,6 +2448,11 @@
               "class": "generic",
               "label": "Adjetivo OL"
             }
+          ],
+          "semantic_fields": [
+            "salud",
+            "anatomía",
+            "cualidades"
           ]
         }
       ]
@@ -2201,6 +2498,11 @@
               "class": "generic",
               "label": "Adjetivo OL"
             }
+          ],
+          "semantic_fields": [
+            "geometría",
+            "forma",
+            "cualidades"
           ]
         },
         {
@@ -2220,6 +2522,10 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "geometría",
+            "forma"
           ]
         },
         {
@@ -2243,6 +2549,10 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "geometría",
+            "forma"
           ]
         },
         {
@@ -2266,6 +2576,10 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "geometría",
+            "forma"
           ]
         }
       ]
@@ -2311,6 +2625,11 @@
               "class": "generic",
               "label": "Adjetivo ER"
             }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "descripción",
+            "geografía"
           ]
         },
         {
@@ -2334,6 +2653,11 @@
               "class": "generic",
               "label": "Humano ON"
             }
+          ],
+          "semantic_fields": [
+            "personas",
+            "habla",
+            "lenguaje"
           ]
         },
         {
@@ -2357,6 +2681,10 @@
               "class": "generic",
               "label": "Locativo AL"
             }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares"
           ]
         },
         {
@@ -2380,6 +2708,11 @@
               "class": "generic",
               "label": "Humano ON"
             }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "geografía"
           ]
         },
         {
@@ -2399,6 +2732,11 @@
               "class": "generic",
               "label": "Humano ON plural"
             }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "geografía"
           ]
         },
         {
@@ -2418,6 +2756,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "habla",
+            "lenguaje",
+            "comunicación"
           ]
         },
         {
@@ -2437,6 +2780,10 @@
               "class": "generic",
               "label": "Adverbio AF"
             }
+          ],
+          "semantic_fields": [
+            "lenguaje",
+            "descripción"
           ]
         }
       ]
@@ -2620,6 +2967,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "dirección",
+            "espacio"
           ]
         },
         {
@@ -2639,6 +2991,10 @@
               "class": "generic",
               "label": "Adjetivo UR"
             }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "dirección"
           ]
         },
         {
@@ -2662,6 +3018,11 @@
               "class": "generic",
               "label": "Adjetivo UR"
             }
+          ],
+          "semantic_fields": [
+            "antigüedad",
+            "tiempo",
+            "cualidades"
           ]
         },
         {
@@ -2685,6 +3046,11 @@
               "class": "generic",
               "label": "Adjetivo UR"
             }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "dirección",
+            "cualidades"
           ]
         },
         {
@@ -2708,6 +3074,11 @@
               "class": "generic",
               "label": "Adjetivo UR"
             }
+          ],
+          "semantic_fields": [
+            "dirección",
+            "espacio",
+            "cualidades"
           ]
         },
         {
@@ -2731,6 +3102,11 @@
               "class": "generic",
               "label": "Humano ON"
             }
+          ],
+          "semantic_fields": [
+            "antigüedad",
+            "personas",
+            "tiempo"
           ]
         },
         {
@@ -2758,6 +3134,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "antigüedad",
+            "tiempo"
           ]
         },
         {
@@ -2777,6 +3157,10 @@
               "class": "generic",
               "label": "Adverbio AF"
             }
+          ],
+          "semantic_fields": [
+            "dirección",
+            "espacio"
           ]
         },
         {
@@ -2796,6 +3180,10 @@
               "class": "generic",
               "label": "Adverbio"
             }
+          ],
+          "semantic_fields": [
+            "jerarquía",
+            "primordialidad"
           ]
         },
         {
@@ -2815,6 +3203,10 @@
               "class": "generic",
               "label": "Adverbio AM"
             }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "dirección"
           ]
         },
         {
@@ -2834,6 +3226,10 @@
               "class": "generic",
               "label": "Adverbio"
             }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "calendario"
           ]
         },
         {
@@ -2857,6 +3253,11 @@
               "class": "generic",
               "label": "Adverbio AF"
             }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "dirección",
+            "espacio"
           ]
         }
       ]
@@ -3651,6 +4052,10 @@
               "class": "generic",
               "label": "Adjetivo OL"
             }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "propiedades físicas"
           ]
         },
         {
@@ -3665,7 +4070,11 @@
               "label": "-OLDA"
             }
           ],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "cualidades",
+            "propiedades físicas"
+          ]
         },
         {
           "id": "lexeme-arbo",
@@ -3684,6 +4093,10 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles"
           ]
         },
         {
@@ -3707,6 +4120,11 @@
               "class": "generic",
               "label": "Locativo AL"
             }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "lugares"
           ]
         },
         {
@@ -3730,6 +4148,10 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "vegetales"
           ]
         },
         {
@@ -3753,6 +4175,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "partes"
           ]
         },
         {
@@ -3776,6 +4203,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "cristianismo"
           ]
         },
         {
@@ -3799,6 +4231,11 @@
               "class": "generic",
               "label": "Predicado AS"
             }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "cambio",
+            "propiedades físicas"
           ]
         },
         {
@@ -3822,6 +4259,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "cambio de estado",
+            "propiedades físicas",
+            "procesos"
           ]
         }
       ]
@@ -5356,6 +5798,11 @@
               "class": "generic",
               "label": "Predicado AS"
             }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "forma",
+            "objetos"
           ]
         },
         {
@@ -5375,6 +5822,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "forma",
+            "objetos"
           ]
         },
         {
@@ -5398,6 +5850,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "interacción",
+            "cualidades"
           ]
         },
         {
@@ -5410,6 +5867,11 @@
           "tags": [],
           "notes": [
             "El segmento final -ur queda sin análisis morfémico; no se identifica aquí con el superlativo -UR."
+          ],
+          "semantic_fields": [
+            "propiedades físicas",
+            "cualidades",
+            "forma"
           ]
         },
         {
@@ -5429,6 +5891,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "partes",
+            "forma"
           ]
         },
         {
@@ -5452,6 +5919,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "partes",
+            "forma"
           ]
         },
         {
@@ -5471,6 +5943,10 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "partes"
           ]
         },
         {
@@ -5494,6 +5970,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "interacción",
+            "comunicación"
           ]
         }
       ]
@@ -5539,6 +6020,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "cielo",
+            "naturaleza",
+            "espacio"
           ]
         },
         {
@@ -5562,6 +6048,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "cielo",
+            "naturaleza",
+            "espacio"
           ]
         },
         {
@@ -5585,6 +6076,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "partes",
+            "salud"
           ]
         },
         {
@@ -5608,6 +6104,11 @@
               "class": "generic",
               "label": "Animado EN"
             }
+          ],
+          "semantic_fields": [
+            "animales acuáticos",
+            "fauna",
+            "acuáticos"
           ]
         },
         {
@@ -5631,6 +6132,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "cielo",
+            "apariencia",
+            "naturaleza"
           ]
         },
         {
@@ -5654,6 +6160,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "apariencia",
+            "procesos",
+            "cielo"
           ]
         },
         {
@@ -5681,6 +6192,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "interacción",
+            "procesos"
           ]
         },
         {
@@ -5708,6 +6224,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "interacción",
+            "procesos"
           ]
         }
       ]
@@ -5735,7 +6256,12 @@
           "analysis_html": "ASP-R (realización léxica; formación interna no especificada)",
           "analysis_text": "ASP-R (realización léxica; formación interna no especificada)",
           "refs": [],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "cualidades",
+            "propiedades físicas",
+            "descripción"
+          ]
         },
         {
           "id": "lexeme-asprago",
@@ -5744,7 +6270,12 @@
           "analysis_html": "derivado de ASP-R; formación interna no especificada",
           "analysis_text": "derivado de ASP-R; formación interna no especificada",
           "refs": [],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "alimentación",
+            "vegetales",
+            "botánica"
+          ]
         }
       ]
     },
@@ -5785,6 +6316,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "deportes",
+            "interacción",
+            "personas"
           ]
         },
         {
@@ -5804,6 +6340,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "deportes",
+            "interacción",
+            "personas"
           ]
         },
         {
@@ -5823,6 +6364,11 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "deportes",
+            "interacción",
+            "procesos"
           ]
         },
         {
@@ -5837,7 +6383,11 @@
               "label": "-ISMA"
             }
           ],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "deportes",
+            "disciplinas"
+          ]
         },
         {
           "id": "lexeme-athlistan",
@@ -5860,6 +6410,11 @@
               "class": "generic",
               "label": "Humano AN"
             }
+          ],
+          "semantic_fields": [
+            "deportes",
+            "personas",
+            "profesiones"
           ]
         },
         {
@@ -5878,7 +6433,12 @@
               "label": "-EL"
             }
           ],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "deportes",
+            "cualidades",
+            "descripción"
+          ]
         }
       ]
     },
