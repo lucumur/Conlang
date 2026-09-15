@@ -2902,12 +2902,16 @@
           "id": "lexeme-afrulunda",
           "form": "afrulunda",
           "gloss": "abril",
-          "analysis_html": "AFRU + <a class=\"morph-link\" href=\"#root-lun\">LUN</a> + <span title=\"formante calendárico provisional\">-DA</span>",
-          "analysis_text": "AFRU + LUN + -DA (formante calendárico provisional)",
+          "analysis_html": "AFRU + <a class=\"morph-link\" href=\"#root-lun\">LUND</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "AFRU + LUND + -A",
           "refs": [
             {
               "id": "root-lun",
-              "label": "LUN"
+              "label": "LUND"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
             }
           ],
           "tags": [

@@ -1062,7 +1062,7 @@
     {
       "id": "root-lun",
       "form": "*LUN-",
-      "gloss": "luna, mes",
+      "gloss": "luna",
       "tags": [
         {
           "class": "generic",
@@ -1072,7 +1072,9 @@
       "letter": "L",
       "section": "sec-l",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Extensión interna de la raíz: *LUND- = mes."
+      ],
       "row_class": "",
       "words": []
     },
