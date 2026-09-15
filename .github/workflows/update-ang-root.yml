@@ -1,0 +1,176 @@
+name: Update ANĜ lexicon
+on:
+  push:
+    paths:
+      - '.github/workflows/update-ang-root.yml'
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update ANĜ root and derived lexemes
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path('lexico/a.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          root = next(e for e in data['entries'] if e.get('id') == 'root-ang-3')
+
+          root['form'] = '*ANĜ-'
+          root['gloss'] = 'enviar'
+          root['tags'] = [
+              {'class': 'generic', 'label': 'Raiz'}
+          ]
+          root['etymology'] = None
+          root['notes'] = []
+          root['row_class'] = 'lex-root-row'
+          root['words'] = [
+              {
+                  'id': 'lexeme-belangxa',
+                  'form': 'belanĝa',
+                  'gloss': 'evangelio',
+                  'analysis_html': '<a class="morph-link" href="#root-bel">BEL</a> + ANĜ + <a class="morph-link" href="#morph-a-2">-A</a>',
+                  'analysis_text': 'BEL + ANĜ + -A',
+                  'refs': [
+                      {'id': 'root-bel', 'label': 'BEL'},
+                      {'id': 'morph-a-2', 'label': '-A'}
+                  ],
+                  'tags': [{'class': 'generic', 'label': 'Nomen A'}],
+                  'semantic_fields': ['religión', 'cristianismo', 'evangelización']
+              },
+              {
+                  'id': 'lexeme-belangxel',
+                  'form': 'belanĝel',
+                  'gloss': 'evangelico',
+                  'analysis_html': '<a class="morph-link" href="#root-bel">BEL</a> + ANĜ + <a class="morph-link" href="#morph-el">-EL</a>',
+                  'analysis_text': 'BEL + ANĜ + -EL',
+                  'refs': [
+                      {'id': 'root-bel', 'label': 'BEL'},
+                      {'id': 'morph-el', 'label': '-EL'}
+                  ],
+                  'tags': [{'class': 'generic', 'label': 'Adjetivo EL'}],
+                  'semantic_fields': ['religión', 'cristianismo', 'evangelización']
+              },
+              {
+                  'id': 'lexeme-belangxas',
+                  'form': 'belanĝas',
+                  'gloss': 'evangelizar, difundir palabra, proselizar',
+                  'analysis_html': '<a class="morph-link" href="#root-bel">BEL</a> + ANĜ + <a class="morph-link" href="#morph-as">-AS</a>',
+                  'analysis_text': 'BEL + ANĜ + -AS',
+                  'refs': [
+                      {'id': 'root-bel', 'label': 'BEL'},
+                      {'id': 'morph-as', 'label': '-AS'}
+                  ],
+                  'tags': [{'class': 'generic', 'label': 'Predicado AS'}],
+                  'semantic_fields': ['religión', 'evangelización', 'proselitismo']
+              },
+              {
+                  'id': 'lexeme-belangxisma',
+                  'form': 'belanĝisma',
+                  'gloss': 'proselitismo',
+                  'analysis_html': '<a class="morph-link" href="#root-bel">BEL</a> + ANĜ + <a class="morph-link" href="#morph-isma">-ISMA</a>',
+                  'analysis_text': 'BEL + ANĜ + -ISMA',
+                  'refs': [
+                      {'id': 'root-bel', 'label': 'BEL'},
+                      {'id': 'morph-isma', 'label': '-ISMA'}
+                  ],
+                  'tags': [{'class': 'generic', 'label': 'Nomen A'}],
+                  'semantic_fields': ['religión', 'evangelización', 'proselitismo']
+              },
+              {
+                  'id': 'lexeme-kurtangxon',
+                  'form': 'kurtanĝon',
+                  'gloss': 'asesor, mensajero',
+                  'analysis_html': 'KURT + ANĜ + <a class="morph-link" href="#morph-on">-ON</a>',
+                  'analysis_text': 'KURT + ANĜ + -ON',
+                  'refs': [
+                      {'id': 'morph-on', 'label': '-ON'}
+                  ],
+                  'tags': [{'class': 'generic', 'label': 'Humano ON'}],
+                  'semantic_fields': ['comunicación', 'mensajería', 'asesoría']
+              },
+              {
+                  'id': 'lexeme-zelangxel',
+                  'form': 'ẑelanĝel',
+                  'gloss': 'angelical',
+                  'analysis_html': '<a class="morph-link" href="#root-zel">ẐEL</a> + ANĜ + <a class="morph-link" href="#morph-el">-EL</a>',
+                  'analysis_text': 'ẐEL + ANĜ + -EL',
+                  'refs': [
+                      {'id': 'root-zel', 'label': 'ẐEL'},
+                      {'id': 'morph-el', 'label': '-EL'}
+                  ],
+                  'tags': [{'class': 'generic', 'label': 'Adjetivo EL'}],
+                  'semantic_fields': ['religión', 'ángeles', 'cielo']
+              },
+              {
+                  'id': 'lexeme-zelangxon',
+                  'form': 'ẑelanĝon',
+                  'gloss': 'angel',
+                  'analysis_html': '<a class="morph-link" href="#root-zel">ẐEL</a> + ANĜ + <a class="morph-link" href="#morph-on">-ON</a>',
+                  'analysis_text': 'ẐEL + ANĜ + -ON',
+                  'refs': [
+                      {'id': 'root-zel', 'label': 'ẐEL'},
+                      {'id': 'morph-on', 'label': '-ON'}
+                  ],
+                  'tags': [{'class': 'generic', 'label': 'Humano ON'}],
+                  'semantic_fields': ['religión', 'ángeles', 'cielo']
+              },
+              {
+                  'id': 'lexeme-angxifisen',
+                  'form': 'anĝifiŝen',
+                  'gloss': 'pez angel',
+                  'analysis_html': 'ANĜ + I + <a class="morph-link" href="#root-fis">FIŜ</a> + <a class="morph-link" href="#morph-en">-EN</a>',
+                  'analysis_text': 'ANĜ + I + FIŜ + -EN',
+                  'refs': [
+                      {'id': 'root-fis', 'label': 'FIŜ'},
+                      {'id': 'morph-en', 'label': '-EN'}
+                  ],
+                  'tags': [{'class': 'generic', 'label': 'Animado no humano'}],
+                  'semantic_fields': ['fauna', 'peces', 'animales acuáticos']
+              },
+              {
+                  'id': 'lexeme-misangxa',
+                  'form': 'miŝanĝa',
+                  'gloss': 'mensaje',
+                  'analysis_html': '<a class="morph-link" href="#root-mis-2">MIŜ</a> + ANĜ + <a class="morph-link" href="#morph-a-2">-A</a>',
+                  'analysis_text': 'MIŜ + ANĜ + -A',
+                  'refs': [
+                      {'id': 'root-mis-2', 'label': 'MIŜ'},
+                      {'id': 'morph-a-2', 'label': '-A'}
+                  ],
+                  'tags': [{'class': 'generic', 'label': 'Nomen A'}],
+                  'semantic_fields': ['comunicación', 'mensajería', 'mensajes']
+              },
+              {
+                  'id': 'lexeme-misangxada',
+                  'form': 'miŝanĝada',
+                  'gloss': 'mensajeria',
+                  'analysis_html': '<a class="morph-link" href="#root-mis-2">MIŜ</a> + ANĜ + <a class="morph-link" href="#morph-ad">-AD-</a> + <a class="morph-link" href="#morph-a-2">-A</a>',
+                  'analysis_text': 'MIŜ + ANĜ + -AD- + -A',
+                  'refs': [
+                      {'id': 'root-mis-2', 'label': 'MIŜ'},
+                      {'id': 'morph-ad', 'label': '-AD-'},
+                      {'id': 'morph-a-2', 'label': '-A'}
+                  ],
+                  'tags': [{'class': 'generic', 'label': 'Nomen A'}],
+                  'semantic_fields': ['comunicación', 'mensajería', 'servicios']
+              }
+          ]
+
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          python scripts/build_lexicon_index.py
+      - name: Commit changes
+        run: |
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/a.json lexico/index.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Actualizar raíz ANĜ y derivados"
+          git push
