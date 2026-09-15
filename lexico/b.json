@@ -8,25 +8,14 @@
       "form": "*BA-F",
       "gloss": "interjección de sorpresa o susto",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "generic",
-          "label": "onomato"
-        },
-        {
-          "class": "nova",
-          "label": "Nova"
-        }
+        {"class": "generic", "label": "Raiz"},
+        {"class": "generic", "label": "onomato"},
+        {"class": "nova", "label": "Nova"}
       ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [
-        "BA es la forma primigenia y BAF la forma extendida de la misma raíz."
-      ],
+      "notes": ["BA es la forma primigenia y BAF la forma extendida de la misma raíz."],
       "row_class": "lex-root-row",
       "words": [
         {
@@ -36,17 +25,8 @@
           "analysis_html": "BA (forma primigenia de *BA-F)",
           "analysis_text": "BA (forma primigenia de *BA-F)",
           "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Interjección"
-            }
-          ],
-          "semantic_fields": [
-            "interjecciones",
-            "emociones",
-            "sorpresa"
-          ]
+          "tags": [{"class": "generic", "label": "Interjección"}],
+          "semantic_fields": ["interjecciones", "emociones", "sorpresa"]
         },
         {
           "id": "lexeme-baf-interj",
@@ -55,17 +35,8 @@
           "analysis_html": "BA-F (forma extendida)",
           "analysis_text": "BA-F (forma extendida)",
           "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Interjección"
-            }
-          ],
-          "semantic_fields": [
-            "interjecciones",
-            "emociones",
-            "susto"
-          ]
+          "tags": [{"class": "generic", "label": "Interjección"}],
+          "semantic_fields": ["interjecciones", "emociones", "susto"]
         }
       ]
     },
@@ -73,18 +44,11 @@
       "id": "root-bab-l",
       "form": "*BAB-L",
       "gloss": "balbucear, parlotear, hablar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [
-        "El segmento UĈ de babluĉos/babluĉa queda atestiguado en estas formas, pero su función general no está canonizada."
-      ],
+      "notes": ["*-UĈ- es un sufijo canónico; su función semántica específica aún no está definida."],
       "row_class": "lex-root-row",
       "words": [
         {
@@ -93,51 +57,19 @@
           "gloss": "platicar, charlar",
           "analysis_html": "<a class=\"morph-link\" href=\"#morph-o-mutual\">O-</a> + BAB-L + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
           "analysis_text": "O- + BAB-L + -OS",
-          "refs": [
-            {
-              "id": "morph-o-mutual",
-              "label": "O-"
-            },
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "comunicación",
-            "conversación",
-            "interacción"
-          ]
+          "refs": [{"id": "morph-o-mutual", "label": "O-"}, {"id": "morph-os", "label": "-OS"}],
+          "tags": [{"class": "generic", "label": "Predicado OS"}],
+          "semantic_fields": ["comunicación", "conversación", "interacción"]
         },
         {
           "id": "lexeme-babluchos",
           "form": "babluĉos",
           "gloss": "balbucear",
-          "analysis_html": "BAB-L + UĈ (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "BAB-L + UĈ (segmento no formalizado) + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "habla",
-            "comunicación",
-            "infancia"
-          ]
+          "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-ucirc\">-UĈ-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BAB-L + -UĈ- + -OS",
+          "refs": [{"id": "morph-ucirc", "label": "-UĈ-"}, {"id": "morph-os", "label": "-OS"}],
+          "tags": [{"class": "generic", "label": "Predicado OS"}],
+          "semantic_fields": ["habla", "comunicación", "infancia"]
         },
         {
           "id": "lexeme-bablen",
@@ -145,23 +77,9 @@
           "gloss": "toddler, infante",
           "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
           "analysis_text": "BAB-L + -EN",
-          "refs": [
-            {
-              "id": "morph-en",
-              "label": "-EN"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Animado EN"
-            }
-          ],
-          "semantic_fields": [
-            "personas",
-            "infancia",
-            "edad"
-          ]
+          "refs": [{"id": "morph-en", "label": "-EN"}],
+          "tags": [{"class": "generic", "label": "Animado EN"}],
+          "semantic_fields": ["personas", "infancia", "edad"]
         },
         {
           "id": "lexeme-bablor",
@@ -169,23 +87,9 @@
           "gloss": "hablante, parlante",
           "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
           "analysis_text": "BAB-L + -OR",
-          "refs": [
-            {
-              "id": "morph-or",
-              "label": "-OR"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Participio de OS"
-            }
-          ],
-          "semantic_fields": [
-            "habla",
-            "comunicación",
-            "cualidades"
-          ]
+          "refs": [{"id": "morph-or", "label": "-OR"}],
+          "tags": [{"class": "generic", "label": "Participio de OS"}],
+          "semantic_fields": ["habla", "comunicación", "cualidades"]
         },
         {
           "id": "lexeme-babla",
@@ -193,23 +97,9 @@
           "gloss": "habla",
           "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
           "analysis_text": "BAB-L + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nomen A"
-            }
-          ],
-          "semantic_fields": [
-            "habla",
-            "comunicación",
-            "lenguaje"
-          ]
+          "refs": [{"id": "morph-a-2", "label": "-A"}],
+          "tags": [{"class": "generic", "label": "Nomen A"}],
+          "semantic_fields": ["habla", "comunicación", "lenguaje"]
         },
         {
           "id": "lexeme-bablila",
@@ -217,123 +107,196 @@
           "gloss": "plática, charla",
           "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
           "analysis_text": "BAB-L + -IL- + -A",
-          "refs": [
-            {
-              "id": "morph-il-partitive",
-              "label": "-IL-"
-            },
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nomen A"
-            }
-          ],
-          "semantic_fields": [
-            "conversación",
-            "comunicación",
-            "habla"
-          ]
+          "refs": [{"id": "morph-il-partitive", "label": "-IL-"}, {"id": "morph-a-2", "label": "-A"}],
+          "tags": [{"class": "generic", "label": "Nomen A"}],
+          "semantic_fields": ["conversación", "comunicación", "habla"]
         },
         {
           "id": "lexeme-bablucha",
           "form": "babluĉa",
           "gloss": "balbuceo",
-          "analysis_html": "BAB-L + UĈ (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "BAB-L + UĈ (segmento no formalizado) + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nomen A"
-            }
-          ],
-          "semantic_fields": [
-            "habla",
-            "comunicación",
-            "infancia"
-          ]
+          "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-ucirc\">-UĈ-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BAB-L + -UĈ- + -A",
+          "refs": [{"id": "morph-ucirc", "label": "-UĈ-"}, {"id": "morph-a-2", "label": "-A"}],
+          "tags": [{"class": "generic", "label": "Nomen A"}],
+          "semantic_fields": ["habla", "comunicación", "infancia"]
         }
       ]
     },
     {
       "id": "root-bac",
       "form": "*BAC-",
-      "gloss": "Baco",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "latin",
-          "label": "Latin"
-        }
-      ],
+      "gloss": "Baco, Dionisio; vino, alcohol y celebración dionisíaca",
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "latin", "label": "Latin"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-bacun",
+          "form": "bacun",
+          "gloss": "Baco, Dionisio",
+          "analysis_html": "BAC + UN (extensión lexicalizada; función no formalizada)",
+          "analysis_text": "BAC + UN (extensión lexicalizada; función no formalizada)",
+          "refs": [],
+          "tags": [{"class": "generic", "label": "Nombre propio"}],
+          "semantic_fields": ["mitología", "divinidades", "vino"]
+        },
+        {
+          "id": "lexeme-bacudur",
+          "form": "bacudur",
+          "gloss": "dionisíaco, enólico, relacionado con vino, alcohol o parranda",
+          "analysis_html": "BAC + UDUR (formación interna no formalizada)",
+          "analysis_text": "BAC + UDUR (formación interna no formalizada)",
+          "refs": [],
+          "tags": [{"class": "generic", "label": "Adjetivo"}],
+          "semantic_fields": ["vino", "alcohol", "celebración"]
+        },
+        {
+          "id": "lexeme-bacisma",
+          "form": "bacisma",
+          "gloss": "frenesí, euforia (alcohólica)",
+          "analysis_html": "BAC + ISMA (segmento lexicalizado; no se identifica automáticamente con *-ISMA «sistema»)",
+          "analysis_text": "BAC + ISMA (segmento lexicalizado; no se identifica automáticamente con *-ISMA «sistema»)",
+          "refs": [],
+          "tags": [{"class": "generic", "label": "Nomen A"}],
+          "semantic_fields": ["emociones", "alcohol", "euforia"]
+        },
+        {
+          "id": "lexeme-bacana",
+          "form": "bacana",
+          "gloss": "fiesta alcohólica",
+          "analysis_html": "BAC + AN (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BAC + AN (segmento no formalizado) + -A",
+          "refs": [{"id": "morph-a-2", "label": "-A"}],
+          "tags": [{"class": "generic", "label": "Nomen A"}],
+          "semantic_fields": ["fiestas", "alcohol", "celebración"]
+        },
+        {
+          "id": "lexeme-baculunda",
+          "form": "baculunda",
+          "gloss": "febrero",
+          "analysis_html": "BAC + u de enlace + <a class=\"morph-link\" href=\"#root-lun\">LUND</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BAC + u de enlace + LUND + -A",
+          "refs": [{"id": "root-lun", "label": "LUND"}, {"id": "morph-a-2", "label": "-A"}],
+          "tags": [{"class": "generic", "label": "Nomen calendárico"}],
+          "semantic_fields": ["calendario", "meses", "tiempo"]
+        }
+      ]
     },
     {
       "id": "root-baj",
-      "form": "*BAJ-",
-      "gloss": "por",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "anglo",
-          "label": "Anglo"
-        }
-      ],
+      "form": "*BAJ",
+      "gloss": "por, a causa de",
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "anglo", "label": "Anglo"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-baj",
+          "form": "baj",
+          "gloss": "por, a causa de",
+          "analysis_html": "BAJ (forma libre de *BAJ)",
+          "analysis_text": "BAJ (forma libre de *BAJ)",
+          "refs": [],
+          "tags": [{"class": "generic", "label": "Partícula"}],
+          "semantic_fields": ["gramática", "causalidad", "relaciones"]
+        }
+      ]
     },
     {
       "id": "root-bak",
       "form": "*BAK-",
-      "gloss": "hornear",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "gloss": "hornear, pan",
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "notes": ["Los segmentos R de bakro, ANT de bakantan, ER de bakeral y RO de robaketas no se generalizan aquí como morfemas nuevos."],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-bakas",
+          "form": "bakas",
+          "gloss": "hornear",
+          "analysis_html": "BAK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BAK + -AS",
+          "refs": [{"id": "morph-as", "label": "-AS"}],
+          "tags": [{"class": "generic", "label": "Predicado AS"}],
+          "semantic_fields": ["cocina", "horneado", "preparación"]
+        },
+        {
+          "id": "lexeme-bakro",
+          "form": "bakro",
+          "gloss": "horno",
+          "analysis_html": "BAK + R (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BAK + R (extensión lexicalizada) + -O",
+          "refs": [{"id": "morph-o", "label": "-O"}],
+          "tags": [{"class": "generic", "label": "Nomen O"}],
+          "semantic_fields": ["cocina", "hornos", "utensilios"]
+        },
+        {
+          "id": "lexeme-bakir",
+          "form": "bakir",
+          "gloss": "horneado",
+          "analysis_html": "BAK + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a>",
+          "analysis_text": "BAK + -IR",
+          "refs": [{"id": "morph-ir-reservative", "label": "-IR"}],
+          "tags": [{"class": "generic", "label": "Adjetivo IR"}],
+          "semantic_fields": ["cocina", "horneado", "estado resultante"]
+        },
+        {
+          "id": "lexeme-bakantan",
+          "form": "bakantan",
+          "gloss": "panadero",
+          "analysis_html": "BAK + ANT (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "BAK + ANT (extensión lexicalizada) + -AN",
+          "refs": [{"id": "morph-an-2", "label": "-AN"}],
+          "tags": [{"class": "generic", "label": "Humano AN"}],
+          "semantic_fields": ["oficios", "panadería", "alimentación"]
+        },
+        {
+          "id": "lexeme-bakeral",
+          "form": "bakeral",
+          "gloss": "panadería",
+          "analysis_html": "BAK + ER (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "BAK + ER (extensión lexicalizada) + -AL",
+          "refs": [{"id": "morph-al-3", "label": "-AL"}],
+          "tags": [{"class": "generic", "label": "Locativo AL"}],
+          "semantic_fields": ["panadería", "comercio", "lugares"]
+        },
+        {
+          "id": "lexeme-bake",
+          "form": "bake",
+          "gloss": "pan",
+          "analysis_html": "BAK + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "BAK + -E",
+          "refs": [{"id": "morph-e", "label": "-E"}],
+          "tags": [{"class": "generic", "label": "Nomen E"}],
+          "semantic_fields": ["alimentación", "panificación", "alimentos"]
+        },
+        {
+          "id": "lexeme-robaketas",
+          "form": "robaketas",
+          "gloss": "empanizar",
+          "analysis_html": "RO (segmento no formalizado en posición prefijada) + BAK + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "RO (segmento no formalizado en posición prefijada) + BAK + -ET- + -AS",
+          "refs": [{"id": "morph-et", "label": "-ET-"}, {"id": "morph-as", "label": "-AS"}],
+          "tags": [{"class": "generic", "label": "Predicado AS"}],
+          "semantic_fields": ["cocina", "empanizado", "preparación"]
+        }
+      ]
     },
     {
       "id": "root-bal",
       "form": "*BAL-",
       "gloss": "bailar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -345,16 +308,7 @@
       "id": "root-bal-2",
       "form": "*BAL-",
       "gloss": "giba, balon",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "nat-mod",
-          "label": "Nat-mod"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "nat-mod", "label": "Nat-mod"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -366,12 +320,7 @@
       "id": "root-bald",
       "form": "*BALD-",
       "gloss": "pronto",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -383,16 +332,7 @@
       "id": "root-bamb",
       "form": "*BAMB-",
       "gloss": "bambu",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "iberico",
-          "label": "Iberico"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "iberico", "label": "Iberico"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -404,20 +344,7 @@
       "id": "root-band",
       "form": "*BAND-",
       "gloss": "banda, grupo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "anglo",
-          "label": "Anglo"
-        },
-        {
-          "class": "generic",
-          "label": "Bas"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "anglo", "label": "Anglo"}, {"class": "generic", "label": "Bas"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -429,16 +356,7 @@
       "id": "root-bar",
       "form": "*BAR-",
       "gloss": "barrer, escobar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "nat-mod",
-          "label": "Nat-mod"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "nat-mod", "label": "Nat-mod"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -450,20 +368,7 @@
       "id": "root-bar-b",
       "form": "*BAR-B",
       "gloss": "barba, borde ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "latin",
-          "label": "Latin"
-        },
-        {
-          "class": "generic",
-          "label": "Bas"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "latin", "label": "Latin"}, {"class": "generic", "label": "Bas"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -475,12 +380,7 @@
       "id": "root-bas",
       "form": "*BAS-",
       "gloss": "base",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -492,12 +392,7 @@
       "id": "root-bat",
       "form": "*BAT-",
       "gloss": "abatir, batear ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -509,16 +404,7 @@
       "id": "root-bav",
       "form": "*BAV-",
       "gloss": "Baviera",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "germanico",
-          "label": "Germanico"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "germanico", "label": "Germanico"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -530,12 +416,7 @@
       "id": "root-bel",
       "form": "*BEL-",
       "gloss": "bonito, bueno",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -547,16 +428,7 @@
       "id": "root-belg",
       "form": "*BELG-",
       "gloss": "Belgica",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "celta",
-          "label": "Celta"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "celta", "label": "Celta"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -568,12 +440,7 @@
       "id": "root-bend",
       "form": "*BEND-",
       "gloss": "cinta",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -585,12 +452,7 @@
       "id": "root-ber",
       "form": "*BER-",
       "gloss": "mora",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -602,12 +464,7 @@
       "id": "root-best",
       "form": "*BEST-",
       "gloss": "bestia",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -619,12 +476,7 @@
       "id": "root-bet",
       "form": "*BET-",
       "gloss": "abedul",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -636,16 +488,7 @@
       "id": "root-bet-2",
       "form": "*BET-",
       "gloss": "verdura larga",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "nova",
-          "label": "Nova"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "nova", "label": "Nova"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -657,12 +500,7 @@
       "id": "root-bid",
       "form": "*BID-",
       "gloss": "cuenta",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -674,22 +512,11 @@
       "id": "root-bif",
       "form": "*BIF-",
       "gloss": "bufalo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "nova",
-          "label": "Nova"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "nova", "label": "Nova"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [
-        "raiz mixta de «beef» y «bufalo»."
-      ],
+      "notes": ["raiz mixta de «beef» y «bufalo»."],
       "row_class": "",
       "words": []
     },
@@ -697,12 +524,7 @@
       "id": "root-bild",
       "form": "*BILD-",
       "gloss": "imagen",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -714,16 +536,7 @@
       "id": "root-bizn",
       "form": "*BIZN-",
       "gloss": "negocio",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "nova",
-          "label": "Nova"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "nova", "label": "Nova"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -735,16 +548,7 @@
       "id": "root-bjat",
       "form": "*BJAT-",
       "gloss": "dicha, fortuna",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "nat-mod",
-          "label": "Nat-mod"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "nat-mod", "label": "Nat-mod"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -756,16 +560,7 @@
       "id": "root-bjel",
       "form": "*BJEL-",
       "gloss": "blanco (connotacion rusa)",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "nova",
-          "label": "Nova"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "nova", "label": "Nova"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -777,12 +572,7 @@
       "id": "root-blank",
       "form": "*BLANK-",
       "gloss": "vacio, blanco, borrado",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -794,12 +584,7 @@
       "id": "root-blok",
       "form": "*BLOK-",
       "gloss": "bloquear",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -811,12 +596,7 @@
       "id": "root-blov",
       "form": "*BLOV-",
       "gloss": "soplar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -828,12 +608,7 @@
       "id": "root-blu",
       "form": "*BLU-",
       "gloss": "azul",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -845,12 +620,7 @@
       "id": "root-bob",
       "form": "*BOB-",
       "gloss": "burbuja",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -862,12 +632,7 @@
       "id": "root-boj",
       "form": "*BOJ-",
       "gloss": "ladrar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -879,12 +644,7 @@
       "id": "root-bomb",
       "form": "*BOMB-",
       "gloss": "explotar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -896,12 +656,7 @@
       "id": "root-bon",
       "form": "*BON-",
       "gloss": "bueno",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -913,12 +668,7 @@
       "id": "root-bor",
       "form": "*BOR-",
       "gloss": "taladrar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -930,12 +680,7 @@
       "id": "root-bov",
       "form": "*BOV-",
       "gloss": "buey",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -947,16 +692,7 @@
       "id": "root-bor-2",
       "form": "*BOR-",
       "gloss": "borraja (sal)",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "arabe",
-          "label": "Arabe"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "arabe", "label": "Arabe"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -968,12 +704,7 @@
       "id": "root-bra-nk",
       "form": "*BRA-NK",
       "gloss": "rama",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -985,16 +716,7 @@
       "id": "root-brav",
       "form": "*BRAV-",
       "gloss": "bravo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "iberico",
-          "label": "Iberico"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "iberico", "label": "Iberico"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1006,12 +728,7 @@
       "id": "root-bril",
       "form": "*BRIL-",
       "gloss": "brillar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1023,12 +740,7 @@
       "id": "root-brov",
       "form": "*BROV-",
       "gloss": "ceja",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1040,12 +752,7 @@
       "id": "root-broc",
       "form": "*BROĈ-",
       "gloss": "broche",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1057,12 +764,7 @@
       "id": "root-bru",
       "form": "*BRU-",
       "gloss": "hacer ruido",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1074,12 +776,7 @@
       "id": "root-bru-l",
       "form": "*BRU-L",
       "gloss": "quemar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1091,12 +788,7 @@
       "id": "root-brus",
       "form": "*BRUS-",
       "gloss": "pecho",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1108,16 +800,7 @@
       "id": "root-bu",
       "form": "*BU-",
       "gloss": "esos dos",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "nova",
-          "label": "Nova"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "nova", "label": "Nova"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1129,12 +812,7 @@
       "id": "root-bub",
       "form": "*BUB-",
       "gloss": "chico travieso",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1146,12 +824,7 @@
       "id": "root-bul",
       "form": "*BUL-",
       "gloss": "bola, punto",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1163,12 +836,7 @@
       "id": "root-bulg",
       "form": "*BULG-",
       "gloss": "bulgaro",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1180,12 +848,7 @@
       "id": "root-burg",
       "form": "*BURG-",
       "gloss": "Castillo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1197,12 +860,7 @@
       "id": "root-burg-2",
       "form": "*BURG-",
       "gloss": "brote",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1214,16 +872,7 @@
       "id": "root-butk",
       "form": "*BUTK-",
       "gloss": "tienda",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "frances",
-          "label": "Frances"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "frances", "label": "Frances"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1235,12 +884,7 @@
       "id": "root-bus",
       "form": "*BUS-",
       "gloss": "boca",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -1252,16 +896,7 @@
       "id": "root-bzon",
       "form": "*BZON-",
       "gloss": "necesitar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "frances",
-          "label": "Frances"
-        }
-      ],
+      "tags": [{"class": "generic", "label": "Raiz"}, {"class": "frances", "label": "Frances"}],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
