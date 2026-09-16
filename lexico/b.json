@@ -1208,7 +1208,44 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-bambo",
+          "form": "bambo",
+          "gloss": "bambú",
+          "analysis_html": "BAMB (forma léxica nominal)",
+          "analysis_text": "BAMB (forma léxica nominal)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "vegetales"
+          ]
+        },
+        {
+          "id": "lexeme-bambite",
+          "form": "bambite",
+          "gloss": "madera de bambú",
+          "analysis_html": "BAMB + ITE (segmento no formalizado)",
+          "analysis_text": "BAMB + ITE (segmento no formalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "botánica"
+          ]
+        }
+      ]
     },
     {
       "id": "root-band",
@@ -1233,7 +1270,110 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gxabandos",
+          "form": "ĝabandos",
+          "gloss": "faccionarse",
+          "analysis_html": "ĜA- (segmento no formalizado) + BAND + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ĜA- (segmento no formalizado) + BAND + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "relaciones",
+            "personas"
+          ]
+        },
+        {
+          "id": "lexeme-obandos",
+          "form": "obandos",
+          "gloss": "agruparse",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-o-mutual\">O-</a> + BAND + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "O- + BAND + -OS",
+          "refs": [
+            {
+              "id": "morph-o-mutual",
+              "label": "O-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "relaciones",
+            "interacción"
+          ]
+        },
+        {
+          "id": "lexeme-bandum",
+          "form": "bandum",
+          "gloss": "banda, grupo, tropa",
+          "analysis_html": "BAND + <a class=\"morph-link\" href=\"#morph-um-collective\">-UM</a>",
+          "analysis_text": "BAND + -UM",
+          "refs": [
+            {
+              "id": "morph-um-collective",
+              "label": "-UM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Colectivo"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-parbanda",
+          "form": "parbanda",
+          "gloss": "facción, bando",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-par\">PAR</a> + BAND + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "PAR + BAND + -A",
+          "refs": [
+            {
+              "id": "root-par",
+              "label": "PAR"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "interacción"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bar",

@@ -2654,6 +2654,28 @@
         "Atestiguado en jobaldol. Su valor semántico general aún no está definido; no se identifica con *JO- «ohh!» ni con *-JO «mujer (alternativo)»."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-um-collective",
+      "form": "*-UM",
+      "gloss": "colectivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "colectivo"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [
+        "Morfema colectivo canónico. Atestiguado en bandum «banda, grupo, tropa». Se distingue del homónimo *-UM- «tendente»."
+      ],
+      "row_class": ""
     }
   ]
 }
