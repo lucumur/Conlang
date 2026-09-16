@@ -1,6 +1,5 @@
 from pathlib import Path
 import json
-import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 LEX = ROOT / 'lexico'
@@ -13,92 +12,6 @@ LETTER_FILES = [
 
 def labels(tags):
     return [t.get('label','') for t in tags or []]
-
-# Migración puntual BAMB/BAND y -UM colectivo.
-bpath=LEX/'b.json'
-bdata=json.loads(bpath.read_text(encoding='utf-8'))
-byid={e.get('id'):e for e in bdata.get('entries',[])}
-bamb=byid.get('root-bamb')
-band=byid.get('root-band')
-if bamb is None or band is None:
-    raise RuntimeError('No se encontraron root-bamb/root-band')
-
-bamb['words']=[
-    {
-      'id':'lexeme-bambo','form':'bambo','gloss':'bambú',
-      'analysis_html':'BAMB (forma léxica nominal)',
-      'analysis_text':'BAMB (forma léxica nominal)','refs':[],
-      'tags':[{'class':'generic','label':'Nomen'}],
-      'semantic_fields':['botánica','vegetales']
-    },
-    {
-      'id':'lexeme-bambite','form':'bambite','gloss':'madera de bambú',
-      'analysis_html':'BAMB + ITE (segmento no formalizado)',
-      'analysis_text':'BAMB + ITE (segmento no formalizado)','refs':[],
-      'tags':[{'class':'generic','label':'Nomen'}],
-      'semantic_fields':['materiales','botánica']
-    }
-]
-
-band['words']=[
-    {
-      'id':'lexeme-gxabandos','form':'ĝabandos','gloss':'faccionarse',
-      'analysis_html':'ĜA- (segmento no formalizado) + BAND + <a class="morph-link" href="#morph-os">-OS</a>',
-      'analysis_text':'ĜA- (segmento no formalizado) + BAND + -OS',
-      'refs':[{'id':'morph-os','label':'-OS'}],
-      'tags':[{'class':'generic','label':'Predicado OS'}],
-      'semantic_fields':['procesos','relaciones','personas']
-    },
-    {
-      'id':'lexeme-obandos','form':'obandos','gloss':'agruparse',
-      'analysis_html':'<a class="morph-link" href="#morph-o-mutual">O-</a> + BAND + <a class="morph-link" href="#morph-os">-OS</a>',
-      'analysis_text':'O- + BAND + -OS',
-      'refs':[{'id':'morph-o-mutual','label':'O-'},{'id':'morph-os','label':'-OS'}],
-      'tags':[{'class':'generic','label':'Predicado OS'}],
-      'semantic_fields':['procesos','relaciones','interacción']
-    },
-    {
-      'id':'lexeme-bandum','form':'bandum','gloss':'banda, grupo, tropa',
-      'analysis_html':'BAND + <a class="morph-link" href="#morph-um-collective">-UM</a>',
-      'analysis_text':'BAND + -UM',
-      'refs':[{'id':'morph-um-collective','label':'-UM'}],
-      'tags':[{'class':'generic','label':'Colectivo'}],
-      'semantic_fields':['personas','relaciones']
-    },
-    {
-      'id':'lexeme-parbanda','form':'parbanda','gloss':'facción, bando',
-      'analysis_html':'<a class="morph-link" href="#root-par">PAR</a> + BAND + <a class="morph-link" href="#morph-a-2">-A</a>',
-      'analysis_text':'PAR + BAND + -A',
-      'refs':[{'id':'root-par','label':'PAR'},{'id':'morph-a-2','label':'-A'}],
-      'tags':[{'class':'generic','label':'Nomen A'}],
-      'semantic_fields':['relaciones','interacción']
-    }
-]
-bpath.write_text(json.dumps(bdata,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-
-mpath=LEX/'morphemes.json'
-mdata=json.loads(mpath.read_text(encoding='utf-8'))
-mid='morph-um-collective'
-m=next((x for x in mdata.get('morphemes',[]) if x.get('id')==mid),None)
-entry={
-    'id':mid,'form':'*-UM','gloss':'colectivo',
-    'tags':[{'class':'generic','label':'sufijo'},{'class':'generic','label':'colectivo'}],
-    'letter':'U','section':'sec-u','etymology':None,
-    'notes':['Morfema colectivo canónico. Atestiguado en bandum «banda, grupo, tropa». Se distingue del homónimo *-UM- «tendente».'],
-    'row_class':''
-}
-if m is None:
-    mdata.setdefault('morphemes',[]).append(entry)
-else:
-    m.update(entry)
-mpath.write_text(json.dumps(mdata,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-
-subprocess.run(['git','config','user.name','ChatGPT'],check=True)
-subprocess.run(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'],check=True)
-subprocess.run(['git','add','lexico/b.json','lexico/morphemes.json'],check=True)
-if subprocess.run(['git','diff','--cached','--quiet']).returncode != 0:
-    subprocess.run(['git','commit','-m','Completar BAMB y BAND [skip ci]'],check=True)
-    subprocess.run(['git','push'],check=True)
 
 roots=[]
 words=[]
