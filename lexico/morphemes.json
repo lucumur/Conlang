@@ -492,11 +492,11 @@
     {
       "id": "morph-ca",
       "form": "*ĈA-",
-      "gloss": "distributivo",
+      "gloss": "echar, quitar",
       "tags": [
         {
           "class": "generic",
-          "label": "sufijo"
+          "label": "prefijo"
         }
       ],
       "letter": "Ĉ",
@@ -2716,9 +2716,7 @@
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
-      "notes": [
-        "Atestiguado en bambite; se registra como unidad -ITE sin postular un *-IT- independiente."
-      ],
+      "notes": [],
       "row_class": ""
     },
     {
@@ -2815,6 +2813,70 @@
       ],
       "letter": "P",
       "section": "sec-p",
+      "row_class": ""
+    },
+    {
+      "id": "morph-a-instrumental",
+      "form": "*A-",
+      "gloss": "instrumental; ejecutar la acción usando algo o una herramienta como medio",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "prefijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ak-augmentative",
+      "form": "*-AK-",
+      "gloss": "aumentativo verbal; amplía el alcance o la extensión de la acción",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ol-perfective",
+      "form": "*-OL-",
+      "gloss": "perfectivo; acción completamente terminada, con resultado pleno",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-it-frequentative",
+      "form": "*-IT-",
+      "gloss": "frecuentativo; acción repetida o iterada",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [],
       "row_class": ""
     }
   ]
