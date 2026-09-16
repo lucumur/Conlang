@@ -1,6 +1,5 @@
 from pathlib import Path
 import json
-import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 LEX = ROOT / 'lexico'
@@ -13,60 +12,6 @@ LETTER_FILES = [
 
 def labels(tags):
     return [t.get('label','') for t in tags or []]
-
-# Migración canónica puntual: registrar *JO- como sufijo independiente
-# y enlazar el uso atestiguado en jobaldol.
-mpath = LEX/'morphemes.json'
-mdata = json.loads(mpath.read_text(encoding='utf-8'))
-mid = 'morph-jo-bald'
-existing = next((m for m in mdata.get('morphemes',[]) if m.get('id') == mid), None)
-if existing is None:
-    mdata.setdefault('morphemes', []).append({
-        'id': mid,
-        'form': '*JO-',
-        'gloss': 'sufijo; valor semántico por definir',
-        'tags': [{'class':'generic','label':'sufijo'}],
-        'letter': 'J',
-        'section': 'sec-j',
-        'etymology': None,
-        'notes': ['Atestiguado en jobaldol. Su valor semántico general aún no está definido; no se identifica con *JO- «ohh!» ni con *-JO «mujer (alternativo)».'],
-        'row_class': ''
-    })
-else:
-    existing['form'] = '*JO-'
-    existing['gloss'] = 'sufijo; valor semántico por definir'
-    existing['tags'] = [{'class':'generic','label':'sufijo'}]
-    existing['letter'] = 'J'
-    existing['section'] = 'sec-j'
-    existing['notes'] = ['Atestiguado en jobaldol. Su valor semántico general aún no está definido; no se identifica con *JO- «ohh!» ni con *-JO «mujer (alternativo)».']
-mpath.write_text(json.dumps(mdata, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-
-bpath = LEX/'b.json'
-bdata = json.loads(bpath.read_text(encoding='utf-8'))
-word = None
-for e in bdata.get('entries',[]):
-    for w in e.get('words',[]):
-        if w.get('id') == 'lexeme-jobaldol':
-            word = w
-            break
-    if word:
-        break
-if word is None:
-    raise RuntimeError('lexeme-jobaldol no encontrado')
-word['analysis_html'] = '<a class="morph-link" href="#morph-jo-bald">JO-</a> + BALD + <a class="morph-link" href="#morph-ol-2">-OL</a>'
-word['analysis_text'] = 'JO- + BALD + -OL'
-word['refs'] = [
-    {'id':'morph-jo-bald','label':'JO-'},
-    {'id':'morph-ol-2','label':'-OL'}
-]
-bpath.write_text(json.dumps(bdata, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-
-subprocess.run(['git','config','user.name','ChatGPT'], check=True)
-subprocess.run(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'], check=True)
-subprocess.run(['git','add','lexico/morphemes.json','lexico/b.json'], check=True)
-if subprocess.run(['git','diff','--cached','--quiet']).returncode != 0:
-    subprocess.run(['git','commit','-m','Registrar sufijo JO- [skip ci]'], check=True)
-    subprocess.run(['git','push'], check=True)
 
 roots=[]
 words=[]
