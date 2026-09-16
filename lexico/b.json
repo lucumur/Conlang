@@ -2417,9 +2417,13 @@
           "id": "lexeme-bobatlas",
           "form": "bobatlas",
           "gloss": "esgrimir en duelo, combatir",
-          "analysis_html": "BO (segmento no formalizado) + BAT + L (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "BO (segmento no formalizado) + BAT + L (extensión lexicalizada) + -AS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-bo-mutual-action\">BO-</a> + BAT + L (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BO- + BAT + L (extensión lexicalizada) + -AS",
           "refs": [
+            {
+              "id": "morph-bo-mutual-action",
+              "label": "BO-"
+            },
             {
               "id": "morph-as",
               "label": "-AS"
@@ -2441,9 +2445,13 @@
           "id": "lexeme-bobatla",
           "form": "bobatla",
           "gloss": "esgrima, duelo",
-          "analysis_html": "BO (segmento no formalizado) + BAT + L (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "BO (segmento no formalizado) + BAT + L (extensión lexicalizada) + -A",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-bo-mutual-action\">BO-</a> + BAT + L (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BO- + BAT + L (extensión lexicalizada) + -A",
           "refs": [
+            {
+              "id": "morph-bo-mutual-action",
+              "label": "BO-"
+            },
             {
               "id": "morph-a-2",
               "label": "-A"
@@ -2465,9 +2473,14 @@
           "id": "lexeme-batlur",
           "form": "batlur",
           "gloss": "batalloso, difícil",
-          "analysis_html": "BAT + LUR (formación lexicalizada; no se identifica automáticamente con *-UR superlativo)",
-          "analysis_text": "BAT + LUR (formación lexicalizada; no se identifica automáticamente con *-UR superlativo)",
-          "refs": [],
+          "analysis_html": "BAT + L (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "BAT + L (extensión lexicalizada) + -UR",
+          "refs": [
+            {
+              "id": "morph-ur-3",
+              "label": "-UR"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -2651,12 +2664,16 @@
           "id": "lexeme-batitro",
           "form": "batitro",
           "gloss": "batidora",
-          "analysis_html": "BAT + <a class=\"morph-link\" href=\"#morph-it-frequentative\">-IT-</a> + RO (formante lexicalizado; no se identifica con *-RO masculino)",
-          "analysis_text": "BAT + -IT- + RO (formante lexicalizado)",
+          "analysis_html": "BAT + <a class=\"morph-link\" href=\"#morph-it-frequentative\">-IT-</a> + <a class=\"morph-link\" href=\"#morph-tro-mechanical\">-TRO</a>",
+          "analysis_text": "BAT + -IT- + -TRO",
           "refs": [
             {
               "id": "morph-it-frequentative",
               "label": "-IT-"
+            },
+            {
+              "id": "morph-tro-mechanical",
+              "label": "-TRO"
             }
           ],
           "tags": [

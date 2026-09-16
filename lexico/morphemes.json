@@ -1950,7 +1950,7 @@
     {
       "id": "morph-ur-3",
       "form": "*-UR",
-      "gloss": "adjetivo superlativo",
+      "gloss": "adjetivo; también superlativizador",
       "tags": [
         {
           "class": "generic",
@@ -1961,8 +1961,8 @@
       "section": "sec-u",
       "etymology": null,
       "notes": [
-        "Canónico: -UR es el superlativizador productivo.",
-        "Se admite ambigüedad formal con usos lexicalizados o históricamente reanalizados de la secuencia -ur en palabras ya documentadas."
+        "Canónico: -UR forma adjetivos.",
+        "También puede emplearse con valor superlativo; se mantiene la ambigüedad formal."
       ],
       "row_class": ""
     },
@@ -2875,6 +2875,38 @@
       ],
       "letter": "I",
       "section": "sec-i",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-bo-mutual-action",
+      "form": "*BO-",
+      "gloss": "algo hecho entre dos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "prefijo"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-tro-mechanical",
+      "form": "*-TRO",
+      "gloss": "objeto mecánico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
       "etymology": null,
       "notes": [],
       "row_class": ""
