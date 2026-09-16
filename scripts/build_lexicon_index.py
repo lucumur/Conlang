@@ -24,7 +24,6 @@ for letter,key in LETTER_FILES:
         for w in e.get('words',[]):
             semantic_fields=w.get('semantic_fields',[]) or []
             notes=w.get('notes',[]) or []
-            parts += [w.get('form',''),w.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields+notes
             words.append({
                 'id':w['id'],'root_id':e['id'],'letter':letter,'key':key,
                 'form':w.get('form',''),'gloss':w.get('gloss',''),
