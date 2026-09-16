@@ -2636,6 +2636,24 @@
         "Canónico. Atestiguado en virbalĉa «balanitis»."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-jo-bald",
+      "form": "*JO-",
+      "gloss": "sufijo; valor semántico por definir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [
+        "Atestiguado en jobaldol. Su valor semántico general aún no está definido; no se identifica con *JO- «ohh!» ni con *-JO «mujer (alternativo)»."
+      ],
+      "row_class": ""
     }
   ]
 }

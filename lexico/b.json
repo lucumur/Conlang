@@ -1052,9 +1052,13 @@
           "id": "lexeme-jobaldol",
           "form": "jobaldol",
           "gloss": "puntual",
-          "analysis_html": "JO (segmento no formalizado) + BALD + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "JO (segmento no formalizado) + BALD + -OL",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-jo-bald\">JO-</a> + BALD + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "JO- + BALD + -OL",
           "refs": [
+            {
+              "id": "morph-jo-bald",
+              "label": "JO-"
+            },
             {
               "id": "morph-ol-2",
               "label": "-OL"
