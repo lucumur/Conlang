@@ -2676,6 +2676,90 @@
         "Morfema colectivo canónico. Atestiguado en bandum «banda, grupo, tropa». Se distingue del homónimo *-UM- «tendente»."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-ga-distributive",
+      "form": "*ĜA-",
+      "gloss": "derivativo distributivo, similar a trans- o dia-",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "prefijo"
+        },
+        {
+          "class": "generic",
+          "label": "distributivo"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [
+        "Atestiguado en ĝabandos. Se mantiene como morfema distinto de *ĈA- distributivo."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ite-noncount",
+      "form": "*-ITE",
+      "gloss": "derivativo que produce una forma en -E de valor no cuantificable",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "derivativo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [
+        "Atestiguado en bambite; se registra como unidad -ITE sin postular un *-IT- independiente."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-eas-travel",
+      "form": "*-EAS",
+      "gloss": "transitivo relacionado con viaje o travesía",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "predicativo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [
+        "Atestiguado en bardeas."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-tra-behind",
+      "form": "*TRA-",
+      "gloss": "detrás",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "prefijo"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [
+        "Morfema homónimo independiente de la raíz *TRA- «a través». Atestiguado en trabarda."
+      ],
+      "row_class": ""
     }
   ]
 }

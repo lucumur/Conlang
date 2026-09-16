@@ -1231,9 +1231,14 @@
           "id": "lexeme-bambite",
           "form": "bambite",
           "gloss": "madera de bambú",
-          "analysis_html": "BAMB + ITE (segmento no formalizado)",
-          "analysis_text": "BAMB + ITE (segmento no formalizado)",
-          "refs": [],
+          "analysis_html": "BAMB + <a class=\"morph-link\" href=\"#morph-ite-noncount\">-ITE</a>",
+          "analysis_text": "BAMB + -ITE",
+          "refs": [
+            {
+              "id": "morph-ite-noncount",
+              "label": "-ITE"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -1275,9 +1280,13 @@
           "id": "lexeme-gxabandos",
           "form": "ĝabandos",
           "gloss": "faccionarse",
-          "analysis_html": "ĜA- (segmento no formalizado) + BAND + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "ĜA- (segmento no formalizado) + BAND + -OS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ga-distributive\">ĜA-</a> + BAND + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ĜA- + BAND + -OS",
           "refs": [
+            {
+              "id": "morph-ga-distributive",
+              "label": "ĜA-"
+            },
             {
               "id": "morph-os",
               "label": "-OS"
@@ -1378,7 +1387,7 @@
     {
       "id": "root-bar",
       "form": "*BAR-",
-      "gloss": "barrer, escobar",
+      "gloss": "barrer",
       "tags": [
         {
           "class": "generic",
@@ -1391,15 +1400,155 @@
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
+      "etymology": "Etym. Eo. balai → *BAR-",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-baras",
+          "form": "baras",
+          "gloss": "barrer, limpiar (transitivo)",
+          "analysis_html": "BAR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BAR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "hogar"
+          ]
+        },
+        {
+          "id": "lexeme-baranos",
+          "form": "baranos",
+          "gloss": "barrer, limpiar (intransitivo)",
+          "analysis_html": "BAR + AN (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BAR + AN (segmento no formalizado) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "hogar"
+          ]
+        },
+        {
+          "id": "lexeme-lumbaras",
+          "form": "lumbaras",
+          "gloss": "escanear",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-lum\">LUM</a> + BAR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LUM + BAR + -AS",
+          "refs": [
+            {
+              "id": "root-lum",
+              "label": "LUM"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "objetos"
+          ]
+        },
+        {
+          "id": "lexeme-barango",
+          "form": "barango",
+          "gloss": "escoba",
+          "analysis_html": "BAR + ANG (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BAR + ANG (segmento no formalizado) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "hogar"
+          ]
+        },
+        {
+          "id": "lexeme-barantan",
+          "form": "barantan",
+          "gloss": "barrendero",
+          "analysis_html": "BAR + <a class=\"morph-link\" href=\"#morph-antan\">-ANTAN</a>",
+          "analysis_text": "BAR + -ANTAN",
+          "refs": [
+            {
+              "id": "morph-antan",
+              "label": "-ANTAN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano agentivo"
+            }
+          ],
+          "semantic_fields": [
+            "oficios",
+            "personas",
+            "hogar"
+          ]
+        },
+        {
+          "id": "lexeme-barasma",
+          "form": "barasma",
+          "gloss": "barrendería, intendencia",
+          "analysis_html": "BAR + ASMA (formación lexicalizada)",
+          "analysis_text": "BAR + ASMA (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "oficios",
+            "hogar",
+            "relaciones"
+          ]
+        }
+      ]
     },
     {
-      "id": "root-bar-b",
-      "form": "*BAR-B",
-      "gloss": "barba, borde ⭐",
+      "id": "root-barb",
+      "form": "*BARB-",
+      "gloss": "barba",
       "tags": [
         {
           "class": "generic",
@@ -1419,7 +1568,372 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-barbalis",
+          "form": "barbalis",
+          "gloss": "crecer la barba",
+          "analysis_html": "BARB + AL (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-is\">-IS</a>",
+          "analysis_text": "BARB + AL (segmento no formalizado) + -IS",
+          "refs": [
+            {
+              "id": "morph-is",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-barbol",
+          "form": "barbol",
+          "gloss": "barbón",
+          "analysis_html": "BARB + OL (formante no formalizado)",
+          "analysis_text": "BARB + OL (formante no formalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "personas",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-lombarbin",
+          "form": "lombarbin",
+          "gloss": "viejo, sabio",
+          "analysis_html": "LOM- (segmento no formalizado) + BARB + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "LOM- (segmento no formalizado) + BARB + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio animante"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "edad",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-sebarbin",
+          "form": "sebarbin",
+          "gloss": "imberbe, joven",
+          "analysis_html": "SE- (segmento no formalizado) + BARB + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "SE- (segmento no formalizado) + BARB + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio animante"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "edad",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-barbo",
+          "form": "barbo",
+          "gloss": "barba",
+          "analysis_html": "BARB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BARB + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "personas"
+          ]
+        },
+        {
+          "id": "lexeme-sobarbo",
+          "form": "sobarbo",
+          "gloss": "barbilla, mentón",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-so-sub\">SO-</a> + BARB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "SO- + BARB + -O",
+          "refs": [
+            {
+              "id": "morph-so-sub",
+              "label": "SO-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "personas"
+          ]
+        },
+        {
+          "id": "lexeme-barben",
+          "form": "barben",
+          "gloss": "bagre",
+          "analysis_html": "BARB + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "BARB + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "animales",
+            "fauna"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-bard",
+      "form": "*BARD-",
+      "gloss": "borde, orilla",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": null,
+      "notes": [],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-bardeas",
+          "form": "bardeas",
+          "gloss": "bordear",
+          "analysis_html": "BARD + <a class=\"morph-link\" href=\"#morph-eas-travel\">-EAS</a>",
+          "analysis_text": "BARD + -EAS",
+          "refs": [
+            {
+              "id": "morph-eas-travel",
+              "label": "-EAS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado EAS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-bardis",
+          "form": "bardis",
+          "gloss": "colindar",
+          "analysis_html": "BARD + <a class=\"morph-link\" href=\"#morph-is\">-IS</a>",
+          "analysis_text": "BARD + -IS",
+          "refs": [
+            {
+              "id": "morph-is",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "dirección"
+          ]
+        },
+        {
+          "id": "lexeme-robarda",
+          "form": "robarda",
+          "gloss": "marco, recuadro",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ro-2\">RO-</a> + BARD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "RO- + BARD + -A",
+          "refs": [
+            {
+              "id": "morph-ro-2",
+              "label": "RO-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "forma"
+          ]
+        },
+        {
+          "id": "lexeme-barda",
+          "form": "barda",
+          "gloss": "borde, orilla",
+          "analysis_html": "BARD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BARD + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-nurbardel",
+          "form": "nurbardel",
+          "gloss": "limítrofe",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-nur\">NUR</a> + BARD + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "NUR + BARD + -EL",
+          "refs": [
+            {
+              "id": "root-nur",
+              "label": "NUR"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "dirección",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-trabarda",
+          "form": "trabarda",
+          "gloss": "babor",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-tra-behind\">TRA-</a> + BARD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TRA- + BARD + -A",
+          "refs": [
+            {
+              "id": "morph-tra-behind",
+              "label": "TRA-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "dirección",
+            "objetos",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-manbarda",
+          "form": "manbarda",
+          "gloss": "estribor",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-man\">MAN</a> + BARD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MAN + BARD + -A",
+          "refs": [
+            {
+              "id": "root-man",
+              "label": "MAN"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "dirección",
+            "objetos",
+            "relaciones"
+          ],
+          "notes": [
+            "MAN- «mano»: denominación interna motivada por el lado donde se encontraba el steer/timón."
+          ]
+        }
+      ]
     },
     {
       "id": "root-bas",
