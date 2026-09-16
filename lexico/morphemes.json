@@ -2083,7 +2083,7 @@
     {
       "id": "morph-so-sub",
       "form": "*SO-",
-      "gloss": "atenuativo; indica un poco, en grado menor",
+      "gloss": "bajo, debajo; por extensión atenuativo, en grado menor",
       "tags": [
         {
           "class": "generic",
@@ -2759,6 +2759,62 @@
       "notes": [
         "Morfema homónimo independiente de la raíz *TRA- «a través». Atestiguado en trabarda."
       ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-se-privative",
+      "form": "*SE-",
+      "gloss": "privativo; sin",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Privativo"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "row_class": ""
+    },
+    {
+      "id": "morph-lom-long",
+      "form": "*LOM-",
+      "gloss": "largo, alargado, elongado; procede de *LON-G",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Derivativo"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "row_class": ""
+    },
+    {
+      "id": "morph-edral",
+      "form": "*-EDRAL",
+      "gloss": "edificio; extensión de *-ED-",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Derivativo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "row_class": ""
+    },
+    {
+      "id": "morph-pla",
+      "form": "*PLA-",
+      "gloss": "morfema derivativo; valor semántico general por definir",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Derivativo"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
       "row_class": ""
     }
   ]

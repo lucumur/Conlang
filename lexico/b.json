@@ -1615,9 +1615,13 @@
           "id": "lexeme-lombarbin",
           "form": "lombarbin",
           "gloss": "viejo, sabio",
-          "analysis_html": "LOM- (segmento no formalizado) + BARB + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
-          "analysis_text": "LOM- (segmento no formalizado) + BARB + -IN",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-lom-long\">LOM-</a> + BARB + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "LOM- + BARB + -IN",
           "refs": [
+            {
+              "id": "morph-lom-long",
+              "label": "LOM-"
+            },
             {
               "id": "morph-in",
               "label": "-IN"
@@ -1639,9 +1643,13 @@
           "id": "lexeme-sebarbin",
           "form": "sebarbin",
           "gloss": "imberbe, joven",
-          "analysis_html": "SE- (segmento no formalizado) + BARB + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
-          "analysis_text": "SE- (segmento no formalizado) + BARB + -IN",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-se-privative\">SE-</a> + BARB + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "SE- + BARB + -IN",
           "refs": [
+            {
+              "id": "morph-se-privative",
+              "label": "SE-"
+            },
             {
               "id": "morph-in",
               "label": "-IN"
@@ -1797,25 +1805,25 @@
           ]
         },
         {
-          "id": "lexeme-robarda",
-          "form": "robarda",
+          "id": "lexeme-robardo",
+          "form": "robardo",
           "gloss": "marco, recuadro",
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ro-2\">RO-</a> + BARD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "RO- + BARD + -A",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ro-2\">RO-</a> + BARD + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "RO- + BARD + -O",
           "refs": [
             {
               "id": "morph-ro-2",
               "label": "RO-"
             },
             {
-              "id": "morph-a-2",
-              "label": "-A"
+              "id": "morph-o",
+              "label": "-O"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Nomen A"
+              "label": "Inanimado O"
             }
           ],
           "semantic_fields": [
@@ -1824,21 +1832,21 @@
           ]
         },
         {
-          "id": "lexeme-barda",
-          "form": "barda",
+          "id": "lexeme-bardo",
+          "form": "bardo",
           "gloss": "borde, orilla",
-          "analysis_html": "BARD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "BARD + -A",
+          "analysis_html": "BARD + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BARD + -O",
           "refs": [
             {
-              "id": "morph-a-2",
-              "label": "-A"
+              "id": "morph-o",
+              "label": "-O"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Nomen A"
+              "label": "Inanimado O"
             }
           ],
           "semantic_fields": [
@@ -1950,7 +1958,209 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-basas",
+          "form": "basas",
+          "gloss": "fundar, establecer",
+          "analysis_html": "BAS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BAS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-basis",
+          "form": "basis",
+          "gloss": "basarse en...",
+          "analysis_html": "BAS + <a class=\"morph-link\" href=\"#morph-is\">-IS</a>",
+          "analysis_text": "BAS + -IS",
+          "refs": [
+            {
+              "id": "morph-is",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "procesos"
+          ]
+        },
+        {
+          "id": "lexeme-basida",
+          "form": "basida",
+          "gloss": "elemento",
+          "analysis_html": "BAS + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BAS + -ID- + -A",
+          "refs": [
+            {
+              "id": "morph-id",
+              "label": "-ID-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-basidel",
+          "form": "basidel",
+          "gloss": "elemental, básico",
+          "analysis_html": "BAS + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "BAS + -ID- + -EL",
+          "refs": [
+            {
+              "id": "morph-id",
+              "label": "-ID-"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-basaj",
+          "form": "basaj",
+          "gloss": "cimientos, principios",
+          "analysis_html": "BAS + <a class=\"morph-link\" href=\"#morph-aj\">-AJ</a>",
+          "analysis_text": "BAS + -AJ",
+          "refs": [
+            {
+              "id": "morph-aj",
+              "label": "-AJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Plural nominal"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "forma"
+          ]
+        },
+        {
+          "id": "lexeme-sobasal",
+          "form": "sobasal",
+          "gloss": "sótano",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-so-sub\">SO-</a> + BAS + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "SO- + BAS + -AL",
+          "refs": [
+            {
+              "id": "morph-so-sub",
+              "label": "SO-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "lugares",
+            "objetos"
+          ]
+        },
+        {
+          "id": "lexeme-basedral",
+          "form": "basedral",
+          "gloss": "cuarteles",
+          "analysis_html": "BAS + <a class=\"morph-link\" href=\"#morph-edral\">-EDRAL</a>",
+          "analysis_text": "BAS + -EDRAL",
+          "refs": [
+            {
+              "id": "morph-edral",
+              "label": "-EDRAL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Edificio"
+            }
+          ],
+          "semantic_fields": [
+            "lugares",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-plabasal",
+          "form": "plabasal",
+          "gloss": "plataforma, base",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-pla\">PLA-</a> + BAS + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "PLA- + BAS + -AL",
+          "refs": [
+            {
+              "id": "morph-pla",
+              "label": "PLA-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "lugares",
+            "forma"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bat",
