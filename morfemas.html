@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Morfemas · Conlang</title>
+  <meta name="description" content="Inventario canónico de morfemas del conlang">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="page-header">
+  <div class="wrap">
+    <div class="brand"><a href="index.html">CONLANG</a></div>
+    <nav class="site-nav" aria-label="Navegación principal">
+  <a href="index.html">Inicio</a>
+  <a href="lexico.html">Léxico</a>
+  <a href="morfemas.html">Morfemas</a>
+  <a href="semantica.html">Semántica</a>
+  <a href="pronombres.html">Pronombres</a>
+  <a href="gramatica.html">Gramática</a>
+  <a href="fonologia.html">Fonología</a>
+  <a href="historia.html">Historia</a>
+</nav>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero compact">
+    <p class="eyebrow">Morfología derivativa y flexiva</p>
+    <h1>Morfemas</h1>
+    <p>Inventario generado directamente desde <code>lexico/morphemes.json</code>. Los repertorios enlazan a las palabras del léxico que usan cada morfema.</p>
+  </section>
+
+  <div class="tool-row">
+    <input id="morph-search" type="search" autocomplete="off" spellcheck="false" placeholder="Buscar morfema, glosa, etiqueta o nota">
+    <span id="morph-count" class="tool-count"></span>
+  </div>
+
+  <section class="lex-section">
+    <div class="table-wrap">
+      <table class="lex-table">
+        <thead><tr><th>Forma</th><th>Glosa y notas</th><th>Etiquetas / repertorio</th></tr></thead>
+        <tbody id="morph-body"><tr><td colspan="3">Cargando…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+<footer class="page-footer"><div class="wrap">Fuente canónica: lexico/morphemes.json</div></footer>
+<script>
+(()=>{
+  const search=document.getElementById('morph-search');
+  const body=document.getElementById('morph-body');
+  const count=document.getElementById('morph-count');
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const norm=s=>String(s??'').toLocaleLowerCase('es').trim();
+  let morphs=[],index={words:[]};
+
+  function tagHTML(tags){return(tags||[]).map(t=>'<span class="tag '+esc(t.class||'generic')+'">'+esc(t.label)+'</span>').join('')}
+  function repertoire(m){
+    const words=(index.words||[]).filter(w=>(w.refs||[]).includes(m.id));
+    if(!words.length)return'<span class="meta-extra">Sin repertorio indexado</span>';
+    return '<div class="morph-notes">'+words.map(w=>'<a href="lexico.html#'+esc(w.id)+'">'+esc(w.form)+'</a>').join(' · ')+'</div>';
+  }
+  function row(m){
+    const notes=(m.notes||[]).map(n=>'<div class="morph-notes">'+esc(n)+'</div>').join('');
+    return '<tr id="'+esc(m.id)+'"><td class="form"><code>'+esc(m.form)+'</code></td><td class="gloss">'+esc(m.gloss)+notes+'</td><td class="tags">'+tagHTML(m.tags)+repertoire(m)+'</td></tr>';
+  }
+  function render(){
+    const q=norm(search.value);
+    const items=morphs.filter(m=>!q||norm([m.form,m.gloss,...(m.tags||[]).map(t=>t.label),...(m.notes||[])].join(' ')).includes(q));
+    body.innerHTML=items.length?items.map(row).join(''):'<tr><td colspan="3">Sin morfemas coincidentes.</td></tr>';
+    count.textContent=items.length+' morfema'+(items.length===1?'':'s');
+  }
+  Promise.all([
+    fetch('lexico/morphemes.json').then(r=>r.json()),
+    fetch('lexico/index.json').then(r=>r.json())
+  ]).then(([m,i])=>{morphs=m.morphemes||[];index=i;render();const h=location.hash.slice(1);if(h)document.getElementById(h)?.scrollIntoView()})
+    .catch(()=>{body.innerHTML='<tr><td colspan="3">No se pudo cargar el inventario.</td></tr>'});
+  search.addEventListener('input',render);
+})();
+</script>
+</body>
+</html>
