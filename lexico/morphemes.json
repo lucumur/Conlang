@@ -700,7 +700,7 @@
     {
       "id": "morph-evos",
       "form": "*-EVOS",
-      "gloss": "pretérito imperfecto absolutivo dinámico",
+      "gloss": "pretérito imperfecto de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -764,7 +764,7 @@
     {
       "id": "morph-esos",
       "form": "*-ESOS",
-      "gloss": "futuro absolutivo dinámico",
+      "gloss": "futuro de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -1320,7 +1320,7 @@
     {
       "id": "morph-or",
       "form": "*-OR",
-      "gloss": "participio de -OS (absolutivo dinámico)",
+      "gloss": "participio de -OS (serie intransitiva)",
       "tags": [
         {
           "class": "generic",
@@ -1359,7 +1359,7 @@
     {
       "id": "morph-os",
       "form": "*-OS",
-      "gloss": "absolutivo dinámico",
+      "gloss": "tipo de verbo intransitivo",
       "tags": [
         {
           "class": "generic",
@@ -1369,7 +1369,10 @@
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Canónico: -OS forma un tipo de verbo intransitivo.",
+        "Sustituye la descripción anterior «absolutivo dinámico» para esta serie."
+      ],
       "row_class": ""
     },
     {
@@ -1391,7 +1394,7 @@
     {
       "id": "morph-ojs",
       "form": "*-OJS",
-      "gloss": "pretérito moderno absolutivo dinámico",
+      "gloss": "pretérito moderno de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -1423,7 +1426,7 @@
     {
       "id": "morph-ovos",
       "form": "*-OVOS",
-      "gloss": "abilitativo absolutivo dinámico",
+      "gloss": "abilitativo de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -1852,7 +1855,7 @@
     {
       "id": "morph-usos",
       "form": "*-USOS",
-      "gloss": "solitivo absolutivo dinámico",
+      "gloss": "solitivo de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -1900,7 +1903,7 @@
     {
       "id": "morph-uros",
       "form": "*-UROS",
-      "gloss": "condicional o irrealis absolutivo dinámico",
+      "gloss": "condicional o irrealis de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -2467,7 +2470,7 @@
     {
       "id": "morph-ok",
       "form": "*-OK",
-      "gloss": "imperativo de -OS",
+      "gloss": "imperativo de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -2482,7 +2485,7 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [
-        "Forma imperativa correspondiente a la serie absolutiva dinámica en -OS."
+        "Forma imperativa correspondiente a la serie intransitiva en -OS."
       ],
       "row_class": ""
     },
