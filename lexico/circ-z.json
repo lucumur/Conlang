@@ -7,12 +7,7 @@
       "id": "root-zaf",
       "form": "*ẐAF-",
       "gloss": "eje",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -24,12 +19,7 @@
       "id": "root-zal",
       "form": "*ẐAL-",
       "gloss": "acero",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -41,12 +31,7 @@
       "id": "root-zamp",
       "form": "*ẐAMP-",
       "gloss": "sellar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -58,12 +43,7 @@
       "id": "root-zan",
       "form": "*ẐAN-",
       "gloss": "estaño",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -76,10 +56,6 @@
       "form": "*ẐANG-",
       "gloss": "vara",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "germanico",
           "label": "Germanico"
@@ -98,10 +74,6 @@
       "gloss": "estar de pie",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-mod"
         }
@@ -117,12 +89,7 @@
       "id": "root-zarb",
       "form": "*ẐARB-",
       "gloss": "estrabico",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -134,12 +101,7 @@
       "id": "root-zat",
       "form": "*ẐAT-",
       "gloss": "estado, ciudad",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -152,10 +114,6 @@
       "form": "*ẐAVAL-",
       "gloss": "Caballo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -172,12 +130,7 @@
       "id": "root-zebr",
       "form": "*ẐEBR-",
       "gloss": "cerebro",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -189,12 +142,7 @@
       "id": "root-zed",
       "form": "*ẐED-",
       "gloss": "dejar, permitir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -207,10 +155,6 @@
       "form": "*ẐEL- (ŜTEL)",
       "gloss": "robar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -227,12 +171,7 @@
       "id": "root-zel",
       "form": "*ẐEL-",
       "gloss": "cielo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -244,12 +183,7 @@
       "id": "root-zen-2",
       "form": "*ẐEN-",
       "gloss": "cien",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -261,12 +195,7 @@
       "id": "root-zerk",
       "form": "*ẐERK-",
       "gloss": "estiercol",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -278,12 +207,7 @@
       "id": "root-zert",
       "form": "*ẐERT-",
       "gloss": "seguro",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -296,10 +220,6 @@
       "form": "*ẐES-",
       "gloss": "Cesar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -316,12 +236,7 @@
       "id": "root-zet-2",
       "form": "*ẐET-",
       "gloss": "ballena, cetaceo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -334,10 +249,6 @@
       "form": "*ẐET-",
       "gloss": "los demas",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -356,10 +267,6 @@
       "gloss": "usted, ella",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -377,10 +284,6 @@
       "gloss": "cisne",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         }
@@ -396,12 +299,7 @@
       "id": "root-zil",
       "form": "*ẐIL-",
       "gloss": "vello, ceja",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -413,12 +311,7 @@
       "id": "root-zim",
       "form": "*ẐIM-",
       "gloss": "estimar, apreciar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -430,12 +323,7 @@
       "id": "root-zim-2",
       "form": "*ẐIM-",
       "gloss": "insecto",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -447,12 +335,7 @@
       "id": "root-zin",
       "form": "*ẐIN-",
       "gloss": "ceniza",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -464,12 +347,7 @@
       "id": "root-zink",
       "form": "*ẐINK-",
       "gloss": "zinc",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -481,12 +359,7 @@
       "id": "root-zip",
       "form": "*ẐIP-",
       "gloss": "estipo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -499,10 +372,6 @@
       "form": "*ẐIP-R-",
       "gloss": "chipre",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -521,10 +390,6 @@
       "gloss": "Circon",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "germanico",
           "label": "Germanico"
         }
@@ -542,10 +407,6 @@
       "gloss": "almacenar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "germanico",
           "label": "Germanico"
         }
@@ -562,10 +423,6 @@
       "form": "*ẐON-",
       "gloss": "piedra",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -588,10 +445,6 @@
       "gloss": "tormenta",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-mod"
         },
@@ -612,10 +465,6 @@
       "form": "*ẐRAM-",
       "gloss": "ceramica",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -638,10 +487,6 @@
       "gloss": "chico",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -658,10 +503,6 @@
       "form": "*ẐUD-",
       "gloss": "estudiar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -680,10 +521,6 @@
       "gloss": "tropezar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "germanico",
           "label": "Germanico"
         }
@@ -699,12 +536,7 @@
       "id": "root-zump",
       "form": "*ẐUMP-",
       "gloss": "mochar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
