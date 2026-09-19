@@ -2981,7 +2981,7 @@
       "section": "sec-i",
       "etymology": null,
       "notes": [
-        "Canónico. Atestiguado en betingo «palo de abedul»."
+        "Canónico. Atestiguado en betingo, tanto «palo de abedul» como «berenjena», sobre raíces homónimas *BET-."
       ],
       "row_class": ""
     },
@@ -3026,6 +3026,24 @@
       "etymology": null,
       "notes": [
         "Canónico. En betite aparece tras una vocal de enlace i: BET + i + -TE."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ono-classifier",
+      "form": "*-ONO",
+      "gloss": "clasificador de semejanza; agrupa por parecido sin expresar literalmente una forma específica",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "clasificador"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "No significa literalmente «redondo»; expresa semejanza clasificatoria. Atestiguado en pombetono «calabaza»."
       ],
       "row_class": ""
     }
