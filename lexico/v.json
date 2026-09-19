@@ -941,6 +941,11 @@
               "class": "generic",
               "label": "Forma libre"
             }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia",
+            "descripción"
           ]
         }
       ]
