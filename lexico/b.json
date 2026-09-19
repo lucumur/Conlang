@@ -6312,16 +6312,201 @@
       ]
     },
     {
-      "id": "root-bov",
-      "form": "*BOV-",
+      "id": "root-bu-2",
+      "form": "*BU-",
       "gloss": "buey",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "etymology": "Etym. Eo. bovo → *BU-",
+      "notes": [
+        "Reemplaza la forma anterior *BOV-.",
+        "Homónima de *BU- «esos dos»."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-buen",
+          "form": "buen",
+          "gloss": "buey",
+          "analysis_html": "BU + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "BU + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "naturaleza"
+          ]
+        },
+        {
+          "id": "lexeme-busen",
+          "form": "busen",
+          "gloss": "vaca",
+          "analysis_html": "BU + <span title=\"formante sexual lexicalizado\">S</span> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "BU + S (formante femenino lexicalizado) + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "femenino"
+          ],
+          "notes": [
+            "S se infiere como formante femenino dentro de esta familia por contraste con buĉen «toro»; no se generaliza aquí como morfema productivo."
+          ]
+        },
+        {
+          "id": "lexeme-bucen",
+          "form": "buĉen",
+          "gloss": "toro",
+          "analysis_html": "BU + <span title=\"formante sexual lexicalizado\">Ĉ</span> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "BU + Ĉ (formante masculino lexicalizado) + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "masculino"
+          ],
+          "notes": [
+            "Ĉ se infiere como formante masculino dentro de esta familia por contraste con busen «vaca»; no se generaliza aquí como morfema productivo."
+          ]
+        },
+        {
+          "id": "lexeme-buron",
+          "form": "buron",
+          "gloss": "vaquero",
+          "analysis_html": "BU + <span title=\"formante relacional lexicalizado\">R</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "BU + R (formante relacional lexicalizado) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "profesiones",
+            "fauna"
+          ],
+          "notes": [
+            "R se interpreta como extensión relacional lexicalizada; su función general no está formalizada."
+          ]
+        },
+        {
+          "id": "lexeme-fjerbuen",
+          "form": "fjerbuen",
+          "gloss": "tapir",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fjer\">FJER</a> + BU + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "FJER + BU + -EN",
+          "refs": [
+            {
+              "id": "root-fjer",
+              "label": "FJER"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "naturaleza"
+          ]
+        },
+        {
+          "id": "lexeme-buto",
+          "form": "buto",
+          "gloss": "bota",
+          "analysis_html": "BU + <span title=\"extensión lexicalizada\">T</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BU + T (extensión lexicalizada) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "ropa",
+            "uso"
+          ],
+          "notes": [
+            "T queda como extensión lexicalizada; no se postula un morfema productivo *-T- a partir de esta forma."
+          ]
+        }
+      ]
     },
     {
       "id": "root-bor-2",
