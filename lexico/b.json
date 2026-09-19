@@ -5362,20 +5362,459 @@
     },
     {
       "id": "root-blov",
-      "form": "*BLOV-",
+      "form": "*BLO-V",
       "gloss": "soplar",
       "tags": [
         {
           "class": "generic",
           "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "etymology": "Etym. Eo. blovi < English blow → *BLO-V",
+      "notes": [
+        "BLOM- es un alomorfo derivativo especializado en hinchamiento, volumen o expansión por aire.",
+        "BLO- es una forma compositiva reducida atestiguada ante PIP-.",
+        "Las extensiones E en bloveos e I en blomia/blomiel son lexicalizadas; su función general aún no está formalizada."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-blovos",
+          "form": "blovos",
+          "gloss": "soplar",
+          "analysis_html": "BLO-V + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BLO-V + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "aire",
+            "procesos",
+            "movimiento"
+          ],
+          "notes": [
+            "Connotación: producir o dejar salir aire; lectura básica e intransitiva del campo de «soplar»."
+          ]
+        },
+        {
+          "id": "lexeme-bloveos",
+          "form": "bloveos",
+          "gloss": "esfumarse",
+          "analysis_html": "BLOV + E (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BLOV + E (extensión lexicalizada) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "cambio",
+            "movimiento"
+          ],
+          "notes": [
+            "Connotación: desaparecer o disiparse gradualmente, como algo llevado o deshecho por el aire."
+          ]
+        },
+        {
+          "id": "lexeme-blovas",
+          "form": "blovas",
+          "gloss": "soplar (transitivo), despeinar, desmadejar, sorprender",
+          "analysis_html": "BLO-V + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BLO-V + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "interacción",
+            "apariencia"
+          ],
+          "notes": [
+            "Connotación central: aplicar una fuerza tipo soplido sobre algo.",
+            "Por extensión puede desordenar pelo o fibras («despeinar, desmadejar») y metafóricamente causar sorpresa súbita."
+          ]
+        },
+        {
+          "id": "lexeme-blomas",
+          "form": "blomas",
+          "gloss": "inflar",
+          "analysis_html": "BLOM- (alomorfo de BLO-V) + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BLOM- (alomorfo de BLO-V) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "cambio",
+            "forma"
+          ],
+          "notes": [
+            "Connotación: aumentar el volumen de algo mediante aire, gas o expansión semejante."
+          ]
+        },
+        {
+          "id": "lexeme-blomis",
+          "form": "blomis",
+          "gloss": "inflamarse",
+          "analysis_html": "BLOM- (alomorfo de BLO-V) + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "BLOM- (alomorfo de BLO-V) + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "inflamación",
+            "estado"
+          ],
+          "notes": [
+            "Connotación: hincharse o aumentar de volumen corporalmente, especialmente por inflamación."
+          ]
+        },
+        {
+          "id": "lexeme-blovatar",
+          "form": "blovatar",
+          "gloss": "sorprendente",
+          "analysis_html": "BLOV + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "BLOV + -AT- + -AR",
+          "refs": [
+            {
+              "id": "morph-at",
+              "label": "-AT-"
+            },
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio AR"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "emociones",
+            "descripción"
+          ],
+          "notes": [
+            "Connotación: algo que irrumpe o impacta de forma súbita, metafóricamente como una ráfaga; de ahí «sorprendente»."
+          ]
+        },
+        {
+          "id": "lexeme-blopipo",
+          "form": "blopipo",
+          "gloss": "flauta",
+          "analysis_html": "BLO- (forma compositiva de BLO-V) + <a class=\"morph-link\" href=\"#root-pip\">PIP</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BLO- (forma compositiva de BLO-V) + PIP + -O",
+          "refs": [
+            {
+              "id": "root-pip",
+              "label": "PIP"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "artes",
+            "aire"
+          ],
+          "notes": [
+            "Connotación: literalmente un tubo/pipa que funciona mediante soplo; instrumento de viento."
+          ]
+        },
+        {
+          "id": "lexeme-blopipon",
+          "form": "blopipon",
+          "gloss": "flautista",
+          "analysis_html": "BLO- (forma compositiva de BLO-V) + <a class=\"morph-link\" href=\"#root-pip\">PIP</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "BLO- (forma compositiva de BLO-V) + PIP + -ON",
+          "refs": [
+            {
+              "id": "root-pip",
+              "label": "PIP"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "artes",
+            "profesiones"
+          ],
+          "notes": [
+            "Uso lexicalizado: persona caracterizada por tocar la flauta; -ON designa aquí al humano relacionado con el instrumento."
+          ]
+        },
+        {
+          "id": "lexeme-arblove",
+          "form": "arblove",
+          "gloss": "viento",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ar\">AR</a> + BLOV + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "AR + BLOV + -E",
+          "refs": [
+            {
+              "id": "root-ar",
+              "label": "AR"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ],
+          "semantic_fields": [
+            "aire",
+            "naturaleza",
+            "movimiento"
+          ],
+          "notes": [
+            "Connotación: aire en movimiento; literalmente «aire que sopla»."
+          ]
+        },
+        {
+          "id": "lexeme-blomo",
+          "form": "blomo",
+          "gloss": "globo",
+          "analysis_html": "BLOM- (alomorfo de BLO-V) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BLOM- (alomorfo de BLO-V) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "forma",
+            "aire"
+          ],
+          "notes": [
+            "Connotación: objeto caracterizado por estar inflado o mantener volumen por aire/gas."
+          ]
+        },
+        {
+          "id": "lexeme-blomel",
+          "form": "blomel",
+          "gloss": "globular",
+          "analysis_html": "BLOM- (alomorfo de BLO-V) + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "BLOM- (alomorfo de BLO-V) + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "descripción",
+            "propiedades físicas"
+          ],
+          "notes": [
+            "Connotación: perteneciente o relativo a una forma globular, sin implicar necesariamente que sea un globo literal."
+          ]
+        },
+        {
+          "id": "lexeme-blomol",
+          "form": "blomol",
+          "gloss": "globoso",
+          "analysis_html": "BLOM- (alomorfo de BLO-V) + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "BLOM- (alomorfo de BLO-V) + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "apariencia",
+            "forma",
+            "descripción"
+          ],
+          "notes": [
+            "Connotación: de aspecto hinchado, redondeado o voluminoso; -OL expresa semejanza/aspecto."
+          ]
+        },
+        {
+          "id": "lexeme-blomia",
+          "form": "blomia",
+          "gloss": "inflamacion",
+          "analysis_html": "BLOM- (alomorfo de BLO-V) + I (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BLOM- (alomorfo de BLO-V) + I (extensión lexicalizada) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "inflamación",
+            "estado"
+          ],
+          "notes": [
+            "Connotación médica: hinchamiento o aumento de volumen de un tejido; la I pertenece a una extensión lexicalizada no generalizada."
+          ]
+        },
+        {
+          "id": "lexeme-blomiel",
+          "form": "blomiel",
+          "gloss": "inflamatorio",
+          "analysis_html": "BLOM- (alomorfo de BLO-V) + I (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "BLOM- (alomorfo de BLO-V) + I (extensión lexicalizada) + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "inflamación",
+            "cualidades"
+          ],
+          "notes": [
+            "Connotación médica: relativo a la inflamación o capaz de producir/acompañar un estado inflamatorio."
+          ]
+        },
+        {
+          "id": "lexeme-alblomas",
+          "form": "alblomas",
+          "gloss": "englobar, incluir",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-al-2\">AL-</a> + BLOM- (alomorfo de BLO-V) + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "AL- + BLOM- (alomorfo de BLO-V) + -AS",
+          "refs": [
+            {
+              "id": "morph-al-2",
+              "label": "AL-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "relaciones",
+            "interacción"
+          ],
+          "notes": [
+            "Connotación: meter o incorporar algo dentro de un conjunto mayor, como si pasara a formar parte de un volumen o totalidad envolvente."
+          ]
+        }
+      ]
     },
     {
       "id": "root-blu",
