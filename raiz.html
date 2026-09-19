@@ -98,7 +98,7 @@
   document.addEventListener('click',e=>{
     const a=e.target.closest('a.morph-link[href^="#"]');if(!a||!index)return;
     const id=a.getAttribute('href').slice(1);
-    if((index.roots||[]).some(r=>r.id===id)){e.preventDefault();location.href='raiz.html?id='+encodeURIComponent(id);return}
+    if((index.roots||[]).some(r=>r.id===id)){e.preventDefault();location.assign('raiz.html?id='+encodeURIComponent(id));return}
     if((index.morphemes||[]).some(m=>m.id===id)){e.preventDefault();location.href='morfemas.html#'+encodeURIComponent(id)}
   });
 
