@@ -9,10 +9,6 @@
       "gloss": "aunque",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "anglo",
           "label": "Anglo"
         }
@@ -30,10 +26,6 @@
       "gloss": "morir",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -49,12 +41,7 @@
       "id": "root-thetaerm",
       "form": "*ΘERM-",
       "gloss": "caliente",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Θ",
       "section": "sec-theta",
       "etymology": null,
@@ -67,10 +54,6 @@
       "form": "*ΘAR-",
       "gloss": "orden",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "indico",
           "label": "Indico"
@@ -90,10 +73,6 @@
       "form": "*ΘE-",
       "gloss": "dios",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -116,10 +95,6 @@
       "gloss": "te",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "sinico",
           "label": "Sinico"
         }
@@ -138,10 +113,6 @@
       "tags": [
         {
           "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "generic",
           "label": "arcaico"
         }
       ],
@@ -156,12 +127,7 @@
       "id": "root-thetaem",
       "form": "*ΘEM-",
       "gloss": "problema",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Θ",
       "section": "sec-theta",
       "etymology": null,
@@ -174,10 +140,6 @@
       "form": "*ΘENK-",
       "gloss": "considerar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -213,10 +175,6 @@
       "gloss": "tu",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -233,10 +191,6 @@
       "form": "*ΘIK-",
       "gloss": "grueso",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "anglo",
           "label": "Anglo"
@@ -255,10 +209,6 @@
       "gloss": "animo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -276,10 +226,6 @@
       "gloss": "delgado",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "anglo",
           "label": "Anglo"
         }
@@ -295,12 +241,7 @@
       "id": "root-thetaiz",
       "form": "*ΘIZ-",
       "gloss": "estornudar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Θ",
       "section": "sec-theta",
       "etymology": null,
@@ -312,12 +253,7 @@
       "id": "root-thetaor",
       "form": "*ΘOR-",
       "gloss": "torax",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Θ",
       "section": "sec-theta",
       "etymology": null,
@@ -330,10 +266,6 @@
       "form": "*ΘRAND-",
       "gloss": "orilla",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -350,12 +282,7 @@
       "id": "root-thetaron",
       "form": "*ΘRON-",
       "gloss": "trono, asiento real",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Θ",
       "section": "sec-theta",
       "etymology": null,
@@ -368,10 +295,6 @@
       "form": "*ΘUN-",
       "gloss": "atunidos",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "germanico",
           "label": "Germanico"
