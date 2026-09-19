@@ -2840,8 +2840,8 @@
     },
     {
       "id": "root-bav",
-      "form": "*BAV-",
-      "gloss": "Baviera",
+      "form": "*BAV-R",
+      "gloss": "bavaria",
       "tags": [
         {
           "class": "generic",
@@ -2856,8 +2856,139 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-bavran",
+          "form": "bavran",
+          "gloss": "bavaro (antiguo)",
+          "analysis_html": "BAV-R + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "BAV-R + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-bavral",
+          "form": "bavral",
+          "gloss": "bavaria",
+          "analysis_html": "BAV-R + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "BAV-R + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-osbavran",
+          "form": "Osbavran",
+          "gloss": "austriaco",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-os-east\">OS-</a> + BAV-R + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "OS- + BAV-R + -AN",
+          "refs": [
+            {
+              "id": "morph-os-east",
+              "label": "OS-"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-osbavral",
+          "form": "Osbavral",
+          "gloss": "Austria",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-os-east\">OS-</a> + BAV-R + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "OS- + BAV-R + -AL",
+          "refs": [
+            {
+              "id": "morph-os-east",
+              "label": "OS-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-vesbavran",
+          "form": "vesbavran",
+          "gloss": "bavario moderno",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ves-west\">VES-</a> + BAV-R + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "VES- + BAV-R + -AN",
+          "refs": [
+            {
+              "id": "morph-ves-west",
+              "label": "VES-"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-vesbavral",
+          "form": "Vesbavral",
+          "gloss": "Bayern",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ves-west\">VES-</a> + BAV-R + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "VES- + BAV-R + -AL",
+          "refs": [
+            {
+              "id": "morph-ves-west",
+              "label": "VES-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-bel",
