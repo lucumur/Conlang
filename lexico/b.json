@@ -5223,19 +5223,142 @@
     {
       "id": "root-blok",
       "form": "*BLOK-",
-      "gloss": "bloquear",
+      "gloss": "bloquear, obstruir",
       "tags": [
         {
           "class": "generic",
           "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
         }
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "etymology": "Etym. Eo. bloki < French bloquer < Germanico bloc → *BLOK-",
+      "notes": [
+        "La familia conserva el valor de impedir el paso, movimiento, acción o acceso."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-blokas",
+          "form": "blokas",
+          "gloss": "bloquear, obstruir",
+          "analysis_html": "BLOK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BLOK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "movimiento",
+            "interacción"
+          ],
+          "notes": [
+            "Connotación: impedir activamente el paso, acceso, avance o funcionamiento de algo."
+          ]
+        },
+        {
+          "id": "lexeme-blokistan",
+          "form": "blokistan",
+          "gloss": "portero (en futbol)",
+          "analysis_html": "BLOK + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "BLOK + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "deportes",
+            "profesiones",
+            "personas"
+          ],
+          "notes": [
+            "Uso lexicalizado en fútbol: jugador dedicado a bloquear o detener el avance del balón hacia la portería."
+          ]
+        },
+        {
+          "id": "lexeme-bloka",
+          "form": "bloka",
+          "gloss": "bloqueo",
+          "analysis_html": "BLOK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BLOK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "movimiento",
+            "estado"
+          ],
+          "notes": [
+            "Connotación: acción, situación o resultado en que un paso, acceso, movimiento o funcionamiento queda impedido."
+          ]
+        },
+        {
+          "id": "lexeme-blokar",
+          "form": "blokar",
+          "gloss": "obstructivo",
+          "analysis_html": "BLOK + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "BLOK + -AR",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio AR"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "movimiento",
+            "interacción"
+          ],
+          "notes": [
+            "Connotación: que bloquea, estorba o impide el paso, avance o funcionamiento."
+          ]
+        }
+      ]
     },
     {
       "id": "root-blov",
