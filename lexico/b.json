@@ -7444,14 +7444,156 @@
     {
       "id": "root-broc",
       "form": "*BROĈ-",
-      "gloss": "broche",
+      "gloss": "broche, fíbula",
       "tags": [],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-broco",
+          "form": "broĉo",
+          "gloss": "broche, fíbula",
+          "analysis_html": "BROĈ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BROĈ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "objetos"
+          ]
+        },
+        {
+          "id": "lexeme-brociko",
+          "form": "broĉiko",
+          "gloss": "pin (tipo de broche)",
+          "analysis_html": "BROĈ + <a class=\"morph-link\" href=\"#morph-ik\">-IK-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BROĈ + -IK- + -O",
+          "refs": [
+            {
+              "id": "morph-ik",
+              "label": "-IK-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Diminutivo"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "objetos"
+          ]
+        },
+        {
+          "id": "lexeme-kosbroco",
+          "form": "koŝbroĉo",
+          "gloss": "hebilla (broche de cadera)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kos\">KOŜ</a> + BROĈ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KOŜ + BROĈ + -O",
+          "refs": [
+            {
+              "id": "root-kos",
+              "label": "KOŜ"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "objetos",
+            "cadera"
+          ]
+        },
+        {
+          "id": "lexeme-abrocas",
+          "form": "abroĉas",
+          "gloss": "abrochar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a-instrumental\">A-</a> + BROĈ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A- + BROĈ + -AS",
+          "refs": [
+            {
+              "id": "morph-a-instrumental",
+              "label": "A-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones de mano",
+            "ropa",
+            "objetos"
+          ],
+          "notes": [
+            "Lectura composicional: ejecutar la acción usando un broche o cierre como medio."
+          ]
+        },
+        {
+          "id": "lexeme-brocosto",
+          "form": "broĉosto",
+          "gloss": "peroné (hueso tipo fíbula)",
+          "analysis_html": "BROĈ + <a class=\"morph-link\" href=\"#root-ost\">OST</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BROĈ + OST + -O",
+          "refs": [
+            {
+              "id": "root-ost",
+              "label": "OST"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "pierna"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bru",
