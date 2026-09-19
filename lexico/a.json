@@ -6968,7 +6968,12 @@
       "letter": "A",
       "section": "sec-a",
       "etymology": "Etym. Eo. akvo → *AŜV-",
-      "notes": [],
+      "notes": [
+        "La grafía canónica de la raíz es AŜV; la antigua ASV queda obsoleta.",
+        "aŝvontan es el derivado humano especializado de aŝvonas mediante -ONTAN «persona dedicada a»; no *aŝvonistan.",
+        "aŝvonar es el participio de aŝvonas: -ONAS → -ONAR.",
+        "El UR de aŝvur no se identifica automáticamente con el -UR superlativo; la ambigüedad formal se conserva."
+      ],
       "row_class": "lex-root-row",
       "words": [
         {

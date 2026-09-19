@@ -1935,7 +1935,7 @@
     {
       "id": "morph-ur-3",
       "form": "*-UR",
-      "gloss": "adjetivo; también superlativizador",
+      "gloss": "adjetivo superlativo",
       "tags": [
         {
           "class": "generic",
@@ -1946,8 +1946,8 @@
       "section": "sec-u",
       "etymology": null,
       "notes": [
-        "Canónico: -UR forma adjetivos.",
-        "También puede emplearse con valor superlativo; se mantiene la ambigüedad formal."
+        "Canónico: -UR es el superlativizador productivo.",
+        "Se admite ambigüedad formal con usos lexicalizados o históricamente reanalizados de la secuencia -ur en palabras ya documentadas."
       ],
       "row_class": ""
     },
@@ -2551,8 +2551,7 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [
-        "Derivación canónica de la serie -ONAS. Sustituye al esperado analógico *-ONISTAN para este valor.",
-        "Distinto de *-ONTON, extensión reduplicada de -ON."
+        "Derivación canónica de la serie -ONAS. Sustituye al esperado analógico *-ONISTAN para este valor."
       ],
       "row_class": ""
     },
