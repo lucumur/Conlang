@@ -6190,13 +6190,126 @@
       "id": "root-bor",
       "form": "*BOR-",
       "gloss": "taladrar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
+      "etymology": "Etym. Eo. bori → *BOR-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-boras",
+          "form": "boras",
+          "gloss": "taladrar",
+          "analysis_html": "BOR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BOR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "materiales",
+            "interacción"
+          ]
+        },
+        {
+          "id": "lexeme-bortro",
+          "form": "bortro",
+          "gloss": "taladro",
+          "analysis_html": "BOR + <a class=\"morph-link\" href=\"#morph-tro-mechanical\">-TRO</a>",
+          "analysis_text": "BOR + -TRO",
+          "refs": [
+            {
+              "id": "morph-tro-mechanical",
+              "label": "-TRO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Objeto mecánico"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "materiales",
+            "procesos"
+          ]
+        },
+        {
+          "id": "lexeme-borko",
+          "form": "borko",
+          "gloss": "agujero",
+          "analysis_html": "BOR + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
+          "analysis_text": "BOR + -KO",
+          "refs": [
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen KO"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "forma",
+            "procesos"
+          ]
+        },
+        {
+          "id": "lexeme-neborzho",
+          "form": "neborẑo",
+          "gloss": "diamante",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ne\">NE-</a> + BOR + <span title=\"formante derivacional lexicalizado\">Ẑ</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NE- + BOR + Ẑ (formante derivacional lexicalizado) + -O",
+          "refs": [
+            {
+              "id": "morph-ne",
+              "label": "NE-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "geología",
+            "objetos"
+          ],
+          "notes": [
+            "Motivación interna: «intaladrable». Se reconoce NE- «negación» + BOR «taladrar» + -O; Ẑ queda como formante derivacional lexicalizado porque no existe todavía un morfema productivo *-Ẑ- o *-ẐO documentado."
+          ]
+        }
+      ]
     },
     {
       "id": "root-bov",
@@ -6226,6 +6339,115 @@
       "notes": [],
       "row_class": "",
       "words": []
+    },
+    {
+      "id": "root-bor-3",
+      "form": "*BOR-",
+      "gloss": "norte",
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "helenico",
+          "label": "Helenico"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": "Etym. de novo; Helenico → *BOR-",
+      "notes": [],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-borpolal",
+          "form": "borpolal",
+          "gloss": "polo norte",
+          "analysis_html": "BOR + POL (tema léxico inferido «polo») + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "BOR + POL (tema léxico inferido «polo») + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            },
+            {
+              "class": "generic",
+              "label": "Provisional"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "dirección",
+            "lugares"
+          ],
+          "notes": [
+            "POL se infiere aquí como tema léxico «polo» a partir de la forma y la glosa; todavía no se registra como raíz independiente."
+          ]
+        },
+        {
+          "id": "lexeme-borblove",
+          "form": "borblove",
+          "gloss": "viento boreal",
+          "analysis_html": "BOR + <a class=\"morph-link\" href=\"#root-blov\">BLO-V</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "BOR + BLO-V + -E",
+          "refs": [
+            {
+              "id": "root-blov",
+              "label": "BLO-V"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ],
+          "semantic_fields": [
+            "aire",
+            "naturaleza",
+            "dirección"
+          ]
+        },
+        {
+          "id": "lexeme-boralbo",
+          "form": "boralbo",
+          "gloss": "aurora boreal",
+          "analysis_html": "BOR + <a class=\"morph-link\" href=\"#root-alb\">ALB</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BOR + ALB + -O",
+          "refs": [
+            {
+              "id": "root-alb",
+              "label": "ALB"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "cielo",
+            "naturaleza",
+            "apariencia"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bra-nk",
