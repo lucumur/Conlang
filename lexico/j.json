@@ -9,10 +9,6 @@
       "gloss": "Janus (Dios Romano)",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         }
@@ -28,12 +24,7 @@
       "id": "root-jar",
       "form": "*JAR-",
       "gloss": "año",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -46,10 +37,6 @@
       "form": "*JARAF-",
       "gloss": "jirafa",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "arabe",
           "label": "Arabe"
@@ -68,10 +55,6 @@
       "gloss": "sanar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -89,10 +72,6 @@
       "gloss": "ser",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -108,12 +87,7 @@
       "id": "root-jet",
       "form": "*JET-",
       "gloss": "lanzar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -126,10 +100,6 @@
       "form": "*JAVAR-",
       "gloss": "jaguar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "iberico",
           "label": "Iberico"
@@ -148,10 +118,6 @@
       "gloss": "ion",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -167,12 +133,7 @@
       "id": "root-jon-2",
       "form": "*JON-",
       "gloss": "lejos",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -203,10 +164,6 @@
       "gloss": "ustedes",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -222,12 +179,7 @@
       "id": "root-ju-2",
       "form": "*JU-",
       "gloss": "joya",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -240,10 +192,6 @@
       "form": "*JUN-",
       "gloss": "uno, unir ⭐",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -260,12 +208,7 @@
       "id": "root-jun-2",
       "form": "*JUN-",
       "gloss": "joven",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -277,12 +220,7 @@
       "id": "root-jur",
       "form": "*JUR-",
       "gloss": "Dia",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -294,12 +232,7 @@
       "id": "root-jur-2",
       "form": "*JUR-",
       "gloss": "jurar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -311,12 +244,7 @@
       "id": "root-jus",
       "form": "*JUS-",
       "gloss": "justo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
