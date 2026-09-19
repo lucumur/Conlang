@@ -7620,6 +7620,101 @@
       "words": []
     },
     {
+      "id": "root-brun",
+      "form": "*BRUN-",
+      "gloss": "tostado, pardo",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": "Etym. interna *BRU-L- → *BRUN-",
+      "notes": [
+        "CANÓNICO: *BRUN- es una raíz secundaria desarrollada internamente a partir de *BRU-L-."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-brunes",
+          "form": "brunes",
+          "gloss": "estar tostado",
+          "analysis_html": "BRUN + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "BRUN + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "cocción",
+            "estado",
+            "apariencia"
+          ]
+        },
+        {
+          "id": "lexeme-bruner",
+          "form": "bruner",
+          "gloss": "tostado, pardo",
+          "analysis_html": "BRUN + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "BRUN + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia",
+            "cocción"
+          ]
+        },
+        {
+          "id": "lexeme-celbrunol",
+          "form": "celbrunol",
+          "gloss": "café claro",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-cel\">CEL</a> + BRUN + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "CEL + BRUN + -OL",
+          "refs": [
+            {
+              "id": "root-cel",
+              "label": "CEL"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia"
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-brus",
       "form": "*BRUS-",
       "gloss": "pecho",
