@@ -4,23 +4,6 @@
   "key": "n",
   "entries": [
     {
-      "id": "root-bor-3",
-      "form": "*BOR-",
-      "gloss": "norte",
-      "tags": [
-        {
-          "class": "griego",
-          "label": "Griego"
-        }
-      ],
-      "letter": "N",
-      "section": "sec-n",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-n",
       "form": "*N-",
       "gloss": "no",
