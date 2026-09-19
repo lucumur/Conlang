@@ -664,6 +664,23 @@
       "words": []
     },
     {
+      "id": "root-skot",
+      "form": "*SKOT-",
+      "gloss": "Escocia",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-sol",
       "form": "*SOL-",
       "gloss": "solido",
