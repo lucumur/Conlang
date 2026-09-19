@@ -9,10 +9,6 @@
       "gloss": "comportarse",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-plen",
           "label": "Nat-Plen"
         },
@@ -256,10 +252,6 @@
       "gloss": "gran",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-Mod"
         },
@@ -280,10 +272,6 @@
       "form": "*AGL-",
       "gloss": "aguila",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-plen",
           "label": "Nat-Plen"
@@ -408,10 +396,6 @@
       "gloss": "cualquiera",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-plen",
           "label": "Nat-Plen"
         },
@@ -432,10 +416,6 @@
       "form": "*AĈ-",
       "gloss": "escoria",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-plen",
           "label": "Nat-Plen"
@@ -481,10 +461,6 @@
       "form": "*AĜ-",
       "gloss": "envejecer",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-plen",
           "label": "Nat-Plen"
@@ -725,10 +701,6 @@
       "form": "*AĴ-",
       "gloss": "hacer",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-Mod"
@@ -977,10 +949,6 @@
       "gloss": "alto",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-plen",
           "label": "Nat-Plen"
         },
@@ -1100,10 +1068,6 @@
       "gloss": "otro",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-Mod"
         },
@@ -1124,10 +1088,6 @@
       "form": "*ALB-",
       "gloss": "blancor",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-red",
           "label": "Nat-Red"
@@ -1443,10 +1403,6 @@
       "gloss": "ajo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-plen",
           "label": "Nat-Plen"
         },
@@ -1540,10 +1496,6 @@
       "gloss": "alearse",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-red",
           "label": "Nat-Red"
         },
@@ -1564,10 +1516,6 @@
       "form": "*ALM-",
       "gloss": "animo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -1846,10 +1794,6 @@
       "gloss": "alumbre",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-Mod"
         },
@@ -1927,10 +1871,6 @@
       "gloss": "amar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-plen",
           "label": "Nat-Plen"
         },
@@ -1951,10 +1891,6 @@
       "form": "*AMBR-",
       "gloss": "ambar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-plen",
           "label": "Nat-Plen"
@@ -2055,10 +1991,6 @@
       "form": "*AMER-K",
       "gloss": "america",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-red",
           "label": "Nat-Red"
@@ -2165,10 +2097,6 @@
       "gloss": "Andes",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-plen",
           "label": "Nat-Plen"
         },
@@ -2189,10 +2117,6 @@
       "form": "*ANKS-",
       "gloss": "angor, sofoco, asfixia",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-red",
           "label": "Nat-Red"
@@ -2463,10 +2387,6 @@
       "gloss": "angulo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-red",
           "label": "Nat-Red"
         },
@@ -2589,10 +2509,6 @@
       "form": "*ANGL-",
       "gloss": "ingles",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-plen",
           "label": "Nat-Plen"
@@ -2794,10 +2710,6 @@
       "gloss": "pato",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-Mod"
         },
@@ -2927,10 +2839,6 @@
       "form": "*ANT-",
       "gloss": "anterior ⭐",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-red",
           "label": "Nat-Red"
@@ -3266,12 +3174,7 @@
       "id": "root-ang-3",
       "form": "*ANĜ-",
       "gloss": "enviar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
@@ -3570,10 +3473,6 @@
       "gloss": "Apolo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-red",
           "label": "Nat-Red"
         },
@@ -3661,10 +3560,6 @@
       "form": "*AFRU-",
       "gloss": "Afrodita",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-red",
           "label": "Nat-Red"
@@ -3778,10 +3673,6 @@
       "gloss": "aparecer",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-red",
           "label": "Nat-Red"
         },
@@ -3801,12 +3692,7 @@
       "id": "root-afr",
       "form": "*AFR-",
       "gloss": "África",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
@@ -3894,10 +3780,6 @@
       "gloss": "a un lado",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-Mod"
         },
@@ -3918,10 +3800,6 @@
       "form": "*AR-",
       "gloss": "aire",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-Mod"
@@ -4016,10 +3894,6 @@
       "form": "*ARB-",
       "gloss": "arbol",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-plen",
           "label": "Nat-Plen"
@@ -4273,10 +4147,6 @@
       "form": "*ARC-",
       "gloss": "arcaico",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -4554,10 +4424,6 @@
       "form": "*ARC-A",
       "gloss": "regir",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -4837,10 +4703,6 @@
       "gloss": "argon",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-red",
           "label": "Nat-Red"
         },
@@ -4914,10 +4776,6 @@
       "form": "*ARJ-",
       "gloss": "arido",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-red",
           "label": "Nat-Red"
@@ -5072,10 +4930,6 @@
       "form": "*ARK-",
       "gloss": "guardar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -5347,10 +5201,6 @@
       "gloss": "arco",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-plen",
           "label": "Nat-Plen"
         },
@@ -5552,10 +5402,6 @@
       "form": "*ARĜ-",
       "gloss": "plata",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-red",
           "label": "Nat-Red"
@@ -5762,10 +5608,6 @@
       "form": "*ARẐ-",
       "gloss": "articular, embonar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-Mod"
@@ -5984,10 +5826,6 @@
       "form": "*AS-TR",
       "gloss": "estrella",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-plen",
           "label": "Nat-Plen"
@@ -6237,12 +6075,7 @@
       "id": "root-asp-r",
       "form": "*ASP-R",
       "gloss": "aspero",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
@@ -6283,12 +6116,7 @@
       "id": "root-athl",
       "form": "*AΘL-",
       "gloss": "competir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
@@ -6446,12 +6274,7 @@
       "id": "root-av",
       "form": "*AV-",
       "gloss": "abuelo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
@@ -6557,10 +6380,6 @@
       "gloss": "avellana",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-red",
           "label": "Nat-Red"
         },
@@ -6658,10 +6477,6 @@
       "form": "*AV-",
       "gloss": "tener",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-Mod"
@@ -6989,10 +6804,6 @@
       "gloss": "asno",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-red",
           "label": "Nat-Red"
         },
@@ -7067,10 +6878,6 @@
       "gloss": "nitrogeno",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-red",
           "label": "Nat-Red"
         },
@@ -7120,10 +6927,6 @@
       "form": "*AŜV-",
       "gloss": "agua",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-Mod"
@@ -7316,10 +7119,6 @@
       "form": "*AVG-",
       "gloss": "Agosto",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-red",
           "label": "Nat-Red"
