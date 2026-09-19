@@ -7,12 +7,7 @@
       "id": "root-zed-r",
       "form": "*ZED-R",
       "gloss": "cedro, enebro",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -25,10 +20,6 @@
       "form": "*ZEN-",
       "gloss": "asno",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -47,10 +38,6 @@
       "gloss": "tiempo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "germanico",
           "label": "Germanico"
         }
@@ -67,10 +54,6 @@
       "form": "*ZIB-R",
       "gloss": "cibernetico",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -89,10 +72,6 @@
       "gloss": "desear",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-mod"
         }
@@ -108,12 +87,7 @@
       "id": "root-zon",
       "form": "*ZON-",
       "gloss": "zona, cinturon",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -125,12 +99,7 @@
       "id": "root-zorg",
       "form": "*ZORG-",
       "gloss": "inquietud",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -143,10 +112,6 @@
       "form": "*ZU-",
       "gloss": "Zeus, Jupiter",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -163,12 +128,7 @@
       "id": "root-zuk",
       "form": "*ZUK-",
       "gloss": "jugo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -180,12 +140,7 @@
       "id": "root-zum",
       "form": "*ZUM-",
       "gloss": "zumbar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -198,10 +153,6 @@
       "form": "*ZUR-",
       "gloss": "azul",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "frances",
           "label": "Frances"
@@ -218,12 +169,7 @@
       "id": "root-zuzu",
       "form": "*ZUZU-",
       "gloss": "tararear",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -235,12 +181,7 @@
       "id": "root-zverg",
       "form": "*ZVERG-",
       "gloss": "enano",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -252,12 +193,7 @@
       "id": "root-zvi",
       "form": "*ZVI-",
       "gloss": "dos",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
