@@ -3792,8 +3792,104 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-vjolbeto",
+          "form": "vjolbeto",
+          "gloss": "betabel",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-vjol\">VJOL</a> + BET + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "VJOL + BET + -O",
+          "refs": [
+            {
+              "id": "root-vjol",
+              "label": "VJOL"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-pombetono",
+          "form": "pombetono",
+          "gloss": "calabaza",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pom\">POM</a> + BET + <a class=\"morph-link\" href=\"#morph-ono-classifier\">-ONO</a>",
+          "analysis_text": "POM + BET + -ONO",
+          "refs": [
+            {
+              "id": "root-pom",
+              "label": "POM"
+            },
+            {
+              "id": "morph-ono-classifier",
+              "label": "-ONO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Clasificador ONO"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-gjinjibeto",
+          "form": "ĝinĝibeto",
+          "gloss": "zanahoria",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ging\">ĜINĜ</a> + I (vocal de enlace) + BET + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĜINĜ + I (vocal de enlace) + BET + -O",
+          "refs": [
+            {
+              "id": "root-ging",
+              "label": "ĜINĜ"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-betingo-vegetable",
+          "form": "betingo",
+          "gloss": "berenjena",
+          "analysis_html": "BET + <a class=\"morph-link\" href=\"#morph-ing-stick\">-ING-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BET + -ING- + -O",
+          "refs": [
+            {
+              "id": "morph-ing-stick",
+              "label": "-ING-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Clasificador ING"
+            }
+          ],
+          "notes": [
+            "Homónimo de betingo «palo de abedul», derivado de la otra raíz *BET- «abedul»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-bid",
