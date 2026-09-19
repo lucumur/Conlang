@@ -7722,9 +7722,127 @@
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "PROVISIONAL: la alternancia BRUS- ~ BRUST- aparece en la familia; su análisis histórico todavía debe formalizarse."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-brusto",
+          "form": "brusto",
+          "gloss": "pecho",
+          "analysis_html": "BRUS + T (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BRUS + T (segmento no formalizado) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "pecho",
+            "cuerpo"
+          ]
+        },
+        {
+          "id": "lexeme-brustilo",
+          "form": "brustilo",
+          "gloss": "pectoral",
+          "analysis_html": "BRUS + T (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BRUS + T (segmento no formalizado) + -IL- + -O",
+          "refs": [
+            {
+              "id": "morph-il-partitive",
+              "label": "-IL-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "pecho",
+            "músculos"
+          ],
+          "notes": [
+            "PROVISIONAL: la función histórica de T en la serie BRUST- todavía no está formalizada."
+          ]
+        },
+        {
+          "id": "lexeme-brusko",
+          "form": "brusko",
+          "gloss": "pechuga",
+          "analysis_html": "BRUS + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
+          "analysis_text": "BRUS + -KO",
+          "refs": [
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen KO"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "carne",
+            "aves"
+          ]
+        },
+        {
+          "id": "lexeme-abrustas",
+          "form": "abrustas",
+          "gloss": "soportar, tolerar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a\">A-</a> + BRUS + T (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A- + BRUS + T (segmento no formalizado) + -AS",
+          "refs": [
+            {
+              "id": "morph-a",
+              "label": "A-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "resistencia",
+            "tolerancia",
+            "conducta"
+          ],
+          "notes": [
+            "Extensión semántica lexicalizada desde «pecho»: resistir, hacer frente, soportar.",
+            "PROVISIONAL: la función histórica de T en la serie BRUST- todavía no está formalizada."
+          ]
+        }
+      ]
     },
     {
       "id": "root-bu",
