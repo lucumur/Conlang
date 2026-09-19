@@ -1266,7 +1266,7 @@
     {
       "id": "morph-ol-2",
       "form": "*-OL",
-      "gloss": "adjetivo de abundancia o parecido",
+      "gloss": "semejanza, aspecto o cuantía",
       "tags": [
         {
           "class": "generic",
@@ -1276,7 +1276,9 @@
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Forma adjetivos caracterizados por semejanza, aspecto o cuantía respecto de la base."
+      ],
       "row_class": ""
     },
     {
@@ -2183,7 +2185,7 @@
     {
       "id": "morph-olda",
       "form": "*-OLDA",
-      "gloss": "forma abstracta derivada de adjetivos en -OL",
+      "gloss": "abstracto de -OL",
       "tags": [
         {
           "class": "generic",
@@ -2194,7 +2196,7 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [
-        "Derivación canónica: adjetivo en -OL → abstracto en -OLDA."
+        "Derivación canónica: forma en -OL → abstracto correspondiente en -OLDA."
       ],
       "row_class": ""
     },
@@ -2941,6 +2943,28 @@
       "section": "sec-v",
       "etymology": null,
       "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-om-quant",
+      "form": "*-OM",
+      "gloss": "cuantificativo; relacionado con cantidad",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "cuantificativo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "Las palabras relacionadas con cantidad pueden portar -OM. Atestiguado en fibestom «a lo bestia, cantidades ingentes»."
+      ],
       "row_class": ""
     }
   ]
