@@ -3056,6 +3056,52 @@
         "Atestiguado en bloveos «esfumarse»."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-onda",
+      "form": "*-ONDA",
+      "gloss": "abstracto correspondiente a una forma humana en -ON",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Provisional"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "Análisis provisional inferido de bravon «bravo, valiente» → bravonda «valentía».",
+        "Se interpreta como formación abstracta de -ON, paralela estructuralmente a -OLDA; su productividad general requiere más ejemplos."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ol-superior",
+      "form": "*OL-",
+      "gloss": "sobre, superior a; relación anatómica suprayacente",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "prefijo"
+        },
+        {
+          "class": "generic",
+          "label": "Provisional"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "Homónimo de otros elementos OL- ya documentados.",
+        "Valor provisional inferido de olbrovo «frente» y olbrovel «superciliar»: designa una región situada sobre o superior a la expresada por la base."
+      ],
+      "row_class": ""
     }
   ]
 }
