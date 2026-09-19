@@ -6532,11 +6532,15 @@
       "words": [
         {
           "id": "lexeme-borace",
-          "form": "borace",
+          "form": "boraĉe",
           "gloss": "borraj, altincar",
-          "analysis_html": "BOR + <span title=\"formante lexicalizado\">AC</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
-          "analysis_text": "BOR + AC (formante lexicalizado) + -E",
+          "analysis_html": "BOR + <a class=\"morph-link\" href=\"#root-ac\">AĈ</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "BOR + AĈ + -E",
           "refs": [
+            {
+              "id": "root-ac",
+              "label": "AĈ"
+            },
             {
               "id": "morph-e",
               "label": "-E"
@@ -6546,59 +6550,25 @@
             {
               "class": "generic",
               "label": "Nomen E"
-            },
-            {
-              "class": "generic",
-              "label": "Lexicalizado"
             }
           ],
           "semantic_fields": [
             "química",
             "sales",
             "materiales"
-          ],
-          "notes": [
-            "AC queda como formante lexicalizado de esta formación; no se postula todavía un morfema productivo *-AC-."
           ]
         },
         {
           "id": "lexeme-boralko",
           "form": "boralko",
           "gloss": "boro",
-          "analysis_html": "BOR + <span title=\"formante químico lexicalizado\">AL</span> + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
-          "analysis_text": "BOR + AL (formante químico lexicalizado) + -KO",
+          "analysis_html": "BOR + <a class=\"morph-link\" href=\"#root-alk\">ALK</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BOR + ALK + -O",
           "refs": [
             {
-              "id": "morph-ko",
-              "label": "-KO"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nomen KO"
+              "id": "root-alk",
+              "label": "ALK"
             },
-            {
-              "class": "generic",
-              "label": "Lexicalizado"
-            }
-          ],
-          "semantic_fields": [
-            "química",
-            "elementos",
-            "materiales"
-          ],
-          "notes": [
-            "AL queda como formante químico lexicalizado; su productividad general no está formalizada."
-          ]
-        },
-        {
-          "id": "lexeme-borakro",
-          "form": "borakro",
-          "gloss": "ácido bórico",
-          "analysis_html": "BOR + <span title=\"formante químico lexicalizado\">AKR</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "BOR + AKR (formante químico lexicalizado) + -O",
-          "refs": [
             {
               "id": "morph-o",
               "label": "-O"
@@ -6608,19 +6578,40 @@
             {
               "class": "generic",
               "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "elementos",
+            "materiales"
+          ]
+        },
+        {
+          "id": "lexeme-borakro",
+          "form": "borakro",
+          "gloss": "ácido bórico",
+          "analysis_html": "BOR + <a class=\"morph-link\" href=\"#root-akr\">AKR</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BOR + AKR + -O",
+          "refs": [
+            {
+              "id": "root-akr",
+              "label": "AKR"
             },
             {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Nomen O"
             }
           ],
           "semantic_fields": [
             "química",
             "ácido-base",
             "materiales"
-          ],
-          "notes": [
-            "AKR queda como formante químico lexicalizado asociado aquí a la formación de «ácido bórico»; no se generaliza como raíz o morfema independiente."
           ]
         },
         {
