@@ -961,10 +961,6 @@
         {
           "class": "generic",
           "label": "sufijo"
-        },
-        {
-          "class": "generic",
-          "label": "Raiz"
         }
       ],
       "letter": "I",
@@ -981,10 +977,6 @@
         {
           "class": "generic",
           "label": "sufijo"
-        },
-        {
-          "class": "generic",
-          "label": "Raiz"
         }
       ],
       "letter": "I",
@@ -1113,10 +1105,6 @@
         {
           "class": "generic",
           "label": "sufijo"
-        },
-        {
-          "class": "generic",
-          "label": "Raiz"
         }
       ],
       "letter": "M",
@@ -1684,10 +1672,6 @@
         {
           "class": "generic",
           "label": "sufijo"
-        },
-        {
-          "class": "generic",
-          "label": "Raiz"
         }
       ],
       "letter": "U",
@@ -1841,10 +1825,6 @@
         {
           "class": "generic",
           "label": "sufijo"
-        },
-        {
-          "class": "generic",
-          "label": "Raiz"
         }
       ],
       "letter": "U",
