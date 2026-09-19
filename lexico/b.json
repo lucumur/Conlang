@@ -5691,7 +5691,31 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-blur",
+          "form": "blur",
+          "gloss": "azul",
+          "analysis_html": "BLU + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "BLU + -UR",
+          "refs": [
+            {
+              "id": "morph-ur-3",
+              "label": "-UR"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": []
+        },
+        {
+          "id": "lexeme-soblur",
+          "form": "soblur",
+          "gloss": "celeste",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": []
+        }
+      ]
     },
     {
       "id": "root-bob",
@@ -5703,7 +5727,24 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-boblo",
+          "form": "boblo",
+          "gloss": "burbuja",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": []
+        },
+        {
+          "id": "lexeme-boblos",
+          "form": "boblos",
+          "gloss": "burbujear",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": []
+        }
+      ]
     },
     {
       "id": "root-boj",
@@ -5715,11 +5756,28 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-bojos",
+          "form": "bojos",
+          "gloss": "ladrar",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": []
+        },
+        {
+          "id": "lexeme-boja",
+          "form": "boja",
+          "gloss": "ladrido",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": []
+        }
+      ]
     },
     {
       "id": "root-bomb",
-      "form": "*BOMB-",
+      "form": "*BOM-B",
       "gloss": "explotar",
       "tags": [],
       "letter": "B",
@@ -5727,7 +5785,48 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-bombis",
+          "form": "bombis",
+          "gloss": "explotar",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": []
+        },
+        {
+          "id": "lexeme-bombo",
+          "form": "bombo",
+          "gloss": "bomba",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": []
+        },
+        {
+          "id": "lexeme-bombor",
+          "form": "bombor",
+          "gloss": "explosivo",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": []
+        },
+        {
+          "id": "lexeme-bombardi",
+          "form": "bombardi",
+          "gloss": "explosivos",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": []
+        },
+        {
+          "id": "lexeme-bombja",
+          "form": "bombja",
+          "gloss": "explosión",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": []
+        }
+      ]
     },
     {
       "id": "root-bon",
