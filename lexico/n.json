@@ -9,10 +9,6 @@
       "gloss": "norte",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -28,12 +24,7 @@
       "id": "root-n",
       "form": "*N-",
       "gloss": "no",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -46,10 +37,6 @@
       "form": "*NA-T",
       "gloss": "nacer",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -66,12 +53,7 @@
       "id": "root-na-v",
       "form": "*NA-V",
       "gloss": "navegar, nadar ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -83,12 +65,7 @@
       "id": "root-naf",
       "form": "*NAF-",
       "gloss": "nueve",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -101,10 +78,6 @@
       "form": "*NAJF-",
       "gloss": "ingenuo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -127,10 +100,6 @@
       "gloss": "cuidar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "anglo",
           "label": "Anglo"
         }
@@ -146,12 +115,7 @@
       "id": "root-nark",
       "form": "*NARK-",
       "gloss": "narcotico",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -164,10 +128,6 @@
       "form": "*NATR-",
       "gloss": "bicarbonato de sodio",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "arabe",
           "label": "Arabe"
@@ -184,12 +144,7 @@
       "id": "root-ne",
       "form": "*NE-",
       "gloss": "dentro",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -201,12 +156,7 @@
       "id": "root-ne-prem",
       "form": "*NE-PREM-",
       "gloss": "absolutamente",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -218,12 +168,7 @@
       "id": "root-ne-v",
       "form": "*NE-V-",
       "gloss": "nieve",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -236,10 +181,6 @@
       "form": "*NEFT-",
       "gloss": "dios acuatico",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -258,10 +199,6 @@
       "gloss": "muerte",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -277,12 +214,7 @@
       "id": "root-nep",
       "form": "*NEP-",
       "gloss": "nieto",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -295,10 +227,6 @@
       "form": "*NER-",
       "gloss": "negro",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "italico",
           "label": "Italico"
@@ -315,12 +243,7 @@
       "id": "root-nes",
       "form": "*NES-",
       "gloss": "nido",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -333,10 +256,6 @@
       "form": "*NIK-",
       "gloss": "victoria",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -353,12 +272,7 @@
       "id": "root-ninf",
       "form": "*NINF-",
       "gloss": "ninfa",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -370,12 +284,7 @@
       "id": "root-noc",
       "form": "*NOC-",
       "gloss": "noche",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -388,10 +297,6 @@
       "form": "*NOD-",
       "gloss": "cabecear",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -410,10 +315,6 @@
       "gloss": "nosotros",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -429,12 +330,7 @@
       "id": "root-nom",
       "form": "*NOM-",
       "gloss": "nombrar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -447,10 +343,6 @@
       "form": "*NON-",
       "gloss": "abuela",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "italico",
           "label": "Italico"
@@ -467,12 +359,7 @@
       "id": "root-northeta",
       "form": "*NORΘ-",
       "gloss": "norte",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -484,12 +371,7 @@
       "id": "root-nos",
       "form": "*NOS-",
       "gloss": "nariz",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -501,12 +383,7 @@
       "id": "root-not",
       "form": "*NOT-",
       "gloss": "nota",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -518,12 +395,7 @@
       "id": "root-noc-2",
       "form": "*NOĈ-",
       "gloss": "indentacion",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -536,10 +408,6 @@
       "form": "*NU-J",
       "gloss": "nuevo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -558,10 +426,6 @@
       "gloss": "casarse",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         }
@@ -577,12 +441,7 @@
       "id": "root-nub-2",
       "form": "*NUB-",
       "gloss": "nube",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -595,10 +454,6 @@
       "form": "*NUL-",
       "gloss": "nada",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -617,10 +472,6 @@
       "gloss": "aire",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -638,10 +489,6 @@
       "gloss": "cerca",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "anglo",
           "label": "Anglo"
         }
@@ -657,12 +504,7 @@
       "id": "root-nur-2",
       "form": "*NUR-",
       "gloss": "cuerda",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -674,12 +516,7 @@
       "id": "root-nus",
       "form": "*NUŜ-",
       "gloss": "nuez",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -692,10 +529,6 @@
       "form": "*NUΘ-",
       "gloss": "desnudo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
