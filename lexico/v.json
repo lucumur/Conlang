@@ -912,6 +912,38 @@
       "notes": [],
       "row_class": "",
       "words": []
+    },
+    {
+      "id": "root-vjol",
+      "form": "*VJOL-",
+      "gloss": "violeta",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": null,
+      "notes": [],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-vjol",
+          "form": "vjol",
+          "gloss": "violeta",
+          "analysis_html": "VJOL (forma libre de *VJOL-)",
+          "analysis_text": "VJOL (forma libre de *VJOL-)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Forma libre"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
