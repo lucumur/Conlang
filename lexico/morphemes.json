@@ -700,7 +700,7 @@
     {
       "id": "morph-evos",
       "form": "*-EVOS",
-      "gloss": "pretérito imperfecto de la serie intransitiva -OS",
+      "gloss": "pretérito imperfecto absolutivo dinámico de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -764,7 +764,7 @@
     {
       "id": "morph-esos",
       "form": "*-ESOS",
-      "gloss": "futuro de la serie intransitiva -OS",
+      "gloss": "futuro absolutivo dinámico de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -1320,7 +1320,7 @@
     {
       "id": "morph-or",
       "form": "*-OR",
-      "gloss": "participio de -OS (serie intransitiva)",
+      "gloss": "participio de -OS (absolutivo dinámico; serie intransitiva)",
       "tags": [
         {
           "class": "generic",
@@ -1359,7 +1359,7 @@
     {
       "id": "morph-os",
       "form": "*-OS",
-      "gloss": "tipo de verbo intransitivo",
+      "gloss": "absolutivo dinámico; tipo de verbo intransitivo",
       "tags": [
         {
           "class": "generic",
@@ -1370,8 +1370,9 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [
-        "Canónico: -OS forma un tipo de verbo intransitivo.",
-        "Sustituye la descripción anterior «absolutivo dinámico» para esta serie."
+        "Canónico: -OS es el absolutivo dinámico y forma un tipo de verbo intransitivo.",
+        "«Dinámico» se opone a la predicación estativa en -ES.",
+        "En la terminología interna del conlang, -OS se usa para acciones verbales sin agente acusativo."
       ],
       "row_class": ""
     },
@@ -1394,7 +1395,7 @@
     {
       "id": "morph-ojs",
       "form": "*-OJS",
-      "gloss": "pretérito moderno de la serie intransitiva -OS",
+      "gloss": "pretérito moderno absolutivo dinámico de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -1426,7 +1427,7 @@
     {
       "id": "morph-ovos",
       "form": "*-OVOS",
-      "gloss": "abilitativo de la serie intransitiva -OS",
+      "gloss": "abilitativo absolutivo dinámico de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -1855,7 +1856,7 @@
     {
       "id": "morph-usos",
       "form": "*-USOS",
-      "gloss": "solitivo de la serie intransitiva -OS",
+      "gloss": "solitivo absolutivo dinámico de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -1903,7 +1904,7 @@
     {
       "id": "morph-uros",
       "form": "*-UROS",
-      "gloss": "condicional o irrealis de la serie intransitiva -OS",
+      "gloss": "condicional o irrealis absolutivo dinámico de la serie intransitiva -OS",
       "tags": [
         {
           "class": "generic",
@@ -2470,7 +2471,7 @@
     {
       "id": "morph-ok",
       "form": "*-OK",
-      "gloss": "imperativo de la serie intransitiva -OS",
+      "gloss": "imperativo de -OS (absolutivo dinámico; serie intransitiva)",
       "tags": [
         {
           "class": "generic",
@@ -2485,7 +2486,7 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [
-        "Forma imperativa correspondiente a la serie intransitiva en -OS."
+        "Forma imperativa correspondiente a la serie absolutiva dinámica e intransitiva en -OS."
       ],
       "row_class": ""
     },
