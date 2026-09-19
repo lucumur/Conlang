@@ -34,7 +34,7 @@ jobs:
           mor=byid.get('morph-or')
           if mor is None:
               raise SystemExit('morph-or not found')
-          mor['gloss']='participio de -OS (serie intransitiva)'
+          mor['gloss']='participio de -OS (absolutivo dinámico; serie intransitiva)'
           mor['notes']=['Canónico: -OR es el participio correspondiente a la serie predicativa en -OS.','El antiguo análisis de -OR como superlativo queda reemplazado; el superlativo productivo se expresa con -UR.']
 
           mur=byid.get('morph-ur-3')
@@ -117,8 +117,8 @@ jobs:
           g=g.replace('<tr><td><code>-AR</code></td><td>participio agentivo</td></tr>',
                       '<tr><td><code>-AR</code></td><td><strong>participio de -AS</strong> (serie agentiva)</td></tr>')
           # Insert participial correspondence and ONAS derivation near predicative section if absent.
-          anchor='  <p><span class="status discard">Descartado</span>Para -OS, la descripción anterior «absolutivo dinámico» queda reemplazada por «tipo de verbo intransitivo». Las antiguas glosas generales «verbo activo» y «adjetivo/participio pasivo» tampoco se mantienen como categorías canónicas.</p>\n'
-          block=anchor+'''\n  <h3>2.1. Participios de las series predicativas</h3>\n  <p><span class="status canon">Canónico</span><code>-AR</code> es el participio de la serie agentiva <code>-AS</code>; <code>-OR</code> es el participio de la serie intransitiva <code>-OS</code>.</p>\n  <p><span class="status canon">Canónico</span>El superlativo productivo se expresa con <code>-UR</code>, no con <code>-OR</code>. Se admite que algunas palabras ya lexicalizadas presenten una secuencia <code>-ur</code> de análisis ambiguo o históricamente reanalizado.</p>\n  <p><span class="status canon">Canónico</span>Dentro de la serie <code>-ONAS</code>, el participio se forma como <code>-ONAR</code> (<code>-ONAS → -ONAR</code>). Para designar «persona dedicada a» esa actividad se usa <code>-ONTAN</code>, en lugar del analógico esperado <code>*-ONISTAN</code>.</p>\n'''
+          anchor='  <p><span class="status discard">Descartado</span>-OS es simultáneamente absolutivo dinámico y un tipo de verbo intransitivo; «dinámico» se opone a la predicación estativa en -ES.</p>\n'
+          block=anchor+'''\n  <h3>2.1. Participios de las series predicativas</h3>\n  <p><span class="status canon">Canónico</span><code>-AR</code> es el participio de la serie agentiva <code>-AS</code>; <code>-OR</code> es el participio de la serie absolutiva dinámica e intransitiva <code>-OS</code>.</p>\n  <p><span class="status canon">Canónico</span>El superlativo productivo se expresa con <code>-UR</code>, no con <code>-OR</code>. Se admite que algunas palabras ya lexicalizadas presenten una secuencia <code>-ur</code> de análisis ambiguo o históricamente reanalizado.</p>\n  <p><span class="status canon">Canónico</span>Dentro de la serie <code>-ONAS</code>, el participio se forma como <code>-ONAR</code> (<code>-ONAS → -ONAR</code>). Para designar «persona dedicada a» esa actividad se usa <code>-ONTAN</code>, en lugar del analógico esperado <code>*-ONISTAN</code>.</p>\n'''
           if '<h3>2.1. Participios de las series predicativas</h3>' not in g:
               if anchor not in g:
                   raise SystemExit('grammar anchor not found')
