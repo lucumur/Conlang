@@ -4097,14 +4097,165 @@
         {
           "class": "generic",
           "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "esper",
+          "label": "Esper"
         }
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
+      "etymology": "Etym. Eo. bido → *BID-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-bidas",
+          "form": "bidas",
+          "gloss": "contar",
+          "analysis_html": "BID + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BID + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "relaciones",
+            "objetos"
+          ]
+        },
+        {
+          "id": "lexeme-bido",
+          "form": "bido",
+          "gloss": "cuenta",
+          "analysis_html": "BID + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BID + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "materiales"
+          ]
+        },
+        {
+          "id": "lexeme-bidaro",
+          "form": "bidaro",
+          "gloss": "rosario",
+          "analysis_html": "BIDAR + O (formación lexicalizada; cf. Eo. bidaro)",
+          "analysis_text": "BIDAR + O (formación lexicalizada; cf. Eo. bidaro)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen religioso"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "cristianismo",
+            "objetos"
+          ]
+        },
+        {
+          "id": "lexeme-abidaros",
+          "form": "abidaros",
+          "gloss": "rezar, usar el rosario",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a-instrumental\">A-</a> + BIDAR (tema de bidaro) + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "A- + BIDAR (tema de bidaro) + -OS",
+          "refs": [
+            {
+              "id": "morph-a-instrumental",
+              "label": "A-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "cristianismo",
+            "procesos"
+          ]
+        },
+        {
+          "id": "lexeme-kocbido",
+          "form": "kocbido",
+          "gloss": "perla",
+          "analysis_html": "KOC (segmento no formalizado) + BID + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KOC (segmento no formalizado) + BID + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "materiales",
+            "naturaleza"
+          ]
+        },
+        {
+          "id": "lexeme-kocbidate",
+          "form": "kocbidate",
+          "gloss": "madreperla",
+          "analysis_html": "KOC (segmento no formalizado) + BID + A (vocal de enlace) + <a class=\"morph-link\" href=\"#morph-te-substance\">-TE</a>",
+          "analysis_text": "KOC (segmento no formalizado) + BID + A (vocal de enlace) + -TE",
+          "refs": [
+            {
+              "id": "morph-te-substance",
+              "label": "-TE"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sustancia TE"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "sustancias",
+            "naturaleza"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bif",
