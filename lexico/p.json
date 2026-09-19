@@ -7,12 +7,7 @@
       "id": "root-paf",
       "form": "*PAF-",
       "gloss": "disparar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -25,10 +20,6 @@
       "form": "*PAJ-",
       "gloss": "padre ⭐",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -46,10 +37,6 @@
       "form": "*PAK-",
       "gloss": "paquete",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "anglo",
           "label": "Anglo"
@@ -70,12 +57,7 @@
       "id": "root-pal",
       "form": "*PAL-",
       "gloss": "palido",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -88,10 +70,6 @@
       "form": "*PALP-",
       "gloss": "palpar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -110,10 +88,6 @@
       "gloss": "parpadear",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -129,12 +103,7 @@
       "id": "root-pan",
       "form": "*PAN-",
       "gloss": "completo, todo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -146,12 +115,7 @@
       "id": "root-pand",
       "form": "*PAND-",
       "gloss": "expandir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -163,12 +127,7 @@
       "id": "root-pans",
       "form": "*PANS-",
       "gloss": "curar, vendar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -180,12 +139,7 @@
       "id": "root-pap",
       "form": "*PAP-",
       "gloss": "alimentar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -198,10 +152,6 @@
       "form": "*PAPA-",
       "gloss": "cotorro",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "iberico",
           "label": "Iberico"
@@ -218,12 +168,7 @@
       "id": "root-papr",
       "form": "*PAPR-",
       "gloss": "papel",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -235,12 +180,7 @@
       "id": "root-par",
       "form": "*PAR-",
       "gloss": "estar junto a, parte ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -252,12 +192,7 @@
       "id": "root-pac",
       "form": "*PAĈ-",
       "gloss": "pastar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -269,12 +204,7 @@
       "id": "root-pas",
       "form": "*PAŜ-",
       "gloss": "andar, caminar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -287,10 +217,6 @@
       "form": "*PAΘ-",
       "gloss": "padecer, sentir",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -311,12 +237,7 @@
       "id": "root-pel",
       "form": "*PEL-",
       "gloss": "repeler, expeler",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -328,12 +249,7 @@
       "id": "root-pen",
       "form": "*PEN-",
       "gloss": "casi, faltar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -345,12 +261,7 @@
       "id": "root-pend",
       "form": "*PEND-",
       "gloss": "colgar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -362,12 +273,7 @@
       "id": "root-pens",
       "form": "*PENS-",
       "gloss": "pesar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -379,12 +285,7 @@
       "id": "root-pep",
       "form": "*PEP-",
       "gloss": "pillar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -397,10 +298,6 @@
       "form": "*PER-",
       "gloss": "puerta",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -419,10 +316,6 @@
       "gloss": "perder",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         }
@@ -440,10 +333,6 @@
       "gloss": "Persia",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "persa",
           "label": "Persa"
         }
@@ -459,12 +348,7 @@
       "id": "root-pet",
       "form": "*PET-",
       "gloss": "pedir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -477,10 +361,6 @@
       "form": "*PET-",
       "gloss": "petalo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -499,10 +379,6 @@
       "gloss": "pagar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-mod"
         }
@@ -520,10 +396,6 @@
       "gloss": "guisante",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -539,12 +411,7 @@
       "id": "root-pi-2",
       "form": "*PI-",
       "gloss": "soportar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -556,12 +423,7 @@
       "id": "root-pid",
       "form": "*PID-",
       "gloss": "pie",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -573,12 +435,7 @@
       "id": "root-pig",
       "form": "*PIG-",
       "gloss": "flojo, lento",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -590,12 +447,7 @@
       "id": "root-pil-k",
       "form": "*PIL-K",
       "gloss": "pelota",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -607,12 +459,7 @@
       "id": "root-pin",
       "form": "*PIN-",
       "gloss": "punta, pico",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -624,12 +471,7 @@
       "id": "root-pip",
       "form": "*PIP-",
       "gloss": "pipa, tubo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -641,12 +483,7 @@
       "id": "root-pir",
       "form": "*PIR-",
       "gloss": "pera",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -659,10 +496,6 @@
       "form": "*PIR-",
       "gloss": "trigo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -681,10 +514,6 @@
       "gloss": "orinar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -700,12 +529,7 @@
       "id": "root-pic",
       "form": "*PIĈ-",
       "gloss": "pinchar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -717,12 +541,7 @@
       "id": "root-pis-2",
       "form": "*PIŜ-",
       "gloss": "pino",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -735,10 +554,6 @@
       "form": "*PIΘ-",
       "gloss": "piton",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -757,10 +572,6 @@
       "gloss": "chimpance",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -776,12 +587,7 @@
       "id": "root-piz",
       "form": "*PIẐ-",
       "gloss": "picar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -793,12 +599,7 @@
       "id": "root-plum",
       "form": "*PLUM-",
       "gloss": "pluma",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -810,12 +611,7 @@
       "id": "root-plat",
       "form": "*PLAT-",
       "gloss": "plano",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -827,12 +623,7 @@
       "id": "root-plac",
       "form": "*PLAĈ-",
       "gloss": "contentar, aplacar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -844,12 +635,7 @@
       "id": "root-plet",
       "form": "*PLET-",
       "gloss": "llenar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -862,10 +648,6 @@
       "form": "*PLEC-",
       "gloss": "enredar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -884,10 +666,6 @@
       "gloss": "zambullirse",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "frances",
           "label": "Frances"
         }
@@ -903,12 +681,7 @@
       "id": "root-plop",
       "form": "*PLOP-",
       "gloss": "alamo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -921,10 +694,6 @@
       "form": "*PLOR-",
       "gloss": "preguntar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -941,12 +710,7 @@
       "id": "root-plu",
       "form": "*PLU-",
       "gloss": "llover",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -958,12 +722,7 @@
       "id": "root-plu-2",
       "form": "*PLU-",
       "gloss": "mucho",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -975,12 +734,7 @@
       "id": "root-pluk",
       "form": "*PLUK-",
       "gloss": "recoger",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -993,10 +747,6 @@
       "form": "*PO-",
       "gloss": "para",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-plen",
           "label": "Nat-plen"
@@ -1015,10 +765,6 @@
       "gloss": "despues",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -1034,12 +780,7 @@
       "id": "root-pojn",
       "form": "*POJN-",
       "gloss": "muñeca",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1051,12 +792,7 @@
       "id": "root-polv",
       "form": "*POLV-",
       "gloss": "polvo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1068,12 +804,7 @@
       "id": "root-pom",
       "form": "*POM-",
       "gloss": "fruta",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1085,12 +816,7 @@
       "id": "root-pon",
       "form": "*PON-",
       "gloss": "occidente, poniente ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1102,12 +828,7 @@
       "id": "root-pong",
       "form": "*PONĜ-",
       "gloss": "empaparse",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1119,12 +840,7 @@
       "id": "root-por",
       "form": "*POR-",
       "gloss": "pasar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1136,12 +852,7 @@
       "id": "root-pork",
       "form": "*PORK-",
       "gloss": "Puerco",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1153,12 +864,7 @@
       "id": "root-port",
       "form": "*PORT-",
       "gloss": "portar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1170,12 +876,7 @@
       "id": "root-porc",
       "form": "*PORC-",
       "gloss": "porche",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1188,10 +889,6 @@
       "form": "*POSUM-",
       "gloss": "tlacuache",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "anglo",
           "label": "Anglo"
@@ -1208,12 +905,7 @@
       "id": "root-pot",
       "form": "*POT-",
       "gloss": "potar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1225,12 +917,7 @@
       "id": "root-pov",
       "form": "*POV-",
       "gloss": "poder",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1242,12 +929,7 @@
       "id": "root-pr",
       "form": "*PR-",
       "gloss": "antes",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1259,12 +941,7 @@
       "id": "root-pra",
       "form": "*PRA-",
       "gloss": "antes, anterior",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1276,12 +953,7 @@
       "id": "root-prav",
       "form": "*PRAV-",
       "gloss": "correcto",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1293,12 +965,7 @@
       "id": "root-pref",
       "form": "*PREF-",
       "gloss": "querer, preferir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1310,12 +977,7 @@
       "id": "root-pren",
       "form": "*PREN-",
       "gloss": "tomar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1327,12 +989,7 @@
       "id": "root-presk",
       "form": "*PRESK-",
       "gloss": "aproximar, acercar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1344,12 +1001,7 @@
       "id": "root-pret",
       "form": "*PRET-",
       "gloss": "listo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1362,10 +1014,6 @@
       "form": "*PREĈ-",
       "gloss": "predicar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -1382,12 +1030,7 @@
       "id": "root-prim",
       "form": "*PRIM-",
       "gloss": "presionar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1400,10 +1043,6 @@
       "form": "*PROV-",
       "gloss": "prueba",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "italico",
           "label": "Italico"
@@ -1424,12 +1063,7 @@
       "id": "root-proc",
       "form": "*PROĈ-",
       "gloss": "reprochar, quejarse",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1442,10 +1076,6 @@
       "form": "*PRU-",
       "gloss": "temprano, reciente",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "germanico",
           "label": "Germanico"
@@ -1464,10 +1094,6 @@
       "gloss": "prudencia",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-plen",
           "label": "Nat-plen"
         }
@@ -1483,12 +1109,7 @@
       "id": "root-prun",
       "form": "*PRUN-",
       "gloss": "ciruela",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1500,12 +1121,7 @@
       "id": "root-pruz",
       "form": "*PRUẐ-",
       "gloss": "chispear",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1517,12 +1133,7 @@
       "id": "root-pub",
       "form": "*PUB-",
       "gloss": "puber",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1534,12 +1145,7 @@
       "id": "root-publ",
       "form": "*PUBL-",
       "gloss": "poblar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1551,12 +1157,7 @@
       "id": "root-pulp",
       "form": "*PULP-",
       "gloss": "carne",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1568,12 +1169,7 @@
       "id": "root-pun",
       "form": "*PUN-",
       "gloss": "doler",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1585,12 +1181,7 @@
       "id": "root-pur",
       "form": "*PUR-",
       "gloss": "puro",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -1603,10 +1194,6 @@
       "form": "*PUT-",
       "gloss": "pozo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -1627,12 +1214,7 @@
       "id": "root-pus",
       "form": "*PUŜ-",
       "gloss": "empujar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
