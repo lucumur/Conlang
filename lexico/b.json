@@ -5384,7 +5384,7 @@
       "notes": [
         "BLOM- es un alomorfo derivativo especializado en hinchamiento, volumen o expansión por aire.",
         "BLO- es una forma compositiva reducida atestiguada ante PIP-.",
-        "Las extensiones E en bloveos e I en blomia/blomiel son lexicalizadas; su función general aún no está formalizada."
+        "La I en blomia/blomiel es una extensión lexicalizada; su función general aún no está formalizada."
       ],
       "row_class": "lex-root-row",
       "words": [
@@ -5419,18 +5419,18 @@
           "id": "lexeme-bloveos",
           "form": "bloveos",
           "gloss": "esfumarse",
-          "analysis_html": "BLOV + E (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "BLOV + E (extensión lexicalizada) + -OS",
+          "analysis_html": "BLO-V + <a class=\"morph-link\" href=\"#morph-eos-directional\">-EOS</a>",
+          "analysis_text": "BLO-V + -EOS",
           "refs": [
             {
-              "id": "morph-os",
-              "label": "-OS"
+              "id": "morph-eos-directional",
+              "label": "-EOS"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado OS"
+              "label": "Predicado EOS"
             }
           ],
           "semantic_fields": [
