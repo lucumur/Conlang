@@ -2197,8 +2197,9 @@
             }
           ],
           "semantic_fields": [
-            "movimiento",
-            "deportes"
+            "golpe",
+            "deportes",
+            "movimiento"
           ]
         },
         {
@@ -2221,7 +2222,8 @@
           ],
           "semantic_fields": [
             "deportes",
-            "movimiento"
+            "golpe",
+            "combate"
           ]
         },
         {
@@ -2244,6 +2246,7 @@
           ],
           "semantic_fields": [
             "objetos",
+            "golpe",
             "deportes"
           ]
         },
@@ -2270,8 +2273,9 @@
             }
           ],
           "semantic_fields": [
+            "postura",
             "anatomía",
-            "cualidades"
+            "estado"
           ]
         },
         {
@@ -2297,9 +2301,9 @@
             }
           ],
           "semantic_fields": [
-            "movimiento",
-            "relaciones",
-            "procesos"
+            "combate",
+            "golpe",
+            "violencia"
           ]
         },
         {
@@ -2325,9 +2329,9 @@
             }
           ],
           "semantic_fields": [
-            "movimiento",
-            "relaciones",
-            "procesos"
+            "combate",
+            "violencia",
+            "interacción"
           ]
         },
         {
@@ -2353,9 +2357,9 @@
             }
           ],
           "semantic_fields": [
-            "relaciones",
-            "procesos",
-            "movimiento"
+            "política",
+            "combate",
+            "cambio"
           ]
         },
         {
@@ -2381,9 +2385,9 @@
             }
           ],
           "semantic_fields": [
-            "personas",
-            "cualidades",
-            "procesos"
+            "fatiga",
+            "estado",
+            "personas"
           ]
         },
         {
@@ -2409,8 +2413,9 @@
             }
           ],
           "semantic_fields": [
-            "relaciones",
-            "procesos"
+            "política",
+            "combate",
+            "cambio"
           ]
         },
         {
@@ -2436,9 +2441,9 @@
             }
           ],
           "semantic_fields": [
+            "combate",
             "deportes",
-            "movimiento",
-            "relaciones"
+            "armas"
           ]
         },
         {
@@ -2464,9 +2469,9 @@
             }
           ],
           "semantic_fields": [
+            "combate",
             "deportes",
-            "movimiento",
-            "relaciones"
+            "armas"
           ]
         },
         {
@@ -2489,7 +2494,7 @@
           ],
           "semantic_fields": [
             "cualidades",
-            "relaciones"
+            "conflicto"
           ]
         },
         {
@@ -2515,9 +2520,9 @@
             }
           ],
           "semantic_fields": [
-            "relaciones",
-            "movimiento",
-            "procesos"
+            "combate",
+            "conflicto",
+            "violencia"
           ]
         },
         {
@@ -2543,9 +2548,9 @@
             }
           ],
           "semantic_fields": [
-            "relaciones",
-            "movimiento",
-            "procesos"
+            "combate",
+            "conflicto",
+            "violencia"
           ]
         },
         {
@@ -2568,8 +2573,8 @@
           ],
           "semantic_fields": [
             "personas",
-            "relaciones",
-            "movimiento"
+            "combate",
+            "conflicto"
           ]
         },
         {
@@ -2596,7 +2601,7 @@
           ],
           "semantic_fields": [
             "deportes",
-            "movimiento",
+            "golpe",
             "objetos"
           ]
         },
@@ -2624,7 +2629,7 @@
           ],
           "semantic_fields": [
             "deportes",
-            "movimiento",
+            "golpe",
             "objetos"
           ]
         },
@@ -2655,9 +2660,9 @@
             }
           ],
           "semantic_fields": [
-            "procesos",
-            "movimiento",
-            "objetos"
+            "preparación",
+            "cocina",
+            "procesos"
           ]
         },
         {
@@ -2684,8 +2689,8 @@
           ],
           "semantic_fields": [
             "objetos",
-            "hogar",
-            "procesos"
+            "cocina",
+            "utensilios"
           ]
         },
         {
@@ -2715,9 +2720,9 @@
             }
           ],
           "semantic_fields": [
-            "procesos",
-            "movimiento",
-            "objetos"
+            "preparación",
+            "cocina",
+            "procesos"
           ]
         },
         {
@@ -2749,7 +2754,7 @@
           "semantic_fields": [
             "sexualidad",
             "interacción",
-            "movimiento"
+            "eufemismo"
           ]
         },
         {
@@ -2776,7 +2781,7 @@
           ],
           "semantic_fields": [
             "movimiento",
-            "relaciones",
+            "interacción",
             "personas"
           ]
         },
@@ -2803,9 +2808,9 @@
             }
           ],
           "semantic_fields": [
-            "movimiento",
-            "relaciones",
-            "objetos"
+            "posesión",
+            "interacción",
+            "movimiento"
           ]
         },
         {
@@ -2831,9 +2836,9 @@
             }
           ],
           "semantic_fields": [
-            "movimiento",
-            "relaciones",
-            "objetos"
+            "posesión",
+            "interacción",
+            "cambio"
           ]
         }
       ]
