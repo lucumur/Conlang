@@ -9,10 +9,6 @@
       "gloss": "haber, ser",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -29,10 +25,6 @@
       "form": "*EBL-",
       "gloss": "ser capaz; posible",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-plen",
           "label": "Nat-Plen"
@@ -305,10 +297,6 @@
       "gloss": "marfil",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         }
@@ -324,12 +312,7 @@
       "id": "root-ec",
       "form": "*EC-",
       "gloss": "puas",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -341,12 +324,7 @@
       "id": "root-ec-2",
       "form": "*EC-",
       "gloss": "sonido",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -359,10 +337,6 @@
       "form": "*ED-",
       "gloss": "construir",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "generic",
           "label": "formal"
@@ -380,10 +354,6 @@
       "form": "*EDR-",
       "gloss": "cara, lado",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-plen",
           "label": "Nat-plen"
@@ -403,10 +373,6 @@
       "tags": [
         {
           "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "generic",
           "label": "Part."
         }
       ],
@@ -422,10 +388,6 @@
       "form": "*EJD-",
       "gloss": "forma",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -445,10 +407,6 @@
       "tags": [
         {
           "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "generic",
           "label": "Part."
         }
       ],
@@ -463,12 +421,7 @@
       "id": "root-el",
       "form": "*EL-",
       "gloss": "fuera",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -481,10 +434,6 @@
       "form": "*ELIK-",
       "gloss": "helice",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -503,10 +452,6 @@
       "gloss": "Eliseo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -524,10 +469,6 @@
       "gloss": "solar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -543,12 +484,7 @@
       "id": "root-elp",
       "form": "*ELP-",
       "gloss": "ayudar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -560,12 +496,7 @@
       "id": "root-empr",
       "form": "*EMPR-",
       "gloss": "Imperio",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -577,12 +508,7 @@
       "id": "root-ep",
       "form": "*EP-",
       "gloss": "cuento",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -595,10 +521,6 @@
       "form": "*EPAT-",
       "gloss": "higado",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "generic",
           "label": "formal"
@@ -616,10 +538,6 @@
       "form": "*ERB-",
       "gloss": "heredar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "germanico",
           "label": "Germanico"
@@ -642,10 +560,6 @@
       "gloss": "trabajo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -663,10 +577,6 @@
       "gloss": "Amor",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -683,10 +593,6 @@
       "form": "*ERV-",
       "gloss": "hierba",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-plen",
           "label": "Nat-plen"
@@ -707,12 +613,7 @@
       "id": "root-erz",
       "form": "*ERZ-",
       "gloss": "mineral",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -724,12 +625,7 @@
       "id": "root-esp-r",
       "form": "*ESP-R-",
       "gloss": "esperanza",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -742,10 +638,6 @@
       "form": "*EST-",
       "gloss": "Estonia",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "germanico",
           "label": "Germanico"
@@ -764,10 +656,6 @@
       "gloss": "caballo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -784,10 +672,6 @@
       "form": "*ET-",
       "gloss": "pequeño",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -806,10 +690,6 @@
       "gloss": "epoca",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         }
@@ -826,10 +706,6 @@
       "form": "*EŜ-",
       "gloss": "comer",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -853,10 +729,6 @@
       "tags": [
         {
           "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "generic",
           "label": "formal"
         }
       ],
@@ -871,12 +743,7 @@
       "id": "root-etheta-r",
       "form": "*EΘ-R",
       "gloss": "eter, anestesia, alcohol",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -888,12 +755,7 @@
       "id": "root-ez",
       "form": "*EẐ-",
       "gloss": "casarse",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
