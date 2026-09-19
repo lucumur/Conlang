@@ -15,6 +15,7 @@
     .lex-table tbody tr[class*="origin-"]>td:first-child{box-shadow:inset 6px 0 var(--root-origin-accent)}
     .lex-card-view .lex-table tbody tr[class*="origin-"]{background:var(--root-origin-bg)!important;border-color:var(--root-origin-accent)!important;border-left:6px solid var(--root-origin-accent)!important}
     .origin-latin{--root-origin-bg:#ffe0d2;--root-origin-accent:#d58d6f}
+    .origin-romance{--root-origin-bg:#ffe7c7;--root-origin-accent:#cf9b58}
     .origin-italico{--root-origin-bg:#ffd9d9;--root-origin-accent:#d48787}
     .origin-frances{--root-origin-bg:#dce9ff;--root-origin-accent:#86a9df}
     .origin-espanol,.origin-iberico{--root-origin-bg:#ffe4b5;--root-origin-accent:#d7a94e}
@@ -69,8 +70,22 @@
   async function loadIndex(){if(!indexPromise)indexPromise=fetch('lexico/index.json').then(r=>{if(!r.ok)throw Error('index');return r.json()});return indexPromise}
   async function loadMorphs(){if(!morphPromise)morphPromise=fetch('lexico/morphemes.json').then(r=>{if(!r.ok)throw Error('morphemes');return r.json()});return morphPromise}
   async function loadLetter(key){if(cache.has(key))return cache.get(key);const meta=LETTERS.find(x=>x.key===key);if(!meta)throw Error('letter');const p=fetch(meta.file).then(r=>{if(!r.ok)throw Error(meta.file);return r.json()});cache.set(key,p);return p}
-  const ORIGIN_CLASSES=new Set(['latin','italico','frances','espanol','portugues','iberico','germanico','anglo','esper','neo','griego','helenico','eslavo','slavo','celta','arabe','baltico','persa','sinico','indico']);
-  function rootOriginClass(e){const t=(e.tags||[]).find(t=>ORIGIN_CLASSES.has(t.class));return t?' origin-'+t.class:''}
+  const ORIGIN_CLASSES=new Set(['latin','romance','italico','frances','espanol','portugues','iberico','germanico','anglo','esper','neo','griego','helenico','eslavo','slavo','celta','arabe','baltico','persa','sinico','indico']);
+  function rootOriginClass(e){
+    const t=(e.tags||[]).find(t=>ORIGIN_CLASSES.has(t.class));
+    if(t)return' origin-'+t.class;
+    const et=norm(e.etymology||'');
+    const rules=[
+      ['latin',/\blatin/],['italico',/\bital(?:ian|ico|iano)?\b/],['frances',/\bfrench\b|\bfranc[eé]s/],
+      ['portugues',/\bportugu/],['iberico',/\biberic|\bespan|\bspanish/],['romance',/\bromance\b/],
+      ['anglo',/\benglish\b|\banglo/],['germanico',/\bgermanic|\bgerman\b|\baleman|\balemán/],
+      ['helenico',/\bhelen|\bgreek\b|\bgriego/],['eslavo',/\beslav|\bslav|\brussian\b|\bruso/],
+      ['celta',/\bcelt/],['arabe',/\barab/],['baltico',/\bbalt/],['persa',/\bpers/],
+      ['sinico',/\bsinic|\bchinese\b|\bchino/],['indico',/\bindic|\bsanskrit|\bhindi/]
+    ];
+    const hit=rules.find(([,re])=>re.test(et));
+    return hit?' origin-'+hit[0]:'';
+  }
   function tagHTML(tags){return(tags||[]).map(t=>`<span class="tag ${esc(t.class||'generic')}">${esc(t.label)}</span>`).join('')}
   function repertoireHTML(targetId,idx,currentRootId=null){const words=(idx?.words||[]).filter(w=>w.refs?.includes(targetId)&&(!currentRootId||w.root_id!==currentRootId));if(!words.length)return'';return`<details class="suffix-repertoire"><summary>Repertorio (${words.length})</summary><div class="suffix-word-list">${words.map(w=>`<a class="word-link" href="#${esc(w.id)}" data-word-id="${esc(w.id)}">${esc(w.form)}</a>`).join('')}</div></details>`}
   function wordHTML(w,root=null){
