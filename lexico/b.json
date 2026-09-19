@@ -3173,9 +3173,13 @@
           "id": "lexeme-skozbendo",
           "form": "skoẑbendo",
           "gloss": "cinta scotch, cinta adhesiva",
-          "analysis_html": "SKOẐ (segmento superficial; relación con *SKOT- no formalizada) + BEND + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "SKOẐ (segmento superficial; relación con *SKOT- no formalizada) + BEND + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-skot\">SKOẐ-</a> (alomorfo compositivo de SKOT-) + BEND + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "SKOẐ- (alomorfo compositivo de SKOT-) + BEND + -O",
           "refs": [
+            {
+              "id": "root-skot",
+              "label": "SKOẐ-"
+            },
             {
               "id": "morph-o",
               "label": "-O"
@@ -3319,8 +3323,51 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-bero",
+          "form": "bero",
+          "gloss": "moral",
+          "analysis_html": "BER + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BER + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-berido",
+          "form": "berido",
+          "gloss": "mora",
+          "analysis_html": "BER + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BER + -ID- + -O",
+          "refs": [
+            {
+              "id": "morph-id",
+              "label": "-ID-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-best",
