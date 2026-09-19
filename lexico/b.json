@@ -2875,6 +2875,11 @@
               "class": "generic",
               "label": "Humano AN"
             }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "antigüedad"
           ]
         },
         {
@@ -2894,6 +2899,11 @@
               "class": "generic",
               "label": "Locativo AL"
             }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares",
+            "antigüedad"
           ]
         },
         {
@@ -2917,6 +2927,11 @@
               "class": "generic",
               "label": "Humano AN"
             }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "geografía"
           ]
         },
         {
@@ -2940,6 +2955,10 @@
               "class": "generic",
               "label": "Locativo AL"
             }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares"
           ]
         },
         {
@@ -2963,6 +2982,11 @@
               "class": "generic",
               "label": "Humano AN"
             }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "geografía"
           ]
         },
         {
@@ -2986,6 +3010,10 @@
               "class": "generic",
               "label": "Locativo AL"
             }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares"
           ]
         }
       ]
@@ -3023,6 +3051,10 @@
               "class": "generic",
               "label": "Adjetivo ER"
             }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "descripción"
           ]
         },
         {
@@ -3032,7 +3064,11 @@
           "analysis_html": "BEL + U (formación canónica; no se identifica con el sufijo masculino *-U)",
           "analysis_text": "BEL + U (formación canónica; no se identifica con *-U masculino)",
           "refs": [],
-          "tags": []
+          "tags": [],
+          "semantic_fields": [
+            "cualidades",
+            "estado"
+          ]
         },
         {
           "id": "lexeme-belis",
@@ -3051,6 +3087,10 @@
               "class": "generic",
               "label": "Predicado IS"
             }
+          ],
+          "semantic_fields": [
+            "estado",
+            "cualidades"
           ]
         }
       ]
@@ -3092,6 +3132,11 @@
               "class": "generic",
               "label": "Humano AN"
             }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "geografía"
           ]
         },
         {
@@ -3111,6 +3156,11 @@
               "class": "generic",
               "label": "Adjetivo ER"
             }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "descripción",
+            "objetos"
           ]
         },
         {
@@ -3130,6 +3180,10 @@
               "class": "generic",
               "label": "Locativo AL"
             }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares"
           ]
         }
       ]
@@ -3167,6 +3221,10 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "materiales"
           ]
         },
         {
@@ -3190,6 +3248,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "materiales",
+            "uso"
           ]
         },
         {
@@ -3213,6 +3276,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "artes",
+            "comunicación",
+            "objetos"
           ]
         },
         {
@@ -3236,6 +3304,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "artes"
           ]
         },
         {
@@ -3259,6 +3331,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "artes",
+            "materiales"
           ]
         },
         {
@@ -3282,6 +3359,10 @@
               "class": "generic",
               "label": "Nomen A"
             }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "artes"
           ]
         },
         {
@@ -3305,6 +3386,10 @@
               "class": "generic",
               "label": "Objeto mecánico TRO"
             }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "uso"
           ]
         }
       ]
@@ -3342,6 +3427,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "naturaleza"
           ]
         },
         {
@@ -3365,6 +3455,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "alimentación",
+            "naturaleza"
           ]
         },
         {
@@ -3384,6 +3479,11 @@
               "class": "generic",
               "label": "Locativo AL"
             }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "lugares",
+            "naturaleza"
           ]
         },
         {
@@ -3407,6 +3507,11 @@
               "class": "generic",
               "label": "Adjetivo OL"
             }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia",
+            "descripción"
           ]
         }
       ]
@@ -3446,6 +3551,11 @@
               "class": "generic",
               "label": "Predicado OS"
             }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "procesos",
+            "comunicación"
           ]
         },
         {
@@ -3465,6 +3575,11 @@
               "class": "generic",
               "label": "Humano ON"
             }
+          ],
+          "semantic_fields": [
+            "personas",
+            "conducta",
+            "cualidades"
           ]
         },
         {
@@ -3488,6 +3603,11 @@
               "class": "generic",
               "label": "Adjetivo OL"
             }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "apariencia",
+            "descripción"
           ]
         },
         {
@@ -3507,6 +3627,11 @@
               "class": "generic",
               "label": "Animado no humano"
             }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "naturaleza"
           ]
         },
         {
@@ -3530,6 +3655,11 @@
               "class": "generic",
               "label": "Adjetivo OL"
             }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "descripción"
           ]
         },
         {
@@ -3553,6 +3683,11 @@
               "class": "generic",
               "label": "Animado no humano"
             }
+          ],
+          "semantic_fields": [
+            "mitología",
+            "animales",
+            "apariencia"
           ]
         },
         {
@@ -3576,6 +3711,10 @@
               "class": "generic",
               "label": "Abstracto OLDA"
             }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "cualidades"
           ]
         },
         {
@@ -3599,6 +3738,10 @@
               "class": "generic",
               "label": "Cuantificativo OM"
             }
+          ],
+          "semantic_fields": [
+            "magnitud",
+            "cualidades"
           ]
         },
         {
@@ -3622,6 +3765,11 @@
               "class": "generic",
               "label": "Abstracto OLDA"
             }
+          ],
+          "semantic_fields": [
+            "mitología",
+            "cualidades",
+            "apariencia"
           ]
         }
       ]
@@ -3659,6 +3807,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "naturaleza"
           ]
         },
         {
@@ -3682,6 +3835,11 @@
               "class": "generic",
               "label": "Grupo taxonómico"
             }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "naturaleza"
           ]
         },
         {
@@ -3705,6 +3863,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "naturaleza"
           ]
         },
         {
@@ -3724,6 +3887,11 @@
               "class": "generic",
               "label": "Sustancia TE"
             }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "botánica",
+            "árboles"
           ]
         },
         {
@@ -3747,6 +3915,11 @@
               "class": "generic",
               "label": "Clasificador ING"
             }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "materiales",
+            "botánica"
           ]
         },
         {
@@ -3770,6 +3943,11 @@
               "class": "generic",
               "label": "Sustancia UNG"
             }
+          ],
+          "semantic_fields": [
+            "sustancias",
+            "materiales",
+            "botánica"
           ]
         }
       ]
@@ -3815,6 +3993,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "vegetales",
+            "botánica"
           ]
         },
         {
@@ -3838,6 +4021,11 @@
               "class": "generic",
               "label": "Clasificador ONO"
             }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "vegetales",
+            "botánica"
           ]
         },
         {
@@ -3861,6 +4049,11 @@
               "class": "generic",
               "label": "Nomen O"
             }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "vegetales",
+            "botánica"
           ]
         },
         {
@@ -3887,6 +4080,11 @@
           ],
           "notes": [
             "Homónimo de betingo «palo de abedul», derivado de la otra raíz *BET- «abedul»."
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "vegetales",
+            "botánica"
           ]
         }
       ]
