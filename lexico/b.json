@@ -3148,8 +3148,162 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-bendo",
+          "form": "bendo",
+          "gloss": "cinta, banda",
+          "analysis_html": "BEND + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BEND + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-skozbendo",
+          "form": "skoẑbendo",
+          "gloss": "cinta scotch, cinta adhesiva",
+          "analysis_html": "SKOẐ (segmento superficial; relación con *SKOT- no formalizada) + BEND + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "SKOẐ (segmento superficial; relación con *SKOT- no formalizada) + BEND + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-sonbendo",
+          "form": "sonbendo",
+          "gloss": "soundtrack",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-son\">SON</a> + BEND + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "SON + BEND + -O",
+          "refs": [
+            {
+              "id": "root-son",
+              "label": "SON"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-sonbenda",
+          "form": "sonbenda",
+          "gloss": "audio (tipo de media)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-son\">SON</a> + BEND + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "SON + BEND + -A",
+          "refs": [
+            {
+              "id": "root-son",
+              "label": "SON"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-mobendo",
+          "form": "mobendo",
+          "gloss": "cinta, videocasette, pelicula",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mov\">MO-</a> + BEND + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MO- + BEND + -O",
+          "refs": [
+            {
+              "id": "root-mov",
+              "label": "MO-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-mobenda",
+          "form": "mobenda",
+          "gloss": "video (tipo de media)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mov\">MO-</a> + BEND + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MO- + BEND + -A",
+          "refs": [
+            {
+              "id": "root-mov",
+              "label": "MO-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-mobendetro",
+          "form": "mobendetro",
+          "gloss": "videocasetera",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mov\">MO-</a> + BEND + E (segmento no formalizado) + <a class=\"morph-link\" href=\"#morph-tro-mechanical\">-TRO</a>",
+          "analysis_text": "MO- + BEND + E (segmento no formalizado) + -TRO",
+          "refs": [
+            {
+              "id": "root-mov",
+              "label": "MO-"
+            },
+            {
+              "id": "morph-tro-mechanical",
+              "label": "-TRO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Objeto mecánico TRO"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-ber",
