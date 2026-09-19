@@ -4430,13 +4430,13 @@
           "label": "Nat-Plen"
         },
         {
-          "class": "esper",
-          "label": "Esper"
+          "class": "germanico",
+          "label": "Germanico"
         }
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": "Etym. Eo. bildo → *BILD-",
+      "etymology": "Etym. Eo. bildo < German Bild → *BILD-",
       "notes": [],
       "row_class": "lex-root-row",
       "words": [
