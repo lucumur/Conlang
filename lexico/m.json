@@ -1281,8 +1281,8 @@
     },
     {
       "id": "root-mov",
-      "form": "*MOV-",
-      "gloss": "mover",
+      "form": "*MO-V",
+      "gloss": "moverse",
       "tags": [
         {
           "class": "generic",
@@ -1292,7 +1292,9 @@
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "MO- es la forma compositiva de *MO-V."
+      ],
       "row_class": "",
       "words": []
     },
