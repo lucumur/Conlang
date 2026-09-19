@@ -5065,12 +5065,22 @@
         {
           "class": "generic",
           "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
         }
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Eo. blanka < Germanico *blank- «blanco, brillante» → *BLANK-",
+      "notes": [
+        "La evolución semántica «blanco» → «sin marcas / vacío / en blanco» motiva la familia moderna."
+      ],
       "row_class": "lex-root-row",
       "words": [
         {
