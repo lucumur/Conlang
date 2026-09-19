@@ -9,10 +9,6 @@
       "gloss": "agua, humedo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         }
@@ -32,10 +28,6 @@
       "gloss": "changuido",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -51,12 +43,7 @@
       "id": "root-ul",
       "form": "*UL-",
       "gloss": "alguno",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -68,12 +55,7 @@
       "id": "root-ulm",
       "form": "*ULM-",
       "gloss": "olmo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -85,12 +67,7 @@
       "id": "root-uln",
       "form": "*ULN-",
       "gloss": "codo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -103,10 +80,6 @@
       "form": "*ULP-",
       "gloss": "zorro",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -123,12 +96,7 @@
       "id": "root-ul-2",
       "form": "*UL-",
       "gloss": "mucho",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -140,12 +108,7 @@
       "id": "root-um-br",
       "form": "*UM-BR-",
       "gloss": "sombra",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -157,12 +120,7 @@
       "id": "root-und",
       "form": "*UND-",
       "gloss": "[sin glosa visible]",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -174,12 +132,7 @@
       "id": "root-ung",
       "form": "*UNG-",
       "gloss": "uña",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -191,12 +144,7 @@
       "id": "root-up",
       "form": "*UP-",
       "gloss": "ulular",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -208,12 +156,7 @@
       "id": "root-ur",
       "form": "*UR-",
       "gloss": "genitivo arcaico",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -225,12 +168,7 @@
       "id": "root-urb",
       "form": "*URB-",
       "gloss": "ciudad",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -242,12 +180,7 @@
       "id": "root-urs",
       "form": "*URS-",
       "gloss": "oso",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -259,12 +192,7 @@
       "id": "root-us",
       "form": "*US-",
       "gloss": "mucho",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -276,12 +204,7 @@
       "id": "root-uz",
       "form": "*UZ-",
       "gloss": "usar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
