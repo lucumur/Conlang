@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Semántica · Conlang</title>
-  <meta name="description" content="Campos semánticos del léxico del conlang">
+  <meta name="description" content="Campos semánticos del vocabulario del conlang">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
     <div class="brand"><a href="index.html">CONLANG</a></div>
     <nav class="site-nav" aria-label="Navegación principal">
   <a href="index.html">Inicio</a>
-  <a href="lexico.html">Léxico</a>
+  <a href="lexico.html">Raíces</a>\n  <a href="vocablos.html">Vocablos</a>
   <a href="morfemas.html">Morfemas</a>
   <a href="semantica.html">Semántica</a>
   <a href="pronombres.html">Pronombres</a>
@@ -27,7 +27,7 @@
   <section class="hero compact">
     <p class="eyebrow">Organización conceptual</p>
     <h1>Semántica</h1>
-    <p>Índice de campos semánticos generado desde las palabras del léxico. Cada campo abre el buscador léxico filtrado por ese tema.</p>
+    <p>Índice de campos semánticos generado desde los vocablos documentados. Cada campo abre la pestaña Vocablos filtrada por ese tema.</p>
   </section>
 
   <section class="lex-section">
@@ -46,7 +46,7 @@
     <div id="semantic-grid" class="semantic-grid"><div class="card">Cargando…</div></div>
   </section>
 </main>
-<footer class="page-footer"><div class="wrap">Campos derivados de lexico/index.json</div></footer>
+<footer class="page-footer"><div class="wrap">Campos derivados de los vocablos en lexico/index.json</div></footer>
 <script>
 (()=>{
   const search=document.getElementById('semantic-search');
@@ -59,7 +59,7 @@
   function render(){
     const q=norm(search.value);
     const items=fields.filter(x=>!q||norm(x.name).includes(q));
-    grid.innerHTML=items.length?items.map(x=>'<a class="semantic-card" href="lexico.html?q='+encodeURIComponent(x.name)+'"><strong>'+esc(x.name)+'</strong><span>'+x.count+' palabra'+(x.count===1?'':'s')+'</span></a>').join(''):'<div class="card">Sin campos coincidentes.</div>';
+    grid.innerHTML=items.length?items.map(x=>'<a class="semantic-card" href="vocablos.html?q='+encodeURIComponent(x.name)+'"><strong>'+esc(x.name)+'</strong><span>'+x.count+' palabra'+(x.count===1?'':'s')+'</span></a>').join(''):'<div class="card">Sin campos coincidentes.</div>';
     count.textContent=items.length+' campo'+(items.length===1?'':'s');
   }
 
