@@ -9,10 +9,6 @@
       "gloss": "",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -29,10 +25,6 @@
       "form": "*K-",
       "gloss": "relativo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -51,10 +43,6 @@
       "gloss": "café",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "arabe",
           "label": "Arabe"
         }
@@ -72,10 +60,6 @@
       "gloss": "Cesar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -92,10 +76,6 @@
       "form": "*KAL-",
       "gloss": "alcali",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -227,12 +207,7 @@
       "id": "root-kal-k",
       "form": "*KAL-K",
       "gloss": "copa",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -245,10 +220,6 @@
       "form": "*KAL-Ẑ",
       "gloss": "caliza, cal",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -265,12 +236,7 @@
       "id": "root-kaml",
       "form": "*KAML-",
       "gloss": "camello",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -282,12 +248,7 @@
       "id": "root-kamp",
       "form": "*KAMP-",
       "gloss": "campo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -300,10 +261,6 @@
       "form": "*KAND-",
       "gloss": "candido",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -322,10 +279,6 @@
       "gloss": "canguro",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "anglo",
           "label": "Anglo"
         }
@@ -341,12 +294,7 @@
       "id": "root-kank",
       "form": "*KANK-",
       "gloss": "cangrejo, tenaza",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -358,12 +306,7 @@
       "id": "root-kant",
       "form": "*KANT-",
       "gloss": "cantar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -375,12 +318,7 @@
       "id": "root-kap",
       "form": "*KAP-",
       "gloss": "cabeza",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -392,12 +330,7 @@
       "id": "root-kap-n",
       "form": "*KAP-N",
       "gloss": "humo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -409,12 +342,7 @@
       "id": "root-kap-r",
       "form": "*KAP-R-",
       "gloss": "cabra",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -426,12 +354,7 @@
       "id": "root-kar",
       "form": "*KAR-",
       "gloss": "querer",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -444,10 +367,6 @@
       "form": "*KARAP-",
       "gloss": "caparazon",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "frances",
           "label": "Frances"
@@ -466,10 +385,6 @@
       "gloss": "carbon",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         }
@@ -485,12 +400,7 @@
       "id": "root-kat",
       "form": "*KAT-",
       "gloss": "gato",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -502,12 +412,7 @@
       "id": "root-kav",
       "form": "*KAV-",
       "gloss": "hueco",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -520,10 +425,6 @@
       "form": "*KAV-R",
       "gloss": "agacharse, cuclillas",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "germanico",
           "label": "Germanico"
@@ -540,12 +441,7 @@
       "id": "root-kaz",
       "form": "*KAZ-",
       "gloss": "ocurrir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -557,12 +453,7 @@
       "id": "root-kac",
       "form": "*KAĈ-",
       "gloss": "capturar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -574,12 +465,7 @@
       "id": "root-kas",
       "form": "*KAŜ-",
       "gloss": "caja, esconder",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -591,12 +477,7 @@
       "id": "root-ker",
       "form": "*KER-",
       "gloss": "cortar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -608,12 +489,7 @@
       "id": "root-kern",
       "form": "*KERN-",
       "gloss": "nucleo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -625,12 +501,7 @@
       "id": "root-kest",
       "form": "*KEST-",
       "gloss": "conquistar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -642,12 +513,7 @@
       "id": "root-kir",
       "form": "*KIR-",
       "gloss": "adquirir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -659,12 +525,7 @@
       "id": "root-kirk",
       "form": "*KIRK-",
       "gloss": "iglesia",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -676,12 +537,7 @@
       "id": "root-klad",
       "form": "*KLAD-",
       "gloss": "tipo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -693,12 +549,7 @@
       "id": "root-klak",
       "form": "*KLAK-",
       "gloss": "clac",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -710,12 +561,7 @@
       "id": "root-klam",
       "form": "*KLAM-",
       "gloss": "clamar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -727,12 +573,7 @@
       "id": "root-klar",
       "form": "*KLAR-",
       "gloss": "claro",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -744,12 +585,7 @@
       "id": "root-klav",
       "form": "*KLAV-",
       "gloss": "llave",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -761,12 +597,7 @@
       "id": "root-kler",
       "form": "*KLER-",
       "gloss": "educar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -778,12 +609,7 @@
       "id": "root-klic",
       "form": "*KLIĈ-",
       "gloss": "rechinar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -795,12 +621,7 @@
       "id": "root-klok",
       "form": "*KLOK-",
       "gloss": "campana",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -812,12 +633,7 @@
       "id": "root-klomb",
       "form": "*KLOMB-",
       "gloss": "paloma",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -829,12 +645,7 @@
       "id": "root-klons",
       "form": "*KLONŜ-",
       "gloss": "tintinear",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -846,12 +657,7 @@
       "id": "root-klos",
       "form": "*KLOŜ-",
       "gloss": "pantalla",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -863,12 +669,7 @@
       "id": "root-klup",
       "form": "*KLUP-",
       "gloss": "esculpir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -881,10 +682,6 @@
       "form": "*KNID-",
       "gloss": "polipo de mar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -901,12 +698,7 @@
       "id": "root-kobl",
       "form": "*KOBL-",
       "gloss": "duende",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -918,12 +710,7 @@
       "id": "root-kojn",
       "form": "*KOJN-",
       "gloss": "oinkear",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -935,12 +722,7 @@
       "id": "root-kok",
       "form": "*KOK-",
       "gloss": "cocinar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -952,12 +734,7 @@
       "id": "root-kok-2",
       "form": "*KOK-",
       "gloss": "kikirikear",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -969,12 +746,7 @@
       "id": "root-koko",
       "form": "*KOKO-",
       "gloss": "fruta grande",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -987,10 +759,6 @@
       "form": "*KOL-",
       "gloss": "coles",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -1007,12 +775,7 @@
       "id": "root-kol-2",
       "form": "*KOL-",
       "gloss": "cuello",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1024,12 +787,7 @@
       "id": "root-kol-t",
       "form": "*KOL-T",
       "gloss": "cosechar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1041,12 +799,7 @@
       "id": "root-kolp",
       "form": "*KOLP-",
       "gloss": "regazo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1058,12 +811,7 @@
       "id": "root-kom",
       "form": "*KOM-",
       "gloss": "peinar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1076,10 +824,6 @@
       "form": "*KOMIK-",
       "gloss": "comico",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -1096,12 +840,7 @@
       "id": "root-kon",
       "form": "*KON-",
       "gloss": "conocer",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1113,12 +852,7 @@
       "id": "root-konc",
       "form": "*KO-N-C",
       "gloss": "concha, valva",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1132,12 +866,7 @@
       "id": "root-kont",
       "form": "*KONT-",
       "gloss": "contar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1150,10 +879,6 @@
       "form": "*KOPL-",
       "gloss": "pareja",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -1170,12 +895,7 @@
       "id": "root-kor",
       "form": "*KOR-",
       "gloss": "cuervo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1187,12 +907,7 @@
       "id": "root-kord",
       "form": "*KORD-",
       "gloss": "corazon",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1204,12 +919,7 @@
       "id": "root-korp",
       "form": "*KORP-",
       "gloss": "cuerpo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1222,10 +932,6 @@
       "form": "*KORT-",
       "gloss": "corte (palaciega)",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "frances",
           "label": "Frances"
@@ -1242,12 +948,7 @@
       "id": "root-kos-l",
       "form": "*KOS-L",
       "gloss": "consultar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1260,10 +961,6 @@
       "form": "*KOS-M",
       "gloss": "universo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -1280,12 +977,7 @@
       "id": "root-kot",
       "form": "*KOT-",
       "gloss": "lodo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1297,12 +989,7 @@
       "id": "root-koz",
       "form": "*KOZ-",
       "gloss": "causar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1314,12 +1001,7 @@
       "id": "root-kos",
       "form": "*KOŜ-",
       "gloss": "cadera, pelvis",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1331,12 +1013,7 @@
       "id": "root-krac",
       "form": "*KRAC-",
       "gloss": "crujir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1348,12 +1025,7 @@
       "id": "root-krad",
       "form": "*KRAD-",
       "gloss": "reja",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1365,12 +1037,7 @@
       "id": "root-kramp",
       "form": "*KRAMP-",
       "gloss": "grapa",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1382,12 +1049,7 @@
       "id": "root-krang",
       "form": "*KRANG-",
       "gloss": "bang",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1399,12 +1061,7 @@
       "id": "root-kras",
       "form": "*KRAŜ-",
       "gloss": "chocar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1416,12 +1073,7 @@
       "id": "root-kret",
       "form": "*KRET-",
       "gloss": "Creta",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1433,12 +1085,7 @@
       "id": "root-kri",
       "form": "*KRI-",
       "gloss": "gritar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1450,12 +1097,7 @@
       "id": "root-kric",
       "form": "*KRIĈ-",
       "gloss": "chirria",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1467,12 +1109,7 @@
       "id": "root-kro",
       "form": "*KRO-",
       "gloss": "excepto",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1484,12 +1121,7 @@
       "id": "root-kron",
       "form": "*KRON-",
       "gloss": "corona",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1501,12 +1133,7 @@
       "id": "root-krud",
       "form": "*KRUD-",
       "gloss": "crudo, cruel",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1519,10 +1146,6 @@
       "form": "*KSIP-",
       "gloss": "embarcar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -1539,12 +1162,7 @@
       "id": "root-kun",
       "form": "*KUN-",
       "gloss": "juntar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1556,12 +1174,7 @@
       "id": "root-kunkl",
       "form": "*KUNKL-",
       "gloss": "Conejo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1573,12 +1186,7 @@
       "id": "root-kur",
       "form": "*KUR-",
       "gloss": "cuidar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1590,12 +1198,7 @@
       "id": "root-kurs",
       "form": "*KURS-",
       "gloss": "correr ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -1608,10 +1211,6 @@
       "form": "*KUG-",
       "gloss": "tejer",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -1628,12 +1227,7 @@
       "id": "root-kus",
       "form": "*KUŜ-",
       "gloss": "estar acostado",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
