@@ -4803,29 +4803,251 @@
             "emociones",
             "cualidades"
           ]
+        },
+        {
+          "id": "lexeme-belbjatolda",
+          "form": "belbjatolda",
+          "gloss": "beatitud, bienaventuranza",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + BJAT + <a class=\"morph-link\" href=\"#morph-olda\">-OLDA</a>",
+          "analysis_text": "BEL + BJAT + -OLDA",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-olda",
+              "label": "-OLDA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto OLDA"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "cristianismo",
+            "estado"
+          ]
         }
       ]
     },
     {
       "id": "root-bjel",
       "form": "*BJEL-",
-      "gloss": "blanco (connotacion rusa)",
+      "gloss": "blanco (connotativo o arcaico)",
       "tags": [
         {
           "class": "generic",
           "label": "Raiz"
         },
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
         }
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "etymology": "Etym. Eslavo → *BJEL-",
+      "notes": [
+        "Valor connotativo o arcaico de «blanco»."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-bjelpura",
+          "form": "bjelpura",
+          "gloss": "virginidad",
+          "analysis_html": "BJEL + <a class=\"morph-link\" href=\"#root-pur\">PUR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BJEL + PUR + -A",
+          "refs": [
+            {
+              "id": "root-pur",
+              "label": "PUR"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "sexualidad",
+            "estado",
+            "religión"
+          ]
+        },
+        {
+          "id": "lexeme-bjelpurin",
+          "form": "bjelpurin",
+          "gloss": "virgen",
+          "analysis_html": "BJEL + <a class=\"morph-link\" href=\"#root-pur\">PUR</a> + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "BJEL + PUR + -IN",
+          "refs": [
+            {
+              "id": "root-pur",
+              "label": "PUR"
+            },
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animante IN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "sexualidad",
+            "religión"
+          ]
+        },
+        {
+          "id": "lexeme-bjelrosval",
+          "form": "bjelrosval",
+          "gloss": "bielorrusia",
+          "analysis_html": "BJEL + ROSV (tema geográfico no formalizado) + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "BJEL + ROSV (tema geográfico no formalizado) + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen AL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares"
+          ]
+        },
+        {
+          "id": "lexeme-bjelrosvin",
+          "form": "bjelrosvin",
+          "gloss": "bielorruso",
+          "analysis_html": "BJEL + ROSV (tema geográfico no formalizado) + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "BJEL + ROSV (tema geográfico no formalizado) + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animante IN"
+            }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "geografía"
+          ]
+        },
+        {
+          "id": "lexeme-bjelzeten",
+          "form": "bjelẑeten",
+          "gloss": "beluga",
+          "analysis_html": "BJEL + <a class=\"morph-link\" href=\"#root-zet-2\">ẐET</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "BJEL + ẐET + -EN",
+          "refs": [
+            {
+              "id": "root-zet-2",
+              "label": "ẐET"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales acuáticos",
+            "naturaleza"
+          ]
+        },
+        {
+          "id": "lexeme-bjelkorda",
+          "form": "bjelkorda",
+          "gloss": "inocencia",
+          "analysis_html": "BJEL + <a class=\"morph-link\" href=\"#root-kord\">KORD</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BJEL + KORD + -A",
+          "refs": [
+            {
+              "id": "root-kord",
+              "label": "KORD"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "estado"
+          ]
+        },
+        {
+          "id": "lexeme-bjelkordin",
+          "form": "bjelkordin",
+          "gloss": "inocente",
+          "analysis_html": "BJEL + <a class=\"morph-link\" href=\"#root-kord\">KORD</a> + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "BJEL + KORD + -IN",
+          "refs": [
+            {
+              "id": "root-kord",
+              "label": "KORD"
+            },
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animante IN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "cualidades",
+            "conducta"
+          ]
+        }
+      ]
     },
     {
       "id": "root-blank",
