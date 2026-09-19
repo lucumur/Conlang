@@ -5704,16 +5704,45 @@
               "label": "-UR"
             }
           ],
-          "tags": [],
-          "semantic_fields": []
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo UR"
+            }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia",
+            "descripción"
+          ]
         },
         {
           "id": "lexeme-soblur",
           "form": "soblur",
           "gloss": "celeste",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": []
+          "refs": [
+            {
+              "id": "morph-so-sub",
+              "label": "SO-"
+            },
+            {
+              "id": "morph-ur-3",
+              "label": "-UR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo UR"
+            }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia",
+            "descripción"
+          ],
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-so-sub\">SO-</a> + BLU + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "SO- + BLU + -UR"
         }
       ]
     },
@@ -5732,17 +5761,56 @@
           "id": "lexeme-boblo",
           "form": "boblo",
           "gloss": "burbuja",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": []
+          "refs": [
+            {
+              "id": "morph-lo",
+              "label": "-LO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen LO"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "aire",
+            "naturaleza"
+          ],
+          "analysis_html": "BOB + <a class=\"morph-link\" href=\"#morph-lo\">-LO</a>",
+          "analysis_text": "BOB + -LO"
         },
         {
           "id": "lexeme-boblos",
           "form": "boblos",
           "gloss": "burbujear",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": []
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Provisional"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "aire",
+            "naturaleza"
+          ],
+          "analysis_html": "BOB + L (extensión temática inferida) + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BOB + L (extensión temática inferida) + -OS",
+          "notes": [
+            "Análisis inferido por relación con boblo «burbuja»: se reconoce un tema BOB-L- ante -OS. La L no se eleva aquí a morfema productivo independiente."
+          ]
         }
       ]
     },
@@ -5761,17 +5829,49 @@
           "id": "lexeme-bojos",
           "form": "bojos",
           "gloss": "ladrar",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": []
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "animales",
+            "comunicación",
+            "sonido"
+          ],
+          "analysis_html": "BOJ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BOJ + -OS"
         },
         {
           "id": "lexeme-boja",
           "form": "boja",
           "gloss": "ladrido",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": []
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "animales",
+            "comunicación",
+            "sonido"
+          ],
+          "analysis_html": "BOJ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BOJ + -A"
         }
       ]
     },
@@ -5790,41 +5890,127 @@
           "id": "lexeme-bombis",
           "form": "bombis",
           "gloss": "explotar",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": []
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "violencia",
+            "sonido"
+          ],
+          "analysis_html": "BOM-B + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "BOM-B + -IS"
         },
         {
           "id": "lexeme-bombo",
           "form": "bombo",
           "gloss": "bomba",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": []
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "armas",
+            "objetos",
+            "violencia"
+          ],
+          "analysis_html": "BOM-B + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BOM-B + -O"
         },
         {
           "id": "lexeme-bombor",
           "form": "bombor",
           "gloss": "explosivo",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": []
+          "refs": [
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio de OS"
+            }
+          ],
+          "semantic_fields": [
+            "armas",
+            "violencia",
+            "cualidades"
+          ],
+          "analysis_html": "BOM-B + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "BOM-B + -OR"
         },
         {
           "id": "lexeme-bombardi",
           "form": "bombardi",
           "gloss": "explosivos",
           "refs": [],
-          "tags": [],
-          "semantic_fields": []
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Plural lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Provisional"
+            }
+          ],
+          "semantic_fields": [
+            "armas",
+            "objetos",
+            "violencia"
+          ],
+          "analysis_html": "BOM-B + ARDI (extensión plural lexicalizada; segmentación interna no formalizada)",
+          "analysis_text": "BOM-B + ARDI (extensión plural lexicalizada; segmentación interna no formalizada)",
+          "notes": [
+            "La glosa plural está fijada por la entrada. No se analiza como plural regular en -I porque la secuencia -ARDI no corresponde actualmente a un morfema o paradigma documentado."
+          ]
         },
         {
           "id": "lexeme-bombja",
           "form": "bombja",
           "gloss": "explosión",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": []
+          "refs": [
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "violencia",
+            "sonido"
+          ],
+          "analysis_html": "BOM-B + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BOM-B + -J- + -A"
         }
       ]
     },
