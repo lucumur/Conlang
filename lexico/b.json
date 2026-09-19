@@ -5071,8 +5071,144 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-blankas",
+          "form": "blankas",
+          "gloss": "vaciar, borrar",
+          "analysis_html": "BLANK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BLANK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "cambio",
+            "estado"
+          ],
+          "notes": [
+            "Connotación: acción transitiva de dejar algo vacío, limpio o sin contenido/marcas; puede aplicarse a borrar escritura, información o contenido."
+          ]
+        },
+        {
+          "id": "lexeme-blankos",
+          "form": "blankos",
+          "gloss": "vaciarse, borrarse",
+          "analysis_html": "BLANK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BLANK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "cambio",
+            "estado"
+          ],
+          "notes": [
+            "Connotación: proceso intransitivo por el que algo queda vacío, limpio o sin marcas/contenido."
+          ]
+        },
+        {
+          "id": "lexeme-blanker",
+          "form": "blanker",
+          "gloss": "vacio, limpio, en blanco",
+          "analysis_html": "BLANK + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "BLANK + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "descripción",
+            "uso"
+          ],
+          "notes": [
+            "Connotación: algo vacío o limpio pero disponible para uso inmediato; especialmente una superficie u objeto aún no escrito, rayado o utilizado, como un cuaderno en blanco."
+          ]
+        },
+        {
+          "id": "lexeme-blanka",
+          "form": "blanka",
+          "gloss": "vacuidad",
+          "analysis_html": "BLANK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BLANK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "cualidades",
+            "descripción"
+          ],
+          "notes": [
+            "Connotación: estado o cualidad abstracta de estar vacío, limpio o carente de contenido."
+          ]
+        },
+        {
+          "id": "lexeme-blankam",
+          "form": "blankam",
+          "gloss": "en blanco, de cero",
+          "analysis_html": "BLANK + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "BLANK + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            }
+          ],
+          "semantic_fields": [
+            "inicio",
+            "estado",
+            "procesos"
+          ],
+          "notes": [
+            "Connotación: desde un estado inicial sin contenido previo; empezar de cero o comenzar en blanco."
+          ]
+        }
+      ]
     },
     {
       "id": "root-blok",
