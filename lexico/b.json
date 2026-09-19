@@ -7062,8 +7062,142 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-bravik",
+          "form": "bravik",
+          "gloss": "¡ánimo!, ¡bravo!",
+          "analysis_html": "BRAV + <span title=\"formante interjectivo lexicalizado\">IK</span>",
+          "analysis_text": "BRAV + IK (formante interjectivo lexicalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Interjección"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "exclamaciones",
+            "ánimo",
+            "comunicación"
+          ],
+          "notes": [
+            "IK no se identifica con el diminutivo -IK-; aquí queda como formante interjectivo lexicalizado."
+          ]
+        },
+        {
+          "id": "lexeme-bravon",
+          "form": "bravon",
+          "gloss": "bravo, valiente (opuesto a tímido)",
+          "analysis_html": "BRAV + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "BRAV + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "personas"
+          ]
+        },
+        {
+          "id": "lexeme-braven",
+          "form": "braven",
+          "gloss": "bravo, salvaje (opuesto a manso, domesticado)",
+          "analysis_html": "BRAV + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "BRAV + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "conducta",
+            "domesticación"
+          ]
+        },
+        {
+          "id": "lexeme-braviza",
+          "form": "braviza",
+          "gloss": "bravura, salvajidad",
+          "analysis_html": "BRAV + <span title=\"formante derivacional lexicalizado\">IZ</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BRAV + IZ (formante derivacional lexicalizado) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "fauna"
+          ],
+          "notes": [
+            "IZ queda como formante lexicalizado; no se postula todavía un morfema productivo *-IZ-."
+          ]
+        },
+        {
+          "id": "lexeme-bravonda",
+          "form": "bravonda",
+          "gloss": "valentía",
+          "analysis_html": "BRAV + <a class=\"morph-link\" href=\"#morph-onda\">-ONDA</a>",
+          "analysis_text": "BRAV + -ONDA",
+          "refs": [
+            {
+              "id": "morph-onda",
+              "label": "-ONDA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto ONDA"
+            },
+            {
+              "class": "generic",
+              "label": "Provisional"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "personas"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bril",
@@ -7074,8 +7208,107 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-brilis",
+          "form": "brilis",
+          "gloss": "brillar",
+          "analysis_html": "BRIL + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "BRIL + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "luz",
+            "apariencia"
+          ]
+        },
+        {
+          "id": "lexeme-brilte",
+          "form": "brilte",
+          "gloss": "brillantina, glitter",
+          "analysis_html": "BRIL + <a class=\"morph-link\" href=\"#morph-te-substance\">-TE</a>",
+          "analysis_text": "BRIL + -TE",
+          "refs": [
+            {
+              "id": "morph-te-substance",
+              "label": "-TE"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sustancia TE"
+            }
+          ],
+          "semantic_fields": [
+            "apariencia",
+            "materiales",
+            "luz"
+          ]
+        },
+        {
+          "id": "lexeme-brilzoni",
+          "form": "brilẑoni",
+          "gloss": "gemas preciosas",
+          "analysis_html": "BRIL + <a class=\"morph-link\" href=\"#root-zon-2\">ẐON</a> + <a class=\"morph-link\" href=\"#morph-i\">-I</a>",
+          "analysis_text": "BRIL + ẐON + -I",
+          "refs": [
+            {
+              "id": "root-zon-2",
+              "label": "ẐON"
+            },
+            {
+              "id": "morph-i",
+              "label": "-I"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Plural I"
+            }
+          ],
+          "semantic_fields": [
+            "geología",
+            "materiales",
+            "apariencia"
+          ]
+        },
+        {
+          "id": "lexeme-brila",
+          "form": "brila",
+          "gloss": "brillo, destello",
+          "analysis_html": "BRIL + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BRIL + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "luz",
+            "apariencia"
+          ]
+        }
+      ]
     },
     {
       "id": "root-brov",
@@ -7086,8 +7319,127 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-brovoj",
+          "form": "brovoj",
+          "gloss": "cejas",
+          "analysis_html": "BROV + <span title=\"plural lexicalizado\">OJ</span>",
+          "analysis_text": "BROV + OJ (plural lexicalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Plural lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "rostro",
+            "partes"
+          ],
+          "notes": [
+            "OJ se conserva como plural lexicalizado de esta palabra. No se generaliza como plural productivo; el plural regular documentado de -O sigue siendo -I."
+          ]
+        },
+        {
+          "id": "lexeme-olbrovo",
+          "form": "olbrovo",
+          "gloss": "frente",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ol-superior\">OL-</a> + BROV + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "OL- + BROV + -O",
+          "refs": [
+            {
+              "id": "morph-ol-superior",
+              "label": "OL-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Provisional"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "rostro",
+            "partes"
+          ]
+        },
+        {
+          "id": "lexeme-brovarco",
+          "form": "brovarĉo",
+          "gloss": "arco superciliar",
+          "analysis_html": "BROV + <a class=\"morph-link\" href=\"#root-arc-2\">ARĈ</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BROV + ARĈ + -O",
+          "refs": [
+            {
+              "id": "root-arc-2",
+              "label": "ARĈ"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "rostro",
+            "partes"
+          ]
+        },
+        {
+          "id": "lexeme-olbrovel",
+          "form": "olbrovel",
+          "gloss": "superciliar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ol-superior\">OL-</a> + BROV + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "OL- + BROV + -EL",
+          "refs": [
+            {
+              "id": "morph-ol-superior",
+              "label": "OL-"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            },
+            {
+              "class": "generic",
+              "label": "Provisional"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "rostro",
+            "partes"
+          ]
+        }
+      ]
     },
     {
       "id": "root-broc",
