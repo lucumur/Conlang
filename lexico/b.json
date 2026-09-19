@@ -4424,14 +4424,71 @@
         {
           "class": "generic",
           "label": "Raiz"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "esper",
+          "label": "Esper"
         }
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
+      "etymology": "Etym. Eo. bildo → *BILD-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-bildas",
+          "form": "bildas",
+          "gloss": "dibujar, representar, retratar",
+          "analysis_html": "BILD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BILD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "artes",
+            "comunicación",
+            "descripción"
+          ]
+        },
+        {
+          "id": "lexeme-bilda",
+          "form": "bilda",
+          "gloss": "imagen, representacion, retrato",
+          "analysis_html": "BILD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BILD + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "artes",
+            "apariencia",
+            "comunicación"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bizn",
