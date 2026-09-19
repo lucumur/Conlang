@@ -4920,9 +4920,13 @@
           "id": "lexeme-bjelrosval",
           "form": "bjelrosval",
           "gloss": "bielorrusia",
-          "analysis_html": "BJEL + ROSV (tema geográfico no formalizado) + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
-          "analysis_text": "BJEL + ROSV (tema geográfico no formalizado) + -AL",
+          "analysis_html": "BJEL + <a class=\"morph-link\" href=\"#root-rosv\">ROS-V</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "BJEL + ROS-V + -AL",
           "refs": [
+            {
+              "id": "root-rosv",
+              "label": "ROS-V"
+            },
             {
               "id": "morph-al-3",
               "label": "-AL"
@@ -4943,9 +4947,13 @@
           "id": "lexeme-bjelrosvin",
           "form": "bjelrosvin",
           "gloss": "bielorruso",
-          "analysis_html": "BJEL + ROSV (tema geográfico no formalizado) + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
-          "analysis_text": "BJEL + ROSV (tema geográfico no formalizado) + -IN",
+          "analysis_html": "BJEL + <a class=\"morph-link\" href=\"#root-rosv\">ROS-V</a> + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "BJEL + ROS-V + -IN",
           "refs": [
+            {
+              "id": "root-rosv",
+              "label": "ROS-V"
+            },
             {
               "id": "morph-in",
               "label": "-IN"
