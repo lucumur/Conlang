@@ -6024,7 +6024,167 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-boner",
+          "form": "boner",
+          "gloss": "bueno",
+          "analysis_html": "BON + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "BON + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "descripción",
+            "estado"
+          ]
+        },
+        {
+          "id": "lexeme-bonol",
+          "form": "bonol",
+          "gloss": "bondadoso, bueno",
+          "analysis_html": "BON + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "BON + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "descripción"
+          ]
+        },
+        {
+          "id": "lexeme-bonolda",
+          "form": "bonolda",
+          "gloss": "bondad",
+          "analysis_html": "BON + <a class=\"morph-link\" href=\"#morph-olda\">-OLDA</a>",
+          "analysis_text": "BON + -OLDA",
+          "refs": [
+            {
+              "id": "morph-olda",
+              "label": "-OLDA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto OLDA"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "estado"
+          ]
+        },
+        {
+          "id": "lexeme-bonera",
+          "form": "bonera",
+          "gloss": "utilidad",
+          "analysis_html": "BON + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BON + -ER + -A",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "estado",
+            "descripción"
+          ],
+          "notes": [
+            "Nominalización lexicalizada de boner «bueno» con el valor específico «utilidad»; no se postula un morfema independiente *-ERA."
+          ]
+        },
+        {
+          "id": "lexeme-bonfaras",
+          "form": "bonfaras",
+          "gloss": "bendecir",
+          "analysis_html": "BON + <a class=\"morph-link\" href=\"#root-far\">FAR</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BON + FAR + -AS",
+          "refs": [
+            {
+              "id": "root-far",
+              "label": "FAR"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "conducta",
+            "interacción"
+          ]
+        },
+        {
+          "id": "lexeme-bonfara",
+          "form": "bonfara",
+          "gloss": "bendición",
+          "analysis_html": "BON + <a class=\"morph-link\" href=\"#root-far\">FAR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BON + FAR + -A",
+          "refs": [
+            {
+              "id": "root-far",
+              "label": "FAR"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "conducta",
+            "interacción"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bor",
