@@ -6783,15 +6783,271 @@
     },
     {
       "id": "root-bra-nk",
-      "form": "*BRA-NK",
+      "form": "*BRA-N-K",
       "gloss": "rama",
       "tags": [],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "notes": [
+        "La raíz presenta dos temas relacionados: BRA-K para «brazo» y BRA-N-K para «rama/ramificación».",
+        "La extensión N distingue el tema arbóreo/ramificado del tema anatómico BRA-K."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-brankis",
+          "form": "brankis",
+          "gloss": "ramificarse, bifurcarse",
+          "analysis_html": "BRA-N-K + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "BRA-N-K + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "procesos"
+          ]
+        },
+        {
+          "id": "lexeme-abrakas",
+          "form": "abrakas",
+          "gloss": "abrazar, embrace",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a-instrumental\">A-</a> + BRA-K + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A- + BRA-K + -AS",
+          "refs": [
+            {
+              "id": "morph-a-instrumental",
+              "label": "A-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "interacción",
+            "anatomía",
+            "emociones"
+          ],
+          "notes": [
+            "Lectura composicional: ejecutar la acción usando los brazos como medio."
+          ]
+        },
+        {
+          "id": "lexeme-obrakos",
+          "form": "obrakos",
+          "gloss": "abrazarse (dos personas)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-o-mutual\">O-</a> + BRA-K + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "O- + BRA-K + -OS",
+          "refs": [
+            {
+              "id": "morph-o-mutual",
+              "label": "O-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Mutuo"
+            }
+          ],
+          "semantic_fields": [
+            "interacción",
+            "anatomía",
+            "emociones"
+          ]
+        },
+        {
+          "id": "lexeme-brako",
+          "form": "brako",
+          "gloss": "brazo",
+          "analysis_html": "BRA-K + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BRA-K + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "partes"
+          ]
+        },
+        {
+          "id": "lexeme-pobrako",
+          "form": "pobrako",
+          "gloss": "antebrazo",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-po\">PO-</a> + BRA-K + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "PO- + BRA-K + -O",
+          "refs": [
+            {
+              "id": "morph-po",
+              "label": "PO-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "partes"
+          ],
+          "notes": [
+            "PO- se usa aquí con el valor espacial «posterior/después» indicado para la formación."
+          ]
+        },
+        {
+          "id": "lexeme-brakosto",
+          "form": "brakosto",
+          "gloss": "húmero",
+          "analysis_html": "BRA-K + <a class=\"morph-link\" href=\"#root-ost\">OST</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BRA-K + OST + -O",
+          "refs": [
+            {
+              "id": "root-ost",
+              "label": "OST"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "partes"
+          ]
+        },
+        {
+          "id": "lexeme-branko",
+          "form": "branko",
+          "gloss": "rama",
+          "analysis_html": "BRA-N-K + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BRA-N-K + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "naturaleza"
+          ]
+        },
+        {
+          "id": "lexeme-brankiza",
+          "form": "brankiza",
+          "gloss": "ramificación",
+          "analysis_html": "BRA-N-K + <span title=\"formante derivacional lexicalizado\">IZ</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BRA-N-K + IZ (formante derivacional lexicalizado) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "procesos"
+          ],
+          "notes": [
+            "IZ se conserva como formante lexicalizado de esta derivación; no se postula por ahora un morfema productivo *-IZ-."
+          ]
+        },
+        {
+          "id": "lexeme-brakura",
+          "form": "brakura",
+          "gloss": "abrazo",
+          "analysis_html": "BRA-K + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "BRA-K + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "interacción",
+            "anatomía",
+            "emociones"
+          ],
+          "notes": [
+            "Uso lexicalizado eventivo de -URA: «abrazo» como acto/resultado, aunque -URA tiene valor abstracto general."
+          ]
+        }
+      ]
     },
     {
       "id": "root-brav",
@@ -7007,5 +7263,3 @@
     }
   ]
 }
-
-
