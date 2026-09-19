@@ -3371,7 +3371,7 @@
     },
     {
       "id": "root-best",
-      "form": "*BEST-",
+      "form": "*BES-T",
       "gloss": "bestia",
       "tags": [
         {
@@ -3382,9 +3382,180 @@
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
+      "notes": [
+        "Alomorfo BES- ante -OS, atestiguado en besos."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-besos",
+          "form": "besos",
+          "gloss": "bufar",
+          "analysis_html": "BES- (alomorfo de BES-T ante -OS) + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BES- (alomorfo de BES-T ante -OS) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-beston",
+          "form": "beston",
+          "gloss": "bruto, tonto",
+          "analysis_html": "BES-T + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "BES-T + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-bestagol",
+          "form": "bestagol",
+          "gloss": "monstruoso",
+          "analysis_html": "BES-T + <a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "BES-T + AG- + -OL",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-besten",
+          "form": "besten",
+          "gloss": "animal, bestia",
+          "analysis_html": "BES-T + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "BES-T + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-fibestol",
+          "form": "fibestol",
+          "gloss": "bestial, brutal",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fi\">FI</a> + BES-T + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "FI + BES-T + -OL",
+          "refs": [
+            {
+              "id": "root-fi",
+              "label": "FI"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-bestagen",
+          "form": "bestagen",
+          "gloss": "monstruo",
+          "analysis_html": "BES-T + <a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "BES-T + AG- + -EN",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-fibestolda",
+          "form": "fibestolda",
+          "gloss": "brutalidad, bestialidad",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fi\">FI</a> + BES-T + <a class=\"morph-link\" href=\"#morph-olda\">-OLDA</a>",
+          "analysis_text": "FI + BES-T + -OLDA",
+          "refs": [
+            {
+              "id": "root-fi",
+              "label": "FI"
+            },
+            {
+              "id": "morph-olda",
+              "label": "-OLDA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto OLDA"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-fibestom",
+          "form": "fibestom",
+          "gloss": "a lo bestia, cantidades ingentes",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fi\">FI</a> + BES-T + OM (segmento canónico; función general aún no formalizada)",
+          "analysis_text": "FI + BES-T + OM (segmento canónico; función general aún no formalizada)",
+          "refs": [
+            {
+              "id": "root-fi",
+              "label": "FI"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-bet",
