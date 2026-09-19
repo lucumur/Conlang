@@ -3046,6 +3046,33 @@
         "No significa literalmente «redondo»; expresa semejanza clasificatoria. Atestiguado en pombetono «calabaza»."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-eos-directional",
+      "form": "*-EOS",
+      "gloss": "predicativo intransitivo relacionado con direccionalidad",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "predicativo"
+        },
+        {
+          "class": "generic",
+          "label": "direccional"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [
+        "Canónico: -EOS forma predicados intransitivos cuyo evento incluye un componente de dirección, desplazamiento o cambio orientado.",
+        "Atestiguado en bloveos «esfumarse»."
+      ],
+      "row_class": ""
     }
   ]
 }
