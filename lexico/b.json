@@ -3366,6 +3366,48 @@
               "label": "Nomen O"
             }
           ]
+        },
+        {
+          "id": "lexeme-beral",
+          "form": "beral",
+          "gloss": "zarzal",
+          "analysis_html": "BER + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "BER + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-beridol",
+          "form": "beridol",
+          "gloss": "morado",
+          "analysis_html": "BER + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "BER + -ID- + -OL",
+          "refs": [
+            {
+              "id": "morph-id",
+              "label": "-ID-"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ]
         }
       ]
     },
@@ -3540,18 +3582,45 @@
           "id": "lexeme-fibestom",
           "form": "fibestom",
           "gloss": "a lo bestia, cantidades ingentes",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-fi\">FI</a> + BES-T + OM (segmento canónico; función general aún no formalizada)",
-          "analysis_text": "FI + BES-T + OM (segmento canónico; función general aún no formalizada)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fi\">FI</a> + BES-T + <a class=\"morph-link\" href=\"#morph-om-quant\">-OM</a>",
+          "analysis_text": "FI + BES-T + -OM",
           "refs": [
             {
               "id": "root-fi",
               "label": "FI"
+            },
+            {
+              "id": "morph-om-quant",
+              "label": "-OM"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adverbial"
+              "label": "Cuantificativo OM"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-bestagolda",
+          "form": "bestagolda",
+          "gloss": "monstruosidad",
+          "analysis_html": "BES-T + <a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + <a class=\"morph-link\" href=\"#morph-olda\">-OLDA</a>",
+          "analysis_text": "BES-T + AG- + -OLDA",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-olda",
+              "label": "-OLDA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto OLDA"
             }
           ]
         }
