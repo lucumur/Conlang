@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raíz · Conlang</title>
+  <meta name="description" content="Ficha individual de una raíz del conlang">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .root-back{display:inline-flex;align-items:center;gap:6px;margin:0 0 22px;color:var(--muted);text-decoration:none;font-weight:700}.root-back:hover{color:var(--accent)}
+    .root-sheet{border:1px solid var(--line);border-radius:22px;background:var(--paper);padding:clamp(22px,5vw,48px);box-shadow:0 12px 38px rgba(47,42,35,.05)}
+    .root-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:start;border-bottom:1px solid var(--line);padding-bottom:26px}
+    .root-form{margin:0;font:800 clamp(2.8rem,8vw,6.6rem)/.95 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:-.06em;overflow-wrap:anywhere}
+    .root-gloss{margin:14px 0 0;font-size:clamp(1.25rem,2.5vw,1.8rem)}
+    .root-tags{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;max-width:300px}
+    .root-meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:22px 0 0}.meta-card{border:1px solid var(--line);border-radius:14px;padding:14px 16px}.meta-label{display:block;margin-bottom:4px;color:var(--muted);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em}.meta-text{overflow-wrap:anywhere}
+    .root-notes{margin-top:18px}.root-note{margin:6px 0;color:var(--muted);font-style:italic}
+    .detail-section{margin-top:36px}.detail-section h2{margin:0 0 14px;font-size:1.6rem}.detail-section-count{color:var(--muted);font-size:.9rem;font-weight:500}
+    .word-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:12px}.word-card{border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:var(--paper)}.word-form a{text-decoration:none}.word-form a:hover{color:var(--accent)}.word-form code{font-size:1.08rem}.word-gloss{margin-top:4px}.word-analysis{margin-top:8px;color:var(--muted);font-size:.84rem}.word-note{margin-top:7px;color:var(--muted);font-size:.8rem;font-style:italic}.word-tags,.word-fields{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}.field{display:inline-block;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:var(--paper);font-size:.76rem;text-decoration:none}.field:hover{border-color:var(--accent);color:var(--accent)}
+    .morph-link{display:inline-block;padding:1px 6px;border-radius:999px;border:1px solid var(--line);text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.78rem;background:#fff}.morph-link:hover{border-color:var(--accent)}
+    .history-list{display:grid;gap:8px}.history-item{display:grid;grid-template-columns:max-content max-content minmax(0,1fr);gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--line);font-size:.86rem}.history-item:last-child{border-bottom:0}.history-item a{text-decoration:none}.history-item a:hover{text-decoration:underline}.history-item time{color:var(--muted);white-space:nowrap}.empty-note{padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--muted)}
+    @media(max-width:680px){.root-head{grid-template-columns:1fr}.root-tags{justify-content:flex-start}.history-item{grid-template-columns:max-content 1fr}.history-item .history-message{grid-column:1/-1}}
+  </style>
+</head>
+<body>
+<header class="page-header"><div class="wrap"><div class="brand"><a href="index.html">CONLANG</a></div><nav class="site-nav" aria-label="Navegación principal">
+  <a href="index.html">Inicio</a>
+  <a href="lexico.html">Raíces</a>
+  <a href="vocablos.html">Vocablos</a>
+  <a href="morfemas.html">Morfemas</a>
+  <a href="semantica.html">Semántica</a>
+  <a href="pronombres.html">Pronombres</a>
+  <a href="gramatica.html">Gramática</a>
+  <a href="fonologia.html">Fonología</a>
+  <a href="historia.html">Historia</a>
+</nav></div></header>
+<main class="wrap">
+  <a class="root-back" href="lexico.html">← Volver a Raíces</a>
+  <div id="root-content"><div class="empty-note">Cargando raíz…</div></div>
+</main>
+<footer class="page-footer"><div class="wrap">Ficha individual de raíz · documentación viva</div></footer>
+<script>
+(()=>{
+  const box=document.getElementById('root-content');
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const tagHTML=tags=>(tags||[]).map(t=>'<span class="tag '+esc(t.class||'generic')+'">'+esc(t.label)+'</span>').join('');
+  const fieldHTML=fields=>(fields||[]).map(f=>'<a class="field" href="vocablos.html?q='+encodeURIComponent(f)+'">'+esc(f)+'</a>').join('');
+  let index=null,root=null;
+
+  function wordCard(w,external=false){
+    const notes=(w.notes||[]).map(n=>'<div class="word-note">'+esc(n)+'</div>').join('');
+    const tags=(w.tags||[]).length?'<div class="word-tags">'+tagHTML(w.tags)+'</div>':'';
+    const fields=(w.semantic_fields||[]).length?'<div class="word-fields">'+fieldHTML(w.semantic_fields)+'</div>':'';
+    const externalRoot=external?'<div class="word-analysis">Raíz principal: <a href="raiz.html?id='+encodeURIComponent(w._root.id)+'"><code>'+esc(w._root.form)+'</code></a></div>':'';
+    return '<article class="word-card"><div class="word-form"><a href="vocablos.html#'+esc(w.id)+'"><code>'+esc(w.form)+'</code></a></div><div class="word-gloss">'+esc(w.gloss)+'</div>'+externalRoot+(w.analysis_html?'<div class="word-analysis">'+w.analysis_html+'</div>':'')+notes+fields+tags+'</article>';
+  }
+
+  function historyHTML(items){
+    if(!items.length)return '<div class="empty-note">Sin commits registrados para esta raíz.</div>';
+    return '<div class="history-list">'+[...items].reverse().map(c=>'<div class="history-item"><a href="'+esc(c.url)+'" target="_blank" rel="noopener noreferrer"><code>'+esc((c.sha||'').slice(0,7))+'</code></a><time datetime="'+esc(c.date)+'">'+esc((c.date||'').slice(0,10))+'</time><span class="history-message">'+esc(c.message)+'</span></div>').join('')+'</div>';
+  }
+
+  async function load(){
+    const id=new URLSearchParams(location.search).get('id');
+    if(!id)throw Error('missing root id');
+    const [idx,hist]=await Promise.all([
+      fetch('lexico/index.json').then(r=>{if(!r.ok)throw Error('index');return r.json()}),
+      fetch('lexico/history.json').then(r=>r.ok?r.json():({roots:{}}))
+    ]);
+    index=idx;
+    const meta=(idx.roots||[]).find(r=>r.id===id);
+    if(!meta)throw Error('root not found');
+    const file=(idx.letters||[]).find(x=>x.key===meta.key)?.file;
+    if(!file)throw Error('root file not found');
+    const data=await fetch(file).then(r=>{if(!r.ok)throw Error(file);return r.json()});
+    root=(data.entries||[]).find(e=>e.id===id);
+    if(!root)throw Error('root entry missing');
+
+    document.title=root.form+' · Raíz · Conlang';
+    const et=root.etymology?'<div class="meta-card"><span class="meta-label">Etimología</span><div class="meta-text">'+esc(root.etymology)+'</div></div>':'';
+    const notes=(root.notes||[]).length?'<div class="root-notes">'+root.notes.map(n=>'<p class="root-note">'+esc(n)+'</p>').join('')+'</div>':'';
+    const words=root.words||[];
+
+    const rootMap=new Map((idx.roots||[]).map(r=>[r.id,r]));
+    const externalMeta=(idx.words||[]).filter(w=>(w.refs||[]).includes(id)&&w.root_id!==id);
+    const needed=[...new Set(externalMeta.map(w=>w.key))];
+    const sourceById=new Map();
+    await Promise.all(needed.map(async key=>{
+      const lf=(idx.letters||[]).find(x=>x.key===key)?.file;if(!lf)return;
+      const d=await fetch(lf).then(r=>r.json());
+      for(const rr of d.entries||[])for(const ww of rr.words||[])sourceById.set(ww.id,{...ww,_root:rr});
+    }));
+    const external=externalMeta.map(w=>sourceById.get(w.id)).filter(Boolean);
+
+    box.innerHTML='<article class="root-sheet"><div class="root-head"><div><p class="eyebrow">Raíz</p><h1 class="root-form">'+esc(root.form)+'</h1><p class="root-gloss">'+esc(root.gloss)+'</p></div><div class="root-tags">'+tagHTML(root.tags)+'</div></div><div class="root-meta">'+et+'<div class="meta-card"><span class="meta-label">Identificador</span><div class="meta-text"><code>'+esc(root.id)+'</code></div></div><div class="meta-card"><span class="meta-label">Vocablos propios</span><div class="meta-text">'+words.length+'</div></div></div>'+notes+(words.length?'<section class="detail-section"><h2>Vocablos <span class="detail-section-count">('+words.length+')</span></h2><div class="word-grid">'+words.map(w=>wordCard(w)).join('')+'</div></section>':'<section class="detail-section"><h2>Vocablos</h2><div class="empty-note">Esta raíz todavía no tiene vocablos asociados.</div></section>')+(external.length?'<section class="detail-section"><h2>Usada en otros vocablos <span class="detail-section-count">('+external.length+')</span></h2><div class="word-grid">'+external.map(w=>wordCard(w,true)).join('')+'</div></section>':'')+'<section class="detail-section"><h2>Historial de commits</h2>'+historyHTML(hist.roots?.[id]||[])+'</section></article>';
+  }
+
+  document.addEventListener('click',e=>{
+    const a=e.target.closest('a.morph-link[href^="#"]');if(!a||!index)return;
+    const id=a.getAttribute('href').slice(1);
+    if((index.roots||[]).some(r=>r.id===id)){e.preventDefault();location.href='raiz.html?id='+encodeURIComponent(id);return}
+    if((index.morphemes||[]).some(m=>m.id===id)){e.preventDefault();location.href='morfemas.html#'+encodeURIComponent(id)}
+  });
+
+  load().catch(err=>{console.error(err);box.innerHTML='<div class="empty-note">No se pudo cargar esta raíz. <a href="lexico.html">Volver al inventario de raíces</a>.</div>'});
+})();
+</script>
+</body>
+</html>
