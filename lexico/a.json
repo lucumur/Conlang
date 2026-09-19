@@ -412,6 +412,23 @@
       "words": []
     },
     {
+      "id": "root-akr",
+      "form": "*AKR-",
+      "gloss": "ranciar, ácido",
+      "tags": [
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-ac",
       "form": "*AĈ-",
       "gloss": "escoria",
@@ -1507,6 +1524,18 @@
       "letter": "A",
       "section": "sec-a",
       "etymology": "Etym. Eo. aliĝi → *ALJ-",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-alk",
+      "form": "*ALK-",
+      "gloss": "alcalino",
+      "tags": [],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
       "notes": [],
       "row_class": "",
       "words": []
