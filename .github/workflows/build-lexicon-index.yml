@@ -26,7 +26,7 @@ jobs:
           python scripts/build_root_history.py
       - name: Commit generated files if changed
         run: |
-          if git diff --quiet -- lexico/index.json lexico/history.json; then
+          if [ -z "$(git status --porcelain -- lexico/index.json lexico/history.json)" ]; then
             exit 0
           fi
           git config user.name "ChatGPT"
