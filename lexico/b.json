@@ -4508,8 +4508,117 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-obiznas",
+          "form": "obiznas",
+          "gloss": "negociar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-o-mutual\">O-</a> + BIZN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "O- + BIZN + -AS",
+          "refs": [
+            {
+              "id": "morph-o-mutual",
+              "label": "O-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "comercio",
+            "interacción",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-prabiznas",
+          "form": "prabiznas",
+          "gloss": "emprender",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pra\">PRA</a> + BIZN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "PRA + BIZN + -AS",
+          "refs": [
+            {
+              "id": "root-pra",
+              "label": "PRA"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "comercio",
+            "procesos",
+            "finanzas"
+          ]
+        },
+        {
+          "id": "lexeme-prabizna",
+          "form": "prabizna",
+          "gloss": "emprendimiento",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pra\">PRA</a> + BIZN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "PRA + BIZN + -A",
+          "refs": [
+            {
+              "id": "root-pra",
+              "label": "PRA"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "comercio",
+            "procesos",
+            "finanzas"
+          ]
+        },
+        {
+          "id": "lexeme-bizna",
+          "form": "bizna",
+          "gloss": "negocio",
+          "analysis_html": "BIZN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BIZN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "comercio",
+            "finanzas",
+            "relaciones"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bjat",
