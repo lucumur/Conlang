@@ -9,10 +9,6 @@
       "gloss": "persuadir",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-mod"
         }
@@ -28,12 +24,7 @@
       "id": "root-saj",
       "form": "*ŜAJ-",
       "gloss": "oveja",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -45,12 +36,7 @@
       "id": "root-sajn",
       "form": "*ŜAJN-",
       "gloss": "parecer",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -62,12 +48,7 @@
       "id": "root-sam",
       "form": "*ŜAM-",
       "gloss": "espuma",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -79,12 +60,7 @@
       "id": "root-san-2",
       "form": "*ŜAN-",
       "gloss": "cambiar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -97,10 +73,6 @@
       "form": "*ŜAP-",
       "gloss": "jabon",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -117,12 +89,7 @@
       "id": "root-sat-3",
       "form": "*ŜAT-",
       "gloss": "encantar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -135,10 +102,6 @@
       "form": "*ŜAV-",
       "gloss": "eslavico",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -155,12 +118,7 @@
       "id": "root-sel",
       "form": "*ŜEL-",
       "gloss": "piel",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -172,12 +130,7 @@
       "id": "root-sen-2",
       "form": "*ŜEN-",
       "gloss": "escena",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -190,10 +143,6 @@
       "form": "*ŜER-L",
       "gloss": "pelear",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -212,10 +161,6 @@
       "gloss": "falso",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -233,10 +178,6 @@
       "gloss": "ella",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -252,12 +193,7 @@
       "id": "root-si-2",
       "form": "*ŜI-",
       "gloss": "saber",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -270,10 +206,6 @@
       "form": "*ŜIL-",
       "gloss": "madera",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -290,12 +222,7 @@
       "id": "root-sim-2",
       "form": "*ŜIM-",
       "gloss": "fango",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -308,10 +235,6 @@
       "form": "*ŜIP-",
       "gloss": "tripulacion",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "anglo",
           "label": "Anglo"
@@ -328,12 +251,7 @@
       "id": "root-spik",
       "form": "*ŜPIK-",
       "gloss": "espiga",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -345,12 +263,7 @@
       "id": "root-srim",
       "form": "*ŜRIM-",
       "gloss": "proteger",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -362,12 +275,7 @@
       "id": "root-skap",
       "form": "*ŜKAP-",
       "gloss": "escapar, evitar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -380,10 +288,6 @@
       "form": "*ŜOR-",
       "gloss": "escorpion, escarabajo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "slavo",
           "label": "Slavo"
@@ -402,10 +306,6 @@
       "gloss": "eslavos",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "slavo",
           "label": "Slavo"
         }
@@ -423,10 +323,6 @@
       "gloss": "alcachofa",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -442,12 +338,7 @@
       "id": "root-soc",
       "form": "*ŜOĈ-",
       "gloss": "chocar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -459,12 +350,7 @@
       "id": "root-sos-2",
       "form": "*ŜOŜ-",
       "gloss": "cerrar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -476,12 +362,7 @@
       "id": "root-span",
       "form": "*ŜPAN-",
       "gloss": "España",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -493,12 +374,7 @@
       "id": "root-spik-2",
       "form": "*ŜPIK-",
       "gloss": "espiga",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -510,12 +386,7 @@
       "id": "root-spir",
       "form": "*ŜPIR-",
       "gloss": "espirar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -527,12 +398,7 @@
       "id": "root-spok",
       "form": "*ŜPOK-",
       "gloss": "rayo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -544,12 +410,7 @@
       "id": "root-suv",
       "form": "*ŜUV-",
       "gloss": "zapato",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -561,12 +422,7 @@
       "id": "root-suf",
       "form": "*ŜUF-",
       "gloss": "sofocar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -578,12 +434,7 @@
       "id": "root-sult",
       "form": "*ŜULT-",
       "gloss": "hombro",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -595,12 +446,7 @@
       "id": "root-su",
       "form": "*ŜU-",
       "gloss": "echar, arrojar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -612,12 +458,7 @@
       "id": "root-sus",
       "form": "*ŜUŜ-",
       "gloss": "flujo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -646,12 +487,7 @@
       "id": "root-svit",
       "form": "*ŜVIT-",
       "gloss": "sudar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
