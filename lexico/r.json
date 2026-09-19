@@ -7,12 +7,7 @@
       "id": "root-raj-d",
       "form": "*RAJ-D",
       "gloss": "montar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -25,10 +20,6 @@
       "form": "*RAJ-T",
       "gloss": "derecho",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "anglo",
           "label": "Anglo"
@@ -51,10 +42,6 @@
       "gloss": "arrancar, halar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         },
@@ -75,10 +62,6 @@
       "form": "*RAMF-",
       "gloss": "pico curvo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "italico",
           "label": "Italico"
@@ -101,10 +84,6 @@
       "gloss": "arrastrarse",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "germanico",
           "label": "Germanico"
         },
@@ -125,10 +104,6 @@
       "form": "*RAN-",
       "gloss": "rana",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -151,10 +126,6 @@
       "gloss": "acomodar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "anglo",
           "label": "Anglo"
         },
@@ -175,10 +146,6 @@
       "form": "*RAV-D",
       "gloss": "rapido",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "italico",
           "label": "Italico"
@@ -201,10 +168,6 @@
       "gloss": "rabia",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "anglo",
           "label": "Anglo"
         },
@@ -226,10 +189,6 @@
       "gloss": "irradiar",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-mod"
         }
@@ -245,12 +204,7 @@
       "id": "root-re",
       "form": "*RE-",
       "gloss": "Real",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -262,12 +216,7 @@
       "id": "root-rec",
       "form": "*REC-",
       "gloss": "regular",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -279,12 +228,7 @@
       "id": "root-rest",
       "form": "*REST-",
       "gloss": "quedar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -296,12 +240,7 @@
       "id": "root-rev",
       "form": "*REV-",
       "gloss": "soñar, imaginar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -313,12 +252,7 @@
       "id": "root-rid",
       "form": "*RID-",
       "gloss": "reir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -330,12 +264,7 @@
       "id": "root-rif",
       "form": "*RIF-",
       "gloss": "orilla-veta (2)",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -347,12 +276,7 @@
       "id": "root-rip",
       "form": "*RIP-",
       "gloss": "orilla, costilla",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -364,12 +288,7 @@
       "id": "root-ris",
       "form": "*RIS-",
       "gloss": "enjuagar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -381,12 +300,7 @@
       "id": "root-risk",
       "form": "*RISK-",
       "gloss": "riesgo, peligro",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -398,12 +312,7 @@
       "id": "root-riv",
       "form": "*RIV-",
       "gloss": "fluir ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -415,12 +324,7 @@
       "id": "root-ric",
       "form": "*RIĈ-",
       "gloss": "rico",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -432,12 +336,7 @@
       "id": "root-riz",
       "form": "*RIẐ-",
       "gloss": "raiz",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -449,12 +348,7 @@
       "id": "root-rob",
       "form": "*ROB-",
       "gloss": "ropa",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -467,10 +361,6 @@
       "form": "*ROM-",
       "gloss": "Roma",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -489,10 +379,6 @@
       "gloss": "romo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -510,10 +396,6 @@
       "gloss": "redondo ⭐",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-mod"
         }
@@ -529,12 +411,7 @@
       "id": "root-ronk",
       "form": "*RONK-",
       "gloss": "roncar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -546,12 +423,7 @@
       "id": "root-rong",
       "form": "*RONG-",
       "gloss": "roer",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -563,12 +435,7 @@
       "id": "root-ros",
       "form": "*ROS-",
       "gloss": "roer",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -581,10 +448,6 @@
       "form": "*ROS-V",
       "gloss": "ruso",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-Mod"
@@ -607,12 +470,7 @@
       "id": "root-ru",
       "form": "*RU-",
       "gloss": "rojo, color",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -624,12 +482,7 @@
       "id": "root-rujn",
       "form": "*RUJN-",
       "gloss": "ruina",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -642,10 +495,6 @@
       "form": "*RUN-",
       "gloss": "signos",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "germanico",
           "label": "Germanico"
@@ -666,12 +515,7 @@
       "id": "root-rur",
       "form": "*RUR-",
       "gloss": "rural",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -683,12 +527,7 @@
       "id": "root-ruks",
       "form": "*RUKS-",
       "gloss": "eructar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -700,12 +539,7 @@
       "id": "root-ruz",
       "form": "*RUZ-",
       "gloss": "astuto",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
