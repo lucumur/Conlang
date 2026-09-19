@@ -9,10 +9,6 @@
       "gloss": "cuadro",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-mod"
         }
@@ -30,10 +26,6 @@
       "gloss": "ganar, obtener",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "anglo",
           "label": "Anglo"
         }
@@ -50,10 +42,6 @@
       "form": "*GAK-",
       "gloss": "croar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -76,10 +64,6 @@
       "gloss": "bilis",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "anglo",
           "label": "Anglo"
         }
@@ -96,10 +80,6 @@
       "form": "*GAL-",
       "gloss": "galos",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -118,10 +98,6 @@
       "gloss": "camaron, langosta",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "italico",
           "label": "Italico"
         }
@@ -138,10 +114,6 @@
       "form": "*GAMB-",
       "gloss": "muslo, femur",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "italico",
           "label": "Italico"
@@ -160,10 +132,6 @@
       "gloss": "aunque",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-mod"
         }
@@ -181,10 +149,6 @@
       "gloss": "Cuarzo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "germanico",
           "label": "Germanico"
         }
@@ -200,12 +164,7 @@
       "id": "root-gard",
       "form": "*GARD-",
       "gloss": "observar, guardar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -217,12 +176,7 @@
       "id": "root-gas",
       "form": "*GAS-",
       "gloss": "recibir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -235,10 +189,6 @@
       "form": "*GAT-R",
       "gloss": "cuatro",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -255,12 +205,7 @@
       "id": "root-gaz",
       "form": "*GAZ-",
       "gloss": "pasto",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -272,12 +217,7 @@
       "id": "root-gas-2",
       "form": "*GAŜ-",
       "gloss": "torrentoso",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -290,10 +230,6 @@
       "form": "*GE-",
       "gloss": "Gaia",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -312,10 +248,6 @@
       "gloss": "lagartija",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "germanico",
           "label": "Germanico"
         }
@@ -331,12 +263,7 @@
       "id": "root-gem",
       "form": "*GEM-",
       "gloss": "yema / gema",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -349,10 +276,6 @@
       "form": "*GENV-",
       "gloss": "rodilla",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -369,12 +292,7 @@
       "id": "root-gerk",
       "form": "*GERK-",
       "gloss": "roble",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -387,10 +305,6 @@
       "form": "*GID-",
       "gloss": "guiar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "frances",
           "label": "Frances"
@@ -409,10 +323,6 @@
       "gloss": "gigantes",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "griego",
           "label": "Griego"
         }
@@ -430,10 +340,6 @@
       "gloss": "cinco",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-mod"
         }
@@ -449,12 +355,7 @@
       "id": "root-gis",
       "form": "*GIS-",
       "gloss": "colar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -467,10 +368,6 @@
       "form": "*GJET-",
       "gloss": "quieto, callado",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -489,10 +386,6 @@
       "gloss": "colorido",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -508,12 +401,7 @@
       "id": "root-glas",
       "form": "*GLAS-",
       "gloss": "vidrio, brillar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -525,12 +413,7 @@
       "id": "root-glat",
       "form": "*GLAT-",
       "gloss": "lindo, gentil",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -542,12 +425,7 @@
       "id": "root-glav",
       "form": "*GLAV-",
       "gloss": "espada",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -559,12 +437,7 @@
       "id": "root-glit",
       "form": "*GLIT-",
       "gloss": "resbalarse",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -576,12 +449,7 @@
       "id": "root-glu",
       "form": "*GLU-",
       "gloss": "pegajoso",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -593,12 +461,7 @@
       "id": "root-glut",
       "form": "*GLUT-",
       "gloss": "deglutir, tragar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -611,10 +474,6 @@
       "form": "*GLUẐ-",
       "gloss": "dulce",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -631,12 +490,7 @@
       "id": "root-gor",
       "form": "*GOR-",
       "gloss": "garganta",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -649,10 +503,6 @@
       "form": "*GORIL-",
       "gloss": "gorila",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -671,10 +521,6 @@
       "gloss": "grano",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -691,10 +537,6 @@
       "form": "*GRAF-",
       "gloss": "Conde",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "germanico",
           "label": "Germanico"
@@ -713,10 +555,6 @@
       "gloss": "anciano",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "frances",
           "label": "Frances"
         }
@@ -733,10 +571,6 @@
       "form": "*GRAV-",
       "gloss": "peso ⭐",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -755,10 +589,6 @@
       "gloss": "griego",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         }
@@ -775,10 +605,6 @@
       "form": "*GREN-",
       "gloss": "verde",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "germanico",
           "label": "Germanico"
@@ -797,10 +623,6 @@
       "gloss": "cueva",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "frances",
           "label": "Frances"
         }
@@ -817,10 +639,6 @@
       "form": "*GRU-",
       "gloss": "grava",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "germanico",
           "label": "Germanico"
@@ -839,10 +657,6 @@
       "gloss": "brea",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "arabe",
           "label": "Arabe"
         }
@@ -859,10 +673,6 @@
       "form": "*GUM-",
       "gloss": "goma",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
