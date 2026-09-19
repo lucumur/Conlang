@@ -7,12 +7,7 @@
       "id": "root-gard-2",
       "form": "*ĜARD-",
       "gloss": "cerca",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ĝ",
       "section": "sec-circ-g",
       "etymology": null,
@@ -25,10 +20,6 @@
       "form": "*ĜABL-",
       "gloss": "diablo, demonio",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -45,12 +36,7 @@
       "id": "root-gejn",
       "form": "*ĜEJN-",
       "gloss": "molestar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ĝ",
       "section": "sec-circ-g",
       "etymology": null,
@@ -62,12 +48,7 @@
       "id": "root-gel",
       "form": "*ĜEL-",
       "gloss": "gel",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ĝ",
       "section": "sec-circ-g",
       "etymology": null,
@@ -79,12 +60,7 @@
       "id": "root-gen",
       "form": "*ĜEN-",
       "gloss": "procrear ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ĝ",
       "section": "sec-circ-g",
       "etymology": null,
@@ -96,12 +72,7 @@
       "id": "root-ger",
       "form": "*ĜER-",
       "gloss": "comportarse",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ĝ",
       "section": "sec-circ-g",
       "etymology": null,
@@ -114,10 +85,6 @@
       "form": "*ĜER-",
       "gloss": "hierro ⭐",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -134,12 +101,7 @@
       "id": "root-gest",
       "form": "*ĜEST-",
       "gloss": "digerir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ĝ",
       "section": "sec-circ-g",
       "etymology": null,
@@ -151,12 +113,7 @@
       "id": "root-gi",
       "form": "*ĜI-",
       "gloss": "ese (anim.)",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ĝ",
       "section": "sec-circ-g",
       "etymology": null,
@@ -168,12 +125,7 @@
       "id": "root-gib",
       "form": "*ĜIB-",
       "gloss": "joroba",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ĝ",
       "section": "sec-circ-g",
       "etymology": null,
@@ -186,10 +138,6 @@
       "form": "*ĜINK-",
       "gloss": "mujer",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -212,10 +160,6 @@
       "gloss": "jengibre, naranja, pelirrojo",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -234,10 +178,6 @@
       "tags": [
         {
           "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "generic",
           "label": "Part."
         }
       ],
@@ -252,12 +192,7 @@
       "id": "root-goj",
       "form": "*ĜOJ-",
       "gloss": "gusto",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "Ĝ",
       "section": "sec-circ-g",
       "etymology": null,
