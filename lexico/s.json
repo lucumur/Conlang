@@ -7,12 +7,7 @@
       "id": "root-s",
       "form": "*S-",
       "gloss": "propio",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -25,10 +20,6 @@
       "form": "*SABL-",
       "gloss": "arena",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "frances",
           "label": "Frances"
@@ -49,12 +40,7 @@
       "id": "root-sac",
       "form": "*SAC-",
       "gloss": "percibir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -66,12 +52,7 @@
       "id": "root-safr",
       "form": "*SAFR-",
       "gloss": "azafran",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -83,12 +64,7 @@
       "id": "root-sag",
       "form": "*SAG-",
       "gloss": "flecha, dardo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -100,12 +76,7 @@
       "id": "root-sak",
       "form": "*SAK-",
       "gloss": "bolsa",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -117,12 +88,7 @@
       "id": "root-sal",
       "form": "*SAL-",
       "gloss": "sal, pagar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -134,12 +100,7 @@
       "id": "root-salt",
       "form": "*SALT-",
       "gloss": "saltar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -151,12 +112,7 @@
       "id": "root-san",
       "form": "*SAN-",
       "gloss": "sano",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -169,10 +125,6 @@
       "form": "*SANG-",
       "gloss": "sangre",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -195,10 +147,6 @@
       "gloss": "jabon",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         },
@@ -218,12 +166,7 @@
       "id": "root-sat",
       "form": "*SAT-",
       "gloss": "demasiado",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -236,10 +179,6 @@
       "form": "*SAT-",
       "gloss": "Saturno",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -260,12 +199,7 @@
       "id": "root-sav",
       "form": "*SAV-",
       "gloss": "salvar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -278,10 +212,6 @@
       "form": "*SAĈ-",
       "gloss": "santo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "italico",
           "label": "Italico"
@@ -302,12 +232,7 @@
       "id": "root-sag-2",
       "form": "*SAĜ-",
       "gloss": "sablo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -319,12 +244,7 @@
       "id": "root-sef-t",
       "form": "*SEF-T-",
       "gloss": "siete",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -336,12 +256,7 @@
       "id": "root-sek",
       "form": "*SEK-",
       "gloss": "seco",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -353,12 +268,7 @@
       "id": "root-sem",
       "form": "*SEM-",
       "gloss": "sembrar ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -370,12 +280,7 @@
       "id": "root-sen",
       "form": "*SEN-",
       "gloss": "sin",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -387,12 +292,7 @@
       "id": "root-sent",
       "form": "*SENT-",
       "gloss": "sentir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -404,12 +304,7 @@
       "id": "root-send",
       "form": "*SEND-",
       "gloss": "enviar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -421,12 +316,7 @@
       "id": "root-serp",
       "form": "*SERP-",
       "gloss": "serpentear",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -438,12 +328,7 @@
       "id": "root-serv",
       "form": "*SERV-",
       "gloss": "siervo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -455,12 +340,7 @@
       "id": "root-serc",
       "form": "*SERC-",
       "gloss": "buscar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -472,12 +352,7 @@
       "id": "root-sevr",
       "form": "*SEVR-",
       "gloss": "Dificil, Severo, Grave",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -489,12 +364,7 @@
       "id": "root-sez",
       "form": "*SEZ-",
       "gloss": "estacion",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -506,12 +376,7 @@
       "id": "root-ses",
       "form": "*SES-",
       "gloss": "seis",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -523,12 +388,7 @@
       "id": "root-sesv",
       "form": "*SESV-",
       "gloss": "seguir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -540,12 +400,7 @@
       "id": "root-sid",
       "form": "*SID-",
       "gloss": "sentar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -557,12 +412,7 @@
       "id": "root-sil",
       "form": "*SIL-",
       "gloss": "silencio",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -575,10 +425,6 @@
       "form": "*SILV-",
       "gloss": "metal",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "anglo",
           "label": "Anglo"
@@ -595,12 +441,7 @@
       "id": "root-sim",
       "form": "*SIM-",
       "gloss": "Simio",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -612,12 +453,7 @@
       "id": "root-sin",
       "form": "*SIN-",
       "gloss": "signo ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -630,10 +466,6 @@
       "form": "*SING-L",
       "gloss": "sencillo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
@@ -650,12 +482,7 @@
       "id": "root-siv",
       "form": "*SIV-",
       "gloss": "seda",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -667,12 +494,7 @@
       "id": "root-skot",
       "form": "*SKOT-",
       "gloss": "Escocia",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -687,10 +509,6 @@
       "form": "*SOL-",
       "gloss": "solido",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -708,10 +526,6 @@
       "form": "*SOM-",
       "gloss": "algo",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -732,12 +546,7 @@
       "id": "root-som-r",
       "form": "*SOM-R",
       "gloss": "verano",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -749,12 +558,7 @@
       "id": "root-somj",
       "form": "*SOMJ-",
       "gloss": "finlandia",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -766,12 +570,7 @@
       "id": "root-son",
       "form": "*SON-",
       "gloss": "sonar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -783,12 +582,7 @@
       "id": "root-sop",
       "form": "*SOP-",
       "gloss": "hisopo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -800,12 +594,7 @@
       "id": "root-sor",
       "form": "*SOR-",
       "gloss": "suerte",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -817,12 +606,7 @@
       "id": "root-sorb",
       "form": "*SORB-",
       "gloss": "absorber, sorber",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -834,12 +618,7 @@
       "id": "root-sos",
       "form": "*SOS-",
       "gloss": "hermana",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -852,10 +631,6 @@
       "form": "*SUKS-",
       "gloss": "lograr",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -874,10 +649,6 @@
       "gloss": "azufre",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "latin",
           "label": "Latin"
         }
@@ -893,12 +664,7 @@
       "id": "root-sum",
       "form": "*SUM-",
       "gloss": "sorber, consumir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -910,12 +676,7 @@
       "id": "root-sun",
       "form": "*SUN-",
       "gloss": "sol, sur",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -927,12 +688,7 @@
       "id": "root-sup",
       "form": "*SUP-",
       "gloss": "sopa",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -944,12 +700,7 @@
       "id": "root-sup-2",
       "form": "*SUP-",
       "gloss": "supino, boca arriba",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -962,10 +713,6 @@
       "form": "*SUR-",
       "gloss": "ranciar, ácido",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "germanico",
           "label": "Germanico"
@@ -1120,12 +867,7 @@
       "id": "root-sur",
       "form": "*SUR-",
       "gloss": "pantorrilla",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -1137,12 +879,7 @@
       "id": "root-sur-2",
       "form": "*SUR-",
       "gloss": "sobre, encima",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -1154,12 +891,7 @@
       "id": "root-sur-3",
       "form": "*SUR-",
       "gloss": "susurrar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
