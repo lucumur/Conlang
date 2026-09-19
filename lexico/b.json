@@ -4631,15 +4631,180 @@
         },
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
+      "etymology": "Etym. Latin beatus → *BJAT-",
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-fibjatos",
+          "form": "fibjatos",
+          "gloss": "vanagloriarse, presumir",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fi\">FI</a> + BJAT + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FI + BJAT + -OS",
+          "refs": [
+            {
+              "id": "root-fi",
+              "label": "FI"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "personas",
+            "procesos"
+          ]
+        },
+        {
+          "id": "lexeme-belbjatol",
+          "form": "belbjatol",
+          "gloss": "beato, bendito",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + BJAT + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "BEL + BJAT + -OL",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "cristianismo",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-bjatol",
+          "form": "bjatol",
+          "gloss": "dichoso, afortunado",
+          "analysis_html": "BJAT + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "BJAT + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "estado",
+            "emociones"
+          ]
+        },
+        {
+          "id": "lexeme-bjata",
+          "form": "bjata",
+          "gloss": "fortuna, dicha",
+          "analysis_html": "BJAT + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BJAT + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "emociones",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-malbjatol",
+          "form": "malbjatol",
+          "gloss": "desafortunado",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + BJAT + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "MAL + BJAT + -OL",
+          "refs": [
+            {
+              "id": "root-mal",
+              "label": "MAL"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "estado",
+            "emociones"
+          ]
+        },
+        {
+          "id": "lexeme-malbjata",
+          "form": "malbjata",
+          "gloss": "mala suerte",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + BJAT + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MAL + BJAT + -A",
+          "refs": [
+            {
+              "id": "root-mal",
+              "label": "MAL"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "emociones",
+            "cualidades"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bjel",
