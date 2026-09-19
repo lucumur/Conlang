@@ -2966,6 +2966,68 @@
         "Las palabras relacionadas con cantidad pueden portar -OM. Atestiguado en fibestom «a lo bestia, cantidades ingentes»."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-ing-stick",
+      "form": "*-ING-",
+      "gloss": "clasificador: como palo; objeto alargado semejante a un palo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "clasificador"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [
+        "Canónico. Atestiguado en betingo «palo de abedul»."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ung-spreadable",
+      "form": "*-UNG-",
+      "gloss": "sustancia untable",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "clasificador"
+        },
+        {
+          "class": "generic",
+          "label": "sustancia"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [
+        "Canónico. Atestiguado en betunge «betún, resina»."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-te-substance",
+      "form": "*-TE",
+      "gloss": "sustancia genérica",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "sustancia"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [
+        "Canónico. En betite aparece tras una vocal de enlace i: BET + i + -TE."
+      ],
+      "row_class": ""
     }
   ]
 }
