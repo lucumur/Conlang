@@ -1111,8 +1111,8 @@
     },
     {
       "id": "root-konc",
-      "form": "*KONC-",
-      "gloss": "concha",
+      "form": "*KO-N-C",
+      "gloss": "concha, valva",
       "tags": [
         {
           "class": "generic",
@@ -1122,8 +1122,10 @@
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
-      "notes": [],
-      "row_class": "",
+      "notes": [
+        "KOC- es la forma reducida/compositiva derivada de *KO-N-C."
+      ],
+      "row_class": "lex-root-row",
       "words": []
     },
     {
