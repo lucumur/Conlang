@@ -2910,6 +2910,38 @@
       "etymology": null,
       "notes": [],
       "row_class": ""
+    },
+    {
+      "id": "morph-os-east",
+      "form": "*OS-",
+      "gloss": "este",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "prefijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ves-west",
+      "form": "*VES-",
+      "gloss": "oeste",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "prefijo"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
     }
   ]
 }
