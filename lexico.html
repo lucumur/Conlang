@@ -11,26 +11,26 @@
     .lex-view-toggle{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin:0 0 14px}.lex-view-toggle .view-label{margin-right:4px;color:var(--muted);font-size:.82rem;font-weight:700}.lex-view-toggle button{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:8px 11px;border-radius:10px;font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}.lex-view-toggle button[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10)}
     .alphabet a[aria-current="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10);color:var(--accent)}#lex-letter-all{font-size:1.08rem;line-height:1}
     .lex-card-view .lex-table thead{display:none}.lex-card-view .lex-table{display:block;width:100%;border:0;background:transparent}.lex-card-view .lex-table tbody{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:12px;width:100%}.lex-card-view .lex-table tbody tr{display:block;border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:10px 12px}.lex-card-view .lex-table tbody td{display:grid;grid-template-columns:76px minmax(0,1fr);column-gap:10px;align-items:start;border:0;padding:5px 0;width:100%;max-width:none}.lex-card-view .lex-table tbody td.form,.lex-card-view .lex-table tbody td.gloss,.lex-card-view .lex-table tbody td.tags{width:100%}.lex-card-view .lex-table tbody td::before{grid-column:1;display:block;margin:2px 0 0;color:var(--muted);font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}.lex-card-view .lex-table tbody td>.cell-value{grid-column:2;min-width:0}.lex-card-view .lex-table tbody td.tags>.cell-value{display:flex;flex-wrap:wrap;align-items:center;gap:5px 6px;width:100%}.lex-card-view .lex-table tbody td.tags>.cell-value .tag{white-space:nowrap;flex:0 0 auto}.lex-card-view .entry-note.etymology{white-space:normal;overflow-wrap:normal;word-break:normal}.lex-card-view .lex-table tbody td.form::before{content:"Forma"}.lex-card-view .lex-table tbody td.gloss::before{content:"Glosa"}.lex-card-view .lex-table tbody td.tags::before{content:"Etiquetas"}.lex-card-view .table-wrap{overflow:visible}
-    .lex-table tbody tr[class*="origin-"]{--root-origin-bg:var(--paper);--root-origin-border:var(--line)}
-    .lex-table tbody tr[class*="origin-"]>td{background:var(--root-origin-bg)}
-    .lex-card-view .lex-table tbody tr[class*="origin-"]{background:var(--root-origin-bg);border-color:var(--root-origin-border)}
-    .origin-latin{--root-origin-bg:#ffe0d2!important;--root-origin-border:#e8bca8!important}
-    .origin-italico{--root-origin-bg:#ffd9d9!important;--root-origin-border:#e6b2b2!important}
-    .origin-frances{--root-origin-bg:#dce9ff!important;--root-origin-border:#b4c9ed!important}
-    .origin-espanol,.origin-iberico{--root-origin-bg:#ffe4b5!important;--root-origin-border:#e9c67f!important}
-    .origin-portugues{--root-origin-bg:#dff1da!important;--root-origin-border:#b9d8b1!important}
-    .origin-germanico{--root-origin-bg:#d8e4f0!important;--root-origin-border:#afc2d4!important}
-    .origin-anglo{--root-origin-bg:#d8ebff!important;--root-origin-border:#aecceb!important}
-    .origin-esper{--root-origin-bg:#e7e5e4!important;--root-origin-border:#cbc7c4!important}
-    .origin-neo{--root-origin-bg:#eef2ff!important;--root-origin-border:#c9d1ee!important}
-    .origin-griego,.origin-helenico{--root-origin-bg:#e9ddff!important;--root-origin-border:#cbb7eb!important}
-    .origin-eslavo,.origin-slavo{--root-origin-bg:#e1e7ff!important;--root-origin-border:#bcc7eb!important}
-    .origin-celta{--root-origin-bg:#d8f1e7!important;--root-origin-border:#afd7c7!important}
-    .origin-arabe{--root-origin-bg:#f4e3bd!important;--root-origin-border:#d7be84!important}
-    .origin-baltico{--root-origin-bg:#d7ecf2!important;--root-origin-border:#accbd4!important}
-    .origin-persa{--root-origin-bg:#f0dbea!important;--root-origin-border:#d1b0c7!important}
-    .origin-sinico{--root-origin-bg:#f7d8d8!important;--root-origin-border:#dcaeae!important}
-    .origin-indico{--root-origin-bg:#f0e0c5!important;--root-origin-border:#d2bd98!important}
+    .lex-table tbody tr[class*="origin-"]>td{background:var(--root-origin-bg)!important}
+    .lex-table tbody tr[class*="origin-"]>td:first-child{box-shadow:inset 6px 0 var(--root-origin-accent)}
+    .lex-card-view .lex-table tbody tr[class*="origin-"]{background:var(--root-origin-bg)!important;border-color:var(--root-origin-accent)!important;border-left:6px solid var(--root-origin-accent)!important}
+    .origin-latin{--root-origin-bg:#ffe0d2;--root-origin-accent:#d58d6f}
+    .origin-italico{--root-origin-bg:#ffd9d9;--root-origin-accent:#d48787}
+    .origin-frances{--root-origin-bg:#dce9ff;--root-origin-accent:#86a9df}
+    .origin-espanol,.origin-iberico{--root-origin-bg:#ffe4b5;--root-origin-accent:#d7a94e}
+    .origin-portugues{--root-origin-bg:#dff1da;--root-origin-accent:#86b77c}
+    .origin-germanico{--root-origin-bg:#d8e4f0;--root-origin-accent:#7f9bb5}
+    .origin-anglo{--root-origin-bg:#d8ebff;--root-origin-accent:#7aa9d8}
+    .origin-esper{--root-origin-bg:#e7e5e4;--root-origin-accent:#9e9995}
+    .origin-neo{--root-origin-bg:#eef2ff;--root-origin-accent:#98a8dc}
+    .origin-griego,.origin-helenico{--root-origin-bg:#e9ddff;--root-origin-accent:#a080d0}
+    .origin-eslavo,.origin-slavo{--root-origin-bg:#e1e7ff;--root-origin-accent:#899bd7}
+    .origin-celta{--root-origin-bg:#d8f1e7;--root-origin-accent:#78ad98}
+    .origin-arabe{--root-origin-bg:#f4e3bd;--root-origin-accent:#b99247}
+    .origin-baltico{--root-origin-bg:#d7ecf2;--root-origin-accent:#75a4b2}
+    .origin-persa{--root-origin-bg:#f0dbea;--root-origin-accent:#ae7da0}
+    .origin-sinico{--root-origin-bg:#f7d8d8;--root-origin-accent:#c37f7f}
+    .origin-indico{--root-origin-bg:#f0e0c5;--root-origin-accent:#b59560}
     .derived-panel{margin-top:8px;border-top:1px dashed var(--line);padding-top:7px}.derived-panel summary{cursor:pointer;font-weight:800;color:var(--accent);font-size:.86rem;user-select:none}.derived-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:10px}.derived-entry{border:1px solid var(--line);border-radius:12px;background:var(--paper);padding:10px 12px}.derived-word code{font-size:1rem;font-weight:800}.derived-gloss{margin-top:4px}.derived-analysis{margin-top:7px;color:var(--muted);font-size:.8rem}.derived-note{margin-top:7px;color:var(--muted);font-size:.8rem;font-style:italic}.derived-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.derived-semantics{display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-top:7px}.semantic-label{color:var(--muted);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em}.semantic-field{display:inline-block;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:inherit;font:inherit;font-size:.76rem;white-space:nowrap;cursor:pointer;text-decoration:none}.semantic-field:hover,.semantic-field:focus-visible{border-color:var(--accent);color:var(--accent);outline:none;text-decoration:none}.morph-link{display:inline-block;padding:1px 6px;border-radius:999px;border:1px solid var(--line);text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.78rem;background:#fff}.morph-link:hover{border-color:var(--accent)}
     .suffix-repertoire{margin-top:7px;padding-top:6px;border-top:1px dashed var(--line)}.suffix-repertoire summary{cursor:pointer;color:var(--accent);font-size:.82rem;font-weight:800;user-select:none}.suffix-word-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}.word-link{display:inline-block;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:#fff;text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.8rem}.word-link:hover{border-color:var(--accent)}
     .loading-note,.empty-note{padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--muted)}#morpheme-focus{margin:28px 0}#morpheme-focus:empty{display:none}
