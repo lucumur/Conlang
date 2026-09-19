@@ -577,6 +577,33 @@
       "words": []
     },
     {
+      "id": "root-rosv",
+      "form": "*ROS-V",
+      "gloss": "ruso",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Raiz"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": "Etym. Eslavo rus- → *ROS-V",
+      "notes": [
+        "Raíz distinta de *ROS- «roer»."
+      ],
+      "row_class": "lex-root-row",
+      "words": []
+    },
+    {
       "id": "root-ru",
       "form": "*RU-",
       "gloss": "rojo, color",
