@@ -2993,7 +2993,7 @@
     {
       "id": "root-bel",
       "form": "*BEL-",
-      "gloss": "bonito, bueno",
+      "gloss": "bueno, bonito",
       "tags": [
         {
           "class": "generic",
@@ -3004,13 +3004,61 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-beler",
+          "form": "beler",
+          "gloss": "bonito, bueno",
+          "analysis_html": "BEL + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "BEL + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-belu",
+          "form": "belu",
+          "gloss": "bien",
+          "analysis_html": "BEL + U (formación canónica; no se identifica con el sufijo masculino *-U)",
+          "analysis_text": "BEL + U (formación canónica; no se identifica con *-U masculino)",
+          "refs": [],
+          "tags": []
+        },
+        {
+          "id": "lexeme-belis",
+          "form": "belis",
+          "gloss": "esta bien, esta bueno",
+          "analysis_html": "BEL + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "BEL + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-belg",
       "form": "*BELG-",
-      "gloss": "Belgica",
+      "gloss": "belgica",
       "tags": [
         {
           "class": "generic",
@@ -3025,8 +3073,66 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-belgan",
+          "form": "belgan",
+          "gloss": "belga",
+          "analysis_html": "BELG + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "BELG + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-belger",
+          "form": "belger",
+          "gloss": "belga (objeto)",
+          "analysis_html": "BELG + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "BELG + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-belgal",
+          "form": "belgal",
+          "gloss": "belgica",
+          "analysis_html": "BELG + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "BELG + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-bend",
