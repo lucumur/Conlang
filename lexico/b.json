@@ -4211,9 +4211,13 @@
           "id": "lexeme-kocbido",
           "form": "kocbido",
           "gloss": "perla",
-          "analysis_html": "KOC (segmento no formalizado) + BID + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "KOC (segmento no formalizado) + BID + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-konc\">KOC-</a> (forma reducida de KO-N-C) + BID + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KOC- (forma reducida de KO-N-C) + BID + -O",
           "refs": [
+            {
+              "id": "root-konc",
+              "label": "KOC-"
+            },
             {
               "id": "morph-o",
               "label": "-O"
@@ -4235,9 +4239,13 @@
           "id": "lexeme-kocbidate",
           "form": "kocbidate",
           "gloss": "madreperla",
-          "analysis_html": "KOC (segmento no formalizado) + BID + A (vocal de enlace) + <a class=\"morph-link\" href=\"#morph-te-substance\">-TE</a>",
-          "analysis_text": "KOC (segmento no formalizado) + BID + A (vocal de enlace) + -TE",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-konc\">KOC-</a> (forma reducida de KO-N-C) + BID + A (vocal de enlace) + <a class=\"morph-link\" href=\"#morph-te-substance\">-TE</a>",
+          "analysis_text": "KOC- (forma reducida de KO-N-C) + BID + A (vocal de enlace) + -TE",
           "refs": [
+            {
+              "id": "root-konc",
+              "label": "KOC-"
+            },
             {
               "id": "morph-te-substance",
               "label": "-TE"
@@ -4260,7 +4268,7 @@
     {
       "id": "root-bif",
       "form": "*BIF-",
-      "gloss": "bufalo",
+      "gloss": "buey",
       "tags": [
         {
           "class": "generic",
@@ -4269,16 +4277,144 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
+      "etymology": "Etym. de novo; Anglo beef + buffalo → *BIF-",
       "notes": [
-        "raiz mixta de «beef» y «bufalo»."
+        "Raíz mixta creada a partir de «beef» y «buffalo»."
       ],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-bifos",
+          "form": "bifos",
+          "gloss": "bramar",
+          "analysis_html": "BIF + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BIF + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "comunicación",
+            "procesos"
+          ]
+        },
+        {
+          "id": "lexeme-bife",
+          "form": "bife",
+          "gloss": "carne de res",
+          "analysis_html": "BIF + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "BIF + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "fauna"
+          ]
+        },
+        {
+          "id": "lexeme-bifulen",
+          "form": "bifulen",
+          "gloss": "res, buey",
+          "analysis_html": "BIF + UL (extensión lexicalizada; función no formalizada) + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "BIF + UL (extensión lexicalizada; función no formalizada) + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "naturaleza"
+          ]
+        },
+        {
+          "id": "lexeme-bifom",
+          "form": "bifom",
+          "gloss": "ganado",
+          "analysis_html": "BIF + <a class=\"morph-link\" href=\"#morph-om-quant\">-OM</a>",
+          "analysis_text": "BIF + -OM",
+          "refs": [
+            {
+              "id": "morph-om-quant",
+              "label": "-OM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Cuantificativo OM"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "relaciones"
+          ]
+        },
+        {
+          "id": "lexeme-bifada",
+          "form": "bifada",
+          "gloss": "manada de bufalos",
+          "analysis_html": "BIF + <a class=\"morph-link\" href=\"#morph-ad\">-AD-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BIF + -AD- + -A",
+          "refs": [
+            {
+              "id": "morph-ad",
+              "label": "-AD-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Grupo AD"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "relaciones"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bild",
