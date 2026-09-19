@@ -3640,8 +3640,139 @@
       "section": "sec-b",
       "etymology": null,
       "notes": [],
-      "row_class": "",
-      "words": []
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-beto",
+          "form": "beto",
+          "gloss": "abedul",
+          "analysis_html": "BET + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BET + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-betada",
+          "form": "betada",
+          "gloss": "betulaceas",
+          "analysis_html": "BET + <a class=\"morph-link\" href=\"#morph-ad\">-AD-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BET + -AD- + -A",
+          "refs": [
+            {
+              "id": "morph-ad",
+              "label": "-AD-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Grupo taxonómico"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-ripabeto",
+          "form": "ripabeto",
+          "gloss": "aliso, alno",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-rip\">RIP</a> + A (vocal de enlace) + BET + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "RIP + A (vocal de enlace) + BET + -O",
+          "refs": [
+            {
+              "id": "root-rip",
+              "label": "RIP"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-betite",
+          "form": "betite",
+          "gloss": "madera de abedul",
+          "analysis_html": "BET + I (vocal de enlace) + <a class=\"morph-link\" href=\"#morph-te-substance\">-TE</a>",
+          "analysis_text": "BET + I (vocal de enlace) + -TE",
+          "refs": [
+            {
+              "id": "morph-te-substance",
+              "label": "-TE"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sustancia TE"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-betingo",
+          "form": "betingo",
+          "gloss": "palo de abedul",
+          "analysis_html": "BET + <a class=\"morph-link\" href=\"#morph-ing-stick\">-ING-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BET + -ING- + -O",
+          "refs": [
+            {
+              "id": "morph-ing-stick",
+              "label": "-ING-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Clasificador ING"
+            }
+          ]
+        },
+        {
+          "id": "lexeme-betunge",
+          "form": "betunge",
+          "gloss": "betun, resina",
+          "analysis_html": "BET + <a class=\"morph-link\" href=\"#morph-ung-spreadable\">-UNG-</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "BET + -UNG- + -E",
+          "refs": [
+            {
+              "id": "morph-ung-spreadable",
+              "label": "-UNG-"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sustancia UNG"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-bet-2",
