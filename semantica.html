@@ -30,6 +30,13 @@
     <p>Índice de campos semánticos generado desde las palabras del léxico. Cada campo abre el buscador léxico filtrado por ese tema.</p>
   </section>
 
+  <section class="lex-section">
+    <h2>Criterio de acciones corporales</h2>
+    <p><strong>Canónico.</strong> Cuando una acción dependa de forma relevante de una parte concreta del cuerpo, puede recibir un campo semántico del tipo <code>acciones de X</code>. Estos campos describen el órgano o región corporal principal de la acción, no simplemente una relación anatómica.</p>
+    <p>Se admiten, entre otros, <code>acciones de mano</code>, <code>acciones de brazo</code>, <code>acciones de hombro</code>, <code>acciones de pecho</code>, <code>acciones de pierna</code>, <code>acciones de cuello</code> y <code>acciones de ojo</code>. La lista no es cerrada y solo se añade el campo cuando resulte semánticamente útil.</p>
+    <p>No se exige un número fijo de campos semánticos por palabra: se usarán únicamente los necesarios.</p>
+  </section>
+
   <div class="tool-row">
     <input id="semantic-search" type="search" autocomplete="off" spellcheck="false" placeholder="Buscar campo semántico">
     <span id="semantic-count" class="tool-count"></span>
