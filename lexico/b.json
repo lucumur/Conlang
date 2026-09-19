@@ -6842,9 +6842,9 @@
             }
           ],
           "semantic_fields": [
-            "interacción",
-            "anatomía",
-            "emociones"
+            "cariño",
+            "contacto social",
+            "acciones de brazo"
           ],
           "notes": [
             "Lectura composicional: ejecutar la acción usando los brazos como medio."
@@ -6877,9 +6877,9 @@
             }
           ],
           "semantic_fields": [
-            "interacción",
-            "anatomía",
-            "emociones"
+            "cariño",
+            "contacto social",
+            "acciones de brazo"
           ]
         },
         {
