@@ -7,12 +7,7 @@
       "id": "root-dan",
       "form": "*DAN-",
       "gloss": "Daneses",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -24,12 +19,7 @@
       "id": "root-danz",
       "form": "*DANẐ-",
       "gloss": "bailar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -41,12 +31,7 @@
       "id": "root-davr",
       "form": "*DAVR-",
       "gloss": "durar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -58,12 +43,7 @@
       "id": "root-dek",
       "form": "*DEK-",
       "gloss": "diez",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -76,10 +56,6 @@
       "form": "*DELF-",
       "gloss": "delfin",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "griego",
           "label": "Griego"
@@ -99,10 +75,6 @@
       "tags": [
         {
           "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "generic",
           "label": "Part."
         }
       ],
@@ -117,12 +89,7 @@
       "id": "root-dez",
       "form": "*DEẐ-",
       "gloss": "propio, decente",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -134,12 +101,7 @@
       "id": "root-difr",
       "form": "*DIFR-",
       "gloss": "diferenciar, discernir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -151,12 +113,7 @@
       "id": "root-dik",
       "form": "*DIK-",
       "gloss": "indicar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -169,10 +126,6 @@
       "form": "*DILG-",
       "gloss": "obedecer",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -189,12 +142,7 @@
       "id": "root-dir",
       "form": "*DIR-",
       "gloss": "decir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -206,12 +154,7 @@
       "id": "root-div",
       "form": "*DIV-",
       "gloss": "iluminar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -223,12 +166,7 @@
       "id": "root-dok",
       "form": "*DOK-",
       "gloss": "enseñar ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -240,12 +178,7 @@
       "id": "root-dom",
       "form": "*DOM-",
       "gloss": "poseer, señor ⭐",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -257,12 +190,7 @@
       "id": "root-don",
       "form": "*DON-",
       "gloss": "dar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -274,12 +202,7 @@
       "id": "root-dorm",
       "form": "*DORM-",
       "gloss": "dormir",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -291,12 +214,7 @@
       "id": "root-dors",
       "form": "*DOR-S",
       "gloss": "dorsal, espalda",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -310,12 +228,7 @@
       "id": "root-drak",
       "form": "*DRAK-",
       "gloss": "Bestia Serpentina",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -327,12 +240,7 @@
       "id": "root-drat",
       "form": "*DRAT-",
       "gloss": "cable",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -344,12 +252,7 @@
       "id": "root-dras",
       "form": "*DRAŜ-",
       "gloss": "azotar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -361,12 +264,7 @@
       "id": "root-drem",
       "form": "*DREM-",
       "gloss": "soñar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -379,10 +277,6 @@
       "form": "*DRET-",
       "gloss": "dirigir",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "frances",
           "label": "Frances"
@@ -403,12 +297,7 @@
       "id": "root-drib",
       "form": "*DRIB-",
       "gloss": "gotear",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -420,12 +309,7 @@
       "id": "root-driz",
       "form": "*DRIZ-",
       "gloss": "lloviznar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -437,12 +321,7 @@
       "id": "root-du",
       "form": "*DU-",
       "gloss": "vez, tiempo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -455,10 +334,6 @@
       "form": "*DUK-",
       "gloss": "conducir",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "latin",
           "label": "Latin"
