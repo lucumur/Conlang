@@ -9,10 +9,6 @@
       "gloss": "uno, esto",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nova",
           "label": "Nova"
         }
@@ -28,12 +24,7 @@
       "id": "root-id",
       "form": "*ID-",
       "gloss": "igualar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
@@ -45,12 +36,7 @@
       "id": "root-ikn",
       "form": "*IKN-",
       "gloss": "arder",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
@@ -63,10 +49,6 @@
       "form": "*IM-",
       "gloss": "imaginar",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -86,10 +68,6 @@
       "tags": [
         {
           "class": "generic",
-          "label": "Raiz"
-        },
-        {
-          "class": "generic",
           "label": "Mundial"
         }
       ],
@@ -104,12 +82,7 @@
       "id": "root-ink",
       "form": "*INK-",
       "gloss": "tinta",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
@@ -121,12 +94,7 @@
       "id": "root-ir",
       "form": "*IR-",
       "gloss": "ir, andar",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
@@ -139,10 +107,6 @@
       "form": "*IS-",
       "gloss": "isla",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nova",
           "label": "Nova"
@@ -159,12 +123,7 @@
       "id": "root-ism",
       "form": "*ISM-",
       "gloss": "arabes",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
@@ -178,12 +137,7 @@
       "id": "root-ital",
       "form": "*ITAL-",
       "gloss": "Italia",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
@@ -196,10 +150,6 @@
       "form": "*IVAN-",
       "gloss": "iguana",
       "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        },
         {
           "class": "nat-mod",
           "label": "Nat-mod"
@@ -218,10 +168,6 @@
       "gloss": "Irlanda",
       "tags": [
         {
-          "class": "generic",
-          "label": "Raiz"
-        },
-        {
           "class": "nat-mod",
           "label": "Nat-mod"
         }
@@ -237,12 +183,7 @@
       "id": "root-ig",
       "form": "*IĜ-",
       "gloss": "hacerse",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Raiz"
-        }
-      ],
+      "tags": [],
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
