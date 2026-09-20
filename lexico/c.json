@@ -926,8 +926,8 @@
     },
     {
       "id": "root-cao",
-      "form": "*CAO-",
-      "gloss": "Caos",
+      "form": "*CAO-T",
+      "gloss": "caos, desorden",
       "tags": [
         {
           "class": "griego",
@@ -937,9 +937,92 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CAO-T reemplaza a la antigua forma *CAO-.",
+        "CANÓNICO: caotos conserva -OS con valor lexicalizado «desordenar, hacer caos»; este uso no modifica la regla general de -OS como predicado intransitivo."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-caota",
+          "form": "caota",
+          "gloss": "caos, desorden",
+          "analysis_html": "CAO-T + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CAO-T + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "desorden",
+            "estado",
+            "abstractos"
+          ]
+        },
+        {
+          "id": "lexeme-caotos",
+          "form": "caotos",
+          "gloss": "desordenar, hacer caos",
+          "analysis_html": "CAO-T + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "CAO-T + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "desorden",
+            "acciones",
+            "cambio de estado"
+          ],
+          "notes": [
+            "Uso lexicalizado de -OS con lectura causativa/transitiva «desordenar, hacer caos»; no se generaliza al paradigma productivo."
+          ]
+        },
+        {
+          "id": "lexeme-caotel",
+          "form": "caotel",
+          "gloss": "caótico, desordenado",
+          "analysis_html": "CAO-T + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "CAO-T + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "desorden",
+            "cualidades",
+            "estado"
+          ]
+        }
+      ]
     }
   ]
 }
