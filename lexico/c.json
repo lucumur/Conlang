@@ -182,14 +182,75 @@
     {
       "id": "root-car-2",
       "form": "*CAR-",
-      "gloss": "pelo",
+      "gloss": "pelo, cabello",
       "tags": [],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: esta raíz *CAR- designa pelo/cabello y se distingue de la raíz homónima *CAR- «gracia, favor»."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-carom",
+          "form": "carom",
+          "gloss": "cabello",
+          "analysis_html": "CAR + <a class=\"morph-link\" href=\"#morph-om-quant\">-OM</a>",
+          "analysis_text": "CAR + -OM",
+          "refs": [
+            {
+              "id": "morph-om-quant",
+              "label": "-OM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Cuantificativo OM"
+            }
+          ],
+          "semantic_fields": [
+            "cabello",
+            "anatomía",
+            "apariencia"
+          ],
+          "notes": [
+            "-OM expresa aquí el cabello como masa o conjunto de pelos."
+          ]
+        },
+        {
+          "id": "lexeme-damicaro",
+          "form": "damicaro",
+          "gloss": "culantrillo",
+          "analysis_html": "DAMI (formante lexicalizado) + CAR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DAMI (formante lexicalizado) + CAR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "plantas",
+            "cabello"
+          ],
+          "notes": [
+            "DAMI no está documentado todavía como raíz o morfema productivo; se conserva aquí como formante lexicalizado."
+          ]
+        }
+      ]
     },
     {
       "id": "root-car-d",
