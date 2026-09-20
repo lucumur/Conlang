@@ -620,6 +620,28 @@
       "row_class": ""
     },
     {
+      "id": "morph-elo",
+      "form": "*-ELO",
+      "gloss": "adjetivo lexicalizado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "adjetivo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -ELO forma adjetivos lexicalizados; las palabras en -elo se analizan como unidades léxicas adjetivales, no como simple secuencia -EL + -O."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-eno",
       "form": "*-ENO",
       "gloss": "objeto plano",
@@ -2147,17 +2169,23 @@
     {
       "id": "morph-into",
       "form": "*-INTO",
-      "gloss": "fragmento",
+      "gloss": "sufijo de elemento químico",
       "tags": [
         {
           "class": "generic",
           "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "elemento químico"
         }
       ],
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: -INTO forma nombres de elementos químicos."
+      ],
       "row_class": ""
     },
     {
