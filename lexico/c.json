@@ -1347,10 +1347,11 @@
       ],
       "letter": "C",
       "section": "sec-c",
-      "etymology": null,
+      "etymology": "Etym. mixta: raíz CEL- (Griego) + sufijo fósil *-IND* < Latin hirundo, gen. hirundinis «golondrina»",
       "notes": [
         "CANÓNICO: *CEL-IND* reemplaza a la antigua forma *CELD-.",
-        "CANÓNICO: CEL- es la forma primigenia y CELIND- la forma extendida usual.",
+        "CANÓNICO: CEL- es la raíz; *-IND* no es una extensión de raíz, sino un sufijo fósil sin función sincrónica.",
+        "CANÓNICO: *-IND* procede de Latin hirundo, genitivo hirundinis «golondrina»; la reducción a -IND* pertenece a la historia interna del conlang.",
         "CANÓNICO: la familia desarrolla internamente el campo «golondrina → migración → peregrinación»."
       ],
       "row_class": "",
@@ -1359,9 +1360,13 @@
           "id": "lexeme-celinden",
           "form": "celinden",
           "gloss": "golondrina",
-          "analysis_html": "CELIND + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
-          "analysis_text": "CELIND + -EN",
+          "analysis_html": "CEL + <a class=\"morph-link\" href=\"#morph-ind-fossil\">*-IND*</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "CEL + *-IND* (sufijo fósil) + -EN",
           "refs": [
+            {
+              "id": "morph-ind-fossil",
+              "label": "*-IND*"
+            },
             {
               "id": "morph-en",
               "label": "-EN"
@@ -1377,15 +1382,22 @@
             "fauna",
             "aves",
             "migración"
+          ],
+          "notes": [
+            "*-IND* es un sufijo fósil sin función sincrónica, conservado en esta familia."
           ]
         },
         {
           "id": "lexeme-celindeas",
           "form": "celindeas",
           "gloss": "emigrar",
-          "analysis_html": "CELIND + <a class=\"morph-link\" href=\"#morph-eas-travel\">-EAS</a>",
-          "analysis_text": "CELIND + -EAS",
+          "analysis_html": "CEL + <a class=\"morph-link\" href=\"#morph-ind-fossil\">*-IND*</a> + <a class=\"morph-link\" href=\"#morph-eas-travel\">-EAS</a>",
+          "analysis_text": "CEL + *-IND* (sufijo fósil) + -EAS",
           "refs": [
+            {
+              "id": "morph-ind-fossil",
+              "label": "*-IND*"
+            },
             {
               "id": "morph-eas-travel",
               "label": "-EAS"
@@ -1401,18 +1413,25 @@
             "migración",
             "viajes",
             "movimiento"
+          ],
+          "notes": [
+            "*-IND* es un sufijo fósil sin función sincrónica, conservado en esta familia."
           ]
         },
         {
           "id": "lexeme-tracelindeas",
           "form": "tracelindeas",
           "gloss": "peregrinar",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-tra\">TRA</a> + CELIND + <a class=\"morph-link\" href=\"#morph-eas-travel\">-EAS</a>",
-          "analysis_text": "TRA + CELIND + -EAS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tra\">TRA</a> + CEL + <a class=\"morph-link\" href=\"#morph-ind-fossil\">*-IND*</a> + <a class=\"morph-link\" href=\"#morph-eas-travel\">-EAS</a>",
+          "analysis_text": "TRA + CEL + *-IND* (sufijo fósil) + -EAS",
           "refs": [
             {
               "id": "root-tra",
               "label": "TRA"
+            },
+            {
+              "id": "morph-ind-fossil",
+              "label": "*-IND*"
             },
             {
               "id": "morph-eas-travel",
@@ -1429,18 +1448,25 @@
             "peregrinación",
             "viajes",
             "movimiento"
+          ],
+          "notes": [
+            "*-IND* es un sufijo fósil sin función sincrónica, conservado en esta familia."
           ]
         },
         {
           "id": "lexeme-tracelindean",
           "form": "tracelindean",
           "gloss": "peregrino",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-tra\">TRA</a> + CELIND + E (tema de viaje) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "TRA + CELIND + E (tema de viaje) + -AN",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tra\">TRA</a> + CEL + <a class=\"morph-link\" href=\"#morph-ind-fossil\">*-IND*</a> + E (tema de viaje) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "TRA + CEL + *-IND* (sufijo fósil) + E (tema de viaje) + -AN",
           "refs": [
             {
               "id": "root-tra",
               "label": "TRA"
+            },
+            {
+              "id": "morph-ind-fossil",
+              "label": "*-IND*"
             },
             {
               "id": "morph-an-2",
@@ -1459,6 +1485,7 @@
             "viajes"
           ],
           "notes": [
+            "*-IND* es un sufijo fósil sin función sincrónica, conservado en esta familia.",
             "La e previa a -AN conserva el tema de viaje de la serie en -EAS; no se postula un sufijo independiente *-EAN."
           ]
         }
