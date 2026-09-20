@@ -1113,8 +1113,8 @@
     },
     {
       "id": "root-cejt",
-      "form": "*CEJT-",
-      "gloss": "calentar",
+      "form": "*CEJ-T",
+      "gloss": "calentar, calor",
       "tags": [
         {
           "class": "germanico",
@@ -1124,9 +1124,122 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CEJ-T tiene CEJ- como forma primigenia y CEJT- como forma extendida usual."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cejtas",
+          "form": "cejtas",
+          "gloss": "calentar",
+          "analysis_html": "CEJT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "CEJT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "calor",
+            "acciones",
+            "cambio de estado"
+          ]
+        },
+        {
+          "id": "lexeme-cejtubo",
+          "form": "cejtubo",
+          "gloss": "estufa",
+          "analysis_html": "CEJT + UB (formante lexicalizado) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CEJT + UB (formante lexicalizado) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "calefacción",
+            "aparatos",
+            "hogar"
+          ],
+          "notes": [
+            "UB es lexicalizado en esta palabra; no corresponde al morfema productivo -UB- «submersivo»."
+          ]
+        },
+        {
+          "id": "lexeme-cejta",
+          "form": "cejta",
+          "gloss": "calor, calentamiento",
+          "analysis_html": "CEJT + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CEJT + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "calor",
+            "temperatura",
+            "procesos"
+          ]
+        },
+        {
+          "id": "lexeme-cejtetro",
+          "form": "cejtetro",
+          "gloss": "calefacción",
+          "analysis_html": "CEJT + ETR (formante lexicalizado) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CEJT + ETR (formante lexicalizado) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "calefacción",
+            "sistemas",
+            "hogar"
+          ],
+          "notes": [
+            "ETR no está documentado como morfema productivo; se conserva como formante lexicalizado."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cel",
