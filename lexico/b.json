@@ -7889,12 +7889,17 @@
       "id": "root-bulg",
       "form": "*BULG-",
       "gloss": "búlgaro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "turquico",
+          "label": "Turquico"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": "Etym. Eo. bulgaro / Bulgario → *BULG-",
+      "etymology": "Etym. Proto-Turquico *bulga- «agitar, provocar desorden» → *BULG-",
       "notes": [
-        "CANÓNICO: la familia desarrolla además un sentido interno relacionado con desorden y disturbio, visible en bulgon y fibulga."
+        "CANÓNICO: *BULG- se trata internamente como de origen túrquico, relacionado con Proto-Turquico *bulga- «agitar, provocar desorden»; de ahí se motivan bulgon y fibulga."
       ],
       "row_class": "",
       "words": [
@@ -8011,14 +8016,217 @@
     {
       "id": "root-burg",
       "form": "*BURG-",
-      "gloss": "Castillo",
-      "tags": [],
+      "gloss": "castillo, fortificación",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Eo. burgo < Latin burgus < Germanico *burgz «fortaleza, lugar fortificado» → *BURG-",
+      "notes": [
+        "CANÓNICO: la familia conserva el campo semántico histórico «fortificación → asentamiento fortificado → ciudad»; burgal tiene tono antiguo."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-milburgo",
+          "form": "milburgo",
+          "gloss": "castro, cuartel",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mil\">MIL</a> + BURG + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MIL + BURG + -O",
+          "refs": [
+            {
+              "id": "root-mil",
+              "label": "MIL"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "militar",
+            "fortificaciones",
+            "lugares"
+          ]
+        },
+        {
+          "id": "lexeme-burgo",
+          "form": "burgo",
+          "gloss": "castillo",
+          "analysis_html": "BURG + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BURG + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "fortificaciones",
+            "arquitectura",
+            "lugares"
+          ]
+        },
+        {
+          "id": "lexeme-burgidon",
+          "form": "burgidon",
+          "gloss": "burgués",
+          "analysis_html": "BURG + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "BURG + -ID- + -ON",
+          "refs": [
+            {
+              "id": "morph-id",
+              "label": "-ID-"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "sociedad",
+            "clases sociales",
+            "personas"
+          ]
+        },
+        {
+          "id": "lexeme-burgiduna",
+          "form": "burgiduna",
+          "gloss": "burguesía (clase social)",
+          "analysis_html": "BURG + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + UNA (formante lexicalizado de clase social)",
+          "analysis_text": "BURG + -ID- + UNA (formante lexicalizado de clase social)",
+          "refs": [
+            {
+              "id": "morph-id",
+              "label": "-ID-"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "sociedad",
+            "clases sociales",
+            "colectivos"
+          ],
+          "notes": [
+            "UNA queda lexicalizado en esta palabra; no se postula todavía como morfema productivo independiente."
+          ]
+        },
+        {
+          "id": "lexeme-aburgas",
+          "form": "aburgas",
+          "gloss": "fortificar, amurallar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a\">A-</a> + BURG + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A- + BURG + -AS",
+          "refs": [
+            {
+              "id": "morph-a",
+              "label": "A-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "fortificaciones",
+            "construcción",
+            "acciones"
+          ]
+        },
+        {
+          "id": "lexeme-burgal",
+          "form": "burgal",
+          "gloss": "ciudad, oppidum, ciudad amurallada (tono antiguo)",
+          "analysis_html": "BURG + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "BURG + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            },
+            {
+              "class": "generic",
+              "label": "Arcaizante"
+            }
+          ],
+          "semantic_fields": [
+            "asentamientos",
+            "fortificaciones",
+            "ciudades"
+          ]
+        },
+        {
+          "id": "lexeme-arburgal",
+          "form": "arburgal",
+          "gloss": "ciudadela, acrópolis fortificada",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ar\">AR-</a> + BURG + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "AR- + BURG + -AL",
+          "refs": [
+            {
+              "id": "morph-ar",
+              "label": "AR-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "fortificaciones",
+            "ciudadelas",
+            "lugares elevados"
+          ]
+        }
+      ]
     },
     {
       "id": "root-burg-2",
