@@ -899,13 +899,18 @@
           "id": "lexeme-camokluna",
           "form": "camokluna",
           "gloss": "estrabismo",
-          "analysis_html": "CAM + OKL + UNA (formación lexicalizada)",
-          "analysis_text": "CAM + OKL + UNA (formación lexicalizada)",
-          "refs": [],
+          "analysis_html": "CAM + OKL + <a class=\"morph-link\" href=\"#morph-una\">-UNA</a>",
+          "analysis_text": "CAM + OKL + -UNA",
+          "refs": [
+            {
+              "id": "morph-una",
+              "label": "-UNA"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Abstracto UNA"
             }
           ],
           "semantic_fields": [
@@ -914,7 +919,7 @@
             "trastornos"
           ],
           "notes": [
-            "Derivado lexicalizado de camoklon; -UNA no se postula todavía como morfema productivo independiente."
+            "Derivado abstracto regular de camoklon por sustitución de -ON por -UNA."
           ]
         }
       ]
