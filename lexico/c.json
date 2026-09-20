@@ -2876,15 +2876,151 @@
     },
     {
       "id": "root-corz",
-      "form": "*CORẐ-",
+      "form": "*COR-Ẑ-",
       "gloss": "cebada",
       "tags": [],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: la forma de la raíz es *COR-Ẑ-; reemplaza la grafía anterior *CORẐ-.",
+        "CANÓNICO: en corẑare, corẑarol y corẑarma aparece el tema extendido lexicalizado CORẐAR-; AR no se identifica con el participio productivo -AR."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-corzo",
+          "form": "corẑo",
+          "gloss": "orzuelo",
+          "analysis_html": "CORẐ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CORẐ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "ojos",
+            "trastornos"
+          ]
+        },
+        {
+          "id": "lexeme-corze",
+          "form": "corẑe",
+          "gloss": "cebada",
+          "analysis_html": "CORẐ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "CORẐ + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "plantas",
+            "alimentación"
+          ]
+        },
+        {
+          "id": "lexeme-corzare",
+          "form": "corẑare",
+          "gloss": "vello",
+          "analysis_html": "CORẐ + AR (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "CORẐ + AR (extensión lexicalizada) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "piel",
+            "cabello"
+          ]
+        },
+        {
+          "id": "lexeme-corzarol",
+          "form": "corẑarol",
+          "gloss": "velludo",
+          "analysis_html": "CORẐ + AR (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "CORẐ + AR (extensión lexicalizada) + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "apariencia",
+            "piel",
+            "cabello"
+          ]
+        },
+        {
+          "id": "lexeme-corzarma",
+          "form": "corẑarma",
+          "gloss": "hirsutismo",
+          "analysis_html": "CORẐ + AR (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-ma\">-MA</a>",
+          "analysis_text": "CORẐ + AR (extensión lexicalizada) + -MA",
+          "refs": [
+            {
+              "id": "morph-ma",
+              "label": "-MA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Condición MA"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "piel",
+            "trastornos"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cron",
