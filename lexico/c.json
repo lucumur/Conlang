@@ -6,7 +6,7 @@
     {
       "id": "root-car",
       "form": "*CAR-",
-      "gloss": "gracia",
+      "gloss": "gracia, favor",
       "tags": [
         {
           "class": "griego",
@@ -15,10 +15,169 @@
       ],
       "letter": "C",
       "section": "sec-c",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Greek χάρις (kháris) «gracia, favor»; cf. χάρισμα (khárisma) «don, gracia» → *CAR-",
+      "notes": [
+        "CANÓNICO: *CAR- expresa el campo de gracia, favor, agrado y carisma. Se distingue de la raíz homónima *CAR- «pelo»."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-carol",
+          "form": "carol",
+          "gloss": "llena de gracia",
+          "analysis_html": "CAR + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "CAR + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "gracia",
+            "apariencia"
+          ]
+        },
+        {
+          "id": "lexeme-carin",
+          "form": "carin",
+          "gloss": "favorecido, agraciado",
+          "analysis_html": "CAR + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "CAR + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio animante"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "gracia",
+            "favor"
+          ]
+        },
+        {
+          "id": "lexeme-carja",
+          "form": "carja",
+          "gloss": "gracia",
+          "analysis_html": "CAR + J (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CAR + J (extensión lexicalizada) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "gracia",
+            "cualidades",
+            "abstractos"
+          ],
+          "notes": [
+            "La J se trata como extensión lexicalizada; no corresponde al morfema productivo -JA- «otra vez, de nuevo»."
+          ]
+        },
+        {
+          "id": "lexeme-carisma",
+          "form": "carisma",
+          "gloss": "carisma",
+          "analysis_html": "CAR + ISMA (formación lexicalizada de origen griego)",
+          "analysis_text": "CAR + ISMA (formación lexicalizada de origen griego)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "carisma",
+            "cualidades",
+            "interacción social"
+          ],
+          "notes": [
+            "Formación lexicalizada vinculada etimológicamente al griego χάρισμα; no corresponde productivamente a -ISMA «sistema»."
+          ]
+        },
+        {
+          "id": "lexeme-cariston",
+          "form": "cariston",
+          "gloss": "carismático, agradable",
+          "analysis_html": "CAR + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "CAR + -IST + -ON",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "carisma",
+            "interacción social"
+          ]
+        },
+        {
+          "id": "lexeme-caros",
+          "form": "caros",
+          "gloss": "agradar",
+          "analysis_html": "CAR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "CAR + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "agrado",
+            "interacción social",
+            "emociones"
+          ],
+          "notes": [
+            "Se interpreta como «resultar agradable, gustar» dentro del valor intransitivo de -OS."
+          ]
+        }
+      ]
     },
     {
       "id": "root-car-2",
