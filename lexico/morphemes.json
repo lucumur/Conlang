@@ -1024,7 +1024,7 @@
     {
       "id": "morph-i",
       "form": "*-I",
-      "gloss": "plural de -O",
+      "gloss": "plural común de -O",
       "tags": [
         {
           "class": "generic",
@@ -1034,7 +1034,9 @@
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: -I es el plural común de -O; -OJ expresa plural dual."
+      ],
       "row_class": ""
     },
     {
@@ -1237,6 +1239,28 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-oj",
+      "form": "*-OJ",
+      "gloss": "plural dual de -O",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "dual"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -OJ marca el plural dual de los nombres en -O; -I sigue siendo el plural común de -O."
+      ],
       "row_class": ""
     },
     {
