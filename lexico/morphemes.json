@@ -233,8 +233,8 @@
     },
     {
       "id": "morph-ar",
-      "form": "*-AR-",
-      "gloss": "supra, regio,",
+      "form": "*AR-",
+      "gloss": "alto, superior, supra",
       "tags": [
         {
           "class": "generic",
@@ -244,7 +244,9 @@
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: AR- puede anteponerse a una base con valor «alto, superior, elevado»; en arburgal marca una ciudadela o recinto fortificado elevado."
+      ],
       "row_class": ""
     },
     {
