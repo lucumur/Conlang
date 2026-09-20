@@ -1337,8 +1337,8 @@
     },
     {
       "id": "root-celd",
-      "form": "*CELD-",
-      "gloss": "quelidón",
+      "form": "*CEL-IND*",
+      "gloss": "golondrina; migrar",
       "tags": [
         {
           "class": "griego",
@@ -1348,9 +1348,121 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CEL-IND* reemplaza a la antigua forma *CELD-.",
+        "CANÓNICO: CEL- es la forma primigenia y CELIND- la forma extendida usual.",
+        "CANÓNICO: la familia desarrolla internamente el campo «golondrina → migración → peregrinación»."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-celinden",
+          "form": "celinden",
+          "gloss": "golondrina",
+          "analysis_html": "CELIND + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "CELIND + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "aves",
+            "migración"
+          ]
+        },
+        {
+          "id": "lexeme-celindeas",
+          "form": "celindeas",
+          "gloss": "emigrar",
+          "analysis_html": "CELIND + <a class=\"morph-link\" href=\"#morph-eas-travel\">-EAS</a>",
+          "analysis_text": "CELIND + -EAS",
+          "refs": [
+            {
+              "id": "morph-eas-travel",
+              "label": "-EAS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado EAS"
+            }
+          ],
+          "semantic_fields": [
+            "migración",
+            "viajes",
+            "movimiento"
+          ]
+        },
+        {
+          "id": "lexeme-tracelindeas",
+          "form": "tracelindeas",
+          "gloss": "peregrinar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tra\">TRA</a> + CELIND + <a class=\"morph-link\" href=\"#morph-eas-travel\">-EAS</a>",
+          "analysis_text": "TRA + CELIND + -EAS",
+          "refs": [
+            {
+              "id": "root-tra",
+              "label": "TRA"
+            },
+            {
+              "id": "morph-eas-travel",
+              "label": "-EAS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado EAS"
+            }
+          ],
+          "semantic_fields": [
+            "peregrinación",
+            "viajes",
+            "movimiento"
+          ]
+        },
+        {
+          "id": "lexeme-tracelindean",
+          "form": "tracelindean",
+          "gloss": "peregrino",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tra\">TRA</a> + CELIND + E (tema de viaje) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "TRA + CELIND + E (tema de viaje) + -AN",
+          "refs": [
+            {
+              "id": "root-tra",
+              "label": "TRA"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "peregrinación",
+            "personas",
+            "viajes"
+          ],
+          "notes": [
+            "La e previa a -AN conserva el tema de viaje de la serie en -EAS; no se postula un sufijo independiente *-EAN."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cem",
