@@ -1457,24 +1457,22 @@
           "id": "lexeme-ajlinto",
           "form": "ajlinto",
           "gloss": "diente de ajo",
-          "analysis_html": "AJL + <a class=\"morph-link\" href=\"#morph-into\">-INTO</a>",
-          "analysis_text": "AJL + -INTO",
-          "refs": [
-            {
-              "id": "morph-into",
-              "label": "-INTO"
-            }
-          ],
+          "analysis_html": "AJL + <span class=\"meta-extra\">INTO lexicalizado</span>",
+          "analysis_text": "AJL + INTO (secuencia lexicalizada)",
+          "refs": [],
           "tags": [
             {
               "class": "generic",
-              "label": "Fragmentivo INTO"
+              "label": "Lexicalizado"
             }
           ],
           "semantic_fields": [
             "alimentación",
             "vegetales",
             "partes"
+          ],
+          "notes": [
+            "INTO es aquí una secuencia lexicalizada histórica; no corresponde al sufijo productivo -INTO «elemento químico»."
           ]
         },
         {
