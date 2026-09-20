@@ -421,13 +421,16 @@
     },
     {
       "id": "root-rong",
-      "form": "*RONG-",
+      "form": "*RON-Ĝ",
       "gloss": "roer",
       "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *RON-Ĝ reemplaza la forma anterior *RONG- «roer».",
+        "En ronceren aparece el alomorfo compositivo RON-."
+      ],
       "row_class": "",
       "words": []
     },
