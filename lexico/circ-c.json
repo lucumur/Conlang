@@ -67,8 +67,7 @@
       "etymology": "Etym. Eo. skalpi → *ĈALP-",
       "notes": [
         "CANÓNICO: la familia presenta los temas extendidos lexicalizados ĈALPEK- para corte/cirugía y ĈALPAR- para cabellera.",
-        "CANÓNICO: en ĉalpekur la secuencia UR es lexicalizada y no se identifica con el superlativizador productivo -UR.",
-        "CANÓNICO: ĉalpiŝelo se conserva como formación lexicalizada; IŜELO no se analiza productivamente como -IŜ- + -ELO."
+        "CANÓNICO: en ĉalpekur la secuencia UR es lexicalizada y no se identifica con el superlativizador productivo -UR."
       ],
       "row_class": "",
       "words": [
@@ -265,19 +264,35 @@
           "id": "lexeme-calpiselo",
           "form": "ĉalpiŝelo",
           "gloss": "cuero cabelludo",
-          "analysis_html": "ĈALP + IŜELO (formación lexicalizada)",
-          "analysis_text": "ĈALP + IŜELO (formación lexicalizada)",
-          "refs": [],
+          "analysis_html": "ĈALP + I (vocal de enlace) + <a class=\"morph-link\" href=\"#root-sel\">ŜEL</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈALP + I (vocal de enlace) + ŜEL + -O",
+          "refs": [
+            {
+              "id": "root-sel",
+              "label": "ŜEL"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
             }
           ],
           "semantic_fields": [
             "anatomía",
             "piel",
             "cabello"
+          ],
+          "notes": [
+            "CANÓNICO: ĉalpiŝelo se analiza como ĈALP + i de enlace + ŜEL «piel» + -O."
           ]
         }
       ]
