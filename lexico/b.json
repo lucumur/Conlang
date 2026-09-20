@@ -8624,20 +8624,205 @@
     },
     {
       "id": "root-bzon",
-      "form": "*BZON-",
-      "gloss": "necesitar",
+      "form": "*BEZN-",
+      "gloss": "necesitar, hacer falta",
       "tags": [
         {
           "class": "frances",
           "label": "Frances"
+        },
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
         }
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Eo. bezoni < French besoin → *BEZN-",
+      "notes": [
+        "CANÓNICO: *BEZN- reemplaza a la antigua forma *BZON-.",
+        "PROVISIONAL: ET aparece como extensión de tema en beznetis, beznetin y bezneta; su función derivacional general todavía no está canonizada."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-beznas",
+          "form": "beznas",
+          "gloss": "necesitar",
+          "analysis_html": "BEZN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BEZN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "necesidad",
+            "carencia",
+            "estado"
+          ]
+        },
+        {
+          "id": "lexeme-beznes",
+          "form": "beznes",
+          "gloss": "hacer falta",
+          "analysis_html": "BEZN + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "BEZN + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "necesidad",
+            "carencia",
+            "estado"
+          ]
+        },
+        {
+          "id": "lexeme-beznetis",
+          "form": "beznetis",
+          "gloss": "carecer",
+          "analysis_html": "BEZN + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "BEZN + -ET- + -IS",
+          "refs": [
+            {
+              "id": "morph-et",
+              "label": "-ET-"
+            },
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            },
+            {
+              "class": "generic",
+              "label": "Extensión de tema"
+            }
+          ],
+          "semantic_fields": [
+            "carencia",
+            "privación",
+            "estado"
+          ],
+          "notes": [
+            "ET se interpreta aquí como extensión de tema; su función general sigue provisional."
+          ]
+        },
+        {
+          "id": "lexeme-bezner",
+          "form": "bezner",
+          "gloss": "necesario",
+          "analysis_html": "BEZN + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "BEZN + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "necesidad",
+            "cualidades",
+            "modalidad"
+          ]
+        },
+        {
+          "id": "lexeme-beznetin",
+          "form": "beznetin",
+          "gloss": "necesitado",
+          "analysis_html": "BEZN + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "BEZN + -ET- + -IN",
+          "refs": [
+            {
+              "id": "morph-et",
+              "label": "-ET-"
+            },
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio animante"
+            },
+            {
+              "class": "generic",
+              "label": "Extensión de tema"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "carencia",
+            "necesidad"
+          ],
+          "notes": [
+            "ET se interpreta aquí como extensión de tema; su función general sigue provisional."
+          ]
+        },
+        {
+          "id": "lexeme-bezneta",
+          "form": "bezneta",
+          "gloss": "carencia, necesidad",
+          "analysis_html": "BEZN + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BEZN + -ET- + -A",
+          "refs": [
+            {
+              "id": "morph-et",
+              "label": "-ET-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            },
+            {
+              "class": "generic",
+              "label": "Extensión de tema"
+            }
+          ],
+          "semantic_fields": [
+            "carencia",
+            "necesidad",
+            "abstractos"
+          ],
+          "notes": [
+            "ET se interpreta aquí como extensión de tema; su función general sigue provisional."
+          ]
+        }
+      ]
     }
   ]
 }
