@@ -429,14 +429,260 @@
     {
       "id": "root-car-t",
       "form": "*CAR-T",
-      "gloss": "carton ⭐",
+      "gloss": "cartón, carta, tarjeta",
       "tags": [],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CAR-T tiene CAR- como forma primigenia y CART- como forma extendida usual; carvolmo emplea la forma primigenia."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-carte",
+          "form": "carte",
+          "gloss": "cartón",
+          "analysis_html": "CART + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "CART + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen E"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "papel",
+            "objetos"
+          ]
+        },
+        {
+          "id": "lexeme-carto",
+          "form": "carto",
+          "gloss": "carta, tarjeta",
+          "analysis_html": "CART + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CART + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "papel",
+            "objetos"
+          ]
+        },
+        {
+          "id": "lexeme-tabicarto",
+          "form": "tabicarto",
+          "gloss": "carta del menú",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tab\">TAB</a> + <span class=\"meta-extra\">i epentética</span> + CART + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TAB + i epentética + CART + -O",
+          "refs": [
+            {
+              "id": "root-tab",
+              "label": "TAB"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "restauración",
+            "documentos"
+          ],
+          "notes": [
+            "Compuesto lexicalizado sobre TAB «madera» + CART; la i es epentética."
+          ]
+        },
+        {
+          "id": "lexeme-muncarto",
+          "form": "muncarto",
+          "gloss": "mapa",
+          "analysis_html": "MUN (formante lexicalizado) + CART + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MUN (formante lexicalizado) + CART + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "cartografía",
+            "documentos"
+          ],
+          "notes": [
+            "MUN no está documentado todavía como raíz o morfema productivo; se conserva como formante lexicalizado."
+          ]
+        },
+        {
+          "id": "lexeme-cartulo",
+          "form": "cartulo",
+          "gloss": "página",
+          "analysis_html": "CART + UL (formante lexicalizado) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CART + UL (formante lexicalizado) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "documentos",
+            "papel",
+            "escritura"
+          ],
+          "notes": [
+            "UL es lexicalizado en esta palabra; no se identifica con el morfema productivo -UL- «final, perfectivo»."
+          ]
+        },
+        {
+          "id": "lexeme-cartaro",
+          "form": "cartaro",
+          "gloss": "cartera",
+          "analysis_html": "CART + AR (formante lexicalizado) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CART + AR (formante lexicalizado) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "contenedores",
+            "objetos personales",
+            "documentos"
+          ],
+          "notes": [
+            "AR es lexicalizado en esta palabra; no se identifica con el participio productivo -AR."
+          ]
+        },
+        {
+          "id": "lexeme-cartaruchon",
+          "form": "cartaruĉon",
+          "gloss": "carterista, ladrón",
+          "analysis_html": "CART + AR (formante lexicalizado) + <a class=\"morph-link\" href=\"#morph-ucirc\">-UĈ-</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "CART + AR (formante lexicalizado) + -UĈ- + -ON",
+          "refs": [
+            {
+              "id": "morph-ucirc",
+              "label": "-UĈ-"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Pejorativo UĈ"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "delincuencia",
+            "objetos personales"
+          ]
+        },
+        {
+          "id": "lexeme-carvolmo",
+          "form": "carvolmo",
+          "gloss": "sobre de carta",
+          "analysis_html": "CAR (forma primigenia de CAR-T) + <a class=\"morph-link\" href=\"#root-volv\">VOL</a> (forma primigenia de VOL-V) + <a class=\"morph-link\" href=\"#morph-mo\">-MO</a>",
+          "analysis_text": "CAR (forma primigenia de CAR-T) + VOL (forma primigenia de VOL-V) + -MO",
+          "refs": [
+            {
+              "id": "root-volv",
+              "label": "VOL-V"
+            },
+            {
+              "id": "morph-mo",
+              "label": "-MO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Planitivo MO"
+            }
+          ],
+          "semantic_fields": [
+            "correspondencia",
+            "contenedores",
+            "papel"
+          ],
+          "notes": [
+            "Literalmente, formación plana que envuelve/contiene una carta."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cas",
