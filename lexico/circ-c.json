@@ -66,8 +66,9 @@
       "section": "sec-circ-c",
       "etymology": "Etym. Eo. skalpi → *ĈALP-",
       "notes": [
-        "CANÓNICO: la familia presenta los temas extendidos lexicalizados ĈALPEK- para corte/cirugía y ĈALPAR- para cabellera.",
-        "CANÓNICO: en ĉalpekur la secuencia UR es lexicalizada y no se identifica con el superlativizador productivo -UR."
+        "CANÓNICO: en ĉalpekur la secuencia UR es lexicalizada y no se identifica con el superlativizador productivo -UR.",
+        "CANÓNICO: ĈALPEK- se analiza productivamente como ĈALP + -EK-, donde -EK- es ablativo derivativo «quitar, romper».",
+        "CANÓNICO: ĈALPAR- se analiza productivamente como ĈALP + -AR-, donde -AR- es colectivo; en ĉalpara forma el colectivo de pelo/cabello «cabellera»."
       ],
       "row_class": "",
       "words": [
@@ -75,9 +76,13 @@
           "id": "lexeme-calpekas",
           "form": "ĉalpekas",
           "gloss": "arrancar el cuero; cortar con bisturí",
-          "analysis_html": "ĈALP + EK (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "ĈALP + EK (extensión lexicalizada) + -AS",
+          "analysis_html": "ĈALP + <a class=\"morph-link\" href=\"#morph-ek-ablative\">-EK-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈALP + -EK- + -AS",
           "refs": [
+            {
+              "id": "morph-ek-ablative",
+              "label": "-EK-"
+            },
             {
               "id": "morph-as",
               "label": "-AS"
@@ -86,11 +91,11 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado AS"
+              "label": "Ablativo EK"
             },
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Predicado AS"
             }
           ],
           "semantic_fields": [
@@ -103,10 +108,19 @@
           "id": "lexeme-calpekera",
           "form": "ĉalpekera",
           "gloss": "cirugía",
-          "analysis_html": "ĈALP + EKERA (formación lexicalizada)",
-          "analysis_text": "ĈALP + EKERA (formación lexicalizada)",
-          "refs": [],
+          "analysis_html": "ĈALP + <a class=\"morph-link\" href=\"#morph-ek-ablative\">-EK-</a> + ERA (terminación lexicalizada)",
+          "analysis_text": "ĈALP + -EK- + ERA (terminación lexicalizada)",
+          "refs": [
+            {
+              "id": "morph-ek-ablative",
+              "label": "-EK-"
+            }
+          ],
           "tags": [
+            {
+              "class": "generic",
+              "label": "Ablativo EK"
+            },
             {
               "class": "generic",
               "label": "Lexicalizado"
@@ -122,9 +136,13 @@
           "id": "lexeme-calpeko",
           "form": "ĉalpeko",
           "gloss": "bisturí",
-          "analysis_html": "ĈALP + EK (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "ĈALP + EK (extensión lexicalizada) + -O",
+          "analysis_html": "ĈALP + <a class=\"morph-link\" href=\"#morph-ek-ablative\">-EK-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈALP + -EK- + -O",
           "refs": [
+            {
+              "id": "morph-ek-ablative",
+              "label": "-EK-"
+            },
             {
               "id": "morph-o",
               "label": "-O"
@@ -133,11 +151,11 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Nomen O"
+              "label": "Ablativo EK"
             },
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Nomen O"
             }
           ],
           "semantic_fields": [
@@ -150,9 +168,13 @@
           "id": "lexeme-calpekan",
           "form": "ĉalpekan",
           "gloss": "cirujano",
-          "analysis_html": "ĈALP + EK (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "ĈALP + EK (extensión lexicalizada) + -AN",
+          "analysis_html": "ĈALP + <a class=\"morph-link\" href=\"#morph-ek-ablative\">-EK-</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĈALP + -EK- + -AN",
           "refs": [
+            {
+              "id": "morph-ek-ablative",
+              "label": "-EK-"
+            },
             {
               "id": "morph-an-2",
               "label": "-AN"
@@ -161,11 +183,11 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Humano agentivo AN"
+              "label": "Ablativo EK"
             },
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Humano agentivo AN"
             }
           ],
           "semantic_fields": [
@@ -178,10 +200,19 @@
           "id": "lexeme-calpekur",
           "form": "ĉalpekur",
           "gloss": "quirúrgico",
-          "analysis_html": "ĈALP + EKUR (formación lexicalizada)",
-          "analysis_text": "ĈALP + EKUR (formación lexicalizada)",
-          "refs": [],
+          "analysis_html": "ĈALP + <a class=\"morph-link\" href=\"#morph-ek-ablative\">-EK-</a> + UR (terminación lexicalizada)",
+          "analysis_text": "ĈALP + -EK- + UR (terminación lexicalizada)",
+          "refs": [
+            {
+              "id": "morph-ek-ablative",
+              "label": "-EK-"
+            }
+          ],
           "tags": [
+            {
+              "class": "generic",
+              "label": "Ablativo EK"
+            },
             {
               "class": "generic",
               "label": "Adjetivo"
@@ -201,12 +232,16 @@
           "id": "lexeme-jocalparon",
           "form": "joĉalparon",
           "gloss": "la de hermosa cabellera",
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-jo-bald\">JO-</a> + ĈALP + AR (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "JO- + ĈALP + AR (extensión lexicalizada) + -ON",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-jo-bald\">JO-</a> + ĈALP + <a class=\"morph-link\" href=\"#morph-ar-collective\">-AR-</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "JO- + ĈALP + -AR- + -ON",
           "refs": [
             {
               "id": "morph-jo-bald",
               "label": "JO-"
+            },
+            {
+              "id": "morph-ar-collective",
+              "label": "-AR-"
             },
             {
               "id": "morph-on",
@@ -216,11 +251,11 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Humano ON"
+              "label": "Colectivo AR"
             },
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Humano ON"
             }
           ],
           "semantic_fields": [
@@ -236,9 +271,13 @@
           "id": "lexeme-calpara",
           "form": "ĉalpara",
           "gloss": "cabellera",
-          "analysis_html": "ĈALP + AR (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "ĈALP + AR (extensión lexicalizada) + -A",
+          "analysis_html": "ĈALP + <a class=\"morph-link\" href=\"#morph-ar-collective\">-AR-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĈALP + -AR- + -A",
           "refs": [
+            {
+              "id": "morph-ar-collective",
+              "label": "-AR-"
+            },
             {
               "id": "morph-a-2",
               "label": "-A"
@@ -247,11 +286,11 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Nomen A"
+              "label": "Colectivo AR"
             },
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Nomen A"
             }
           ],
           "semantic_fields": [
