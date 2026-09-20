@@ -557,9 +557,13 @@
           "id": "lexeme-cartulo",
           "form": "cartulo",
           "gloss": "página",
-          "analysis_html": "CART + UL (formante lexicalizado) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "CART + UL (formante lexicalizado) + -O",
+          "analysis_html": "CART + <a class=\"morph-link\" href=\"#morph-ul\">-UL-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CART + -UL- + -O",
           "refs": [
+            {
+              "id": "morph-ul",
+              "label": "-UL-"
+            },
             {
               "id": "morph-o",
               "label": "-O"
@@ -572,16 +576,13 @@
             },
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Singulativo UL"
             }
           ],
           "semantic_fields": [
             "documentos",
             "papel",
             "escritura"
-          ],
-          "notes": [
-            "UL es lexicalizado en esta palabra; no se identifica con el morfema productivo -UL- «final, perfectivo»."
           ]
         },
         {
@@ -938,9 +939,13 @@
           "id": "lexeme-cejmulon",
           "form": "cejmulon",
           "gloss": "familiar, pariente; individuo de la familia",
-          "analysis_html": "CEJM + UL (formante lexicalizado) + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "CEJM + UL (formante lexicalizado) + -ON",
+          "analysis_html": "CEJM + <a class=\"morph-link\" href=\"#morph-ul\">-UL-</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "CEJM + -UL- + -ON",
           "refs": [
+            {
+              "id": "morph-ul",
+              "label": "-UL-"
+            },
             {
               "id": "morph-on",
               "label": "-ON"
@@ -953,16 +958,13 @@
             },
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Singulativo UL"
             }
           ],
           "semantic_fields": [
             "familia",
             "parentesco",
             "personas"
-          ],
-          "notes": [
-            "UL es lexicalizado en esta palabra; no se identifica con el morfema productivo -UL- «final, perfectivo»."
           ]
         },
         {
