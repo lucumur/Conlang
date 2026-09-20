@@ -1244,7 +1244,7 @@
     {
       "id": "root-cel",
       "form": "*CEL-",
-      "gloss": "claro",
+      "gloss": "claro, claridad",
       "tags": [
         {
           "class": "germanico",
@@ -1254,9 +1254,86 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CEL- expresa claridad y cualidades relacionadas con lo claro o evidente."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-celer",
+          "form": "celer",
+          "gloss": "claro",
+          "analysis_html": "CEL + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "CEL + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "claridad",
+            "percepción",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-celeza",
+          "form": "celeẑa",
+          "gloss": "claridad",
+          "analysis_html": "CEL + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "CEL + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "claridad",
+            "percepción",
+            "abstractos"
+          ]
+        },
+        {
+          "id": "lexeme-celik",
+          "form": "celik",
+          "gloss": "claramente",
+          "analysis_html": "CEL + IK (adverbio lexicalizado)",
+          "analysis_text": "CEL + IK (adverbio lexicalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "claridad",
+            "modo",
+            "comunicación"
+          ],
+          "notes": [
+            "IK es aquí una terminación adverbial lexicalizada; no corresponde al diminutivo productivo -IK-."
+          ]
+        }
+      ]
     },
     {
       "id": "root-celd",
