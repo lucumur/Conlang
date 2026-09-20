@@ -1739,18 +1739,23 @@
     {
       "id": "morph-ucirc",
       "form": "*-UĈ-",
-      "gloss": "función semántica aún no definida; atestiguado en babluĉos y babluĉa",
+      "gloss": "peyorativo; feo, malo",
       "tags": [
         {
           "class": "generic",
           "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "peyorativo"
         }
       ],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
       "notes": [
-        "Sufijo canónico atestiguado en babluĉos «balbucear» y babluĉa «balbuceo»; su valor semántico general aún no está definido."
+        "CANÓNICO: -UĈ- expresa valoración peyorativa: feo, malo o de carácter negativo.",
+        "Atestiguado en cartaruĉon «carterista, ladrón» y en la familia BAB-L."
       ],
       "row_class": ""
     },
