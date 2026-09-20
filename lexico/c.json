@@ -3237,7 +3237,178 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cumon",
+          "form": "cumon",
+          "gloss": "humano",
+          "analysis_html": "CUM + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "CUM + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "humanidad",
+            "sociedad"
+          ]
+        },
+        {
+          "id": "lexeme-cumuna",
+          "form": "cumuna",
+          "gloss": "humanidad (cualidad)",
+          "analysis_html": "CUM + <a class=\"morph-link\" href=\"#morph-una\">-UNA</a>",
+          "analysis_text": "CUM + -UNA",
+          "refs": [
+            {
+              "id": "morph-una",
+              "label": "-UNA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto UNA"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "humanidad",
+            "abstractos"
+          ],
+          "notes": [
+            "CANÓNICO: cumuna es el abstracto correspondiente a cumon por sustitución de -ON por -UNA."
+          ]
+        },
+        {
+          "id": "lexeme-cumadom",
+          "form": "cumadom",
+          "gloss": "humanidad (totalidad de la gente)",
+          "analysis_html": "CUM + <a class=\"morph-link\" href=\"#morph-ad\">-AD-</a> + <a class=\"morph-link\" href=\"#morph-om-quant\">-OM</a>",
+          "analysis_text": "CUM + -AD- + -OM",
+          "refs": [
+            {
+              "id": "morph-ad",
+              "label": "-AD-"
+            },
+            {
+              "id": "morph-om-quant",
+              "label": "-OM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Grupal AD"
+            },
+            {
+              "class": "generic",
+              "label": "Cuantificativo OM"
+            }
+          ],
+          "semantic_fields": [
+            "humanidad",
+            "sociedad",
+            "cantidad"
+          ]
+        },
+        {
+          "id": "lexeme-cumel",
+          "form": "cumel",
+          "gloss": "humano",
+          "analysis_html": "CUM + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "CUM + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "humanidad",
+            "personas"
+          ]
+        },
+        {
+          "id": "lexeme-jocumol",
+          "form": "jocumol",
+          "gloss": "humano, cortés",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-jo-bald\">JO-</a> + CUM + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "JO- + CUM + -OL",
+          "refs": [
+            {
+              "id": "morph-jo-bald",
+              "label": "JO-"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "interacción social",
+            "humanidad"
+          ],
+          "notes": [
+            "CANÓNICO: jocumol significa «humano, cortés». JO- permanece como morfema atestiguado cuyo valor semántico general aún no está definido."
+          ]
+        },
+        {
+          "id": "lexeme-malcumol",
+          "form": "malcumol",
+          "gloss": "inhumano, inmundo",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + CUM + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "MAL + CUM + -OL",
+          "refs": [
+            {
+              "id": "root-mal",
+              "label": "MAL"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "humanidad",
+            "valoración"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cund",
