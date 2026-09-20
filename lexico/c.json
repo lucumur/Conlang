@@ -500,9 +500,163 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CAD- reúne las extensiones internas «Hades (dios/inframundo) → Plutón → plutonio»."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cadun",
+          "form": "Cadun",
+          "gloss": "Hades (dios)",
+          "analysis_html": "CAD + UN (extensión teonímica lexicalizada)",
+          "analysis_text": "CAD + UN (extensión teonímica lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nombre propio"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "mitología",
+            "divinidades",
+            "inframundo"
+          ],
+          "notes": [
+            "UN queda como extensión teonímica lexicalizada, paralela al uso documentado en bacun."
+          ]
+        },
+        {
+          "id": "lexeme-cadal",
+          "form": "Cadal",
+          "gloss": "Hades (inframundo)",
+          "analysis_html": "CAD + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "CAD + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            },
+            {
+              "class": "generic",
+              "label": "Nombre propio"
+            }
+          ],
+          "semantic_fields": [
+            "mitología",
+            "inframundo",
+            "lugares"
+          ]
+        },
+        {
+          "id": "lexeme-cadumal",
+          "form": "cadumal",
+          "gloss": "abismo oceánico",
+          "analysis_html": "CAD + UM (formante lexicalizado) + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "CAD + UM (formante lexicalizado) + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "océanos",
+            "profundidad"
+          ],
+          "notes": [
+            "UM se mantiene como formante lexicalizado en esta palabra; no se identifica automáticamente con los morfemas productivos *-UM- o *-UM."
+          ]
+        },
+        {
+          "id": "lexeme-cadelo",
+          "form": "cadelo",
+          "gloss": "Plutón (planeto)",
+          "analysis_html": "CAD + <a class=\"morph-link\" href=\"#morph-el\">-EL</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CAD + -EL + -O",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Nombre propio"
+            }
+          ],
+          "semantic_fields": [
+            "astronomía",
+            "planetas",
+            "sistema solar"
+          ],
+          "notes": [
+            "Lexicalización astronómica de una formación derivada de CAD."
+          ]
+        },
+        {
+          "id": "lexeme-cadinto",
+          "form": "cadinto",
+          "gloss": "plutonio (elemento)",
+          "analysis_html": "CAD + <a class=\"morph-link\" href=\"#morph-into\">-INTO</a>",
+          "analysis_text": "CAD + -INTO",
+          "refs": [
+            {
+              "id": "morph-into",
+              "label": "-INTO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen INTO"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "elementos",
+            "metales"
+          ],
+          "notes": [
+            "Uso lexicalizado de -INTO para el nombre del elemento químico plutonio."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cal-t",
