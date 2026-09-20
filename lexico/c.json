@@ -2135,7 +2135,7 @@
     {
       "id": "root-cis-t",
       "form": "*CIS-T",
-      "gloss": "tejido, organo",
+      "gloss": "tejido orgánico",
       "tags": [
         {
           "class": "griego",
@@ -2145,9 +2145,167 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CIS-T tiene como núcleo semántico «tejido orgánico»; «órgano» se deriva mediante el singulativo -UL-."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cisto",
+          "form": "cisto",
+          "gloss": "tejido orgánico",
+          "analysis_html": "CIST + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CIST + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "materia"
+          ]
+        },
+        {
+          "id": "lexeme-cistulo",
+          "form": "cistulo",
+          "gloss": "órgano",
+          "analysis_html": "CIST + <a class=\"morph-link\" href=\"#morph-ul\">-UL-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CIST + -UL- + -O",
+          "refs": [
+            {
+              "id": "morph-ul",
+              "label": "-UL-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Singulativo UL"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "estructura"
+          ]
+        },
+        {
+          "id": "lexeme-cistulco",
+          "form": "cistulĉo",
+          "gloss": "organelo",
+          "analysis_html": "CIST + <a class=\"morph-link\" href=\"#morph-ul\">-UL-</a> + <a class=\"morph-link\" href=\"#morph-co-2\">-ĈO</a>",
+          "analysis_text": "CIST + -UL- + -ĈO",
+          "refs": [
+            {
+              "id": "morph-ul",
+              "label": "-UL-"
+            },
+            {
+              "id": "morph-co-2",
+              "label": "-ĈO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Singulativo UL"
+            },
+            {
+              "class": "generic",
+              "label": "Diminutivo ĈO"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "estructura",
+            "materia"
+          ]
+        },
+        {
+          "id": "lexeme-jocistol",
+          "form": "jocistol",
+          "gloss": "orgánico",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-jo-bald\">JO-</a> + CIST + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "JO- + CIST + -OL",
+          "refs": [
+            {
+              "id": "morph-jo-bald",
+              "label": "JO-"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            },
+            {
+              "class": "generic",
+              "label": "Health"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "anatomía",
+            "cuerpo"
+          ],
+          "notes": [
+            "CANÓNICO: jocistol es «orgánico» en la etiqueta/campo Health. JO- se conserva como el morfema ya atestiguado cuyo valor semántico general aún no está definido."
+          ]
+        },
+        {
+          "id": "lexeme-cistumo",
+          "form": "cistumo",
+          "gloss": "organismo",
+          "analysis_html": "CIST + <a class=\"morph-link\" href=\"#morph-um-collective\">-UM</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CIST + -UM + -O",
+          "refs": [
+            {
+              "id": "morph-um-collective",
+              "label": "-UM"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Colectivo UM"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "estructura",
+            "anatomía"
+          ]
+        }
+      ]
     },
     {
       "id": "root-clor",
