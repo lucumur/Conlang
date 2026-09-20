@@ -946,6 +946,34 @@
       "row_class": ""
     },
     {
+      "id": "morph-ind-fossil",
+      "form": "*-IND*",
+      "gloss": "sufijo fósil sin valor sincrónico; conservado en la familia CEL-IND",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo fósil"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        },
+        {
+          "class": "generic",
+          "label": "no productivo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": "Etym. Latin hirundo, gen. hirundinis «golondrina» → *-IND*",
+      "notes": [
+        "CANÓNICO: *-IND* es un sufijo fósil, no una extensión de raíz.",
+        "Ha perdido su función semántica y morfológica sincrónica; solo se conserva lexicalmente en la familia *CEL-IND*.",
+        "Su origen se fija en Latin hirundo, genitivo hirundinis; la reducción formal hasta -IND* pertenece a la historia interna del conlang."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-in",
       "form": "*-IN",
       "gloss": "participio animante",
