@@ -528,14 +528,106 @@
     {
       "id": "root-cam-n",
       "form": "*ĈAM-N",
-      "gloss": "chimenea",
+      "gloss": "fogón, hogar, chimenea",
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-camnubo",
+          "form": "ĉamnubo",
+          "gloss": "chimenea (exterior)",
+          "analysis_html": "ĈAMN + <a class=\"morph-link\" href=\"#root-nub-2\">NUB</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈAMN + NUB + -O",
+          "refs": [
+            {
+              "id": "root-nub-2",
+              "label": "NUB"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "arquitectura",
+            "hogar",
+            "nube"
+          ]
+        },
+        {
+          "id": "lexeme-camno",
+          "form": "ĉamno",
+          "gloss": "fogón, hogar, chimenea (interior)",
+          "analysis_html": "ĈAMN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈAMN + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "hogar",
+            "fuego",
+            "arquitectura"
+          ]
+        },
+        {
+          "id": "lexeme-forcamno",
+          "form": "forĉamno",
+          "gloss": "fogata",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-for\">FOR</a> + ĈAMN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FOR + ĈAMN + -O",
+          "refs": [
+            {
+              "id": "morph-for",
+              "label": "FOR"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "fuego",
+            "lugares",
+            "actividad"
+          ],
+          "notes": [
+            "CANÓNICO: FOR- aporta aquí el valor exterior/fuera en oposición a ĉamno como fogón o chimenea interior."
+          ]
+        }
+      ]
     },
     {
       "id": "root-camp",
