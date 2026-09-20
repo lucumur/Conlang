@@ -1781,8 +1781,8 @@
           "id": "lexeme-riviceren",
           "form": "riviceren",
           "gloss": "hipopótamo",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-riv\">RIV</a> + <span class=\"meta-extra\">i de enlace lexicalizada</span> + CER + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
-          "analysis_text": "RIV + i de enlace lexicalizada + CER + -EN",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-riv\">RIV</a> + <span class=\"meta-extra\">i de enlace</span> + CER + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "RIV + i de enlace + CER + -EN",
           "refs": [
             {
               "id": "root-riv",
@@ -1809,7 +1809,7 @@
             "fauna"
           ],
           "notes": [
-            "La i entre RIV y CER se conserva como vocal de enlace lexicalizada."
+            "ANÁLISIS PROVISIONAL: se segmenta como RIV + i de enlace + CER + -EN. La función exacta de la i medial no fue especificada por el usuario."
           ]
         },
         {
@@ -1842,6 +1842,9 @@
             "animales",
             "mamíferos",
             "fauna"
+          ],
+          "notes": [
+            "ANÁLISIS PROVISIONAL: para conciliar la raíz canónica *RON-Ĝ con ronceren, se trata RON- como alomorfo compositivo; la regla de alternancia todavía no está generalizada."
           ]
         },
         {
@@ -1874,6 +1877,9 @@
             "utensilios",
             "materiales",
             "objetos"
+          ],
+          "notes": [
+            "ANÁLISIS PROVISIONAL: se segmenta como CER + CAR «pelo» + -I. Si -I conserva aquí su valor plural productivo, el sistema predeciría un singular cercaro; esa forma no se canoniza automáticamente."
           ]
         }
       ]
