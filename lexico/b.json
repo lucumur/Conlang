@@ -7325,26 +7325,24 @@
           "id": "lexeme-brovoj",
           "form": "brovoj",
           "gloss": "cejas",
-          "analysis_html": "BROV + <span title=\"plural lexicalizado\">OJ</span>",
-          "analysis_text": "BROV + OJ (plural lexicalizado)",
-          "refs": [],
+          "analysis_html": "BROV + <a class=\"morph-link\" href=\"#morph-oj\">-OJ</a>",
+          "analysis_text": "BROV + -OJ",
+          "refs": [
+            {
+              "id": "morph-oj",
+              "label": "-OJ"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Plural lexicalizado"
-            },
-            {
-              "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Plural dual OJ"
             }
           ],
           "semantic_fields": [
             "anatomía",
             "rostro",
             "partes"
-          ],
-          "notes": [
-            "OJ se conserva como plural lexicalizado de esta palabra. No se generaliza como plural productivo; el plural regular documentado de -O sigue siendo -I."
           ]
         },
         {
@@ -8570,31 +8568,28 @@
           "id": "lexeme-parbushoj",
           "form": "parbuŝoj",
           "gloss": "carrillos",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-par\">PAR</a> + BUŜ + OJ (plural lexicalizado)",
-          "analysis_text": "PAR + BUŜ + OJ (plural lexicalizado)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-par\">PAR</a> + BUŜ + <a class=\"morph-link\" href=\"#morph-oj\">-OJ</a>",
+          "analysis_text": "PAR + BUŜ + -OJ",
           "refs": [
             {
               "id": "root-par",
               "label": "PAR"
+            },
+            {
+              "id": "morph-oj",
+              "label": "-OJ"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Plural lexicalizado"
-            },
-            {
-              "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Plural dual OJ"
             }
           ],
           "semantic_fields": [
             "anatomía",
             "boca",
             "rostro"
-          ],
-          "notes": [
-            "OJ se conserva como plural lexicalizado en esta palabra; el plural productivo de -O sigue siendo -I."
           ]
         },
         {
