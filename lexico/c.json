@@ -254,15 +254,177 @@
     },
     {
       "id": "root-car-d",
-      "form": "*CAR-D-",
+      "form": "*CAR-D",
       "gloss": "duro",
       "tags": [],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CAR-D tiene CAR- como forma primigenia y CARD- como forma extendida usual; carvara emplea la forma primigenia."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-carder",
+          "form": "carder",
+          "gloss": "duro",
+          "analysis_html": "CARD + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "CARD + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "materiales",
+            "resistencia"
+          ]
+        },
+        {
+          "id": "lexeme-cardis",
+          "form": "cardis",
+          "gloss": "endurecerse",
+          "analysis_html": "CARD + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "CARD + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "cambio de estado",
+            "materiales",
+            "resistencia"
+          ]
+        },
+        {
+          "id": "lexeme-cardas",
+          "form": "cardas",
+          "gloss": "endurecer",
+          "analysis_html": "CARD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "CARD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "cambio de estado",
+            "materiales"
+          ]
+        },
+        {
+          "id": "lexeme-cardir",
+          "form": "cardir",
+          "gloss": "endurecido",
+          "analysis_html": "CARD + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a>",
+          "analysis_text": "CARD + -IR",
+          "refs": [
+            {
+              "id": "morph-ir-reservative",
+              "label": "-IR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo IR"
+            },
+            {
+              "class": "generic",
+              "label": "Resultativo"
+            }
+          ],
+          "semantic_fields": [
+            "estado resultante",
+            "materiales",
+            "resistencia"
+          ]
+        },
+        {
+          "id": "lexeme-cardera",
+          "form": "cardera",
+          "gloss": "dureza",
+          "analysis_html": "CARD + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CARD + -ER + -A",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "resistencia",
+            "abstractos"
+          ]
+        },
+        {
+          "id": "lexeme-carvara",
+          "form": "carvara",
+          "gloss": "hardware; parte dura",
+          "analysis_html": "CAR (forma primigenia de CAR-D) + <a class=\"morph-link\" href=\"#root-var\">VAR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CAR (forma primigenia de CAR-D) + VAR + -A",
+          "refs": [
+            {
+              "id": "root-var",
+              "label": "VAR"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto técnico"
+            }
+          ],
+          "semantic_fields": [
+            "tecnología",
+            "informática",
+            "objetos"
+          ],
+          "notes": [
+            "Literalmente «parte/objeto duro»; emplea CAR-, la forma primigenia de *CAR-D."
+          ]
+        }
+      ]
     },
     {
       "id": "root-car-t",
