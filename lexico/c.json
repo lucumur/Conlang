@@ -1706,7 +1706,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cencos",
+          "form": "cenĉos",
+          "gloss": "relinchar",
+          "analysis_html": "CENĈ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "CENĈ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "sonidos",
+            "acciones"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cer",
@@ -1727,7 +1752,131 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ceren",
+          "form": "ceren",
+          "gloss": "cerdo; animal tipo cerdo",
+          "analysis_html": "CER + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "CER + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "animales",
+            "mamíferos",
+            "fauna"
+          ]
+        },
+        {
+          "id": "lexeme-riviceren",
+          "form": "riviceren",
+          "gloss": "hipopótamo",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-riv\">RIV</a> + <span class=\"meta-extra\">i de enlace lexicalizada</span> + CER + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "RIV + i de enlace lexicalizada + CER + -EN",
+          "refs": [
+            {
+              "id": "root-riv",
+              "label": "RIV"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "animales",
+            "mamíferos",
+            "fauna"
+          ],
+          "notes": [
+            "La i entre RIV y CER se conserva como vocal de enlace lexicalizada."
+          ]
+        },
+        {
+          "id": "lexeme-ronceren",
+          "form": "ronceren",
+          "gloss": "capibara",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-rong\">RON-Ĝ</a> (alomorfo compositivo RON) + CER + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "RON-Ĝ (alomorfo compositivo RON) + CER + -EN",
+          "refs": [
+            {
+              "id": "root-rong",
+              "label": "RON-Ĝ"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "animales",
+            "mamíferos",
+            "fauna"
+          ]
+        },
+        {
+          "id": "lexeme-cercari",
+          "form": "cercari",
+          "gloss": "cerdas (de un cepillo)",
+          "analysis_html": "CER + <a class=\"morph-link\" href=\"#root-car-2\">CAR</a> + <a class=\"morph-link\" href=\"#morph-i\">-I</a>",
+          "analysis_text": "CER + CAR + -I",
+          "refs": [
+            {
+              "id": "root-car-2",
+              "label": "CAR"
+            },
+            {
+              "id": "morph-i",
+              "label": "-I"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Plural I"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "utensilios",
+            "materiales",
+            "objetos"
+          ]
+        }
+      ]
     },
     {
       "id": "root-ci",
