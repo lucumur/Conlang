@@ -791,8 +791,8 @@
     },
     {
       "id": "root-came",
-      "form": "*CAME-",
-      "gloss": "Camaleon",
+      "form": "*CAM-L",
+      "gloss": "camaleón",
       "tags": [
         {
           "class": "griego",
@@ -806,9 +806,118 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CAM-L reemplaza a la antigua forma *CAME-.",
+        "CANÓNICO: en camelen y camelenol aparece una e de enlace lexicalizada entre CAM y L; no se generaliza como regla epentética productiva."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-camelen",
+          "form": "camelen",
+          "gloss": "camaleón",
+          "analysis_html": "CAM-L + <span class=\"meta-extra\">e de enlace lexicalizada</span> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "CAM-L + e de enlace lexicalizada + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "animales",
+            "fauna",
+            "apariencia"
+          ]
+        },
+        {
+          "id": "lexeme-camelenol",
+          "form": "camelenol",
+          "gloss": "camaleónico; cambiante, variante",
+          "analysis_html": "CAM-L + <span class=\"meta-extra\">e de enlace lexicalizada</span> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "CAM-L + e de enlace lexicalizada + -EN + -OL",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "apariencia",
+            "cambio",
+            "variación"
+          ]
+        },
+        {
+          "id": "lexeme-camoklon",
+          "form": "camoklon",
+          "gloss": "bizco",
+          "analysis_html": "CAM + OKL (formante lexicalizado «ojos») + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "CAM + OKL (formante lexicalizado «ojos») + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "rostro",
+            "apariencia"
+          ],
+          "notes": [
+            "Lectura interna: «de ojos de camaleón». OKL se conserva aquí como formante lexicalizado; no se postula todavía una raíz productiva *OKL-."
+          ]
+        },
+        {
+          "id": "lexeme-camokluna",
+          "form": "camokluna",
+          "gloss": "estrabismo",
+          "analysis_html": "CAM + OKL + UNA (formación lexicalizada)",
+          "analysis_text": "CAM + OKL + UNA (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "visión",
+            "trastornos"
+          ],
+          "notes": [
+            "Derivado lexicalizado de camoklon; -UNA no se postula todavía como morfema productivo independiente."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cao",
