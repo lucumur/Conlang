@@ -7170,25 +7170,21 @@
           ]
         },
         {
-          "id": "lexeme-bravonda",
-          "form": "bravonda",
+          "id": "lexeme-bravuna",
+          "form": "bravuna",
           "gloss": "valentía",
-          "analysis_html": "BRAV + <a class=\"morph-link\" href=\"#morph-onda\">-ONDA</a>",
-          "analysis_text": "BRAV + -ONDA",
+          "analysis_html": "BRAV + <a class=\"morph-link\" href=\"#morph-una\">-UNA</a>",
+          "analysis_text": "BRAV + -UNA",
           "refs": [
             {
-              "id": "morph-onda",
-              "label": "-ONDA"
+              "id": "morph-una",
+              "label": "-UNA"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Abstracto ONDA"
-            },
-            {
-              "class": "generic",
-              "label": "Provisional"
+              "label": "Abstracto UNA"
             }
           ],
           "semantic_fields": [
@@ -8117,27 +8113,28 @@
           "id": "lexeme-burgiduna",
           "form": "burgiduna",
           "gloss": "burguesía (clase social)",
-          "analysis_html": "BURG + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + UNA (formante lexicalizado de clase social)",
-          "analysis_text": "BURG + -ID- + UNA (formante lexicalizado de clase social)",
+          "analysis_html": "BURG + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + <a class=\"morph-link\" href=\"#morph-una\">-UNA</a>",
+          "analysis_text": "BURG + -ID- + -UNA",
           "refs": [
             {
               "id": "morph-id",
               "label": "-ID-"
+            },
+            {
+              "id": "morph-una",
+              "label": "-UNA"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Abstracto UNA"
             }
           ],
           "semantic_fields": [
             "sociedad",
             "clases sociales",
             "colectivos"
-          ],
-          "notes": [
-            "UNA queda lexicalizado en esta palabra; no se postula todavía como morfema productivo independiente."
           ]
         },
         {
