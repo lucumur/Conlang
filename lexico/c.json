@@ -2723,9 +2723,156 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: esta raíz *COR- expresa «erizarse» y se distingue de las homónimas *COR- «coral» y *COR- «coro»."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-coros",
+          "form": "coros",
+          "gloss": "erizarse",
+          "analysis_html": "COR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "COR + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "reacción",
+            "acciones"
+          ]
+        },
+        {
+          "id": "lexeme-corumar",
+          "form": "corumar",
+          "gloss": "espantoso, horroroso",
+          "analysis_html": "COR + <a class=\"morph-link\" href=\"#morph-um\">-UM-</a> + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "COR + -UM- + -AR",
+          "refs": [
+            {
+              "id": "morph-um",
+              "label": "-UM-"
+            },
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tendente UM"
+            },
+            {
+              "class": "generic",
+              "label": "Participio AR"
+            }
+          ],
+          "semantic_fields": [
+            "miedo",
+            "emociones",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-coren",
+          "form": "coren",
+          "gloss": "erizo de mar",
+          "analysis_html": "COR + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "COR + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "mar",
+            "animales"
+          ]
+        },
+        {
+          "id": "lexeme-corceren",
+          "form": "corceren",
+          "gloss": "puercoespín",
+          "analysis_html": "COR + <a class=\"morph-link\" href=\"#root-cer\">CER</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "COR + CER + -EN",
+          "refs": [
+            {
+              "id": "root-cer",
+              "label": "CER"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "mamíferos",
+            "animales"
+          ]
+        },
+        {
+          "id": "lexeme-coruma",
+          "form": "coruma",
+          "gloss": "horror",
+          "analysis_html": "COR + <a class=\"morph-link\" href=\"#morph-um\">-UM-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "COR + -UM- + -A",
+          "refs": [
+            {
+              "id": "morph-um",
+              "label": "-UM-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tendente UM"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "miedo",
+            "emociones",
+            "abstractos"
+          ]
+        }
+      ]
     },
     {
       "id": "root-corz",
