@@ -7889,12 +7889,7 @@
       "id": "root-bulg",
       "form": "*BULG-",
       "gloss": "búlgaro",
-      "tags": [
-        {
-          "class": "nat-plen",
-          "label": "Nat-Plen"
-        }
-      ],
+      "tags": [],
       "letter": "B",
       "section": "sec-b",
       "etymology": "Etym. Eo. bulgaro / Bulgario → *BULG-",
