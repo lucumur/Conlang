@@ -533,39 +533,36 @@
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: en ĉamnubo, UBO es un formante separado de ĈAMN; no corresponde a *NUB- «nube»."
+      ],
       "row_class": "",
       "words": [
         {
           "id": "lexeme-camnubo",
           "form": "ĉamnubo",
           "gloss": "chimenea (exterior)",
-          "analysis_html": "ĈAMN + <a class=\"morph-link\" href=\"#root-nub-2\">NUB</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "ĈAMN + NUB + -O",
-          "refs": [
-            {
-              "id": "root-nub-2",
-              "label": "NUB"
-            },
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
+          "analysis_html": "ĈAMN + UBO (formante; función general aún no definida)",
+          "analysis_text": "ĈAMN + UBO",
+          "refs": [],
           "tags": [
             {
               "class": "generic",
-              "label": "Nomen O"
+              "label": "Compuesto"
             },
             {
               "class": "generic",
-              "label": "Compuesto"
+              "label": "Formante UBO"
             }
           ],
           "semantic_fields": [
             "arquitectura",
             "hogar",
-            "nube"
+            "exterior"
+          ],
+          "notes": [
+            "CANÓNICO: ĉamnubo se segmenta como ĈAMN + UBO. No contiene la raíz *NUB- «nube».",
+            "La función general de UBO fuera de esta palabra queda abierta."
           ]
         },
         {
@@ -644,7 +641,174 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-campas",
+          "form": "ĉampas",
+          "gloss": "liderar, encabezar",
+          "analysis_html": "ĈAMP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈAMP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "liderazgo",
+            "acciones",
+            "personas"
+          ]
+        },
+        {
+          "id": "lexeme-acampas",
+          "form": "aĉampas",
+          "gloss": "cabecear",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a-instrumental\">A-</a> + ĈAMP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A- + ĈAMP + -AS",
+          "refs": [
+            {
+              "id": "morph-a-instrumental",
+              "label": "A-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Instrumental A"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "acciones",
+            "movimiento"
+          ],
+          "notes": [
+            "CANÓNICO: A- tiene aquí valor instrumental: ejecutar la acción usando la cabeza."
+          ]
+        },
+        {
+          "id": "lexeme-campol",
+          "form": "ĉampol",
+          "gloss": "cabezón",
+          "analysis_html": "ĈAMP + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ĈAMP + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "apariencia",
+            "cuerpo",
+            "cualidades"
+          ]
+        },
+        {
+          "id": "lexeme-campo",
+          "form": "ĉampo",
+          "gloss": "cabeza (figurado)",
+          "analysis_html": "ĈAMP + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈAMP + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "liderazgo",
+            "posición",
+            "metáfora"
+          ]
+        },
+        {
+          "id": "lexeme-campan",
+          "form": "ĉampan",
+          "gloss": "campeón",
+          "analysis_html": "ĈAMP + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĈAMP + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano agentivo AN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "competición",
+            "liderazgo"
+          ]
+        },
+        {
+          "id": "lexeme-campolo",
+          "form": "ĉampolo",
+          "gloss": "champiñón",
+          "analysis_html": "ĈAMP + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈAMP + -OL- + -O",
+          "refs": [
+            {
+              "id": "morph-ol",
+              "label": "-OL-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Similativo OL"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "hongos",
+            "alimentación",
+            "forma"
+          ],
+          "notes": [
+            "CANÓNICO: ĉampolo se analiza como una formación similativa sobre ĈAMP «cabeza»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-can",
