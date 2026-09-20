@@ -649,8 +649,8 @@
     },
     {
       "id": "root-cal-t",
-      "form": "*CAL-T",
-      "gloss": "detener",
+      "form": "*CAL-T-",
+      "gloss": "detener, parar",
       "tags": [
         {
           "class": "anglo",
@@ -660,9 +660,134 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CAL-T- expresa detención, pausa y cese; caltur conserva -ur como formación lexicalizada y no redefine el superlativizador productivo -UR."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-caltas",
+          "form": "caltas",
+          "gloss": "detener, parar",
+          "analysis_html": "CAL-T + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "CAL-T + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "movimiento",
+            "estado"
+          ]
+        },
+        {
+          "id": "lexeme-caltos",
+          "form": "caltos",
+          "gloss": "detenerse",
+          "analysis_html": "CAL-T + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "CAL-T + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "procesos",
+            "estado"
+          ]
+        },
+        {
+          "id": "lexeme-secalter",
+          "form": "secalter",
+          "gloss": "sin pausa, continuo",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-se-privative\">SE-</a> + CAL-T + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "SE- + CAL-T + -ER",
+          "refs": [
+            {
+              "id": "morph-se-privative",
+              "label": "SE-"
+            },
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "estado",
+            "procesos"
+          ]
+        },
+        {
+          "id": "lexeme-calta",
+          "form": "calta",
+          "gloss": "pausa, detención",
+          "analysis_html": "CAL-T + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CAL-T + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "estado",
+            "procesos"
+          ]
+        },
+        {
+          "id": "lexeme-caltur",
+          "form": "caltur",
+          "gloss": "pausado, con pausas",
+          "analysis_html": "CAL-T + UR (secuencia lexicalizada)",
+          "analysis_text": "CAL-T + UR (secuencia lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "estado",
+            "cualidades"
+          ],
+          "notes": [
+            "La secuencia -ur es lexicalizada en esta palabra; no corresponde productivamente al superlativizador -UR."
+          ]
+        }
+      ]
     },
     {
       "id": "root-came",
