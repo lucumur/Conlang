@@ -2450,74 +2450,6 @@
       ]
     },
     {
-      "id": "root-cof",
-      "form": "*COF-",
-      "gloss": "pezuña",
-      "tags": [],
-      "letter": "C",
-      "section": "sec-c",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-cofo",
-          "form": "cofo",
-          "gloss": "pezuña",
-          "analysis_html": "COF + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "COF + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nomen O"
-            }
-          ],
-          "semantic_fields": [
-            "anatomía",
-            "animales",
-            "cuerpo"
-          ]
-        },
-        {
-          "id": "lexeme-cofuko",
-          "form": "cofuko",
-          "gloss": "herradura",
-          "analysis_html": "COF + <span class=\"meta-extra\">u de enlace</span> + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
-          "analysis_text": "COF + u de enlace + -KO",
-          "refs": [
-            {
-              "id": "morph-ko",
-              "label": "-KO"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Objeto KO"
-            },
-            {
-              "class": "generic",
-              "label": "Compuesto lexicalizado"
-            }
-          ],
-          "semantic_fields": [
-            "objetos",
-            "animales",
-            "materiales"
-          ],
-          "notes": [
-            "CANÓNICO: la u de cofuko funciona como vocal de enlace entre COF y -KO."
-          ]
-        }
-      ]
-    },
-    {
       "id": "root-condr",
       "form": "*CONDR-",
       "gloss": "cartilago",
@@ -3032,7 +2964,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-crona",
+          "form": "crona",
+          "gloss": "tiempo",
+          "analysis_html": "CRON + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CRON + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "abstractos",
+            "medida"
+          ]
+        },
+        {
+          "id": "lexeme-cronmedo",
+          "form": "cronmedo",
+          "gloss": "cronómetro",
+          "analysis_html": "CRON + MEDO (formante lexicalizado)",
+          "analysis_text": "CRON + MEDO (formante lexicalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Objeto"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "objetos",
+            "medida"
+          ],
+          "notes": [
+            "CANÓNICO: MEDO se conserva como formante lexicalizado en cronmedo; no se identifica con *MED- «remediar» ni con *MEZ- «medir»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-crov",
@@ -3047,9 +3030,96 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: crovata, crovaton y crovato emplean el tema extendido lexicalizado CROVAT-; AT no se identifica con el perfectivo productivo -AT-."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-crovata",
+          "form": "crovata",
+          "gloss": "Croacia",
+          "analysis_html": "CROV + AT (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CROV + AT (extensión lexicalizada) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Topónimo"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "países",
+            "topónimos"
+          ]
+        },
+        {
+          "id": "lexeme-crovaton",
+          "form": "crovaton",
+          "gloss": "croata",
+          "analysis_html": "CROV + AT (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "CROV + AT (extensión lexicalizada) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "geografía"
+          ]
+        },
+        {
+          "id": "lexeme-crovato",
+          "form": "crovato",
+          "gloss": "corbata",
+          "analysis_html": "CROV + AT (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CROV + AT (extensión lexicalizada) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "objetos",
+            "apariencia"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cuf",
@@ -3059,9 +3129,98 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CUF- es la forma vigente «pezuña»; reemplaza la forma descartada *COF-."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cufo",
+          "form": "cufo",
+          "gloss": "pezuña",
+          "analysis_html": "CUF + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CUF + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "animales",
+            "cuerpo"
+          ]
+        },
+        {
+          "id": "lexeme-cufuko",
+          "form": "cufuko",
+          "gloss": "herradura",
+          "analysis_html": "CUF + <span class=\"meta-extra\">u de enlace</span> + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
+          "analysis_text": "CUF + u de enlace + -KO",
+          "refs": [
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Objeto KO"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "animales",
+            "materiales"
+          ],
+          "notes": [
+            "CANÓNICO: la u de cufuko funciona como vocal de enlace entre CUF y -KO."
+          ]
+        },
+        {
+          "id": "lexeme-gercufo",
+          "form": "ĝercufo",
+          "gloss": "herradura",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ger-2\">ĜER</a> + CUF + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĜER + CUF + -O",
+          "refs": [
+            {
+              "id": "root-ger-2",
+              "label": "ĜER"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "metal",
+            "animales"
+          ],
+          "notes": [
+            "CANÓNICO: compuesto sobre *ĜER- «hierro» + *CUF- «pezuña»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cum",
