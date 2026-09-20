@@ -8230,20 +8230,8 @@
     },
     {
       "id": "root-burg-2",
-      "form": "*BURG-",
+      "form": "*BURĜ-",
       "gloss": "brote",
-      "tags": [],
-      "letter": "B",
-      "section": "sec-b",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-butk",
-      "form": "*BUTK-",
-      "gloss": "tienda",
       "tags": [
         {
           "class": "frances",
@@ -8252,10 +8240,209 @@
       ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Eo. burĝono < French bourgeon → *BURĜ-",
+      "notes": [
+        "CANÓNICO: *BURĜ- es la raíz de brotación y queda diferenciada gráficamente de *BURG- «castillo, fortificación»."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-burjo",
+          "form": "burĝo",
+          "gloss": "brote",
+          "analysis_html": "BURĜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BURĜ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "crecimiento",
+            "plantas"
+          ]
+        },
+        {
+          "id": "lexeme-burjas",
+          "form": "burĝas",
+          "gloss": "hacer brotar",
+          "analysis_html": "BURĜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BURĜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "crecimiento",
+            "causación"
+          ]
+        },
+        {
+          "id": "lexeme-burjis",
+          "form": "burĝis",
+          "gloss": "brotar",
+          "analysis_html": "BURĜ + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "BURĜ + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "crecimiento",
+            "procesos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-butk",
+      "form": "*BUT-K",
+      "gloss": "tienda, depósito",
+      "tags": [
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": "Etym. Eo. butiko < French boutique → *BUT-K",
+      "notes": [
+        "CANÓNICO: las formas modernas de esta familia insertan i epentética entre T y K: BUT-K → butik-."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-butikal",
+          "form": "butikal",
+          "gloss": "tienda, bodega",
+          "analysis_html": "BUT-K + <span class=\"meta-extra\">i epentética</span> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "BUT-K + i epentética + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "comercio",
+            "almacenamiento",
+            "lugares"
+          ]
+        },
+        {
+          "id": "lexeme-butikagal",
+          "form": "butikagal",
+          "gloss": "almacén grande",
+          "analysis_html": "BUT-K + <span class=\"meta-extra\">i epentética</span> + <a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "BUT-K + i epentética + AG- + -AL",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            },
+            {
+              "class": "generic",
+              "label": "Aumentativo"
+            }
+          ],
+          "semantic_fields": [
+            "almacenamiento",
+            "edificios",
+            "lugares"
+          ]
+        },
+        {
+          "id": "lexeme-butikas",
+          "form": "butikas",
+          "gloss": "almacenar",
+          "analysis_html": "BUT-K + <span class=\"meta-extra\">i epentética</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BUT-K + i epentética + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "almacenamiento",
+            "acciones",
+            "objetos"
+          ]
+        },
+        {
+          "id": "lexeme-butiko",
+          "form": "butiko",
+          "gloss": "botiquín, almacenaje pequeño",
+          "analysis_html": "BUT-K + <span class=\"meta-extra\">i epentética</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BUT-K + i epentética + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "almacenamiento",
+            "contenedores",
+            "objetos"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bus",
