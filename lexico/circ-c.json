@@ -18,26 +18,269 @@
     {
       "id": "root-cagr",
       "form": "*ĈAGR-",
-      "gloss": "ira, rabia",
+      "gloss": "disgusto, enojo",
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cagra",
+          "form": "ĉagra",
+          "gloss": "disgusto, enojo",
+          "analysis_html": "ĈAGR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĈAGR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "cualidades",
+            "estado"
+          ]
+        }
+      ]
     },
     {
       "id": "root-calp",
       "form": "*ĈALP-",
-      "gloss": "escalpa",
-      "tags": [],
+      "gloss": "escalpar; cuero cabelludo",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Eo. skalpi → *ĈALP-",
+      "notes": [
+        "CANÓNICO: la familia presenta los temas extendidos lexicalizados ĈALPEK- para corte/cirugía y ĈALPAR- para cabellera.",
+        "CANÓNICO: en ĉalpekur la secuencia UR es lexicalizada y no se identifica con el superlativizador productivo -UR.",
+        "CANÓNICO: ĉalpiŝelo se conserva como formación lexicalizada; IŜELO no se analiza productivamente como -IŜ- + -ELO."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-calpekas",
+          "form": "ĉalpekas",
+          "gloss": "arrancar el cuero; cortar con bisturí",
+          "analysis_html": "ĈALP + EK (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈALP + EK (extensión lexicalizada) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "acciones",
+            "anatomía"
+          ]
+        },
+        {
+          "id": "lexeme-calpekera",
+          "form": "ĉalpekera",
+          "gloss": "cirugía",
+          "analysis_html": "ĈALP + EKERA (formación lexicalizada)",
+          "analysis_text": "ĈALP + EKERA (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "acciones",
+            "anatomía"
+          ]
+        },
+        {
+          "id": "lexeme-calpeko",
+          "form": "ĉalpeko",
+          "gloss": "bisturí",
+          "analysis_html": "ĈALP + EK (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈALP + EK (extensión lexicalizada) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "objetos",
+            "anatomía"
+          ]
+        },
+        {
+          "id": "lexeme-calpekan",
+          "form": "ĉalpekan",
+          "gloss": "cirujano",
+          "analysis_html": "ĈALP + EK (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĈALP + EK (extensión lexicalizada) + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano agentivo AN"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "salud",
+            "acciones"
+          ]
+        },
+        {
+          "id": "lexeme-calpekur",
+          "form": "ĉalpekur",
+          "gloss": "quirúrgico",
+          "analysis_html": "ĈALP + EKUR (formación lexicalizada)",
+          "analysis_text": "ĈALP + EKUR (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "cualidades",
+            "anatomía"
+          ]
+        },
+        {
+          "id": "lexeme-jocalparon",
+          "form": "joĉalparon",
+          "gloss": "la de hermosa cabellera",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-jo-bald\">JO-</a> + ĈALP + AR (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "JO- + ĈALP + AR (extensión lexicalizada) + -ON",
+          "refs": [
+            {
+              "id": "morph-jo-bald",
+              "label": "JO-"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "cabello",
+            "apariencia"
+          ],
+          "notes": [
+            "CANÓNICO: joĉalparon significa «la de hermosa cabellera». El valor general de JO- permanece sin definir fuera de sus usos léxicos atestiguados."
+          ]
+        },
+        {
+          "id": "lexeme-calpara",
+          "form": "ĉalpara",
+          "gloss": "cabellera",
+          "analysis_html": "ĈALP + AR (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĈALP + AR (extensión lexicalizada) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "cabello",
+            "anatomía",
+            "apariencia"
+          ]
+        },
+        {
+          "id": "lexeme-calpiselo",
+          "form": "ĉalpiŝelo",
+          "gloss": "cuero cabelludo",
+          "analysis_html": "ĈALP + IŜELO (formación lexicalizada)",
+          "analysis_text": "ĈALP + IŜELO (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "piel",
+            "cabello"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cam-br",
