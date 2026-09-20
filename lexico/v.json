@@ -555,13 +555,15 @@
     },
     {
       "id": "root-volv",
-      "form": "*VOLV-",
+      "form": "*VOL-V",
       "gloss": "volver ⭐",
       "tags": [],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *VOL-V tiene VOL- como forma primigenia y VOLV- como forma extendida usual."
+      ],
       "row_class": "",
       "words": []
     },
