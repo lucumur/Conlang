@@ -1778,21 +1778,24 @@
     {
       "id": "morph-ul",
       "form": "*-UL-",
-      "gloss": "final, perfectivo",
+      "gloss": "singulativo; individuo o unidad singular de un conjunto o masa",
       "tags": [
         {
           "class": "generic",
           "label": "sufijo"
         },
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "generic",
+          "label": "singulativo"
         }
       ],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: -UL- es un singulativo. Forma una unidad o individuo singular a partir de una base entendida como conjunto, masa, clase o totalidad.",
+        "Ejemplos: cartulo «página» como unidad de material/documento de carta; cejmulon «familiar, pariente» como individuo de la familia."
+      ],
       "row_class": ""
     },
     {
