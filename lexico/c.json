@@ -1809,7 +1809,7 @@
             "fauna"
           ],
           "notes": [
-            "ANÁLISIS PROVISIONAL: se segmenta como RIV + i de enlace + CER + -EN. La función exacta de la i medial no fue especificada por el usuario."
+            "CANÓNICO: riviceren se segmenta como RIV + i de enlace + CER + -EN; la i medial funciona aquí como vocal de enlace."
           ]
         },
         {
@@ -1844,7 +1844,7 @@
             "fauna"
           ],
           "notes": [
-            "ANÁLISIS PROVISIONAL: para conciliar la raíz canónica *RON-Ĝ con ronceren, se trata RON- como alomorfo compositivo; la regla de alternancia todavía no está generalizada."
+            "CANÓNICO: ronceren se segmenta como RON-Ĝ (alomorfo compositivo RON-) + CER + -EN."
           ]
         },
         {
@@ -1879,14 +1879,14 @@
             "objetos"
           ],
           "notes": [
-            "ANÁLISIS PROVISIONAL: se segmenta como CER + CAR «pelo» + -I. Si -I conserva aquí su valor plural productivo, el sistema predeciría un singular cercaro; esa forma no se canoniza automáticamente."
+            "CANÓNICO: cercari se segmenta como CER + CAR «pelo» + -I."
           ]
         }
       ]
     },
     {
       "id": "root-ci",
-      "form": "*CI-",
+      "form": "*C-I",
       "gloss": "el",
       "tags": [
         {
@@ -1897,9 +1897,31 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *C-I reemplaza la forma anterior *CI-."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ci",
+          "form": "ci",
+          "gloss": "el",
+          "analysis_html": "C-I (forma plena)",
+          "analysis_text": "C-I (forma plena)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "referencia",
+            "gramática"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cil",
@@ -1916,7 +1938,34 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cile",
+          "form": "cile",
+          "gloss": "mil",
+          "analysis_html": "CIL + E (terminación lexicalizada)",
+          "analysis_text": "CIL + E (terminación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "cantidad",
+            "número",
+            "numeración"
+          ],
+          "notes": [
+            "CANÓNICO: cile es la forma léxica para «mil»; no se identifica automáticamente su -e con el sufijo productivo -E."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cin",
@@ -1933,7 +1982,79 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cina",
+          "form": "cina",
+          "gloss": "idioma chino",
+          "analysis_html": "CIN + A (terminación lexicalizada)",
+          "analysis_text": "CIN + A (terminación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nombre de lengua"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "lenguaje",
+            "habla",
+            "geografía"
+          ]
+        },
+        {
+          "id": "lexeme-cinal",
+          "form": "cinal",
+          "gloss": "China",
+          "analysis_html": "CIN + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "CIN + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Topónimo AL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "países",
+            "topónimos"
+          ]
+        },
+        {
+          "id": "lexeme-cinon",
+          "form": "cinon",
+          "gloss": "chino",
+          "analysis_html": "CIN + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "CIN + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "geografía"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cir",
@@ -1950,7 +2071,66 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cirvoja",
+          "form": "cirvoja",
+          "gloss": "quiralidad",
+          "analysis_html": "CIR + <a class=\"morph-link\" href=\"#root-voj\">VOJ</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CIR + VOJ + -A",
+          "refs": [
+            {
+              "id": "root-voj",
+              "label": "VOJ"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "geometría",
+            "anatomía",
+            "forma"
+          ]
+        },
+        {
+          "id": "lexeme-cirik",
+          "form": "cirik",
+          "gloss": "a mano; hecho a mano",
+          "analysis_html": "CIR + IK (adverbio lexicalizado)",
+          "analysis_text": "CIR + IK (adverbio lexicalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "modo",
+            "trabajo",
+            "objetos"
+          ],
+          "notes": [
+            "CANÓNICO: IK es aquí una terminación adverbial lexicalizada, paralela a celik; no corresponde al diminutivo productivo -IK-."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cis-t",
