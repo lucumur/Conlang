@@ -2322,7 +2322,88 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-clorinto",
+          "form": "clorinto",
+          "gloss": "cloro (elemento)",
+          "analysis_html": "CLOR + <a class=\"morph-link\" href=\"#morph-into\">-INTO</a>",
+          "analysis_text": "CLOR + -INTO",
+          "refs": [
+            {
+              "id": "morph-into",
+              "label": "-INTO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Elemento químico"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "elementos químicos",
+            "sustancias"
+          ]
+        },
+        {
+          "id": "lexeme-clore",
+          "form": "clore",
+          "gloss": "cloro (sustancia de hipoclorito de sodio)",
+          "analysis_html": "CLOR + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "CLOR + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "sustancias",
+            "materiales"
+          ]
+        },
+        {
+          "id": "lexeme-clorulco",
+          "form": "clorulĉo",
+          "gloss": "cloroplasto",
+          "analysis_html": "CLOR + <a class=\"morph-link\" href=\"#morph-ul\">-UL-</a> + <a class=\"morph-link\" href=\"#morph-co-2\">-ĈO</a>",
+          "analysis_text": "CLOR + -UL- + -ĈO",
+          "refs": [
+            {
+              "id": "morph-ul",
+              "label": "-UL-"
+            },
+            {
+              "id": "morph-co-2",
+              "label": "-ĈO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Singulativo UL"
+            },
+            {
+              "class": "generic",
+              "label": "Diminutivo ĈO"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "estructura",
+            "materia"
+          ]
+        }
+      ]
     },
     {
       "id": "root-co-t",
@@ -2341,7 +2422,32 @@
         "CO- es un derivado desprendible de *CO-T; la T final es desprendible."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-coter",
+          "form": "coter",
+          "gloss": "alto, elevado",
+          "analysis_html": "COT + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "COT + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "altura",
+            "descripción"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cof",
@@ -2353,7 +2459,63 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cofo",
+          "form": "cofo",
+          "gloss": "pezuña",
+          "analysis_html": "COF + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "COF + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "animales",
+            "cuerpo"
+          ]
+        },
+        {
+          "id": "lexeme-cofuko",
+          "form": "cofuko",
+          "gloss": "herradura",
+          "analysis_html": "COF + <span class=\"meta-extra\">u de enlace</span> + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
+          "analysis_text": "COF + u de enlace + -KO",
+          "refs": [
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Objeto KO"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "animales",
+            "materiales"
+          ],
+          "notes": [
+            "CANÓNICO: la u de cofuko funciona como vocal de enlace entre COF y -KO."
+          ]
+        }
+      ]
     },
     {
       "id": "root-condr",
@@ -2365,7 +2527,80 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-condre",
+          "form": "condre",
+          "gloss": "cartílago",
+          "analysis_html": "CONDR + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "CONDR + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "materia"
+          ]
+        },
+        {
+          "id": "lexeme-condro",
+          "form": "condro",
+          "gloss": "cartílago (unidad individual)",
+          "analysis_html": "CONDR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "CONDR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "estructura"
+          ]
+        },
+        {
+          "id": "lexeme-condrol",
+          "form": "condrol",
+          "gloss": "cartilaginoso",
+          "analysis_html": "CONDR + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "CONDR + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cualidades",
+            "cuerpo"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cont",
@@ -2377,7 +2612,56 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-contin",
+          "form": "contin",
+          "gloss": "apenado",
+          "analysis_html": "CONT + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "CONT + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio animante"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "personas",
+            "estado"
+          ]
+        },
+        {
+          "id": "lexeme-conta",
+          "form": "conta",
+          "gloss": "pena",
+          "analysis_html": "CONT + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CONT + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "abstractos"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cor",
@@ -2389,7 +2673,35 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-coro",
+          "form": "coro",
+          "gloss": "coral",
+          "analysis_html": "COR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "COR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "mar",
+            "materiales"
+          ],
+          "notes": [
+            "CANÓNICO: coro pertenece a *COR- «coral», no a la raíz homónima *COR- «coro»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cor-2",
