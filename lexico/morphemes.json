@@ -3197,6 +3197,53 @@
         "Valor provisional inferido de olbrovo «frente» y olbrovel «superciliar»: designa una región situada sobre o superior a la expresada por la base."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-ar-collective",
+      "form": "*-AR-",
+      "gloss": "colectivo; forma conjuntos o masas a partir de la base",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "colectivo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -AR- es un sufijo colectivo.",
+        "Se distingue del homónimo -AR, participio de la serie agentiva en -AS.",
+        "Atestiguado en ĉalpara «cabellera», donde forma un colectivo de pelo/cabello."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ek-ablative",
+      "form": "*-EK-",
+      "gloss": "ablativo derivativo; quitar, romper",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "ablativo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -EK- es un sufijo ablativo derivativo con valor de quitar o romper.",
+        "Atestiguado en la familia de *ĈALP-: ĉalpekas «arrancar el cuero; cortar con bisturí»."
+      ],
+      "row_class": ""
     }
   ]
 }
