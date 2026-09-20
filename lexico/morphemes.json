@@ -3116,8 +3116,8 @@
       "row_class": ""
     },
     {
-      "id": "morph-onda",
-      "form": "*-ONDA",
+      "id": "morph-una",
+      "form": "*-UNA",
       "gloss": "abstracto correspondiente a una forma humana en -ON",
       "tags": [
         {
@@ -3126,15 +3126,16 @@
         },
         {
           "class": "generic",
-          "label": "Provisional"
+          "label": "abstracto"
         }
       ],
-      "letter": "O",
-      "section": "sec-o",
+      "letter": "U",
+      "section": "sec-u",
       "etymology": null,
       "notes": [
-        "Análisis provisional inferido de bravon «bravo, valiente» → bravonda «valentía».",
-        "Se interpreta como formación abstracta de -ON, paralela estructuralmente a -OLDA; su productividad general requiere más ejemplos."
+        "CANÓNICO: -UNA forma el abstracto correspondiente a una forma humana en -ON.",
+        "La derivación sustituye -ON por -UNA: bravon → bravuna, burgidon → burgiduna, camoklon → camokluna.",
+        "En extensiones como -ONTON, puede sustituirse el -ON final: -ONTON → -ONTUNA."
       ],
       "row_class": ""
     },
