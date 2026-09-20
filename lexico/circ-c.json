@@ -339,14 +339,191 @@
     {
       "id": "root-cam-br",
       "form": "*ĈAM-BR",
-      "gloss": "camara",
+      "gloss": "cámara, cueva",
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cambro",
+          "form": "ĉambro",
+          "gloss": "cámara, cueva",
+          "analysis_html": "ĈAMBR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈAMBR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "arquitectura",
+            "lugares",
+            "espacio"
+          ]
+        },
+        {
+          "id": "lexeme-socambro",
+          "form": "soĉambro",
+          "gloss": "sótano",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-so-sub\">SO-</a> + ĈAMBR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "SO- + ĈAMBR + -O",
+          "refs": [
+            {
+              "id": "morph-so-sub",
+              "label": "SO-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "arquitectura",
+            "lugares",
+            "edificios"
+          ]
+        },
+        {
+          "id": "lexeme-cambron",
+          "form": "ĉambron",
+          "gloss": "camarada, compañero",
+          "analysis_html": "ĈAMBR + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ĈAMBR + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "relaciones",
+            "sociedad"
+          ]
+        },
+        {
+          "id": "lexeme-filmicamban",
+          "form": "filmiĉambran",
+          "gloss": "camarógrafo (de cine)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-film\">FILM</a> + I (vocal de enlace) + ĈAMBR + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "FILM + I (vocal de enlace) + ĈAMBR + -AN",
+          "refs": [
+            {
+              "id": "root-film",
+              "label": "FILM"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano agentivo AN"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "cine",
+            "profesiones"
+          ]
+        },
+        {
+          "id": "lexeme-fotocambro",
+          "form": "fotoĉambro",
+          "gloss": "cámara fotográfica",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fo-t\">FOTO</a> (forma compositiva de *FO-T-) + ĈAMBR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FOTO (forma compositiva de *FO-T-) + ĈAMBR + -O",
+          "refs": [
+            {
+              "id": "root-fo-t",
+              "label": "FO-T"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "fotografía",
+            "tecnología"
+          ]
+        },
+        {
+          "id": "lexeme-fotocambran",
+          "form": "fotoĉambran",
+          "gloss": "fotógrafo",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fo-t\">FOTO</a> (forma compositiva de *FO-T-) + ĈAMBR + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "FOTO (forma compositiva de *FO-T-) + ĈAMBR + -AN",
+          "refs": [
+            {
+              "id": "root-fo-t",
+              "label": "FO-T"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano agentivo AN"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "fotografía",
+            "profesiones"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cam-n",
