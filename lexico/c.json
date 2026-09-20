@@ -1494,7 +1494,7 @@
     {
       "id": "root-cem",
       "form": "*CEM-",
-      "gloss": "quimica",
+      "gloss": "sustancia, química",
       "tags": [
         {
           "class": "griego",
@@ -1504,9 +1504,192 @@
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *CEM- reúne los sentidos de sustancia y química."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cema",
+          "form": "cema",
+          "gloss": "sustancia",
+          "analysis_html": "CEM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CEM + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "sustancias",
+            "materia"
+          ]
+        },
+        {
+          "id": "lexeme-cemistan",
+          "form": "cemistan",
+          "gloss": "químico (oficio)",
+          "analysis_html": "CEM + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "CEM + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            },
+            {
+              "class": "generic",
+              "label": "Profesión"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "profesiones",
+            "personas"
+          ]
+        },
+        {
+          "id": "lexeme-cemerel",
+          "form": "cemerel",
+          "gloss": "químico (adjetivo)",
+          "analysis_html": "CEM + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "CEM + -ER + -EL",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "cualidades",
+            "sustancias"
+          ]
+        },
+        {
+          "id": "lexeme-cemera",
+          "form": "cemera",
+          "gloss": "química",
+          "analysis_html": "CEM + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CEM + -ER + -A",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "ciencias",
+            "sustancias"
+          ]
+        },
+        {
+          "id": "lexeme-urcemera",
+          "form": "urcemera",
+          "gloss": "alquimia",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ur\">UR-</a> + CEM + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "UR- + CEM + -ER + -A",
+          "refs": [
+            {
+              "id": "morph-ur",
+              "label": "UR-"
+            },
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            },
+            {
+              "class": "generic",
+              "label": "Arcaizante"
+            }
+          ],
+          "semantic_fields": [
+            "alquimia",
+            "química",
+            "historia"
+          ]
+        },
+        {
+          "id": "lexeme-cemfajra",
+          "form": "cemfajra",
+          "gloss": "fuego químico, fuego artificial",
+          "analysis_html": "CEM + <a class=\"morph-link\" href=\"#root-faj-r\">FAJ-R</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CEM + FAJ-R + -A",
+          "refs": [
+            {
+              "id": "root-faj-r",
+              "label": "FAJ-R"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "fuego",
+            "pirotecnia"
+          ]
+        }
+      ]
     },
     {
       "id": "root-cenc",
