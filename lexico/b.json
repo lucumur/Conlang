@@ -8446,15 +8446,186 @@
     },
     {
       "id": "root-bus",
-      "form": "*BUS-",
-      "gloss": "boca",
-      "tags": [],
+      "form": "*BUŜ-",
+      "gloss": "boca, buche",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Eo. buŝo < French bouche < Latin bucca → *BUŜ-",
+      "notes": [
+        "CANÓNICO: *BUŜ- reemplaza la antigua grafía *BUS- para la raíz «boca»; no se mantiene *BUS- como raíz vigente."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-busho",
+          "form": "buŝo",
+          "gloss": "boca, buche",
+          "analysis_html": "BUŜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BUŜ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "boca",
+            "cabeza"
+          ]
+        },
+        {
+          "id": "lexeme-busha",
+          "form": "buŝa",
+          "gloss": "beso",
+          "analysis_html": "BUŜ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BUŜ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "afecto",
+            "acciones de boca",
+            "contacto"
+          ]
+        },
+        {
+          "id": "lexeme-abushas",
+          "form": "abuŝas",
+          "gloss": "embuchar, meterse algo a la boca",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a\">A-</a> + BUŜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A- + BUŜ + -AS",
+          "refs": [
+            {
+              "id": "morph-a",
+              "label": "A-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones de boca",
+            "ingestión",
+            "movimiento"
+          ]
+        },
+        {
+          "id": "lexeme-bushas",
+          "form": "buŝas",
+          "gloss": "besar",
+          "analysis_html": "BUŜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BUŜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "afecto",
+            "acciones de boca",
+            "contacto"
+          ]
+        },
+        {
+          "id": "lexeme-parbushoj",
+          "form": "parbuŝoj",
+          "gloss": "carrillos",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-par\">PAR</a> + BUŜ + OJ (plural lexicalizado)",
+          "analysis_text": "PAR + BUŜ + OJ (plural lexicalizado)",
+          "refs": [
+            {
+              "id": "root-par",
+              "label": "PAR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Plural lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "boca",
+            "rostro"
+          ],
+          "notes": [
+            "OJ se conserva como plural lexicalizado en esta palabra; el plural productivo de -O sigue siendo -I."
+          ]
+        },
+        {
+          "id": "lexeme-trabushos",
+          "form": "trabuŝos",
+          "gloss": "regurgitar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tra\">TRA</a> + BUŜ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TRA + BUŜ + -OS",
+          "refs": [
+            {
+              "id": "root-tra",
+              "label": "TRA"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones de boca",
+            "digestión",
+            "movimiento"
+          ]
+        }
+      ]
     },
     {
       "id": "root-bzon",
