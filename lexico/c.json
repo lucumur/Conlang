@@ -594,26 +594,22 @@
           "id": "lexeme-cadelo",
           "form": "cadelo",
           "gloss": "Plutón (planeto)",
-          "analysis_html": "CAD + <a class=\"morph-link\" href=\"#morph-el\">-EL</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "CAD + -EL + -O",
+          "analysis_html": "CAD + <a class=\"morph-link\" href=\"#morph-elo\">-ELO</a>",
+          "analysis_text": "CAD + -ELO",
           "refs": [
             {
-              "id": "morph-el",
-              "label": "-EL"
-            },
-            {
-              "id": "morph-o",
-              "label": "-O"
+              "id": "morph-elo",
+              "label": "-ELO"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Nomen O"
+              "label": "Adjetivo ELO"
             },
             {
               "class": "generic",
-              "label": "Nombre propio"
+              "label": "Nombre propio lexicalizado"
             }
           ],
           "semantic_fields": [
@@ -622,7 +618,7 @@
             "sistema solar"
           ],
           "notes": [
-            "Lexicalización astronómica de una formación derivada de CAD."
+            "CANÓNICO: cadelo es un adjetivo en -ELO lexicalizado como nombre propio de Plutón."
           ]
         },
         {
@@ -640,20 +636,13 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Nomen INTO"
-            },
-            {
-              "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Elemento INTO"
             }
           ],
           "semantic_fields": [
             "química",
             "elementos",
             "metales"
-          ],
-          "notes": [
-            "Uso lexicalizado de -INTO para el nombre del elemento químico plutonio."
           ]
         }
       ]
