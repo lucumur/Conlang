@@ -7888,14 +7888,130 @@
     {
       "id": "root-bulg",
       "form": "*BULG-",
-      "gloss": "bulgaro",
-      "tags": [],
+      "gloss": "búlgaro",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Eo. bulgaro / Bulgario → *BULG-",
+      "notes": [
+        "CANÓNICO: la familia desarrolla además un sentido interno relacionado con desorden y disturbio, visible en bulgon y fibulga."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-bulgal",
+          "form": "bulgal",
+          "gloss": "Bulgaria",
+          "analysis_html": "BULG + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "BULG + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            },
+            {
+              "class": "generic",
+              "label": "Topónimo"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "países",
+            "topónimos"
+          ]
+        },
+        {
+          "id": "lexeme-bulgin",
+          "form": "bulgin",
+          "gloss": "búlgaro",
+          "analysis_html": "BULG + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "BULG + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animante IN"
+            },
+            {
+              "class": "generic",
+              "label": "Gentilicio"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "gentilicios",
+            "geografía"
+          ]
+        },
+        {
+          "id": "lexeme-bulgon",
+          "form": "bulgon",
+          "gloss": "desordenador, que hace disturbios",
+          "analysis_html": "BULG + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "BULG + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "conducta",
+            "disturbios"
+          ]
+        },
+        {
+          "id": "lexeme-fibulga",
+          "form": "fibulga",
+          "gloss": "disturbio",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fi\">FI</a> + BULG + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FI + BULG + -A",
+          "refs": [
+            {
+              "id": "root-fi",
+              "label": "FI"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "disturbios",
+            "desorden",
+            "conflicto"
+          ]
+        }
+      ]
     },
     {
       "id": "root-burg",
