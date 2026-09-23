@@ -3700,7 +3700,8 @@
       "section": "sec-c",
       "etymology": null,
       "notes": [
-        "CANÓNICO: *CAL-T- expresa detención, pausa y cese; caltur conserva -ur como formación lexicalizada y no redefine el superlativizador productivo -UR."
+        "CANÓNICO: CAL-T- expresa detener o parar sin especificar por sí mismo pausa temporal, standby o cese aspectual; contrasta con ĈES-.",
+        "CANÓNICO: caltur conserva -ur como formación lexicalizada; esa secuencia no corresponde productivamente al participio -UR de la serie -OS."
       ],
       "row_class": "",
       "words": [
@@ -3755,7 +3756,7 @@
         {
           "id": "lexeme-secalter",
           "form": "secalter",
-          "gloss": "sin pausa, continuo",
+          "gloss": "sin detenerse, continuo",
           "analysis_html": "<a class=\"morph-link\" href=\"#morph-se-privative\">SE-</a> + CAL-T + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
           "analysis_text": "SE- + CAL-T + -ER",
           "refs": [
@@ -3783,7 +3784,7 @@
         {
           "id": "lexeme-calta",
           "form": "calta",
-          "gloss": "pausa, detención",
+          "gloss": "detención, parada",
           "analysis_html": "CAL-T + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
           "analysis_text": "CAL-T + -A",
           "refs": [
@@ -3802,6 +3803,9 @@
             "tiempo",
             "estado",
             "procesos"
+          ],
+          "notes": [
+            "Se distingue de ĉesa «pausa»."
           ]
         },
         {
@@ -3823,7 +3827,7 @@
             "cualidades"
           ],
           "notes": [
-            "La secuencia -ur es lexicalizada en esta palabra; no corresponde productivamente al superlativizador -UR."
+            "La secuencia -ur es lexicalizada en esta palabra; no corresponde productivamente al participio -UR de la serie -OS."
           ]
         }
       ]
