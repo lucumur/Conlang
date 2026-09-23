@@ -376,7 +376,9 @@
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: las formas locativas en -AL pueden derivar un adjetivo en -ATEL y una designación humana en -ATAN."
+      ],
       "row_class": ""
     },
     {
@@ -616,7 +618,9 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: los nomen en -O forman regularmente el adjetivo directo sustituyendo -O por -EL; por ejemplo, kordo → kordel y ĉelĉo → ĉelĉel."
+      ],
       "row_class": ""
     },
     {
@@ -2411,8 +2415,32 @@
       "section": "sec-a",
       "etymology": null,
       "notes": [
-        "Regla canónica: una forma locativa en -AL puede formar su adjetivo correspondiente en -ATEL.",
+        "CANÓNICO: una forma locativa en -AL puede formar su adjetivo correspondiente en -ATEL.",
+        "La derivación humana paralela usa -ATAN.",
         "Ejemplo: arjonal «desierto» → arjonatel «desértico»."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-atan",
+      "form": "*-ATAN",
+      "gloss": "humano derivado de una forma locativa en -AL",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "humano"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: una forma locativa en -AL puede formar una designación humana correspondiente en -ATAN.",
+        "La relación es paralela a -AL → -ATEL para el adjetivo."
       ],
       "row_class": ""
     },
