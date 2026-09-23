@@ -2026,9 +2026,75 @@
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: ĉrivar «escritorio» aplica el participio agentivo -AR a un objeto no humano: «objeto que escribe / sirve agentivamente para escribir».",
+        "CANÓNICO: ĉrifko «letra» deriva de ĈRIV + -KO con ensordecimiento V → F ante K."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-crivar",
+          "form": "ĉrivar",
+          "gloss": "escritorio",
+          "analysis_html": "ĈRIV + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "ĈRIV + -AR",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio agentivo AR"
+            },
+            {
+              "class": "generic",
+              "label": "Objeto no humano"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "escritura",
+            "mobiliario"
+          ],
+          "notes": [
+            "-AR atribuye aquí una cualidad agentiva a un objeto no humano."
+          ]
+        },
+        {
+          "id": "lexeme-crifko",
+          "form": "ĉrifko",
+          "gloss": "letra",
+          "analysis_html": "ĈRIV + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a> → ĈRIFK- <span class=\"meta-extra\">(V → F / _K)</span>",
+          "analysis_text": "ĈRIV + -KO → ĈRIFK- (V → F / _K)",
+          "refs": [
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Objeto KO"
+            },
+            {
+              "class": "generic",
+              "label": "Ensordecimiento V > F"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "lenguaje",
+            "símbolos"
+          ],
+          "notes": [
+            "Aplicación canónica del ensordecimiento V → F ante K."
+          ]
+        }
+      ]
     },
     {
       "id": "root-crump",
