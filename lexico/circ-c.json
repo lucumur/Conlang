@@ -1227,9 +1227,139 @@
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: ĈARP- conserva el valor general «madera» como materia.",
+        "CANÓNICO: ĉarpo «carpe» es una forma prisca lexicalizada de esta familia; su -o final no se analiza sincrónicamente como el morfema nominal -O."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-carpe",
+          "form": "ĉarpe",
+          "gloss": "madera",
+          "analysis_html": "ĈARP + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ĈARP + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "naturaleza"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-carpistan",
+          "form": "ĉarpistan",
+          "gloss": "carpintero",
+          "analysis_html": "ĈARP + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĈARP + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "trabajo",
+            "materiales"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-carpo",
+          "form": "ĉarpo",
+          "gloss": "carpe",
+          "analysis_html": "ĈARP + <span class=\"meta-extra\">o final prisca lexicalizada</span>",
+          "analysis_text": "ĈARP + o final prisca lexicalizada",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Forma prisca"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "naturaleza"
+          ],
+          "notes": [
+            "CANÓNICO: forma prisca; la -o final no corresponde sincrónicamente al sufijo -O."
+          ]
+        },
+        {
+          "id": "lexeme-carpistaral",
+          "form": "ĉarpistaral",
+          "gloss": "carpintería",
+          "analysis_html": "ĈARP + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-ar-collective\">-AR-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ĈARP + -IST + -AR- + -AL",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-ar-collective",
+              "label": "-AR-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Colectivo AR"
+            },
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "lugares",
+            "trabajo",
+            "materiales"
+          ],
+          "notes": [
+            "Designa la carpintería como taller o establecimiento."
+          ]
+        }
+      ]
     },
     {
       "id": "root-ce",
