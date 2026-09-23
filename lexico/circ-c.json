@@ -1383,7 +1383,270 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cefas",
+          "form": "ĉefas",
+          "gloss": "encabezar",
+          "analysis_html": "ĈEF + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈEF + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "liderazgo",
+            "jerarquía"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cefar",
+          "form": "ĉefar",
+          "gloss": "cabeza",
+          "analysis_html": "ĈEF + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "ĈEF + -AR",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio agentivo AR"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "liderazgo",
+            "jerarquía",
+            "objetos"
+          ],
+          "notes": [
+            "Lexicalización de «lo que encabeza» como cabeza/cabecera."
+          ]
+        },
+        {
+          "id": "lexeme-cefarko",
+          "form": "ĉefarko",
+          "gloss": "título",
+          "analysis_html": "ĈEF + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a> + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
+          "analysis_text": "ĈEF + -AR + -KO",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            },
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio agentivo AR"
+            },
+            {
+              "class": "generic",
+              "label": "Objeto KO"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "jerarquía",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cefal",
+          "form": "ĉefal",
+          "gloss": "capital",
+          "analysis_html": "ĈEF + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ĈEF + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "lugares",
+            "ciudades",
+            "jerarquía"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cefatel",
+          "form": "ĉefatel",
+          "gloss": "capitalino",
+          "analysis_html": "ĉefal → ĉefatel (<a class=\"morph-link\" href=\"#morph-atel\">-ATEL</a>)",
+          "analysis_text": "ĉefal → ĉefatel (-AL → -ATEL)",
+          "refs": [
+            {
+              "id": "morph-atel",
+              "label": "-ATEL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo locativo ATEL"
+            }
+          ],
+          "semantic_fields": [
+            "ciudades",
+            "lugares",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cefantan",
+          "form": "ĉefantan",
+          "gloss": "chef, jefe, chief",
+          "analysis_html": "ĈEF + <a class=\"morph-link\" href=\"#morph-antan\">-ANTAN</a>",
+          "analysis_text": "ĈEF + -ANTAN",
+          "refs": [
+            {
+              "id": "morph-antan",
+              "label": "-ANTAN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano especializado ANTAN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "liderazgo",
+            "trabajo"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cefansidal",
+          "form": "ĉefansidal",
+          "gloss": "jefatura, rectoría",
+          "analysis_html": "ĈEF + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> + <a class=\"morph-link\" href=\"#root-sid\">SID</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ĈEF + -AN + SID + -AL",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            },
+            {
+              "id": "root-sid",
+              "label": "SID"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "lugares",
+            "liderazgo",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cefolbo",
+          "form": "ĉefolbo",
+          "gloss": "cráneo, bóveda craneana",
+          "analysis_html": "ĈEF + <a class=\"morph-link\" href=\"#root-volb\">OLB</a> <span class=\"meta-extra\">(forma compositiva lexicalizada de VOLB)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈEF + OLB (forma compositiva lexicalizada de VOLB) + -O",
+          "refs": [
+            {
+              "id": "root-volb",
+              "label": "VOLB"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "objetos",
+            "cualidades"
+          ],
+          "notes": [
+            "La reducción VOLB → OLB se documenta aquí como forma compositiva lexicalizada; no se generaliza todavía como regla fonológica."
+          ]
+        },
+        {
+          "id": "lexeme-cefa",
+          "form": "ĉefa",
+          "gloss": "tope, lo superior, cenefa",
+          "analysis_html": "ĈEF + A <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "ĈEF + A (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "jerarquía",
+            "objetos",
+            "cualidades"
+          ],
+          "notes": [
+            "La -a final no se usa aquí para redefinir productivamente el nomen dinámico -A."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cel-2",
@@ -1706,10 +1969,28 @@
       ]
     },
     {
+      "id": "root-cer-2",
+      "form": "*ĈER-",
+      "gloss": "cuerno",
+      "tags": [],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [
+        "ABIERTO: la relación histórica y morfológica con *ĈERV- «ciervo» sigue pendiente de resolución."
+      ],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-cerp",
       "form": "*ĈERP-",
       "gloss": "sacar, extraer",
       "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
         {
           "class": "slavo",
           "label": "Slavo"
@@ -1717,10 +1998,36 @@
       ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
-      "etymology": null,
+      "etymology": "Etym. Eo. ĉerpi → *ĈERP-",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cerpas",
+          "form": "ĉerpas",
+          "gloss": "extraer, sacar",
+          "analysis_html": "ĈERP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈERP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "movimiento",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-cerv",
@@ -1742,14 +2049,97 @@
     {
       "id": "root-cerz",
       "form": "*ĈERZ-",
-      "gloss": "cereza",
+      "gloss": "cerezo, cereza",
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cerzo",
+          "form": "ĉerzo",
+          "gloss": "cerezo",
+          "analysis_html": "ĈERZ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈERZ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "naturaleza"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cerzoro",
+          "form": "ĉerzoro",
+          "gloss": "flor de cerezo",
+          "analysis_html": "ĈERZ + ORO <span class=\"meta-extra\">(formante floral lexicalizado)</span>",
+          "analysis_text": "ĈERZ + ORO (formante floral lexicalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "naturaleza",
+            "cualidades"
+          ],
+          "notes": [
+            "ORO queda como formante floral lexicalizado de esta palabra; no se identifica con el sufijo -OR de magnitud."
+          ]
+        },
+        {
+          "id": "lexeme-cerzibero",
+          "form": "ĉerzibero",
+          "gloss": "cereza",
+          "analysis_html": "ĈERZ + I <span class=\"meta-extra\">(vocal de enlace)</span> + <a class=\"morph-link\" href=\"#root-ber\">BER</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈERZ + I (vocal de enlace) + BER + -O",
+          "refs": [
+            {
+              "id": "root-ber",
+              "label": "BER"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "alimentación",
+            "naturaleza"
+          ],
+          "notes": [
+            "BER participa aquí en una formación lexicalizada; esta entrada no redefine por sí sola su valor general «mora»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-ces",
@@ -1934,31 +2324,397 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cirpen",
+          "form": "ĉirpen",
+          "gloss": "pájaro",
+          "analysis_html": "ĈIRP + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "ĈIRP + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "sonidos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cirpila",
+          "form": "ĉirpila",
+          "gloss": "chirpido",
+          "analysis_html": "ĈIRP + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĈIRP + -IL- + -A",
+          "refs": [
+            {
+              "id": "morph-il-partitive",
+              "label": "-IL-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partitivo IL"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "sonidos",
+            "fauna",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cirpos",
+          "form": "ĉirpos",
+          "gloss": "chirpiar",
+          "analysis_html": "ĈIRP + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ĈIRP + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "sonidos",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-cit",
       "form": "*ĈIT-",
-      "gloss": "callarse",
+      "gloss": "callar, callarse",
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-citas",
+          "form": "ĉitas",
+          "gloss": "callar",
+          "analysis_html": "ĈIT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈIT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "personas",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-citos",
+          "form": "ĉitos",
+          "gloss": "callarse",
+          "analysis_html": "ĈIT + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ĈIT + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "personas",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-citis",
+          "form": "ĉitis",
+          "gloss": "estar callado",
+          "analysis_html": "ĈIT + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "ĈIT + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Absolutivo IS"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "estado",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-citon",
+          "form": "ĉiton",
+          "gloss": "callado, serio",
+          "analysis_html": "ĈIT + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ĈIT + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "estado",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-citiston",
+          "form": "ĉitiston",
+          "gloss": "iniciado en misterios, miembro de secta",
+          "analysis_html": "ĈIT + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ĈIT + -IST + -ON",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "religión",
+            "secreto"
+          ],
+          "notes": [
+            "Especialización cultural de la familia semántica del silencio y lo reservado."
+          ]
+        },
+        {
+          "id": "lexeme-citisma",
+          "form": "ĉitisma",
+          "gloss": "misterio",
+          "analysis_html": "ĈIT + <a class=\"morph-link\" href=\"#morph-isma\">-ISMA</a>",
+          "analysis_text": "ĈIT + -ISMA",
+          "refs": [
+            {
+              "id": "morph-isma",
+              "label": "-ISMA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sistema ISMA"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "secreto",
+            "religión",
+            "cualidades"
+          ],
+          "notes": [
+            "Lexicalización desde la idea de sistema/doctrina de lo callado u oculto."
+          ]
+        },
+        {
+          "id": "lexeme-citila",
+          "form": "ĉitila",
+          "gloss": "secreto",
+          "analysis_html": "ĈIT + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĈIT + -IL- + -A",
+          "refs": [
+            {
+              "id": "morph-il-partitive",
+              "label": "-IL-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partitivo IL"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "secreto",
+            "confidencialidad",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ciz",
       "form": "*ĈIZ-",
-      "gloss": "Cortar",
+      "gloss": "cortar",
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cizas",
+          "form": "ĉizas",
+          "gloss": "cortar",
+          "analysis_html": "ĈIZ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈIZ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "objetos",
+            "movimiento"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cizil",
+          "form": "ĉizil",
+          "gloss": "corto, pequeño",
+          "analysis_html": "ĈIZ + <a class=\"morph-link\" href=\"#morph-il\">-IL</a>",
+          "analysis_text": "ĈIZ + -IL",
+          "refs": [
+            {
+              "id": "morph-il",
+              "label": "-IL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado IL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "objetos",
+            "estado"
+          ],
+          "notes": [
+            "Desarrollo semántico: «cortado/reducido» → «corto, pequeño»."
+          ]
+        },
+        {
+          "id": "lexeme-cizajr",
+          "form": "ĉizajr",
+          "gloss": "tijeras",
+          "analysis_html": "ĈIZ + <a class=\"morph-link\" href=\"#morph-ajr\">-AJR</a>",
+          "analysis_text": "ĈIZ + -AJR",
+          "refs": [
+            {
+              "id": "morph-ajr",
+              "label": "-AJR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dual AJR"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "acciones",
+            "trabajo"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-com",
@@ -1975,7 +2731,7 @@
     {
       "id": "root-comp",
       "form": "*ĈOMP-",
-      "gloss": "arrancar bocado",
+      "gloss": "arrancar bocado, morder",
       "tags": [
         {
           "class": "generic",
@@ -1987,36 +2743,246 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-crig-strig",
-      "form": "*ĈRIG- (<STRIG)",
-      "gloss": "buho",
-      "tags": [
+      "words": [
         {
-          "class": "nat-mod",
-          "label": "Nat-mod"
+          "id": "lexeme-compas",
+          "form": "ĉompas",
+          "gloss": "arrancar bocado, morder",
+          "analysis_html": "ĈOMP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈOMP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "alimentación",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-compiko",
+          "form": "ĉompiko",
+          "gloss": "sándwich, bocadillo",
+          "analysis_html": "ĈOMP + <a class=\"morph-link\" href=\"#morph-ik\">-IK-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈOMP + -IK- + -O",
+          "refs": [
+            {
+              "id": "morph-ik",
+              "label": "-IK-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Diminutivo IK"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "objetos",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-compila",
+          "form": "ĉompila",
+          "gloss": "bocado",
+          "analysis_html": "ĈOMP + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĈOMP + -IL- + -A",
+          "refs": [
+            {
+              "id": "morph-il-partitive",
+              "label": "-IL-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partitivo IL"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "acciones",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-com-com",
+          "form": "ĉom-ĉom",
+          "gloss": "estar comiendo",
+          "analysis_html": "ĈOM-ĈOM <span class=\"meta-extra\">(reduplicación onomatopéyica lexicalizada de ĈOMP-)</span>",
+          "analysis_text": "ĈOM-ĈOM (reduplicación onomatopéyica lexicalizada de ĈOMP-)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sono"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "acciones",
+            "sonidos"
+          ],
+          "notes": [
+            "La reducción ĈOMP → ĈOM y la reduplicación se documentan solo en esta formación expresiva; no se generalizan todavía."
+          ]
         }
-      ],
-      "letter": "Ĉ",
-      "section": "sec-circ-c",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
+      ]
     },
     {
       "id": "root-cri",
       "form": "*ĈRI-",
-      "gloss": "linea",
+      "gloss": "línea",
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
-      "etymology": null,
+      "etymology": "Etym. de novo; string- → *ĈRI-",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cringo",
+          "form": "ĉringo",
+          "gloss": "línea",
+          "analysis_html": "ĈRI + NGO <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "ĈRI + NGO (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "objetos",
+            "escritura"
+          ],
+          "notes": [
+            "La secuencia -ngo se conserva lexicalizada; no se identifica por ahora con el clasificador -ING-."
+          ]
+        },
+        {
+          "id": "lexeme-gxencrila",
+          "form": "ĝenĉrila",
+          "gloss": "linaje, especie",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-gen\">ĜEN</a> + ĈRI + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĜEN + ĈRI + -IL- + -A",
+          "refs": [
+            {
+              "id": "root-gen",
+              "label": "ĜEN"
+            },
+            {
+              "id": "morph-il-partitive",
+              "label": "-IL-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Partitivo IL"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "familia",
+            "naturaleza",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "root-crig-strig",
+      "form": "*ĈRIG-",
+      "gloss": "búho",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": "Etym. Eo. strigo → *ĈRIG-",
+      "notes": [
+        "CANÓNICO: la indicación histórica «< STRIG» se retira del campo forma y se registra como etimología."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-crigen",
+          "form": "ĉrigen",
+          "gloss": "búho",
+          "analysis_html": "ĈRIG + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "ĈRIG + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "naturaleza"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-criv",
@@ -2025,13 +2991,106 @@
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
-      "etymology": null,
+      "etymology": "Etym. de novo; scriv- → *ĈRIV-",
       "notes": [
         "CANÓNICO: ĉrivar «escritorio» aplica el participio agentivo -AR a un objeto no humano: «objeto que escribe / sirve agentivamente para escribir».",
         "CANÓNICO: ĉrifko «letra» deriva de ĈRIV + -KO con ensordecimiento V → F ante K."
       ],
       "row_class": "",
       "words": [
+        {
+          "id": "lexeme-crivas",
+          "form": "ĉrivas",
+          "gloss": "escribir",
+          "analysis_html": "ĈRIV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈRIV + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "acciones",
+            "lenguaje"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ficrivas",
+          "form": "fiĉrivas",
+          "gloss": "rayar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fi\">FI</a> + ĈRIV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FI + ĈRIV + -AS",
+          "refs": [
+            {
+              "id": "root-fi",
+              "label": "FI"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "acciones",
+            "objetos"
+          ],
+          "notes": [
+            "FI- aporta aquí un valor degradativo/peyorativo lexicalizado: escribir dañando o marcando una superficie."
+          ]
+        },
+        {
+          "id": "lexeme-crivistan",
+          "form": "ĉrivistan",
+          "gloss": "escritor",
+          "analysis_html": "ĈRIV + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĈRIV + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "escritura",
+            "oficios"
+          ],
+          "notes": []
+        },
         {
           "id": "lexeme-crivar",
           "form": "ĉrivar",
@@ -2064,6 +3123,39 @@
           ]
         },
         {
+          "id": "lexeme-crivilo",
+          "form": "ĉrivilo",
+          "gloss": "escrito",
+          "analysis_html": "ĈRIV + <a class=\"morph-link\" href=\"#morph-il\">-IL</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈRIV + -IL + -O",
+          "refs": [
+            {
+              "id": "morph-il",
+              "label": "-IL"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado IL"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "objetos",
+            "lenguaje"
+          ],
+          "notes": []
+        },
+        {
           "id": "lexeme-crifko",
           "form": "ĉrifko",
           "gloss": "letra",
@@ -2093,20 +3185,135 @@
           "notes": [
             "Aplicación canónica del ensordecimiento V → F ante K."
           ]
+        },
+        {
+          "id": "lexeme-criveza",
+          "form": "ĉriveẑa",
+          "gloss": "escritura",
+          "analysis_html": "ĈRIV + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "ĈRIV + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Cualidad abstracta EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "cualidades",
+            "lenguaje"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-belcriveza",
+          "form": "belĉriveẑa",
+          "gloss": "caligrafía",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + ĈRIV + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "BEL + ĈRIV + -EẐA",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Cualidad abstracta EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "cualidades",
+            "lenguaje"
+          ],
+          "notes": []
         }
       ]
     },
     {
       "id": "root-crump",
       "form": "*ĈRUMP-",
-      "gloss": "calcetines",
+      "gloss": "calcetín",
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-crumpoj",
+          "form": "ĉrumpoj",
+          "gloss": "par de calcetines",
+          "analysis_html": "ĈRUMP + <a class=\"morph-link\" href=\"#morph-oj\">-OJ</a>",
+          "analysis_text": "ĈRUMP + -OJ",
+          "refs": [
+            {
+              "id": "morph-oj",
+              "label": "-OJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Plural dual OJ"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "objetos",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-vlancrumpoj",
+          "form": "vlanĉrumpoj",
+          "gloss": "calcetines de lana",
+          "analysis_html": "VLAN <span class=\"meta-extra\">(formante «lana», estatuto pendiente)</span> + ĈRUMP + <a class=\"morph-link\" href=\"#morph-oj\">-OJ</a>",
+          "analysis_text": "VLAN (formante «lana», estatuto pendiente) + ĈRUMP + -OJ",
+          "refs": [
+            {
+              "id": "morph-oj",
+              "label": "-OJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Plural dual OJ"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "objetos",
+            "naturaleza"
+          ],
+          "notes": [
+            "VLAN- se conserva como formante compositivo «lana»; su raíz, etimología y productividad general quedan abiertas."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cu",
@@ -2124,13 +3331,111 @@
       "id": "root-cuf-2",
       "form": "*ĈUF-",
       "gloss": "sonido de tren",
-      "tags": [],
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Sono"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-pracufos",
+          "form": "praĉufos",
+          "gloss": "arrancar, ponerse en marcha (un tren)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pra\">PRA</a> + ĈUF + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "PRA + ĈUF + -OS",
+          "refs": [
+            {
+              "id": "root-pra",
+              "label": "PRA"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "tecnología",
+            "acciones"
+          ],
+          "notes": [
+            "PRA- aporta aquí una lectura incoativa lexicalizada de inicio/puesta en marcha; esta entrada no redefine por sí sola todo su paradigma."
+          ]
+        },
+        {
+          "id": "lexeme-cufetro",
+          "form": "ĉufetro",
+          "gloss": "locomotora, tren",
+          "analysis_html": "ĈUF + ETR <span class=\"meta-extra\">(formante técnico lexicalizado)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈUF + ETR (formante técnico lexicalizado) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "tecnología",
+            "objetos",
+            "movimiento"
+          ],
+          "notes": [
+            "ETR ya aparece como formante lexicalizado en otras palabras; su función general continúa abierta."
+          ]
+        },
+        {
+          "id": "lexeme-cuf-cuf",
+          "form": "ĉuf-ĉuf",
+          "gloss": "tren",
+          "analysis_html": "ĈUF-ĈUF <span class=\"meta-extra\">(reduplicación onomatopéyica lexicalizada)</span>",
+          "analysis_text": "ĈUF-ĈUF (reduplicación onomatopéyica lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sono"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "tecnología",
+            "movimiento",
+            "sonidos"
+          ],
+          "notes": [
+            "Forma expresiva onomatopéyica; la reduplicación no se generaliza todavía como regla productiva."
+          ]
+        }
+      ]
     }
   ]
 }
