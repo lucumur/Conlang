@@ -453,6 +453,18 @@
     {
       "id": "root-dez",
       "form": "*DEẐ-",
+      "gloss": "propio, decente",
+      "tags": [],
+      "letter": "D",
+      "section": "sec-d",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-dez-num",
+      "form": "*DEẐ-",
       "gloss": "diez",
       "tags": [
         {
