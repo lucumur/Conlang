@@ -1754,26 +1754,175 @@
     {
       "id": "root-ces",
       "form": "*ĈES-",
-      "gloss": "cesar, parar",
+      "gloss": "pausar; cesar",
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: la serie distingue ĉesas «pausar, poner algo en standby» (transitivo/agentivo) de ĉesos «cesar, parar» (intransitivo/absolutivo dinámico).",
+        "CANÓNICO: ĈES- expresa interrupción o cese con relevancia aspectual; contrasta con CAL-T-, que expresa detener/parar sin implicar por sí mismo puesta en pausa o standby."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cesas",
+          "form": "ĉesas",
+          "gloss": "pausar, poner en standby",
+          "analysis_html": "ĈES + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈES + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "estado",
+            "procesos"
+          ],
+          "notes": [
+            "Se distingue de caltas «detener, parar»: ĉesas implica pausar o suspender temporalmente."
+          ]
+        },
+        {
+          "id": "lexeme-cesos",
+          "form": "ĉesos",
+          "gloss": "cesar, parar",
+          "analysis_html": "ĈES + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ĈES + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "estado",
+            "procesos"
+          ],
+          "notes": [
+            "Intransitivo: algo cesa o deja de ocurrir."
+          ]
+        },
+        {
+          "id": "lexeme-cesa",
+          "form": "ĉesa",
+          "gloss": "pausa",
+          "analysis_html": "ĈES + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĈES + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "estado",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-secesam",
+          "form": "seĉesam",
+          "gloss": "sin parar, sin cesar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-se-privative\">SE-</a> + ĈES + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "SE- + ĈES + -AM",
+          "refs": [
+            {
+              "id": "morph-se-privative",
+              "label": "SE-"
+            },
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Privativo SE"
+            },
+            {
+              "class": "generic",
+              "label": "Adverbial temporal AM"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "procesos",
+            "estado"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-cev",
       "form": "*ĈEV-",
       "gloss": "recibir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Eo. ricevi → *ĈEV-",
+      "notes": [
+        "CANÓNICO: *ĈEV- procede de Esperanto ricevi mediante reducción formal."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-cevas",
+          "form": "ĉevas",
+          "gloss": "recibir",
+          "analysis_html": "ĈEV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈEV + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "relaciones",
+            "movimiento"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-cirp",
