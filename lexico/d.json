@@ -213,10 +213,15 @@
       "id": "root-davr",
       "form": "*DAVR-",
       "gloss": "durar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
-      "etymology": null,
+      "etymology": "Etym. Eo. daŭri → *DAVR-",
       "notes": [],
       "row_class": "",
       "words": [
