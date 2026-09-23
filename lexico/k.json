@@ -149,24 +149,24 @@
         },
         {
           "id": "lexeme-kaljur",
-          "form": "kaljur",
+          "form": "kaljor",
           "gloss": "alcalino",
-          "analysis_html": "KAL + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "KAL + -J- + -UR",
+          "analysis_html": "KAL + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "KAL + -J- + -OR",
           "refs": [
             {
               "id": "morph-j-theme",
               "label": "-J-"
             },
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo UR"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
