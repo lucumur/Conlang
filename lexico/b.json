@@ -158,14 +158,14 @@
         },
         {
           "id": "lexeme-bablor",
-          "form": "bablor",
+          "form": "bablur",
           "gloss": "hablante, parlante",
-          "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
-          "analysis_text": "BAB-L + -OR",
+          "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "BAB-L + -UR",
           "refs": [
             {
-              "id": "morph-or",
-              "label": "-OR"
+              "id": "morph-ur-3",
+              "label": "-UR"
             }
           ],
           "tags": [
@@ -1072,24 +1072,24 @@
         },
         {
           "id": "lexeme-baldamur",
-          "form": "baldamur",
+          "form": "baldamor",
           "gloss": "próximo",
-          "analysis_html": "BALD + <a class=\"morph-link\" href=\"#morph-am\">-AM</a> + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "BALD + -AM + -UR",
+          "analysis_html": "BALD + <a class=\"morph-link\" href=\"#morph-am\">-AM</a> + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "BALD + -AM + -OR",
           "refs": [
             {
               "id": "morph-am",
               "label": "-AM"
             },
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo UR"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
@@ -2412,20 +2412,20 @@
         },
         {
           "id": "lexeme-batlur",
-          "form": "batlur",
+          "form": "batlor",
           "gloss": "batalloso, difícil",
-          "analysis_html": "BAT + L (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "BAT + L (extensión lexicalizada) + -UR",
+          "analysis_html": "BAT + L (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "BAT + L (extensión lexicalizada) + -OR",
           "refs": [
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
@@ -5697,20 +5697,20 @@
       "words": [
         {
           "id": "lexeme-blur",
-          "form": "blur",
+          "form": "blor",
           "gloss": "azul",
-          "analysis_html": "BLU + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "BLU + -UR",
+          "analysis_html": "BLU + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "BLU + -OR",
           "refs": [
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo UR"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
@@ -5721,7 +5721,7 @@
         },
         {
           "id": "lexeme-soblur",
-          "form": "soblur",
+          "form": "soblor",
           "gloss": "celeste",
           "refs": [
             {
@@ -5729,14 +5729,14 @@
               "label": "SO-"
             },
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo UR"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
@@ -5744,8 +5744,8 @@
             "apariencia",
             "descripción"
           ],
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-so-sub\">SO-</a> + BLU + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "SO- + BLU + -UR"
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-so-sub\">SO-</a> + BLU + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "SO- + BLU + -OR"
         }
       ]
     },
@@ -5939,12 +5939,12 @@
         },
         {
           "id": "lexeme-bombor",
-          "form": "bombor",
+          "form": "bombur",
           "gloss": "explosivo",
           "refs": [
             {
-              "id": "morph-or",
-              "label": "-OR"
+              "id": "morph-ur-3",
+              "label": "-UR"
             }
           ],
           "tags": [
@@ -5958,8 +5958,8 @@
             "violencia",
             "cualidades"
           ],
-          "analysis_html": "BOM-B + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
-          "analysis_text": "BOM-B + -OR"
+          "analysis_html": "BOM-B + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "BOM-B + -UR"
         },
         {
           "id": "lexeme-bombardi",
