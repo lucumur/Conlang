@@ -812,15 +812,144 @@
     },
     {
       "id": "root-can",
-      "form": "*ĈAN-",
+      "form": "*ĈAN-L",
       "gloss": "surco",
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *ĈAN-L reemplaza a la forma anterior *ĈAN-.",
+        "CANÓNICO: ĈAN- es la base primigenia y -L una extensión interna indispensable para el sentido léxico moderno «surco».",
+        "CANÓNICO: las formas modernas de esta familia realizan la raíz extendida como ĉanel-; la e pertenece a la realización de la raíz y no corresponde al sufijo -EL."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-canelo",
+          "form": "ĉanelo",
+          "gloss": "canal",
+          "analysis_html": "ĈAN-L <span class=\"meta-extra\">(realización moderna ĉanel-)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈAN-L (realización moderna ĉanel-) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "lugares"
+          ],
+          "notes": [
+            "La secuencia -el- pertenece aquí a la realización moderna de *ĈAN-L; no se analiza mediante el sufijo -EL."
+          ]
+        },
+        {
+          "id": "lexeme-canelas",
+          "form": "ĉanelas",
+          "gloss": "canalizar, conducir",
+          "analysis_html": "ĈAN-L <span class=\"meta-extra\">(realización moderna ĉanel-)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈAN-L (realización moderna ĉanel-) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Agentivo AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "movimiento"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-oscanelo",
+          "form": "osĉanelo",
+          "gloss": "conducto auditivo",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-oz\">OZ</a> <span class=\"meta-extra\">(alomorfo compositivo OS- ante Ĉ-)</span> + ĈAN-L <span class=\"meta-extra\">(ĉanel-)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "OZ (alomorfo compositivo OS- ante Ĉ-) + ĈAN-L (ĉanel-) + -O",
+          "refs": [
+            {
+              "id": "root-oz",
+              "label": "OZ"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Alomorfía OZ > OS"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "sonido"
+          ],
+          "notes": [
+            "OS- es aquí únicamente la realización eufónica de OZ- ante Ĉ-; no constituye una raíz distinta ni se relaciona con el prefijo homónimo OS- «este»."
+          ]
+        },
+        {
+          "id": "lexeme-froncanelko",
+          "form": "fronĉanelko",
+          "gloss": "arruga de la frente",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fron\">FRON</a> + ĈAN-L <span class=\"meta-extra\">(ĉanel-)</span> + <a class=\"morph-link\" href=\"#morph-ko-diminutive\">-KO</a>",
+          "analysis_text": "FRON + ĈAN-L (ĉanel-) + -KO (diminutivo)",
+          "refs": [
+            {
+              "id": "root-fron",
+              "label": "FRON"
+            },
+            {
+              "id": "morph-ko-diminutive",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Diminutivo KO"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "apariencia"
+          ],
+          "notes": [
+            "-KO tiene aquí valor diminutivo; este uso se distingue del homónimo -KO «objeto»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cap",
