@@ -855,24 +855,24 @@
         },
         {
           "id": "lexeme-ajhumur",
-          "form": "aĵumur",
+          "form": "aĵumor",
           "gloss": "facil",
-          "analysis_html": "AĴ + <a class=\"morph-link\" href=\"#morph-um\">-UM-</a> + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "AĴ + -UM- + -UR",
+          "analysis_html": "AĴ + <a class=\"morph-link\" href=\"#morph-um\">-UM-</a> + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "AĴ + -UM- + -OR",
           "refs": [
             {
               "id": "morph-um",
               "label": "-UM-"
             },
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo UR"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
@@ -1741,24 +1741,24 @@
         },
         {
           "id": "lexeme-malalmor",
-          "form": "malalmor",
+          "form": "malalmur",
           "gloss": "desalmado, malvado",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + ALM + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
-          "analysis_text": "MAL + ALM + -OR",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + ALM + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
+          "analysis_text": "MAL + ALM + -UR",
           "refs": [
             {
               "id": "root-mal",
               "label": "MAL"
             },
             {
-              "id": "morph-or",
-              "label": "-OR"
+              "id": "morph-ur-3",
+              "label": "-UR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Participio OR"
+              "label": "Participio de OS"
             }
           ],
           "semantic_fields": [
@@ -2911,20 +2911,20 @@
         },
         {
           "id": "lexeme-antur",
-          "form": "antur",
+          "form": "antor",
           "gloss": "anterior",
-          "analysis_html": "ANT + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "ANT + -UR",
+          "analysis_html": "ANT + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "ANT + -OR",
           "refs": [
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo UR"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
@@ -2934,24 +2934,24 @@
         },
         {
           "id": "lexeme-antevur",
-          "form": "antevur",
+          "form": "antevor",
           "gloss": "antiguo",
-          "analysis_html": "ANT + <a class=\"morph-link\" href=\"#morph-ev\">-EV-</a> + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "ANT + -EV- + -UR",
+          "analysis_html": "ANT + <a class=\"morph-link\" href=\"#morph-ev\">-EV-</a> + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "ANT + -EV- + -OR",
           "refs": [
             {
               "id": "morph-ev",
               "label": "-EV-"
             },
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo UR"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
@@ -2962,24 +2962,24 @@
         },
         {
           "id": "lexeme-opantur",
-          "form": "opantur",
+          "form": "opantor",
           "gloss": "contrario",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-op\">OP</a> + ANT + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "OP + ANT + -UR",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-op\">OP</a> + ANT + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "OP + ANT + -OR",
           "refs": [
             {
               "id": "root-op",
               "label": "OP"
             },
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo UR"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
@@ -2990,24 +2990,24 @@
         },
         {
           "id": "lexeme-alantur",
-          "form": "alantur",
+          "form": "alantor",
           "gloss": "delantero",
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-al-2\">AL-</a> + ANT + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "AL- + ANT + -UR",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-al-2\">AL-</a> + ANT + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "AL- + ANT + -OR",
           "refs": [
             {
               "id": "morph-al-2",
               "label": "AL-"
             },
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo UR"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
@@ -4215,24 +4215,24 @@
         },
         {
           "id": "lexeme-antarcur",
-          "form": "antarcur",
+          "form": "antarcor",
           "gloss": "arcaico",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-ant\">ANT</a> + ARC + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "ANT + ARC + -UR",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ant\">ANT</a> + ARC + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "ANT + ARC + -OR",
           "refs": [
             {
               "id": "root-ant",
               "label": "ANT"
             },
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo UR"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
@@ -4243,24 +4243,24 @@
         },
         {
           "id": "lexeme-natarcur",
-          "form": "natarcur",
+          "form": "natarcor",
           "gloss": "primigenio",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-na-t\">NA-T</a> + ARC + <a class=\"morph-link\" href=\"#morph-ur-3\">-UR</a>",
-          "analysis_text": "NA-T + ARC + -UR",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-na-t\">NA-T</a> + ARC + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "NA-T + ARC + -OR",
           "refs": [
             {
               "id": "root-na-t",
               "label": "NA-T"
             },
             {
-              "id": "morph-ur-3",
-              "label": "-UR"
+              "id": "morph-or",
+              "label": "-OR"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo UR"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
