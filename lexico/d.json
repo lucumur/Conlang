@@ -454,13 +454,131 @@
       "id": "root-dez",
       "form": "*DEẐ-",
       "gloss": "propio, decente",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
-      "etymology": null,
+      "etymology": "Etym. Eo. deca → *DEẐ-",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-dezer",
+          "form": "deẑer",
+          "gloss": "propio, digno",
+          "analysis_html": "DEẐ + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "DEẐ + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dezis",
+          "form": "deẑis",
+          "gloss": "ser propio, digno",
+          "analysis_html": "DEẐ + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "DEẐ + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "estado",
+            "conducta"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dezonas",
+          "form": "deẑonas",
+          "gloss": "dignificar",
+          "analysis_html": "DEẐ + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a>",
+          "analysis_text": "DEẐ + -ONAS",
+          "refs": [
+            {
+              "id": "morph-onas",
+              "label": "-ONAS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ONAS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "conducta",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-beldezera",
+          "form": "beldeẑera",
+          "gloss": "propiedad, elegancia",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + DEẐ + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BEL + DEẐ + -ER + -A",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominalización ER + A"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-dez-num",
