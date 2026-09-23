@@ -6,26 +6,208 @@
     {
       "id": "root-dan",
       "form": "*DAN-",
-      "gloss": "Daneses",
+      "gloss": "daneses",
       "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-danikal",
+          "form": "Danikal",
+          "gloss": "Dinamarca",
+          "analysis_html": "DAN + IK <span class=\"meta-extra\">(formante geográfico)</span> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "DAN + IK (formante geográfico) + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            },
+            {
+              "class": "generic",
+              "label": "Formante geográfico IK"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares",
+            "gentilicios"
+          ],
+          "notes": [
+            "IK es aquí el formante geográfico ya atestiguado en afrikon; no corresponde al diminutivo -IK-."
+          ]
+        },
+        {
+          "id": "lexeme-danikon",
+          "form": "Danikon",
+          "gloss": "danés",
+          "analysis_html": "DAN + IK <span class=\"meta-extra\">(formante geográfico)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "DAN + IK (formante geográfico) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Formante geográfico IK"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "gentilicios",
+            "personas"
+          ],
+          "notes": [
+            "IK es aquí el formante geográfico ya atestiguado en afrikon; no corresponde al diminutivo -IK-."
+          ]
+        }
+      ]
     },
     {
       "id": "root-danz",
       "form": "*DANẐ-",
-      "gloss": "bailar",
+      "gloss": "bailar, danzar",
       "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-danzos",
+          "form": "danẑos",
+          "gloss": "bailar, danzar",
+          "analysis_html": "DANẐ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "DANẐ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "danza",
+            "movimiento",
+            "baile"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-danzura",
+          "form": "danẑura",
+          "gloss": "danza",
+          "analysis_html": "DANẐ + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "DANẐ + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "danza",
+            "baile",
+            "artes escénicas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-danzola",
+          "form": "danẑola",
+          "gloss": "baile (una sesión de baile)",
+          "analysis_html": "DANẐ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a> + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> → DANẐ + -OL- + -A",
+          "analysis_text": "DANẐ + -OS + -IL- + -A → DANẐ + -OL- + -A",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            },
+            {
+              "id": "morph-il-partitive",
+              "label": "-IL-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partitivo IL"
+            },
+            {
+              "class": "generic",
+              "label": "Alomorfía OS + IL > OL"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "danza",
+            "baile",
+            "acciones"
+          ],
+          "notes": [
+            "Una sesión individual de la actividad de bailar."
+          ]
+        },
+        {
+          "id": "lexeme-danzonton",
+          "form": "danẑonton",
+          "gloss": "bailarín",
+          "analysis_html": "DANẐ + <a class=\"morph-link\" href=\"#morph-onton\">-ONTON</a>",
+          "analysis_text": "DANẐ + -ONTON",
+          "refs": [
+            {
+              "id": "morph-onton",
+              "label": "-ONTON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ONTON"
+            }
+          ],
+          "semantic_fields": [
+            "danza",
+            "personas",
+            "baile"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-davr",
