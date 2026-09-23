@@ -1388,14 +1388,322 @@
     {
       "id": "root-cel-2",
       "form": "*ĈEL-",
-      "gloss": "celda ⭐",
+      "gloss": "celda",
       "tags": [],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: la familia desarrolla el campo «celda, encierro, aislamiento, recinto».",
+        "CANÓNICO: ĉelĉo «célula» usa el diminutivo -ĈO; su adjetivo ĉelĉel sigue la regla nominal -O → -EL."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-celas",
+          "form": "ĉelas",
+          "gloss": "encarcelar",
+          "analysis_html": "ĈEL + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈEL + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Agentivo AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-decelas",
+          "form": "deĉelas",
+          "gloss": "aislar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-de\">DE-</a> + ĈEL + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DE- + ĈEL + -AS",
+          "refs": [
+            {
+              "id": "morph-de",
+              "label": "DE-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Ablativo DE"
+            },
+            {
+              "class": "generic",
+              "label": "Agentivo AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "relaciones",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-decela",
+          "form": "deĉela",
+          "gloss": "aislamiento",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-de\">DE-</a> + ĈEL + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "DE- + ĈEL + -A",
+          "refs": [
+            {
+              "id": "morph-de",
+              "label": "DE-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Ablativo DE"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "relaciones",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-celin",
+          "form": "ĉelin",
+          "gloss": "preso, encarcelado",
+          "analysis_html": "ĈEL + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "ĈEL + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio animante IN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-celal",
+          "form": "ĉelal",
+          "gloss": "bodega, loft",
+          "analysis_html": "ĈEL + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ĈEL + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "lugares",
+            "almacenamiento"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-celatan",
+          "form": "ĉelatan",
+          "gloss": "mesero",
+          "analysis_html": "ĈEL + <a class=\"morph-link\" href=\"#morph-atan\">-ATAN</a>",
+          "analysis_text": "ĉelal → ĉelatan (-AL → -ATAN)",
+          "refs": [
+            {
+              "id": "morph-atan",
+              "label": "-ATAN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano de locativo ATAN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "trabajo",
+            "servicios"
+          ],
+          "notes": [
+            "Derivación humana correspondiente a ĉelal mediante -AL → -ATAN."
+          ]
+        },
+        {
+          "id": "lexeme-celistal",
+          "form": "ĉelistal",
+          "gloss": "cárcel",
+          "analysis_html": "ĈEL + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ĈEL + -IST + -AL",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "lugares",
+            "instituciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-celiston",
+          "form": "ĉeliston",
+          "gloss": "carcelero, celador",
+          "analysis_html": "ĈEL + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ĈEL + -IST + -ON",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "trabajo"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-celo",
+          "form": "ĉelo",
+          "gloss": "celda, jaula",
+          "analysis_html": "ĈEL + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈEL + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "lugares",
+            "contenedores"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-celco",
+          "form": "ĉelĉo",
+          "gloss": "célula",
+          "analysis_html": "ĈEL + <a class=\"morph-link\" href=\"#morph-co-2\">-ĈO</a>",
+          "analysis_text": "ĈEL + -ĈO",
+          "refs": [
+            {
+              "id": "morph-co-2",
+              "label": "-ĈO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Diminutivo ĈO"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "salud"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-celcel",
+          "form": "ĉelĉel",
+          "gloss": "celular (adjetivo de célula)",
+          "analysis_html": "ĉelĉo → ĉelĉ- + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "ĉelĉo → ĉelĉel (-O → -EL)",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cualidades"
+          ],
+          "notes": [
+            "Derivación regular del nomen ĉelĉo por sustitución -O → -EL."
+          ]
+        }
+      ]
     },
     {
       "id": "root-cerp",
