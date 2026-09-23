@@ -2992,10 +2992,7 @@
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": "Etym. de novo; scriv- → *ĈRIV-",
-      "notes": [
-        "CANÓNICO: ĉrivar «escritorio» aplica el participio agentivo -AR a un objeto no humano: «objeto que escribe / sirve agentivamente para escribir».",
-        "CANÓNICO: ĉrifko «letra» deriva de ĈRIV + -KO con ensordecimiento V → F ante K."
-      ],
+      "notes": [],
       "row_class": "",
       "words": [
         {
@@ -3118,9 +3115,7 @@
             "escritura",
             "mobiliario"
           ],
-          "notes": [
-            "-AR atribuye aquí una cualidad agentiva a un objeto no humano."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-crivilo",
@@ -3182,9 +3177,7 @@
             "lenguaje",
             "símbolos"
           ],
-          "notes": [
-            "Aplicación canónica del ensordecimiento V → F ante K."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-criveza",
