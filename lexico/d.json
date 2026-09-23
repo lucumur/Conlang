@@ -451,16 +451,62 @@
       ]
     },
     {
-      "id": "root-dek",
-      "form": "*DEK-",
+      "id": "root-dez",
+      "form": "*DEẐ-",
       "gloss": "diez",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
-      "etymology": null,
+      "etymology": "Etym. Eo. dek → *DEẐ-",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-deze",
+          "form": "deẑe",
+          "gloss": "diez",
+          "analysis_html": "DEẐ + E <span class=\"meta-extra\">(forma numeral)</span>",
+          "analysis_text": "DEẐ + E (forma numeral)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dezor",
+          "form": "deẑor",
+          "gloss": "décimo",
+          "analysis_html": "DEẐ + OR <span class=\"meta-extra\">(formación numeral ordinal)</span>",
+          "analysis_text": "DEẐ + OR (formación numeral ordinal)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral ordinal"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "orden",
+            "matemáticas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-delf",
@@ -489,18 +535,6 @@
           "label": "Part."
         }
       ],
-      "letter": "D",
-      "section": "sec-d",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-dez",
-      "form": "*DEẐ-",
-      "gloss": "propio, decente",
-      "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
