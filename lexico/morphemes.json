@@ -2742,7 +2742,7 @@
     {
       "id": "morph-jo-bald",
       "form": "*JO-",
-      "gloss": "sufijo; valor semántico por definir",
+      "gloss": "cualidad positiva: útil, conveniente o bueno",
       "tags": [
         {
           "class": "generic",
@@ -2753,7 +2753,9 @@
       "section": "sec-j",
       "etymology": null,
       "notes": [
-        "Atestiguado en jobaldol. Su valor semántico general aún no está definido; no se identifica con *JO- «ohh!» ni con *-JO «mujer (alternativo)»."
+        "CANÓNICO: JO- aporta una valoración positiva centrada en utilidad, conveniencia o bondad funcional.",
+        "Se solapa parcialmente con BEL-, pero BEL- tiende más hacia belleza, buena forma o simetría; la oposición no es absoluta.",
+        "No se identifica con *JO- «ohh!» ni con *-JO «mujer (alternativo)»."
       ],
       "row_class": ""
     },
