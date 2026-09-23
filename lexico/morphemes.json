@@ -1138,6 +1138,29 @@
       "row_class": ""
     },
     {
+      "id": "morph-ko-diminutive",
+      "form": "*-KO",
+      "gloss": "diminutivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "diminutivo"
+        }
+      ],
+      "letter": "K",
+      "section": "sec-k",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -KO presenta un uso diminutivo homónimo atestiguado en fronĉanelko «arruga de la frente».",
+        "Se distingue del morfema homónimo -KO «objeto». Su productividad general permanece abierta."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-lo",
       "form": "*-LO",
       "gloss": "objeto, partitivo",
