@@ -971,9 +971,253 @@
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: la familia distingue referentes no humanos y humanos: ĉarmar se aplica a entidades no humanas que resultan fascinantes o encantadoras; ĉarman se aplica a humanos con valor «encantador, hermoso, bello, guapo»."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-carmas",
+          "form": "ĉarmas",
+          "gloss": "encantar, hechizar",
+          "analysis_html": "ĈARM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈARM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Agentivo AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-carmar",
+          "form": "ĉarmar",
+          "gloss": "fascinante, carismático, encantador (no humano)",
+          "analysis_html": "ĈARM + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "ĈARM + -AR",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio de AS"
+            },
+            {
+              "class": "generic",
+              "label": "No humano"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "descripción"
+          ],
+          "notes": [
+            "CANÓNICO: se usa para referentes no humanos; contrasta con ĉarman, reservado a humanos."
+          ]
+        },
+        {
+          "id": "lexeme-carman",
+          "form": "ĉarman",
+          "gloss": "encantador, hermoso, bello, guapo (humano)",
+          "analysis_html": "ĈARM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĈARM + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano agentivo AN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "cualidades",
+            "apariencia"
+          ],
+          "notes": [
+            "CANÓNICO: se usa para humanos; contrasta con ĉarmar, reservado a referentes no humanos."
+          ]
+        },
+        {
+          "id": "lexeme-carmin",
+          "form": "ĉarmin",
+          "gloss": "encantado, gustoso, complacido",
+          "analysis_html": "ĈARM + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "ĈARM + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio animante IN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-carmantan",
+          "form": "ĉarmantan",
+          "gloss": "brujo, mago, wizard, warlock",
+          "analysis_html": "ĈARM + <a class=\"morph-link\" href=\"#morph-antan\">-ANTAN</a>",
+          "analysis_text": "ĈARM + -ANTAN",
+          "refs": [
+            {
+              "id": "morph-antan",
+              "label": "-ANTAN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano especializado ANTAN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jocarmo",
+          "form": "joĉarmo",
+          "gloss": "amuleto",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-jo-bald\">JO-</a> + ĈARM + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "JO- + ĈARM + -O",
+          "refs": [
+            {
+              "id": "morph-jo-bald",
+              "label": "JO-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "cualidades"
+          ],
+          "notes": [
+            "La palabra es canónica; el valor semántico general de JO- continúa abierto y no se redefine a partir de esta entrada."
+          ]
+        },
+        {
+          "id": "lexeme-carma",
+          "form": "ĉarma",
+          "gloss": "encanto, hechizo, gusto",
+          "analysis_html": "ĈARM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĈARM + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dinamismo abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "cualidades"
+          ],
+          "notes": [
+            "Designa el encanto o hechizo como acto, efecto o dinamismo; también «gusto»."
+          ]
+        },
+        {
+          "id": "lexeme-carmo",
+          "form": "ĉarmo",
+          "gloss": "hechizo, encanto (entidad)",
+          "analysis_html": "ĈARM + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈARM + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "cualidades"
+          ],
+          "notes": [
+            "Contrasta con ĉarma, que designa el acto, efecto o dinamismo del encanto."
+          ]
+        },
+        {
+          "id": "lexeme-carmeza",
+          "form": "ĉarmeẑa",
+          "gloss": "encanto, carisma",
+          "analysis_html": "ĈARM + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "ĈARM + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Cualidad abstracta EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "descripción"
+          ],
+          "notes": [
+            "Designa la cualidad abstracta de resultar encantador o carismático."
+          ]
+        }
+      ]
     },
     {
       "id": "root-carp",
