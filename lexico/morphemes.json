@@ -365,6 +365,29 @@
       "row_class": ""
     },
     {
+      "id": "morph-ajr",
+      "form": "*-AJR",
+      "gloss": "dual de -AR",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "dual"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -AJR es el dual correspondiente al -AR participial/agentivo.",
+        "Ejemplo: ĉizajr «tijeras» = ĈIZ + -AJR."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-al-3",
       "form": "*-AL",
       "gloss": "género locativo",
