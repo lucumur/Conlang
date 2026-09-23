@@ -1427,7 +1427,7 @@
     {
       "id": "morph-or",
       "form": "*-OR",
-      "gloss": "participio de -OS (absolutivo dinámico; serie intransitiva)",
+      "gloss": "adjetivo superlativo o de magnitud",
       "tags": [
         {
           "class": "generic",
@@ -1438,8 +1438,8 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [
-        "Canónico: -OR es el participio correspondiente a la serie predicativa en -OS.",
-        "El antiguo análisis de -OR como superlativo queda reemplazado; el superlativo productivo se expresa con -UR."
+        "CANÓNICO: -OR forma adjetivos superlativos o de magnitud.",
+        "CANÓNICO: -OR reemplaza en esta función al antiguo -UR; ya no es el participio de -OS."
       ],
       "row_class": ""
     },
@@ -2051,7 +2051,7 @@
     {
       "id": "morph-ur-3",
       "form": "*-UR",
-      "gloss": "adjetivo superlativo",
+      "gloss": "participio de -OS (absolutivo dinámico; serie intransitiva)",
       "tags": [
         {
           "class": "generic",
@@ -2062,8 +2062,8 @@
       "section": "sec-u",
       "etymology": null,
       "notes": [
-        "Canónico: -UR es el superlativizador productivo.",
-        "Se admite ambigüedad formal con usos lexicalizados o históricamente reanalizados de la secuencia -ur en palabras ya documentadas."
+        "CANÓNICO: -UR es el participio correspondiente a la serie predicativa en -OS.",
+        "CANÓNICO: -UR reemplaza en esta función al antiguo -OR; ya no es el sufijo productivo de superlativo o magnitud."
       ],
       "row_class": ""
     },
