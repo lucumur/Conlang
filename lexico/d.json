@@ -219,7 +219,231 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-davris",
+          "form": "davris",
+          "gloss": "durar",
+          "analysis_html": "DAVR + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "DAVR + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-davritos",
+          "form": "davritos",
+          "gloss": "tardar",
+          "analysis_html": "DAVR + <a class=\"morph-link\" href=\"#morph-it-frequentative\">-IT-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "DAVR + -IT- + -OS",
+          "refs": [
+            {
+              "id": "morph-it-frequentative",
+              "label": "-IT-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Frecuentativo IT"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "procesos",
+            "duración"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-davrumis",
+          "form": "davrumis",
+          "gloss": "persistir",
+          "analysis_html": "DAVR + <a class=\"morph-link\" href=\"#morph-um\">-UM-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "DAVR + -UM- + -IS",
+          "refs": [
+            {
+              "id": "morph-um",
+              "label": "-UM-"
+            },
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tendente UM"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-londavros",
+          "form": "londavros",
+          "gloss": "prolongarse, tardarse",
+          "analysis_html": "LON <span class=\"meta-extra\">(forma primigenia de *LON-G)</span> + DAVR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LON (forma primigenia de *LON-G) + DAVR + -OS",
+          "refs": [
+            {
+              "id": "root-long",
+              "label": "LON-G"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-davriza",
+          "form": "davriza",
+          "gloss": "duración",
+          "analysis_html": "davris → davriza (<a class=\"morph-link\" href=\"#morph-iza\">-IS → -IZA</a>)",
+          "analysis_text": "davris → davriza (-IS → -IZA)",
+          "refs": [
+            {
+              "id": "morph-iza",
+              "label": "-IZA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización IZA"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-davrumiza",
+          "form": "davrumiza",
+          "gloss": "persistencia",
+          "analysis_html": "davrumis → davrumiza (<a class=\"morph-link\" href=\"#morph-iza\">-IS → -IZA</a>)",
+          "analysis_text": "davrumis → davrumiza (-IS → -IZA)",
+          "refs": [
+            {
+              "id": "morph-iza",
+              "label": "-IZA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización IZA"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-londavram",
+          "form": "londavram",
+          "gloss": "durante largo tiempo",
+          "analysis_html": "LON <span class=\"meta-extra\">(forma primigenia de *LON-G)</span> + DAVR + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "LON (forma primigenia de *LON-G) + DAVR + -AM",
+          "refs": [
+            {
+              "id": "root-long",
+              "label": "LON-G"
+            },
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial temporal AM"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-daur",
+          "form": "daur",
+          "gloss": "durante",
+          "analysis_html": "DAUR <span class=\"meta-extra\">(forma gramaticalizada de la familia DAVR-)</span>",
+          "analysis_text": "DAUR (forma gramaticalizada de la familia DAVR-)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Gramaticalizado"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "relaciones",
+            "duración"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-dek",
