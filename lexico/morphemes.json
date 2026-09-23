@@ -1080,7 +1080,32 @@
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: la nominalización correspondiente de una forma en -IS se realiza en -IZA."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-iza",
+      "form": "*-IZA",
+      "gloss": "nominalización de verbos en -IS",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "nominalización"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -IZA nominaliza una predicación en -IS.",
+        "Ejemplos: davris → davriza «duración»; davrumis → davrumiza «persistencia»."
+      ],
       "row_class": ""
     },
     {
