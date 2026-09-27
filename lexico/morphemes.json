@@ -3485,6 +3485,29 @@
         "Su valor semántico general todavía debe delimitarse con más familias."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-ov-possibilitative",
+      "form": "*-OV-",
+      "gloss": "posibilitativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        },
+        {
+          "class": "generic",
+          "label": "posibilitativo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -OV- expresa posibilidad o capacidad potencial.",
+        "Atestiguado en EBLOV-, base de eblovol «hábil» y eblova «capacidad, habilidad»."
+      ],
+      "row_class": ""
     }
   ]
 }
