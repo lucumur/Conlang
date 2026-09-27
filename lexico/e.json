@@ -2558,7 +2558,153 @@
         "CANÓNICO: la grafía vigente de la raíz es *ERẐ-; reemplaza *ERZ-."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-erze",
+          "form": "erẑe",
+          "gloss": "mineral (sustantivo)",
+          "analysis_html": "ERẐ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ERẐ + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "minerales",
+            "materiales",
+            "geología"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-erzosto",
+          "form": "erẑosto",
+          "gloss": "fosil",
+          "analysis_html": "ERẐ + <a class=\"morph-link\" href=\"#root-ost\">OST</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ERẐ + OST + -O",
+          "refs": [
+            {
+              "id": "root-ost",
+              "label": "OST"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "fósiles",
+            "geología",
+            "restos"
+          ],
+          "notes": [
+            "OST- «hueso» aporta el componente de resto mineralizado/fosilizado."
+          ]
+        },
+        {
+          "id": "lexeme-erzal",
+          "form": "erẑal",
+          "gloss": "mina, mineral (locativo)",
+          "analysis_html": "ERẐ + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ERẐ + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "minería",
+            "lugares",
+            "minerales"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-erzel",
+          "form": "erẑel",
+          "gloss": "mineral (adjetivo)",
+          "analysis_html": "ERẐ + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "ERẐ + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "minerales",
+            "cualidades",
+            "geología"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-erzostil",
+          "form": "erẑostil",
+          "gloss": "fosilizado",
+          "analysis_html": "ERẐ + <a class=\"morph-link\" href=\"#root-ost\">OST</a> + <a class=\"morph-link\" href=\"#morph-il\">-IL</a>",
+          "analysis_text": "ERẐ + OST + -IL",
+          "refs": [
+            {
+              "id": "root-ost",
+              "label": "OST"
+            },
+            {
+              "id": "morph-il",
+              "label": "-IL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Participio absolutivo-pasivo objetual"
+            }
+          ],
+          "semantic_fields": [
+            "fósiles",
+            "estado",
+            "geología"
+          ],
+          "notes": [
+            "-IL marca el estado pasivo/resultante de un referente objetual: «fosilizado»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-esp-r",
@@ -2797,6 +2943,197 @@
             "procesos"
           ],
           "notes": []
+        }
+      ]
+    },
+    {
+      "id": "root-espr",
+      "form": "*ESPR-",
+      "gloss": "esperanza",
+      "tags": [],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-espris",
+          "form": "espris",
+          "gloss": "tener esperanza",
+          "analysis_html": "ESPR + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "ESPR + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "esperanza",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-malespros",
+          "form": "malespros",
+          "gloss": "desesperarse",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + ESPR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MAL + ESPR + -OS",
+          "refs": [
+            {
+              "id": "root-mal",
+              "label": "MAL"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "desesperanza",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-malesprin",
+          "form": "malesprin",
+          "gloss": "desesperado",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + ESPR + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "MAL + ESPR + -IN",
+          "refs": [
+            {
+              "id": "root-mal",
+              "label": "MAL"
+            },
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Participio absolutivo-pasivo humano"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "desesperanza",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-espriol",
+          "form": "espriol",
+          "gloss": "lleno de esperanza",
+          "analysis_html": "ESPR + i de enlace + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ESPR + i de enlace + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "esperanza",
+            "cualidades"
+          ],
+          "notes": [
+            "-OL expresa abundancia/presencia marcada de esperanza; i funciona como vocal de enlace."
+          ]
+        },
+        {
+          "id": "lexeme-malespriza",
+          "form": "malespriza",
+          "gloss": "desesperanza",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + ESPR + <a class=\"morph-link\" href=\"#morph-iza\">-IZA</a>",
+          "analysis_text": "MAL + ESPR + -IZA",
+          "refs": [
+            {
+              "id": "root-mal",
+              "label": "MAL"
+            },
+            {
+              "id": "morph-iza",
+              "label": "-IZA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominalización IZA"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "desesperanza",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-espriolda",
+          "form": "espriolda",
+          "gloss": "esperanza",
+          "analysis_html": "ESPR + i de enlace + <a class=\"morph-link\" href=\"#morph-olda\">-OLDA</a>",
+          "analysis_text": "ESPR + i de enlace + -OLDA",
+          "refs": [
+            {
+              "id": "morph-olda",
+              "label": "-OLDA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto OLDA"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "esperanza",
+            "abstractos"
+          ],
+          "notes": [
+            "-OLDA es el abstracto correspondiente a -OL; i funciona como vocal de enlace."
+          ]
         }
       ]
     }
