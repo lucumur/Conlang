@@ -3459,7 +3459,8 @@
       "etymology": null,
       "notes": [
         "CANÓNICO: *EΘ- cubre el campo de costumbre, cultura, pueblo y ética.",
-        "ANÁLISIS: la familia muestra extensiones temáticas EΘN- y EΘNOM-/EΘNUM-. Su estatuto morfológico general queda abierto hasta disponer de más paralelos."
+        "CANÓNICO: EΘ-N es una forma extendida lexicalizada de *EΘ-.",
+        "eθna y eθnel usan directamente la base extendida EΘN-; eθnom/eθnumel presentan extensiones adicionales dentro de la misma familia."
       ],
       "row_class": "",
       "words": [
@@ -3467,8 +3468,8 @@
           "id": "lexeme-ethnom",
           "form": "eθnom",
           "gloss": "pueblo",
-          "analysis_html": "EΘ + NOM <span class=\"meta-extra\">(extensión temática de la familia)</span>",
-          "analysis_text": "EΘ + NOM (extensión temática de la familia)",
+          "analysis_html": "EΘ-N <span class=\"meta-extra\">(forma extendida lexicalizada)</span> + OM <span class=\"meta-extra\">(extensión lexicalizada)</span>",
+          "analysis_text": "EΘ-N (forma extendida lexicalizada) + OM (extensión lexicalizada)",
           "refs": [],
           "tags": [
             {
@@ -3482,15 +3483,15 @@
             "cultura"
           ],
           "notes": [
-            "PENDIENTE: NOM no se documenta todavía como morfema productivo independiente."
+            "EΘ-N es la forma extendida lexicalizada de *EΘ-; OM queda como extensión léxica interna de esta familia."
           ]
         },
         {
           "id": "lexeme-ethnumel",
           "form": "eθnumel",
           "gloss": "etnico",
-          "analysis_html": "EΘ + NUM + <a class=\"morph-link\" href=\"#morph-el\">-EL</a> <span class=\"meta-extra\">(tema EΘNUM-)</span>",
-          "analysis_text": "EΘ + NUM + -EL",
+          "analysis_html": "EΘ-N <span class=\"meta-extra\">(forma extendida lexicalizada)</span> + UM + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "EΘ-N (forma extendida lexicalizada) + UM + -EL",
           "refs": [
             {
               "id": "morph-el",
@@ -3513,15 +3514,15 @@
             "cualidades"
           ],
           "notes": [
-            "PENDIENTE: NUM se trata como extensión temática de esta familia; no se generaliza como morfema."
+            "EΘ-N es la forma extendida lexicalizada de *EΘ-; UM queda como extensión léxica interna de esta familia."
           ]
         },
         {
           "id": "lexeme-ethna",
           "form": "eθna",
           "gloss": "cultura",
-          "analysis_html": "EΘN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "EΘN + -A",
+          "analysis_html": "EΘ-N <span class=\"meta-extra\">(forma extendida lexicalizada)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "EΘ-N (forma extendida lexicalizada) + -A",
           "refs": [
             {
               "id": "morph-a-2",
@@ -3543,14 +3544,16 @@
             "sociedad",
             "abstractos"
           ],
-          "notes": []
+          "notes": [
+            "EΘ-N es la forma extendida lexicalizada de *EΘ-."
+          ]
         },
         {
           "id": "lexeme-ethnel",
           "form": "eθnel",
           "gloss": "cultural",
-          "analysis_html": "EΘN + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
-          "analysis_text": "EΘN + -EL",
+          "analysis_html": "EΘ-N <span class=\"meta-extra\">(forma extendida lexicalizada)</span> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "EΘ-N (forma extendida lexicalizada) + -EL",
           "refs": [
             {
               "id": "morph-el",
@@ -3572,7 +3575,9 @@
             "sociedad",
             "cualidades"
           ],
-          "notes": []
+          "notes": [
+            "EΘ-N es la forma extendida lexicalizada de *EΘ-."
+          ]
         },
         {
           "id": "lexeme-ethaj",
@@ -3704,15 +3709,352 @@
     },
     {
       "id": "root-etheta-r",
-      "form": "*EΘ-R",
-      "gloss": "eter, anestesia, alcohol",
+      "form": "*EΘ-",
+      "gloss": "eter, sedacion, alcohol",
       "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: esta entrada es homónima de *EΘ- «costumbre, cultura, pueblo» y constituye una raíz distinta.",
+        "CANÓNICO: EΘIL- es una forma extendida lexicalizada para el campo «alcohol/etilo»."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ethas",
+          "form": "eθas",
+          "gloss": "sedar",
+          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "EΘ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "medicina",
+            "sedación",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ethar",
+          "form": "eθar",
+          "gloss": "sedante",
+          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "EΘ + -AR",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio agentivo AR"
+            }
+          ],
+          "semantic_fields": [
+            "medicina",
+            "sedación",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ethe",
+          "form": "eθe",
+          "gloss": "eter",
+          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "EΘ + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "sustancias",
+            "éter"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-etheza",
+          "form": "eθeẑa",
+          "gloss": "sedacion",
+          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "EΘ + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Cualidad abstracta EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "medicina",
+            "sedación",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ethjatran",
+          "form": "eθjatran",
+          "gloss": "anestesiologo",
+          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#root-jatr\">JATR</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "EΘ + JATR + -AN",
+          "refs": [
+            {
+              "id": "root-jatr",
+              "label": "JATR"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "medicina",
+            "anestesia",
+            "profesiones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ethjatrja",
+          "form": "eθjatrja",
+          "gloss": "anestesiologia",
+          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#root-jatr\">JATR</a> + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "EΘ + JATR + -J- + -A",
+          "refs": [
+            {
+              "id": "root-jatr",
+              "label": "JATR"
+            },
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Tema J"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "medicina",
+            "anestesia",
+            "disciplinas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ethejdel",
+          "form": "eθejdel",
+          "gloss": "etereo, vanishing, ethereal, mistico",
+          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#root-ejd\">EJD</a> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "EΘ + EJD + -EL",
+          "refs": [
+            {
+              "id": "root-ejd",
+              "label": "EJD"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "apariencia",
+            "misticismo"
+          ],
+          "notes": [
+            "Sustituye a las formas descartadas beleθeẑa y beleθeẑel para este campo semántico."
+          ]
+        },
+        {
+          "id": "lexeme-ethile",
+          "form": "eθile",
+          "gloss": "alcohol",
+          "analysis_html": "EΘIL <span class=\"meta-extra\">(forma extendida lexicalizada)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "EΘIL (forma extendida lexicalizada) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema EΘIL"
+            },
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "alcohol",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ethiler",
+          "form": "eθiler",
+          "gloss": "etilico",
+          "analysis_html": "EΘIL <span class=\"meta-extra\">(forma extendida lexicalizada)</span> + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "EΘIL (forma extendida lexicalizada) + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema EΘIL"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "alcohol",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ethiliston",
+          "form": "eθiliston",
+          "gloss": "alcoholico",
+          "analysis_html": "EΘIL <span class=\"meta-extra\">(forma extendida lexicalizada)</span> + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "EΘIL (forma extendida lexicalizada) + -IST + -ON",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema EΘIL"
+            },
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "alcohol",
+            "personas",
+            "adicción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ethilisma",
+          "form": "eθilisma",
+          "gloss": "alcoholismo",
+          "analysis_html": "EΘIL <span class=\"meta-extra\">(forma extendida lexicalizada)</span> + <a class=\"morph-link\" href=\"#morph-isma\">-ISMA</a>",
+          "analysis_text": "EΘIL (forma extendida lexicalizada) + -ISMA",
+          "refs": [
+            {
+              "id": "morph-isma",
+              "label": "-ISMA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema EΘIL"
+            },
+            {
+              "class": "generic",
+              "label": "Sistema ISMA"
+            }
+          ],
+          "semantic_fields": [
+            "alcohol",
+            "adicción",
+            "condiciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ez",
