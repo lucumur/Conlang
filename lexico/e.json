@@ -504,9 +504,13 @@
           "id": "lexeme-ecastren",
           "form": "ecastren",
           "gloss": "erizo de mar",
-          "analysis_html": "EC + ASTR + <a class=\"morph-link\" href=\"#morph-en\">-EN</a> <span class=\"meta-extra\">(ASTR pendiente de análisis)</span>",
-          "analysis_text": "EC + ASTR + -EN (ASTR pendiente de análisis)",
+          "analysis_html": "EC + <a class=\"morph-link\" href=\"#root-as-tr\">AS-TR</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "EC + AS-TR + -EN",
           "refs": [
+            {
+              "id": "root-as-tr",
+              "label": "AS-TR"
+            },
             {
               "id": "morph-en",
               "label": "-EN"
@@ -524,7 +528,7 @@
             "espinas"
           ],
           "notes": [
-            "PENDIENTE: ASTR no se enlaza por ahora a una raíz/morfema documentado."
+            "AS-TR aporta «estrella»: «animal espinoso en forma de estrella» → erizo de mar."
           ]
         },
         {
@@ -635,9 +639,13 @@
           "id": "lexeme-ecicos",
           "form": "eciĉos",
           "gloss": "ultrasonar",
-          "analysis_html": "EC + IĈ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a> <span class=\"meta-extra\">(IĈ pendiente de análisis)</span>",
-          "analysis_text": "EC + IĈ + -OS (IĈ pendiente de análisis)",
+          "analysis_html": "EC + <a class=\"morph-link\" href=\"#morph-ch-diminutive\">-IĈ-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a> ",
+          "analysis_text": "EC + -IĈ- + -OS",
           "refs": [
+            {
+              "id": "morph-ch-diminutive",
+              "label": "-IĈ-"
+            },
             {
               "id": "morph-os",
               "label": "-OS"
@@ -650,7 +658,7 @@
             },
             {
               "class": "generic",
-              "label": "Pendiente de análisis"
+              "label": "Diminutivo fuerte Ĉ/IĈ"
             }
           ],
           "semantic_fields": [
@@ -659,7 +667,7 @@
             "procesos"
           ],
           "notes": [
-            "PENDIENTE: IĈ expresa el valor «ultra-» en esta familia, pero aún no está documentado como morfema general."
+            "-IĈ- es el alomorfo del diminutivo fuerte -Ĉ- en este entorno; aplicado a EC «sonido», alude a ondas extremadamente pequeñas/frecuencias ultrasónicas."
           ]
         },
         {
@@ -691,9 +699,13 @@
           "id": "lexeme-ecicura",
           "form": "eciĉura",
           "gloss": "ultrasonido",
-          "analysis_html": "EC + IĈ + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a> <span class=\"meta-extra\">(IĈ pendiente de análisis)</span>",
-          "analysis_text": "EC + IĈ + -URA (IĈ pendiente de análisis)",
+          "analysis_html": "EC + <a class=\"morph-link\" href=\"#morph-ch-diminutive\">-IĈ-</a> + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a> ",
+          "analysis_text": "EC + -IĈ- + -URA",
           "refs": [
+            {
+              "id": "morph-ch-diminutive",
+              "label": "-IĈ-"
+            },
             {
               "id": "morph-ura",
               "label": "-URA"
@@ -706,7 +718,7 @@
             },
             {
               "class": "generic",
-              "label": "Pendiente de análisis"
+              "label": "Diminutivo fuerte Ĉ/IĈ"
             }
           ],
           "semantic_fields": [
@@ -715,7 +727,7 @@
             "abstractos"
           ],
           "notes": [
-            "Comparte el segmento IĈ «ultra-» de eciĉos; su estatuto morfológico general queda abierto."
+            "-IĈ- es el alomorfo del diminutivo fuerte -Ĉ- en este entorno; aplicado a EC «sonido», alude a ondas extremadamente pequeñas/frecuencias ultrasónicas."
           ]
         },
         {
@@ -757,9 +769,13 @@
           "id": "lexeme-ecicetro",
           "form": "eciĉetro",
           "gloss": "aparato de ultrasonido",
-          "analysis_html": "EC + IĈ + E + <a class=\"morph-link\" href=\"#morph-tro-mechanical\">-TRO</a> <span class=\"meta-extra\">(IĈ pendiente de análisis)</span>",
-          "analysis_text": "EC + IĈ + E + -TRO (IĈ pendiente de análisis)",
+          "analysis_html": "EC + <a class=\"morph-link\" href=\"#morph-ch-diminutive\">-IĈ-</a> + E + <a class=\"morph-link\" href=\"#morph-tro-mechanical\">-TRO</a> ",
+          "analysis_text": "EC + -IĈ- + E + -TRO",
           "refs": [
+            {
+              "id": "morph-ch-diminutive",
+              "label": "-IĈ-"
+            },
             {
               "id": "morph-tro-mechanical",
               "label": "-TRO"
@@ -772,7 +788,7 @@
             },
             {
               "class": "generic",
-              "label": "Pendiente de análisis"
+              "label": "Diminutivo fuerte Ĉ/IĈ"
             }
           ],
           "semantic_fields": [
@@ -781,7 +797,7 @@
             "ultrasonido"
           ],
           "notes": [
-            "IĈ aporta «ultra-» en esta familia; la e funciona como enlace antes de -TRO."
+            "-IĈ- es el alomorfo del diminutivo fuerte -Ĉ- en este entorno; aplicado a EC «sonido», alude a ondas extremadamente pequeñas/frecuencias ultrasónicas."
           ]
         }
       ]
@@ -801,7 +817,260 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-edas",
+          "form": "edas",
+          "gloss": "construir",
+          "analysis_html": "ED + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ED + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "construcción",
+            "acciones",
+            "edificios"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-edifas",
+          "form": "edifas",
+          "gloss": "construir",
+          "analysis_html": "ED + i epentética + <a class=\"morph-link\" href=\"#root-f\">F</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ED + i epentética + F + -AS",
+          "refs": [
+            {
+              "id": "root-f",
+              "label": "F"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "construcción",
+            "acciones",
+            "edificios"
+          ],
+          "notes": [
+            "F- «hacer, volver, convertir en» forma un causativo/factitivo transparente sobre ED."
+          ]
+        },
+        {
+          "id": "lexeme-edistan",
+          "form": "edistan",
+          "gloss": "albañil",
+          "analysis_html": "ED + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ED + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "construcción",
+            "profesiones",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-arcedistan",
+          "form": "arcedistan",
+          "gloss": "arquitecto",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-arc-a\">ARC</a> + ED + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ARC + ED + -IST + -AN",
+          "refs": [
+            {
+              "id": "root-arc-a",
+              "label": "ARC-A"
+            },
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Profesión"
+            }
+          ],
+          "semantic_fields": [
+            "arquitectura",
+            "construcción",
+            "profesiones"
+          ],
+          "notes": [
+            "ARC- es la forma compositiva jerárquica de *ARC-A; no requiere i epentética ante vocal."
+          ]
+        },
+        {
+          "id": "lexeme-edal",
+          "form": "edal",
+          "gloss": "edificio",
+          "analysis_html": "ED + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ED + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "construcción",
+            "edificios",
+            "lugares"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-edifara",
+          "form": "edifara",
+          "gloss": "construccion (inacabada)",
+          "analysis_html": "ED + i epentética + <a class=\"morph-link\" href=\"#root-f\">F</a> + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ED + i epentética + F + -AR + -A",
+          "refs": [
+            {
+              "id": "root-f",
+              "label": "F"
+            },
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participial nominal"
+            }
+          ],
+          "semantic_fields": [
+            "construcción",
+            "procesos",
+            "obras"
+          ],
+          "notes": [
+            "Se interpreta como nominalización de una construcción aún en proceso: base factitiva ED-i-F + participio -AR + -A."
+          ]
+        },
+        {
+          "id": "lexeme-edisma",
+          "form": "edisma",
+          "gloss": "albañileria",
+          "analysis_html": "ED + <a class=\"morph-link\" href=\"#morph-isma\">-ISMA</a>",
+          "analysis_text": "ED + -ISMA",
+          "refs": [
+            {
+              "id": "morph-isma",
+              "label": "-ISMA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sistema ISMA"
+            }
+          ],
+          "semantic_fields": [
+            "construcción",
+            "oficios",
+            "sistemas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-arcedisma",
+          "form": "arcedisma",
+          "gloss": "arquitectura",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-arc-a\">ARC</a> + ED + <a class=\"morph-link\" href=\"#morph-isma\">-ISMA</a>",
+          "analysis_text": "ARC + ED + -ISMA",
+          "refs": [
+            {
+              "id": "root-arc-a",
+              "label": "ARC-A"
+            },
+            {
+              "id": "morph-isma",
+              "label": "-ISMA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Sistema ISMA"
+            }
+          ],
+          "semantic_fields": [
+            "arquitectura",
+            "construcción",
+            "disciplinas"
+          ],
+          "notes": [
+            "CANÓNICO: corrige la forma propuesta arĉedisma; ARĈ- «arco» no es el prefijo jerárquico."
+          ]
+        }
+      ]
     },
     {
       "id": "root-edr",
