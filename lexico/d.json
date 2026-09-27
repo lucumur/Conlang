@@ -932,7 +932,78 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-dikas",
+          "form": "dikas",
+          "gloss": "indicar, determinar",
+          "analysis_html": "DIK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DIK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "determinación",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dikingo",
+          "form": "dikingo",
+          "gloss": "dedo indice",
+          "analysis_html": "DIK + INGO <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DIK + INGO (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "señalamiento"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dika",
+          "form": "dika",
+          "gloss": "indicacion, mandato",
+          "analysis_html": "DIK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "DIK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "mandato",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-dilg",
@@ -949,7 +1020,53 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-dilgas",
+          "form": "dilgas",
+          "gloss": "obedecer",
+          "analysis_html": "DILG + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DILG + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "obediencia",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dilgor",
+          "form": "dilgor",
+          "gloss": "obediente, laborioso",
+          "analysis_html": "DILG + OR <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DILG + OR (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "obediencia",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-dir",
@@ -961,7 +1078,244 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-diras",
+          "form": "diras",
+          "gloss": "decir",
+          "analysis_html": "DIR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DIR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "habla",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-diris",
+          "form": "diris",
+          "gloss": "decirse",
+          "analysis_html": "DIR + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "DIR + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "habla",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dironas",
+          "form": "dironas",
+          "gloss": "explicar, declarar",
+          "analysis_html": "DIR + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a>",
+          "analysis_text": "DIR + -ONAS",
+          "refs": [
+            {
+              "id": "morph-onas",
+              "label": "-ONAS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ONAS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "explicación",
+            "declaración"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dritas",
+          "form": "dritas",
+          "gloss": "indicar, mandar",
+          "analysis_html": "DIR → DRIT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a> <span class=\"meta-extra\">(tema lexicalizado)</span>",
+          "analysis_text": "DIR → DRIT + -AS (tema lexicalizado)",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Tema lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "mandato",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-frodiras",
+          "form": "frodiras",
+          "gloss": "proclamar, hablar ante publico",
+          "analysis_html": "FRO + DIR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a> <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "FRO + DIR + -AS (formación lexicalizada)",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "habla pública",
+            "proclamación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-odiros",
+          "form": "odiros",
+          "gloss": "dialogar",
+          "analysis_html": "O + DIR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a> <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "O + DIR + -OS (formación lexicalizada)",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "diálogo",
+            "habla"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dira",
+          "form": "dira",
+          "gloss": "frase, dicho",
+          "analysis_html": "DIR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "DIR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "lenguaje",
+            "frases",
+            "comunicación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-odira",
+          "form": "odira",
+          "gloss": "dialogo",
+          "analysis_html": "O + DIR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "O + DIR + -A (formación lexicalizada)",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "diálogo",
+            "lenguaje"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dirka",
+          "form": "dirka",
+          "gloss": "palabra",
+          "analysis_html": "DIR + KA <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DIR + KA (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "lenguaje",
+            "palabras",
+            "comunicación"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-div",
@@ -973,7 +1327,118 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-divas",
+          "form": "divas",
+          "gloss": "iluminar",
+          "analysis_html": "DIV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DIV + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "luz",
+            "acciones",
+            "percepción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dival",
+          "form": "dival",
+          "gloss": "cielo (durante el dia)",
+          "analysis_html": "DIV + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "DIV + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "cielo",
+            "día",
+            "lugares"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-divil",
+          "form": "divil",
+          "gloss": "iluminado",
+          "analysis_html": "DIV + IL <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DIV + IL (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "luz",
+            "cualidades",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-divan",
+          "form": "divan",
+          "gloss": "dios",
+          "analysis_html": "DIV + AN <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DIV + AN (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "divinidad",
+            "seres"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-divantel",
+          "form": "divantel",
+          "gloss": "divino",
+          "analysis_html": "DIV + ANTEL <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DIV + ANTEL (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "divinidad",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-dok",
