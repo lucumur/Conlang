@@ -2658,6 +2658,58 @@
       "row_class": "",
       "words": [
         {
+          "id": "lexeme-dorsas",
+          "form": "dorsas",
+          "gloss": "dar la espalda",
+          "analysis_html": "DORS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DORS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "posición",
+            "espalda",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dorsar",
+          "form": "dorsar",
+          "gloss": "que da la espalda; de espaldas",
+          "analysis_html": "DORS + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "DORS + -AR",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio agentivo AR"
+            }
+          ],
+          "semantic_fields": [
+            "posición",
+            "espalda",
+            "cualidades"
+          ],
+          "notes": [
+            "Participio/adjetivo correspondiente a dorsas."
+          ]
+        },
+        {
           "id": "lexeme-dorso",
           "form": "dorso",
           "gloss": "espalda",
@@ -2686,8 +2738,8 @@
           "id": "lexeme-dorsato",
           "form": "dorsato",
           "gloss": "respaldo (lo que esta detras de algo, como el respaldo de la cama)",
-          "analysis_html": "DORS + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "DORS + -AT- + -O",
+          "analysis_html": "dorsas → DORS + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>; relacionado nominalmente con dorsar",
+          "analysis_text": "dorsas → DORS + -AT- + -O; nominal correspondiente a dorsar",
           "refs": [
             {
               "id": "morph-at",
@@ -2701,11 +2753,11 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Perfectivo AT"
+              "label": "Derivado de dorsas"
             },
             {
               "class": "generic",
-              "label": "Inanimado O"
+              "label": "Nominal relacionado con dorsar"
             }
           ],
           "semantic_fields": [
@@ -2714,7 +2766,7 @@
             "soporte"
           ],
           "notes": [
-            "ANÁLISIS: se interpreta -AT- como perfectivo/resultativo: objeto constituido como parte posterior o de respaldo. Conviene comprobar este uso nominal del perfectivo con más ejemplos."
+            "CANÓNICO: dorsato deriva del verbo dorsas «dar la espalda» y funciona también como nominal correspondiente al adjetivo/participio dorsar."
           ]
         },
         {
@@ -2748,13 +2800,18 @@
           "id": "lexeme-dorsona",
           "form": "dorsona",
           "gloss": "ayuda, apoyo",
-          "analysis_html": "DORS + ONA <span class=\"meta-extra\">(nominalización analógica de dorsonas)</span>",
-          "analysis_text": "DORS + ONA (nominalización analógica de dorsonas)",
-          "refs": [],
+          "analysis_html": "DORS + <a class=\"morph-link\" href=\"#morph-ona\">-ONA</a>",
+          "analysis_text": "DORS + -ONA",
+          "refs": [
+            {
+              "id": "morph-ona",
+              "label": "-ONA"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Nominalización analógica"
+              "label": "Nominalización ONA"
             }
           ],
           "semantic_fields": [
@@ -2763,7 +2820,7 @@
             "abstractos"
           ],
           "notes": [
-            "PENDIENTE: la relación dorsonas → dorsona es sistemáticamente plausible como nominalización en -A de la serie -ONAS, pero *-ONA no está documentado todavía como morfema independiente."
+            "Nominal correspondiente a dorsonas: DORS-ON-AS → DORS-ON-A."
           ]
         },
         {
@@ -2795,13 +2852,18 @@
           "id": "lexeme-dorsor",
           "form": "dorsor",
           "gloss": "posterior, dorsal",
-          "analysis_html": "DORS + OR <span class=\"meta-extra\">(formación adjetival pendiente de reanálisis)</span>",
-          "analysis_text": "DORS + OR (formación adjetival pendiente de reanálisis)",
-          "refs": [],
+          "analysis_html": "DORS + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "DORS + -OR",
+          "refs": [
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Pendiente de análisis"
+              "label": "Adjetivo OR"
             }
           ],
           "semantic_fields": [
@@ -2810,7 +2872,7 @@
             "cualidades"
           ],
           "notes": [
-            "PENDIENTE: el -OR productivo vigente es superlativo/de magnitud, por lo que no explica directamente «posterior, dorsal». No se enlaza a morph-or hasta definir este valor."
+            "-OR se interpreta aquí como adjetivo de grado/comparación, no necesariamente superlativo absoluto."
           ]
         },
         {
@@ -2913,7 +2975,122 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-drakas",
+          "form": "drakas",
+          "gloss": "acechar",
+          "analysis_html": "DRAK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DRAK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "vigilancia",
+            "depredación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-drakar",
+          "form": "drakar",
+          "gloss": "acechante",
+          "analysis_html": "DRAK + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "DRAK + -AR",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio agentivo AR"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "vigilancia",
+            "depredación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-drakaren",
+          "form": "drakaren",
+          "gloss": "dragon",
+          "analysis_html": "DRAK + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "DRAK + -AR + -EN",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "mitología",
+            "animales"
+          ],
+          "notes": [
+            "Se interpreta literalmente como «animal acechante»."
+          ]
+        },
+        {
+          "id": "lexeme-drakiken",
+          "form": "drakiken",
+          "gloss": "culebra",
+          "analysis_html": "DRAK + <a class=\"morph-link\" href=\"#morph-ik\">-IK-</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "DRAK + -IK- + -EN",
+          "refs": [
+            {
+              "id": "morph-ik",
+              "label": "-IK-"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Diminutivo IK"
+            },
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "reptiles",
+            "animales"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-drat",
@@ -2925,7 +3102,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-drato",
+          "form": "drato",
+          "gloss": "cable",
+          "analysis_html": "DRAT + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DRAT + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "tecnología",
+            "cables"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-dras",
@@ -2937,7 +3140,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-drasas",
+          "form": "draŝas",
+          "gloss": "azotar",
+          "analysis_html": "DRAŜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DRAŜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "golpes",
+            "violencia"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-drem",
@@ -2949,7 +3178,184 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-dremos",
+          "form": "dremos",
+          "gloss": "ensoñar, soñar despierto",
+          "analysis_html": "DREM + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "DREM + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sueño",
+            "imaginación",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-beldremos",
+          "form": "beldremos",
+          "gloss": "tener sueño lucido",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + DREM + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BEL + DREM + -OS",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sueño",
+            "imaginación",
+            "lucidez"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-maldremos",
+          "form": "maldremos",
+          "gloss": "delirar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + DREM + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MAL + DREM + -OS",
+          "refs": [
+            {
+              "id": "root-mal",
+              "label": "MAL"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "cognición",
+            "delirio",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-maldremol",
+          "form": "maldremol",
+          "gloss": "delirante",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + DREM + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "MAL + DREM + -OL",
+          "refs": [
+            {
+              "id": "root-mal",
+              "label": "MAL"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cognición",
+            "delirio",
+            "cualidades"
+          ],
+          "notes": [
+            "Ejemplo canónico del valor abundancial/presencia marcada de -OL."
+          ]
+        },
+        {
+          "id": "lexeme-dremil",
+          "form": "dremil",
+          "gloss": "imaginario",
+          "analysis_html": "DREM + <a class=\"morph-link\" href=\"#morph-il\">-IL</a>",
+          "analysis_text": "DREM + -IL",
+          "refs": [
+            {
+              "id": "morph-il",
+              "label": "-IL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "IL"
+            }
+          ],
+          "semantic_fields": [
+            "imaginación",
+            "cualidades",
+            "irrealidad"
+          ],
+          "notes": [
+            "PENDIENTE: -IL está documentado de forma demasiado general como «para inanimados»; dremil, aĝil y ĉizil sugieren que su función adjetival requiere una definición más precisa."
+          ]
+        },
+        {
+          "id": "lexeme-drembla",
+          "form": "drembla",
+          "gloss": "sueño",
+          "analysis_html": "DREM + b epentética + <a class=\"morph-link\" href=\"#morph-la\">-LA</a>",
+          "analysis_text": "DREM + b epentética + -LA",
+          "refs": [
+            {
+              "id": "morph-la",
+              "label": "-LA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal LA"
+            }
+          ],
+          "semantic_fields": [
+            "sueño",
+            "imaginación",
+            "abstractos"
+          ],
+          "notes": [
+            "La /b/ es epentética entre DREM y -LA."
+          ]
+        }
+      ]
     },
     {
       "id": "root-dret",
