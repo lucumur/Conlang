@@ -1757,9 +1757,13 @@
           "id": "lexeme-bezdomas",
           "form": "bezdomas",
           "gloss": "domar, domesticar",
-          "analysis_html": "BEZ + DOM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a> <span class=\"meta-extra\">(formación lexicalizada)</span>",
-          "analysis_text": "BEZ + DOM + -AS (formación lexicalizada)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-best\">BEZ</a> <span class=\"meta-extra\">(alomorfo de BES- de *BES-T)</span> + DOM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "BEZ (alomorfo de BES- de *BES-T) + DOM + -AS",
           "refs": [
+            {
+              "id": "root-best",
+              "label": "BES-T"
+            },
             {
               "id": "morph-as",
               "label": "-AS"
@@ -1768,7 +1772,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Compuesto"
             },
             {
               "class": "generic",
@@ -1786,9 +1790,13 @@
           "id": "lexeme-bezdomir",
           "form": "bezdomir",
           "gloss": "domesticado",
-          "analysis_html": "BEZ + DOM + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a> <span class=\"meta-extra\">(formación lexicalizada)</span>",
-          "analysis_text": "BEZ + DOM + -IR (formación lexicalizada)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-best\">BEZ</a> <span class=\"meta-extra\">(alomorfo de BES- de *BES-T)</span> + DOM + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a>",
+          "analysis_text": "BEZ (alomorfo de BES- de *BES-T) + DOM + -IR",
           "refs": [
+            {
+              "id": "root-best",
+              "label": "BES-T"
+            },
             {
               "id": "morph-ir-reservative",
               "label": "-IR"
@@ -1797,7 +1805,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Compuesto"
             },
             {
               "class": "generic",
@@ -2292,9 +2300,13 @@
           "id": "lexeme-dontas",
           "form": "dontas",
           "gloss": "otorgar, regalar",
-          "analysis_html": "DONT <span class=\"meta-extra\">(tema derivado de DON con extensión -T- no identificada)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "DONT (tema derivado de DON con extensión -T- no identificada) + -AS",
+          "analysis_html": "DON + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DON + -T- + -AS",
           "refs": [
+            {
+              "id": "morph-t-perfective",
+              "label": "-T-"
+            },
             {
               "id": "morph-as",
               "label": "-AS"
@@ -2303,7 +2315,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Tema DONT"
+              "label": "Perfectivo T"
             },
             {
               "class": "generic",
@@ -2315,9 +2327,7 @@
             "regalos",
             "acciones"
           ],
-          "notes": [
-            "La -T- de DONT- no coincide con un morfema productivo documentado; se conserva como extensión temática pendiente de análisis."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-donis",
@@ -2383,9 +2393,13 @@
           "id": "lexeme-donto",
           "form": "donto",
           "gloss": "regalo",
-          "analysis_html": "DONT <span class=\"meta-extra\">(tema derivado de DON con extensión -T- no identificada)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "DONT (tema derivado de DON con extensión -T- no identificada) + -O",
+          "analysis_html": "DON + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DON + -T- + -O",
           "refs": [
+            {
+              "id": "morph-t-perfective",
+              "label": "-T-"
+            },
             {
               "id": "morph-o",
               "label": "-O"
@@ -2394,7 +2408,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Tema DONT"
+              "label": "Perfectivo T"
             },
             {
               "class": "generic",
@@ -2406,9 +2420,7 @@
             "objetos",
             "transferencia"
           ],
-          "notes": [
-            "Comparte el tema DONT- con dontas; la función histórica/sincrónica de -T- queda abierta."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-beldono",
