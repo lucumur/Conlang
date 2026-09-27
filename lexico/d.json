@@ -2464,28 +2464,444 @@
     {
       "id": "root-dorm",
       "form": "*DORM-",
-      "gloss": "dormir",
+      "gloss": "dormir, dormir(se)",
       "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-dormas",
+          "form": "dormas",
+          "gloss": "adormecer (transitivo)",
+          "analysis_html": "DORM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DORM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "sueño",
+            "acciones",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dormos",
+          "form": "dormos",
+          "gloss": "adormecerse",
+          "analysis_html": "DORM + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "DORM + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sueño",
+            "procesos",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dormis",
+          "form": "dormis",
+          "gloss": "dormirse, estar dormido",
+          "analysis_html": "DORM + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "DORM + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "sueño",
+            "estado",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-sodormol",
+          "form": "sodormol",
+          "gloss": "somnoliento",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-so-sub\">SO-</a> + DORM + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "SO- + DORM + -OL",
+          "refs": [
+            {
+              "id": "morph-so-sub",
+              "label": "SO-"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Atenuativo SO"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "sueño",
+            "cualidades",
+            "estado"
+          ],
+          "notes": [
+            "SO- aporta el valor atenuativo «en grado menor»: estado parcialmente dormido/somnoliento."
+          ]
+        },
+        {
+          "id": "lexeme-dormatar",
+          "form": "dormatar",
+          "gloss": "sedante, somnifero",
+          "analysis_html": "DORM + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "DORM + -AT- + -AR",
+          "refs": [
+            {
+              "id": "morph-at",
+              "label": "-AT-"
+            },
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Perfectivo AT"
+            },
+            {
+              "class": "generic",
+              "label": "Participio agentivo AR"
+            }
+          ],
+          "semantic_fields": [
+            "sueño",
+            "medicamentos",
+            "cualidades"
+          ],
+          "notes": [
+            "Se interpreta como «lo que produce/culmina el adormecimiento», con -AT- perfectivo y -AR agentivo."
+          ]
+        },
+        {
+          "id": "lexeme-dorma",
+          "form": "dorma",
+          "gloss": "sueño (episodio estuporoso)",
+          "analysis_html": "DORM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "DORM + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "sueño",
+            "episodios",
+            "estado"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-dors",
-      "form": "*DOR-S",
-      "gloss": "dorsal, espalda",
+      "form": "*DORS-",
+      "gloss": "dorso, espalda",
       "tags": [],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
       "notes": [
-        "DOR- es la forma primigenia; DORS es la forma extendida usual. La forma primigenia aparece en derivados como dorbalo y dorbalin."
+        "CANÓNICO: la forma vigente de la raíz es *DORS-. La notación anterior *DOR-S queda reemplazada."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-dorso",
+          "form": "dorso",
+          "gloss": "espalda",
+          "analysis_html": "DORS + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DORS + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "espalda",
+            "cuerpo"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dorsato",
+          "form": "dorsato",
+          "gloss": "respaldo (lo que esta detras de algo, como el respaldo de la cama)",
+          "analysis_html": "DORS + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DORS + -AT- + -O",
+          "refs": [
+            {
+              "id": "morph-at",
+              "label": "-AT-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Perfectivo AT"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "posición",
+            "soporte"
+          ],
+          "notes": [
+            "ANÁLISIS: se interpreta -AT- como perfectivo/resultativo: objeto constituido como parte posterior o de respaldo. Conviene comprobar este uso nominal del perfectivo con más ejemplos."
+          ]
+        },
+        {
+          "id": "lexeme-dorsonas",
+          "form": "dorsonas",
+          "gloss": "respaldar (forma metaforica, apoyar, brindar ayuda)",
+          "analysis_html": "DORS + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a>",
+          "analysis_text": "DORS + -ONAS",
+          "refs": [
+            {
+              "id": "morph-onas",
+              "label": "-ONAS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ONAS"
+            }
+          ],
+          "semantic_fields": [
+            "ayuda",
+            "apoyo",
+            "acciones"
+          ],
+          "notes": [
+            "Extensión metafórica de «estar/ponerse detrás» a «respaldar, apoyar»."
+          ]
+        },
+        {
+          "id": "lexeme-dorsona",
+          "form": "dorsona",
+          "gloss": "ayuda, apoyo",
+          "analysis_html": "DORS + ONA <span class=\"meta-extra\">(nominalización analógica de dorsonas)</span>",
+          "analysis_text": "DORS + ONA (nominalización analógica de dorsonas)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización analógica"
+            }
+          ],
+          "semantic_fields": [
+            "ayuda",
+            "apoyo",
+            "abstractos"
+          ],
+          "notes": [
+            "PENDIENTE: la relación dorsonas → dorsona es sistemáticamente plausible como nominalización en -A de la serie -ONAS, pero *-ONA no está documentado todavía como morfema independiente."
+          ]
+        },
+        {
+          "id": "lexeme-dorseos",
+          "form": "dorseos",
+          "gloss": "voltearse de espaldas",
+          "analysis_html": "DORS + <a class=\"morph-link\" href=\"#morph-eos-directional\">-EOS</a>",
+          "analysis_text": "DORS + -EOS",
+          "refs": [
+            {
+              "id": "morph-eos-directional",
+              "label": "-EOS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Direccional EOS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "espalda",
+            "dirección"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dorsor",
+          "form": "dorsor",
+          "gloss": "posterior, dorsal",
+          "analysis_html": "DORS + OR <span class=\"meta-extra\">(formación adjetival pendiente de reanálisis)</span>",
+          "analysis_text": "DORS + OR (formación adjetival pendiente de reanálisis)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pendiente de análisis"
+            }
+          ],
+          "semantic_fields": [
+            "posición",
+            "anatomía",
+            "cualidades"
+          ],
+          "notes": [
+            "PENDIENTE: el -OR productivo vigente es superlativo/de magnitud, por lo que no explica directamente «posterior, dorsal». No se enlaza a morph-or hasta definir este valor."
+          ]
+        },
+        {
+          "id": "lexeme-dorsango",
+          "form": "dorsango",
+          "gloss": "columna vertebral",
+          "analysis_html": "DORS + <a class=\"morph-link\" href=\"#root-ang-2\">ANG</a> + <a class=\"morph-link\" href=\"#morph-o-3\">-O</a>",
+          "analysis_text": "DORS + ANG + -O",
+          "refs": [
+            {
+              "id": "root-ang-2",
+              "label": "ANG"
+            },
+            {
+              "id": "morph-o-3",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "espalda",
+            "esqueleto"
+          ],
+          "notes": [
+            "ANÁLISIS: se enlaza con *ANG- «ángulo». La motivación semántica exacta de ANG en «columna vertebral» queda por confirmar."
+          ]
+        },
+        {
+          "id": "lexeme-dorsoko",
+          "form": "dorsoko",
+          "gloss": "vertebra",
+          "analysis_html": "DORS + <a class=\"morph-link\" href=\"#root-ok\">OK</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DORS + OK + -O",
+          "refs": [
+            {
+              "id": "root-ok",
+              "label": "OK"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "esqueleto",
+            "espalda"
+          ],
+          "notes": [
+            "*OK- «hueco, agujero, boca» aporta la referencia al elemento vertebral con abertura/canal."
+          ]
+        },
+        {
+          "id": "lexeme-dorsik",
+          "form": "dorsik",
+          "gloss": "de espaldas, volteado",
+          "analysis_html": "DORS + IK <span class=\"meta-extra\">(segmento final pendiente de análisis)</span>",
+          "analysis_text": "DORS + IK (segmento final pendiente de análisis)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pendiente de análisis"
+            }
+          ],
+          "semantic_fields": [
+            "posición",
+            "espalda",
+            "orientación"
+          ],
+          "notes": [
+            "PENDIENTE: no se identifica con el diminutivo productivo -IK-, cuyo significado no explica «de espaldas, volteado». Puede tratarse de otro morfema homófono o de una formación histórica lexicalizada."
+          ]
+        }
+      ]
     },
     {
       "id": "root-drak",
