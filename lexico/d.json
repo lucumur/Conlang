@@ -1382,13 +1382,18 @@
           "id": "lexeme-divil",
           "form": "divil",
           "gloss": "iluminado",
-          "analysis_html": "DIV + IL <span class=\"meta-extra\">(formación lexicalizada)</span>",
-          "analysis_text": "DIV + IL (formación lexicalizada)",
-          "refs": [],
+          "analysis_html": "DIV + <a class=\"morph-link\" href=\"#morph-il\">-IL</a>",
+          "analysis_text": "DIV + -IL",
+          "refs": [
+            {
+              "id": "morph-il",
+              "label": "-IL"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Participio absolutivo-pasivo objetual"
             }
           ],
           "semantic_fields": [
@@ -1396,7 +1401,9 @@
             "cualidades",
             "estado"
           ],
-          "notes": []
+          "notes": [
+            "-IL expresa el estado pasivo/resultante «iluminado» aplicado a un referente objetual o inanimado."
+          ]
         },
         {
           "id": "lexeme-divan",
@@ -1500,13 +1507,18 @@
           "id": "lexeme-dokin",
           "form": "dokin",
           "gloss": "instruido, licenciado",
-          "analysis_html": "DOK + IN <span class=\"meta-extra\">(formación lexicalizada)</span>",
-          "analysis_text": "DOK + IN (formación lexicalizada)",
-          "refs": [],
+          "analysis_html": "DOK + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "DOK + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Participio absolutivo-pasivo humano"
             }
           ],
           "semantic_fields": [
@@ -1514,7 +1526,9 @@
             "personas",
             "cualidades"
           ],
-          "notes": []
+          "notes": [
+            "-IN marca aquí al referente humano instruido/licenciado."
+          ]
         },
         {
           "id": "lexeme-dokatar",
@@ -1807,11 +1821,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Compuesto"
-            },
-            {
-              "class": "generic",
-              "label": "Resultativo IR"
+              "label": "Participio absolutivo-pasivo animante no humano"
             }
           ],
           "semantic_fields": [
@@ -1820,7 +1830,7 @@
             "animales"
           ],
           "notes": [
-            "La z es resultado regular de la sonorización /s/ → [z] ante /d/."
+            "-IR marca aquí el estado pasivo/resultante de un referente animante no humano; la z procede de /s/ → [z] ante /d/."
           ]
         },
         {
@@ -3316,7 +3326,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "IL"
+              "label": "Participio absolutivo-pasivo objetual"
             }
           ],
           "semantic_fields": [
@@ -3325,7 +3335,7 @@
             "irrealidad"
           ],
           "notes": [
-            "PENDIENTE: -IL está documentado de forma demasiado general como «para inanimados»; dremil, aĝil y ĉizil sugieren que su función adjetival requiere una definición más precisa."
+            "-IL expresa una cualidad/estado absolutivo-pasivo de referente objetual o inanimado."
           ]
         },
         {
