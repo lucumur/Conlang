@@ -684,6 +684,20 @@
       "notes": [],
       "row_class": "",
       "words": []
+    },
+    {
+      "id": "root-gar-war",
+      "form": "*GAR-",
+      "gloss": "guerra",
+      "tags": [],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: raíz introducida por gardukan «general, sargento». Coexiste por ahora con *MIL- «guerra»; la relación semántica entre ambas raíces queda por definir."
+      ],
+      "row_class": "lex-root-row",
+      "words": []
     }
   ]
 }
