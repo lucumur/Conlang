@@ -653,7 +653,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-delfen",
+          "form": "delfen",
+          "gloss": "delfin",
+          "analysis_html": "DELF + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "DELF + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "zoología"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-den-tr",
@@ -670,7 +696,123 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-denter",
+          "form": "denter",
+          "gloss": "interno",
+          "analysis_html": "DENTR + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "DENTR + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "espacio",
+            "posición",
+            "relaciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dentreos",
+          "form": "dentreos",
+          "gloss": "adentrarse, entrar",
+          "analysis_html": "DENTR + <a class=\"morph-link\" href=\"#morph-eos-directional\">-EOS</a>",
+          "analysis_text": "DENTR + -EOS",
+          "refs": [
+            {
+              "id": "morph-eos-directional",
+              "label": "-EOS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Direccional EOS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "dirección",
+            "espacio"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-denveste",
+          "form": "denveste",
+          "gloss": "ropa interior",
+          "analysis_html": "DEN <span class=\"meta-extra\">(forma primigenia de *DEN-TR-)</span> + <a class=\"morph-link\" href=\"#root-vest\">VEST</a> + E",
+          "analysis_text": "DEN (forma primigenia de *DEN-TR-) + VEST + E",
+          "refs": [
+            {
+              "id": "root-vest",
+              "label": "VEST"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "vestimenta",
+            "objetos",
+            "cuerpo"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dentroja",
+          "form": "dentroja",
+          "gloss": "entrada, introduccion",
+          "analysis_html": "DENTR + OJA <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DENTR + OJA (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acceso",
+            "introducción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dentru",
+          "form": "dentru",
+          "gloss": "adentro",
+          "analysis_html": "DENTR + U <span class=\"meta-extra\">(forma adverbial lexicalizada)</span>",
+          "analysis_text": "DENTR + U (forma adverbial lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial"
+            }
+          ],
+          "semantic_fields": [
+            "espacio",
+            "posición",
+            "dirección"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-difr",
@@ -682,7 +824,103 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-difris",
+          "form": "difris",
+          "gloss": "diferir, ser diferente",
+          "analysis_html": "DIFR + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "DIFR + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "diferencia",
+            "comparación",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-difras",
+          "form": "difras",
+          "gloss": "diferenciar, distinguir",
+          "analysis_html": "DIFR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DIFR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "diferencia",
+            "comparación",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-difror",
+          "form": "difror",
+          "gloss": "diferente, distinto",
+          "analysis_html": "DIFR + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "DIFR + -OR",
+          "refs": [
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OR"
+            }
+          ],
+          "semantic_fields": [
+            "diferencia",
+            "comparación",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-difrabulco",
+          "form": "difrabulĉo",
+          "gloss": "signo de dieresis",
+          "analysis_html": "DIFR + ABULĈO <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DIFR + ABULĈO (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "ortografía",
+            "signos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-dik",
