@@ -1969,32 +1969,184 @@
     },
     {
       "id": "root-ep",
-      "form": "*EP-",
-      "gloss": "cuento",
+      "form": "*EP-IK",
+      "gloss": "narrar, relato",
       "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-epat",
-      "form": "*EPAT-",
-      "gloss": "higado",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "formal"
-        }
+      "notes": [
+        "CANÓNICO: *EP-IK presenta EP- como base primigenia y EPIK- como forma extendida usada en el repertorio."
       ],
-      "letter": "E",
-      "section": "sec-e",
-      "etymology": null,
-      "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-epikas",
+          "form": "epikas",
+          "gloss": "narrar",
+          "analysis_html": "EP-IK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "EP-IK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "narración",
+            "literatura",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-epikel",
+          "form": "epikel",
+          "gloss": "narrativo",
+          "analysis_html": "EP-IK + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "EP-IK + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "narración",
+            "literatura",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ervepikel",
+          "form": "ervepikel",
+          "gloss": "epico",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-erv\">ERV</a> + EP-IK + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "ERV + EP-IK + -EL",
+          "refs": [
+            {
+              "id": "root-erv",
+              "label": "ERV"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "literatura",
+            "épica",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-epikan",
+          "form": "epikan",
+          "gloss": "narrador, poeta",
+          "analysis_html": "EP-IK + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "EP-IK + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "literatura",
+            "personas",
+            "narración"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-epika",
+          "form": "epika",
+          "gloss": "poema",
+          "analysis_html": "EP-IK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "EP-IK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "literatura",
+            "poesía",
+            "narración"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ervepika",
+          "form": "ervepika",
+          "gloss": "poema epico",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-erv\">ERV</a> + EP-IK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ERV + EP-IK + -A",
+          "refs": [
+            {
+              "id": "root-erv",
+              "label": "ERV"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "literatura",
+            "épica",
+            "poesía"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-erb",
@@ -2015,12 +2167,146 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-erbas",
+          "form": "erbas",
+          "gloss": "heredar (al hijo)",
+          "analysis_html": "ERB + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ERB + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "herencia",
+            "familia",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-erbis",
+          "form": "erbis",
+          "gloss": "tener heredado",
+          "analysis_html": "ERB + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "ERB + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "herencia",
+            "posesión",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-erbite",
+          "form": "erbite",
+          "gloss": "herencia",
+          "analysis_html": "ERB + <a class=\"morph-link\" href=\"#morph-ite-noncount\">-ITE</a>",
+          "analysis_text": "ERB + -ITE",
+          "refs": [
+            {
+              "id": "morph-ite-noncount",
+              "label": "-ITE"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Derivativo ITE"
+            }
+          ],
+          "semantic_fields": [
+            "herencia",
+            "posesión",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-erbo",
+          "form": "erbo",
+          "gloss": "escudo heraldico",
+          "analysis_html": "ERB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ERB + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "heráldica",
+            "objetos",
+            "familia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-generbite",
+          "form": "ĝenerbite",
+          "gloss": "herencia genetica",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-gen\">ĜEN</a> + ERB + <a class=\"morph-link\" href=\"#morph-ite-noncount\">-ITE</a>",
+          "analysis_text": "ĜEN + ERB + -ITE",
+          "refs": [
+            {
+              "id": "root-gen",
+              "label": "ĜEN"
+            },
+            {
+              "id": "morph-ite-noncount",
+              "label": "-ITE"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Derivativo ITE"
+            }
+          ],
+          "semantic_fields": [
+            "genética",
+            "herencia",
+            "biología"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-erg",
       "form": "*ERG-",
-      "gloss": "trabajo",
+      "gloss": "energia, fuerza, ejercicio",
       "tags": [
         {
           "class": "griego",
@@ -2030,9 +2316,62 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: la familia se reorienta desde la glosa anterior «trabajo» hacia energía/fuerza/ejercicio."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ergos",
+          "form": "ergos",
+          "gloss": "ejercitarse",
+          "analysis_html": "ERG + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ERG + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "ejercicio",
+            "fuerza",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-erga",
+          "form": "erga",
+          "gloss": "energia, fuerza",
+          "analysis_html": "ERG + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ERG + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "energía",
+            "fuerza",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ero",
@@ -2054,7 +2393,7 @@
     {
       "id": "root-erv",
       "form": "*ERV-",
-      "gloss": "hierba",
+      "gloss": "heroe",
       "tags": [
         {
           "class": "nat-plen",
@@ -2068,19 +2407,156 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *ERV- queda reservado a «héroe»; la antigua glosa «hierba» se transfiere a *JERB-."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ervedal",
+          "form": "ervedal",
+          "gloss": "heroon (santuario de heroe)",
+          "analysis_html": "ERV + <a class=\"morph-link\" href=\"#morph-ed\">-ED-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ERV + -ED- + -AL",
+          "refs": [
+            {
+              "id": "morph-ed",
+              "label": "-ED-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Edificio ED"
+            },
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "lugares",
+            "héroes"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ervon",
+          "form": "ervon",
+          "gloss": "heroe",
+          "analysis_html": "ERV + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ERV + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "héroes",
+            "personas",
+            "mitología"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ervol",
+          "form": "ervol",
+          "gloss": "heroico",
+          "analysis_html": "ERV + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ERV + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "héroes",
+            "cualidades",
+            "conducta"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ervuna",
+          "form": "ervuna",
+          "gloss": "heroismo",
+          "analysis_html": "ERV + <a class=\"morph-link\" href=\"#morph-una\">-UNA</a>",
+          "analysis_text": "ERV + -UNA",
+          "refs": [
+            {
+              "id": "morph-una",
+              "label": "-UNA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto UNA"
+            }
+          ],
+          "semantic_fields": [
+            "héroes",
+            "conducta",
+            "abstractos"
+          ],
+          "notes": [
+            "-UNA corresponde regularmente a la forma humana ervon."
+          ]
+        },
+        {
+          "id": "lexeme-ervaklin",
+          "form": "ervaklin",
+          "gloss": "hercules",
+          "analysis_html": "ERV + AKLIN <span class=\"meta-extra\">(formación lexicalizada pendiente de análisis)</span>",
+          "analysis_text": "ERV + AKLIN (formación lexicalizada pendiente de análisis)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nombre/personaje"
+            }
+          ],
+          "semantic_fields": [
+            "mitología",
+            "héroes",
+            "personas"
+          ],
+          "notes": [
+            "PENDIENTE: AKLIN no está documentado como raíz o morfema independiente."
+          ]
+        }
+      ]
     },
     {
       "id": "root-erz",
-      "form": "*ERZ-",
+      "form": "*ERẐ-",
       "gloss": "mineral",
       "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: la grafía vigente de la raíz es *ERẐ-; reemplaza *ERZ-."
+      ],
       "row_class": "",
       "words": []
     },
@@ -2225,6 +2701,93 @@
       "notes": [],
       "row_class": "",
       "words": []
+    },
+    {
+      "id": "root-er-love",
+      "form": "*ER-",
+      "gloss": "amor, Eros",
+      "tags": [],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: ERUN- es el tema extendido de esta familia; el valor exacto de -UN- queda por formalizar."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-erun",
+          "form": "erun",
+          "gloss": "Eros, cupido",
+          "analysis_html": "ER + UN <span class=\"meta-extra\">(extensión temática pendiente de análisis)</span>",
+          "analysis_text": "ER + UN (extensión temática pendiente de análisis)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nombre/personaje"
+            }
+          ],
+          "semantic_fields": [
+            "amor",
+            "mitología",
+            "personas"
+          ],
+          "notes": [
+            "PENDIENTE: -UN- no está documentado todavía como morfema general."
+          ]
+        },
+        {
+          "id": "lexeme-eruna",
+          "form": "eruna",
+          "gloss": "amor, enamoramiento",
+          "analysis_html": "ERUN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ERUN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "amor",
+            "emociones",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-erunos",
+          "form": "erunos",
+          "gloss": "enamorarse",
+          "analysis_html": "ERUN + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ERUN + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "amor",
+            "emociones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }
