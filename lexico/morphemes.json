@@ -3558,6 +3558,34 @@
         "Es menos intenso que el diminutivo fuerte -Ĉ/-IĈ."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-un-parahuman",
+      "form": "*-UN",
+      "gloss": "sustantivante parahumano; frecuente en dioses y entidades de estatus humanoide/sobrehumano",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "sustantivante"
+        },
+        {
+          "class": "generic",
+          "label": "parahumano"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -UN forma sustantivos parahumanos.",
+        "Es especialmente frecuente en nombres o designaciones de dioses y entidades antropomorfas/sobrehumanas.",
+        "Atestiguado en erun «Eros, Cupido»."
+      ],
+      "row_class": ""
     }
   ]
 }
