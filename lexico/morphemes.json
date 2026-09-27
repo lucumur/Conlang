@@ -632,7 +632,7 @@
     {
       "id": "morph-el",
       "form": "*-EL",
-      "gloss": "adjetivo directo del nomen",
+      "gloss": "adjetivo derivativo o relacional",
       "tags": [
         {
           "class": "generic",
@@ -643,7 +643,7 @@
       "section": "sec-e",
       "etymology": null,
       "notes": [
-        "CANÓNICO: los nomen en -O forman regularmente el adjetivo directo sustituyendo -O por -EL; por ejemplo, kordo → kordel y ĉelĉo → ĉelĉel."
+        "CANÓNICO: -EL forma adjetivos derivados/relacionales a partir de un nomen; p. ej. kordo «corazón» → kordel «cardíaco»."
       ],
       "row_class": ""
     },
@@ -688,7 +688,7 @@
     {
       "id": "morph-er",
       "form": "*-ER",
-      "gloss": "adjetivo primario no derivado",
+      "gloss": "adjetivo básico o primario no derivativo",
       "tags": [
         {
           "class": "generic",
@@ -698,7 +698,9 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: -ER es el sabor adjetival básico para cualidades no planteadas como derivaciones relacionales."
+      ],
       "row_class": ""
     },
     {
@@ -1410,7 +1412,7 @@
     {
       "id": "morph-ol-2",
       "form": "*-OL",
-      "gloss": "semejanza, aspecto o cuantía",
+      "gloss": "adjetivo de abundancia o presencia marcada",
       "tags": [
         {
           "class": "generic",
@@ -1421,7 +1423,7 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [
-        "Forma adjetivos caracterizados por semejanza, aspecto o cuantía respecto de la base."
+        "CANÓNICO: -OL expresa abundancia o presencia marcada de la propiedad/base; p. ej. maldremol «delirante» a partir de maldremos «delirar»."
       ],
       "row_class": ""
     },
@@ -1476,7 +1478,7 @@
     {
       "id": "morph-or",
       "form": "*-OR",
-      "gloss": "adjetivo superlativo o de magnitud",
+      "gloss": "adjetivo comparativo-superlativo o de grado",
       "tags": [
         {
           "class": "generic",
@@ -1487,8 +1489,9 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [
-        "CANÓNICO: -OR forma adjetivos superlativos o de magnitud.",
-        "CANÓNICO: -OR reemplaza en esta función al antiguo -UR; ya no es el participio de -OS."
+        "CANÓNICO: -OR expresa grado comparativo/superlativo o magnitud, pero no exige una lectura superlativa en todos los usos.",
+        "CANÓNICO: -OR es el sabor adjetival de grado: no es el derivativo -EL, ni el abundancial -OL, ni el básico -ER.",
+        "CANÓNICO: -OR reemplaza en esta función al antiguo -UR; -UR es ahora el participio de -OS."
       ],
       "row_class": ""
     },
@@ -1506,7 +1509,8 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [
-        "Canónico: -ONAS es un tipo de agentivo.",
+        "CANÓNICO: -ONAS es una serie predicativa construida sobre un tema en -ON-.",
+        "Su nominal de acción/resultado se forma en -ONA: X-ONAS → X-ONA.",
         "Su participio sigue la serie agentiva: -ONAS → -ONAR, por sustitución de -AS por -AR.",
         "Para «persona dedicada a» una actividad en -ONAS se usa -ONTAN, no el analógico esperado *-ONISTAN."
       ],
@@ -3369,6 +3373,53 @@
         "CANÓNICO: -T- marca perfectividad.",
         "Atestiguado en DONT- < DON + -T-, base de dontas «otorgar, regalar» y donto «regalo».",
         "Coexiste con el perfectivo -AT- ya documentado; su distribución exacta queda por sistematizar si aparecen más pares."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ona",
+      "form": "*-ONA",
+      "gloss": "nominal de acción/resultado correspondiente a una base predicativa en -ONAS",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "nominalización"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -ONA es el nominal en -A del tema en -ON- correspondiente a una forma predicativa en -ONAS: X-ONAS → X-ONA.",
+        "Atestiguado en dorsonas «respaldar» → dorsona «ayuda, apoyo»."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-la",
+      "form": "*-LA",
+      "gloss": "nominalizador; valor general aún por delimitar",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Provisional"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: existe el sufijo -LA, atestiguado en drembla «sueño».",
+        "En drembla aparece /b/ epentética entre DREM y -LA: DREM + -LA → DREMBLA.",
+        "PROVISIONAL: falta establecer el valor semántico general de -LA con más ejemplos."
       ],
       "row_class": ""
     }
