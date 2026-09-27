@@ -3386,7 +3386,165 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-dreteos",
+          "form": "dreteos",
+          "gloss": "dirigirse",
+          "analysis_html": "DRET + <a class=\"morph-link\" href=\"#morph-eos-directional\">-EOS</a>",
+          "analysis_text": "DRET + -EOS",
+          "refs": [
+            {
+              "id": "morph-eos-directional",
+              "label": "-EOS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Direccional EOS"
+            }
+          ],
+          "semantic_fields": [
+            "dirección",
+            "movimiento",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dretojon",
+          "form": "dretojon",
+          "gloss": "destinatario",
+          "analysis_html": "DRET + <a class=\"morph-link\" href=\"#morph-oj-theme\">-OJ-</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "DRET + -OJ- + -ON",
+          "refs": [
+            {
+              "id": "morph-oj-theme",
+              "label": "-OJ-"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema OJ"
+            },
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "dirección",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dretoja",
+          "form": "dretoja",
+          "gloss": "direccion",
+          "analysis_html": "DRET + <a class=\"morph-link\" href=\"#morph-oj-theme\">-OJ-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "DRET + -OJ- + -A",
+          "refs": [
+            {
+              "id": "morph-oj-theme",
+              "label": "-OJ-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema OJ"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "dirección",
+            "abstractos",
+            "orientación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dretojel",
+          "form": "dretojel",
+          "gloss": "direccional",
+          "analysis_html": "DRET + <a class=\"morph-link\" href=\"#morph-oj-theme\">-OJ-</a> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "DRET + -OJ- + -EL",
+          "refs": [
+            {
+              "id": "morph-oj-theme",
+              "label": "-OJ-"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema OJ"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "dirección",
+            "cualidades",
+            "orientación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dretojal",
+          "form": "dretojal",
+          "gloss": "direccion (lugar)",
+          "analysis_html": "DRET + <a class=\"morph-link\" href=\"#morph-oj-theme\">-OJ-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "DRET + -OJ- + -AL",
+          "refs": [
+            {
+              "id": "morph-oj-theme",
+              "label": "-OJ-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema OJ"
+            },
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "dirección",
+            "lugares",
+            "orientación"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-drib",
@@ -3398,7 +3556,112 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-dribos",
+          "form": "dribos",
+          "gloss": "gotear poco pero constante",
+          "analysis_html": "DRIB + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "DRIB + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "líquidos",
+            "goteo",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dribas",
+          "form": "dribas",
+          "gloss": "hacer gotear el balon, mantenerlo sin perderlo",
+          "analysis_html": "DRIB + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DRIB + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "deportes",
+            "acciones",
+            "movimiento"
+          ],
+          "notes": [
+            "Extensión metafórica del goteo al bote controlado y repetido del balón."
+          ]
+        },
+        {
+          "id": "lexeme-dribis",
+          "form": "dribis",
+          "gloss": "lloviznar",
+          "analysis_html": "DRIB + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "DRIB + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "clima",
+            "lluvia",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dribla",
+          "form": "dribla",
+          "gloss": "llovizna",
+          "analysis_html": "DRIB + <a class=\"morph-link\" href=\"#morph-la\">-LA</a>",
+          "analysis_text": "DRIB + -LA",
+          "refs": [
+            {
+              "id": "morph-la",
+              "label": "-LA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal LA"
+            }
+          ],
+          "semantic_fields": [
+            "clima",
+            "lluvia",
+            "fenómenos"
+          ],
+          "notes": [
+            "Segundo ejemplo de -LA, que refuerza su función nominalizadora."
+          ]
+        }
+      ]
     },
     {
       "id": "root-driz",
@@ -3422,7 +3685,29 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-dum",
+          "form": "dum",
+          "gloss": "mientras",
+          "analysis_html": "DU + M <span class=\"meta-extra\">(formación gramatical lexicalizada)</span>",
+          "analysis_text": "DU + M (formación gramatical lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Conjunción temporal"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "gramática"
+          ],
+          "notes": [
+            "PENDIENTE: no se postula todavía un morfema productivo *-M a partir de este único ejemplo."
+          ]
+        }
+      ]
     },
     {
       "id": "root-duk",
@@ -3439,7 +3724,264 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lundukar",
+          "form": "lundukar",
+          "gloss": "conductor de electricidad",
+          "analysis_html": "LUND + DUK + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a> <span class=\"meta-extra\">(LUND eléctrico pendiente de identificación)</span>",
+          "analysis_text": "LUND + DUK + -AR (LUND eléctrico pendiente de identificación)",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio agentivo AR"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "electricidad",
+            "materiales",
+            "conducción"
+          ],
+          "notes": [
+            "PENDIENTE: no se enlaza con *LUN- «luna», cuya extensión *LUND- significa «mes»; falta identificar o documentar el elemento eléctrico LUND-."
+          ]
+        },
+        {
+          "id": "lexeme-lundukeza",
+          "form": "lundukeẑa",
+          "gloss": "conductilidad",
+          "analysis_html": "LUND + DUK + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a> <span class=\"meta-extra\">(LUND eléctrico pendiente de identificación)</span>",
+          "analysis_text": "LUND + DUK + -EẐA (LUND eléctrico pendiente de identificación)",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Cualidad abstracta EẐA"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "electricidad",
+            "propiedades",
+            "conducción"
+          ],
+          "notes": [
+            "PENDIENTE: comparte el elemento LUND- no identificado de lundukar."
+          ]
+        },
+        {
+          "id": "lexeme-dukas",
+          "form": "dukas",
+          "gloss": "conducir, llevar",
+          "analysis_html": "DUK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DUK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "conducción",
+            "movimiento",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gardukan",
+          "form": "gardukan",
+          "gloss": "general, sargento",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-gar-war\">GAR</a> + DUK + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "GAR + DUK + -AN",
+          "refs": [
+            {
+              "id": "root-gar-war",
+              "label": "GAR"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "guerra",
+            "jerarquía",
+            "personas"
+          ],
+          "notes": [
+            "*GAR- «guerra» se documenta con esta formación."
+          ]
+        },
+        {
+          "id": "lexeme-arcidukan",
+          "form": "arcidukan",
+          "gloss": "duque",
+          "analysis_html": "ARCI + DUK + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> <span class=\"meta-extra\">(formante jerárquico ARCI- pendiente de enlace exacto)</span>",
+          "analysis_text": "ARCI + DUK + -AN (formante jerárquico ARCI- pendiente de enlace exacto)",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Título"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "jerarquía",
+            "títulos",
+            "nobleza"
+          ],
+          "notes": [
+            "CANÓNICO: arcidukan sustituye a la forma anterior arcadukan. PENDIENTE: precisar si ARCI- es alomorfo/forma compositiva de *ARC-A o un formante jerárquico propio."
+          ]
+        },
+        {
+          "id": "lexeme-cardukan",
+          "form": "ĉardukan",
+          "gloss": "conductor",
+          "analysis_html": "ĈAR + DUK + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> <span class=\"meta-extra\">(ĈAR- pendiente de identificación)</span>",
+          "analysis_text": "ĈAR + DUK + -AN (ĈAR- pendiente de identificación)",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "transporte",
+            "personas",
+            "conducción"
+          ],
+          "notes": [
+            "PENDIENTE: *ĈAR- no está documentada actualmente; la raíz existente para «carro» es *ĈAP-. No se equiparan sin decisión explícita."
+          ]
+        },
+        {
+          "id": "lexeme-dukato",
+          "form": "dukato",
+          "gloss": "manubrio",
+          "analysis_html": "DUK + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DUK + -AT- + -O",
+          "refs": [
+            {
+              "id": "morph-at",
+              "label": "-AT-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Perfectivo AT"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "conducción",
+            "control"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dukatosto",
+          "form": "dukatosto",
+          "gloss": "esternon",
+          "analysis_html": "DUK + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#root-ost\">OST</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DUK + -AT- + OST + -O",
+          "refs": [
+            {
+              "id": "morph-at",
+              "label": "-AT-"
+            },
+            {
+              "id": "root-ost",
+              "label": "OST"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "huesos",
+            "pecho"
+          ],
+          "notes": [
+            "Se interpreta como compuesto sobre dukato «manubrio» + *OST- «hueso», por semejanza formal/funcional."
+          ]
+        }
+      ]
     }
   ]
 }
