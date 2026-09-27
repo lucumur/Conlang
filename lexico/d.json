@@ -2136,12 +2136,12 @@
           "id": "lexeme-arcidoman",
           "form": "arcidoman",
           "gloss": "dictador",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-arc\">ARC</a> + i epentética + DOM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-arc-a\">ARC</a> + i epentética + DOM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
           "analysis_text": "ARC + i epentética + DOM + -AN",
           "refs": [
             {
-              "id": "root-arc",
-              "label": "ARC"
+              "id": "root-arc-a",
+              "label": "ARC-A"
             },
             {
               "id": "morph-an-2",
@@ -2164,7 +2164,7 @@
             "personas"
           ],
           "notes": [
-            "La i se trata como vocal epentética, de acuerdo con el patrón ya atestiguado en arcipajn."
+            "La base jerárquica procede de *ARC-A «regir»; i epentética ante /d/."
           ]
         },
         {
@@ -3859,9 +3859,13 @@
           "id": "lexeme-arcidukan",
           "form": "arcidukan",
           "gloss": "duque",
-          "analysis_html": "ARCI + DUK + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> <span class=\"meta-extra\">(formante jerárquico ARCI- pendiente de enlace exacto)</span>",
-          "analysis_text": "ARCI + DUK + -AN (formante jerárquico ARCI- pendiente de enlace exacto)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-arc-a\">ARC</a> + i epentética + DUK + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ARC + i epentética + DUK + -AN",
           "refs": [
+            {
+              "id": "root-arc-a",
+              "label": "ARC-A"
+            },
             {
               "id": "morph-an-2",
               "label": "-AN"
@@ -3883,7 +3887,7 @@
             "nobleza"
           ],
           "notes": [
-            "CANÓNICO: arcidukan sustituye a la forma anterior arcadukan. PENDIENTE: precisar si ARCI- es alomorfo/forma compositiva de *ARC-A o un formante jerárquico propio."
+            "La base jerárquica procede de *ARC-A «regir»; i epentética ante /d/."
           ]
         },
         {
