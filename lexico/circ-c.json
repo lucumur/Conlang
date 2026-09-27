@@ -3279,9 +3279,13 @@
           "id": "lexeme-vlancrumpoj",
           "form": "vlanĉrumpoj",
           "gloss": "calcetines de lana",
-          "analysis_html": "VLAN <span class=\"meta-extra\">(formante «lana», estatuto pendiente)</span> + ĈRUMP + <a class=\"morph-link\" href=\"#morph-oj\">-OJ</a>",
-          "analysis_text": "VLAN (formante «lana», estatuto pendiente) + ĈRUMP + -OJ",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-vlan\">VLAN</a> + ĈRUMP + <a class=\"morph-link\" href=\"#morph-oj\">-OJ</a>",
+          "analysis_text": "VLAN + ĈRUMP + -OJ",
           "refs": [
+            {
+              "id": "root-vlan",
+              "label": "VLAN"
+            },
             {
               "id": "morph-oj",
               "label": "-OJ"
