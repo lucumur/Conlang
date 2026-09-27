@@ -1529,7 +1529,7 @@
     {
       "id": "root-eliz",
       "form": "*ELIZ-",
-      "gloss": "Eliseo",
+      "gloss": "Eliseo; bendición, santidad",
       "tags": [
         {
           "class": "griego",
@@ -1541,7 +1541,128 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-elizonas",
+          "form": "elizonas",
+          "gloss": "bendecir, santificar",
+          "analysis_html": "ELIZ + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a>",
+          "analysis_text": "ELIZ + -ONAS",
+          "refs": [
+            {
+              "id": "morph-onas",
+              "label": "-ONAS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ONAS"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "santidad",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-elizagal",
+          "form": "elizagal",
+          "gloss": "campos eliseos, paraiso",
+          "analysis_html": "ELIZ + <a class=\"morph-link\" href=\"#root-ag-2\">AG</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ELIZ + AG + -AL",
+          "refs": [
+            {
+              "id": "root-ag-2",
+              "label": "AG"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "lugares",
+            "paraíso"
+          ],
+          "notes": [
+            "AG- «gran» intensifica la noción elísea antes del locativo -AL."
+          ]
+        },
+        {
+          "id": "lexeme-beleliza",
+          "form": "beleliza",
+          "gloss": "dicha, felicidad",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + ELIZ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BEL + ELIZ + -A",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "felicidad",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-elizir",
+          "form": "elizir",
+          "gloss": "santificado",
+          "analysis_html": "ELIZ + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a>",
+          "analysis_text": "ELIZ + -IR",
+          "refs": [
+            {
+              "id": "morph-ir-reservative",
+              "label": "-IR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio absolutivo-pasivo IR"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "santidad",
+            "estado"
+          ],
+          "notes": [
+            "-IR expresa el estado pasivo/resultante «santificado»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-elj",
@@ -1570,19 +1691,281 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-elpas",
+          "form": "elpas",
+          "gloss": "ayudar",
+          "analysis_html": "ELP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ELP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "ayuda",
+            "acciones",
+            "cooperación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-elpa",
+          "form": "elpa",
+          "gloss": "ayuda",
+          "analysis_html": "ELP + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ELP + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "ayuda",
+            "cooperación",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-empr",
       "form": "*EMPR-",
-      "gloss": "Imperio",
+      "gloss": "imperar, mandar; poder",
       "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: los compuestos jerárquicos de esta familia usan ARC- < *ARC-A «regir». ARĈ- «arco» no participa.",
+        "DESCARTADO: arĉempran, arĉempral. Formas vigentes: arcempran, arcempral."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-empras",
+          "form": "empras",
+          "gloss": "imperar, mandar",
+          "analysis_html": "EMPR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "EMPR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "autoridad",
+            "gobierno",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-empris",
+          "form": "empris",
+          "gloss": "ejercer poder",
+          "analysis_html": "EMPR + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "EMPR + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "autoridad",
+            "poder",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-arcempran",
+          "form": "arcempran",
+          "gloss": "emperador",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-arc-a\">ARC</a> + EMPR + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ARC + EMPR + -AN",
+          "refs": [
+            {
+              "id": "root-arc-a",
+              "label": "ARC-A"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            },
+            {
+              "class": "generic",
+              "label": "Título"
+            }
+          ],
+          "semantic_fields": [
+            "jerarquía",
+            "gobierno",
+            "títulos"
+          ],
+          "notes": [
+            "ARC- es la forma compositiva jerárquica de *ARC-A; no se usa ARĈ-."
+          ]
+        },
+        {
+          "id": "lexeme-arcempral",
+          "form": "arcempral",
+          "gloss": "imperio",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-arc-a\">ARC</a> + EMPR + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ARC + EMPR + -AL",
+          "refs": [
+            {
+              "id": "root-arc-a",
+              "label": "ARC-A"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "gobierno",
+            "territorio",
+            "jerarquía"
+          ],
+          "notes": [
+            "ARC- es la forma compositiva jerárquica de *ARC-A; no se usa ARĈ-."
+          ]
+        },
+        {
+          "id": "lexeme-empran",
+          "form": "empran",
+          "gloss": "imperante, comandante",
+          "analysis_html": "EMPR + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "EMPR + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "autoridad",
+            "personas",
+            "mando"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-empristan",
+          "form": "empristan",
+          "gloss": "empresario",
+          "analysis_html": "EMPR + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "EMPR + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "economía",
+            "profesiones",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-emprisma",
+          "form": "emprisma",
+          "gloss": "empresa",
+          "analysis_html": "EMPR + <a class=\"morph-link\" href=\"#morph-isma\">-ISMA</a>",
+          "analysis_text": "EMPR + -ISMA",
+          "refs": [
+            {
+              "id": "morph-isma",
+              "label": "-ISMA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sistema ISMA"
+            }
+          ],
+          "semantic_fields": [
+            "economía",
+            "organizaciones",
+            "sistemas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ep",
