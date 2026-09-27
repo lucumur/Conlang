@@ -2252,18 +2252,23 @@
     {
       "id": "morph-et",
       "form": "*-ET-",
-      "gloss": "función pendiente; atestiguado en aĝeta",
+      "gloss": "joven; juvenil",
       "tags": [
         {
           "class": "generic",
           "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "edad"
         }
       ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
       "notes": [
-        "Función no canonizada todavía."
+        "CANÓNICO: -ET- marca juventud o estadio juvenil.",
+        "En la familia EŜV-: eŝveten «potro» = EŜV + -ET- + -EN; eŝveleten «potranca» = EŜV + -EL- + -ET- + -EN."
       ],
       "row_class": ""
     },
@@ -3584,6 +3589,29 @@
         "CANÓNICO: -UN forma sustantivos parahumanos.",
         "Es especialmente frecuente en nombres o designaciones de dioses y entidades antropomorfas/sobrehumanas.",
         "Atestiguado en erun «Eros, Cupido»."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-el-feminine",
+      "form": "*-EL-",
+      "gloss": "femenino",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "género"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -EL- marca femenino.",
+        "En la familia EŜV-: eŝvelen «yegua» = EŜV + -EL- + -EN; eŝveleten «potranca» = EŜV + -EL- + -ET- + -EN."
       ],
       "row_class": ""
     }
