@@ -97,9 +97,13 @@
           "id": "lexeme-eblovol",
           "form": "eblovol",
           "gloss": "habil",
-          "analysis_html": "EBL + OV + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a> <span class=\"meta-extra\">(tema EBLOV-)</span>",
-          "analysis_text": "EBL + OV + -OL (tema EBLOV-)",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-ov-possibilitative\">-OV-</a> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "EBL + -OV- + -OL",
           "refs": [
+            {
+              "id": "morph-ov-possibilitative",
+              "label": "-OV-"
+            },
             {
               "id": "morph-ol-2",
               "label": "-OL"
@@ -120,9 +124,7 @@
             "cualidades",
             "habilidad"
           ],
-          "notes": [
-            "PENDIENTE: el formante -OV- de EBLOV- no está documentado todavía como morfema independiente."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-maleblonin",
@@ -184,9 +186,13 @@
           "id": "lexeme-eblova",
           "form": "eblova",
           "gloss": "capacidad, habilidad",
-          "analysis_html": "EBL + OV + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">(tema EBLOV-)</span>",
-          "analysis_text": "EBL + OV + -A (tema EBLOV-)",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-ov-possibilitative\">-OV-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "EBL + -OV- + -A",
           "refs": [
+            {
+              "id": "morph-ov-possibilitative",
+              "label": "-OV-"
+            },
             {
               "id": "morph-a-2",
               "label": "-A"
@@ -207,9 +213,7 @@
             "habilidad",
             "abstractos"
           ],
-          "notes": [
-            "PENDIENTE: comparte el tema EBLOV- con eblovol; falta definir el valor de -OV-."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-mejebliza",
@@ -299,8 +303,8 @@
       ]
     },
     {
-      "id": "root-ebur",
-      "form": "*EBUR-",
+      "id": "root-ebr",
+      "form": "*EBR-",
       "gloss": "marfil",
       "tags": [
         {
@@ -311,9 +315,152 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *EBR- reemplaza a la forma anterior *EBUR-."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ebre",
+          "form": "ebre",
+          "gloss": "marfil",
+          "analysis_html": "EBR + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "EBR + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "animal",
+            "marfil"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ebrukoj",
+          "form": "ebrukoj",
+          "gloss": "colmillos de elefante",
+          "analysis_html": "EBR + UKOJ <span class=\"meta-extra\">(formación derivada pendiente de análisis interno)</span>",
+          "analysis_text": "EBR + UKOJ (formación derivada pendiente de análisis interno)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pendiente de análisis"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "colmillos",
+            "elefantes"
+          ],
+          "notes": [
+            "PENDIENTE: UKOJ no corresponde todavía a un morfema documentado; no se inventa segmentación interna."
+          ]
+        },
+        {
+          "id": "lexeme-ebraken",
+          "form": "ebraken",
+          "gloss": "elefante",
+          "analysis_html": "EBR + AK + <a class=\"morph-link\" href=\"#morph-en\">-EN</a> <span class=\"meta-extra\">(AK pendiente de análisis)</span>",
+          "analysis_text": "EBR + AK + -EN (AK pendiente de análisis)",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "elefantes",
+            "animales"
+          ],
+          "notes": [
+            "PENDIENTE: el segmento -AK- no se identifica con el aumentativo verbal productivo -AK- sin evidencia adicional."
+          ]
+        },
+        {
+          "id": "lexeme-vlanebren",
+          "form": "vlanebren",
+          "gloss": "mamut",
+          "analysis_html": "VLAN + EBR + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "VLAN + EBR + -EN",
+          "refs": [
+            {
+              "id": "root-vlan",
+              "label": "VLAN"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "prehistoria",
+            "mamuts"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-longebren",
+          "form": "longebren",
+          "gloss": "mastodonte",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-long\">LON-G</a> + EBR + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "LON-G + EBR + -EN",
+          "refs": [
+            {
+              "id": "root-long",
+              "label": "LON-G"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "prehistoria",
+            "mastodontes"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ec",
