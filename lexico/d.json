@@ -1757,8 +1757,8 @@
           "id": "lexeme-bezdomas",
           "form": "bezdomas",
           "gloss": "domar, domesticar",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-best\">BEZ</a> <span class=\"meta-extra\">(alomorfo de BES- de *BES-T)</span> + DOM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "BEZ (alomorfo de BES- de *BES-T) + DOM + -AS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-best\">BES</a> + DOM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a> → BEZDOMAS <span class=\"meta-extra\">(/s/ → [z] ante /d/)</span>",
+          "analysis_text": "BES + DOM + -AS → BEZDOMAS (/s/ → [z] ante /d/)",
           "refs": [
             {
               "id": "root-best",
@@ -1784,14 +1784,16 @@
             "animales",
             "acciones"
           ],
-          "notes": []
+          "notes": [
+            "La z es resultado regular de la sonorización /s/ → [z] ante /d/."
+          ]
         },
         {
           "id": "lexeme-bezdomir",
           "form": "bezdomir",
           "gloss": "domesticado",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-best\">BEZ</a> <span class=\"meta-extra\">(alomorfo de BES- de *BES-T)</span> + DOM + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a>",
-          "analysis_text": "BEZ (alomorfo de BES- de *BES-T) + DOM + -IR",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-best\">BES</a> + DOM + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a> → BEZDOMIR <span class=\"meta-extra\">(/s/ → [z] ante /d/)</span>",
+          "analysis_text": "BES + DOM + -IR → BEZDOMIR (/s/ → [z] ante /d/)",
           "refs": [
             {
               "id": "root-best",
@@ -1817,7 +1819,9 @@
             "estado",
             "animales"
           ],
-          "notes": []
+          "notes": [
+            "La z es resultado regular de la sonorización /s/ → [z] ante /d/."
+          ]
         },
         {
           "id": "lexeme-beldomir",
