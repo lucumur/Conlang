@@ -3429,6 +3429,20 @@
           ]
         }
       ]
+    },
+    {
+      "id": "root-car-cart",
+      "form": "*ĈAR-",
+      "gloss": "carro",
+      "tags": [],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: *ĈAR- «carro» es una raíz independiente de *ĈAP- «carro»; ambas coexisten por ahora."
+      ],
+      "row_class": "lex-root-row",
+      "words": []
     }
   ]
 }
