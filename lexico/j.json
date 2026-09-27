@@ -409,6 +409,20 @@
           ]
         }
       ]
+    },
+    {
+      "id": "root-jatr",
+      "form": "*JATR-",
+      "gloss": "medicina, médico",
+      "tags": [],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: *JATR- es un formante médico; atestiguado en eθjatran «anestesiólogo» y eθjatrja «anestesiología»."
+      ],
+      "row_class": "lex-root-row",
+      "words": []
     }
   ]
 }
