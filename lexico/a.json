@@ -4631,38 +4631,6 @@
           ]
         },
         {
-          "id": "lexeme-arcadukan",
-          "form": "arcadukan",
-          "gloss": "duque",
-          "analysis_html": "ARC-A + <a class=\"morph-link\" href=\"#root-duk\">DUK</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "ARC-A + DUK + -AN",
-          "refs": [
-            {
-              "id": "root-duk",
-              "label": "DUK"
-            },
-            {
-              "id": "morph-an-2",
-              "label": "-AN"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Humano AN"
-            },
-            {
-              "class": "generic",
-              "label": "Título"
-            }
-          ],
-          "semantic_fields": [
-            "jerarquía",
-            "títulos",
-            "nobleza"
-          ]
-        },
-        {
           "id": "lexeme-panarcan",
           "form": "panarcan",
           "gloss": "rey absoluto, monarca",
