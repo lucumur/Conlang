@@ -1881,13 +1881,26 @@
           "id": "lexeme-domagan",
           "form": "domagan",
           "gloss": "dominante",
-          "analysis_html": "DOM + AGAN <span class=\"meta-extra\">(formación lexicalizada)</span>",
-          "analysis_text": "DOM + AGAN (formación lexicalizada)",
-          "refs": [],
+          "analysis_html": "DOM + <a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + <a class=\"morph-link\" href=\"#morph-an\">-AN</a>",
+          "analysis_text": "DOM + AG- + -AN",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-an",
+              "label": "-AN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Aumentativo AG"
+            },
+            {
+              "class": "generic",
+              "label": "Durativo AN"
             }
           ],
           "semantic_fields": [
@@ -1895,7 +1908,9 @@
             "dominación",
             "cualidades"
           ],
-          "notes": []
+          "notes": [
+            "Se interpreta -AN como durativo: «que domina de manera sostenida» > «dominante»."
+          ]
         },
         {
           "id": "lexeme-domageza",
@@ -2066,9 +2081,13 @@
           "id": "lexeme-majdoman",
           "form": "majdoman",
           "gloss": "materfamilias, señora",
-          "analysis_html": "MAJ + DOM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> <span class=\"meta-extra\">(primer componente lexicalizado; *MAJ- vigente significa «grande»)</span>",
-          "analysis_text": "MAJ + DOM + -AN (primer componente lexicalizado; *MAJ- vigente significa «grande»)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ma-j\">MA-J</a> + DOM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "MA-J + DOM + -AN",
           "refs": [
+            {
+              "id": "root-ma-j",
+              "label": "MA-J"
+            },
             {
               "id": "morph-an-2",
               "label": "-AN"
@@ -2077,7 +2096,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Compuesto"
             },
             {
               "class": "generic",
@@ -2089,17 +2108,19 @@
             "autoridad",
             "personas"
           ],
-          "notes": [
-            "No se enlaza aquí con la raíz *MAJ- vigente porque su glosa canónica actual es «grande», no «madre»."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-arcidoman",
           "form": "arcidoman",
           "gloss": "dictador",
-          "analysis_html": "ARCI + DOM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> <span class=\"meta-extra\">(formación lexicalizada)</span>",
-          "analysis_text": "ARCI + DOM + -AN (formación lexicalizada)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-arc\">ARC</a> + i epentética + DOM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ARC + i epentética + DOM + -AN",
           "refs": [
+            {
+              "id": "root-arc",
+              "label": "ARC"
+            },
             {
               "id": "morph-an-2",
               "label": "-AN"
@@ -2108,7 +2129,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Compuesto"
             },
             {
               "class": "generic",
@@ -2120,19 +2141,34 @@
             "gobierno",
             "personas"
           ],
-          "notes": []
+          "notes": [
+            "La i se trata como vocal epentética, de acuerdo con el patrón ya atestiguado en arcipajn."
+          ]
         },
         {
           "id": "lexeme-domada",
           "form": "domada",
           "gloss": "patrimonio",
-          "analysis_html": "DOM + ADA <span class=\"meta-extra\">(formación lexicalizada)</span>",
-          "analysis_text": "DOM + ADA (formación lexicalizada)",
-          "refs": [],
+          "analysis_html": "DOM + <a class=\"morph-link\" href=\"#morph-ad\">-AD-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "DOM + -AD- + -A",
+          "refs": [
+            {
+              "id": "morph-ad",
+              "label": "-AD-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Grupal AD"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
             }
           ],
           "semantic_fields": [
@@ -2140,19 +2176,34 @@
             "patrimonio",
             "bienes"
           ],
-          "notes": []
+          "notes": [
+            "Se interpreta el valor grupal de -AD- como «conjunto de bienes/posesiones»."
+          ]
         },
         {
           "id": "lexeme-domjo",
           "form": "domjo",
           "gloss": "casa (casa propia)",
-          "analysis_html": "DOM + JO <span class=\"meta-extra\">(formación lexicalizada)</span>",
-          "analysis_text": "DOM + JO (formación lexicalizada)",
-          "refs": [],
+          "analysis_html": "DOM + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DOM + -J- + -O",
+          "refs": [
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Tema J"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
             }
           ],
           "semantic_fields": [
@@ -2160,19 +2211,34 @@
             "propiedad",
             "lugares"
           ],
-          "notes": []
+          "notes": [
+            "Se analiza -J- como extensión temática y -O como género inanimado."
+          ]
         },
         {
           "id": "lexeme-domjol",
           "form": "domjol",
           "gloss": "casero",
-          "analysis_html": "DOM + JOL <span class=\"meta-extra\">(formación lexicalizada)</span>",
-          "analysis_text": "DOM + JOL (formación lexicalizada)",
-          "refs": [],
+          "analysis_html": "DOM + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "DOM + -J- + -OL",
+          "refs": [
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Lexicalizado"
+              "label": "Tema J"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
             }
           ],
           "semantic_fields": [
@@ -2180,7 +2246,9 @@
             "propiedad",
             "personas"
           ],
-          "notes": []
+          "notes": [
+            "Derivación paralela a domjo sobre el tema DOM-J-."
+          ]
         }
       ]
     },
@@ -2194,7 +2262,188 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-donas",
+          "form": "donas",
+          "gloss": "dar, entregar",
+          "analysis_html": "DON + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DON + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "transferencia",
+            "acciones",
+            "posesión"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dontas",
+          "form": "dontas",
+          "gloss": "otorgar, regalar",
+          "analysis_html": "DONT <span class=\"meta-extra\">(tema derivado de DON con extensión -T- no identificada)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DONT (tema derivado de DON con extensión -T- no identificada) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema DONT"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "transferencia",
+            "regalos",
+            "acciones"
+          ],
+          "notes": [
+            "La -T- de DONT- no coincide con un morfema productivo documentado; se conserva como extensión temática pendiente de análisis."
+          ]
+        },
+        {
+          "id": "lexeme-donis",
+          "form": "donis",
+          "gloss": "entregarse a, dedicarse a",
+          "analysis_html": "DON + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "DON + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "dedicación",
+            "acciones",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-doniston",
+          "form": "doniston",
+          "gloss": "entregado, dedicado",
+          "analysis_html": "DON + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "DON + -IST + -ON",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "dedicación",
+            "personas",
+            "cualidades"
+          ],
+          "notes": [
+            "-IST está documentado con valor «dedicación»; la combinación con -ON permite caracterizar al referente humano como dedicado/entregado."
+          ]
+        },
+        {
+          "id": "lexeme-donto",
+          "form": "donto",
+          "gloss": "regalo",
+          "analysis_html": "DONT <span class=\"meta-extra\">(tema derivado de DON con extensión -T- no identificada)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DONT (tema derivado de DON con extensión -T- no identificada) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema DONT"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "regalos",
+            "objetos",
+            "transferencia"
+          ],
+          "notes": [
+            "Comparte el tema DONT- con dontas; la función histórica/sincrónica de -T- queda abierta."
+          ]
+        },
+        {
+          "id": "lexeme-beldono",
+          "form": "beldono",
+          "gloss": "don, cualidad",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + DON + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BEL + DON + -O",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "aptitudes",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-dorm",
