@@ -1702,7 +1702,487 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-domas",
+          "form": "domas",
+          "gloss": "domar, regir",
+          "analysis_html": "DOM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DOM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "autoridad",
+            "control",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-doman",
+          "form": "doman",
+          "gloss": "domador, amaestrador",
+          "analysis_html": "DOM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "DOM + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "control",
+            "oficios"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-bezdomas",
+          "form": "bezdomas",
+          "gloss": "domar, domesticar",
+          "analysis_html": "BEZ + DOM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a> <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "BEZ + DOM + -AS (formación lexicalizada)",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "domesticación",
+            "animales",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-bezdomir",
+          "form": "bezdomir",
+          "gloss": "domesticado",
+          "analysis_html": "BEZ + DOM + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a> <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "BEZ + DOM + -IR (formación lexicalizada)",
+          "refs": [
+            {
+              "id": "morph-ir-reservative",
+              "label": "-IR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Resultativo IR"
+            }
+          ],
+          "semantic_fields": [
+            "domesticación",
+            "estado",
+            "animales"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-beldomir",
+          "form": "beldomir",
+          "gloss": "manso",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + DOM + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a>",
+          "analysis_text": "BEL + DOM + -IR",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-ir-reservative",
+              "label": "-IR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Resultativo IR"
+            }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "mansedumbre",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-domagas",
+          "form": "domagas",
+          "gloss": "someter, dominar",
+          "analysis_html": "DOM + <a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DOM + AG- + -AS",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Aumentativo AG"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "autoridad",
+            "dominación",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-domagan",
+          "form": "domagan",
+          "gloss": "dominante",
+          "analysis_html": "DOM + AGAN <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOM + AGAN (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "autoridad",
+            "dominación",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-domageza",
+          "form": "domageẑa",
+          "gloss": "dominancia",
+          "analysis_html": "DOM + <a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "DOM + AG- + -EẐA",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Aumentativo AG"
+            },
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "autoridad",
+            "dominación",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-zondomas",
+          "form": "zondomas",
+          "gloss": "poseer tierras",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-zon\">ZON</a> + DOM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ZON + DOM + -AS",
+          "refs": [
+            {
+              "id": "root-zon",
+              "label": "ZON"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "propiedad",
+            "tierras",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-zondoman",
+          "form": "zondoman",
+          "gloss": "terratenienta, landlord",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-zon\">ZON</a> + DOM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ZON + DOM + -AN",
+          "refs": [
+            {
+              "id": "root-zon",
+              "label": "ZON"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "propiedad",
+            "tierras",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-zondoma",
+          "form": "zondoma",
+          "gloss": "dominio",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-zon\">ZON</a> + DOM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ZON + DOM + -A",
+          "refs": [
+            {
+              "id": "root-zon",
+              "label": "ZON"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "propiedad",
+            "tierras",
+            "dominio"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-pajdoman",
+          "form": "pajdoman",
+          "gloss": "paterfamilias, señor, lord, patriarca",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-paj\">PAJ</a> + DOM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "PAJ + DOM + -AN",
+          "refs": [
+            {
+              "id": "root-paj",
+              "label": "PAJ"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "familia",
+            "autoridad",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-majdoman",
+          "form": "majdoman",
+          "gloss": "materfamilias, señora",
+          "analysis_html": "MAJ + DOM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> <span class=\"meta-extra\">(primer componente lexicalizado; *MAJ- vigente significa «grande»)</span>",
+          "analysis_text": "MAJ + DOM + -AN (primer componente lexicalizado; *MAJ- vigente significa «grande»)",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "familia",
+            "autoridad",
+            "personas"
+          ],
+          "notes": [
+            "No se enlaza aquí con la raíz *MAJ- vigente porque su glosa canónica actual es «grande», no «madre»."
+          ]
+        },
+        {
+          "id": "lexeme-arcidoman",
+          "form": "arcidoman",
+          "gloss": "dictador",
+          "analysis_html": "ARCI + DOM + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "ARCI + DOM + -AN (formación lexicalizada)",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "autoridad",
+            "gobierno",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-domada",
+          "form": "domada",
+          "gloss": "patrimonio",
+          "analysis_html": "DOM + ADA <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOM + ADA (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "propiedad",
+            "patrimonio",
+            "bienes"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-domjo",
+          "form": "domjo",
+          "gloss": "casa (casa propia)",
+          "analysis_html": "DOM + JO <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOM + JO (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "vivienda",
+            "propiedad",
+            "lugares"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-domjol",
+          "form": "domjol",
+          "gloss": "casero",
+          "analysis_html": "DOM + JOL <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOM + JOL (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "vivienda",
+            "propiedad",
+            "personas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-don",
