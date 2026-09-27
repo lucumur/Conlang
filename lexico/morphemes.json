@@ -3347,6 +3347,30 @@
         "Atestiguado en la familia de *ĈALP-: ĉalpekas «arrancar el cuero; cortar con bisturí»."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-t-perfective",
+      "form": "*-T-",
+      "gloss": "perfectivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "aspecto"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -T- marca perfectividad.",
+        "Atestiguado en DONT- < DON + -T-, base de dontas «otorgar, regalar» y donto «regalo».",
+        "Coexiste con el perfectivo -AT- ya documentado; su distribución exacta queda por sistematizar si aparecen más pares."
+      ],
+      "row_class": ""
     }
   ]
 }
