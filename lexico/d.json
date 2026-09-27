@@ -1450,7 +1450,247 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-dokas",
+          "form": "dokas",
+          "gloss": "enseñar, instruir",
+          "analysis_html": "DOK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DOK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "educación",
+            "enseñanza",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dokemas",
+          "form": "dokemas",
+          "gloss": "evidenciar, mostrar",
+          "analysis_html": "DOK + EMAS <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOK + EMAS (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "evidencia",
+            "demostración",
+            "comunicación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dokin",
+          "form": "dokin",
+          "gloss": "instruido, licenciado",
+          "analysis_html": "DOK + IN <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOK + IN (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "educación",
+            "personas",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dokatar",
+          "form": "dokatar",
+          "gloss": "educativo",
+          "analysis_html": "DOK + ATAR <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOK + ATAR (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "educación",
+            "enseñanza",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dokantan",
+          "form": "dokantan",
+          "gloss": "maestro, instructor",
+          "analysis_html": "DOK + <a class=\"morph-link\" href=\"#morph-antan\">-ANTAN</a>",
+          "analysis_text": "DOK + -ANTAN",
+          "refs": [
+            {
+              "id": "morph-antan",
+              "label": "-ANTAN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ANTAN"
+            }
+          ],
+          "semantic_fields": [
+            "educación",
+            "personas",
+            "enseñanza"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dokemo",
+          "form": "dokemo",
+          "gloss": "documento",
+          "analysis_html": "DOK + EMO <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOK + EMO (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "documentos",
+            "información",
+            "evidencia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dokemfilmo",
+          "form": "dokemfilmo",
+          "gloss": "documental",
+          "analysis_html": "DOKEM + <a class=\"morph-link\" href=\"#root-film\">FILM</a> + O <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOKEM + FILM + O (formación lexicalizada)",
+          "refs": [
+            {
+              "id": "root-film",
+              "label": "FILM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "documentos",
+            "cine",
+            "medios"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dokastal",
+          "form": "dokastal",
+          "gloss": "escuela",
+          "analysis_html": "DOK + ASTAL <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOK + ASTAL (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "educación",
+            "lugares",
+            "enseñanza"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dokoja",
+          "form": "dokoja",
+          "gloss": "enseñanza",
+          "analysis_html": "DOK + OJA <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOK + OJA (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "educación",
+            "enseñanza",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dokema",
+          "form": "dokema",
+          "gloss": "documentacion, evidencia",
+          "analysis_html": "DOK + EMA <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOK + EMA (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "documentos",
+            "evidencia",
+            "información"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-dokanma",
+          "form": "dokanma",
+          "gloss": "magisterio",
+          "analysis_html": "DOK + ANMA <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "DOK + ANMA (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "educación",
+            "profesiones",
+            "enseñanza"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-dom",
