@@ -3461,6 +3461,30 @@
         "PROVISIONAL: falta establecer el valor semántico general de -LA con más ejemplos."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-oj-theme",
+      "form": "*-OJ-",
+      "gloss": "formante derivacional; crea temas nominales/relacionales",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        },
+        {
+          "class": "generic",
+          "label": "Provisional"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "PROVISIONAL: -OJ- está atestiguado en familias como DRET-OJ-, DOK-OJ-A y DENTR-OJ-A.",
+        "En DRET-OJ- sirve de base para -A, -ON, -EL y -AL: dretoja, dretojon, dretojel, dretojal.",
+        "Su valor semántico general todavía debe delimitarse con más familias."
+      ],
+      "row_class": ""
     }
   ]
 }
