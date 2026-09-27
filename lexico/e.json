@@ -2710,22 +2710,25 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [
-        "CANÓNICO: ERUN- es el tema extendido de esta familia; el valor exacto de -UN- queda por formalizar."
-      ],
+      "notes": [],
       "row_class": "lex-root-row",
       "words": [
         {
           "id": "lexeme-erun",
           "form": "erun",
           "gloss": "Eros, cupido",
-          "analysis_html": "ER + UN <span class=\"meta-extra\">(extensión temática pendiente de análisis)</span>",
-          "analysis_text": "ER + UN (extensión temática pendiente de análisis)",
-          "refs": [],
+          "analysis_html": "ER + <a class=\"morph-link\" href=\"#morph-un-parahuman\">-UN</a>",
+          "analysis_text": "ER + -UN",
+          "refs": [
+            {
+              "id": "morph-un-parahuman",
+              "label": "-UN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Nombre/personaje"
+              "label": "Parahumano UN"
             }
           ],
           "semantic_fields": [
@@ -2734,16 +2737,20 @@
             "personas"
           ],
           "notes": [
-            "PENDIENTE: -UN- no está documentado todavía como morfema general."
+            "-UN sustantiva la base como entidad parahumana/divina."
           ]
         },
         {
           "id": "lexeme-eruna",
           "form": "eruna",
           "gloss": "amor, enamoramiento",
-          "analysis_html": "ERUN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "ERUN + -A",
+          "analysis_html": "ER + <a class=\"morph-link\" href=\"#morph-un-parahuman\">-UN</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ER + -UN + -A",
           "refs": [
+            {
+              "id": "morph-un-parahuman",
+              "label": "-UN"
+            },
             {
               "id": "morph-a-2",
               "label": "-A"
@@ -2766,9 +2773,13 @@
           "id": "lexeme-erunos",
           "form": "erunos",
           "gloss": "enamorarse",
-          "analysis_html": "ERUN + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "ERUN + -OS",
+          "analysis_html": "ER + <a class=\"morph-link\" href=\"#morph-un-parahuman\">-UN</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ER + -UN + -OS",
           "refs": [
+            {
+              "id": "morph-un-parahuman",
+              "label": "-UN"
+            },
             {
               "id": "morph-os",
               "label": "-OS"
