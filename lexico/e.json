@@ -46,7 +46,7 @@
         {
           "id": "lexeme-eblis",
           "form": "eblis",
-          "gloss": "poder ser, poder ocurrir",
+          "gloss": "ser capaz, tener capacidad, poder",
           "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
           "analysis_text": "EBL + -IS",
           "refs": [
@@ -62,39 +62,16 @@
             }
           ],
           "semantic_fields": [
-            "estado",
-            "procesos",
-            "cualidades"
-          ]
-        },
-        {
-          "id": "lexeme-eblos",
-          "form": "eblos",
-          "gloss": "ser capaz, tener capacidad",
-          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "EBL + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "cualidades",
-            "propiedades",
+            "capacidad",
+            "posibilidad",
             "estado"
-          ]
+          ],
+          "notes": []
         },
         {
           "id": "lexeme-eblonas",
           "form": "eblonas",
-          "gloss": "capacitar, habilitar",
+          "gloss": "capacitar, habilitar, empoderar",
           "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a>",
           "analysis_text": "EBL + -ONAS",
           "refs": [
@@ -110,117 +87,18 @@
             }
           ],
           "semantic_fields": [
-            "procesos",
-            "cualidades",
-            "estado"
-          ]
+            "capacidad",
+            "acciones",
+            "habilitación"
+          ],
+          "notes": []
         },
         {
-          "id": "lexeme-eblik",
-          "form": "eblik",
-          "gloss": "talvez",
-          "analysis_html": "EBLIS → EBLIK",
-          "analysis_text": "EBLIS → EBLIK",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": [
-            "gramática",
-            "estado"
-          ]
-        },
-        {
-          "id": "lexeme-eblir",
-          "form": "eblir",
-          "gloss": "posible",
-          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a>",
-          "analysis_text": "EBL + -IR",
-          "refs": [
-            {
-              "id": "morph-ir-reservative",
-              "label": "-IR"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo IR"
-            }
-          ],
-          "semantic_fields": [
-            "cualidades",
-            "estado"
-          ]
-        },
-        {
-          "id": "lexeme-mejeblira",
-          "form": "mejeblira",
-          "gloss": "posibilidad, chanza",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-mej\">MEJ</a> + EBL + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "MEJ + EBL + -IR + -A",
-          "refs": [
-            {
-              "id": "root-mej",
-              "label": "MEJ"
-            },
-            {
-              "id": "morph-ir-reservative",
-              "label": "-IR"
-            },
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nomen A"
-            }
-          ],
-          "semantic_fields": [
-            "estado",
-            "cualidades",
-            "procesos"
-          ]
-        },
-        {
-          "id": "lexeme-beleblira",
-          "form": "beleblira",
-          "gloss": "oportunidad",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + EBL + <a class=\"morph-link\" href=\"#morph-ir-reservative\">-IR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "BEL + EBL + -IR + -A",
-          "refs": [
-            {
-              "id": "root-bel",
-              "label": "BEL"
-            },
-            {
-              "id": "morph-ir-reservative",
-              "label": "-IR"
-            },
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nomen A"
-            }
-          ],
-          "semantic_fields": [
-            "estado",
-            "relaciones",
-            "procesos"
-          ]
-        },
-        {
-          "id": "lexeme-eblol",
-          "form": "eblol",
+          "id": "lexeme-eblovol",
+          "form": "eblovol",
           "gloss": "habil",
-          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "EBL + -OL",
+          "analysis_html": "EBL + OV + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a> <span class=\"meta-extra\">(tema EBLOV-)</span>",
+          "analysis_text": "EBL + OV + -OL (tema EBLOV-)",
           "refs": [
             {
               "id": "morph-ol-2",
@@ -231,62 +109,191 @@
             {
               "class": "generic",
               "label": "Adjetivo OL"
-            }
-          ],
-          "semantic_fields": [
-            "cualidades",
-            "propiedades"
-          ]
-        },
-        {
-          "id": "lexeme-eblura",
-          "form": "eblura",
-          "gloss": "capacidad, habilidad",
-          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
-          "analysis_text": "EBL + -URA",
-          "refs": [
-            {
-              "id": "morph-ura",
-              "label": "-URA"
-            }
-          ],
-          "tags": [
+            },
             {
               "class": "generic",
-              "label": "Nomen A"
+              "label": "Tema EBLOV"
             }
           ],
           "semantic_fields": [
+            "capacidad",
             "cualidades",
-            "propiedades"
+            "habilidad"
+          ],
+          "notes": [
+            "PENDIENTE: el formante -OV- de EBLOV- no está documentado todavía como morfema independiente."
           ]
         },
         {
-          "id": "lexeme-maleblonir",
-          "form": "maleblonir",
+          "id": "lexeme-maleblonin",
+          "form": "maleblonin",
           "gloss": "discapacitado",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + EBLONAS → MALEBLONIR",
-          "analysis_text": "MAL + EBLONAS → MALEBLONIR",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + EBL + ON + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "MAL + EBL + ON + -IN",
           "refs": [
             {
               "id": "root-mal",
               "label": "MAL"
             },
             {
-              "id": "morph-onas",
-              "label": "-ONAS"
+              "id": "morph-in",
+              "label": "-IN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo IR"
+              "label": "Participio absolutivo-pasivo humano"
             }
           ],
           "semantic_fields": [
+            "capacidad",
             "personas",
-            "salud",
-            "cualidades"
+            "discapacidad"
+          ],
+          "notes": [
+            "La base EBLON- corresponde a la serie de eblonas; -IN marca el referente humano en voz absolutiva-pasiva."
+          ]
+        },
+        {
+          "id": "lexeme-ebler",
+          "form": "ebler",
+          "gloss": "posible",
+          "analysis_html": "EBL + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "EBL + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "posibilidad",
+            "cualidades",
+            "modalidad"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-eblova",
+          "form": "eblova",
+          "gloss": "capacidad, habilidad",
+          "analysis_html": "EBL + OV + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">(tema EBLOV-)</span>",
+          "analysis_text": "EBL + OV + -A (tema EBLOV-)",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            },
+            {
+              "class": "generic",
+              "label": "Tema EBLOV"
+            }
+          ],
+          "semantic_fields": [
+            "capacidad",
+            "habilidad",
+            "abstractos"
+          ],
+          "notes": [
+            "PENDIENTE: comparte el tema EBLOV- con eblovol; falta definir el valor de -OV-."
+          ]
+        },
+        {
+          "id": "lexeme-mejebliza",
+          "form": "mejebliza",
+          "gloss": "posibilidad, chanza",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mej\">MEJ</a> + EBL + <a class=\"morph-link\" href=\"#morph-iza\">-IZA</a>",
+          "analysis_text": "MEJ + EBL + -IZA",
+          "refs": [
+            {
+              "id": "root-mej",
+              "label": "MEJ"
+            },
+            {
+              "id": "morph-iza",
+              "label": "-IZA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización IZA"
+            }
+          ],
+          "semantic_fields": [
+            "posibilidad",
+            "azar",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-belebliza",
+          "form": "belebliza",
+          "gloss": "oportunidad",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + EBL + <a class=\"morph-link\" href=\"#morph-iza\">-IZA</a>",
+          "analysis_text": "BEL + EBL + -IZA",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-iza",
+              "label": "-IZA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización IZA"
+            }
+          ],
+          "semantic_fields": [
+            "oportunidad",
+            "posibilidad",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mejeblik",
+          "form": "mejeblik",
+          "gloss": "posiblemente, talvez, acaso",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mej\">MEJ</a> + EBL + IK <span class=\"meta-extra\">(formación adverbial lexicalizada)</span>",
+          "analysis_text": "MEJ + EBL + IK (formación adverbial lexicalizada)",
+          "refs": [
+            {
+              "id": "root-mej",
+              "label": "MEJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "posibilidad",
+            "modalidad",
+            "adverbios"
+          ],
+          "notes": [
+            "PENDIENTE: no se identifica este -IK con el diminutivo productivo -IK-; su función adverbial requiere sistematización."
           ]
         }
       ]
