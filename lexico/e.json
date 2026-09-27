@@ -1087,7 +1087,66 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-edro",
+          "form": "edro",
+          "gloss": "Cara, lado",
+          "analysis_html": "EDR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "EDR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "superficie",
+            "orientación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-edriko",
+          "form": "edriko",
+          "gloss": "caratula, carilla",
+          "analysis_html": "EDR + <a class=\"morph-link\" href=\"#morph-k-diminutive\">-IK-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "EDR + -IK- + -O",
+          "refs": [
+            {
+              "id": "morph-k-diminutive",
+              "label": "-IK-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Diminutivo K/IK"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "superficie",
+            "partes",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-eg",
@@ -1121,7 +1180,110 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ejdis",
+          "form": "ejdis",
+          "gloss": "parecer, figurarse",
+          "analysis_html": "EJD + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "EJD + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "apariencia",
+            "cognición",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ejdol",
+          "form": "ejdol",
+          "gloss": "parecido",
+          "analysis_html": "EJD + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "EJD + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "apariencia",
+            "semejanza",
+            "cualidades"
+          ],
+          "notes": [
+            "-OL expresa presencia marcada de semejanza respecto de una forma/figura."
+          ]
+        },
+        {
+          "id": "lexeme-ejdo",
+          "form": "ejdo",
+          "gloss": "figura",
+          "analysis_html": "EJD + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "EJD + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "figura",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ejdiza",
+          "form": "ejdiza",
+          "gloss": "similitud, figuracion",
+          "analysis_html": "EJD + <a class=\"morph-link\" href=\"#morph-iza\">-IZA</a>",
+          "analysis_text": "EJD + -IZA",
+          "refs": [
+            {
+              "id": "morph-iza",
+              "label": "-IZA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización IZA"
+            }
+          ],
+          "semantic_fields": [
+            "semejanza",
+            "representación",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ec-3",
@@ -1138,7 +1300,108 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-echor",
+          "form": "eĉor",
+          "gloss": "todavia",
+          "analysis_html": "EĈ + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "EĈ + -OR",
+          "refs": [
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "continuidad",
+            "gramática"
+          ],
+          "notes": [
+            "La lectura adverbial «todavía» está lexicalizada sobre una forma en -OR; no se generaliza por ahora -OR como adverbial."
+          ]
+        },
+        {
+          "id": "lexeme-echne",
+          "form": "eĉne",
+          "gloss": "aunque",
+          "analysis_html": "EĈ + NE <span class=\"meta-extra\">(formación gramatical lexicalizada)</span>",
+          "analysis_text": "EĈ + NE (formación gramatical lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Conjunción"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "concesión"
+          ],
+          "notes": [
+            "NE- está documentado como negación prefijal; en eĉne la posición final se conserva como formación lexicalizada, no como regla productiva."
+          ]
+        },
+        {
+          "id": "lexeme-echam",
+          "form": "eĉam",
+          "gloss": "si, aun, even",
+          "analysis_html": "EĈ + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "EĈ + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial temporal AM"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "tiempo",
+            "énfasis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nechkaj",
+          "form": "neĉkaj",
+          "gloss": "nisiquiera",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ne\">NE-</a> + EĈ + KAJ <span class=\"meta-extra\">(KAJ gramatical pendiente de formalización)</span>",
+          "analysis_text": "NE- + EĈ + KAJ (KAJ gramatical pendiente de formalización)",
+          "refs": [
+            {
+              "id": "morph-ne",
+              "label": "NE-"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula gramatical"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "negación",
+            "énfasis"
+          ],
+          "notes": [
+            "PENDIENTE: KAJ no figura todavía como raíz o morfema canónico independiente en el léxico."
+          ]
+        }
+      ]
     },
     {
       "id": "root-el",
@@ -1154,8 +1417,8 @@
     },
     {
       "id": "root-elik",
-      "form": "*ELIK-",
-      "gloss": "helice",
+      "form": "*EL-K",
+      "gloss": "espiral, hélice",
       "tags": [
         {
           "class": "griego",
@@ -1165,9 +1428,103 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: la raíz vigente se cita como *EL-K; ELIK- es su realización extendida con i de apoyo entre L y K."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-eliko",
+          "form": "eliko",
+          "gloss": "espiral",
+          "analysis_html": "EL-K → ELIK + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(i de apoyo)</span>",
+          "analysis_text": "EL-K → ELIK + -O (i de apoyo)",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "geometría",
+            "espiral"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-elikingo",
+          "form": "elikingo",
+          "gloss": "aspas",
+          "analysis_html": "EL-K → ELIK + <a class=\"morph-link\" href=\"#morph-ing-stick\">-ING-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "EL-K → ELIK + -ING- + -O",
+          "refs": [
+            {
+              "id": "morph-ing-stick",
+              "label": "-ING-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Clasificador ING"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "hélices",
+            "formas"
+          ],
+          "notes": [
+            "-ING- aporta la forma alargada de cada aspa."
+          ]
+        },
+        {
+          "id": "lexeme-keteliken",
+          "form": "keteliken",
+          "gloss": "narval",
+          "analysis_html": "KET + EL-K → KETELIK + <a class=\"morph-link\" href=\"#morph-en\">-EN</a> <span class=\"meta-extra\">(KET pendiente de identificación)</span>",
+          "analysis_text": "KET + EL-K → KETELIK + -EN (KET pendiente de identificación)",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "cetáceos",
+            "animales"
+          ],
+          "notes": [
+            "PENDIENTE: KET- no está documentado todavía como raíz o morfema independiente."
+          ]
+        }
+      ]
     },
     {
       "id": "root-eliz",
