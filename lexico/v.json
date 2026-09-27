@@ -709,6 +709,20 @@
           ]
         }
       ]
+    },
+    {
+      "id": "root-vlan",
+      "form": "*VLAN-",
+      "gloss": "lana, lanudo",
+      "tags": [],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: *VLAN- expresa lana o cualidad lanuda; atestiguado en vlanĉrumpoj «calcetines de lana» y vlanebren «mamut»."
+      ],
+      "row_class": "lex-root-row",
+      "words": []
     }
   ]
 }
