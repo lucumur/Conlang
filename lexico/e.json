@@ -472,7 +472,128 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-eciceren",
+          "form": "eciceren",
+          "gloss": "erizo",
+          "analysis_html": "EC + ICER + <a class=\"morph-link\" href=\"#morph-en\">-EN</a> <span class=\"meta-extra\">(ICER pendiente de análisis)</span>",
+          "analysis_text": "EC + ICER + -EN (ICER pendiente de análisis)",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "espinas",
+            "animales"
+          ],
+          "notes": [
+            "PENDIENTE: ICER no corresponde todavía a una raíz o morfema documentado."
+          ]
+        },
+        {
+          "id": "lexeme-ecastren",
+          "form": "ecastren",
+          "gloss": "erizo de mar",
+          "analysis_html": "EC + ASTR + <a class=\"morph-link\" href=\"#morph-en\">-EN</a> <span class=\"meta-extra\">(ASTR pendiente de análisis)</span>",
+          "analysis_text": "EC + ASTR + -EN (ASTR pendiente de análisis)",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "mar",
+            "espinas"
+          ],
+          "notes": [
+            "PENDIENTE: ASTR no se enlaza por ahora a una raíz/morfema documentado."
+          ]
+        },
+        {
+          "id": "lexeme-ecaro",
+          "form": "ecaro",
+          "gloss": "capa de puas",
+          "analysis_html": "EC + <a class=\"morph-link\" href=\"#morph-ar-collective\">-AR-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "EC + -AR- + -O",
+          "refs": [
+            {
+              "id": "morph-ar-collective",
+              "label": "-AR-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Colectivo AR"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "espinas",
+            "cobertura"
+          ],
+          "notes": [
+            "Se interpreta -AR- como colectivo: conjunto/capa de púas."
+          ]
+        },
+        {
+          "id": "lexeme-ecilo",
+          "form": "ecilo",
+          "gloss": "pua",
+          "analysis_html": "EC + IL + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(IL nominal pendiente de análisis)</span>",
+          "analysis_text": "EC + IL + -O (IL nominal pendiente de análisis)",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            },
+            {
+              "class": "generic",
+              "label": "Pendiente de análisis"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "espinas",
+            "objetos"
+          ],
+          "notes": [
+            "PENDIENTE: no se identifica automáticamente este IL con el participial -IL, porque aquí forma un nombre «púa»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-ec-2",
@@ -484,7 +605,186 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ecos",
+          "form": "ecos",
+          "gloss": "sonar, resonar",
+          "analysis_html": "EC + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "EC + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "resonancia",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ecicos",
+          "form": "eciĉos",
+          "gloss": "ultrasonar",
+          "analysis_html": "EC + IĈ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a> <span class=\"meta-extra\">(IĈ pendiente de análisis)</span>",
+          "analysis_text": "EC + IĈ + -OS (IĈ pendiente de análisis)",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Pendiente de análisis"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "ultrasonido",
+            "procesos"
+          ],
+          "notes": [
+            "PENDIENTE: IĈ expresa el valor «ultra-» en esta familia, pero aún no está documentado como morfema general."
+          ]
+        },
+        {
+          "id": "lexeme-ecura",
+          "form": "ecura",
+          "gloss": "sonido",
+          "analysis_html": "EC + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "EC + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "resonancia",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ecicura",
+          "form": "eciĉura",
+          "gloss": "ultrasonido",
+          "analysis_html": "EC + IĈ + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a> <span class=\"meta-extra\">(IĈ pendiente de análisis)</span>",
+          "analysis_text": "EC + IĈ + -URA (IĈ pendiente de análisis)",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            },
+            {
+              "class": "generic",
+              "label": "Pendiente de análisis"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "ultrasonido",
+            "abstractos"
+          ],
+          "notes": [
+            "Comparte el segmento IĈ «ultra-» de eciĉos; su estatuto morfológico general queda abierto."
+          ]
+        },
+        {
+          "id": "lexeme-maknecetro",
+          "form": "maknecetro",
+          "gloss": "resonador magnetico",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-makn\">MAKN</a> + EC + E + <a class=\"morph-link\" href=\"#morph-tro-mechanical\">-TRO</a>",
+          "analysis_text": "MAKN + EC + E + -TRO",
+          "refs": [
+            {
+              "id": "root-makn",
+              "label": "MAKN"
+            },
+            {
+              "id": "morph-tro-mechanical",
+              "label": "-TRO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Objeto mecánico TRO"
+            }
+          ],
+          "semantic_fields": [
+            "medicina",
+            "tecnología",
+            "resonancia"
+          ],
+          "notes": [
+            "ANÁLISIS: la e previa a -TRO se trata como vocal de enlace/formante del tema EC-E-."
+          ]
+        },
+        {
+          "id": "lexeme-ecicetro",
+          "form": "eciĉetro",
+          "gloss": "aparato de ultrasonido",
+          "analysis_html": "EC + IĈ + E + <a class=\"morph-link\" href=\"#morph-tro-mechanical\">-TRO</a> <span class=\"meta-extra\">(IĈ pendiente de análisis)</span>",
+          "analysis_text": "EC + IĈ + E + -TRO (IĈ pendiente de análisis)",
+          "refs": [
+            {
+              "id": "morph-tro-mechanical",
+              "label": "-TRO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Objeto mecánico TRO"
+            },
+            {
+              "class": "generic",
+              "label": "Pendiente de análisis"
+            }
+          ],
+          "semantic_fields": [
+            "medicina",
+            "tecnología",
+            "ultrasonido"
+          ],
+          "notes": [
+            "IĈ aporta «ultra-» en esta familia; la e funciona como enlace antes de -TRO."
+          ]
+        }
+      ]
     },
     {
       "id": "root-ed",
