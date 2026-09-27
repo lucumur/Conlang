@@ -3447,7 +3447,7 @@
     {
       "id": "root-etheta",
       "form": "*EΘ-",
-      "gloss": "costumbre",
+      "gloss": "costumbre, cultura, pueblo",
       "tags": [
         {
           "class": "generic",
@@ -3457,9 +3457,250 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *EΘ- cubre el campo de costumbre, cultura, pueblo y ética.",
+        "ANÁLISIS: la familia muestra extensiones temáticas EΘN- y EΘNOM-/EΘNUM-. Su estatuto morfológico general queda abierto hasta disponer de más paralelos."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ethnom",
+          "form": "eθnom",
+          "gloss": "pueblo",
+          "analysis_html": "EΘ + NOM <span class=\"meta-extra\">(extensión temática de la familia)</span>",
+          "analysis_text": "EΘ + NOM (extensión temática de la familia)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema EΘNOM"
+            }
+          ],
+          "semantic_fields": [
+            "sociedad",
+            "pueblo",
+            "cultura"
+          ],
+          "notes": [
+            "PENDIENTE: NOM no se documenta todavía como morfema productivo independiente."
+          ]
+        },
+        {
+          "id": "lexeme-ethnumel",
+          "form": "eθnumel",
+          "gloss": "etnico",
+          "analysis_html": "EΘ + NUM + <a class=\"morph-link\" href=\"#morph-el\">-EL</a> <span class=\"meta-extra\">(tema EΘNUM-)</span>",
+          "analysis_text": "EΘ + NUM + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema EΘNUM"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "cultura",
+            "pueblo",
+            "cualidades"
+          ],
+          "notes": [
+            "PENDIENTE: NUM se trata como extensión temática de esta familia; no se generaliza como morfema."
+          ]
+        },
+        {
+          "id": "lexeme-ethna",
+          "form": "eθna",
+          "gloss": "cultura",
+          "analysis_html": "EΘN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "EΘN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema EΘN"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "cultura",
+            "sociedad",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ethnel",
+          "form": "eθnel",
+          "gloss": "cultural",
+          "analysis_html": "EΘN + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "EΘN + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema EΘN"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "cultura",
+            "sociedad",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ethaj",
+          "form": "eθaj",
+          "gloss": "costumbres",
+          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#morph-aj\">-AJ</a>",
+          "analysis_text": "EΘ + -AJ",
+          "refs": [
+            {
+              "id": "morph-aj",
+              "label": "-AJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Plural AJ"
+            }
+          ],
+          "semantic_fields": [
+            "cultura",
+            "costumbres",
+            "sociedad"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-beletha",
+          "form": "beleθa",
+          "gloss": "moral",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + EΘ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BEL + EΘ + -A",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "ética",
+            "moral",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-belethel",
+          "form": "beleθel",
+          "gloss": "etico",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + EΘ + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "BEL + EΘ + -EL",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "ética",
+            "moral",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mithetha",
+          "form": "miθeθa",
+          "gloss": "moraleja, conclusion",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mitheta\">MIΘ</a> + EΘ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MIΘ + EΘ + -A",
+          "refs": [
+            {
+              "id": "root-mitheta",
+              "label": "MIΘ"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "narración",
+            "moral",
+            "conclusión"
+          ],
+          "notes": [
+            "Literalmente, la dimensión moral/cultural extraída de un mito o relato."
+          ]
+        }
+      ]
     },
     {
       "id": "root-etheta-r",
