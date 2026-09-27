@@ -251,6 +251,164 @@
       "notes": [],
       "row_class": "",
       "words": []
+    },
+    {
+      "id": "root-jep",
+      "form": "*JEP-",
+      "gloss": "higado",
+      "tags": [],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: *JEP- reemplaza a la antigua *EPAT- «hígado».",
+        "PENDIENTE: los segmentos finales de jepar/jepatel no se equiparan automáticamente con los morfemas productivos -AR/-ATEL, porque sus funciones actuales no explican directamente «hígado/hepático»."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-jepar",
+          "form": "jepar",
+          "gloss": "higado",
+          "analysis_html": "JEP + AR <span class=\"meta-extra\">(formación lexicalizada)</span>",
+          "analysis_text": "JEP + AR (formación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "órganos",
+            "hígado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jepatel",
+          "form": "jepatel",
+          "gloss": "hepatico",
+          "analysis_html": "JEP + ATEL <span class=\"meta-extra\">(formación relacional lexicalizada)</span>",
+          "analysis_text": "JEP + ATEL (formación relacional lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo relacional"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "hígado",
+            "cualidades"
+          ],
+          "notes": [
+            "PENDIENTE: no se enlaza al -ATEL locativo productivo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-jerb",
+      "form": "*JERB-",
+      "gloss": "hierba",
+      "tags": [],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: *JERB- asume el campo «hierba», anteriormente asignado por error a *ERV-."
+      ],
+      "row_class": "lex-root-row",
+      "words": [
+        {
+          "id": "lexeme-jerbe",
+          "form": "jerbe",
+          "gloss": "hierba",
+          "analysis_html": "JERB + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "JERB + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "plantas",
+            "naturaleza"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jerbel",
+          "form": "jerbel",
+          "gloss": "herbal",
+          "analysis_html": "JERB + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "JERB + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "plantas",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-rifjerbe",
+          "form": "rifjerbe",
+          "gloss": "alga",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-rif\">RIF</a> + JERB + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "RIF + JERB + -E",
+          "refs": [
+            {
+              "id": "root-rif",
+              "label": "RIF"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "mar",
+            "algas"
+          ],
+          "notes": [
+            "RIF- «orilla-veta» aporta el componente litoral/marino."
+          ]
+        }
+      ]
     }
   ]
 }
