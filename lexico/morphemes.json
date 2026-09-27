@@ -1006,18 +1006,32 @@
     {
       "id": "morph-in",
       "form": "*-IN",
-      "gloss": "participio animante",
+      "gloss": "adjetivo-participio absolutivo-pasivo para animantes humanos",
       "tags": [
         {
           "class": "generic",
           "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "participio"
+        },
+        {
+          "class": "generic",
+          "label": "absolutivo-pasivo"
+        },
+        {
+          "class": "generic",
+          "label": "humano"
         }
       ],
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
       "notes": [
-        "CANÓNICO: -IN también se usa para designar niños y seres parantropomórficos; por ejemplo, un elfo puede tomar -IN."
+        "CANÓNICO: -IN es el adjetivo-participio de voz absolutiva-pasiva para referentes animantes humanos.",
+        "Combina valor participial y adjetival.",
+        "Forma una serie paralela con -IR para animantes no humanos y -IL para referentes objetuales."
       ],
       "row_class": ""
     },
@@ -2203,17 +2217,33 @@
     {
       "id": "morph-il",
       "form": "*-IL",
-      "gloss": "para inanimados",
+      "gloss": "adjetivo-participio absolutivo-pasivo para referentes objetuales/inanimados",
       "tags": [
         {
           "class": "generic",
           "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "participio"
+        },
+        {
+          "class": "generic",
+          "label": "absolutivo-pasivo"
+        },
+        {
+          "class": "generic",
+          "label": "objetual"
         }
       ],
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: -IL es el adjetivo-participio de voz absolutiva-pasiva para referentes objetuales/inanimados.",
+        "Expresa el estado o cualidad resultante/pasiva de un objeto o referente no animado.",
+        "Forma una serie paralela con -IR y -IN."
+      ],
       "row_class": ""
     },
     {
@@ -2522,7 +2552,7 @@
     {
       "id": "morph-ir-reservative",
       "form": "*-IR",
-      "gloss": "adjetivo resultativo o estativo: estado resultante o caracterizado por la base (provisional)",
+      "gloss": "participio absolutivo-pasivo, principalmente para animantes no humanos",
       "tags": [
         {
           "class": "generic",
@@ -2530,15 +2560,24 @@
         },
         {
           "class": "generic",
-          "label": "Provisional"
+          "label": "participio"
+        },
+        {
+          "class": "generic",
+          "label": "absolutivo-pasivo"
+        },
+        {
+          "class": "generic",
+          "label": "animante no humano"
         }
       ],
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
       "notes": [
-        "Generalización provisional a partir de arkir «secreto» (< guardado/oculto) y arĉir «arqueado».",
-        "El valor específico depende de la semántica de la raíz."
+        "CANÓNICO: -IR es el miembro más plenamente participial de la serie absolutiva-pasiva.",
+        "Se usa principalmente con referentes animantes no humanos, aunque su distribución puede extenderse según la semántica del referente.",
+        "Forma una serie paralela con -IL objetual y -IN humano."
       ],
       "row_class": ""
     },
