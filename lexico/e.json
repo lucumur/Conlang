@@ -2844,7 +2844,7 @@
       "etymology": null,
       "notes": [
         "CANÓNICO: la grafía vigente de la raíz es *EŜV-; reemplaza *ESV-.",
-        "PENDIENTE: las extensiones EŜVER-, -TEN y -LEN están atestiguadas en esta familia, pero su valor morfológico general aún no está formalizado."
+        "CANÓNICO: -ET- marca juventud y -EL- femenino en esta familia."
       ],
       "row_class": "",
       "words": [
@@ -2939,13 +2939,26 @@
           "id": "lexeme-esveten",
           "form": "eŝveten",
           "gloss": "potro",
-          "analysis_html": "EŜV + TEN <span class=\"meta-extra\">(formación animal pendiente de análisis)</span>",
-          "analysis_text": "EŜV + TEN (formación animal pendiente de análisis)",
-          "refs": [],
+          "analysis_html": "EŜV + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "EŜV + -ET- + -EN",
+          "refs": [
+            {
+              "id": "morph-et",
+              "label": "-ET-"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Pendiente de análisis"
+              "label": "Joven ET"
+            },
+            {
+              "class": "generic",
+              "label": "Animal EN"
             }
           ],
           "semantic_fields": [
@@ -2953,21 +2966,32 @@
             "equinos",
             "crías"
           ],
-          "notes": [
-            "PENDIENTE: -TEN distingue «potro», pero aún no está documentado como morfema general."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-esvelen",
           "form": "eŝvelen",
           "gloss": "yegua",
-          "analysis_html": "EŜV + LEN <span class=\"meta-extra\">(formación animal pendiente de análisis)</span>",
-          "analysis_text": "EŜV + LEN (formación animal pendiente de análisis)",
-          "refs": [],
+          "analysis_html": "EŜV + <a class=\"morph-link\" href=\"#morph-el-feminine\">-EL-</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "EŜV + -EL- + -EN",
+          "refs": [
+            {
+              "id": "morph-el-feminine",
+              "label": "-EL-"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Pendiente de análisis"
+              "label": "Femenino EL"
+            },
+            {
+              "class": "generic",
+              "label": "Animal EN"
             }
           ],
           "semantic_fields": [
@@ -2975,21 +2999,40 @@
             "equinos",
             "hembras"
           ],
-          "notes": [
-            "PENDIENTE: -LEN distingue «yegua», pero aún no está documentado como morfema general."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-esveleten",
           "form": "eŝveleten",
           "gloss": "potranca",
-          "analysis_html": "EŜV + LE + TEN <span class=\"meta-extra\">(combinación de los temas de yegua y potro)</span>",
-          "analysis_text": "EŜV + LE + TEN (combinación de los temas de yegua y potro)",
-          "refs": [],
+          "analysis_html": "EŜV + <a class=\"morph-link\" href=\"#morph-el-feminine\">-EL-</a> + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "EŜV + -EL- + -ET- + -EN",
+          "refs": [
+            {
+              "id": "morph-el-feminine",
+              "label": "-EL-"
+            },
+            {
+              "id": "morph-et",
+              "label": "-ET-"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Pendiente de análisis"
+              "label": "Femenino EL"
+            },
+            {
+              "class": "generic",
+              "label": "Joven ET"
+            },
+            {
+              "class": "generic",
+              "label": "Animal EN"
             }
           ],
           "semantic_fields": [
@@ -2997,14 +3040,12 @@
             "equinos",
             "crías"
           ],
-          "notes": [
-            "ANÁLISIS: combina material de eŝvelen «yegua» y eŝveten «potro»; la segmentación exacta de LE/TEN queda por formalizar."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-esveron",
           "form": "eŝveron",
-          "gloss": "equite, caballero",
+          "gloss": "equite, caballero; poseedor de caballos",
           "analysis_html": "EŜV + ER + <a class=\"morph-link\" href=\"#morph-on\">-ON</a> <span class=\"meta-extra\">(tema EŜVER-)</span>",
           "analysis_text": "EŜV + ER + -ON (tema EŜVER-)",
           "refs": [
@@ -3029,7 +3070,7 @@
             "caballería"
           ],
           "notes": [
-            "EŜVER- es el mismo tema ecuestre de eŝveros."
+            "CANÓNICO: significa literalmente «quien posee caballos»; de ahí «équite, caballero»."
           ]
         },
         {
@@ -3132,12 +3173,145 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-evora",
+          "form": "evora",
+          "gloss": "epoca",
+          "analysis_html": "EV + ORA <span class=\"meta-extra\">(formación temporal lexicalizada)</span>",
+          "analysis_text": "EV + ORA (formación temporal lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Temporal"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "periodos",
+            "abstractos"
+          ],
+          "notes": [
+            "PENDIENTE: ORA no está formalizado todavía como morfema general en esta familia."
+          ]
+        },
+        {
+          "id": "lexeme-cevam",
+          "form": "ĉevam",
+          "gloss": "siempre",
+          "analysis_html": "Ĉ + EV + <a class=\"morph-link\" href=\"#morph-am\">-AM</a> <span class=\"meta-extra\">(primer elemento gramatical pendiente)</span>",
+          "analysis_text": "Ĉ + EV + -AM (primer elemento gramatical pendiente)",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio temporal"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "frecuencia",
+            "gramática"
+          ],
+          "notes": [
+            "PENDIENTE: el valor de Ĉ- en ĉevam no está documentado de forma independiente."
+          ]
+        },
+        {
+          "id": "lexeme-nevam",
+          "form": "nevam",
+          "gloss": "nunca",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ne\">NE-</a> + EV + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "NE- + EV + -AM",
+          "refs": [
+            {
+              "id": "morph-ne",
+              "label": "NE-"
+            },
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio temporal"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "negación",
+            "gramática"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-pojam",
+          "form": "pojam",
+          "gloss": "tarde, despues",
+          "analysis_html": "POJ + <a class=\"morph-link\" href=\"#morph-am\">-AM</a> <span class=\"meta-extra\">(POJ pendiente de identificación)</span>",
+          "analysis_text": "POJ + -AM (POJ pendiente de identificación)",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio temporal"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "posterioridad",
+            "gramática"
+          ],
+          "notes": [
+            "PENDIENTE: POJ- no está documentado aún como raíz o morfema independiente."
+          ]
+        },
+        {
+          "id": "lexeme-samevam",
+          "form": "samevam",
+          "gloss": "algun dia",
+          "analysis_html": "SAM + EV + <a class=\"morph-link\" href=\"#morph-am\">-AM</a> <span class=\"meta-extra\">(SAM gramatical pendiente de identificación)</span>",
+          "analysis_text": "SAM + EV + -AM (SAM gramatical pendiente de identificación)",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbio temporal"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "indefinidos",
+            "gramática"
+          ],
+          "notes": [
+            "PENDIENTE: SAM- con valor indefinido «algún» no está documentado todavía como raíz/morfema independiente; no se identifica con *ŜAM- «espuma»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-es",
       "form": "*EŜ-",
-      "gloss": "comer",
+      "gloss": "comida; cebo, alimento, yesca",
       "tags": [
         {
           "class": "latin",
@@ -3153,7 +3327,122 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ese",
+          "form": "eŝe",
+          "gloss": "comida (metaforico): cebo, alimento, yesca",
+          "analysis_html": "EŜ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "EŜ + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "alimentos",
+            "combustibles",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-esvazo",
+          "form": "eŝvazo",
+          "gloss": "recipiente de yesca, cenicero",
+          "analysis_html": "EŜ + VAZ + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(VAZ pendiente de identificación)</span>",
+          "analysis_text": "EŜ + VAZ + -O (VAZ pendiente de identificación)",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "recipientes",
+            "fuego"
+          ],
+          "notes": [
+            "PENDIENTE: VAZ- no figura todavía como raíz canónica independiente."
+          ]
+        },
+        {
+          "id": "lexeme-espopal",
+          "form": "eŝpopal",
+          "gloss": "restaurante",
+          "analysis_html": "EŜ + POP + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a> <span class=\"meta-extra\">(POP pendiente de identificación)</span>",
+          "analysis_text": "EŜ + POP + -AL (POP pendiente de identificación)",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "lugares",
+            "restaurantes"
+          ],
+          "notes": [
+            "PENDIENTE: POP- no figura todavía como raíz/morfema independiente."
+          ]
+        },
+        {
+          "id": "lexeme-esurga",
+          "form": "eŝurga",
+          "gloss": "hambre",
+          "analysis_html": "EŜ + URG + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">(URG pendiente de identificación)</span>",
+          "analysis_text": "EŜ + URG + -A (URG pendiente de identificación)",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "hambre",
+            "estados"
+          ],
+          "notes": [
+            "PENDIENTE: URG- no figura todavía como raíz/morfema independiente."
+          ]
+        }
+      ]
     },
     {
       "id": "root-etheta",
