@@ -3727,11 +3727,15 @@
       "words": [
         {
           "id": "lexeme-lundukar",
-          "form": "lundukar",
+          "form": "lumdukar",
           "gloss": "conductor de electricidad",
-          "analysis_html": "LUND + DUK + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a> <span class=\"meta-extra\">(LUND eléctrico pendiente de identificación)</span>",
-          "analysis_text": "LUND + DUK + -AR (LUND eléctrico pendiente de identificación)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-lum\">LUM</a> + DUK + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "LUM + DUK + -AR",
           "refs": [
+            {
+              "id": "root-lum",
+              "label": "LUM"
+            },
             {
               "id": "morph-ar-2",
               "label": "-AR"
@@ -3753,16 +3757,20 @@
             "conducción"
           ],
           "notes": [
-            "PENDIENTE: no se enlaza con *LUN- «luna», cuya extensión *LUND- significa «mes»; falta identificar o documentar el elemento eléctrico LUND-."
+            "CANÓNICO: forma transparente con LUM + DUK; se abandona la variante anterior lundukar."
           ]
         },
         {
           "id": "lexeme-lundukeza",
-          "form": "lundukeẑa",
+          "form": "lumdukeẑa",
           "gloss": "conductilidad",
-          "analysis_html": "LUND + DUK + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a> <span class=\"meta-extra\">(LUND eléctrico pendiente de identificación)</span>",
-          "analysis_text": "LUND + DUK + -EẐA (LUND eléctrico pendiente de identificación)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-lum\">LUM</a> + DUK + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "LUM + DUK + -EẐA",
           "refs": [
+            {
+              "id": "root-lum",
+              "label": "LUM"
+            },
             {
               "id": "morph-eza",
               "label": "-EẐA"
@@ -3784,7 +3792,7 @@
             "conducción"
           ],
           "notes": [
-            "PENDIENTE: comparte el elemento LUND- no identificado de lundukar."
+            "CANÓNICO: forma transparente con LUM + DUK; se abandona la variante anterior lundukeẑa."
           ]
         },
         {
@@ -3882,9 +3890,13 @@
           "id": "lexeme-cardukan",
           "form": "ĉardukan",
           "gloss": "conductor",
-          "analysis_html": "ĈAR + DUK + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> <span class=\"meta-extra\">(ĈAR- pendiente de identificación)</span>",
-          "analysis_text": "ĈAR + DUK + -AN (ĈAR- pendiente de identificación)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-car-cart\">ĈAR</a> + DUK + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĈAR + DUK + -AN",
           "refs": [
+            {
+              "id": "root-car-cart",
+              "label": "ĈAR"
+            },
             {
               "id": "morph-an-2",
               "label": "-AN"
@@ -3905,9 +3917,7 @@
             "personas",
             "conducción"
           ],
-          "notes": [
-            "PENDIENTE: *ĈAR- no está documentada actualmente; la raíz existente para «carro» es *ĈAP-. No se equiparan sin decisión explícita."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-dukato",
