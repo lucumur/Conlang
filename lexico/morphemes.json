@@ -930,7 +930,7 @@
     {
       "id": "morph-ik",
       "form": "*-IK-",
-      "gloss": "diminutivo",
+      "gloss": "alomorfo vocálico del diminutivo -K-",
       "tags": [
         {
           "class": "generic",
@@ -940,7 +940,10 @@
       "letter": "I",
       "section": "sec-i",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: -IK- es el alomorfo de -K- condicionado fonotácticamente.",
+        "Se distingue del diminutivo fuerte -Ĉ/-IĈ."
+      ],
       "row_class": ""
     },
     {
@@ -3506,6 +3509,53 @@
       "notes": [
         "CANÓNICO: -OV- expresa posibilidad o capacidad potencial.",
         "Atestiguado en EBLOV-, base de eblovol «hábil» y eblova «capacidad, habilidad»."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-ch-diminutive",
+      "form": "*-Ĉ- / *-IĈ-",
+      "gloss": "diminutivo fuerte; tamaño especialmente pequeño",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "diminutivo"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -Ĉ- y -IĈ- son alomorfos del mismo diminutivo; -IĈ- aparece cuando la fonotáctica requiere una vocal de apoyo tras la consonante precedente.",
+        "Este diminutivo expresa un grado menor que -K/-IK: referente especialmente pequeño.",
+        "En eciĉos / eciĉura, EC + -IĈ- expresa ondas diminutas → ultrasonido."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-k-diminutive",
+      "form": "*-K- / *-IK-",
+      "gloss": "diminutivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "diminutivo"
+        }
+      ],
+      "letter": "K",
+      "section": "sec-k",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -K- y -IK- son alomorfos del mismo diminutivo; -IK- aparece por apoyo vocálico según el entorno consonántico.",
+        "Es menos intenso que el diminutivo fuerte -Ĉ/-IĈ."
       ],
       "row_class": ""
     }
