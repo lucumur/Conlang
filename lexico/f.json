@@ -607,28 +607,6 @@
           "notes": []
         },
         {
-          "id": "lexeme-fajga",
-          "form": "fajĝa",
-          "gloss": "chispa",
-          "analysis_html": "FAJ + ĜA <span class=\"meta-extra\">(formación pendiente de análisis)</span>",
-          "analysis_text": "FAJ + ĜA (formación pendiente de análisis)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Pendiente de análisis"
-            }
-          ],
-          "semantic_fields": [
-            "fuego",
-            "chispas",
-            "fenómenos"
-          ],
-          "notes": [
-            "PENDIENTE: -ĜA no está documentado todavía como morfema general."
-          ]
-        },
-        {
           "id": "lexeme-fajre",
           "form": "fajre",
           "gloss": "fuego",
@@ -718,6 +696,33 @@
             "silicio"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-fajla",
+          "form": "fajla",
+          "gloss": "chispa",
+          "analysis_html": "FAJ + <a class=\"morph-link\" href=\"#morph-la\">-LA</a>",
+          "analysis_text": "FAJ + -LA",
+          "refs": [
+            {
+              "id": "morph-la",
+              "label": "-LA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal LA"
+            }
+          ],
+          "semantic_fields": [
+            "fuego",
+            "chispas",
+            "fenómenos"
+          ],
+          "notes": [
+            "CANÓNICO: reemplaza a la forma descartada fajĝa."
+          ]
         }
       ]
     },
@@ -786,22 +791,18 @@
           "id": "lexeme-fajfuro",
           "form": "fajfuro",
           "gloss": "silbato",
-          "analysis_html": "FAJFUR + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(tema FAJFUR- pendiente de análisis)</span>",
-          "analysis_text": "FAJFUR + -O (tema FAJFUR- pendiente de análisis)",
+          "analysis_html": "FAJF + <a class=\"morph-link\" href=\"#morph-uro-mediopassive\">-URO</a>",
+          "analysis_text": "FAJF + -URO",
           "refs": [
             {
-              "id": "morph-o",
-              "label": "-O"
+              "id": "morph-uro-mediopassive",
+              "label": "-URO"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Tema FAJFUR"
-            },
-            {
-              "class": "generic",
-              "label": "Inanimado O"
+              "label": "Participio mediopasivo nominalizado"
             }
           ],
           "semantic_fields": [
@@ -809,9 +810,7 @@
             "sonido",
             "silbatos"
           ],
-          "notes": [
-            "PENDIENTE: el segmento -UR- de FAJFUR- no está explicado por un morfema instrumental vigente."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-fajfiston",
@@ -1100,11 +1099,15 @@
         },
         {
           "id": "lexeme-fanderal",
-          "form": "fanderal",
+          "form": "fandaral",
           "gloss": "fundidora (edificio)",
-          "analysis_html": "FANDER + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a> <span class=\"meta-extra\">(tema FANDER- pendiente de análisis)</span>",
-          "analysis_text": "FANDER + -AL (tema FANDER- pendiente de análisis)",
+          "analysis_html": "FAND + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "FAND + -AR + -AL",
           "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            },
             {
               "id": "morph-al-3",
               "label": "-AL"
@@ -1113,7 +1116,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Tema FANDER"
+              "label": "Participio agentivo AR"
             },
             {
               "class": "generic",
@@ -1126,7 +1129,7 @@
             "lugares"
           ],
           "notes": [
-            "PENDIENTE: la función de -ER- dentro del tema FANDER- no está todavía formalizada para nombres de instalación."
+            "CANÓNICO: participio activo locativizado: «lugar del que funde / lugar fundidor»."
           ]
         },
         {
