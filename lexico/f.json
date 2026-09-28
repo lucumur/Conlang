@@ -27,7 +27,68 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fabi",
+          "form": "fabi",
+          "gloss": "frijoles",
+          "analysis_html": "FAB + <a class=\"morph-link\" href=\"#morph-i\">-I</a>",
+          "analysis_text": "FAB + -I",
+          "refs": [
+            {
+              "id": "morph-i",
+              "label": "-I"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Plural I"
+            }
+          ],
+          "semantic_fields": [
+            "alimentos",
+            "legumbres",
+            "plantas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ismafabe",
+          "form": "ismafabe",
+          "gloss": "algarrobo",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ism\">ISM</a> + FAB + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ISM + FAB + -E",
+          "refs": [
+            {
+              "id": "root-ism",
+              "label": "ISM"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "legumbres"
+          ],
+          "notes": [
+            "ISM- aporta el valor «árabe» indicado para esta formación."
+          ]
+        }
+      ]
     },
     {
       "id": "root-fabl",
@@ -39,7 +100,157 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fablas",
+          "form": "fablas",
+          "gloss": "contar",
+          "analysis_html": "FABL + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FABL + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "narración",
+            "habla",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fabla",
+          "form": "fabla",
+          "gloss": "cuento, historia, fabula",
+          "analysis_html": "FABL + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FABL + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "narración",
+            "literatura",
+            "relatos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fablema",
+          "form": "fablema",
+          "gloss": "narrativa",
+          "analysis_html": "FABL + EM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FABL + EM + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema EM"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "narración",
+            "literatura",
+            "abstractos"
+          ],
+          "notes": [
+            "EM se interpreta como formante abstractivo/temático por analogía con formas como anksema; su estatuto general aún no está plenamente formalizado."
+          ]
+        },
+        {
+          "id": "lexeme-fablistan",
+          "form": "fablistan",
+          "gloss": "narrador",
+          "analysis_html": "FABL + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "FABL + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "narración",
+            "profesiones",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fablitol",
+          "form": "fablitol",
+          "gloss": "fabuloso",
+          "analysis_html": "FABL + <a class=\"morph-link\" href=\"#morph-it-frequentative\">-IT-</a> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "FABL + -IT- + -OL",
+          "refs": [
+            {
+              "id": "morph-it-frequentative",
+              "label": "-IT-"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Frecuentativo IT"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "narración",
+            "cualidades",
+            "literatura"
+          ],
+          "notes": [
+            "ANÁLISIS: literalmente «cargado/repleto de narración reiterada»; conviene vigilar si este uso de -IT- + -OL se repite en otras familias."
+          ]
+        }
+      ]
     },
     {
       "id": "root-fabr",
@@ -51,7 +262,209 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fabras",
+          "form": "fabras",
+          "gloss": "fabricar, producir",
+          "analysis_html": "FABR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FABR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "producción",
+            "industria",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fabra",
+          "form": "fabra",
+          "gloss": "produccion",
+          "analysis_html": "FABR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FABR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "producción",
+            "industria",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fabral",
+          "form": "fabral",
+          "gloss": "fabrica",
+          "analysis_html": "FABR + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "FABR + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "industria",
+            "lugares",
+            "producción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fabristan",
+          "form": "fabristan",
+          "gloss": "fabricante",
+          "analysis_html": "FABR + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "FABR + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "industria",
+            "profesiones",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fabro",
+          "form": "fabro",
+          "gloss": "producto",
+          "analysis_html": "FABR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FABR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "producción",
+            "objetos",
+            "industria"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fabratol",
+          "form": "fabratol",
+          "gloss": "productivo",
+          "analysis_html": "FABR + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "FABR + -AT- + -OL",
+          "refs": [
+            {
+              "id": "morph-at",
+              "label": "-AT-"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Perfectivo AT"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "producción",
+            "cualidades",
+            "industria"
+          ],
+          "notes": [
+            "-OL aporta abundancia/capacidad marcada de producir sobre una base perfectivizada en -AT-."
+          ]
+        },
+        {
+          "id": "lexeme-fabratolda",
+          "form": "fabratolda",
+          "gloss": "productividad",
+          "analysis_html": "FABR + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-olda\">-OLDA</a>",
+          "analysis_text": "FABR + -AT- + -OLDA",
+          "refs": [
+            {
+              "id": "morph-at",
+              "label": "-AT-"
+            },
+            {
+              "id": "morph-olda",
+              "label": "-OLDA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Perfectivo AT"
+            },
+            {
+              "class": "generic",
+              "label": "Abstracto OLDA"
+            }
+          ],
+          "semantic_fields": [
+            "producción",
+            "capacidad",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fac",
