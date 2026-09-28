@@ -476,43 +476,490 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-faco",
+          "form": "faco",
+          "gloss": "haya",
+          "analysis_html": "FAC + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FAC + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "plantas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-facnuso",
+          "form": "facnuŝo",
+          "gloss": "hayuco",
+          "analysis_html": "FAC + <a class=\"morph-link\" href=\"#root-nus\">NUŜ</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FAC + NUŜ + -O",
+          "refs": [
+            {
+              "id": "root-nus",
+              "label": "NUŜ"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "frutos",
+            "nueces"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-brunfaco",
+          "form": "brunfaco",
+          "gloss": "castaño",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-brun\">BRUN</a> + FAC + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BRUN + FAC + -O",
+          "refs": [
+            {
+              "id": "root-brun",
+              "label": "BRUN"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "plantas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-faj-r",
       "form": "*FAJ-R",
-      "gloss": "encender",
+      "gloss": "fuego, encender",
       "tags": [],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fajras",
+          "form": "fajras",
+          "gloss": "encender",
+          "analysis_html": "FAJ-R + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FAJ-R + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "fuego",
+            "acciones",
+            "combustión"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fajga",
+          "form": "fajĝa",
+          "gloss": "chispa",
+          "analysis_html": "FAJ + ĜA <span class=\"meta-extra\">(formación pendiente de análisis)</span>",
+          "analysis_text": "FAJ + ĜA (formación pendiente de análisis)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pendiente de análisis"
+            }
+          ],
+          "semantic_fields": [
+            "fuego",
+            "chispas",
+            "fenómenos"
+          ],
+          "notes": [
+            "PENDIENTE: -ĜA no está documentado todavía como morfema general."
+          ]
+        },
+        {
+          "id": "lexeme-fajre",
+          "form": "fajre",
+          "gloss": "fuego",
+          "analysis_html": "FAJ-R + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "FAJ-R + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "fuego",
+            "combustión",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fajzono",
+          "form": "fajẑono",
+          "gloss": "silex, firestone",
+          "analysis_html": "FAJ + <a class=\"morph-link\" href=\"#root-zon-2\">ẐON</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FAJ + ẐON + -O",
+          "refs": [
+            {
+              "id": "root-zon-2",
+              "label": "ẐON"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "minerales",
+            "fuego",
+            "piedras"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fajerze",
+          "form": "fajerẑe",
+          "gloss": "silicio",
+          "analysis_html": "FAJ + <a class=\"morph-link\" href=\"#root-erz\">ERẐ</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "FAJ + ERẐ + -E",
+          "refs": [
+            {
+              "id": "root-erz",
+              "label": "ERẐ"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "minerales",
+            "silicio"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fajf",
       "form": "*FAJF-",
-      "gloss": "silbar",
+      "gloss": "chupar, silbar",
       "tags": [],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fajfas",
+          "form": "fajfas",
+          "gloss": "chupar",
+          "analysis_html": "FAJF + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FAJF + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "boca",
+            "succión"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fajfos",
+          "form": "fajfos",
+          "gloss": "silbar",
+          "analysis_html": "FAJF + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FAJF + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "silbido",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fajfuro",
+          "form": "fajfuro",
+          "gloss": "silbato",
+          "analysis_html": "FAJFUR + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(tema FAJFUR- pendiente de análisis)</span>",
+          "analysis_text": "FAJFUR + -O (tema FAJFUR- pendiente de análisis)",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema FAJFUR"
+            },
+            {
+              "class": "generic",
+              "label": "Inanimado O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "sonido",
+            "silbatos"
+          ],
+          "notes": [
+            "PENDIENTE: el segmento -UR- de FAJFUR- no está explicado por un morfema instrumental vigente."
+          ]
+        },
+        {
+          "id": "lexeme-fajfiston",
+          "form": "fajfiston",
+          "gloss": "arbitro",
+          "analysis_html": "FAJF + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "FAJF + -IST + -ON",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "deportes",
+            "personas",
+            "arbitraje"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fajfura",
+          "form": "fajfura",
+          "gloss": "silbido",
+          "analysis_html": "FAJF + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "FAJF + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "silbido",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fajn",
       "form": "*FAJN-",
-      "gloss": "fino",
+      "gloss": "fino, afinar",
       "tags": [],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fajnas",
+          "form": "fajnas",
+          "gloss": "afinar (instrumento), refinar (mejorar)",
+          "analysis_html": "FAJN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FAJN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "mejora",
+            "música",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fajner",
+          "form": "fajner",
+          "gloss": "fino, elegante, sharp, afilado",
+          "analysis_html": "FAJN + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "FAJN + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "elegancia",
+            "precisión"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fajneza",
+          "form": "fajneẑa",
+          "gloss": "finura, elegancia",
+          "analysis_html": "FAJN + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "FAJN + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Cualidad abstracta EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "elegancia",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-falk",
@@ -529,19 +976,185 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-falken",
+          "form": "falken",
+          "gloss": "halcon",
+          "analysis_html": "FALK + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "FALK + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "aves",
+            "rapaces"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fand",
       "form": "*FAND-",
-      "gloss": "fundirse",
+      "gloss": "fundir, fundirse",
       "tags": [],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fandos",
+          "form": "fandos",
+          "gloss": "fundirse",
+          "analysis_html": "FAND + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FAND + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "metalurgia",
+            "procesos",
+            "cambio de estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fandas",
+          "form": "fandas",
+          "gloss": "fundir",
+          "analysis_html": "FAND + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FAND + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "metalurgia",
+            "acciones",
+            "cambio de estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fandistan",
+          "form": "fandistan",
+          "gloss": "fundidor",
+          "analysis_html": "FAND + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "FAND + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dedicación IST"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "metalurgia",
+            "profesiones",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fanderal",
+          "form": "fanderal",
+          "gloss": "fundidora (edificio)",
+          "analysis_html": "FANDER + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a> <span class=\"meta-extra\">(tema FANDER- pendiente de análisis)</span>",
+          "analysis_text": "FANDER + -AL (tema FANDER- pendiente de análisis)",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema FANDER"
+            },
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "metalurgia",
+            "edificios",
+            "lugares"
+          ],
+          "notes": [
+            "PENDIENTE: la función de -ER- dentro del tema FANDER- no está todavía formalizada para nombres de instalación."
+          ]
+        },
+        {
+          "id": "lexeme-fanda",
+          "form": "fanda",
+          "gloss": "fusion, fundicion",
+          "analysis_html": "FAND + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FAND + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "metalurgia",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-far",
