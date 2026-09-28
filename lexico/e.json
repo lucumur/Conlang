@@ -4059,14 +4059,98 @@
     {
       "id": "root-ez",
       "form": "*EẐ-",
-      "gloss": "casarse",
+      "gloss": "casarse; cónyuge",
       "tags": [],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ezas",
+          "form": "eẑas",
+          "gloss": "conseguir esposa",
+          "analysis_html": "EẐ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "EẐ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "matrimonio",
+            "familia",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ezan",
+          "form": "eẑan",
+          "gloss": "esposo",
+          "analysis_html": "EẐ + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "EẐ + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "matrimonio",
+            "familia",
+            "personas"
+          ],
+          "notes": [
+            "Uso lexicalizado de -AN en la oposición eẑan/eẑin = esposo/esposa."
+          ]
+        },
+        {
+          "id": "lexeme-ezin",
+          "form": "eẑin",
+          "gloss": "esposa",
+          "analysis_html": "EẐ + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "EẐ + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio absolutivo-pasivo humano"
+            },
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "matrimonio",
+            "familia",
+            "personas"
+          ],
+          "notes": [
+            "La oposición eẑan/eẑin lexicaliza aquí un contraste esposo/esposa. El valor de género no se generaliza automáticamente a -AN/-IN fuera de esta familia."
+          ]
+        }
+      ]
     },
     {
       "id": "root-er-love",
