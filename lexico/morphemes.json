@@ -3614,6 +3614,60 @@
         "En la familia EŜV-: eŝvelen «yegua» = EŜV + -EL- + -EN; eŝveleten «potranca» = EŜV + -EL- + -ET- + -EN."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-er-possessor",
+      "form": "*-ER-",
+      "gloss": "que posee; poseedor de",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "morfema"
+        },
+        {
+          "class": "generic",
+          "label": "posesivo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -ER- forma temas con el sentido «que posee X» o «poseedor de X».",
+        "Se distingue del adjetivo básico -ER."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-uro-mediopassive",
+      "form": "*-URO",
+      "gloss": "participio mediopasivo nominalizado",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "participio"
+        },
+        {
+          "class": "generic",
+          "label": "mediopasivo"
+        },
+        {
+          "class": "generic",
+          "label": "nominalización"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -URO es un participio mediopasivo nominalizado.",
+        "Atestiguado en fajfuro «silbato»."
+      ],
+      "row_class": ""
     }
   ]
 }
