@@ -3714,6 +3714,25 @@
       ]
     },
     {
+      "id": "root-frajn",
+      "form": "*FRAJN-",
+      "gloss": "franco (pueblo)",
+      "tags": [
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "F",
+      "section": "sec-f",
+      "etymology": "< Germ. Frank-; adaptación a *FRAJN- por precisar.",
+      "notes": [
+        "Homónimo de frajn, forma familiar de *FRA- «hermano» con -AJN."
+      ],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-frap",
       "form": "*FRAP-",
       "gloss": "golpear / golpetear suave",
