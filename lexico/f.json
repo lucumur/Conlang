@@ -1169,7 +1169,9 @@
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: bonfara «favor, bendición» es una sola entrada, registrada bajo *BON- y vinculada también a *FAR- mediante referencias morfológicas."
+      ],
       "row_class": "",
       "words": [
         {
@@ -1333,25 +1335,6 @@
           "notes": [
             "Análisis morfológico provisional; forma y glosa suministradas por el usuario."
           ]
-        },
-        {
-          "id": "lexeme-bonfara",
-          "form": "bonfara",
-          "gloss": "favor",
-          "analysis_html": "BON + FAR + -A",
-          "analysis_text": "BON + FAR + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [],
-          "semantic_fields": [
-            "relaciones",
-            "acciones"
-          ],
-          "notes": []
         },
         {
           "id": "lexeme-fartuk",
