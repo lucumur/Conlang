@@ -320,18 +320,6 @@
       "words": []
     },
     {
-      "id": "root-ten-br",
-      "form": "*TEN-BR-",
-      "gloss": "tinieblas, oscuridad",
-      "tags": [],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-te",
       "form": "*TE-",
       "gloss": "deictico",
@@ -350,13 +338,15 @@
     },
     {
       "id": "root-tenc",
-      "form": "*TENC-",
+      "form": "*TECN-",
       "gloss": "tecnica",
       "tags": [],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *TECN- «técnica»; sustituye la grafía anterior *TENC-."
+      ],
       "row_class": "",
       "words": []
     },
@@ -428,6 +418,18 @@
       ]
     },
     {
+      "id": "root-ten-br",
+      "form": "*TEN-BR-",
+      "gloss": "tinieblas, oscuridad",
+      "tags": [],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-tend",
       "form": "*TEND-",
       "gloss": "extender",
@@ -448,6 +450,20 @@
       "section": "sec-t",
       "etymology": null,
       "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tes",
+      "form": "*TEŜ-",
+      "gloss": "tejer",
+      "tags": [],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: *TEŜ- «tejer»; sustituye la grafía anterior *TES-."
+      ],
       "row_class": "",
       "words": []
     },
@@ -499,18 +515,6 @@
           "label": "Germanico"
         }
       ],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-tes",
-      "form": "*TES-",
-      "gloss": "tejer",
-      "tags": [],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -845,6 +849,210 @@
       "words": []
     },
     {
+      "id": "root-tog",
+      "form": "*TOG-",
+      "gloss": "apropiado",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-togol",
+          "form": "togol",
+          "gloss": "correcto, apropiado, mejor",
+          "analysis_html": "TOG + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "TOG + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "root-toks",
+      "form": "*TOKS-",
+      "gloss": "veneno",
+      "tags": [],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tolr",
+      "form": "*TOLR-",
+      "gloss": "soportar",
+      "tags": [],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-ton",
+      "form": "*TON-",
+      "gloss": "broncear",
+      "tags": [],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-tondr",
+      "form": "*TONDR-",
+      "gloss": "trueno",
+      "tags": [],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-tondras",
+          "form": "tondras",
+          "gloss": "estremecer",
+          "analysis_html": "TONDR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TONDR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "sonido",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tondros",
+          "form": "tondros",
+          "gloss": "tronar, retumbar",
+          "analysis_html": "TONDR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TONDR + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "sonido",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "root-tor",
+      "form": "*TOR-",
+      "gloss": "torcer",
+      "tags": [],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-toras",
+          "form": "toras",
+          "gloss": "torcer",
+          "analysis_html": "TOR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TOR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "movimiento",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-toros",
+          "form": "toros",
+          "gloss": "torcerse",
+          "analysis_html": "TOR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TOR + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "movimiento",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "root-tr",
       "form": "*TR-",
       "gloss": "tres",
@@ -1009,6 +1217,25 @@
       "words": []
     },
     {
+      "id": "root-trec",
+      "form": "*TREĈ-",
+      "gloss": "estrecharse, reducirse",
+      "tags": [
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: *TREĈ- «estrecharse, reducirse»; sustituye la grafía anterior *TREC-."
+      ],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-trejn",
       "form": "*TREJN-",
       "gloss": "entrenar",
@@ -1136,23 +1363,6 @@
           "notes": []
         }
       ]
-    },
-    {
-      "id": "root-trec",
-      "form": "*TREC-",
-      "gloss": "estrecharse, reducirse",
-      "tags": [
-        {
-          "class": "germanico",
-          "label": "Germanico"
-        }
-      ],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
     },
     {
       "id": "root-tri",
@@ -1671,210 +1881,6 @@
       ]
     },
     {
-      "id": "root-tog",
-      "form": "*TOG-",
-      "gloss": "apropiado",
-      "tags": [
-        {
-          "class": "nat-mod",
-          "label": "Nat-mod"
-        }
-      ],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-togol",
-          "form": "togol",
-          "gloss": "correcto, apropiado, mejor",
-          "analysis_html": "TOG + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "TOG + -OL",
-          "refs": [
-            {
-              "id": "morph-ol-2",
-              "label": "-OL"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo OL"
-            }
-          ],
-          "semantic_fields": [
-            "conducta",
-            "cualidades"
-          ],
-          "notes": []
-        }
-      ]
-    },
-    {
-      "id": "root-toks",
-      "form": "*TOKS-",
-      "gloss": "veneno",
-      "tags": [],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-tolr",
-      "form": "*TOLR-",
-      "gloss": "soportar",
-      "tags": [],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-ton",
-      "form": "*TON-",
-      "gloss": "broncear",
-      "tags": [],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-tondr",
-      "form": "*TONDR-",
-      "gloss": "trueno",
-      "tags": [],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-tondras",
-          "form": "tondras",
-          "gloss": "estremecer",
-          "analysis_html": "TONDR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "TONDR + -AS",
-          "refs": [
-            {
-              "id": "morph-as",
-              "label": "-AS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado AS"
-            }
-          ],
-          "semantic_fields": [
-            "naturaleza",
-            "sonido",
-            "acciones"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-tondros",
-          "form": "tondros",
-          "gloss": "tronar, retumbar",
-          "analysis_html": "TONDR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "TONDR + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "naturaleza",
-            "sonido",
-            "procesos"
-          ],
-          "notes": []
-        }
-      ]
-    },
-    {
-      "id": "root-tor",
-      "form": "*TOR-",
-      "gloss": "torcer",
-      "tags": [],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-toras",
-          "form": "toras",
-          "gloss": "torcer",
-          "analysis_html": "TOR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "TOR + -AS",
-          "refs": [
-            {
-              "id": "morph-as",
-              "label": "-AS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado AS"
-            }
-          ],
-          "semantic_fields": [
-            "forma",
-            "movimiento",
-            "acciones"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-toros",
-          "form": "toros",
-          "gloss": "torcerse",
-          "analysis_html": "TOR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "TOR + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "forma",
-            "movimiento",
-            "procesos"
-          ],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-tuf",
       "form": "*TUF-",
       "gloss": "copete",
@@ -2054,49 +2060,6 @@
       ]
     },
     {
-      "id": "root-tusk",
-      "form": "*TUSK-",
-      "gloss": "colmillo",
-      "tags": [
-        {
-          "class": "anglo",
-          "label": "Anglo"
-        }
-      ],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-tusko",
-          "form": "tusko",
-          "gloss": "colmillo",
-          "analysis_html": "TUSK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "TUSK + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "anatomía",
-            "dientes",
-            "objetos"
-          ],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-tus-2",
       "form": "*TUŜ-",
       "gloss": "tocar",
@@ -2153,6 +2116,49 @@
             "percepción",
             "acciones",
             "abstractos"
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "root-tusk",
+      "form": "*TUSK-",
+      "gloss": "colmillo",
+      "tags": [
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-tusko",
+          "form": "tusko",
+          "gloss": "colmillo",
+          "analysis_html": "TUSK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TUSK + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "dientes",
+            "objetos"
           ],
           "notes": []
         }
