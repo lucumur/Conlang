@@ -2478,7 +2478,7 @@
         {
           "id": "lexeme-gadrango",
           "form": "gadrango",
-          "gloss": "cuadrado",
+          "gloss": "rectángulo",
           "analysis_html": "<a class=\"morph-link\" href=\"#root-gad-r\">GAD-R</a> + ANG + <a class=\"morph-link\" href=\"#morph-o-3\">-O</a>",
           "analysis_text": "GAD-R + ANG + -O",
           "refs": [
@@ -2499,7 +2499,8 @@
           ],
           "semantic_fields": [
             "geometría",
-            "forma"
+            "forma",
+            "figuras"
           ]
         },
         {
@@ -2528,6 +2529,35 @@
             "geometría",
             "forma"
           ]
+        },
+        {
+          "id": "lexeme-gadrangel",
+          "form": "gadrangel",
+          "gloss": "rectangular",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-gad-r\">GADR</a> + ANG + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "GADR + ANG + -EL",
+          "refs": [
+            {
+              "id": "root-gad-r",
+              "label": "GADR"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "geometría",
+            "forma",
+            "cualidades"
+          ],
+          "notes": []
         }
       ]
     },
