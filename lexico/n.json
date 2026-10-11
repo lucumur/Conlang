@@ -30,7 +30,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nates",
+          "form": "nates",
+          "gloss": "haber nacido",
+          "analysis_html": "NAT + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "NAT + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "vida",
+            "nacimiento",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-natel",
+          "form": "natel",
+          "gloss": "natural, de nacimiento",
+          "analysis_html": "NAT + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "NAT + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "vida",
+            "nacimiento",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-na-v",
@@ -42,7 +93,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-navos",
+          "form": "navos",
+          "gloss": "correr por el rio/mar / ser tripulante",
+          "analysis_html": "NAV + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "NAV + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "transporte",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-navas",
+          "form": "navas",
+          "gloss": "navegar,  timonear un barco",
+          "analysis_html": "NAV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "NAV + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "transporte",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-naf",
@@ -75,7 +177,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-najfeẑa",
+          "form": "najfeẑa",
+          "gloss": "inocencia, ingenuidad",
+          "analysis_html": "NAJF + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "NAJF + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nan",
@@ -92,7 +220,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nanas",
+          "form": "nanas",
+          "gloss": "cuidar niños",
+          "analysis_html": "NAN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "NAN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nark",
@@ -157,7 +311,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nevos",
+          "form": "nevos",
+          "gloss": "nevar",
+          "analysis_html": "NEV + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "NEV + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-neft",
@@ -203,7 +382,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nepon",
+          "form": "nepon",
+          "gloss": "nieto",
+          "analysis_html": "NEP + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "NEP + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "personas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ner",
@@ -249,7 +454,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nika",
+          "form": "nika",
+          "gloss": "victoria",
+          "analysis_html": "NIK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NIK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nikas",
+          "form": "nikas",
+          "gloss": "ganar",
+          "analysis_html": "NIK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "NIK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ninf",
@@ -273,7 +529,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-noca",
+          "form": "noca",
+          "gloss": "noche",
+          "analysis_html": "NOC + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NOC + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nod",
@@ -290,7 +572,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nodos",
+          "form": "nodos",
+          "gloss": "asentir,  decir si",
+          "analysis_html": "NOD + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "NOD + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-noj",
@@ -319,7 +626,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nomas",
+          "form": "nomas",
+          "gloss": "nombrar, mentar",
+          "analysis_html": "NOM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "NOM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nomo",
+          "form": "nomo",
+          "gloss": "nombre",
+          "analysis_html": "NOM + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NOM + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-non",
@@ -348,7 +706,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-norθa",
+          "form": "norθa",
+          "gloss": "norte",
+          "analysis_html": "NORΘ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NORΘ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "dirección",
+            "geografía",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nos",
@@ -360,7 +744,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-noso",
+          "form": "noso",
+          "gloss": "nariz",
+          "analysis_html": "NOS + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NOS + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-not",
@@ -372,7 +782,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-notas",
+          "form": "notas",
+          "gloss": "anotar",
+          "analysis_html": "NOT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "NOT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-noc-2",
@@ -384,7 +820,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-noĉo",
+          "form": "noĉo",
+          "gloss": "diente",
+          "analysis_html": "NOĈ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NOĈ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nu-j",
@@ -401,7 +863,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nujon",
+          "form": "nujon",
+          "gloss": "joven",
+          "analysis_html": "NUJ + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "NUJ + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "cambio",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nuja",
+          "form": "nuja",
+          "gloss": "novedad",
+          "analysis_html": "NUJ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NUJ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "cambio",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nub",
@@ -418,7 +931,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nubos",
+          "form": "nubos",
+          "gloss": "casarse",
+          "analysis_html": "NUB + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "NUB + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nubeẑa",
+          "form": "nubeẑa",
+          "gloss": "noviazgo",
+          "analysis_html": "NUB + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "NUB + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nub-2",
@@ -430,7 +993,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nubo",
+          "form": "nubo",
+          "gloss": "nube",
+          "analysis_html": "NUB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NUB + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nul",
@@ -505,7 +1094,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nuŝo",
+          "form": "nuŝo",
+          "gloss": "nuez / nucleo",
+          "analysis_html": "NUŜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NUŜ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nutheta",
