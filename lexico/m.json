@@ -1147,16 +1147,20 @@
     {
       "id": "root-meg",
       "form": "*MEG-",
-      "gloss": "mega, millon",
+      "gloss": "enorme",
       "tags": [
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "M",
       "section": "sec-m",
-      "etymology": null,
+      "etymology": "Etym. de novo; Gr. μέγας «grande».",
       "notes": [],
       "row_class": "",
       "words": []
