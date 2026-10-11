@@ -1060,31 +1060,6 @@
           "notes": []
         },
         {
-          "id": "lexeme-serpo",
-          "form": "serpo",
-          "gloss": "hoz",
-          "analysis_html": "SERP + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "SERP + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "movimiento",
-            "fauna",
-            "objetos"
-          ],
-          "notes": []
-        },
-        {
           "id": "lexeme-serpuk",
           "form": "serpuk",
           "gloss": "en zigzag",
@@ -1208,83 +1183,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-sezas",
-          "form": "sezas",
-          "gloss": "detener algo, pausar",
-          "analysis_html": "SEZ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "SEZ + -AS",
-          "refs": [
-            {
-              "id": "morph-as",
-              "label": "-AS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado AS"
-            }
-          ],
-          "semantic_fields": [
-            "tiempo",
-            "estaciones",
-            "acciones"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-seza",
-          "form": "seza",
-          "gloss": "pausa",
-          "analysis_html": "SEZ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "SEZ + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto A"
-            }
-          ],
-          "semantic_fields": [
-            "tiempo",
-            "estaciones",
-            "abstractos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-sezis",
-          "form": "sezis",
-          "gloss": "estar estatico",
-          "analysis_html": "SEZ + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
-          "analysis_text": "SEZ + -IS",
-          "refs": [
-            {
-              "id": "morph-is-2",
-              "label": "-IS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado IS"
-            }
-          ],
-          "semantic_fields": [
-            "tiempo",
-            "estaciones",
-            "estado"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-ses",
@@ -1343,31 +1242,6 @@
             "cuerpo",
             "posición",
             "acciones"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-sida",
-          "form": "sida",
-          "gloss": "asiento",
-          "analysis_html": "SID + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "SID + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto A"
-            }
-          ],
-          "semantic_fields": [
-            "cuerpo",
-            "posición",
-            "abstractos"
           ],
           "notes": []
         }
@@ -1548,7 +1422,7 @@
           "semantic_fields": [
             "escritura",
             "signos",
-            "abstractos"
+            "comunicación"
           ],
           "notes": []
         },
@@ -1686,31 +1560,6 @@
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-somol",
-          "form": "somol",
-          "gloss": "similar",
-          "analysis_html": "SOM + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "SOM + -OL",
-          "refs": [
-            {
-              "id": "morph-ol-2",
-              "label": "-OL"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo OL"
-            }
-          ],
-          "semantic_fields": [
-            "cantidad",
-            "gramática",
-            "cualidades"
-          ],
-          "notes": []
-        },
-        {
           "id": "lexeme-somam",
           "form": "somam",
           "gloss": "a veces",
@@ -1732,31 +1581,6 @@
             "cantidad",
             "gramática",
             "tiempo"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-somos",
-          "form": "somos",
-          "gloss": "asemejar",
-          "analysis_html": "SOM + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "SOM + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "cantidad",
-            "gramática",
-            "procesos"
           ],
           "notes": []
         }
@@ -2061,8 +1885,7 @@
           ],
           "semantic_fields": [
             "alimentación",
-            "acciones",
-            "objetos"
+            "bebidas"
           ],
           "notes": []
         }
@@ -2202,31 +2025,6 @@
             "anatomía",
             "posición",
             "procesos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-supa",
-          "form": "supa",
-          "gloss": "yacimiento",
-          "analysis_html": "SUP + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "SUP + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto A"
-            }
-          ],
-          "semantic_fields": [
-            "anatomía",
-            "posición",
-            "abstractos"
           ],
           "notes": []
         }
