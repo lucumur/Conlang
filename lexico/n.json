@@ -197,8 +197,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "procesos",
+            "cualidades",
+            "conducta",
             "abstractos"
           ],
           "notes": []
@@ -240,8 +240,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "procesos",
+            "personas",
+            "cuidados",
             "acciones"
           ],
           "notes": []
@@ -332,6 +332,7 @@
           ],
           "semantic_fields": [
             "naturaleza",
+            "clima",
             "procesos"
           ],
           "notes": []
@@ -402,8 +403,7 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "procesos",
+            "familia",
             "personas"
           ],
           "notes": []
@@ -474,8 +474,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "procesos",
+            "acciones",
+            "victoria",
             "abstractos"
           ],
           "notes": []
@@ -499,9 +499,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "procesos",
-            "acciones"
+            "acciones",
+            "victoria"
           ],
           "notes": []
         }
@@ -529,33 +528,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-noca",
-          "form": "noca",
-          "gloss": "noche",
-          "analysis_html": "NOC + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "NOC + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto A"
-            }
-          ],
-          "semantic_fields": [
-            "naturaleza",
-            "procesos",
-            "abstractos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-nod",
@@ -592,7 +565,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
+            "cuerpo",
+            "movimiento",
             "procesos"
           ],
           "notes": []
@@ -646,8 +620,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "procesos",
+            "lenguaje",
+            "comunicación",
             "acciones"
           ],
           "notes": []
@@ -671,8 +645,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "procesos",
+            "lenguaje",
+            "comunicación",
             "objetos"
           ],
           "notes": []
@@ -764,8 +738,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "procesos",
+            "anatomía",
+            "cuerpo",
             "objetos"
           ],
           "notes": []
@@ -802,8 +776,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "procesos",
+            "escritura",
+            "comunicación",
             "acciones"
           ],
           "notes": []
@@ -820,33 +794,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-noĉo",
-          "form": "noĉo",
-          "gloss": "diente",
-          "analysis_html": "NOĈ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "NOĈ + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "naturaleza",
-            "procesos",
-            "objetos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-nu-j",
@@ -951,7 +899,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
+            "familia",
+            "relaciones",
             "procesos"
           ],
           "notes": []
@@ -975,8 +924,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "procesos",
+            "familia",
+            "relaciones",
             "abstractos"
           ],
           "notes": []
@@ -1014,7 +963,7 @@
           ],
           "semantic_fields": [
             "naturaleza",
-            "procesos",
+            "clima",
             "objetos"
           ],
           "notes": []
@@ -1114,8 +1063,8 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "procesos",
+            "botánica",
+            "alimentación",
             "objetos"
           ],
           "notes": []
