@@ -73,7 +73,9 @@
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: bablin «niño pequeño, infante» (BAB-L + -IN hipocorístico) reemplaza a bablen (DESCARTADO)."
+      ],
       "row_class": "lex-root-row",
       "words": [
         {
@@ -133,27 +135,31 @@
           ]
         },
         {
-          "id": "lexeme-bablen",
-          "form": "bablen",
-          "gloss": "toddler, infante",
-          "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
-          "analysis_text": "BAB-L + -EN",
+          "id": "lexeme-bablin",
+          "form": "bablin",
+          "gloss": "niño pequeño, infante",
+          "analysis_html": "BAB-L + <a class=\"morph-link\" href=\"#morph-in-hypocoristic\">-IN</a>",
+          "analysis_text": "BAB-L + -IN",
           "refs": [
             {
-              "id": "morph-en",
-              "label": "-EN"
+              "id": "morph-in-hypocoristic",
+              "label": "-IN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Animado EN"
+              "label": "Hipocorístico IN"
             }
           ],
           "semantic_fields": [
             "personas",
             "infancia",
             "edad"
+          ],
+          "notes": [
+            "CANÓNICO: bablin es el nominal hipocorístico para «niño pequeño, infante», a partir de BAB-L + -IN nominal afectivo.",
+            "DESCARTADO: bablen, forma anterior en -EN, incompatible con la designación humana infantil."
           ]
         },
         {
