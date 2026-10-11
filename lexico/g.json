@@ -11,11 +11,15 @@
         {
           "class": "nat-mod",
           "label": "Nat-mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "Etym. Latin quadrum, quadra → *KWAD-R → *GAD-R (KW- → G-)",
       "notes": [],
       "row_class": "",
       "words": [
