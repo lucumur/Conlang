@@ -16,10 +16,7 @@
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
-      "notes": [
-        "CANÓNICO: gadras «enmarcar (poner en un marco), encuadrar»; jogadras «cuadrar o ajustar cuentas y datos»; la antigua forma agadras «enmarcar» queda descartada por redundancia con gadras.",
-        "CANÓNICO: en gadrato, GADR + -AR (participio) + -O da una forma adaptada eufónicamente en -ato; fenómeno léxico particular, no regla fonológica general."
-      ],
+      "notes": [],
       "row_class": "",
       "words": [
         {
@@ -153,9 +150,7 @@
             "forma",
             "cualidades"
           ],
-          "notes": [
-            "CANÓNICO: participio citado como base de gadrato."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-gadrato",
@@ -185,7 +180,7 @@
             "medición"
           ],
           "notes": [
-            "CANÓNICO: gadrato «escuadra, regla» se interpreta a partir de gadrar (GADR + -AR participial) + -O, con adaptación eufónica que sustituye la terminación esperable -aro por -ato en esta palabra. No se ha establecido una regla fonética productiva general -aro > -ato."
+            "Derivado de gadrar (GADR + -AR participial) + -O, con adaptación eufónica particular; no se establece una regla general -aro > -ato."
           ]
         },
         {
@@ -216,7 +211,7 @@
             "figuras"
           ],
           "notes": [
-            "CANÓNICO: orgadro «cuadrado (de lados rectos)» emplea la base OR- de la raíz *OR-Θ «recto», combinada con GADR + -O. No se presupone una supresión universal de Θ ni que Θ sea un sufijo productivo. OR- coincide en forma con otras raíces *OR- del léxico; el contexto morfológico/semántico distingue las interpretaciones."
+            "Compuesto de OR- (base de *OR-Θ «recto») + GADR + -O; *-Θ no se analiza como sufijo productivo."
           ]
         }
       ]
