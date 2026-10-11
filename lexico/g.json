@@ -17,7 +17,8 @@
       "section": "sec-g",
       "etymology": null,
       "notes": [
-        "CANÓNICO: gadras «enmarcar (poner en un marco), encuadrar»; jogadras «cuadrar o ajustar cuentas y datos»; la antigua forma agadras «enmarcar» queda descartada por redundancia con gadras."
+        "CANÓNICO: gadras «enmarcar (poner en un marco), encuadrar»; jogadras «cuadrar o ajustar cuentas y datos»; la antigua forma agadras «enmarcar» queda descartada por redundancia con gadras.",
+        "CANÓNICO: en gadrato, GADR + -AR (participio) + -O da una forma adaptada eufónicamente en -ato; fenómeno léxico particular, no regla fonológica general."
       ],
       "row_class": "",
       "words": [
@@ -160,8 +161,8 @@
           "id": "lexeme-gadrato",
           "form": "gadrato",
           "gloss": "escuadra, regla",
-          "analysis_html": "GADR + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR (part.)</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a> → gadrato [?]",
-          "analysis_text": "GADR + -AR (participio) + -O → gadrato [alternancia pendiente]",
+          "analysis_html": "GADR + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR (part.)</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a> → gadrato (eufonía)",
+          "analysis_text": "GADR + -AR (participio) + -O → gadrato (adaptación eufónica)",
           "refs": [
             {
               "id": "morph-ar-2",
@@ -184,19 +185,19 @@
             "medición"
           ],
           "notes": [
-            "CANÓNICO: forma y significado gadrato «escuadra, regla». El usuario indica gadrar (participio) + -O, pero GADR + -AR + -O produciría gadraro sin otra regla; la alternancia -aro > -ato no está documentada y queda pendiente de explicación."
+            "CANÓNICO: gadrato «escuadra, regla» se interpreta a partir de gadrar (GADR + -AR participial) + -O, con adaptación eufónica que sustituye la terminación esperable -aro por -ato en esta palabra. No se ha establecido una regla fonética productiva general -aro > -ato."
           ]
         },
         {
           "id": "lexeme-orgadro",
           "form": "orgadro",
           "gloss": "cuadrado (de lados rectos)",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-ortheta\">ORΘ (OR-)</a> + GADR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "ORΘ (OR-) + GADR + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ortheta\">OR- (de *OR-Θ)</a> + GADR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "OR- (de *OR-Θ) + GADR + -O",
           "refs": [
             {
               "id": "root-ortheta",
-              "label": "ORΘ-"
+              "label": "OR-Θ"
             },
             {
               "id": "morph-o",
@@ -215,7 +216,7 @@
             "figuras"
           ],
           "notes": [
-            "CANÓNICO: orgadro «cuadrado» se deriva de ORΘ- «recto» y GADR-. La realización reducida OR- de ORΘ- en este compuesto no tiene todavía una regla documentada; podría confundirse con otras raíces *OR-."
+            "CANÓNICO: orgadro «cuadrado (de lados rectos)» emplea la base OR- de la raíz *OR-Θ «recto», combinada con GADR + -O. No se presupone una supresión universal de Θ ni que Θ sea un sufijo productivo. OR- coincide en forma con otras raíces *OR- del léxico; el contexto morfológico/semántico distingue las interpretaciones."
           ]
         }
       ]
