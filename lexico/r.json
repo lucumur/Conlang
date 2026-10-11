@@ -13,7 +13,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-rajdas",
+          "form": "rajdas",
+          "gloss": "montar",
+          "analysis_html": "RAJD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "RAJD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "transporte",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-raj-t",
@@ -34,7 +59,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-rajtol",
+          "form": "rajtol",
+          "gloss": "legitimo",
+          "analysis_html": "RAJT + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "RAJT + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "derechos",
+            "sociedad",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ram",
@@ -55,7 +106,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ramas",
+          "form": "ramas",
+          "gloss": "arrancar, halar",
+          "analysis_html": "RAM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "RAM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ramo",
+          "form": "ramo",
+          "gloss": "rama",
+          "analysis_html": "RAM + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "RAM + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acciones",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ramf",
@@ -76,7 +177,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ramfo",
+          "form": "ramfo",
+          "gloss": "guadaña",
+          "analysis_html": "RAMF + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "RAMF + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "forma",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ramp",
@@ -97,7 +224,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-rampa",
+          "form": "rampa",
+          "gloss": "arrastre",
+          "analysis_html": "RAMP + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "RAMP + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "fauna",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-rampos",
+          "form": "rampos",
+          "gloss": "arrastrarse",
+          "analysis_html": "RAMP + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "RAMP + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "fauna",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ran",
@@ -160,7 +338,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ravdos",
+          "form": "ravdos",
+          "gloss": "darse a la fuga",
+          "analysis_html": "RAVD + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "RAVD + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "velocidad",
+            "cualidades",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ravduk",
+          "form": "ravduk",
+          "gloss": "con velocidad",
+          "analysis_html": "RAVD + <a class=\"morph-link\" href=\"#morph-uk\">-UK</a>",
+          "analysis_text": "RAVD + -UK",
+          "refs": [
+            {
+              "id": "morph-uk",
+              "label": "-UK"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial UK"
+            }
+          ],
+          "semantic_fields": [
+            "velocidad",
+            "cualidades",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-rag",
@@ -181,7 +410,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-raĝa",
+          "form": "raĝa",
+          "gloss": "ira, colera, coraje",
+          "analysis_html": "RAĜ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "RAĜ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "conducta",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-raz",
@@ -198,7 +453,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-raẑo",
+          "form": "raẑo",
+          "gloss": "rayo, haz de luz",
+          "analysis_html": "RAẐ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "RAẐ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "luz",
+            "acciones",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-raẑas",
+          "form": "raẑas",
+          "gloss": "irradiar",
+          "analysis_html": "RAẐ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "RAẐ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "luz",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-re",
@@ -222,7 +527,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-recas",
+          "form": "recas",
+          "gloss": "regular",
+          "analysis_html": "REC + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "REC + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "orden",
+            "normas",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-rest",
@@ -234,7 +565,81 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-restas",
+          "form": "restas",
+          "gloss": "quitar",
+          "analysis_html": "REST + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "REST + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "procesos",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-restos",
+          "form": "restos",
+          "gloss": "quedar, quedarse",
+          "analysis_html": "REST + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "REST + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-restis",
+          "form": "restis",
+          "gloss": "estar yaciendo",
+          "analysis_html": "REST + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "REST + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-rev",
@@ -246,7 +651,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-revas",
+          "form": "revas",
+          "gloss": "imaginar, soñar",
+          "analysis_html": "REV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "REV + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "sueño",
+            "cognición",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-revos",
+          "form": "revos",
+          "gloss": "imaginar, soñar (intransitivo)",
+          "analysis_html": "REV + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "REV + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sueño",
+            "cognición",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-rid",
@@ -258,7 +714,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ridos",
+          "form": "ridos",
+          "gloss": "reirse",
+          "analysis_html": "RID + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "RID + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "sonido",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-rida",
+          "form": "rida",
+          "gloss": "risa",
+          "analysis_html": "RID + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "RID + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "sonido",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-rif",
@@ -270,7 +777,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-rifa",
+          "form": "rifa",
+          "gloss": "obstaculo, trampa-riesgo",
+          "analysis_html": "RIF + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "RIF + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "espacio",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-rip",
@@ -282,7 +815,108 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ripo",
+          "form": "ripo",
+          "gloss": "costilla",
+          "analysis_html": "RIP + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "RIP + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "espacio",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ripal",
+          "form": "ripal",
+          "gloss": "orilla, costa",
+          "analysis_html": "RIP + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "RIP + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "espacio",
+            "lugares"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ripel",
+          "form": "ripel",
+          "gloss": "costal, lateral",
+          "analysis_html": "RIP + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "RIP + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "espacio",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ripos",
+          "form": "ripos",
+          "gloss": "acostarse de lado",
+          "analysis_html": "RIP + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "RIP + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "espacio",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ris",
@@ -306,7 +940,107 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-riska",
+          "form": "riska",
+          "gloss": "riesgo, peligro",
+          "analysis_html": "RISK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "RISK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "peligro",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-riskos",
+          "form": "riskos",
+          "gloss": "atreverse",
+          "analysis_html": "RISK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "RISK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "peligro",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-riskes",
+          "form": "riskes",
+          "gloss": "Estar en peligro, peligrar",
+          "analysis_html": "RISK + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "RISK + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "peligro",
+            "procesos",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-riskel",
+          "form": "riskel",
+          "gloss": "riesgoso, peligroso",
+          "analysis_html": "RISK + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "RISK + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "peligro",
+            "procesos",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-riv",
@@ -318,7 +1052,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-rivos",
+          "form": "rivos",
+          "gloss": "fluir, llevar corriente",
+          "analysis_html": "RIV + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "RIV + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "agua",
+            "movimiento",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-rive",
+          "form": "rive",
+          "gloss": "liquido, fluido",
+          "analysis_html": "RIV + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "RIV + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "agua",
+            "movimiento",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-rivol",
+          "form": "rivol",
+          "gloss": "ser fluido, liquido",
+          "analysis_html": "RIV + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "RIV + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "agua",
+            "movimiento",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ric",
@@ -330,7 +1140,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-riĉa",
+          "form": "riĉa",
+          "gloss": "riqueza",
+          "analysis_html": "RIĈ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "RIĈ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "finanzas",
+            "cualidades",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-riĉol",
+          "form": "riĉol",
+          "gloss": "rico",
+          "analysis_html": "RIĈ + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "RIĈ + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "finanzas",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-riz",
@@ -342,7 +1202,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-riẑo",
+          "form": "riẑo",
+          "gloss": "raiz",
+          "analysis_html": "RIẐ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "RIẐ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "plantas",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-riẑa",
+          "form": "riẑa",
+          "gloss": "raiz, etimologia",
+          "analysis_html": "RIẐ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "RIẐ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "plantas",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-rob",
@@ -371,7 +1282,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-romel",
+          "form": "romel",
+          "gloss": "romano",
+          "analysis_html": "ROM + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "ROM + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "cultura",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-rom-2",
@@ -405,7 +1342,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-rondol",
+          "form": "rondol",
+          "gloss": "redondo",
+          "analysis_html": "ROND + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ROND + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "geometría",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-rondo",
+          "form": "rondo",
+          "gloss": "circulo",
+          "analysis_html": "ROND + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ROND + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "geometría",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-rondas",
+          "form": "rondas",
+          "gloss": "rodear, acorralar",
+          "analysis_html": "ROND + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ROND + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "geometría",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ronk",
@@ -417,7 +1430,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ronkos",
+          "form": "ronkos",
+          "gloss": "roncar",
+          "analysis_html": "RONK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "RONK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "cuerpo",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ronkes",
+          "form": "ronkes",
+          "gloss": "estar ronco",
+          "analysis_html": "RONK + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "RONK + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "cuerpo",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ronka",
+          "form": "ronka",
+          "gloss": "ronquido",
+          "analysis_html": "RONK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "RONK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "cuerpo",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-rong",
@@ -432,7 +1521,32 @@
         "CANÓNICO: en ronceren aparece RON- como alomorfo compositivo de *RON-Ĝ."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ronĝas",
+          "form": "ronĝas",
+          "gloss": "roer",
+          "analysis_html": "RONĜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "RONĜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "alimentación"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ros",
@@ -491,7 +1605,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-rujnas",
+          "form": "rujnas",
+          "gloss": "destruir, arruinar",
+          "analysis_html": "RUJN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "RUJN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "cambio",
+            "destrucción",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-run",
@@ -512,7 +1652,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-runo",
+          "form": "runo",
+          "gloss": "signo",
+          "analysis_html": "RUN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "RUN + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "signos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-rur",
@@ -536,7 +1702,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ruksos",
+          "form": "ruksos",
+          "gloss": "eructar",
+          "analysis_html": "RUKS + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "RUKS + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ruksa",
+          "form": "ruksa",
+          "gloss": "eructo",
+          "analysis_html": "RUKS + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "RUKS + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ruz",
@@ -548,7 +1764,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ruza",
+          "form": "ruza",
+          "gloss": "truco, treta, estratagema",
+          "analysis_html": "RUZ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "RUZ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "cualidades",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ruzeẑa",
+          "form": "ruzeẑa",
+          "gloss": "astucia, sagacidad",
+          "analysis_html": "RUZ + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "RUZ + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "cualidades",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }
