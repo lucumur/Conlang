@@ -1036,7 +1036,36 @@
       "notes": [
         "CANÓNICO: -IN es el adjetivo-participio de voz absolutiva-pasiva para referentes animantes humanos.",
         "Combina valor participial y adjetival.",
-        "Forma una serie paralela con -IR para animantes no humanos y -IL para referentes objetuales."
+        "Forma una serie paralela con -IR para animantes no humanos y -IL para referentes objetuales.",
+        "CANÓNICO: existe otro -IN homónimo de uso hipocorístico nominal (morph-in-hypocoristic), diferente de este -IN participial humano."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-in-hypocoristic",
+      "form": "*-IN",
+      "gloss": "hipocorístico nominal frecuente con niños y humanoides fantásticos",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "hipocorístico"
+        },
+        {
+          "class": "generic",
+          "label": "humanoide"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -IN nominal hipocorístico es habitual (no obligatorio) en nombres de niños y humanoides fantásticos.",
+        "Morfema homónimo del -IN adjetivo-participial humano (morph-in), pero de valor nominal afectivo distinto.",
+        "Ejemplo: koblin «duende»; para referentes venerables puede utilizarse -UN: koblun."
       ],
       "row_class": ""
     },
@@ -3569,7 +3598,7 @@
     {
       "id": "morph-un-parahuman",
       "form": "*-UN",
-      "gloss": "sustantivante parahumano; frecuente en dioses y entidades de estatus humanoide/sobrehumano",
+      "gloss": "sustantivante parahumano; frecuente con dioses, seres sobrehumanos y humanoides venerables",
       "tags": [
         {
           "class": "generic",
@@ -3590,7 +3619,8 @@
       "notes": [
         "CANÓNICO: -UN forma sustantivos parahumanos.",
         "Es especialmente frecuente en nombres o designaciones de dioses y entidades antropomorfas/sobrehumanas.",
-        "Atestiguado en erun «Eros, Cupido»."
+        "Atestiguado en erun «Eros, Cupido».",
+        "CANÓNICO: -UN puede marcar seres humanoides fantásticos venerables, frente al uso frecuente de -IN nominal hipocorístico para humanoides y niños. Ninguno es obligatorio para todos los referentes."
       ],
       "row_class": ""
     },
