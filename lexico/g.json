@@ -1333,25 +1333,361 @@
       "id": "root-gard",
       "form": "*GARD-",
       "gloss": "observar, guardar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. gardi, del Fr. garder.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-oksgardas",
+          "form": "oksgardas",
+          "gloss": "observar",
+          "analysis_html": "OKS- (función pendiente) + GARD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "OKS- (función pendiente) + GARD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "percepción",
+            "visión",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gardas",
+          "form": "gardas",
+          "gloss": "guardar, cuidar",
+          "analysis_html": "GARD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GARD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "seguridad",
+            "acciones",
+            "conservación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-longardas",
+          "form": "longardas",
+          "gloss": "conservar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-long\">LON- (de *LON-G)</a> + GARD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LON- (de *LON-G) + GARD + -AS",
+          "refs": [
+            {
+              "id": "root-long",
+              "label": "LON- (de *LON-G)"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "conservación",
+            "acciones",
+            "tiempo"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nugardas",
+          "form": "nugardas",
+          "gloss": "volver a ver",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-nu-j\">NU- (de *NU-J)</a> + GARD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "NU- (de *NU-J) + GARD + -AS",
+          "refs": [
+            {
+              "id": "root-nu-j",
+              "label": "NU- (de *NU-J)"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "percepción",
+            "visión",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gardistan",
+          "form": "gardistan",
+          "gloss": "guardián",
+          "analysis_html": "GARD + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "GARD + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "oficios",
+            "seguridad"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gas",
-      "form": "*GAS-",
-      "gloss": "recibir",
-      "tags": [],
+      "form": "*GASP-",
+      "gloss": "recibir huéspedes, hospedar",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. gasto, del Al. Gast.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gaspas",
+          "form": "gaspas",
+          "gloss": "recibir de huéspedes",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GASP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "interacción",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gaspos",
+          "form": "gaspos",
+          "gloss": "hospedarse",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "GASP + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "vivienda",
+            "acciones",
+            "viajes"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gaspron",
+          "form": "gaspron",
+          "gloss": "huésped, extranjero",
+          "analysis_html": "GASP + -R- (extensión por precisar) + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "GASP + -R- (extensión por precisar) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "viajes",
+            "sociedad"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gaspan",
+          "form": "gaspan",
+          "gloss": "hospedador, anfitrión",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "GASP + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "oficios",
+            "servicios"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gaspal",
+          "form": "gaspal",
+          "gloss": "recepción (lugar)",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "GASP + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "lugares",
+            "servicios",
+            "vivienda"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gaspa",
+          "form": "gaspa",
+          "gloss": "recepción, recibimiento",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GASP + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "interacción",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gaspera",
+          "form": "gaspera",
+          "gloss": "hospedaje",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GASP + -ER + -A",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "vivienda",
+            "servicios",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gat-r",
