@@ -1708,16 +1708,211 @@
       "etymology": "< Eo. kvar.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gatrol",
+          "form": "gatrol",
+          "gloss": "cuarto (ordinal)",
+          "analysis_html": "GATR + -OL (ordinal lexicalizado)",
+          "analysis_text": "GATR + -OL (ordinal lexicalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral ordinal"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "orden",
+            "matemáticas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gatrom",
+          "form": "gatrom",
+          "gloss": "cuádruple",
+          "analysis_html": "GATR + <a class=\"morph-link\" href=\"#morph-om-quant\">-OM</a>",
+          "analysis_text": "GATR + -OM",
+          "refs": [
+            {
+              "id": "morph-om-quant",
+              "label": "-OM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral multiplicativo"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gatravol",
+          "form": "gatravol",
+          "gloss": "cuarta parte",
+          "analysis_html": "GATR + -AVOL (fraccionario lexicalizado)",
+          "analysis_text": "GATR + -AVOL (fraccionario lexicalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral fraccionario"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gatre",
+          "form": "gatre",
+          "gloss": "cuatro",
+          "analysis_html": "GATR + -E (forma numeral)",
+          "analysis_text": "GATR + -E (forma numeral)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gatreẑe",
+          "form": "gatreẑe",
+          "gloss": "cuarenta",
+          "analysis_html": "GATR + -E (numeral) + <a class=\"morph-link\" href=\"#morph-zhe-decades\">-ẐE</a>",
+          "analysis_text": "GATR + -E (numeral) + -ẐE",
+          "refs": [
+            {
+              "id": "morph-zhe-decades",
+              "label": "-ẐE"
+            },
+            {
+              "id": "root-dez-num",
+              "label": "DEẐ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gatreẑente",
+          "form": "gatreẑente",
+          "gloss": "cuatrocientos",
+          "analysis_html": "GATR + -E (numeral) + <a class=\"morph-link\" href=\"#root-zen-2\">ẐENT</a> + -E (numeral)",
+          "analysis_text": "GATR + -E (numeral) + ẐENT + -E (numeral)",
+          "refs": [
+            {
+              "id": "root-zen-2",
+              "label": "ẐENT"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gatrecile",
+          "form": "gatrecile",
+          "gloss": "cuatro mil",
+          "analysis_html": "GATR + -E (numeral) + <a class=\"morph-link\" href=\"#root-cil\">CIL</a> + -E (numeral)",
+          "analysis_text": "GATR + -E (numeral) + CIL + -E (numeral)",
+          "refs": [
+            {
+              "id": "root-cil",
+              "label": "CIL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gatremegle",
+          "form": "gatremegle",
+          "gloss": "cuatro millones",
+          "analysis_html": "GATR + -E (numeral) + <a class=\"morph-link\" href=\"#root-meg\">MEG</a> + -LE (forma numeral lexicalizada)",
+          "analysis_text": "GATR + -E (numeral) + MEG + -LE (forma numeral lexicalizada)",
+          "refs": [
+            {
+              "id": "root-meg",
+              "label": "MEG"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gaz",
       "form": "*GAZ-",
       "gloss": "pasto",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. gazono.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1743,6 +1938,56 @@
             "fauna",
             "alimentación",
             "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gaze",
+          "form": "gaze",
+          "gloss": "pasto",
+          "analysis_html": "GAZ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GAZ + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "flora",
+            "naturaleza",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gaznol",
+          "form": "gaznol",
+          "gloss": "verde, herbáceo",
+          "analysis_html": "GAZ + -N- (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "GAZ + -N- (extensión lexicalizada) + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "flora",
+            "cualidades",
+            "colores"
           ],
           "notes": []
         }
