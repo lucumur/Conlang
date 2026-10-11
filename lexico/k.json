@@ -69,7 +69,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kajsas",
+          "form": "kajsas",
+          "gloss": "imperar, imponer",
+          "analysis_html": "KAJS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KAJS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kal",
@@ -213,7 +238,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kalko",
+          "form": "kalko",
+          "gloss": "copa",
+          "analysis_html": "KALK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KALK + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kal-z",
@@ -254,7 +304,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kampen",
+          "form": "kampen",
+          "gloss": "campo",
+          "analysis_html": "KAMP + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "KAMP + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "fauna",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kand",
@@ -271,7 +347,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kandol",
+          "form": "kandol",
+          "gloss": "blanco, candido",
+          "analysis_html": "KAND + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "KAND + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kanga",
@@ -312,7 +413,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kantas",
+          "form": "kantas",
+          "gloss": "cantar",
+          "analysis_html": "KANT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KANT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "arte",
+            "sonido",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kanta",
+          "form": "kanta",
+          "gloss": "canto, cancion",
+          "analysis_html": "KANT + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KANT + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "arte",
+            "sonido",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kap",
@@ -324,7 +476,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kapon",
+          "form": "kapon",
+          "gloss": "capitan, lider, cabecilla",
+          "analysis_html": "KAP + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "KAP + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "personas",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kapol",
+          "form": "kapol",
+          "gloss": "cabezón",
+          "analysis_html": "KAP + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "KAP + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cualidades",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kapel",
+          "form": "kapel",
+          "gloss": "de la cabeza",
+          "analysis_html": "KAP + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "KAP + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cualidades",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kap-n",
@@ -336,7 +564,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kapne",
+          "form": "kapne",
+          "gloss": "dioxido de carbono",
+          "analysis_html": "KAPN + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "KAPN + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "sustancias",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kap-r",
@@ -360,7 +614,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-karas",
+          "form": "karas",
+          "gloss": "querer, apreciar",
+          "analysis_html": "KAR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KAR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kara",
+          "form": "kara",
+          "gloss": "afecto",
+          "analysis_html": "KAR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KAR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "abstractos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-karap",
@@ -377,7 +682,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-karapo",
+          "form": "karapo",
+          "gloss": "caparazon",
+          "analysis_html": "KARAP + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KARAP + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-karb",
@@ -459,7 +789,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kaĉas",
+          "form": "kaĉas",
+          "gloss": "capturar, captar",
+          "analysis_html": "KAĈ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KAĈ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kas",
@@ -471,7 +826,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kaŝas",
+          "form": "kaŝas",
+          "gloss": "esconder",
+          "analysis_html": "KAŜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KAŜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kaŝo",
+          "form": "kaŝo",
+          "gloss": "caja",
+          "analysis_html": "KAŜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KAŜ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ker",
@@ -495,7 +900,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kerno",
+          "form": "kerno",
+          "gloss": "semilla gruesa, nuez",
+          "analysis_html": "KERN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KERN + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kernel",
+          "form": "kernel",
+          "gloss": "central",
+          "analysis_html": "KERN + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "KERN + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kest",
@@ -507,7 +962,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kestas",
+          "form": "kestas",
+          "gloss": "conquistar",
+          "analysis_html": "KEST + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KEST + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "sociedad",
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kestos",
+          "form": "kestos",
+          "gloss": "seguir una mision, buscar",
+          "analysis_html": "KEST + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "KEST + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "sociedad",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kir",
@@ -519,7 +1025,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kiras",
+          "form": "kiras",
+          "gloss": "adquirir, comprar",
+          "analysis_html": "KIR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KIR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kira",
+          "form": "kira",
+          "gloss": "adquisicion, compra",
+          "analysis_html": "KIR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KIR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "abstractos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kiro",
+          "form": "kiro",
+          "gloss": "adquisicion, compra",
+          "analysis_html": "KIR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KIR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kirk",
@@ -531,7 +1113,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kirko",
+          "form": "kirko",
+          "gloss": "Iglesia",
+          "analysis_html": "KIRK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KIRK + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "sociedad",
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-klad",
@@ -543,7 +1151,56 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-klada",
+          "form": "klada",
+          "gloss": "tipo, especie",
+          "analysis_html": "KLAD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KLAD + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "abstractos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kladas",
+          "form": "kladas",
+          "gloss": "clasificar",
+          "analysis_html": "KLAD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KLAD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-klak",
@@ -555,7 +1212,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-klakas",
+          "form": "klakas",
+          "gloss": "escribir a maquina",
+          "analysis_html": "KLAK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KLAK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "movimiento",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-klaka",
+          "form": "klaka",
+          "gloss": "tecleo",
+          "analysis_html": "KLAK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KLAK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "abstractos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-klakos",
+          "form": "klakos",
+          "gloss": "claquear, sonido clac",
+          "analysis_html": "KLAK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "KLAK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "procesos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-klam",
@@ -567,7 +1300,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-klamas",
+          "form": "klamas",
+          "gloss": "declamar, reclamar, proclamar",
+          "analysis_html": "KLAM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KLAM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "naturaleza",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-klar",
@@ -579,7 +1338,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-klaras",
+          "form": "klaras",
+          "gloss": "declarar, confirmar, afirmar",
+          "analysis_html": "KLAR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KLAR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "naturaleza",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-klav",
@@ -591,7 +1376,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-klavo",
+          "form": "klavo",
+          "gloss": "llave",
+          "analysis_html": "KLAV + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KLAV + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-klavas",
+          "form": "klavas",
+          "gloss": "cerrar",
+          "analysis_html": "KLAV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KLAV + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "objetos",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kler",
@@ -603,7 +1439,56 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kleras",
+          "form": "kleras",
+          "gloss": "educar",
+          "analysis_html": "KLER + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KLER + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kleris",
+          "form": "kleris",
+          "gloss": "estar educado",
+          "analysis_html": "KLER + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "KLER + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-klic",
@@ -627,7 +1512,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kloko",
+          "form": "kloko",
+          "gloss": "capa",
+          "analysis_html": "KLOK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KLOK + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "sonido",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-klomb",
@@ -651,7 +1562,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-klonŝos",
+          "form": "klonŝos",
+          "gloss": "tolonear",
+          "analysis_html": "KLONŜ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "KLONŜ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "procesos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-klonŝo",
+          "form": "klonŝo",
+          "gloss": "campana",
+          "analysis_html": "KLONŜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KLONŜ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "sonido",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-klos",
@@ -675,7 +1637,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-klupas",
+          "form": "klupas",
+          "gloss": "esculpir",
+          "analysis_html": "KLUP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KLUP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-knid",
@@ -704,7 +1692,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-koblon",
+          "form": "koblon",
+          "gloss": "duende",
+          "analysis_html": "KOBL + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "KOBL + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kojn",
@@ -716,7 +1729,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kojnura",
+          "form": "kojnura",
+          "gloss": "chiquero, suciedad",
+          "analysis_html": "KOJN + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "KOJN + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "abstractos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kok",
@@ -805,7 +1844,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kolpo",
+          "form": "kolpo",
+          "gloss": "regazo",
+          "analysis_html": "KOLP + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KOLP + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kom",
@@ -817,7 +1881,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-komas",
+          "form": "komas",
+          "gloss": "peinar",
+          "analysis_html": "KOM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KOM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-komik",
@@ -834,7 +1923,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-komikisma",
+          "form": "komikisma",
+          "gloss": "comedia",
+          "analysis_html": "KOMIK + <a class=\"morph-link\" href=\"#morph-isma\">-ISMA</a>",
+          "analysis_text": "KOMIK + -ISMA",
+          "refs": [
+            {
+              "id": "morph-isma",
+              "label": "-ISMA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sistema ISMA"
+            }
+          ],
+          "semantic_fields": [
+            "sociedad",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kon",
@@ -846,7 +1960,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-konas",
+          "form": "konas",
+          "gloss": "conocer, saber",
+          "analysis_html": "KON + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KON + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-konc",
@@ -872,7 +2011,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kontas",
+          "form": "kontas",
+          "gloss": "narrar, contar",
+          "analysis_html": "KONT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KONT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kopl",
@@ -889,7 +2053,56 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kopla",
+          "form": "kopla",
+          "gloss": "pareja",
+          "analysis_html": "KOPL + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KOPL + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "abstractos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-koplas",
+          "form": "koplas",
+          "gloss": "emparejar, empatar",
+          "analysis_html": "KOPL + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KOPL + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kor",
@@ -913,7 +2126,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kordo",
+          "form": "kordo",
+          "gloss": "corazon",
+          "analysis_html": "KORD + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KORD + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-korp",
@@ -925,7 +2164,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-korpo",
+          "form": "korpo",
+          "gloss": "cuerpo",
+          "analysis_html": "KORP + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KORP + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kort",
@@ -995,7 +2260,56 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kozas",
+          "form": "kozas",
+          "gloss": "causar",
+          "analysis_html": "KOZ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KOZ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-koza",
+          "form": "koza",
+          "gloss": "causa",
+          "analysis_html": "KOZ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KOZ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "abstractos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kos",
@@ -1007,7 +2321,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-koŝo",
+          "form": "koŝo",
+          "gloss": "cadera",
+          "analysis_html": "KOŜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KOŜ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-krac",
@@ -1019,7 +2359,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kracos",
+          "form": "kracos",
+          "gloss": "crujir",
+          "analysis_html": "KRAC + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "KRAC + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "sonido",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-krad",
@@ -1031,7 +2397,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-krado",
+          "form": "krado",
+          "gloss": "reja",
+          "analysis_html": "KRAD + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KRAD + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kramp",
@@ -1043,7 +2434,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-krampo",
+          "form": "krampo",
+          "gloss": "grapa, bracket, clamp",
+          "analysis_html": "KRAMP + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KRAMP + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-krang",
@@ -1055,7 +2472,56 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-krangos",
+          "form": "krangos",
+          "gloss": "hacer pum, bang",
+          "analysis_html": "KRANG + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "KRANG + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-krangas",
+          "form": "krangas",
+          "gloss": "disparar",
+          "analysis_html": "KRANG + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KRANG + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kras",
@@ -1067,7 +2533,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kraŝos",
+          "form": "kraŝos",
+          "gloss": "chocar",
+          "analysis_html": "KRAŜ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "KRAŜ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "procesos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kraŝa",
+          "form": "kraŝa",
+          "gloss": "choque",
+          "analysis_html": "KRAŜ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KRAŜ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "abstractos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kret",
@@ -1091,7 +2608,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kria",
+          "form": "kria",
+          "gloss": "grito",
+          "analysis_html": "KRI + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KRI + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "sonido",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kric",
@@ -1103,7 +2646,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kriĉos",
+          "form": "kriĉos",
+          "gloss": "chirriar",
+          "analysis_html": "KRIĈ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "KRIĈ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "procesos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kro",
@@ -1127,7 +2696,56 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-krono",
+          "form": "krono",
+          "gloss": "corona",
+          "analysis_html": "KRON + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KRON + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kronas",
+          "form": "kronas",
+          "gloss": "coronar",
+          "analysis_html": "KRON + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KRON + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-krud",
@@ -1139,7 +2757,56 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kruda",
+          "form": "kruda",
+          "gloss": "crudeza, crueldad",
+          "analysis_html": "KRUD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KRUD + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "abstractos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-krudol",
+          "form": "krudol",
+          "gloss": "cruel",
+          "analysis_html": "KRUD + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "KRUD + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ksip",
@@ -1156,7 +2823,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ksipas",
+          "form": "ksipas",
+          "gloss": "embarcar. enviar por mar",
+          "analysis_html": "KSIP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KSIP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kun",
@@ -1204,7 +2897,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kursos",
+          "form": "kursos",
+          "gloss": "correr",
+          "analysis_html": "KURS + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "KURS + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "procesos",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kursas",
+          "form": "kursas",
+          "gloss": "cursar, recorrer",
+          "analysis_html": "KURS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KURS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acciones",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kursa",
+          "form": "kursa",
+          "gloss": "carrera, curso (educativo)",
+          "analysis_html": "KURS + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "KURS + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "abstractos",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-kug",
@@ -1233,7 +3002,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kuŝes",
+          "form": "kuŝes",
+          "gloss": "estar acostado",
+          "analysis_html": "KUŜ + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "KUŜ + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "descripción"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }
