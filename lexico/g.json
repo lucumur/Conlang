@@ -405,13 +405,21 @@
       "gloss": "bilis",
       "tags": [
         {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
           "class": "anglo",
           "label": "Anglo"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
         }
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. galo; cf. Al. Galle, Eng. gall.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -437,6 +445,246 @@
             "salud",
             "anatomía",
             "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-galdranos",
+          "form": "galdranos",
+          "gloss": "enojarse",
+          "analysis_html": "galera-nos → galdranos (apócope)",
+          "analysis_text": "galera-nos → galdranos (apócope; -NOS no documentado)",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado (análisis pendiente)"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "procesos",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-galeris",
+          "form": "galeris",
+          "gloss": "estar enojado",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "GAL + -ER + -IS",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "conducta"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-galerin",
+          "form": "galerin",
+          "gloss": "enojado",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "GAL + -ER + -IN",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio IN"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-galera",
+          "form": "galera",
+          "gloss": "enojo, cólera",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GAL + -ER + -A",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-galerol",
+          "form": "galerol",
+          "gloss": "enojón, colérico, corajudo",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "GAL + -ER + -OL",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "cualidades",
+            "conducta"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-galeruk",
+          "form": "galeruk",
+          "gloss": "con coraje",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-uk\">-UK</a>",
+          "analysis_text": "GAL + -ER + -UK",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-uk",
+              "label": "-UK"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial UK"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "acciones",
+            "conducta"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nergala",
+          "form": "nergala",
+          "gloss": "melancolía, tristeza expresiva",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ner\">NER</a> + GAL + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NER + GAL + -A",
+          "refs": [
+            {
+              "id": "root-ner",
+              "label": "NER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-galvezo",
+          "form": "galvezo",
+          "gloss": "vesícula biliar",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#root-vez\">VEZ</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GAL + VEZ + -O",
+          "refs": [
+            {
+              "id": "root-vez",
+              "label": "VEZ"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "salud",
+            "cuerpo"
           ],
           "notes": []
         }
