@@ -1816,13 +1816,9 @@
           "id": "lexeme-ronceren",
           "form": "ronceren",
           "gloss": "capibara",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-rong\">RON-Ĝ</a> (alomorfo compositivo RON) + CER + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
-          "analysis_text": "RON-Ĝ (alomorfo compositivo RON) + CER + -EN",
+          "analysis_html": "RON-Ĝ (base histórica descartada; RON- compositivo) + CER + <a class=\"morph-link\" href=\"#morph-en\">-EN</a> [PROVISIONAL]",
+          "analysis_text": "RON-Ĝ (base histórica descartada; RON- compositivo) + CER + -EN [PROVISIONAL]",
           "refs": [
-            {
-              "id": "root-rong",
-              "label": "RON-Ĝ"
-            },
             {
               "id": "morph-en",
               "label": "-EN"
@@ -1836,6 +1832,10 @@
             {
               "class": "generic",
               "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Provisional"
             }
           ],
           "semantic_fields": [
@@ -1844,7 +1844,7 @@
             "fauna"
           ],
           "notes": [
-            "CANÓNICO: ronceren se segmenta como RON-Ĝ (alomorfo compositivo RON-) + CER + -EN."
+            "PROVISIONAL: ronceren «capibara» aparece en el análisis histórico RON-Ĝ (alomorfo RON-) + CER + -EN. La base *RON-Ĝ ya no es canónica: fue sustituida por *ROĜ- «roer». Falta decidir una derivación actual; no se presupone equivalencia morfológica automática."
           ]
         },
         {
