@@ -18,7 +18,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝadas",
+          "form": "ŝadas",
+          "gloss": "persuadir",
+          "analysis_html": "ŜAD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ŜAD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-saj",
@@ -42,7 +67,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝajneẑa",
+          "form": "ŝajneẑa",
+          "gloss": "apariencia, look",
+          "analysis_html": "ŜAJN + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "ŜAJN + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "apariencia",
+            "percepción",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-sam",
@@ -54,7 +105,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝame",
+          "form": "ŝame",
+          "gloss": "espuma",
+          "analysis_html": "ŜAM + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ŜAM + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "agua",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-san-2",
@@ -83,7 +159,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝapol",
+          "form": "ŝapol",
+          "gloss": "jabonoso",
+          "analysis_html": "ŜAP + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ŜAP + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "limpieza",
+            "sustancias",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ŝapas",
+          "form": "ŝapas",
+          "gloss": "enjuagar con jabon",
+          "analysis_html": "ŜAP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ŜAP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "limpieza",
+            "sustancias",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-sat-3",
@@ -95,7 +222,107 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝatas",
+          "form": "ŝatas",
+          "gloss": "encantar, gustar",
+          "analysis_html": "ŜAT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ŜAT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ŝatis",
+          "form": "ŝatis",
+          "gloss": "estar encantado",
+          "analysis_html": "ŜAT + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "ŜAT + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "acciones",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ŝatol",
+          "form": "ŝatol",
+          "gloss": "guapo, bello",
+          "analysis_html": "ŜAT + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ŜAT + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "acciones",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ŝata",
+          "form": "ŝata",
+          "gloss": "encanto, carisma",
+          "analysis_html": "ŜAT + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ŜAT + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-sav-2",
@@ -124,7 +351,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝelo",
+          "form": "ŝelo",
+          "gloss": "piel",
+          "analysis_html": "ŜEL + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ŜEL + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ŝelas",
+          "form": "ŝelas",
+          "gloss": "pelar",
+          "analysis_html": "ŜEL + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ŜEL + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-sen-2",
@@ -136,7 +414,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝena",
+          "form": "ŝena",
+          "gloss": "escena",
+          "analysis_html": "ŜEN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ŜEN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "teatro",
+            "artes",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ser-l",
@@ -153,7 +457,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝerla",
+          "form": "ŝerla",
+          "gloss": "pelea, pleito",
+          "analysis_html": "ŜERL + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ŜERL + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "combate",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ŝerlos",
+          "form": "ŝerlos",
+          "gloss": "pelearse",
+          "analysis_html": "ŜERL + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ŜERL + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "combate",
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-sevd",
@@ -219,7 +574,33 @@
         "ABIERTO: el valor semántico preciso y la productividad general de ese uso prefijado todavía no se han definido."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝile",
+          "form": "ŝile",
+          "gloss": "madera",
+          "analysis_html": "ŜIL + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ŜIL + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "madera",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-sim-2",
@@ -248,7 +629,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝipuk",
+          "form": "ŝipuk",
+          "gloss": "abordo",
+          "analysis_html": "ŜIP + <a class=\"morph-link\" href=\"#morph-uk\">-UK</a>",
+          "analysis_text": "ŜIP + -UK",
+          "refs": [
+            {
+              "id": "morph-uk",
+              "label": "-UK"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial UK"
+            }
+          ],
+          "semantic_fields": [
+            "transportes",
+            "mar",
+            "descripción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ŝipas",
+          "form": "ŝipas",
+          "gloss": "abordar",
+          "analysis_html": "ŜIP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ŜIP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "transportes",
+            "mar",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-spik",
@@ -284,7 +716,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝkapas",
+          "form": "ŝkapas",
+          "gloss": "evitar",
+          "analysis_html": "ŜKAP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ŜKAP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-sor-2",
@@ -443,7 +900,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝulto",
+          "form": "ŝulto",
+          "gloss": "hombro",
+          "analysis_html": "ŜULT + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ŜULT + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ŝultas",
+          "form": "ŝultas",
+          "gloss": "lanzar con el brazo",
+          "analysis_html": "ŜULT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ŜULT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-su",
@@ -467,7 +975,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝuŝos",
+          "form": "ŝuŝos",
+          "gloss": "ventear",
+          "analysis_html": "ŜUŜ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ŜUŜ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "agua",
+            "movimiento",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-su-2",
@@ -484,7 +1018,8 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "kind": "other"
+      "kind": "other",
+      "words": []
     },
     {
       "id": "root-svit",
@@ -496,7 +1031,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝvitos",
+          "form": "ŝvitos",
+          "gloss": "sudar",
+          "analysis_html": "ŜVIT + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ŜVIT + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "salud",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ŝvite",
+          "form": "ŝvite",
+          "gloss": "sudor",
+          "analysis_html": "ŜVIT + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ŜVIT + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "salud",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ŝvitol",
+          "form": "ŝvitol",
+          "gloss": "sudoroso",
+          "analysis_html": "ŜVIT + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ŜVIT + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "salud",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }
