@@ -1877,6 +1877,29 @@
       "row_class": ""
     },
     {
+      "id": "morph-u-venerable",
+      "form": "*-U",
+      "gloss": "venerable; dioses y abstractos humanizados",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "venerable"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -U marca referentes venerables: dioses y abstractos humanizados.",
+        "Atestiguado en geu «Gaia, la Tierra»."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-uc",
       "form": "*-UC-",
       "gloss": "peyorativo",

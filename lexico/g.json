@@ -2008,7 +2008,7 @@
     {
       "id": "root-ge",
       "form": "*GE-",
-      "gloss": "Gaia",
+      "gloss": "Gaia, la tierra",
       "tags": [
         {
           "class": "griego",
@@ -2017,10 +2017,73 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. geo- (geologio, geografio, geometrio), del Gr. γῆ / γαῖα «tierra» (dór. γᾶ); sin etimología indoeuropea segura, probablemente pregriega.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-geu",
+          "form": "geu",
+          "gloss": "Gaia, la Tierra (personificada)",
+          "analysis_html": "GE + <a class=\"morph-link\" href=\"#morph-u-venerable\">-U</a>",
+          "analysis_text": "GE + -U",
+          "refs": [
+            {
+              "id": "morph-u-venerable",
+              "label": "-U"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Venerable U"
+            }
+          ],
+          "semantic_fields": [
+            "divinidades",
+            "mitología",
+            "naturaleza"
+          ],
+          "notes": [
+            "-U venerable: la tierra como entidad divina o abstracto humanizado."
+          ]
+        },
+        {
+          "id": "lexeme-gezuda",
+          "form": "geẑuda",
+          "gloss": "geología",
+          "analysis_html": "GE + <a class=\"morph-link\" href=\"#root-zud\">ẐUD</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GE + ẐUD + -A",
+          "refs": [
+            {
+              "id": "root-zud",
+              "label": "ẐUD"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "geología",
+            "disciplinas",
+            "educación"
+          ],
+          "notes": [
+            "Literalmente «estudio de la tierra»; calco del modelo greco-latino geo-logia."
+          ]
+        }
+      ]
     },
     {
       "id": "root-gek",
