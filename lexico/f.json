@@ -973,7 +973,9 @@
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: falken «halcón» con -EN animado no humano; falkin queda descartado."
+      ],
       "row_class": "",
       "words": [
         {
@@ -2284,7 +2286,9 @@
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: fiŝen «pez» con -EN animado no humano; fiŝin queda descartado."
+      ],
       "row_class": "",
       "words": [
         {
@@ -2311,6 +2315,33 @@
             "acciones"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-fiŝen",
+          "form": "fiŝen",
+          "gloss": "pez",
+          "analysis_html": "FIŜ + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "FIŜ + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "acuáticos"
+          ],
+          "notes": [
+            "CANÓNICO: fiŝen sustituye al antiguo fiŝin de Tana; -IN no se usa para el nombre de este animal."
+          ]
         }
       ]
     },
@@ -2819,6 +2850,56 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-fliẑis",
+          "form": "fliẑis",
+          "gloss": "feliz",
+          "analysis_html": "FLIẐ + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "FLIẐ + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fliẑa",
+          "form": "fliẑa",
+          "gloss": "felicidad",
+          "analysis_html": "FLIẐ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FLIẐ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "cualidades",
+            "abstractos"
+          ],
+          "notes": []
         }
       ]
     },
@@ -3029,7 +3110,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fokas",
+          "form": "fokas",
+          "gloss": "enfocar; dirigir la mirada",
+          "analysis_html": "FOK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FOK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "visión",
+            "acciones",
+            "atención"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fokos",
+          "form": "fokos",
+          "gloss": "enfocarse, dirigirse hacia",
+          "analysis_html": "FOK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FOK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "visión",
+            "movimiento",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-foka",
+          "form": "foka",
+          "gloss": "foco, meta",
+          "analysis_html": "FOK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FOK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "objetivos",
+            "atención",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fol",
@@ -3672,6 +3829,31 @@
             "cualidades"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-frena",
+          "form": "frena",
+          "gloss": "mente, juicio, cordura",
+          "analysis_html": "FREN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FREN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "mente",
+            "cognición",
+            "abstractos"
+          ],
+          "notes": []
         }
       ]
     },
@@ -3737,6 +3919,56 @@
           "semantic_fields": [
             "temperatura",
             "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-frica",
+          "form": "frica",
+          "gloss": "frio",
+          "analysis_html": "FRIC + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FRIC + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "temperatura",
+            "cualidades",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fricis",
+          "form": "fricis",
+          "gloss": "frio",
+          "analysis_html": "FRIC + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "FRIC + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "temperatura",
+            "estado",
+            "cualidades"
           ],
           "notes": []
         }
