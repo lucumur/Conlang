@@ -18,7 +18,87 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gadro",
+          "form": "gadro",
+          "gloss": "cuadro, marco",
+          "analysis_html": "GADR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GADR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "forma",
+            "construcción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gadras",
+          "form": "gadras",
+          "gloss": "encuadrar, cuadrar, ajustar",
+          "analysis_html": "GADR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GADR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "forma",
+            "construcción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-agadras",
+          "form": "agadras",
+          "gloss": "enmarcar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a\">A-</a> + GADR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A- + GADR + -AS",
+          "refs": [
+            {
+              "id": "morph-a",
+              "label": "A-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "forma",
+            "construcción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gajn",
@@ -35,7 +115,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gajnas",
+          "form": "gajnas",
+          "gloss": "ganar, obtener",
+          "analysis_html": "GAJN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GAJN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "posesión",
+            "resultados"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gak",
@@ -56,7 +162,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gakos",
+          "form": "gakos",
+          "gloss": "croar",
+          "analysis_html": "GAK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "GAK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "sonido",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gal",
@@ -73,7 +205,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gale",
+          "form": "gale",
+          "gloss": "bilis, hiel",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GAL + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "anatomía",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gal-2",
@@ -124,7 +282,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gambo",
+          "form": "gambo",
+          "gloss": "pierna, pata",
+          "analysis_html": "GAMB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GAMB + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "partes"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gan-kvan",
@@ -211,7 +395,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gazos",
+          "form": "gazos",
+          "gloss": "pastar",
+          "analysis_html": "GAZ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "GAZ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "alimentación",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gas-2",
@@ -255,9 +465,39 @@
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: geken «lagartija» con -EN animado no humano; gekin descartada."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-geken",
+          "form": "geken",
+          "gloss": "lagartija",
+          "analysis_html": "GEK + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "GEK + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "reptiles",
+            "animales"
+          ],
+          "notes": [
+            "Forma regular de -EN; la forma de Tana gekin queda descartada."
+          ]
+        }
+      ]
     },
     {
       "id": "root-gem",
@@ -286,7 +526,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-genvos",
+          "form": "genvos",
+          "gloss": "arrodillarse",
+          "analysis_html": "GENV + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "GENV + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "movimiento",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gerk",
@@ -298,7 +564,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gerko",
+          "form": "gerko",
+          "gloss": "roble",
+          "analysis_html": "GERK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GERK + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "plantas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gid",
@@ -315,7 +607,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gidas",
+          "form": "gidas",
+          "gloss": "guiar",
+          "analysis_html": "GID + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GID + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "dirección",
+            "orientación"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gig",
@@ -378,7 +696,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gjetas",
+          "form": "gjetas",
+          "gloss": "tranquilizar",
+          "analysis_html": "GJET + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GJET + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "emociones",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gjetura",
+          "form": "gjetura",
+          "gloss": "tranquilidad",
+          "analysis_html": "GJET + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "GJET + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "estado",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-glam",
@@ -395,7 +764,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-glamol",
+          "form": "glamol",
+          "gloss": "colorido",
+          "analysis_html": "GLAM + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "GLAM + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "apariencia",
+            "colores",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-glas",
@@ -407,7 +802,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-glasos",
+          "form": "glasos",
+          "gloss": "brillar blanco, jaspeadamente",
+          "analysis_html": "GLAS + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "GLAS + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "luz",
+            "apariencia",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-glat",
@@ -431,7 +852,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-glavo",
+          "form": "glavo",
+          "gloss": "espada",
+          "analysis_html": "GLAV + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GLAV + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "armas",
+            "combate"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-glit",
@@ -443,7 +890,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-glitos",
+          "form": "glitos",
+          "gloss": "resbalarse",
+          "analysis_html": "GLIT + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "GLIT + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "procesos",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-glu",
@@ -467,7 +940,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-glutas",
+          "form": "glutas",
+          "gloss": "comer vorazmente, tragar .. deglutir",
+          "analysis_html": "GLUT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GLUT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "acciones",
+            "cuerpo"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gluta",
+          "form": "gluta",
+          "gloss": "trago,, bebida, alcohol",
+          "analysis_html": "GLUT + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GLUT + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gluz",
@@ -484,7 +1008,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gluẑe",
+          "form": "gluẑe",
+          "gloss": "azucar",
+          "analysis_html": "GLUẐ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GLUẐ + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "sustancias",
+            "sabores"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gor",
@@ -511,9 +1061,39 @@
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: gorilen «gorila» con -EN animado no humano; gorilin descartada."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gorilen",
+          "form": "gorilen",
+          "gloss": "gorila",
+          "analysis_html": "GORIL + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "GORIL + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "mamíferos",
+            "animales"
+          ],
+          "notes": [
+            "Forma regular de -EN; la forma de Tana gorilin queda descartada."
+          ]
+        }
+      ]
     },
     {
       "id": "root-gern",
@@ -530,7 +1110,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gerno",
+          "form": "gerno",
+          "gloss": "grano",
+          "analysis_html": "GERN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GERN + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "alimentos",
+            "agricultura"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-graf",
@@ -547,7 +1153,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-grafon",
+          "form": "grafon",
+          "gloss": "Conde",
+          "analysis_html": "GRAF + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "GRAF + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "títulos",
+            "jerarquía"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gran",
@@ -581,7 +1213,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gravas",
+          "form": "gravas",
+          "gloss": "pesar algo",
+          "analysis_html": "GRAV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GRAV + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "peso",
+            "medición"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-graves",
+          "form": "graves",
+          "gloss": "pesar",
+          "analysis_html": "GRAV + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "GRAV + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "peso",
+            "propiedades físicas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-grava",
+          "form": "grava",
+          "gloss": "peso",
+          "analysis_html": "GRAV + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GRAV + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "peso",
+            "cualidades",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-grek",
@@ -632,7 +1340,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-groto",
+          "form": "groto",
+          "gloss": "cueva, tunel",
+          "analysis_html": "GROT + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GROT + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares",
+            "naturaleza"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gru",
@@ -666,7 +1400,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gudre",
+          "form": "gudre",
+          "gloss": "alquitran, brea",
+          "analysis_html": "GUDR + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GUDR + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "sustancias",
+            "construcción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gum",
@@ -683,7 +1443,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gume",
+          "form": "gume",
+          "gloss": "goma",
+          "analysis_html": "GUM + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GUM + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "sustancias",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gar-war",
