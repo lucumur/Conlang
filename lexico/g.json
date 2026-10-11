@@ -227,14 +227,25 @@
       "gloss": "ganar, obtener",
       "tags": [
         {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
           "class": "anglo",
           "label": "Anglo"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
         }
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Eo. gajni → *GAJN-",
+      "notes": [
+        "ETIMOLOGÍA EXTERNA: el esperantista gajni se relaciona con francés gagner e inglés gain.",
+        "CANÓNICO: GAJN + -AS = gajnas «ganar, obtener»; GAJN + -T- + -AS = gajntas «conseguir algo» (perfectivo); GAJN + -A = gajna «ganancia, beneficio económico (profit)»."
+      ],
       "row_class": "",
       "words": [
         {
@@ -261,6 +272,68 @@
             "resultados"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-gajntas",
+          "form": "gajntas",
+          "gloss": "conseguir algo",
+          "analysis_html": "GAJN + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GAJN + -T- + -AS",
+          "refs": [
+            {
+              "id": "morph-t-perfective",
+              "label": "-T-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Perfectivo T"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "posesión",
+            "resultados"
+          ],
+          "notes": [
+            "Derivado de *GAJN- (Etym. Eo. gajni), con -T- perfectivo ya documentado; denota la obtención efectivamente conseguida."
+          ]
+        },
+        {
+          "id": "lexeme-gajna",
+          "form": "gajna",
+          "gloss": "ganancia, beneficio económico, provecho (profit)",
+          "analysis_html": "GAJN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GAJN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "economía",
+            "resultados",
+            "posesión"
+          ],
+          "notes": [
+            "Derivado nominal de *GAJN- (Etym. Eo. gajni); compatible con el sentido de Eo. gajno «ganancia, provecho»."
+          ]
         }
       ]
     },
