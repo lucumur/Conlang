@@ -18,7 +18,8 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "kind": "other"
+      "kind": "other",
+      "words": []
     },
     {
       "id": "root-tab",
@@ -32,7 +33,58 @@
         "CANÓNICO: TAB- conserva el origen semántico «madera», pero se especializa en derivados relacionados con tabla, tablón, mesa y superficies planas de madera."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tabe",
+          "form": "tabe",
+          "gloss": "madera",
+          "analysis_html": "TAB + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "TAB + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "madera",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tabel",
+          "form": "tabel",
+          "gloss": "de madera",
+          "analysis_html": "TAB + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "TAB + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "madera",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tajl",
@@ -44,7 +96,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tajlas",
+          "form": "tajlas",
+          "gloss": "tallar",
+          "analysis_html": "TAJL + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TAJL + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "artes",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tak",
@@ -61,7 +138,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tako",
+          "form": "tako",
+          "gloss": "taquete, clavo",
+          "analysis_html": "TAK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TAK + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "acciones",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-taks",
@@ -73,7 +176,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-taksas",
+          "form": "taksas",
+          "gloss": "taxar, calificar",
+          "analysis_html": "TAKS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TAKS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "finanzas",
+            "evaluación",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-taksa",
+          "form": "taksa",
+          "gloss": "calificacion",
+          "analysis_html": "TAKS + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TAKS + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "finanzas",
+            "evaluación",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tard",
@@ -85,7 +239,82 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tardol",
+          "form": "tardol",
+          "gloss": "tardado, que tarda",
+          "analysis_html": "TARD + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "TARD + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tardam",
+          "form": "tardam",
+          "gloss": "tarde",
+          "analysis_html": "TARD + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "TARD + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tardos",
+          "form": "tardos",
+          "gloss": "tardarse",
+          "analysis_html": "TARD + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TARD + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tartar",
@@ -196,7 +425,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tenas",
+          "form": "tenas",
+          "gloss": "tener, sostener",
+          "analysis_html": "TEN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TEN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "posesión",
+            "relaciones",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tend",
@@ -232,7 +487,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-testos",
+          "form": "testos",
+          "gloss": "testificar, declarar",
+          "analysis_html": "TEST + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TEST + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "justicia",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tevd",
@@ -307,7 +588,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tigo",
+          "form": "tigo",
+          "gloss": "tallo - palo",
+          "analysis_html": "TIG + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TIG + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tig-2",
@@ -331,7 +638,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tilo",
+          "form": "tilo",
+          "gloss": "arbol tilo",
+          "analysis_html": "TIL + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TIL + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tim",
@@ -343,7 +676,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-timas",
+          "form": "timas",
+          "gloss": "temer (anticipacion de resultado negativo) // eso temo",
+          "analysis_html": "TIM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TIM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "miedo",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tin",
@@ -355,7 +714,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tina",
+          "form": "tina",
+          "gloss": "timbre, sonido",
+          "analysis_html": "TIN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TIN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "comunicación",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tin-t",
@@ -372,7 +757,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tintas",
+          "form": "tintas",
+          "gloss": "teñir, aplicar color",
+          "analysis_html": "TINT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TINT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "colores",
+            "sustancias",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tinte",
+          "form": "tinte",
+          "gloss": "tinte, pintura",
+          "analysis_html": "TINT + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "TINT + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "colores",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ting",
@@ -396,7 +831,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tiras",
+          "form": "tiras",
+          "gloss": "estirar, tirar",
+          "analysis_html": "TIR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TIR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tir-tirol",
@@ -470,7 +930,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trabo",
+          "form": "trabo",
+          "gloss": "barra",
+          "analysis_html": "TRAB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TRAB + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "construcción"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trab-2",
@@ -511,7 +996,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trampos",
+          "form": "trampos",
+          "gloss": "vagar",
+          "analysis_html": "TRAMP + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TRAMP + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tran",
@@ -559,7 +1070,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trejnos",
+          "form": "trejnos",
+          "gloss": "entrenar",
+          "analysis_html": "TREJN + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TREJN + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "educación",
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tremp",
@@ -571,7 +1108,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trempas",
+          "form": "trempas",
+          "gloss": "remojar",
+          "analysis_html": "TREMP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TREMP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "agua",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tret",
@@ -583,7 +1145,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tretas",
+          "form": "tretas",
+          "gloss": "pisar",
+          "analysis_html": "TRET + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TRET + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "movimiento"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trez",
@@ -600,7 +1187,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trezas",
+          "form": "trezas",
+          "gloss": "atesorar",
+          "analysis_html": "TREZ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TREZ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "valor",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trec",
@@ -634,7 +1247,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trias",
+          "form": "trias",
+          "gloss": "intentar",
+          "analysis_html": "TRI + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TRI + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "intentos",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tria",
+          "form": "tria",
+          "gloss": "intento",
+          "analysis_html": "TRI + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TRI + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "intentos",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trist",
@@ -651,7 +1314,132 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tristas",
+          "form": "tristas",
+          "gloss": "entristecer",
+          "analysis_html": "TRIST + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TRIST + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tristos",
+          "form": "tristos",
+          "gloss": "ponerse triste",
+          "analysis_html": "TRIST + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TRIST + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tristis",
+          "form": "tristis",
+          "gloss": "estar triste",
+          "analysis_html": "TRIST + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "TRIST + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trista",
+          "form": "trista",
+          "gloss": "tristeza",
+          "analysis_html": "TRIST + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TRIST + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tristol",
+          "form": "tristol",
+          "gloss": "lleno de tristeza, triste",
+          "analysis_html": "TRIST + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "TRIST + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trof",
@@ -668,7 +1456,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trofas",
+          "form": "trofas",
+          "gloss": "nutrir",
+          "analysis_html": "TROF + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TROF + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "salud",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trofos",
+          "form": "trofos",
+          "gloss": "alimentarse",
+          "analysis_html": "TROF + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TROF + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "salud",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trofa",
+          "form": "trofa",
+          "gloss": "naturaleza (entidad)",
+          "analysis_html": "TROF + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TROF + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "salud",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tromp",
@@ -685,7 +1549,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trompas",
+          "form": "trompas",
+          "gloss": "engañar",
+          "analysis_html": "TROMP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TROMP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "engaño",
+            "conducta",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trompa",
+          "form": "trompa",
+          "gloss": "engaño",
+          "analysis_html": "TROMP + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TROMP + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "engaño",
+            "conducta",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trov",
@@ -702,7 +1617,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trovas",
+          "form": "trovas",
+          "gloss": "encontrar",
+          "analysis_html": "TROV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TROV + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "búsqueda",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trovos",
+          "form": "trovos",
+          "gloss": "encontrarse",
+          "analysis_html": "TROV + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TROV + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "búsqueda",
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tru",
@@ -719,7 +1684,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-truas",
+          "form": "truas",
+          "gloss": "agujerar, taladrar",
+          "analysis_html": "TRU + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TRU + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-truo",
+          "form": "truo",
+          "gloss": "hueco, cueva, hoyo",
+          "analysis_html": "TRU + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TRU + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "acciones",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trud",
@@ -731,7 +1746,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trudas",
+          "form": "trudas",
+          "gloss": "imponer algo",
+          "analysis_html": "TRUD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TRUD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "autoridad",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tog",
@@ -748,7 +1788,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-togol",
+          "form": "togol",
+          "gloss": "correcto, apropiado, mejor",
+          "analysis_html": "TOG + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "TOG + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-toks",
@@ -784,7 +1849,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tona",
+          "form": "tona",
+          "gloss": "color de piel",
+          "analysis_html": "TON + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TON + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "apariencia",
+            "piel",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tondr",
@@ -796,7 +1887,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tondras",
+          "form": "tondras",
+          "gloss": "estremecer",
+          "analysis_html": "TONDR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TONDR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "sonido",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tondros",
+          "form": "tondros",
+          "gloss": "tronar, retumbar",
+          "analysis_html": "TONDR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TONDR + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "sonido",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tor",
@@ -808,7 +1950,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-toras",
+          "form": "toras",
+          "gloss": "torcer",
+          "analysis_html": "TOR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TOR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "movimiento",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-toros",
+          "form": "toros",
+          "gloss": "torcerse",
+          "analysis_html": "TOR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TOR + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "movimiento",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tuf",
@@ -849,7 +2042,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tuke",
+          "form": "tuke",
+          "gloss": "ropa",
+          "analysis_html": "TUK + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "TUK + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "objetos",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tukos",
+          "form": "tukos",
+          "gloss": "ponerse",
+          "analysis_html": "TUK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TUK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "objetos",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tung",
@@ -885,7 +2129,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tusa",
+          "form": "tusa",
+          "gloss": "tos",
+          "analysis_html": "TUS + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TUS + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "sonido",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tusos",
+          "form": "tusos",
+          "gloss": "toser",
+          "analysis_html": "TUS + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TUS + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "sonido",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tusk",
@@ -902,7 +2197,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tusko",
+          "form": "tusko",
+          "gloss": "colmillo",
+          "analysis_html": "TUSK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TUSK + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "dientes",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tus-2",
@@ -914,7 +2235,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tuŝas",
+          "form": "tuŝas",
+          "gloss": "tocar",
+          "analysis_html": "TUŜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TUŜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "percepción",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tuŝa",
+          "form": "tuŝa",
+          "gloss": "tacto",
+          "analysis_html": "TUŜ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TUŜ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "percepción",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }
