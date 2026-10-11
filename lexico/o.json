@@ -47,7 +47,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-obeos",
+          "form": "obeos",
+          "gloss": "obedecer",
+          "analysis_html": "OBE + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "OBE + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "conducta",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-obea",
+          "form": "obea",
+          "gloss": "obediencia, lealtad",
+          "analysis_html": "OBE + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "OBE + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "conducta",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-oc-t",
@@ -76,7 +127,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-oda",
+          "form": "oda",
+          "gloss": "cancion",
+          "analysis_html": "OD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "OD + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "música",
+            "arte",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-odas",
+          "form": "odas",
+          "gloss": "cantar",
+          "analysis_html": "OD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "OD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "música",
+            "arte",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-of",
@@ -105,7 +207,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ofiẑos",
+          "form": "ofiẑos",
+          "gloss": "trabajar",
+          "analysis_html": "OFIẐ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "OFIẐ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "trabajo",
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ofr",
@@ -117,7 +245,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ofras",
+          "form": "ofras",
+          "gloss": "ofrecer, ofrendar",
+          "analysis_html": "OFR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "OFR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "posesión",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ofra",
+          "form": "ofra",
+          "gloss": "ofrenda, ofrecimiento",
+          "analysis_html": "OFR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "OFR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "posesión",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ok",
@@ -129,7 +308,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-oko",
+          "form": "oko",
+          "gloss": "sol (poetico)",
+          "analysis_html": "OK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "OK + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "forma",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-oks",
@@ -146,7 +351,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-oksas",
+          "form": "oksas",
+          "gloss": "oxidar",
+          "analysis_html": "OKS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "OKS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "química",
+            "materiales",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ol",
@@ -163,7 +394,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-olam",
+          "form": "olam",
+          "gloss": "alguna vez",
+          "analysis_html": "OL + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "OL + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "relaciones",
+            "tiempo"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ol-2",
@@ -192,7 +449,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-olfas",
+          "form": "olfas",
+          "gloss": "oler, percibir",
+          "analysis_html": "OLF + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "OLF + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "olfato",
+            "percepción",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-olfos",
+          "form": "olfos",
+          "gloss": "oler, emanar",
+          "analysis_html": "OLF + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "OLF + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "olfato",
+            "percepción",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-olfa",
+          "form": "olfa",
+          "gloss": "olor, aroma",
+          "analysis_html": "OLF + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "OLF + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "olfato",
+            "percepción",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-olv",
@@ -204,7 +537,82 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-olve",
+          "form": "olve",
+          "gloss": "aceite",
+          "analysis_html": "OLV + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "OLV + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-olvo",
+          "form": "olvo",
+          "gloss": "aceituna, oliva",
+          "analysis_html": "OLV + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "OLV + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "sustancias",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-olvol",
+          "form": "olvol",
+          "gloss": "oleoso",
+          "analysis_html": "OLV + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "OLV + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "sustancias",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-on",
@@ -240,7 +648,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ondras",
+          "form": "ondras",
+          "gloss": "honrar, venerar",
+          "analysis_html": "ONDR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ONDR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "sociedad",
+            "valores",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-onk",
@@ -255,9 +689,39 @@
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: onken «lince» con -EN, onkin descartado."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-onken",
+          "form": "onken",
+          "gloss": "lince",
+          "analysis_html": "ONK + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "ONK + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "mamíferos",
+            "animales"
+          ],
+          "notes": [
+            "CANÓNICO: onken sustituye a la forma histórica onkin de Tana."
+          ]
+        }
+      ]
     },
     {
       "id": "root-onk-2",
@@ -303,7 +767,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-opas",
+          "form": "opas",
+          "gloss": "enfrentar, encarar",
+          "analysis_html": "OP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "OP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "relaciones",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-op-o",
@@ -332,7 +822,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-oram",
+          "form": "oram",
+          "gloss": "ya, ahorita",
+          "analysis_html": "OR + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "OR + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "duración"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-or-2",
@@ -356,7 +871,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ore",
+          "form": "ore",
+          "gloss": "oro",
+          "analysis_html": "OR + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "OR + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "metales",
+            "materiales",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-orol",
+          "form": "orol",
+          "gloss": "dorado",
+          "analysis_html": "OR + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "OR + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "metales",
+            "materiales",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-orel",
+          "form": "orel",
+          "gloss": "de oro, aureo",
+          "analysis_html": "OR + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "OR + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "metales",
+            "materiales",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-orb",
@@ -368,7 +959,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-orbas",
+          "form": "orbas",
+          "gloss": "orbitar",
+          "analysis_html": "ORB + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ORB + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "astronomía",
+            "movimiento",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-orba",
+          "form": "orba",
+          "gloss": "orbita",
+          "analysis_html": "ORB + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ORB + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "astronomía",
+            "movimiento",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-orbo",
+          "form": "orbo",
+          "gloss": "el mundo",
+          "analysis_html": "ORB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ORB + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "astronomía",
+            "movimiento",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ord",
@@ -380,7 +1047,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-orda",
+          "form": "orda",
+          "gloss": "orden, lo correcto",
+          "analysis_html": "ORD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ORD + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "orden",
+            "organización",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ordel",
+          "form": "ordel",
+          "gloss": "ordinario, comun,normal",
+          "analysis_html": "ORD + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "ORD + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "orden",
+            "organización",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ordas",
+          "form": "ordas",
+          "gloss": "ordenar, acomodar",
+          "analysis_html": "ORD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ORD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "orden",
+            "organización",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-org",
@@ -392,7 +1135,82 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-orga",
+          "form": "orga",
+          "gloss": "orden, organizacion",
+          "analysis_html": "ORG + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ORG + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "organización",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-orgo",
+          "form": "orgo",
+          "gloss": "instrumento, organo",
+          "analysis_html": "ORG + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ORG + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "organización",
+            "acciones",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-orgas",
+          "form": "orgas",
+          "gloss": "emplear, utilizar, ocupar",
+          "analysis_html": "ORG + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ORG + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "organización",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ork",
@@ -438,7 +1256,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-orθos",
+          "form": "orθos",
+          "gloss": "dirgirse a un lado",
+          "analysis_html": "ORΘ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ORΘ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "geometría",
+            "forma",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ost",
@@ -481,7 +1325,108 @@
         "CANÓNICO: en composición ante una base iniciada en Ĉ-, OZ- presenta el alomorfo eufónico OS-: OZ- + ĈAN-L → osĉanel-. OS- no es aquí una raíz independiente y se distingue del prefijo homónimo OS- «este»."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ozas",
+          "form": "ozas",
+          "gloss": "oir, escuchar",
+          "analysis_html": "OZ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "OZ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "audición",
+            "sonido",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ozo",
+          "form": "ozo",
+          "gloss": "oreja",
+          "analysis_html": "OZ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "OZ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "audición",
+            "sonido",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-oza",
+          "form": "oza",
+          "gloss": "oido",
+          "analysis_html": "OZ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "OZ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "audición",
+            "sonido",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ozel",
+          "form": "ozel",
+          "gloss": "auditivo",
+          "analysis_html": "OZ + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "OZ + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "audición",
+            "sonido",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-oz-an",
@@ -510,7 +1455,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-oẑmo",
+          "form": "oẑmo",
+          "gloss": "albahaca",
+          "analysis_html": "OẐM + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "OẐM + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "alimentación",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }
