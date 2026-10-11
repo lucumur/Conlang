@@ -452,22 +452,30 @@
           "id": "lexeme-galdranos",
           "form": "galdranos",
           "gloss": "enojarse",
-          "analysis_html": "galera-nos → galdranos (apócope)",
-          "analysis_text": "galera-nos → galdranos (apócope; -NOS no documentado)",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-an\">-AN</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a> → galeranos → galdranos (contracción)",
+          "analysis_text": "GAL + -ER + -AN + -OS → galeranos → galdranos (contracción)",
           "refs": [
             {
               "id": "morph-er",
               "label": "-ER"
             },
             {
-              "id": "morph-a-2",
-              "label": "-A"
+              "id": "morph-an",
+              "label": "-AN"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado (análisis pendiente)"
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Contracción"
             }
           ],
           "semantic_fields": [
