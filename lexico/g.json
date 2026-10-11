@@ -1014,15 +1014,17 @@
       "letter": "G",
       "section": "sec-g",
       "etymology": "< It. gambero, del lat. cammarus.",
-      "notes": [],
+      "notes": [
+        "Extensiones de raíz -P- (analogía con Eng. shrimp) y -BR- (analogía con Lat. cammarus); la selección es léxica."
+      ],
       "row_class": "",
       "words": [
         {
           "id": "lexeme-gambren",
           "form": "gambren",
           "gloss": "langosta",
-          "analysis_html": "GAM + BR (extensión no formalizada) + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
-          "analysis_text": "GAM + BR (extensión no formalizada) + -EN",
+          "analysis_html": "GAM + BR (extensión de raíz) + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "GAM + BR (extensión de raíz) + -EN",
           "refs": [
             {
               "id": "morph-en",
@@ -1046,8 +1048,8 @@
           "id": "lexeme-gampen",
           "form": "gampen",
           "gloss": "camarón",
-          "analysis_html": "GAM + P (extensión no formalizada) + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
-          "analysis_text": "GAM + P (extensión no formalizada) + -EN",
+          "analysis_html": "GAM + P (extensión de raíz) + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "GAM + P (extensión de raíz) + -EN",
           "refs": [
             {
               "id": "morph-en",
@@ -1197,7 +1199,7 @@
     },
     {
       "id": "root-gan-kvan",
-      "form": "*GAN- (KVAN-)",
+      "form": "*GAN-",
       "gloss": "aunque",
       "tags": [
         {
@@ -1207,15 +1209,83 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< *KWAN-, del latín.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gangan",
+          "form": "gangan",
+          "gloss": "aunque",
+          "analysis_html": "GAN + GAN (reduplicación)",
+          "analysis_text": "GAN + GAN (reduplicación)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Conjunción"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "concesión",
+            "relaciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ganθoj",
+          "form": "ganθoj",
+          "gloss": "aunque",
+          "analysis_html": "GAN + θoj (elemento por precisar)",
+          "analysis_text": "GAN + θoj (elemento por precisar)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Conjunción"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "concesión",
+            "relaciones"
+          ],
+          "notes": [
+            "θoj es también el pronombre «ustedes dos»; la relación morfológica aquí queda por precisar."
+          ]
+        },
+        {
+          "id": "lexeme-gangrav",
+          "form": "gangrav",
+          "gloss": "a pesar que",
+          "analysis_html": "GAN + <a class=\"morph-link\" href=\"#root-grav\">GRAV</a>",
+          "analysis_text": "GAN + GRAV",
+          "refs": [
+            {
+              "id": "root-grav",
+              "label": "GRAV"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Conjunción"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "concesión",
+            "relaciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gar-z",
-      "form": "*GAR-Ẑ",
-      "gloss": "Cuarzo",
+      "form": "*GARẐ-",
+      "gloss": "cuarzo",
       "tags": [
         {
           "class": "germanico",
@@ -1224,10 +1294,36 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< *KWARẐ-, del al. Quarz.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-garẑe",
+          "form": "garẑe",
+          "gloss": "cuarzo",
+          "analysis_html": "GARẐ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GARẐ + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "minerales",
+            "geología",
+            "materiales"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gard",
