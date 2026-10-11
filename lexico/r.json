@@ -1385,15 +1385,16 @@
     },
     {
       "id": "root-rong",
-      "form": "*ROĜ-",
+      "form": "*RONĜ-",
       "gloss": "roer",
       "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
       "notes": [
-        "CANÓNICO: *ROĜ- «roer» sustituye a la forma anterior *RON-Ĝ. El identificador técnico root-rong se mantiene estable para preservar enlaces existentes.",
-        "DESCARTADO como raíz vigente: *RON-Ĝ «roer» y el derivado ronĝas. La documentación antigua de ronceren «capibara» queda pendiente de reanálisis; no se asume automáticamente que RON- sea alomorfo de *ROĜ-."
+        "CANÓNICO: la raíz plena es *RONĜ- «roer» (RONGX- en grafía x); RON- es su alomorfo abreviado en composición, atestiguado en ronceren «capibara».",
+        "CANÓNICO: roĝas «roer» (rogxas en grafía x) es el verbo usual, formado sobre el tema reducido ROĜ-; la reducción n → ∅ en esta forma es un análisis morfológico particular, no una regla fonética general confirmada.",
+        "REVISIÓN: queda sustituido el análisis anterior que trataba *ROĜ- como raíz independiente y *RON-Ĝ como raíz descartada. La forma plena canónica es *RONĜ-; el antiguo ronĝas no se considera forma usual ni se rehabilita automáticamente."
       ],
       "row_class": "",
       "words": [
@@ -1401,9 +1402,13 @@
           "id": "lexeme-roĝas",
           "form": "roĝas",
           "gloss": "roer",
-          "analysis_html": "ROĜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "ROĜ + -AS",
+          "analysis_html": "ROĜ (tema verbal reducido de <a class=\"morph-link\" href=\"#root-rong\">RONĜ</a>) + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ROĜ (tema verbal reducido de RONĜ) + -AS",
           "refs": [
+            {
+              "id": "root-rong",
+              "label": "RONĜ"
+            },
             {
               "id": "morph-as",
               "label": "-AS"
@@ -1420,7 +1425,7 @@
             "alimentación"
           ],
           "notes": [
-            "CANÓNICO: ROĜ + -AS; reemplaza al antiguo ronĝas, derivado de *RON-Ĝ «roer» (DESCARTADO)."
+            "CANÓNICO: roĝas es el verbo usual «roer». Se relaciona con *RONĜ- mediante el tema verbal reducido ROĜ- (sin /n/). No implica una regla general para todas las raíces."
           ]
         }
       ]
@@ -1434,7 +1439,7 @@
       "section": "sec-r",
       "etymology": null,
       "notes": [
-        "CANÓNICO: *ROS- significa «rocío». La acepción anterior «roer» se descarta; para «roer» se utiliza *ROĜ-."
+        "CANÓNICO: *ROS- significa «rocío». La acepción anterior «roer» se descarta; para «roer» se utiliza *RONĜ-, cuyo verbo usual es roĝas."
       ],
       "row_class": "",
       "words": []
