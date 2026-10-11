@@ -1575,7 +1575,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-febra",
+          "form": "febra",
+          "gloss": "fiebre",
+          "analysis_html": "FEBR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FEBR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "enfermedad",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-febris",
+          "form": "febris",
+          "gloss": "tener fiebre",
+          "analysis_html": "FEBR + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "FEBR + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "salud",
+            "enfermedad",
+            "estado"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-febl",
@@ -1587,7 +1638,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-feblas",
+          "form": "feblas",
+          "gloss": "debilitar",
+          "analysis_html": "FEBL + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FEBL + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "capacidad",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fek",
@@ -1599,7 +1676,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fekos",
+          "form": "fekos",
+          "gloss": "cagar",
+          "analysis_html": "FEK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FEK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "excreción",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-feke",
+          "form": "feke",
+          "gloss": "heces",
+          "analysis_html": "FEK + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "FEK + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "excreción",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fekel",
+          "form": "fekel",
+          "gloss": "fecal",
+          "analysis_html": "FEK + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "FEK + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo derivativo"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "excreción",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fel",
@@ -1623,7 +1776,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-femjo",
+          "form": "femjo",
+          "gloss": "mujer, hembra",
+          "analysis_html": "FEM + <a class=\"morph-link\" href=\"#morph-jo\">-JO</a>",
+          "analysis_text": "FEM + -JO",
+          "refs": [
+            {
+              "id": "morph-jo",
+              "label": "-JO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Femenino JO"
+            }
+          ],
+          "semantic_fields": [
+            "biología",
+            "reproducción",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-femes",
+          "form": "femes",
+          "gloss": "ser fecundo",
+          "analysis_html": "FEM + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "FEM + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "biología",
+            "reproducción",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-femis",
+          "form": "femis",
+          "gloss": "estar embarazada",
+          "analysis_html": "FEM + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "FEM + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "biología",
+            "reproducción",
+            "estado"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fend",
@@ -1635,7 +1864,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fendas",
+          "form": "fendas",
+          "gloss": "hacer hendidura",
+          "analysis_html": "FEND + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FEND + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "forma"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ferm",
@@ -1683,7 +1937,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-figal",
+          "form": "figal",
+          "gloss": "higareda",
+          "analysis_html": "FIG + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "FIG + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "lugares"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fik",
@@ -1695,7 +1975,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fiklo",
+          "form": "fiklo",
+          "gloss": "fibula, hebilla, broche",
+          "analysis_html": "FIK + <a class=\"morph-link\" href=\"#morph-lo\">-LO</a>",
+          "analysis_text": "FIK + -LO",
+          "refs": [
+            {
+              "id": "morph-lo",
+              "label": "-LO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Objeto LO"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "herramientas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fil",
@@ -1719,7 +2024,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-filmas",
+          "form": "filmas",
+          "gloss": "grabar, filmar",
+          "analysis_html": "FILM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FILM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "artes",
+            "comunicación",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-filmo",
+          "form": "filmo",
+          "gloss": "pelicula, pellejo",
+          "analysis_html": "FILM + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FILM + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "artes",
+            "comunicación",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-filmisma",
+          "form": "filmisma",
+          "gloss": "industria cinematografica",
+          "analysis_html": "FILM + <a class=\"morph-link\" href=\"#morph-isma\">-ISMA</a>",
+          "analysis_text": "FILM + -ISMA",
+          "refs": [
+            {
+              "id": "morph-isma",
+              "label": "-ISMA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sistema ISMA"
+            }
+          ],
+          "semantic_fields": [
+            "artes",
+            "comunicación",
+            "sociedad"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fin",
@@ -1731,7 +2112,131 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-finas",
+          "form": "finas",
+          "gloss": "terminar",
+          "analysis_html": "FIN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FIN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "procesos",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-finos",
+          "form": "finos",
+          "gloss": "terminar, acabar",
+          "analysis_html": "FIN + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FIN + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-finis",
+          "form": "finis",
+          "gloss": "estar terminado",
+          "analysis_html": "FIN + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "FIN + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "procesos",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fina",
+          "form": "fina",
+          "gloss": "fin",
+          "analysis_html": "FIN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FIN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-finam",
+          "form": "finam",
+          "gloss": "al final",
+          "analysis_html": "FIN + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "FIN + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fing",
@@ -1743,7 +2248,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fingo",
+          "form": "fingo",
+          "gloss": "dedo",
+          "analysis_html": "FING + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FING + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fis",
@@ -1755,7 +2286,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fiŝas",
+          "form": "fiŝas",
+          "gloss": "pescar",
+          "analysis_html": "FIŜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FIŜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "alimentación",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fitheta",
@@ -1774,7 +2331,108 @@
         "raiz mixta."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fiθas",
+          "form": "fiθas",
+          "gloss": "creer algo, confiar en algo",
+          "analysis_html": "FIΘ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FIΘ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "creencias",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fiθos",
+          "form": "fiθos",
+          "gloss": "creer en alguien",
+          "analysis_html": "FIΘ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FIΘ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "creencias",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fiθonas",
+          "form": "fiθonas",
+          "gloss": "dar confianza",
+          "analysis_html": "FIΘ + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a>",
+          "analysis_text": "FIΘ + -ONAS",
+          "refs": [
+            {
+              "id": "morph-onas",
+              "label": "-ONAS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ONAS"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "creencias",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fiθeẑa",
+          "form": "fiθeẑa",
+          "gloss": "fe",
+          "analysis_html": "FIΘ + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "FIΘ + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "creencias",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fjask",
@@ -1791,7 +2449,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fjaskos",
+          "form": "fjaskos",
+          "gloss": "fracasar",
+          "analysis_html": "FJASK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FJASK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "resultados"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fjaska",
+          "form": "fjaska",
+          "gloss": "fracaso",
+          "analysis_html": "FJASK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FJASK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "resultados",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fjer",
@@ -1873,7 +2581,108 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-flaras",
+          "form": "flaras",
+          "gloss": "perfumar",
+          "analysis_html": "FLAR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FLAR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "percepción",
+            "olfato",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-flaros",
+          "form": "flaros",
+          "gloss": "oler, dar olor",
+          "analysis_html": "FLAR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FLAR + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "percepción",
+            "olfato",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-flara",
+          "form": "flara",
+          "gloss": "olor",
+          "analysis_html": "FLAR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FLAR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "percepción",
+            "olfato",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-flarol",
+          "form": "flarol",
+          "gloss": "oloroso",
+          "analysis_html": "FLAR + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "FLAR + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "percepción",
+            "olfato",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fleb",
@@ -1897,7 +2706,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fleksis",
+          "form": "fleksis",
+          "gloss": "doblarse",
+          "analysis_html": "FLEKS + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "FLEKS + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "forma",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fleksas",
+          "form": "fleksas",
+          "gloss": "doblar, flexionar",
+          "analysis_html": "FLEKS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FLEKS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "forma",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fleksa",
+          "form": "fleksa",
+          "gloss": "flexion",
+          "analysis_html": "FLEKS + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FLEKS + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "forma",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fliz",
@@ -1909,7 +2794,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fliẑos",
+          "form": "fliẑos",
+          "gloss": "alegrarse",
+          "analysis_html": "FLIẐ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FLIẐ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-flo",
@@ -1921,7 +2832,37 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-flojos",
+          "form": "flojos",
+          "gloss": "florecer, tener su apogeo",
+          "analysis_html": "FLO + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FLO + -J- + -OS",
+          "refs": [
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "naturaleza",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-flu",
@@ -1945,7 +2886,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-flugos",
+          "form": "flugos",
+          "gloss": "volar",
+          "analysis_html": "FLUG + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FLUG + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "aire",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-flugo",
+          "form": "flugo",
+          "gloss": "ala",
+          "analysis_html": "FLUG + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FLUG + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "aire",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fo-t",
@@ -1957,7 +2949,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fotas",
+          "form": "fotas",
+          "gloss": "capturar en camara, tomar foto",
+          "analysis_html": "FOT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FOT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "artes",
+            "imágenes",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-foto",
+          "form": "foto",
+          "gloss": "foto",
+          "analysis_html": "FOT + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FOT + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "artes",
+            "imágenes",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fob",
@@ -1998,7 +3041,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-folos",
+          "form": "folos",
+          "gloss": "caerse, desprenderse",
+          "analysis_html": "FOL + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FOL + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "movimiento",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fola",
+          "form": "fola",
+          "gloss": "caida",
+          "analysis_html": "FOL + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FOL + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "movimiento",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fon-t",
@@ -2010,7 +3104,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fonto",
+          "form": "fonto",
+          "gloss": "manantial",
+          "analysis_html": "FONT + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FONT + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "agua",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fontos",
+          "form": "fontos",
+          "gloss": "brotar, emanar",
+          "analysis_html": "FONT + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FONT + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "naturaleza",
+            "agua",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-for-t",
@@ -2022,7 +3167,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fortol",
+          "form": "fortol",
+          "gloss": "potente",
+          "analysis_html": "FORT + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "FORT + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "fuerza"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-forg",
@@ -2046,7 +3216,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-formas",
+          "form": "formas",
+          "gloss": "formar, moldear",
+          "analysis_html": "FORM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FORM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "procesos",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-formo",
+          "form": "formo",
+          "gloss": "forma, figura, molde",
+          "analysis_html": "FORM + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FORM + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-forma",
+          "form": "forma",
+          "gloss": "formacion, moldeamiento",
+          "analysis_html": "FORM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FORM + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "forma",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fos-t",
@@ -2058,7 +3304,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fosto",
+          "form": "fosto",
+          "gloss": "poste",
+          "analysis_html": "FOST + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FOST + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "infraestructura"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fosf",
@@ -2109,7 +3380,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-frakos",
+          "form": "frakos",
+          "gloss": "romperse, quebrarse",
+          "analysis_html": "FRAK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FRAK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "ruptura",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-frakis",
+          "form": "frakis",
+          "gloss": "roto",
+          "analysis_html": "FRAK + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "FRAK + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "ruptura",
+            "estado"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-frand",
@@ -2126,7 +3448,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-frandeẑa",
+          "form": "frandeẑa",
+          "gloss": "delicia, exquisitez",
+          "analysis_html": "FRAND + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "FRAND + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "gusto",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-frank",
@@ -2143,7 +3491,87 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-frankura",
+          "form": "frankura",
+          "gloss": "libertad",
+          "analysis_html": "FRANK + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "FRANK + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "sociedad",
+            "libertad",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-frankon",
+          "form": "frankon",
+          "gloss": "hombre libre",
+          "analysis_html": "FRANK + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "FRANK + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "sociedad",
+            "libertad",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-afrankas",
+          "form": "afrankas",
+          "gloss": "otorgar un derecho",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a\">A-</a> + FRANK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A- + FRANK + -AS",
+          "refs": [
+            {
+              "id": "morph-a",
+              "label": "A-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "sociedad",
+            "libertad",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-frap",
@@ -2160,7 +3588,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-frapas",
+          "form": "frapas",
+          "gloss": "golpear",
+          "analysis_html": "FRAP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FRAP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "interacción",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-frem",
@@ -2194,7 +3647,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-frenel",
+          "form": "frenel",
+          "gloss": "mental",
+          "analysis_html": "FREN + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "FREN + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo derivativo"
+            }
+          ],
+          "semantic_fields": [
+            "mente",
+            "cognición",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fric",
@@ -2211,7 +3690,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fricas",
+          "form": "fricas",
+          "gloss": "enfriar",
+          "analysis_html": "FRIC + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FRIC + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "temperatura",
+            "estado",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-frices",
+          "form": "frices",
+          "gloss": "sentirse frio",
+          "analysis_html": "FRIC + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "FRIC + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "temperatura",
+            "estado"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fris",
@@ -2245,7 +3774,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-frivura",
+          "form": "frivura",
+          "gloss": "frivolidad, superficialidad, vanidad",
+          "analysis_html": "FRIV + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "FRIV + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fron",
@@ -2279,7 +3834,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-frosas",
+          "form": "frosas",
+          "gloss": "frotar",
+          "analysis_html": "FROS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FROS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "interacción",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fru",
@@ -2313,7 +3893,112 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-afumas",
+          "form": "afumas",
+          "gloss": "ahumar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a\">A-</a> + FUM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A- + FUM + -AS",
+          "refs": [
+            {
+              "id": "morph-a",
+              "label": "A-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "combustión",
+            "aire",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fumas",
+          "form": "fumas",
+          "gloss": "fumar",
+          "analysis_html": "FUM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FUM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "combustión",
+            "aire",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fumo",
+          "form": "fumo",
+          "gloss": "humo",
+          "analysis_html": "FUM + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FUM + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "combustión",
+            "aire",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fume",
+          "form": "fume",
+          "gloss": "humo",
+          "analysis_html": "FUM + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "FUM + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "combustión",
+            "aire",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fund",
@@ -2330,7 +4015,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fundos",
+          "form": "fundos",
+          "gloss": "hundirse",
+          "analysis_html": "FUND + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FUND + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "espacio",
+            "profundidad",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fundor",
+          "form": "fundor",
+          "gloss": "hondo, profundo",
+          "analysis_html": "FUND + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "FUND + -OR",
+          "refs": [
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OR"
+            }
+          ],
+          "semantic_fields": [
+            "espacio",
+            "profundidad",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fur-z",
@@ -2347,7 +4083,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-furzos",
+          "form": "furzos",
+          "gloss": "peerse",
+          "analysis_html": "FURZ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FURZ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "excreción",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-furzo",
+          "form": "furzo",
+          "gloss": "pedo",
+          "analysis_html": "FURZ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "FURZ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "excreción",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-furza",
+          "form": "furza",
+          "gloss": "flatulencia",
+          "analysis_html": "FURZ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FURZ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "excreción",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fuz",
@@ -2364,7 +4176,62 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fuzas",
+          "form": "fuzas",
+          "gloss": "refutar",
+          "analysis_html": "FUZ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "FUZ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "debate",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-sefuzil",
+          "form": "sefuzil",
+          "gloss": "irrefutable",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-se-privative\">SE-</a> + FUZ + <a class=\"morph-link\" href=\"#morph-il\">-IL</a>",
+          "analysis_text": "SE- + FUZ + -IL",
+          "refs": [
+            {
+              "id": "morph-se-privative",
+              "label": "SE-"
+            },
+            {
+              "id": "morph-il",
+              "label": "-IL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio IL"
+            }
+          ],
+          "semantic_fields": [
+            "comunicación",
+            "debate",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fujigea",
