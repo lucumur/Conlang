@@ -238,11 +238,8 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": "Etym. Eo. gajni → *GAJN-",
-      "notes": [
-        "ETIMOLOGÍA EXTERNA: el esperantista gajni se relaciona con francés gagner e inglés gain.",
-        "CANÓNICO: GAJN + -AS = gajnas «ganar, obtener»; GAJN + -T- + -AS = gajntas «conseguir algo» (perfectivo); GAJN + -A = gajna «ganancia, beneficio económico (profit)»."
-      ],
+      "etymology": "< Eo: gajni, a su vez de Fr. gagner, Eng. gain.",
+      "notes": [],
       "row_class": "",
       "words": [
         {
@@ -301,9 +298,7 @@
             "posesión",
             "resultados"
           ],
-          "notes": [
-            "Derivado de *GAJN- (Etym. Eo. gajni), con -T- perfectivo ya documentado; denota la obtención efectivamente conseguida."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-gajna",
@@ -328,9 +323,7 @@
             "resultados",
             "posesión"
           ],
-          "notes": [
-            "Derivado nominal de *GAJN- (Etym. Eo. gajni); compatible con el sentido de Eo. gajno «ganancia, provecho»."
-          ]
+          "notes": []
         }
       ]
     },
