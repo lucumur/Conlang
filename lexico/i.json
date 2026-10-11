@@ -21,6 +21,27 @@
       "words": []
     },
     {
+      "id": "root-iber",
+      "form": "*IBER-",
+      "gloss": "ibérico",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": "< Eo. ibero; cf. Lat. Iber, Iberia.",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-id",
       "form": "*ID-",
       "gloss": "igualar",
