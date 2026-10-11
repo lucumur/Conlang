@@ -42,7 +42,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mamo",
+          "form": "mamo",
+          "gloss": "seno, teta",
+          "analysis_html": "MAM + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MAM + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mamas",
+          "form": "mamas",
+          "gloss": "mamar",
+          "analysis_html": "MAM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MAM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-maj",
@@ -59,7 +109,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-majura",
+          "form": "majura",
+          "gloss": "magnitud",
+          "analysis_html": "MAJ + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "MAJ + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-majeẑa",
+          "form": "majeẑa",
+          "gloss": "grandeza",
+          "analysis_html": "MAJ + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "MAJ + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-makn",
@@ -105,7 +206,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-maldo",
+          "form": "maldo",
+          "gloss": "tobillo",
+          "analysis_html": "MALD + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MALD + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-malo",
@@ -134,7 +261,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mano",
+          "form": "mano",
+          "gloss": "mano",
+          "analysis_html": "MAN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MAN + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-man-2",
@@ -163,7 +316,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mandas",
+          "form": "mandas",
+          "gloss": "mandar, ordenar",
+          "analysis_html": "MAND + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MAND + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mank",
@@ -180,7 +358,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mankos",
+          "form": "mankos",
+          "gloss": "faltar",
+          "analysis_html": "MANK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MANK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-manka",
+          "form": "manka",
+          "gloss": "falta",
+          "analysis_html": "MANK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MANK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mang",
@@ -197,7 +425,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-manĝas",
+          "form": "manĝas",
+          "gloss": "comer",
+          "analysis_html": "MANĜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MANĜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-map",
@@ -238,7 +491,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mare",
+          "form": "mare",
+          "gloss": "mar",
+          "analysis_html": "MAR + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "MAR + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-marel",
+          "form": "marel",
+          "gloss": "marino",
+          "analysis_html": "MAR + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "MAR + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mar-z",
@@ -267,7 +571,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-markas",
+          "form": "markas",
+          "gloss": "marcar",
+          "analysis_html": "MARK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MARK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-marm",
@@ -279,7 +608,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-marme",
+          "form": "marme",
+          "gloss": "marmol",
+          "analysis_html": "MARM + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "MARM + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mas",
@@ -291,7 +646,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-masa",
+          "form": "masa",
+          "gloss": "masa, peso",
+          "analysis_html": "MAS + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MAS + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mase",
+          "form": "mase",
+          "gloss": "masa, materia",
+          "analysis_html": "MAS + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "MAS + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-masol",
+          "form": "masol",
+          "gloss": "masivo",
+          "analysis_html": "MAS + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "MAS + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mat",
@@ -324,7 +755,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mava",
+          "form": "mava",
+          "gloss": "maldad, cosa mala",
+          "analysis_html": "MAV + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MAV + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mavura",
+          "form": "mavura",
+          "gloss": "maldad",
+          "analysis_html": "MAV + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "MAV + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-maz",
@@ -362,7 +844,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-maĝol",
+          "form": "maĝol",
+          "gloss": "magico",
+          "analysis_html": "MAĜ + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "MAĜ + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-maĝa",
+          "form": "maĝa",
+          "gloss": "magia",
+          "analysis_html": "MAĜ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MAĜ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mas-2",
@@ -374,7 +907,82 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-maŝas",
+          "form": "maŝas",
+          "gloss": "humedecer, humectar",
+          "analysis_html": "MAŜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MAŜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-maŝa",
+          "form": "maŝa",
+          "gloss": "humedad",
+          "analysis_html": "MAŜ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MAŜ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-maŝis",
+          "form": "maŝis",
+          "gloss": "estar humedecido",
+          "analysis_html": "MAŜ + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "MAŜ + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "estado"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-maz-2",
@@ -398,7 +1006,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mecno",
+          "form": "mecno",
+          "gloss": "maquina",
+          "analysis_html": "MECN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MECN + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mecna",
+          "form": "mecna",
+          "gloss": "mecanismo",
+          "analysis_html": "MECN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MECN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-med",
@@ -415,7 +1074,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-meda",
+          "form": "meda",
+          "gloss": "remedio, aplicacion",
+          "analysis_html": "MED + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MED + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-medr",
@@ -432,7 +1117,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-medros",
+          "form": "medros",
+          "gloss": "madurar",
+          "analysis_html": "MEDR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MEDR + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-meg",
@@ -473,7 +1183,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mele",
+          "form": "mele",
+          "gloss": "miel",
+          "analysis_html": "MEL + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "MEL + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-melk",
@@ -485,7 +1221,81 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-melkas",
+          "form": "melkas",
+          "gloss": "exprimir, ordeñar",
+          "analysis_html": "MELK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MELK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-melkos",
+          "form": "melkos",
+          "gloss": "que se ordeña",
+          "analysis_html": "MELK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MELK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-melko",
+          "form": "melko",
+          "gloss": "leche (leche fresca)",
+          "analysis_html": "MELK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MELK + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mem",
@@ -509,7 +1319,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-membreẑa",
+          "form": "membreẑa",
+          "gloss": "membresia",
+          "analysis_html": "MEMBR + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "MEMBR + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-merk",
@@ -521,7 +1357,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-merkas",
+          "form": "merkas",
+          "gloss": "comerciar",
+          "analysis_html": "MERK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MERK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mes-tr",
@@ -538,7 +1399,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mestra",
+          "form": "mestra",
+          "gloss": "maestria, habilidad",
+          "analysis_html": "MESTR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MESTR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mestron",
+          "form": "mestron",
+          "gloss": "señor, maestro",
+          "analysis_html": "MESTR + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "MESTR + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "personas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-met",
@@ -555,7 +1467,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-metas",
+          "form": "metas",
+          "gloss": "poner",
+          "analysis_html": "MET + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MET + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mez",
@@ -615,7 +1552,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-miksas",
+          "form": "miksas",
+          "gloss": "mezclar",
+          "analysis_html": "MIKS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MIKS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mil",
@@ -661,7 +1623,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-milos",
+          "form": "milos",
+          "gloss": "sonreir",
+          "analysis_html": "MIL + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MIL + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mild",
@@ -702,7 +1689,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-minol",
+          "form": "minol",
+          "gloss": "menor",
+          "analysis_html": "MIN + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "MIN + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-minos",
+          "form": "minos",
+          "gloss": "disminuir, menguar",
+          "analysis_html": "MIN + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MIN + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mint",
@@ -714,7 +1751,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-minto",
+          "form": "minto",
+          "gloss": "menta",
+          "analysis_html": "MINT + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MINT + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mir",
@@ -726,7 +1789,81 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-miras",
+          "form": "miras",
+          "gloss": "admirar",
+          "analysis_html": "MIR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MIR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-miros",
+          "form": "miros",
+          "gloss": "asombrarse, maravillarse",
+          "analysis_html": "MIR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MIR + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mireẑa",
+          "form": "mireẑa",
+          "gloss": "admiracion (a alguien)",
+          "analysis_html": "MIR + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "MIR + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mir-mit",
@@ -755,7 +1892,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mirno",
+          "form": "mirno",
+          "gloss": "mirra",
+          "analysis_html": "MIRN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MIRN + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mis",
@@ -772,7 +1935,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-misas",
+          "form": "misas",
+          "gloss": "fallar, equivocarse",
+          "analysis_html": "MIS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MIS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mizr",
@@ -801,7 +1989,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-miŝa",
+          "form": "miŝa",
+          "gloss": "mision",
+          "analysis_html": "MIŜ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MIŜ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-miŝas",
+          "form": "miŝas",
+          "gloss": "enviar con proposito",
+          "analysis_html": "MIŜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MIŜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mitheta",
@@ -825,7 +2063,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-molo",
+          "form": "molo",
+          "gloss": "diente",
+          "analysis_html": "MOL + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MOL + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mon",
@@ -837,7 +2101,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mono",
+          "form": "mono",
+          "gloss": "moneda",
+          "analysis_html": "MON + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MON + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-monol",
+          "form": "monol",
+          "gloss": "como moneda",
+          "analysis_html": "MON + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "MON + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mon-t",
@@ -849,7 +2164,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-montol",
+          "form": "montol",
+          "gloss": "eminente, elevado",
+          "analysis_html": "MONT + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "MONT + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mon-tr",
@@ -861,7 +2202,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-montras",
+          "form": "montras",
+          "gloss": "mostrar, enseñar",
+          "analysis_html": "MONTR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MONTR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-montra",
+          "form": "montra",
+          "gloss": "muestra, ejemplo",
+          "analysis_html": "MONTR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MONTR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mond",
@@ -894,7 +2285,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mopas",
+          "form": "mopas",
+          "gloss": "trapear",
+          "analysis_html": "MOP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MOP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mopo",
+          "form": "mopo",
+          "gloss": "trapo",
+          "analysis_html": "MOP + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MOP + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mor-b",
@@ -911,7 +2352,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-morba",
+          "form": "morba",
+          "gloss": "enfermedad",
+          "analysis_html": "MORB + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MORB + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-morbas",
+          "form": "morbas",
+          "gloss": "enfermar",
+          "analysis_html": "MORB + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MORB + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mor-g",
@@ -940,7 +2431,56 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mornas",
+          "form": "mornas",
+          "gloss": "llorarle a alguien",
+          "analysis_html": "MORN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "MORN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mornos",
+          "form": "mornos",
+          "gloss": "sentir tristeza con llanto",
+          "analysis_html": "MORN + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MORN + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mor-t",
@@ -952,7 +2492,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-morta",
+          "form": "morta",
+          "gloss": "muerte",
+          "analysis_html": "MORT + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MORT + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mosk",
@@ -964,7 +2530,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-moske",
+          "form": "moske",
+          "gloss": "almizcle",
+          "analysis_html": "MOSK + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "MOSK + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mov",
@@ -990,7 +2582,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-muĝos",
+          "form": "muĝos",
+          "gloss": "mugir",
+          "analysis_html": "MUĜ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MUĜ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-muĝa",
+          "form": "muĝa",
+          "gloss": "mugido",
+          "analysis_html": "MUĜ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MUĜ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mul-mul",
@@ -1019,7 +2661,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mumis",
+          "form": "mumis",
+          "gloss": "estar momificado",
+          "analysis_html": "MUM + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "MUM + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "estado"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mur",
@@ -1031,7 +2699,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-muro",
+          "form": "muro",
+          "gloss": "pared",
+          "analysis_html": "MUR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MUR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-murr",
@@ -1043,7 +2737,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-murros",
+          "form": "murros",
+          "gloss": "murmurar",
+          "analysis_html": "MURR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MURR + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-mus",
@@ -1072,7 +2791,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-muza",
+          "form": "muza",
+          "gloss": "Arte (musica, canto literatura, poesia, cine, pintura, escultura)",
+          "analysis_html": "MUZ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MUZ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-muzeẑa",
+          "form": "muzeẑa",
+          "gloss": "asombro",
+          "analysis_html": "MUZ + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "MUZ + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }
