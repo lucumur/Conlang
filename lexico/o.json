@@ -308,33 +308,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-oko",
-          "form": "oko",
-          "gloss": "sol (poetico)",
-          "analysis_html": "OK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "OK + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "anatomía",
-            "forma",
-            "objetos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-oks",
@@ -414,9 +388,8 @@
             }
           ],
           "semantic_fields": [
-            "cualidades",
-            "relaciones",
-            "tiempo"
+            "tiempo",
+            "frecuencia"
           ],
           "notes": []
         }
@@ -767,33 +740,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-opas",
-          "form": "opas",
-          "gloss": "enfrentar, encarar",
-          "analysis_html": "OP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "OP + -AS",
-          "refs": [
-            {
-              "id": "morph-as",
-              "label": "-AS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado AS"
-            }
-          ],
-          "semantic_fields": [
-            "cualidades",
-            "relaciones",
-            "acciones"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-op-o",
@@ -1180,8 +1127,7 @@
             }
           ],
           "semantic_fields": [
-            "organización",
-            "acciones",
+            "instrumentos",
             "objetos"
           ],
           "notes": []
@@ -1256,33 +1202,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-orθos",
-          "form": "orθos",
-          "gloss": "dirgirse a un lado",
-          "analysis_html": "ORΘ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "ORΘ + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "geometría",
-            "forma",
-            "procesos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-ost",
@@ -1370,9 +1290,9 @@
             }
           ],
           "semantic_fields": [
+            "anatomía",
             "audición",
-            "sonido",
-            "objetos"
+            "cuerpo"
           ],
           "notes": []
         },
@@ -1476,8 +1396,8 @@
           ],
           "semantic_fields": [
             "botánica",
-            "alimentación",
-            "objetos"
+            "hierbas",
+            "alimentación"
           ],
           "notes": []
         }
