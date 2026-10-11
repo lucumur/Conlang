@@ -259,7 +259,7 @@
           ],
           "semantic_fields": [
             "objetos",
-            "descripción"
+            "recipientes"
           ],
           "notes": []
         }
@@ -304,33 +304,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-kampen",
-          "form": "kampen",
-          "gloss": "campo",
-          "analysis_html": "KAMP + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
-          "analysis_text": "KAMP + -EN",
-          "refs": [
-            {
-              "id": "morph-en",
-              "label": "-EN"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Animal EN"
-            }
-          ],
-          "semantic_fields": [
-            "naturaleza",
-            "fauna",
-            "descripción"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-kand",
@@ -496,9 +470,8 @@
             }
           ],
           "semantic_fields": [
-            "anatomía",
             "personas",
-            "descripción"
+            "autoridad"
           ],
           "notes": []
         },
@@ -522,8 +495,7 @@
           ],
           "semantic_fields": [
             "anatomía",
-            "cualidades",
-            "descripción"
+            "cualidades"
           ],
           "notes": []
         },
@@ -810,7 +782,7 @@
           ],
           "semantic_fields": [
             "acciones",
-            "descripción"
+            "captura"
           ],
           "notes": []
         }
@@ -846,9 +818,8 @@
             }
           ],
           "semantic_fields": [
-            "objetos",
             "acciones",
-            "descripción"
+            "ocultación"
           ],
           "notes": []
         },
@@ -872,7 +843,7 @@
           ],
           "semantic_fields": [
             "objetos",
-            "descripción"
+            "almacenamiento"
           ],
           "notes": []
         }
@@ -921,8 +892,8 @@
           ],
           "semantic_fields": [
             "botánica",
-            "objetos",
-            "descripción"
+            "alimentos",
+            "semillas"
           ],
           "notes": []
         },
@@ -946,7 +917,7 @@
           ],
           "semantic_fields": [
             "cualidades",
-            "descripción"
+            "posición"
           ],
           "notes": []
         }
@@ -982,9 +953,8 @@
             }
           ],
           "semantic_fields": [
-            "sociedad",
             "acciones",
-            "descripción"
+            "conquista"
           ],
           "notes": []
         },
@@ -1007,9 +977,8 @@
             }
           ],
           "semantic_fields": [
-            "movimiento",
-            "sociedad",
-            "procesos"
+            "acciones",
+            "búsqueda"
           ],
           "notes": []
         }
@@ -1133,9 +1102,8 @@
             }
           ],
           "semantic_fields": [
-            "sociedad",
-            "objetos",
-            "descripción"
+            "religión",
+            "edificios"
           ],
           "notes": []
         }
@@ -1232,8 +1200,7 @@
             }
           ],
           "semantic_fields": [
-            "comunicación",
-            "movimiento",
+            "escritura",
             "acciones"
           ],
           "notes": []
@@ -1321,7 +1288,6 @@
           ],
           "semantic_fields": [
             "comunicación",
-            "naturaleza",
             "acciones"
           ],
           "notes": []
@@ -1358,8 +1324,7 @@
             }
           ],
           "semantic_fields": [
-            "cualidades",
-            "naturaleza",
+            "comunicación",
             "acciones"
           ],
           "notes": []
@@ -1396,9 +1361,9 @@
             }
           ],
           "semantic_fields": [
-            "fauna",
             "objetos",
-            "descripción"
+            "herramientas",
+            "hogar"
           ],
           "notes": []
         },
@@ -1421,9 +1386,9 @@
             }
           ],
           "semantic_fields": [
-            "fauna",
+            "acciones",
             "objetos",
-            "acciones"
+            "cerraduras"
           ],
           "notes": []
         }
@@ -1512,33 +1477,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-kloko",
-          "form": "kloko",
-          "gloss": "capa",
-          "analysis_html": "KLOK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "KLOK + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "alimentación",
-            "sonido",
-            "objetos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-klomb",
@@ -1583,8 +1522,7 @@
           ],
           "semantic_fields": [
             "sonido",
-            "procesos",
-            "descripción"
+            "procesos"
           ],
           "notes": []
         },
@@ -1607,9 +1545,8 @@
             }
           ],
           "semantic_fields": [
-            "alimentación",
-            "sonido",
-            "objetos"
+            "objetos",
+            "sonido"
           ],
           "notes": []
         }
@@ -1657,9 +1594,8 @@
             }
           ],
           "semantic_fields": [
-            "movimiento",
-            "acciones",
-            "descripción"
+            "artes",
+            "acciones"
           ],
           "notes": []
         }
@@ -1712,8 +1648,8 @@
             }
           ],
           "semantic_fields": [
-            "personas",
-            "descripción"
+            "mitología",
+            "personas"
           ],
           "notes": []
         }
@@ -1729,33 +1665,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-kojnura",
-          "form": "kojnura",
-          "gloss": "chiquero, suciedad",
-          "analysis_html": "KOJN + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
-          "analysis_text": "KOJN + -URA",
-          "refs": [
-            {
-              "id": "morph-ura",
-              "label": "-URA"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto URA"
-            }
-          ],
-          "semantic_fields": [
-            "tiempo",
-            "abstractos",
-            "descripción"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-kok",
@@ -1864,8 +1774,8 @@
             }
           ],
           "semantic_fields": [
-            "objetos",
-            "descripción"
+            "anatomía",
+            "cuerpo"
           ],
           "notes": []
         }
@@ -1923,32 +1833,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-komikisma",
-          "form": "komikisma",
-          "gloss": "comedia",
-          "analysis_html": "KOMIK + <a class=\"morph-link\" href=\"#morph-isma\">-ISMA</a>",
-          "analysis_text": "KOMIK + -ISMA",
-          "refs": [
-            {
-              "id": "morph-isma",
-              "label": "-ISMA"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Sistema ISMA"
-            }
-          ],
-          "semantic_fields": [
-            "sociedad",
-            "descripción"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-kon",
@@ -2147,8 +2032,7 @@
           ],
           "semantic_fields": [
             "anatomía",
-            "objetos",
-            "descripción"
+            "cuerpo"
           ],
           "notes": []
         }
@@ -2185,8 +2069,7 @@
           ],
           "semantic_fields": [
             "anatomía",
-            "objetos",
-            "descripción"
+            "cuerpo"
           ],
           "notes": []
         }
@@ -2281,7 +2164,7 @@
           ],
           "semantic_fields": [
             "acciones",
-            "descripción"
+            "causalidad"
           ],
           "notes": []
         },
@@ -2305,7 +2188,7 @@
           ],
           "semantic_fields": [
             "abstractos",
-            "descripción"
+            "causalidad"
           ],
           "notes": []
         }
@@ -2342,8 +2225,7 @@
           ],
           "semantic_fields": [
             "anatomía",
-            "objetos",
-            "descripción"
+            "cuerpo"
           ],
           "notes": []
         }
@@ -2454,9 +2336,8 @@
             }
           ],
           "semantic_fields": [
-            "sonido",
             "objetos",
-            "descripción"
+            "herramientas"
           ],
           "notes": []
         }
@@ -2492,8 +2373,8 @@
             }
           ],
           "semantic_fields": [
-            "procesos",
-            "descripción"
+            "sonido",
+            "procesos"
           ],
           "notes": []
         },
@@ -2517,7 +2398,7 @@
           ],
           "semantic_fields": [
             "acciones",
-            "descripción"
+            "combate"
           ],
           "notes": []
         }
@@ -2843,9 +2724,9 @@
             }
           ],
           "semantic_fields": [
-            "naturaleza",
-            "acciones",
-            "descripción"
+            "transportes",
+            "mar",
+            "acciones"
           ],
           "notes": []
         }
