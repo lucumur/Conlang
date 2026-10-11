@@ -130,31 +130,6 @@
             "acciones"
           ],
           "notes": []
-        },
-        {
-          "id": "lexeme-ramo",
-          "form": "ramo",
-          "gloss": "rama",
-          "analysis_html": "RAM + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "RAM + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "movimiento",
-            "acciones",
-            "objetos"
-          ],
-          "notes": []
         }
       ]
     },
@@ -177,33 +152,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-ramfo",
-          "form": "ramfo",
-          "gloss": "guadaña",
-          "analysis_html": "RAMF + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "RAMF + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "anatomía",
-            "forma",
-            "objetos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-ramp",
@@ -567,31 +516,6 @@
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-restas",
-          "form": "restas",
-          "gloss": "quitar",
-          "analysis_html": "REST + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "REST + -AS",
-          "refs": [
-            {
-              "id": "morph-as",
-              "label": "-AS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado AS"
-            }
-          ],
-          "semantic_fields": [
-            "estado",
-            "procesos",
-            "acciones"
-          ],
-          "notes": []
-        },
-        {
           "id": "lexeme-restos",
           "form": "restos",
           "gloss": "quedar, quedarse",
@@ -777,33 +701,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-rifa",
-          "form": "rifa",
-          "gloss": "obstaculo, trampa-riesgo",
-          "analysis_html": "RIF + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "RIF + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto A"
-            }
-          ],
-          "semantic_fields": [
-            "geografía",
-            "espacio",
-            "abstractos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-rip",
@@ -1225,31 +1123,6 @@
             "botánica",
             "plantas",
             "objetos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-riẑa",
-          "form": "riẑa",
-          "gloss": "raiz, etimologia",
-          "analysis_html": "RIẐ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "RIẐ + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto A"
-            }
-          ],
-          "semantic_fields": [
-            "botánica",
-            "plantas",
-            "abstractos"
           ],
           "notes": []
         }
