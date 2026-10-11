@@ -1379,7 +1379,162 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-farbas",
+          "form": "farbas",
+          "gloss": "pintar",
+          "analysis_html": "FARB + -AS",
+          "analysis_text": "FARB + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "acciones",
+            "pintura",
+            "arte"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-farbantan",
+          "form": "farbantan",
+          "gloss": "pintor",
+          "analysis_html": "FARB + -ANTAN",
+          "analysis_text": "FARB + -ANTAN",
+          "refs": [
+            {
+              "id": "morph-antan",
+              "label": "-ANTAN"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "personas",
+            "oficios",
+            "pintura"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-farbe",
+          "form": "farbe",
+          "gloss": "pintura, tinte",
+          "analysis_html": "FARB + -E",
+          "analysis_text": "FARB + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "materiales",
+            "pigmentos",
+            "pintura"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-farbalo",
+          "form": "farbalo",
+          "gloss": "pincel",
+          "analysis_html": "FARB + -AL + -O (segmentación formal provisional; -AL locativo no explica todavía el valor instrumental)",
+          "analysis_text": "FARB + -AL + -O (segmentación formal provisional; -AL locativo no explica todavía el valor instrumental)",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "herramientas",
+            "pintura",
+            "arte"
+          ],
+          "notes": [
+            "PROVISIONAL: la interpretación instrumental del segmento -AL-O no está documentada; no se crea un sufijo nuevo por inferencia."
+          ]
+        },
+        {
+          "id": "lexeme-farbalko",
+          "form": "farbalko",
+          "gloss": "lápiz de color",
+          "analysis_html": "FARB + -AL + -KO (segmentación formal provisional; -AL locativo no explica todavía el valor instrumental)",
+          "analysis_text": "FARB + -AL + -KO (segmentación formal provisional; -AL locativo no explica todavía el valor instrumental)",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            },
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "herramientas",
+            "dibujo",
+            "pigmentos"
+          ],
+          "notes": [
+            "PROVISIONAL: requiere explicar por qué -AL (locativo) genera un tema instrumental antes de -KO (objeto)."
+          ]
+        },
+        {
+          "id": "lexeme-farbo",
+          "form": "farbo",
+          "gloss": "dibujo, pintura",
+          "analysis_html": "FARB + -O",
+          "analysis_text": "FARB + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "arte",
+            "dibujo",
+            "pintura"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-farbla",
+          "form": "farbla",
+          "gloss": "color",
+          "analysis_html": "FARB + -LA",
+          "analysis_text": "FARB + -LA",
+          "refs": [
+            {
+              "id": "morph-la",
+              "label": "-LA"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "colores",
+            "percepción",
+            "arte"
+          ],
+          "notes": [
+            "La segmentación emplea -LA ya documentado; su alcance semántico general aún está pendiente de delimitar."
+          ]
+        }
+      ]
     },
     {
       "id": "root-faz",
