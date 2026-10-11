@@ -3700,6 +3700,26 @@
         "Atestiguado en fajfuro «silbato»."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-zhe-decades",
+      "form": "*-ẐE",
+      "gloss": "sufijo numeral formador de decenas",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "numeral"
+        }
+      ],
+      "letter": "Ẑ",
+      "section": "sec-circ-z",
+      "etymology": "< *DEẐ- «diez».",
+      "notes": [],
+      "row_class": ""
     }
   ]
 }
