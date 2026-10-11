@@ -3702,7 +3702,9 @@
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *BET- «abedul» es homónima de *BET- «verdura larga» (root-bet-2), sin relación semántica obligatoria. Sus derivados betingo «palo de abedul» y betingo «berenjena» coexisten."
+      ],
       "row_class": "lex-root-row",
       "words": [
         {
@@ -3835,6 +3837,9 @@
             "objetos",
             "materiales",
             "botánica"
+          ],
+          "notes": [
+            "CANÓNICO: homónimo de betingo «berenjena» derivado de la otra raíz *BET- «verdura larga». Ambos se conservan con identificadores independientes."
           ]
         },
         {
@@ -3880,7 +3885,9 @@
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *BET- «verdura larga» es homónima de *BET- «abedul» (root-bet). Su derivado betingo «berenjena» coexiste con betingo «palo de abedul»."
+      ],
       "row_class": "lex-root-row",
       "words": [
         {
@@ -3990,7 +3997,8 @@
             }
           ],
           "notes": [
-            "Homónimo de betingo «palo de abedul», derivado de la otra raíz *BET- «abedul»."
+            "Homónimo de betingo «palo de abedul», derivado de la otra raíz *BET- «abedul».",
+            "CANÓNICO: homónimo de betingo «palo de abedul», formado sobre *BET- «abedul». Ambas palabras se mantienen como entradas independientes."
           ],
           "semantic_fields": [
             "alimentación",
