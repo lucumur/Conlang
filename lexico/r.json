@@ -1385,24 +1385,24 @@
     },
     {
       "id": "root-rong",
-      "form": "*RON-Ĝ",
+      "form": "*ROĜ-",
       "gloss": "roer",
       "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
       "notes": [
-        "CANÓNICO: la forma de la raíz es *RON-Ĝ; reemplaza la forma anterior *RONG-.",
-        "CANÓNICO: en ronceren aparece RON- como alomorfo compositivo de *RON-Ĝ."
+        "CANÓNICO: *ROĜ- «roer» sustituye a la forma anterior *RON-Ĝ. El identificador técnico root-rong se mantiene estable para preservar enlaces existentes.",
+        "DESCARTADO como raíz vigente: *RON-Ĝ «roer» y el derivado ronĝas. La documentación antigua de ronceren «capibara» queda pendiente de reanálisis; no se asume automáticamente que RON- sea alomorfo de *ROĜ-."
       ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-ronĝas",
-          "form": "ronĝas",
+          "id": "lexeme-roĝas",
+          "form": "roĝas",
           "gloss": "roer",
-          "analysis_html": "RONĜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "RONĜ + -AS",
+          "analysis_html": "ROĜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ROĜ + -AS",
           "refs": [
             {
               "id": "morph-as",
@@ -1419,19 +1419,23 @@
             "acciones",
             "alimentación"
           ],
-          "notes": []
+          "notes": [
+            "CANÓNICO: ROĜ + -AS; reemplaza al antiguo ronĝas, derivado de *RON-Ĝ «roer» (DESCARTADO)."
+          ]
         }
       ]
     },
     {
       "id": "root-ros",
       "form": "*ROS-",
-      "gloss": "roer",
+      "gloss": "rocío",
       "tags": [],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *ROS- significa «rocío». La acepción anterior «roer» se descarta; para «roer» se utiliza *ROĜ-."
+      ],
       "row_class": "",
       "words": []
     },
@@ -1453,7 +1457,7 @@
       "section": "sec-r",
       "etymology": "Etym. Eslavo rus- → *ROS-V",
       "notes": [
-        "Raíz distinta de *ROS- «roer»."
+        "Raíz distinta de *ROS- «rocío» y *ROĜ- «roer»."
       ],
       "row_class": "lex-root-row",
       "words": []
