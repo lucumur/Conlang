@@ -469,8 +469,7 @@
           ],
           "semantic_fields": [
             "alimentación",
-            "acciones",
-            "objetos"
+            "alimentos"
           ],
           "notes": []
         },
@@ -494,7 +493,6 @@
           ],
           "semantic_fields": [
             "alimentación",
-            "acciones",
             "sustancias"
           ],
           "notes": []
@@ -624,7 +622,7 @@
             }
           ],
           "semantic_fields": [
-            "fauna",
+            "botánica",
             "alimentación",
             "sustancias"
           ],
@@ -1002,33 +1000,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-pepos",
-          "form": "pepos",
-          "gloss": "pillar",
-          "analysis_html": "PEP + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "PEP + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "captura",
-            "acciones",
-            "procesos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-per",
@@ -1831,8 +1803,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "interacción",
+            "alimentación",
+            "sabores",
             "cualidades"
           ],
           "notes": []
@@ -2370,31 +2342,6 @@
             "procesos"
           ],
           "notes": []
-        },
-        {
-          "id": "lexeme-pone",
-          "form": "pone",
-          "gloss": "occidente",
-          "analysis_html": "PON + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
-          "analysis_text": "PON + -E",
-          "refs": [
-            {
-              "id": "morph-e",
-              "label": "-E"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Incontable E"
-            }
-          ],
-          "semantic_fields": [
-            "dirección",
-            "geografía",
-            "sustancias"
-          ],
-          "notes": []
         }
       ]
     },
@@ -2428,9 +2375,9 @@
             }
           ],
           "semantic_fields": [
+            "objetos",
             "agua",
-            "procesos",
-            "objetos"
+            "esponjas"
           ],
           "notes": []
         },
@@ -2612,83 +2559,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-poto",
-          "form": "poto",
-          "gloss": "jarra, botella",
-          "analysis_html": "POT + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "POT + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "salud",
-            "cuerpo",
-            "objetos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-pote",
-          "form": "pote",
-          "gloss": "agua de beber",
-          "analysis_html": "POT + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
-          "analysis_text": "POT + -E",
-          "refs": [
-            {
-              "id": "morph-e",
-              "label": "-E"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Incontable E"
-            }
-          ],
-          "semantic_fields": [
-            "salud",
-            "cuerpo",
-            "sustancias"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-potol",
-          "form": "potol",
-          "gloss": "agua dulce, potable",
-          "analysis_html": "POT + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "POT + -OL",
-          "refs": [
-            {
-              "id": "morph-ol-2",
-              "label": "-OL"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo OL"
-            }
-          ],
-          "semantic_fields": [
-            "salud",
-            "cuerpo",
-            "cualidades"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-pov",
@@ -2922,31 +2793,6 @@
             "espacio",
             "movimiento",
             "procesos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-preskam",
-          "form": "preskam",
-          "gloss": "cercas",
-          "analysis_html": "PRESK + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
-          "analysis_text": "PRESK + -AM",
-          "refs": [
-            {
-              "id": "morph-am",
-              "label": "-AM"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adverbial AM"
-            }
-          ],
-          "semantic_fields": [
-            "espacio",
-            "movimiento",
-            "tiempo"
           ],
           "notes": []
         }
@@ -3260,31 +3106,6 @@
             "cualidades"
           ],
           "notes": []
-        },
-        {
-          "id": "lexeme-prudos",
-          "form": "prudos",
-          "gloss": "precaver",
-          "analysis_html": "PRUD + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "PRUD + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "conducta",
-            "cualidades",
-            "procesos"
-          ],
-          "notes": []
         }
       ]
     },
@@ -3320,7 +3141,7 @@
           "semantic_fields": [
             "botánica",
             "frutos",
-            "objetos"
+            "alimentación"
           ],
           "notes": []
         }
