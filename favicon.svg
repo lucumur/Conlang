@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Conlang</title>
+  <rect width="64" height="64" rx="14" fill="#4338ca"/>
+  <path d="M45 24.5C41.5 20.7 37.2 19 31.5 19 21.7 19 15 25.5 15 34c0 8.5 6.7 15 16.5 15 5.8 0 10.2-1.8 13.5-5.5" fill="none" stroke="#fffdf8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m24.5 13 7-6 7 6" fill="none" stroke="#f8c86d" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
