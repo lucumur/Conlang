@@ -1189,7 +1189,7 @@
     },
     {
       "id": "root-ortheta",
-      "form": "*ORΘ-",
+      "form": "*OR-Θ",
       "gloss": "recto",
       "tags": [
         {
@@ -1200,7 +1200,9 @@
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: la raíz se escribe *OR-Θ «recto». En el compuesto orgadro «cuadrado (de lados rectos)» aparece la base OR-; el guion interno permite representar esta segmentación léxica, sin declarar -Θ un afijo productivo ni una regla general de elisión."
+      ],
       "row_class": "",
       "words": []
     },
