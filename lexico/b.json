@@ -6163,10 +6163,14 @@
         {
           "id": "lexeme-bonfara",
           "form": "bonfara",
-          "gloss": "bendición",
-          "analysis_html": "BON + <a class=\"morph-link\" href=\"#root-far\">FAR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "gloss": "favor, bendición",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bon\">BON</a> + <a class=\"morph-link\" href=\"#root-far\">FAR</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
           "analysis_text": "BON + FAR + -A",
           "refs": [
+            {
+              "id": "root-bon",
+              "label": "BON"
+            },
             {
               "id": "root-far",
               "label": "FAR"
@@ -6183,9 +6187,12 @@
             }
           ],
           "semantic_fields": [
+            "relaciones",
             "religión",
-            "conducta",
             "interacción"
+          ],
+          "notes": [
+            "CANÓNICO: una sola entrada con los sentidos «favor» y «bendición». «Bendición» es una especialización religiosa de «favor». Compuesto de *BON- y *FAR-."
           ]
         }
       ]
