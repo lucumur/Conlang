@@ -62,8 +62,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "anatomía",
+            "alimentación",
             "objetos"
           ],
           "notes": []
@@ -87,8 +87,9 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "anatomía",
+            "alimentación",
+            "acciones"
           ],
           "notes": []
         }
@@ -129,8 +130,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "cualidades",
+            "tamaño",
             "abstractos"
           ],
           "notes": []
@@ -154,8 +155,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "cualidades",
+            "tamaño",
             "abstractos"
           ],
           "notes": []
@@ -226,8 +227,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "anatomía",
+            "cuerpo",
             "objetos"
           ],
           "notes": []
@@ -281,8 +282,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "anatomía",
+            "cuerpo",
             "objetos"
           ],
           "notes": []
@@ -336,8 +337,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "autoridad",
+            "acciones"
           ],
           "notes": []
         }
@@ -378,7 +379,7 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
+            "ausencia",
             "procesos"
           ],
           "notes": []
@@ -402,7 +403,7 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
+            "ausencia",
             "procesos",
             "abstractos"
           ],
@@ -445,8 +446,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "alimentación",
+            "acciones"
           ],
           "notes": []
         }
@@ -511,8 +512,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "geografía",
+            "naturaleza",
             "sustancias"
           ],
           "notes": []
@@ -536,9 +537,9 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
-            "cualidades"
+            "geografía",
+            "naturaleza",
+            "abstractos"
           ],
           "notes": []
         }
@@ -591,8 +592,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "escritura",
+            "acciones"
           ],
           "notes": []
         }
@@ -628,8 +629,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "materiales",
+            "construcción",
             "sustancias"
           ],
           "notes": []
@@ -666,8 +667,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "materiales",
+            "sustancias",
             "abstractos"
           ],
           "notes": []
@@ -691,8 +692,7 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "materiales",
             "sustancias"
           ],
           "notes": []
@@ -716,8 +716,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "materiales",
+            "sustancias",
             "cualidades"
           ],
           "notes": []
@@ -775,8 +775,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "conducta",
+            "cualidades",
             "abstractos"
           ],
           "notes": []
@@ -800,8 +800,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "conducta",
+            "cualidades",
             "abstractos"
           ],
           "notes": []
@@ -864,8 +864,7 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "mitología",
             "cualidades"
           ],
           "notes": []
@@ -889,8 +888,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "mitología",
+            "cualidades",
             "abstractos"
           ],
           "notes": []
@@ -927,8 +926,9 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "agua",
+            "procesos",
+            "acciones"
           ],
           "notes": []
         },
@@ -951,7 +951,7 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
+            "agua",
             "procesos",
             "abstractos"
           ],
@@ -976,7 +976,7 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
+            "agua",
             "procesos",
             "estado"
           ],
@@ -1026,8 +1026,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "herramientas",
+            "industria",
             "objetos"
           ],
           "notes": []
@@ -1051,8 +1051,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "herramientas",
+            "industria",
             "abstractos"
           ],
           "notes": []
@@ -1094,8 +1094,8 @@
             }
           ],
           "semantic_fields": [
+            "salud",
             "acciones",
-            "procesos",
             "abstractos"
           ],
           "notes": []
@@ -1137,7 +1137,7 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
+            "edad",
             "procesos"
           ],
           "notes": []
@@ -1203,8 +1203,7 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "alimentación",
             "sustancias"
           ],
           "notes": []
@@ -1241,32 +1240,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-melkos",
-          "form": "melkos",
-          "gloss": "que se ordeña",
-          "analysis_html": "MELK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "MELK + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "acciones",
-            "procesos"
+            "alimentación",
+            "acciones"
           ],
           "notes": []
         },
@@ -1289,8 +1264,8 @@
             }
           ],
           "semantic_fields": [
+            "alimentación",
             "acciones",
-            "procesos",
             "objetos"
           ],
           "notes": []
@@ -1339,8 +1314,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "relaciones",
+            "posesión",
             "abstractos"
           ],
           "notes": []
@@ -1377,8 +1352,9 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "comercio",
+            "finanzas",
+            "acciones"
           ],
           "notes": []
         }
@@ -1419,8 +1395,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "educación",
+            "profesiones",
             "abstractos"
           ],
           "notes": []
@@ -1444,8 +1420,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "educación",
+            "profesiones",
             "personas"
           ],
           "notes": []
@@ -1487,8 +1463,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "espacio",
+            "acciones"
           ],
           "notes": []
         }
@@ -1572,8 +1548,9 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "procesos",
+            "materiales",
+            "acciones"
           ],
           "notes": []
         }
@@ -1643,7 +1620,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
+            "emociones",
+            "expresión",
             "procesos"
           ],
           "notes": []
@@ -1709,9 +1687,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
-            "cualidades"
+            "cualidades",
+            "tamaño"
           ],
           "notes": []
         },
@@ -1734,7 +1711,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
+            "cualidades",
+            "tamaño",
             "procesos"
           ],
           "notes": []
@@ -1771,8 +1749,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "botánica",
+            "alimentación",
             "objetos"
           ],
           "notes": []
@@ -1809,8 +1787,9 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "emociones",
+            "percepción",
+            "acciones"
           ],
           "notes": []
         },
@@ -1833,7 +1812,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
+            "emociones",
+            "percepción",
             "procesos"
           ],
           "notes": []
@@ -1857,8 +1837,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "emociones",
+            "percepción",
             "abstractos"
           ],
           "notes": []
@@ -1912,8 +1892,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "botánica",
+            "materiales",
             "objetos"
           ],
           "notes": []
@@ -1955,8 +1935,9 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "errores",
+            "conducta",
+            "acciones"
           ],
           "notes": []
         }
@@ -2009,8 +1990,8 @@
             }
           ],
           "semantic_fields": [
+            "comunicación",
             "acciones",
-            "procesos",
             "abstractos"
           ],
           "notes": []
@@ -2034,8 +2015,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "comunicación",
+            "acciones"
           ],
           "notes": []
         }
@@ -2063,33 +2044,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-molo",
-          "form": "molo",
-          "gloss": "diente",
-          "analysis_html": "MOL + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "MOL + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "acciones",
-            "procesos",
-            "objetos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-mon",
@@ -2121,8 +2076,7 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "finanzas",
             "objetos"
           ],
           "notes": []
@@ -2146,8 +2100,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "finanzas",
+            "objetos",
             "cualidades"
           ],
           "notes": []
@@ -2184,8 +2138,7 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "jerarquía",
             "cualidades"
           ],
           "notes": []
@@ -2222,8 +2175,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "comunicación",
+            "acciones"
           ],
           "notes": []
         },
@@ -2246,8 +2199,8 @@
             }
           ],
           "semantic_fields": [
+            "comunicación",
             "acciones",
-            "procesos",
             "abstractos"
           ],
           "notes": []
@@ -2305,8 +2258,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "limpieza",
+            "acciones"
           ],
           "notes": []
         },
@@ -2329,8 +2282,8 @@
             }
           ],
           "semantic_fields": [
+            "limpieza",
             "acciones",
-            "procesos",
             "objetos"
           ],
           "notes": []
@@ -2372,8 +2325,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "salud",
+            "enfermedad",
             "abstractos"
           ],
           "notes": []
@@ -2397,8 +2350,9 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "salud",
+            "enfermedad",
+            "acciones"
           ],
           "notes": []
         }
@@ -2451,8 +2405,9 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos"
+            "emociones",
+            "pérdida",
+            "acciones"
           ],
           "notes": []
         },
@@ -2475,7 +2430,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
+            "emociones",
+            "pérdida",
             "procesos"
           ],
           "notes": []
@@ -2512,8 +2468,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "vida",
+            "muerte",
             "abstractos"
           ],
           "notes": []
@@ -2550,9 +2506,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
-            "sustancias"
+            "sustancias",
+            "olfato"
           ],
           "notes": []
         }
@@ -2602,7 +2557,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
+            "fauna",
+            "sonido",
             "procesos"
           ],
           "notes": []
@@ -2626,8 +2582,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "fauna",
+            "sonido",
             "abstractos"
           ],
           "notes": []
@@ -2681,8 +2637,7 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "cuerpo",
             "estado"
           ],
           "notes": []
@@ -2719,8 +2674,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
+            "edificios",
+            "construcción",
             "objetos"
           ],
           "notes": []
@@ -2757,7 +2712,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
+            "sonido",
+            "comunicación",
             "procesos"
           ],
           "notes": []
@@ -2811,33 +2767,8 @@
             }
           ],
           "semantic_fields": [
-            "acciones",
-            "procesos",
-            "abstractos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-muzeẑa",
-          "form": "muzeẑa",
-          "gloss": "asombro",
-          "analysis_html": "MUZ + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
-          "analysis_text": "MUZ + -EẐA",
-          "refs": [
-            {
-              "id": "morph-eza",
-              "label": "-EẐA"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto EẐA"
-            }
-          ],
-          "semantic_fields": [
-            "acciones",
-            "procesos",
+            "artes",
+            "cultura",
             "abstractos"
           ],
           "notes": []
