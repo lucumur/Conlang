@@ -1626,7 +1626,9 @@
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: koblin «duende» con -IN hipocorístico y koblun «duende venerable» con -UN; koblon permanece como variante no hipocorística en -ON."
+      ],
       "row_class": "",
       "words": [
         {
@@ -1651,7 +1653,63 @@
             "mitología",
             "personas"
           ],
-          "notes": []
+          "notes": [
+            "Variante en -ON humano no agentivo; koblin es la forma hipocorística habitual y koblun la forma de tratamiento venerable."
+          ]
+        },
+        {
+          "id": "lexeme-koblin",
+          "form": "koblin",
+          "gloss": "duende (hipocorístico)",
+          "analysis_html": "KOBL + <a class=\"morph-link\" href=\"#morph-in-hypocoristic\">-IN</a>",
+          "analysis_text": "KOBL + -IN",
+          "refs": [
+            {
+              "id": "morph-in-hypocoristic",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico IN"
+            }
+          ],
+          "semantic_fields": [
+            "mitología",
+            "personas",
+            "afecto"
+          ],
+          "notes": [
+            "CANÓNICO: uso nominal afectivo de -IN; distinto del -IN participial humano."
+          ]
+        },
+        {
+          "id": "lexeme-koblun",
+          "form": "koblun",
+          "gloss": "duende venerable",
+          "analysis_html": "KOBL + <a class=\"morph-link\" href=\"#morph-un-parahuman\">-UN</a>",
+          "analysis_text": "KOBL + -UN",
+          "refs": [
+            {
+              "id": "morph-un-parahuman",
+              "label": "-UN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Parahumano UN"
+            }
+          ],
+          "semantic_fields": [
+            "mitología",
+            "personas",
+            "sociedad"
+          ],
+          "notes": [
+            "CANÓNICO: -UN sustantivante parahumano en uso venerativo."
+          ]
         }
       ]
     },
