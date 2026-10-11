@@ -127,6 +127,53 @@
       ]
     },
     {
+      "id": "root-sac-2",
+      "form": "*SAĈ-",
+      "gloss": "santo",
+      "tags": [
+        {
+          "class": "italico",
+          "label": "Italico"
+        },
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-saĉas",
+          "form": "saĉas",
+          "gloss": "sacrificar algo",
+          "analysis_html": "SAĈ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "SAĈ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "cualidades",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "root-safr",
       "form": "*SAFR-",
       "gloss": "azafran",
@@ -200,6 +247,20 @@
           "notes": []
         }
       ]
+    },
+    {
+      "id": "root-sag-2",
+      "form": "*SAĜ-",
+      "gloss": "sabio",
+      "tags": [],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: *SAĜ- «sabio». La glosa previa «sablo» fue un dato obsoleto y queda descartada."
+      ],
+      "row_class": "",
+      "words": []
     },
     {
       "id": "root-sak",
@@ -740,56 +801,9 @@
       ]
     },
     {
-      "id": "root-sac-2",
-      "form": "*SAĈ-",
-      "gloss": "santo",
-      "tags": [
-        {
-          "class": "italico",
-          "label": "Italico"
-        },
-        {
-          "class": "nova",
-          "label": "Nova"
-        }
-      ],
-      "letter": "S",
-      "section": "sec-s",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-saĉas",
-          "form": "saĉas",
-          "gloss": "sacrificar algo",
-          "analysis_html": "SAĈ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "SAĈ + -AS",
-          "refs": [
-            {
-              "id": "morph-as",
-              "label": "-AS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado AS"
-            }
-          ],
-          "semantic_fields": [
-            "religión",
-            "cualidades",
-            "acciones"
-          ],
-          "notes": []
-        }
-      ]
-    },
-    {
-      "id": "root-sag-2",
-      "form": "*SAĜ-",
-      "gloss": "sablo",
+      "id": "root-sef-t",
+      "form": "*SEF-T-",
+      "gloss": "siete",
       "tags": [],
       "letter": "S",
       "section": "sec-s",
@@ -799,14 +813,16 @@
       "words": []
     },
     {
-      "id": "root-sef-t",
-      "form": "*SEF-T-",
-      "gloss": "siete",
+      "id": "root-sejv",
+      "form": "*SEJV-",
+      "gloss": "selva",
       "tags": [],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *SEJV- «selva»; sustituye la atribución histórica de «selva» a *SIV- en Tana. *SIV- «seda» continúa vigente como raíz distinta."
+      ],
       "row_class": "",
       "words": []
     },
@@ -924,6 +940,18 @@
       "words": []
     },
     {
+      "id": "root-send",
+      "form": "*SEND-",
+      "gloss": "enviar",
+      "tags": [],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-sent",
       "form": "*SENT-",
       "gloss": "sentir",
@@ -1012,9 +1040,9 @@
       ]
     },
     {
-      "id": "root-send",
-      "form": "*SEND-",
-      "gloss": "enviar",
+      "id": "root-serc",
+      "form": "*SERC-",
+      "gloss": "buscar",
       "tags": [],
       "letter": "S",
       "section": "sec-s",
@@ -1150,9 +1178,21 @@
       ]
     },
     {
-      "id": "root-serc",
-      "form": "*SERC-",
-      "gloss": "buscar",
+      "id": "root-ses",
+      "form": "*SES-",
+      "gloss": "seis",
+      "tags": [],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
+      "id": "root-sesv",
+      "form": "*SESV-",
+      "gloss": "seguir",
       "tags": [],
       "letter": "S",
       "section": "sec-s",
@@ -1177,30 +1217,6 @@
       "id": "root-sez",
       "form": "*SEZ-",
       "gloss": "estacion",
-      "tags": [],
-      "letter": "S",
-      "section": "sec-s",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-ses",
-      "form": "*SES-",
-      "gloss": "seis",
-      "tags": [],
-      "letter": "S",
-      "section": "sec-s",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-sesv",
-      "form": "*SESV-",
-      "gloss": "seguir",
       "tags": [],
       "letter": "S",
       "section": "sec-s",
@@ -1504,7 +1520,9 @@
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *SIV- «seda», raíz distinta de *SEJV- «selva». No hereda el valor «selva» registrado anteriormente en Tana."
+      ],
       "row_class": "",
       "words": []
     },
