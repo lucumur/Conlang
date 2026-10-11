@@ -47,15 +47,50 @@
     },
     {
       "id": "root-saj",
-      "form": "*ŜAJ-",
+      "form": "*ŜAF-",
       "gloss": "oveja",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Eo. ŝafo → *ŜAF-",
+      "notes": [
+        "CANÓNICO: *ŜAF- «oveja» reemplaza *ŜAJ- (DESCARTADO). La forma nominal regular es ŝafen (ŜAF + -EN). Tana conserva las formas históricas ŝafin y ŝafrin, cuyo análisis debe revisarse según el sistema vigente."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ŝafen",
+          "form": "ŝafen",
+          "gloss": "oveja",
+          "analysis_html": "ŜAF + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "ŜAF + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "mamíferos",
+            "animales"
+          ],
+          "notes": [
+            "CANÓNICO: forma regular ŜAF + -EN «oveja». Sustituye la raíz *ŜAJ- y el antiguo nominal ŝafin de Tana; *ŜAJN- «parecer» sigue siendo una raíz distinta."
+          ]
+        }
+      ]
     },
     {
       "id": "root-sajn",
