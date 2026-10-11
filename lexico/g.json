@@ -710,10 +710,296 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Lat. Gallus, pl. Galli.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-galon",
+          "form": "galon",
+          "gloss": "galo",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "GAL + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "historia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-galoni",
+          "form": "galoni",
+          "gloss": "galos",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#morph-oni\">-ONI</a>",
+          "analysis_text": "GAL + -ONI",
+          "refs": [
+            {
+              "id": "morph-oni",
+              "label": "-ONI"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON plural"
+            }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "historia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-galjal",
+          "form": "Galjal",
+          "gloss": "Galia",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "GAL + -J- + -AL",
+          "refs": [
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares",
+            "historia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-frajngaloni",
+          "form": "frajngaloni",
+          "gloss": "franceses",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-frajn\">FRAJN</a> + GAL + <a class=\"morph-link\" href=\"#morph-oni\">-ONI</a>",
+          "analysis_text": "FRAJN + GAL + -ONI",
+          "refs": [
+            {
+              "id": "root-frajn",
+              "label": "FRAJN"
+            },
+            {
+              "id": "morph-oni",
+              "label": "-ONI"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano ON plural"
+            }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "geografía"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-frajngaljal",
+          "form": "frajngaljal",
+          "gloss": "Francia",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-frajn\">FRAJN</a> + GAL + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "FRAJN + GAL + -J- + -AL",
+          "refs": [
+            {
+              "id": "root-frajn",
+              "label": "FRAJN"
+            },
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares",
+            "países"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ibergaloni",
+          "form": "ibergaloni",
+          "gloss": "gallegos",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-iber\">IBER</a> + GAL + <a class=\"morph-link\" href=\"#morph-oni\">-ONI</a>",
+          "analysis_text": "IBER + GAL + -ONI",
+          "refs": [
+            {
+              "id": "root-iber",
+              "label": "IBER"
+            },
+            {
+              "id": "morph-oni",
+              "label": "-ONI"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano ON plural"
+            }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "geografía"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ibergaljal",
+          "form": "ibergaljal",
+          "gloss": "Galicia",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-iber\">IBER</a> + GAL + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "IBER + GAL + -J- + -AL",
+          "refs": [
+            {
+              "id": "root-iber",
+              "label": "IBER"
+            },
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "lugares",
+            "países"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-vergaloni",
+          "form": "vergaloni",
+          "gloss": "celtas",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ver\">VER</a> + GAL + <a class=\"morph-link\" href=\"#morph-oni\">-ONI</a>",
+          "analysis_text": "VER + GAL + -ONI",
+          "refs": [
+            {
+              "id": "root-ver",
+              "label": "VER"
+            },
+            {
+              "id": "morph-oni",
+              "label": "-ONI"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano ON plural"
+            }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "historia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-galotoj",
+          "form": "galotoj",
+          "gloss": "breeches, pantalones franceses",
+          "analysis_html": "GAL + <a class=\"morph-link\" href=\"#morph-ot\">-OT-</a> + <a class=\"morph-link\" href=\"#morph-oj\">-OJ</a>",
+          "analysis_text": "GAL + -OT- + -OJ",
+          "refs": [
+            {
+              "id": "morph-ot",
+              "label": "-OT-"
+            },
+            {
+              "id": "morph-oj",
+              "label": "-OJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dual OJ"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal lexicalizado"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "vestimenta",
+            "historia"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gam",
@@ -727,10 +1013,61 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< It. gambero, del lat. cammarus.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gambren",
+          "form": "gambren",
+          "gloss": "langosta",
+          "analysis_html": "GAM + BR (extensión no formalizada) + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "GAM + BR (extensión no formalizada) + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "alimentación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gampen",
+          "form": "gampen",
+          "gloss": "camarón",
+          "analysis_html": "GAM + P (extensión no formalizada) + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "GAM + P (extensión no formalizada) + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animado no humano EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "animales",
+            "alimentación"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gamb",
@@ -744,7 +1081,7 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< It. gamba, del lat. tardío gamba.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -770,6 +1107,89 @@
             "anatomía",
             "cuerpo",
             "partes"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gamblo",
+          "form": "gamblo",
+          "gloss": "muslo",
+          "analysis_html": "GAMB + <a class=\"morph-link\" href=\"#morph-lo\">-LO</a>",
+          "analysis_text": "GAMB + -LO",
+          "refs": [
+            {
+              "id": "morph-lo",
+              "label": "-LO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partitivo LO"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "partes"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gambosto",
+          "form": "gambosto",
+          "gloss": "fémur",
+          "analysis_html": "GAMB + <a class=\"morph-link\" href=\"#root-ost\">OST</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GAMB + OST + -O",
+          "refs": [
+            {
+              "id": "root-ost",
+              "label": "OST"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "huesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gambaŝoj",
+          "form": "gambaŝoj",
+          "gloss": "polainas, pierneras",
+          "analysis_html": "GAMB + AŜ (formante no formalizado) + <a class=\"morph-link\" href=\"#morph-oj\">-OJ</a>",
+          "analysis_text": "GAMB + AŜ (formante no formalizado) + -OJ",
+          "refs": [
+            {
+              "id": "morph-oj",
+              "label": "-OJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Dual OJ"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "vestimenta",
+            "objetos"
           ],
           "notes": []
         }
