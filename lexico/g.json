@@ -2255,14 +2255,43 @@
         {
           "class": "nat-mod",
           "label": "Nat-mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. genuo, del lat. genu «rodilla» (< PIE *ǵónu); -u- prevocálico reinterpretado como -v-.",
       "notes": [],
       "row_class": "",
       "words": [
+        {
+          "id": "lexeme-genvo",
+          "form": "genvo",
+          "gloss": "rodilla",
+          "analysis_html": "GENV + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GENV + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "partes"
+          ],
+          "notes": []
+        },
         {
           "id": "lexeme-genvos",
           "form": "genvos",
