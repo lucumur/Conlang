@@ -343,11 +343,8 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
-      "notes": [
-        "CANÓNICO: gaken «rana» sustituye a gako, forma histórica descartada de Tana. Se aplica -EN a los animados no humanos.",
-        "CANÓNICO: *GAK- y *RAN- coexisten como bases alternativas para denominar a la rana. *GAK- conserva su valor «croar» en gakos; gaken «rana» es GAK + -EN. No se elimina *RAN-."
-      ],
+      "etymology": "< *KWAK- del Eo. kvak- y este onomatopeico",
+      "notes": [],
       "row_class": "",
       "words": [
         {
@@ -398,10 +395,7 @@
             "anfibios",
             "animales"
           ],
-          "notes": [
-            "CANÓNICO: gaken «rana» se forma con -EN animado no humano; reemplaza al antiguo gako documentado en Tana.",
-            "CANÓNICO: gaken «rana» (GAK + -EN); también existe la raíz *RAN- «rana» como alternativa léxica válida, sin que se descarte ninguna de las dos."
-          ]
+          "notes": []
         }
       ]
     },
