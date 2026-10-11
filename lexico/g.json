@@ -2097,7 +2097,7 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. geko, del neerl. gekko, y este del malayo gēkoq, onomatopéyico (por el grito del animal).",
       "notes": [
         "CANÓNICO: geken «lagartija» con -EN animado no humano; gekin descartada."
       ],
@@ -2135,14 +2135,117 @@
     {
       "id": "root-gem",
       "form": "*GEM-",
-      "gloss": "yema / gema",
-      "tags": [],
+      "gloss": "yema, brote; gema",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< Eo. gemo «gema», del lat. gemma «yema, brote» > «piedra preciosa» (por metáfora); etimología ulterior incierta.",
+      "notes": [
+        "La raíz conserva ambos sentidos latinos: «yema/brote» y «gema»."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fingemo",
+          "form": "fingemo",
+          "gloss": "yema del dedo",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-fing\">FING</a> + GEM + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(haplología fing-gemo → fingemo)</span>",
+          "analysis_text": "FING + GEM + -O (haplología fing-gemo → fingemo)",
+          "refs": [
+            {
+              "id": "root-fing",
+              "label": "FING"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Haplología"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "partes"
+          ],
+          "notes": [
+            "Literalmente «yema del dedo». La -g- doble del compuesto se reduce a una."
+          ]
+        },
+        {
+          "id": "lexeme-zongemo",
+          "form": "ẑongemo",
+          "gloss": "piedra preciosa, gema",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-zon-2\">ẐON</a> + GEM + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ẐON + GEM + -O",
+          "refs": [
+            {
+              "id": "root-zon-2",
+              "label": "ẐON"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "minerales",
+            "materiales",
+            "objetos"
+          ],
+          "notes": [
+            "Literalmente «yema de piedra»; recoge la metáfora latina gemma «brote» > «gema»."
+          ]
+        },
+        {
+          "id": "lexeme-gemos",
+          "form": "gemos",
+          "gloss": "brotar, echar yemas (como un capullo)",
+          "analysis_html": "GEM + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "GEM + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "procesos",
+            "plantas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-genv",
