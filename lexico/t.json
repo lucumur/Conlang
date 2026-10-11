@@ -138,33 +138,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-tako",
-          "form": "tako",
-          "gloss": "taquete, clavo",
-          "analysis_html": "TAK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "TAK + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "alimentación",
-            "acciones",
-            "objetos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-taks",
@@ -588,33 +562,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-tigo",
-          "form": "tigo",
-          "gloss": "tallo - palo",
-          "analysis_html": "TIG + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "TIG + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "anatomía",
-            "cuerpo",
-            "objetos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-tig-2",
@@ -1070,33 +1018,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-trejnos",
-          "form": "trejnos",
-          "gloss": "entrenar",
-          "analysis_html": "TREJN + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "TREJN + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "educación",
-            "acciones",
-            "procesos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-tremp",
@@ -1506,31 +1428,6 @@
             "procesos"
           ],
           "notes": []
-        },
-        {
-          "id": "lexeme-trofa",
-          "form": "trofa",
-          "gloss": "naturaleza (entidad)",
-          "analysis_html": "TROF + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "TROF + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto A"
-            }
-          ],
-          "semantic_fields": [
-            "alimentación",
-            "salud",
-            "abstractos"
-          ],
-          "notes": []
         }
       ]
     },
@@ -1849,33 +1746,7 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-tona",
-          "form": "tona",
-          "gloss": "color de piel",
-          "analysis_html": "TON + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "TON + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto A"
-            }
-          ],
-          "semantic_fields": [
-            "apariencia",
-            "piel",
-            "abstractos"
-          ],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-tondr",
