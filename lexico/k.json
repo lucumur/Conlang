@@ -1627,14 +1627,14 @@
       "section": "sec-k",
       "etymology": null,
       "notes": [
-        "CANÓNICO: koblin «duende» con -IN hipocorístico y koblun «duende venerable» con -UN; koblon permanece como variante no hipocorística en -ON."
+        "CANÓNICO: koblin (KOBL + -IN hipocorístico) es la forma usual para «duende», porque los duendes suelen recibir tratamiento hipocorístico. koblun puede designar un duende venerable; koblon es una variante no hipocorística, no la forma habitual."
       ],
       "row_class": "",
       "words": [
         {
           "id": "lexeme-koblon",
           "form": "koblon",
-          "gloss": "duende",
+          "gloss": "duende (variante no hipocorística)",
           "analysis_html": "KOBL + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
           "analysis_text": "KOBL + -ON",
           "refs": [
@@ -1654,13 +1654,13 @@
             "personas"
           ],
           "notes": [
-            "Variante en -ON humano no agentivo; koblin es la forma hipocorística habitual y koblun la forma de tratamiento venerable."
+            "Variante en -ON humano no agentivo; no es la designación usual de los duendes, que es koblin. Se conserva como posibilidad no hipocorística."
           ]
         },
         {
           "id": "lexeme-koblin",
           "form": "koblin",
-          "gloss": "duende (hipocorístico)",
+          "gloss": "duende",
           "analysis_html": "KOBL + <a class=\"morph-link\" href=\"#morph-in-hypocoristic\">-IN</a>",
           "analysis_text": "KOBL + -IN",
           "refs": [
@@ -1681,7 +1681,7 @@
             "afecto"
           ],
           "notes": [
-            "CANÓNICO: uso nominal afectivo de -IN; distinto del -IN participial humano."
+            "CANÓNICO: koblin es la designación habitual de «duende». El sufijo -IN tiene aquí uso nominal hipocorístico, no participial; los duendes suelen recibir tratamiento afectivo."
           ]
         },
         {
@@ -1708,7 +1708,7 @@
             "sociedad"
           ],
           "notes": [
-            "CANÓNICO: -UN sustantivante parahumano en uso venerativo."
+            "CANÓNICO: -UN sustantivante parahumano para un duende presentado como venerable, en contraste con la designación habitual koblin."
           ]
         }
       ]
