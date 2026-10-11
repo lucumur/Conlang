@@ -6,7 +6,7 @@
     {
       "id": "root-gad-r",
       "form": "*GAD-R-",
-      "gloss": "cuadro",
+      "gloss": "cuadro, marco",
       "tags": [
         {
           "class": "nat-mod",
@@ -16,7 +16,9 @@
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: gadras «enmarcar (poner en un marco), encuadrar»; jogadras «cuadrar o ajustar cuentas y datos»; la antigua forma agadras «enmarcar» queda descartada por redundancia con gadras."
+      ],
       "row_class": "",
       "words": [
         {
@@ -47,7 +49,7 @@
         {
           "id": "lexeme-gadras",
           "form": "gadras",
-          "gloss": "encuadrar, cuadrar, ajustar",
+          "gloss": "enmarcar (poner en un marco), encuadrar",
           "analysis_html": "GADR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
           "analysis_text": "GADR + -AS",
           "refs": [
@@ -70,15 +72,15 @@
           "notes": []
         },
         {
-          "id": "lexeme-agadras",
-          "form": "agadras",
-          "gloss": "enmarcar",
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a\">A-</a> + GADR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "A- + GADR + -AS",
+          "id": "lexeme-jogadras",
+          "form": "jogadras",
+          "gloss": "cuadrar, ajustar cuentas o datos",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-jo-bald\">JO-</a> + GADR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "JO- + GADR + -AS",
           "refs": [
             {
-              "id": "morph-a",
-              "label": "A-"
+              "id": "morph-jo-bald",
+              "label": "JO-"
             },
             {
               "id": "morph-as",
@@ -93,10 +95,128 @@
           ],
           "semantic_fields": [
             "acciones",
-            "forma",
-            "construcción"
+            "ajuste",
+            "organización"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-jogadra",
+          "form": "jogadra",
+          "gloss": "ajuste, encuadre",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-jo-bald\">JO-</a> + GADR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "JO- + GADR + -A",
+          "refs": [
+            {
+              "id": "morph-jo-bald",
+              "label": "JO-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "ajuste",
+            "forma",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gadrar",
+          "form": "gadrar",
+          "gloss": "participio agentivo de encuadrar",
+          "analysis_html": "GADR + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "GADR + -AR",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio AR"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "forma",
+            "cualidades"
+          ],
+          "notes": [
+            "CANÓNICO: participio citado como base de gadrato."
+          ]
+        },
+        {
+          "id": "lexeme-gadrato",
+          "form": "gadrato",
+          "gloss": "escuadra, regla",
+          "analysis_html": "GADR + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR (part.)</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a> → gadrato [?]",
+          "analysis_text": "GADR + -AR (participio) + -O → gadrato [alternancia pendiente]",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Instrumento O"
+            }
+          ],
+          "semantic_fields": [
+            "instrumentos",
+            "geometría",
+            "medición"
+          ],
+          "notes": [
+            "CANÓNICO: forma y significado gadrato «escuadra, regla». El usuario indica gadrar (participio) + -O, pero GADR + -AR + -O produciría gadraro sin otra regla; la alternancia -aro > -ato no está documentada y queda pendiente de explicación."
+          ]
+        },
+        {
+          "id": "lexeme-orgadro",
+          "form": "orgadro",
+          "gloss": "cuadrado (de lados rectos)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ortheta\">ORΘ (OR-)</a> + GADR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ORΘ (OR-) + GADR + -O",
+          "refs": [
+            {
+              "id": "root-ortheta",
+              "label": "ORΘ-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "geometría",
+            "forma",
+            "figuras"
+          ],
+          "notes": [
+            "CANÓNICO: orgadro «cuadrado» se deriva de ORΘ- «recto» y GADR-. La realización reducida OR- de ORΘ- en este compuesto no tiene todavía una regla documentada; podría confundirse con otras raíces *OR-."
+          ]
         }
       ]
     },
