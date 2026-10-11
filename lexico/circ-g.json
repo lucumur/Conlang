@@ -13,7 +13,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ĝardas",
+          "form": "ĝardas",
+          "gloss": "cercar",
+          "analysis_html": "ĜARD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĜARD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "lugares",
+            "construcción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ĝardo",
+          "form": "ĝardo",
+          "gloss": "valla, reja",
+          "analysis_html": "ĜARD + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĜARD + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "construcción",
+            "límites"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ĝardal",
+          "form": "ĝardal",
+          "gloss": "cercado, patio, jardin",
+          "analysis_html": "ĜARD + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ĜARD + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "lugares",
+            "jardinería",
+            "botánica"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gabl",
@@ -42,7 +118,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ĝejnas",
+          "form": "ĝejnas",
+          "gloss": "molestar",
+          "analysis_html": "ĜEJN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĜEJN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "interacción",
+            "emociones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ĝejna",
+          "form": "ĝejna",
+          "gloss": "problema, molestia",
+          "analysis_html": "ĜEJN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĜEJN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gel",
@@ -54,7 +181,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ĝele",
+          "form": "ĝele",
+          "gloss": "gel",
+          "analysis_html": "ĜEL + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ĜEL + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "sustancias",
+            "química"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gen",
@@ -66,7 +219,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ĝenas",
+          "form": "ĝenas",
+          "gloss": "generar, crear",
+          "analysis_html": "ĜEN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĜEN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "reproducción",
+            "creación"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ger",
@@ -95,7 +274,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ĝere",
+          "form": "ĝere",
+          "gloss": "hierro",
+          "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ĜER + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "metales",
+            "sustancias",
+            "materiales"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gest",
@@ -131,7 +336,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ĝibo",
+          "form": "ĝibo",
+          "gloss": "jiba, joroba",
+          "analysis_html": "ĜIB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĜIB + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "apariencia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ĝibon",
+          "form": "ĝibon",
+          "gloss": "jorobado",
+          "analysis_html": "ĜIB + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ĜIB + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "anatomía",
+            "apariencia"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gink",
@@ -152,7 +408,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ĝinkon",
+          "form": "ĝinkon",
+          "gloss": "mujer",
+          "analysis_html": "ĜINK + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ĜINK + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "género",
+            "sociedad"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ging",
@@ -169,7 +451,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ĝinĝo",
+          "form": "ĝinĝo",
+          "gloss": "jenjibre",
+          "analysis_html": "ĜINĜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĜINĜ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "alimentos",
+            "especias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gis-2",
@@ -198,7 +506,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ĝoja",
+          "form": "ĝoja",
+          "gloss": "alegria, felicidad",
+          "analysis_html": "ĜOJ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĜOJ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "cualidades",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ĝojuk",
+          "form": "ĝojuk",
+          "gloss": "con gusto",
+          "analysis_html": "ĜOJ + <a class=\"morph-link\" href=\"#morph-uk\">-UK</a>",
+          "analysis_text": "ĜOJ + -UK",
+          "refs": [
+            {
+              "id": "morph-uk",
+              "label": "-UK"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial UK"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "conducta",
+            "adverbios"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }
