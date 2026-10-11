@@ -18,7 +18,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-labros",
+          "form": "labros",
+          "gloss": "esforzarse",
+          "analysis_html": "LABR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LABR + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "trabajo",
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-labra",
+          "form": "labra",
+          "gloss": "esfuerzo",
+          "analysis_html": "LABR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "LABR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "trabajo",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lag",
@@ -69,7 +120,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lampo",
+          "form": "lampo",
+          "gloss": "lampara",
+          "analysis_html": "LAMP + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "LAMP + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "luz"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-land",
@@ -86,7 +162,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-landos",
+          "form": "landos",
+          "gloss": "aterrizar",
+          "analysis_html": "LAND + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LAND + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "espacio",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lanz",
@@ -124,7 +226,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-larmos",
+          "form": "larmos",
+          "gloss": "lagrimear, lloriquear, llorar con lagrimas",
+          "analysis_html": "LARM + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LARM + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "cuerpo",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-las",
@@ -141,7 +269,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lasas",
+          "form": "lasas",
+          "gloss": "dejar",
+          "analysis_html": "LAS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LAS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "relaciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lat",
@@ -158,7 +311,57 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-latos",
+          "form": "latos",
+          "gloss": "lactar (bebe)",
+          "analysis_html": "LAT + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LAT + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "sustancias",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-late",
+          "form": "late",
+          "gloss": "leche",
+          "analysis_html": "LAT + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "LAT + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-latv",
@@ -238,7 +441,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lavro",
+          "form": "lavro",
+          "gloss": "laurel",
+          "analysis_html": "LAVR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "LAVR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-laz",
@@ -250,7 +479,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lazas",
+          "form": "lazas",
+          "gloss": "enlazar, unir, relacionar",
+          "analysis_html": "LAZ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LAZ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "unión",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-laza",
+          "form": "laza",
+          "gloss": "enlace",
+          "analysis_html": "LAZ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "LAZ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "unión",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-laz-2",
@@ -262,7 +542,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-laẑos",
+          "form": "laẑos",
+          "gloss": "cansarse",
+          "analysis_html": "LAẐ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LAẐ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "cuerpo",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-leg",
@@ -279,7 +585,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-legos",
+          "form": "legos",
+          "gloss": "versar, tratar",
+          "analysis_html": "LEG + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LEG + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "lectura",
+            "lenguaje",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-leks",
@@ -296,7 +628,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-leksas",
+          "form": "leksas",
+          "gloss": "elegir",
+          "analysis_html": "LEKS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LEKS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "elección"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-leo",
@@ -381,7 +738,82 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-levas",
+          "form": "levas",
+          "gloss": "levantar",
+          "analysis_html": "LEV + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LEV + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-levos",
+          "form": "levos",
+          "gloss": "elevarse, levantarse, despertarse",
+          "analysis_html": "LEV + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LEV + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-leva",
+          "form": "leva",
+          "gloss": "elevacion",
+          "analysis_html": "LEV + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "LEV + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-letheta",
@@ -415,7 +847,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lios",
+          "form": "lios",
+          "gloss": "acostarse",
+          "analysis_html": "LI + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LI + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "cuerpo",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lig",
@@ -432,7 +890,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ligo",
+          "form": "ligo",
+          "gloss": "liga, enlace",
+          "analysis_html": "LIG + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "LIG + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "sustancias",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lik",
@@ -453,7 +937,82 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-likos",
+          "form": "likos",
+          "gloss": "fugarse, gotear, derramarse",
+          "analysis_html": "LIK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LIK + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lika",
+          "form": "lika",
+          "gloss": "fuga, escape, gasto",
+          "analysis_html": "LIK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "LIK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "procesos",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-like",
+          "form": "like",
+          "gloss": "liquido",
+          "analysis_html": "LIK + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "LIK + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "procesos",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lil",
@@ -470,7 +1029,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lilo",
+          "form": "lilo",
+          "gloss": "lirio",
+          "analysis_html": "LIL + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "LIL + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "colores",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lim",
@@ -487,7 +1072,82 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-limos",
+          "form": "limos",
+          "gloss": "moquear",
+          "analysis_html": "LIM + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LIM + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "sustancias",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-limas",
+          "form": "limas",
+          "gloss": "sectetar, segregar",
+          "analysis_html": "LIM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LIM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "sustancias",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lime",
+          "form": "lime",
+          "gloss": "baba, sustancia mucosa",
+          "analysis_html": "LIM + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "LIM + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lin",
@@ -504,7 +1164,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-line",
+          "form": "line",
+          "gloss": "lino",
+          "analysis_html": "LIN + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "LIN + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "materiales",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lingw",
@@ -555,7 +1241,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-liro",
+          "form": "liro",
+          "gloss": "lira, arpa",
+          "analysis_html": "LIR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "LIR + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "música",
+            "objetos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-list",
@@ -572,7 +1283,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-listas",
+          "form": "listas",
+          "gloss": "enlistar, registrar",
+          "analysis_html": "LIST + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LIST + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "organización",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-listos",
+          "form": "listos",
+          "gloss": "inscribirse, alistarse",
+          "analysis_html": "LIST + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LIST + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "organización",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-livr",
@@ -589,7 +1351,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-livras",
+          "form": "livras",
+          "gloss": "entregar",
+          "analysis_html": "LIVR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LIVR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "posesión"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-litheta",
@@ -623,7 +1410,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-liẑes",
+          "form": "liẑes",
+          "gloss": "estar permitido",
+          "analysis_html": "LIẐ + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "LIẐ + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "permiso",
+            "estado"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-loj",
@@ -644,7 +1457,82 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lojel",
+          "form": "lojel",
+          "gloss": "fiel, leal",
+          "analysis_html": "LOJ + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "LOJ + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-loja",
+          "form": "loja",
+          "gloss": "relacion",
+          "analysis_html": "LOJ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "LOJ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "cualidades",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lojeẑa",
+          "form": "lojeẑa",
+          "gloss": "fidelidad, lealtad",
+          "analysis_html": "LOJ + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "LOJ + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "cualidades",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lok",
@@ -656,7 +1544,82 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lokas",
+          "form": "lokas",
+          "gloss": "poner (dejar algo quieto en un lugar )",
+          "analysis_html": "LOK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LOK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "espacio",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lokis",
+          "form": "lokis",
+          "gloss": "estar en un lugar",
+          "analysis_html": "LOK + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "LOK + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "espacio",
+            "acciones",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-loka",
+          "form": "loka",
+          "gloss": "posicion",
+          "analysis_html": "LOK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "LOK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "espacio",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-long",
@@ -680,7 +1643,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lonteẑa",
+          "form": "lonteẑa",
+          "gloss": "distancia",
+          "analysis_html": "LONT + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "LONT + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "espacio",
+            "dirección",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lontas",
+          "form": "lontas",
+          "gloss": "apartar, alejar",
+          "analysis_html": "LONT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LONT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "espacio",
+            "dirección",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lontos",
+          "form": "lontos",
+          "gloss": "alejarse",
+          "analysis_html": "LONT + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LONT + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "espacio",
+            "dirección",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lord",
@@ -697,7 +1736,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lordas",
+          "form": "lordas",
+          "gloss": "señorear, gobernar como Señor",
+          "analysis_html": "LORD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LORD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "jerarquía",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lot",
@@ -714,7 +1779,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lotas",
+          "form": "lotas",
+          "gloss": "asignar",
+          "analysis_html": "LOT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LOT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "azar",
+            "sucesos",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-log",
@@ -726,7 +1817,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-loĝos",
+          "form": "loĝos",
+          "gloss": "habitar, residir",
+          "analysis_html": "LOĜ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LOĜ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "vivienda",
+            "lugares",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-loĝon",
+          "form": "loĝon",
+          "gloss": "habitante",
+          "analysis_html": "LOĜ + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "LOĜ + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "vivienda",
+            "lugares",
+            "personas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-loz",
@@ -767,7 +1909,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-luda",
+          "form": "luda",
+          "gloss": "juego",
+          "analysis_html": "LUD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "LUD + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "juegos",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-luf",
@@ -784,7 +1952,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lufas",
+          "form": "lufas",
+          "gloss": "amar",
+          "analysis_html": "LUF + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LUF + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "relaciones",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lufa",
+          "form": "lufa",
+          "gloss": "amor",
+          "analysis_html": "LUF + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "LUF + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "relaciones",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-luk",
@@ -801,7 +2020,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lukas",
+          "form": "lukas",
+          "gloss": "atraer (mediante estimulo o señuelo)",
+          "analysis_html": "LUK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LUK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "acciones"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lum",
@@ -813,7 +2057,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lumas",
+          "form": "lumas",
+          "gloss": "iluminar, alumbrar",
+          "analysis_html": "LUM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LUM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "luz",
+            "naturaleza",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-luma",
+          "form": "luma",
+          "gloss": "iluminacion",
+          "analysis_html": "LUM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "LUM + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "luz",
+            "naturaleza",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lume",
+          "form": "lume",
+          "gloss": "luz",
+          "analysis_html": "LUM + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "LUM + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "luz",
+            "naturaleza",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lumb",
@@ -825,7 +2145,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lumbo",
+          "form": "lumbo",
+          "gloss": "espalda baja, lomo animal",
+          "analysis_html": "LUMB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "LUMB + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lumbe",
+          "form": "lumbe",
+          "gloss": "lomo (carne)",
+          "analysis_html": "LUMB + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "LUMB + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "sustancias"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lun",
@@ -839,7 +2210,83 @@
         "Extensión interna de la raíz: *LUND- = mes."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-luno",
+          "form": "luno",
+          "gloss": "luna",
+          "analysis_html": "LUN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "LUN + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "astronomía",
+            "naturaleza",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lunam",
+          "form": "lunam",
+          "gloss": "al mes, mensual",
+          "analysis_html": "LUN + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "LUN + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            }
+          ],
+          "semantic_fields": [
+            "astronomía",
+            "naturaleza",
+            "tiempo"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lunel",
+          "form": "lunel",
+          "gloss": "lunar",
+          "analysis_html": "LUN + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "LUN + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "astronomía",
+            "naturaleza",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-lup",
@@ -849,9 +2296,39 @@
       "letter": "L",
       "section": "sec-l",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: lupen «lobo» reemplaza al antiguo Lupin."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-lupen",
+          "form": "lupen",
+          "gloss": "lobo",
+          "analysis_html": "LUP + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "LUP + -EN",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Animal EN"
+            }
+          ],
+          "semantic_fields": [
+            "fauna",
+            "mamíferos",
+            "animales"
+          ],
+          "notes": [
+            "CANÓNICO: -EN regular; Lupin es forma histórica de Tana descartada."
+          ]
+        }
+      ]
     },
     {
       "id": "root-lus",
