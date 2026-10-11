@@ -2316,6 +2316,72 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-genvarza",
+          "form": "genvarẑa",
+          "gloss": "genuflexión",
+          "analysis_html": "GENV + <a class=\"morph-link\" href=\"#root-arz\">ARẐ</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GENV + ARẐ + -A",
+          "refs": [
+            {
+              "id": "root-arz",
+              "label": "ARẐ"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "religión",
+            "cuerpo"
+          ],
+          "notes": [
+            "Literalmente «articulación de la rodilla» como acción: flexionar la rodilla."
+          ]
+        },
+        {
+          "id": "lexeme-genvelo",
+          "form": "genvelo",
+          "gloss": "rodillera",
+          "analysis_html": "GENV + <a class=\"morph-link\" href=\"#morph-el\">-EL</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GENV + -EL + -O",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "objetos",
+            "deportes"
+          ],
+          "notes": [
+            "Nominalización inanimada del adjetivo relacional genvel «relativo a la rodilla»: «lo de la rodilla»."
+          ]
         }
       ]
     },
