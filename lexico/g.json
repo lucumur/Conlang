@@ -1353,9 +1353,13 @@
           "id": "lexeme-oksgardas",
           "form": "oksgardas",
           "gloss": "observar",
-          "analysis_html": "OKS- (función pendiente) + GARD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "OKS- (función pendiente) + GARD + -AS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ok\">OK</a> + -S- (enlace eufónico) + GARD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "OK + -S- (enlace eufónico) + GARD + -AS",
           "refs": [
+            {
+              "id": "root-ok",
+              "label": "OK"
+            },
             {
               "id": "morph-as",
               "label": "-AS"
