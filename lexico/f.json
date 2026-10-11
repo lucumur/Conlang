@@ -1169,7 +1169,205 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-faras",
+          "form": "faras",
+          "gloss": "hacer, fabricar",
+          "analysis_html": "FAR + -AS",
+          "analysis_text": "FAR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "acciones",
+            "fabricación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-profaris",
+          "form": "profaris",
+          "gloss": "resultar",
+          "analysis_html": "PRO + FAR + -IS",
+          "analysis_text": "PRO + FAR + -IS",
+          "refs": [
+            {
+              "id": "morph-pro",
+              "label": "PRO-"
+            },
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "resultados",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-faril",
+          "form": "faril",
+          "gloss": "hecho",
+          "analysis_html": "FAR + -IL",
+          "analysis_text": "FAR + -IL",
+          "refs": [
+            {
+              "id": "morph-il",
+              "label": "-IL"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "resultados",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-farbol",
+          "form": "farbol",
+          "gloss": "fácil",
+          "analysis_html": "FAR + BOL (análisis pendiente)",
+          "analysis_text": "FAR + BOL (análisis pendiente)",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades",
+            "facilidad"
+          ],
+          "notes": [
+            "Análisis morfológico provisional; forma y glosa suministradas por el usuario."
+          ]
+        },
+        {
+          "id": "lexeme-manfaristan",
+          "form": "manfaristan",
+          "gloss": "artesano",
+          "analysis_html": "MAN + FAR + -IST + -AN (análisis pendiente)",
+          "analysis_text": "MAN + FAR + -IST + -AN (análisis pendiente)",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "personas",
+            "oficios"
+          ],
+          "notes": [
+            "Análisis morfológico provisional; forma y glosa suministradas por el usuario."
+          ]
+        },
+        {
+          "id": "lexeme-farna",
+          "form": "farna",
+          "gloss": "arte",
+          "analysis_html": "FAR + NA (análisis pendiente)",
+          "analysis_text": "FAR + NA (análisis pendiente)",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "arte",
+            "creación"
+          ],
+          "notes": [
+            "Análisis morfológico provisional; forma y glosa suministradas por el usuario."
+          ]
+        },
+        {
+          "id": "lexeme-profara",
+          "form": "profara",
+          "gloss": "resultado",
+          "analysis_html": "PRO + FAR + -A",
+          "analysis_text": "PRO + FAR + -A",
+          "refs": [
+            {
+              "id": "morph-pro",
+              "label": "PRO-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "resultados",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-farte",
+          "form": "farte",
+          "gloss": "factos, hechos, realidades",
+          "analysis_html": "FAR + -TE (valor semántico pendiente de análisis)",
+          "analysis_text": "FAR + -TE (valor semántico pendiente de análisis)",
+          "refs": [
+            {
+              "id": "morph-te-substance",
+              "label": "-TE"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "realidad",
+            "hechos"
+          ],
+          "notes": [
+            "Análisis morfológico provisional; forma y glosa suministradas por el usuario."
+          ]
+        },
+        {
+          "id": "lexeme-bonfara",
+          "form": "bonfara",
+          "gloss": "favor",
+          "analysis_html": "BON + FAR + -A",
+          "analysis_text": "BON + FAR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fartuk",
+          "form": "fartuk",
+          "gloss": "in fact, de hecho, en realidad",
+          "analysis_html": "FAR + TUK (análisis pendiente)",
+          "analysis_text": "FAR + TUK (análisis pendiente)",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "realidad",
+            "discurso"
+          ],
+          "notes": [
+            "Análisis morfológico provisional; forma y glosa suministradas por el usuario."
+          ]
+        }
+      ]
     },
     {
       "id": "root-farb",
