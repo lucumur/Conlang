@@ -5096,7 +5096,8 @@
             "personas"
           ],
           "notes": [
-            "Literalmente «madre grande», como fr. grand-mère."
+            "Literalmente «madre grande», como fr. grand-mère.",
+            "Léxico: la contraparte (abuelo materno / abuela paterna) tiene raíz propia."
           ]
         },
         {
@@ -5123,7 +5124,8 @@
             "personas"
           ],
           "notes": [
-            "Literalmente «padre grande», como fr. grand-père."
+            "Literalmente «padre grande», como fr. grand-père.",
+            "Léxico: la contraparte (abuelo materno / abuela paterna) tiene raíz propia."
           ]
         },
         {
@@ -5212,29 +5214,25 @@
           ]
         },
         {
-          "id": "lexeme-grandantarel",
-          "form": "grandantarel",
+          "id": "lexeme-grandantatel",
+          "form": "grandantatel",
           "gloss": "senatorial",
-          "analysis_html": "GRAND + <a class=\"morph-link\" href=\"#morph-antan\">-ANT-</a> <span class=\"meta-extra\">(de -ANTAN)</span> + <a class=\"morph-link\" href=\"#morph-ar-collective\">-AR-</a> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
-          "analysis_text": "GRAND + -ANT- (de -ANTAN) + -AR- + -EL",
+          "analysis_html": "GRAND + <a class=\"morph-link\" href=\"#morph-antan\">-ANT-</a> + <a class=\"morph-link\" href=\"#morph-atel\">-ATEL</a> <span class=\"meta-extra\">(adjetivo de grandantal)</span>",
+          "analysis_text": "GRAND + -ANT- + -ATEL (adjetivo de grandantal)",
           "refs": [
             {
               "id": "morph-antan",
               "label": "-ANTAN"
             },
             {
-              "id": "morph-ar-collective",
-              "label": "-AR-"
-            },
-            {
-              "id": "morph-el",
-              "label": "-EL"
+              "id": "morph-atel",
+              "label": "-ATEL"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Adjetivo EL"
+              "label": "Adjetivo ATEL"
             }
           ],
           "semantic_fields": [
@@ -5243,7 +5241,7 @@
             "organización"
           ],
           "notes": [
-            "Pendiente: confirmar el valor de -AR- aquí."
+            "Regular: locativo en -AL → adjetivo en -ATEL."
           ]
         },
         {
@@ -5305,7 +5303,7 @@
     {
       "id": "root-grav",
       "form": "*GRAV-",
-      "gloss": "peso ⭐",
+      "gloss": "peso; pesar",
       "tags": [
         {
           "class": "latin",
@@ -5314,7 +5312,7 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. gravi «importar, tener peso», del lat. gravis «pesado; grave, importante».",
       "notes": [],
       "row_class": "",
       "words": [
@@ -5344,29 +5342,31 @@
           "notes": []
         },
         {
-          "id": "lexeme-graves",
-          "form": "graves",
-          "gloss": "pesar",
-          "analysis_html": "GRAV + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "GRAV + -ES",
+          "id": "lexeme-gravis",
+          "form": "gravis",
+          "gloss": "pesar, tener peso",
+          "analysis_html": "GRAV + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "GRAV + -IS",
           "refs": [
             {
-              "id": "morph-es",
-              "label": "-ES"
+              "id": "morph-is-2",
+              "label": "-IS"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado ES"
+              "label": "Predicado IS"
             }
           ],
           "semantic_fields": [
-            "estado",
             "peso",
+            "estado",
             "propiedades físicas"
           ],
-          "notes": []
+          "notes": [
+            "Sustituye a graves."
+          ]
         },
         {
           "id": "lexeme-grava",
@@ -5388,10 +5388,223 @@
           ],
           "semantic_fields": [
             "peso",
+            "propiedades físicas",
+            "medición"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gravor",
+          "form": "gravor",
+          "gloss": "pesado",
+          "analysis_html": "GRAV + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "GRAV + -OR",
+          "refs": [
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OR"
+            }
+          ],
+          "semantic_fields": [
+            "peso",
             "cualidades",
+            "propiedades físicas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cogravor",
+          "form": "cogravor",
+          "gloss": "importante",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-co-high\">CO-</a> + GRAV + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "CO- + GRAV + -OR",
+          "refs": [
+            {
+              "id": "morph-co-high",
+              "label": "CO-"
+            },
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OR"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "jerarquía",
+            "abstractos"
+          ],
+          "notes": [
+            "Literalmente «alto-pesado»: de mucho peso en sentido figurado (cf. lat. gravis)."
+          ]
+        },
+        {
+          "id": "lexeme-cograveza",
+          "form": "cograveẑa",
+          "gloss": "importancia",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-co-high\">CO-</a> + GRAV + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "CO- + GRAV + -EẐA",
+          "refs": [
+            {
+              "id": "morph-co-high",
+              "label": "CO-"
+            },
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "jerarquía",
             "abstractos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-gravaviga",
+          "form": "gravaviga",
+          "gloss": "gravedad (fuerza)",
+          "analysis_html": "GRAVA + <a class=\"morph-link\" href=\"#root-vig\">VIG</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GRAVA + VIG + -A",
+          "refs": [
+            {
+              "id": "root-vig",
+              "label": "VIG"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "peso",
+            "astronomía",
+            "propiedades físicas"
+          ],
+          "notes": [
+            "Literalmente «fuerza del peso»."
+          ]
+        },
+        {
+          "id": "lexeme-gravavigel",
+          "form": "gravavigel",
+          "gloss": "gravitatorio",
+          "analysis_html": "GRAVA + <a class=\"morph-link\" href=\"#root-vig\">VIG</a> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "GRAVA + VIG + -EL",
+          "refs": [
+            {
+              "id": "root-vig",
+              "label": "VIG"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "peso",
+            "astronomía",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gravato",
+          "form": "gravato",
+          "gloss": "balanza, báscula",
+          "analysis_html": "GRAV + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GRAV + -AT- + -O",
+          "refs": [
+            {
+              "id": "morph-at",
+              "label": "-AT-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Instrumento O"
+            }
+          ],
+          "semantic_fields": [
+            "instrumentos",
+            "medición",
+            "peso"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-malgrav",
+          "form": "malgrav",
+          "gloss": "a pesar de",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mal\">MAL</a> + GRAV",
+          "analysis_text": "MAL + GRAV",
+          "refs": [
+            {
+              "id": "root-mal",
+              "label": "MAL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Preposición"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "concesión",
+            "gramática"
+          ],
+          "notes": [
+            "Literalmente «contra el peso»; calco del esp. a pesar de / al. trotz."
+          ]
         }
       ]
     },
