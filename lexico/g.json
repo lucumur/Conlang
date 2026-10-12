@@ -3475,18 +3475,18 @@
           "id": "lexeme-glasnas",
           "form": "glasnas",
           "gloss": "glasear, embetunar",
-          "analysis_html": "GLAS + -N- <span class=\"meta-extra\">(segmento no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "GLAS + -N- (segmento no formalizado) + -AS",
+          "analysis_html": "GLAS + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a> <span class=\"meta-extra\">(glasonas → glasnas, síncopa)</span>",
+          "analysis_text": "GLAS + -ONAS (glasonas → glasnas, síncopa)",
           "refs": [
             {
-              "id": "morph-as",
-              "label": "-AS"
+              "id": "morph-onas",
+              "label": "-ONAS"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado AS"
+              "label": "Predicado ONAS"
             }
           ],
           "semantic_fields": [
@@ -3495,7 +3495,7 @@
             "construcción"
           ],
           "notes": [
-            "Pendiente: valor de -N-."
+            "Forma abreviada de glasonas «aplicar capa vítrea»; -ONAS aplicativo."
           ]
         },
         {
