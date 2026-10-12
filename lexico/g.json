@@ -2957,28 +2957,63 @@
       ]
     },
     {
-      "id": "root-gjet",
-      "form": "*GJET-",
-      "gloss": "quieto, callado",
+      "id": "root-git",
+      "form": "*GIT-",
+      "gloss": "quieto, callado, tranquilo",
       "tags": [
         {
           "class": "nat-mod",
           "label": "Nat-mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< *KVIT-, del Eo. kviet- (kvieta), del lat. quiētus «quieto», participio de quiēscō (KV- → G-; -ie- → -i-).",
+      "notes": [
+        "Antes *GJET- (gjetas «tranquilizar», gjetura «tranquilidad»); sustituidas por gitiĝas y gitera."
+      ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-gjetas",
-          "form": "gjetas",
-          "gloss": "tranquilizar",
-          "analysis_html": "GJET + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "GJET + -AS",
+          "id": "lexeme-gitis",
+          "form": "gitis",
+          "gloss": "estar callado, en silencio, quieto",
+          "analysis_html": "GIT + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "GIT + -IS",
           "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "sonido",
+            "conducta"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gitigas",
+          "form": "gitiĝas",
+          "gloss": "tranquilizar, calmar",
+          "analysis_html": "GIT + <a class=\"morph-link\" href=\"#root-ig\">IĜ</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GIT + IĜ + -AS",
+          "refs": [
+            {
+              "id": "root-ig",
+              "label": "IĜ"
+            },
             {
               "id": "morph-as",
               "label": "-AS"
@@ -2995,29 +3030,157 @@
             "emociones",
             "estado"
           ],
-          "notes": []
+          "notes": [
+            "Literalmente «hacer que (alguien) se vuelva quieto»."
+          ]
         },
         {
-          "id": "lexeme-gjetura",
-          "form": "gjetura",
-          "gloss": "tranquilidad",
-          "analysis_html": "GJET + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
-          "analysis_text": "GJET + -URA",
+          "id": "lexeme-gitin",
+          "form": "gitin",
+          "gloss": "callado, quieto, tranquilo (persona)",
+          "analysis_html": "GIT + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "GIT + -IN",
           "refs": [
             {
-              "id": "morph-ura",
-              "label": "-URA"
+              "id": "morph-in",
+              "label": "-IN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Abstracto URA"
+              "label": "Adjetivo-participio IN"
             }
           ],
           "semantic_fields": [
             "cualidades",
+            "conducta",
+            "emociones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-segitin",
+          "form": "segitin",
+          "gloss": "intranquilo, ansioso",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-se-privative\">SE-</a> + GIT + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "SE- + GIT + -IN",
+          "refs": [
+            {
+              "id": "morph-se-privative",
+              "label": "SE-"
+            },
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo-participio IN"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "emociones",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-belgita",
+          "form": "belgita",
+          "gloss": "paciencia",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + GIT + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BEL + GIT + -A",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "emociones"
+          ],
+          "notes": [
+            "Literalmente «buena quietud»: aguardar sin perder la calma."
+          ]
+        },
+        {
+          "id": "lexeme-gitera",
+          "form": "gitera",
+          "gloss": "tranquilidad, calma",
+          "analysis_html": "GIT + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GIT + -ER + -A",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización ER + A"
+            }
+          ],
+          "semantic_fields": [
             "estado",
+            "emociones",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-segitera",
+          "form": "segitera",
+          "gloss": "intranquilidad, ansiedad",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-se-privative\">SE-</a> + GIT + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "SE- + GIT + -ER + -A",
+          "refs": [
+            {
+              "id": "morph-se-privative",
+              "label": "SE-"
+            },
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización ER + A"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "emociones",
             "abstractos"
           ],
           "notes": []
