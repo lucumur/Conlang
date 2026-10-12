@@ -3367,36 +3367,219 @@
     {
       "id": "root-glas",
       "form": "*GLAS-",
-      "gloss": "vidrio, brillar",
-      "tags": [],
+      "gloss": "vidrio; brillo blanco; hielo",
+      "tags": [
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< Eo. glaso «vaso», del al. Glas / ing. glass «vidrio» (< protogerm. *glasą, de la familia de *gla- «brillar»). El sentido «hielo» (con -T-) coincide con el lat. glaciēs.",
+      "notes": [
+        "Base perfectiva GLAST- (GLAS + -T-): «vidrio cuajado», hielo; véase glaste, glastis, glastil."
+      ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-glasos",
-          "form": "glasos",
-          "gloss": "brillar blanco, jaspeadamente",
-          "analysis_html": "GLAS + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "GLAS + -OS",
+          "id": "lexeme-glase",
+          "form": "glase",
+          "gloss": "vidrio",
+          "analysis_html": "GLAS + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GLAS + -E",
           "refs": [
             {
-              "id": "morph-os",
-              "label": "-OS"
+              "id": "morph-e",
+              "label": "-E"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado OS"
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "sustancias",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-glaste",
+          "form": "glaste",
+          "gloss": "hielo, escarcha",
+          "analysis_html": "GLAS + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GLAS + -T- + -E",
+          "refs": [
+            {
+              "id": "morph-t-perfective",
+              "label": "-T-"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "agua",
+            "clima",
+            "temperatura"
+          ],
+          "notes": [
+            "Literalmente «vidrio cuajado»: el agua en estado vítreo."
+          ]
+        },
+        {
+          "id": "lexeme-glaspoto",
+          "form": "glaspoto",
+          "gloss": "vaso de vidrio",
+          "analysis_html": "GLAS + <a class=\"morph-link\" href=\"#root-pot\">POT</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GLAS + POT + -O",
+          "refs": [
+            {
+              "id": "root-pot",
+              "label": "POT"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "contenedores",
+            "utensilios",
+            "hogar"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-glasnas",
+          "form": "glasnas",
+          "gloss": "glasear, embetunar",
+          "analysis_html": "GLAS + -N- <span class=\"meta-extra\">(segmento no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GLAS + -N- (segmento no formalizado) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "cocina",
+            "construcción"
+          ],
+          "notes": [
+            "Pendiente: valor de -N-."
+          ]
+        },
+        {
+          "id": "lexeme-glastis",
+          "form": "glastis",
+          "gloss": "congelarse, helarse",
+          "analysis_html": "GLAS + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "GLAS + -T- + -IS",
+          "refs": [
+            {
+              "id": "morph-t-perfective",
+              "label": "-T-"
+            },
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "cambio de estado",
+            "agua",
+            "temperatura"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-glases",
+          "form": "glases",
+          "gloss": "brillar blanco, jaspeadamente",
+          "analysis_html": "GLAS + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "GLAS + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
             }
           ],
           "semantic_fields": [
             "luz",
+            "colores",
+            "percepción"
+          ],
+          "notes": [
+            "Sustituye a glasos con el mismo significado."
+          ]
+        },
+        {
+          "id": "lexeme-glastil",
+          "form": "glastil",
+          "gloss": "glaseado (cubierto de capa vítrea)",
+          "analysis_html": "GLAS + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-il\">-IL</a>",
+          "analysis_text": "GLAS + -T- + -IL",
+          "refs": [
+            {
+              "id": "morph-t-perfective",
+              "label": "-T-"
+            },
+            {
+              "id": "morph-il",
+              "label": "-IL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo-participio IL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
             "apariencia",
-            "procesos"
+            "cocina"
           ],
           "notes": []
         }
