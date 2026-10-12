@@ -2629,7 +2629,7 @@
     {
       "id": "root-gig",
       "form": "*GIG-",
-      "gloss": "gigantes",
+      "gloss": "gigantes; mil millones",
       "tags": [
         {
           "class": "griego",
@@ -2638,10 +2638,90 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. giganto, del lat. gigas, gigantis, y este del gr. γίγας, -αντος (prob. pregriego). El valor numeral sigue al prefijo SI giga- (10⁹).",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gigon",
+          "form": "gigon",
+          "gloss": "gigante (ser mítico)",
+          "analysis_html": "GIG + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "GIG + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "mitología",
+            "personas",
+            "tamaño"
+          ],
+          "notes": [
+            "-ON humano no agentivo: el gigante como humanoide mítico."
+          ]
+        },
+        {
+          "id": "lexeme-giger",
+          "form": "giger",
+          "gloss": "gigante, gigantesco",
+          "analysis_html": "GIG + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "GIG + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "tamaño",
+            "magnitud"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gige",
+          "form": "gige",
+          "gloss": "mil millones (10⁹)",
+          "analysis_html": "GIG + <a class=\"morph-link\" href=\"#morph-e\">-E</a> <span class=\"meta-extra\">(forma numeral)</span>",
+          "analysis_text": "GIG + -E (forma numeral)",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": [
+            "Escala larga: equivale al millardo, no al billón (10¹²). Calco del prefijo SI giga-."
+          ]
+        }
+      ]
     },
     {
       "id": "root-gin-k",
