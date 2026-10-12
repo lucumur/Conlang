@@ -3193,13 +3193,17 @@
       "gloss": "colorido, brillo de colores",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": "Nova. Forma inspirada en el ing. glamour (escocés, alteración de grammar «saber oculto, hechizo»), reinterpretada como «color vistoso».",
+      "etymology": "< Eo. glamuro, del ing. glamour (escocés, alteración de grammar «saber oculto, hechizo»). Reanálisis: glamur-o → GLAM + -URA (nominalización abstracta), con extracción de la raíz *GLAM- «colorido, vistoso».",
       "notes": [],
       "row_class": "",
       "words": [
@@ -3323,7 +3327,9 @@
             "cualidades",
             "abstractos"
           ],
-          "notes": []
+          "notes": [
+            "Forma de partida del reanálisis: la -ur- del préstamo se identifica con -URA, y GLAM- queda como raíz productiva."
+          ]
         },
         {
           "id": "lexeme-glamurol",
