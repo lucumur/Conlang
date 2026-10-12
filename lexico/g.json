@@ -4545,13 +4545,203 @@
       "id": "root-gor",
       "form": "*GOR-",
       "gloss": "garganta",
-      "tags": [],
+      "tags": [
+        {
+          "class": "frances",
+          "label": "Frances"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< Eo. gorĝo «garganta», del fr. gorge, y este del lat. tardío gurga / lat. gurges «remolino, abismo»; con pérdida de -ĝ-. La reduplicación gorgor- coincide con el gr. γαργαρίζω «hacer gárgaras» (onomatopéyico).",
+      "notes": [
+        "El nominal se forma con -KO «objeto»: gorko; los compuestos anatómicos se construyen sobre GORK-."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gorko",
+          "form": "gorko",
+          "gloss": "garganta",
+          "analysis_html": "GOR + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
+          "analysis_text": "GOR + -KO",
+          "refs": [
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal KO"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "partes"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kangorko",
+          "form": "kangorko",
+          "gloss": "laringe",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kant\">KAN</a> <span class=\"meta-extra\">(truncamiento de KANT-)</span> + GOR + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
+          "analysis_text": "KAN (truncamiento de KANT-) + GOR + -KO",
+          "refs": [
+            {
+              "id": "root-kant",
+              "label": "KAN"
+            },
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "sonido"
+          ],
+          "notes": [
+            "Literalmente «garganta de cantar»."
+          ]
+        },
+        {
+          "id": "lexeme-mangorko",
+          "form": "mangorko",
+          "gloss": "faringe",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mang\">MAN</a> <span class=\"meta-extra\">(truncamiento de MANĜ-)</span> + GOR + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
+          "analysis_text": "MAN (truncamiento de MANĜ-) + GOR + -KO",
+          "refs": [
+            {
+              "id": "root-mang",
+              "label": "MAN"
+            },
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "alimentación"
+          ],
+          "notes": [
+            "Literalmente «garganta de comer». MAN- aquí no es *MAN- «mano»."
+          ]
+        },
+        {
+          "id": "lexeme-blogorkos",
+          "form": "blogorkos",
+          "gloss": "atragantarse",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-blok\">BLO</a> <span class=\"meta-extra\">(forma primigenia de *BLOK-)</span> + GOR + -K- <span class=\"meta-extra\">(de -KO)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "BLO (forma primigenia de *BLOK-) + GOR + -K- (de -KO) + -OS",
+          "refs": [
+            {
+              "id": "root-blok",
+              "label": "BLO"
+            },
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "procesos",
+            "alimentación"
+          ],
+          "notes": [
+            "Literalmente «bloquearse la garganta»; verbo sobre el tema GORK-."
+          ]
+        },
+        {
+          "id": "lexeme-gorgoros",
+          "form": "gorgoros",
+          "gloss": "hacer gárgaras; burbujear",
+          "analysis_html": "GOR + GOR <span class=\"meta-extra\">(reduplicación)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "GOR + GOR (reduplicación) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "líquidos",
+            "acciones de boca"
+          ],
+          "notes": [
+            "Reduplicación onomatopéyica; el sentido se extiende de «gargarizar» a «burbujear»."
+          ]
+        },
+        {
+          "id": "lexeme-gorgorura",
+          "form": "gorgorura",
+          "gloss": "burbujeo, hervidero",
+          "analysis_html": "GORGOR + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "GORGOR + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "líquidos",
+            "sonido",
+            "procesos"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-goril",
