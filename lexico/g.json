@@ -2458,7 +2458,7 @@
             "alimentos"
           ],
           "notes": [
-            "Literalmente «nuez de roble». No confundir con *GERN- «grano»: aquí la -k- de GERK cae ante la n de NUŜ."
+            "Literalmente «nuez de roble»; la -k- de GERK cae ante la n de NUŜ."
           ]
         },
         {
@@ -2525,13 +2525,17 @@
       "gloss": "guiar",
       "tags": [
         {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        },
+        {
           "class": "frances",
           "label": "Frances"
         }
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< *GVID-, del Eo. gvidi, del fr. guider, y este del fráncico *wītan «indicar el camino» (GV- → G-).",
       "notes": [],
       "row_class": "",
       "words": [
@@ -2559,6 +2563,66 @@
             "orientación"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-gidistan",
+          "form": "gidistan",
+          "gloss": "guía (persona, oficio)",
+          "analysis_html": "GID + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "GID + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "profesiones",
+            "personas",
+            "orientación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gidato",
+          "form": "gidato",
+          "gloss": "guía (hilo u objeto que sirve de guía)",
+          "analysis_html": "GID + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GID + -AT- + -O",
+          "refs": [
+            {
+              "id": "morph-at",
+              "label": "-AT-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Instrumento O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "herramientas",
+            "orientación"
+          ],
+          "notes": [
+            "Nominal inanimado correspondiente a gidar, como gadrato «escuadra» respecto de gadrar."
+          ]
         }
       ]
     },
@@ -3019,49 +3083,6 @@
           "notes": [
             "Forma regular de -EN; la forma de Tana gorilin queda descartada."
           ]
-        }
-      ]
-    },
-    {
-      "id": "root-gern",
-      "form": "*GERN-",
-      "gloss": "grano",
-      "tags": [
-        {
-          "class": "nova",
-          "label": "Nova"
-        }
-      ],
-      "letter": "G",
-      "section": "sec-g",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-gerno",
-          "form": "gerno",
-          "gloss": "grano",
-          "analysis_html": "GERN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "GERN + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "botánica",
-            "alimentos",
-            "agricultura"
-          ],
-          "notes": []
         }
       ]
     },
