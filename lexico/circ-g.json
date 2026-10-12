@@ -1357,15 +1357,20 @@
       "id": "root-gib",
       "form": "*ĜIB-",
       "gloss": "joroba",
-      "tags": [],
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": null,
+      "etymology": "< Eo. ĝibo «joroba», del fr. gibbe / it. gibbo, y este del lat. gibbus «jorobado».",
       "notes": [],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-ĝibo",
+          "id": "lexeme-gibo",
           "form": "ĝibo",
           "gloss": "jiba, joroba",
           "analysis_html": "ĜIB + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
@@ -1385,63 +1390,63 @@
           "semantic_fields": [
             "anatomía",
             "cuerpo",
-            "apariencia"
+            "forma"
           ],
           "notes": []
         },
         {
-          "id": "lexeme-ĝibon",
-          "form": "ĝibon",
+          "id": "lexeme-gibin",
+          "form": "ĝibin",
           "gloss": "jorobado",
-          "analysis_html": "ĜIB + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "ĜIB + -ON",
+          "analysis_html": "ĜIB + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "ĜIB + -IN",
           "refs": [
             {
-              "id": "morph-on",
-              "label": "-ON"
+              "id": "morph-in",
+              "label": "-IN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Humano ON"
+              "label": "Adjetivo-participio IN"
             }
           ],
           "semantic_fields": [
-            "personas",
-            "anatomía",
+            "cualidades",
+            "cuerpo",
             "apariencia"
           ],
-          "notes": []
+          "notes": [
+            "Sustituye a ĝibon."
+          ]
         }
       ]
     },
     {
       "id": "root-gink",
-      "form": "*ĜINK-",
-      "gloss": "mujer",
+      "form": "*ĜIN-",
+      "gloss": "mujer (poético)",
       "tags": [
         {
           "class": "griego",
           "label": "Griego"
-        },
-        {
-          "class": "nova",
-          "label": "Nova"
         }
       ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Del gr. γυνή, γυναικ- «mujer» (cf. gineco-), con palatalización g- → ĝ- ante i, como en la pronunciación romance de gineco-.",
+      "notes": [
+        "Registro poético. Antes *ĜINK- (ĝinkon)."
+      ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-ĝinkon",
-          "form": "ĝinkon",
-          "gloss": "mujer",
-          "analysis_html": "ĜINK + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "ĜINK + -ON",
+          "id": "lexeme-ginon",
+          "form": "ĝinon",
+          "gloss": "mujer (poético)",
+          "analysis_html": "ĜIN + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ĜIN + -ON",
           "refs": [
             {
               "id": "morph-on",
@@ -1456,16 +1461,78 @@
           ],
           "semantic_fields": [
             "personas",
-            "género",
-            "sociedad"
+            "literatura",
+            "familia"
+          ],
+          "notes": [
+            "Sustituye a ĝinkon."
+          ]
+        },
+        {
+          "id": "lexeme-ginjatran",
+          "form": "ĝinjatran",
+          "gloss": "ginecólogo",
+          "analysis_html": "ĜIN + <a class=\"morph-link\" href=\"#root-jatr\">JATR</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĜIN + JATR + -AN",
+          "refs": [
+            {
+              "id": "root-jatr",
+              "label": "JATR"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "medicina",
+            "profesiones",
+            "salud"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-ginjatrea",
+          "form": "ĝinjatrea",
+          "gloss": "ginecología",
+          "analysis_html": "ĜIN + <a class=\"morph-link\" href=\"#root-jatr\">JATR</a> + -EA <span class=\"meta-extra\">(disciplina; no formalizado)</span>",
+          "analysis_text": "ĜIN + JATR + -EA (disciplina; no formalizado)",
+          "refs": [
+            {
+              "id": "root-jatr",
+              "label": "JATR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "medicina",
+            "disciplinas",
+            "salud"
+          ],
+          "notes": [
+            "-EA recuerda el gr. ἰατρεία «tratamiento médico». Pendiente: formalizar -EA."
+          ]
         }
       ]
     },
     {
       "id": "root-ging",
-      "form": "*ĜINĜ-",
+      "form": "*ĜIN-Ĝ",
       "gloss": "jengibre, naranja, pelirrojo",
       "tags": [
         {
@@ -1475,14 +1542,16 @@
       ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< Eo. zingibro / ing. ginger, del lat. zingiber, gr. ζιγγίβερις, de origen índico (pali siṅgivera). Nova en la forma.",
+      "notes": [
+        "Forma primigenia ĜIN- en compuestos: ĝinbeto «zanahoria»; homónima de *ĜIN- «mujer»."
+      ],
       "row_class": "",
       "words": [
         {
           "id": "lexeme-ĝinĝo",
           "form": "ĝinĝo",
-          "gloss": "jenjibre",
+          "gloss": "jengibre",
           "analysis_html": "ĜINĜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
           "analysis_text": "ĜINĜ + -O",
           "refs": [
@@ -1500,7 +1569,7 @@
           "semantic_fields": [
             "botánica",
             "alimentos",
-            "especias"
+            "cocina"
           ],
           "notes": []
         }
@@ -1518,10 +1587,92 @@
       ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": null,
+      "etymology": "< Eo. ĝis «hasta», prob. del fr. jusque (< lat. de usque).",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gis",
+          "form": "ĝis",
+          "gloss": "hasta, hasta que",
+          "analysis_html": "ĜIS <span class=\"meta-extra\">(partícula)</span>",
+          "analysis_text": "ĜIS (partícula)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Preposición"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones",
+            "tiempo",
+            "espacio"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gisviza",
+          "form": "ĝisviza",
+          "gloss": "¡nos vemos!, ¡hasta pronto!, adiós",
+          "analysis_html": "ĜIS + <a class=\"morph-link\" href=\"#root-viz\">VIZ</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĜIS + VIZ + -A",
+          "refs": [
+            {
+              "id": "root-viz",
+              "label": "VIZ"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Interjección"
+            }
+          ],
+          "semantic_fields": [
+            "habla",
+            "interacción social",
+            "comunicación"
+          ],
+          "notes": [
+            "Calco de Eo. ĝis revido / fr. au revoir: «hasta la vista»."
+          ]
+        },
+        {
+          "id": "lexeme-gisnu",
+          "form": "ĝisnu",
+          "gloss": "¡hasta pronto!, adiós",
+          "analysis_html": "ĜIS + NU <span class=\"meta-extra\">(«ahora»; no formalizado)</span>",
+          "analysis_text": "ĜIS + NU («ahora»; no formalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Interjección"
+            }
+          ],
+          "semantic_fields": [
+            "habla",
+            "interacción social",
+            "comunicación"
+          ],
+          "notes": [
+            "Literalmente «hasta ahora»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-goj",

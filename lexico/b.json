@@ -3947,15 +3947,15 @@
           ]
         },
         {
-          "id": "lexeme-gjinjibeto",
-          "form": "ĝinĝibeto",
+          "id": "lexeme-ginbeto",
+          "form": "ĝinbeto",
           "gloss": "zanahoria",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-ging\">ĜINĜ</a> + I (vocal de enlace) + BET + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "ĜINĜ + I (vocal de enlace) + BET + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ging\">ĜIN</a> <span class=\"meta-extra\">(forma primigenia de *ĜIN-Ĝ)</span> + BET + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĜIN (forma primigenia de *ĜIN-Ĝ) + BET + -O",
           "refs": [
             {
               "id": "root-ging",
-              "label": "ĜINĜ"
+              "label": "ĜIN"
             },
             {
               "id": "morph-o",
@@ -3965,13 +3965,20 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Nomen O"
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal O"
             }
           ],
           "semantic_fields": [
-            "alimentación",
             "vegetales",
+            "alimentos",
             "botánica"
+          ],
+          "notes": [
+            "Literalmente «raíz larga anaranjada». Sustituye a ĝinĝibeto."
           ]
         },
         {
