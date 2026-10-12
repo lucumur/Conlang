@@ -3430,7 +3430,7 @@
     {
       "id": "morph-ar-collective",
       "form": "*-AR-",
-      "gloss": "colectivo; forma conjuntos o masas a partir de la base",
+      "gloss": "que posee; poseedor de",
       "tags": [
         {
           "class": "generic",
@@ -3445,9 +3445,9 @@
       "section": "sec-a",
       "etymology": null,
       "notes": [
-        "CANÓNICO: -AR- es un sufijo colectivo.",
-        "Se distingue del homónimo -AR, participio de la serie agentiva en -AS.",
-        "Atestiguado en ĉalpara «cabellera», donde forma un colectivo de pelo/cabello."
+        "CANÓNICO: -AR- significa «que posee X»: joĉalparon «la de hermosa cabellera», glavaron «espadachín».",
+        "Antes descrito como colectivo.",
+        "Se distingue del homónimo -AR, participio de la serie agentiva en -AS."
       ],
       "row_class": ""
     },

@@ -3734,12 +3734,12 @@
           "id": "lexeme-glavaron",
           "form": "glavaron",
           "gloss": "espadachín",
-          "analysis_html": "GLAV + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "GLAV + -AR + -ON",
+          "analysis_html": "GLAV + <a class=\"morph-link\" href=\"#morph-ar-collective\">-AR-</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "GLAV + -AR- + -ON",
           "refs": [
             {
-              "id": "morph-ar-2",
-              "label": "-AR"
+              "id": "morph-ar-collective",
+              "label": "-AR-"
             },
             {
               "id": "morph-on",
@@ -3758,7 +3758,7 @@
             "oficios"
           ],
           "notes": [
-            "-AR participio agentivo («que esgrime espada») + -ON humano."
+            "-AR- «que posee»: «el que tiene espada»."
           ]
         },
         {
@@ -3919,16 +3919,229 @@
       ]
     },
     {
-      "id": "root-glu",
-      "form": "*GLU-",
-      "gloss": "pegajoso",
-      "tags": [],
+      "id": "root-glop",
+      "form": "*GLOP-",
+      "gloss": "galopar",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< *GALOP-, del Eo. galopi, del fr. galoper (prob. del fráncico *wala hlaupan «correr bien»); síncopa de la primera vocal.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-glopeos",
+          "form": "glopeos",
+          "gloss": "galopar",
+          "analysis_html": "GLOP + <a class=\"morph-link\" href=\"#morph-eos-directional\">-EOS</a>",
+          "analysis_text": "GLOP + -EOS",
+          "refs": [
+            {
+              "id": "morph-eos-directional",
+              "label": "-EOS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado EOS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "equinos",
+            "dirección"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-glopea",
+          "form": "glopea",
+          "gloss": "galope",
+          "analysis_html": "GLOP + -EA <span class=\"meta-extra\">(nominal de -EOS)</span>",
+          "analysis_text": "GLOP + -EA (nominal de -EOS)",
+          "refs": [
+            {
+              "id": "morph-eos-directional",
+              "label": "-EOS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "equinos",
+            "abstractos"
+          ],
+          "notes": [
+            "Nominal de glopeos: -EOS → -EA."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-glu",
+      "form": "*GLU-",
+      "gloss": "pegar, adherir; pegajoso",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Eo. gluo «cola, pegamento», del lat. glūs / glūten, glūtinis (fr. glu). Las formas con -t- y glutin- reproducen el tema latino glūtin-.",
+      "notes": [
+        "glutas «pegar» es homónimo de glutas «tragar» (*GLUT-)."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-glutas-pegar",
+          "form": "glutas",
+          "gloss": "pegar",
+          "analysis_html": "GLU + -T- <span class=\"meta-extra\">(tema GLUT-)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GLU + -T- (tema GLUT-) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "materiales",
+            "construcción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-glutis",
+          "form": "glutis",
+          "gloss": "pegarse, quedar adherido",
+          "analysis_html": "GLU + -T- <span class=\"meta-extra\">(tema GLUT-)</span> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "GLU + -T- (tema GLUT-) + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "materiales",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-glutinol",
+          "form": "glutinol",
+          "gloss": "pegajoso, adherente",
+          "analysis_html": "GLUTIN <span class=\"meta-extra\">(tema latino glūtin-)</span> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "GLUTIN (tema latino glūtin-) + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "propiedades físicas",
+            "materiales"
+          ],
+          "notes": [
+            "Cf. lat. glūtinōsus."
+          ]
+        },
+        {
+          "id": "lexeme-gluzis",
+          "form": "gluzis",
+          "gloss": "estar pegajoso, estar sudado",
+          "analysis_html": "GLU + -Z- <span class=\"meta-extra\">(segmento no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "GLU + -Z- (segmento no formalizado) + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "estado",
+            "cuerpo",
+            "salud"
+          ],
+          "notes": [
+            "Pendiente: valor de -Z-."
+          ]
+        },
+        {
+          "id": "lexeme-gluzinos",
+          "form": "gluzinos",
+          "gloss": "sudar",
+          "analysis_html": "GLU + -Z- + -IN- + <a class=\"morph-link\" href=\"#morph-os\">-OS</a> <span class=\"meta-extra\">(-IS → -INOS: pasivo a intransitivo)</span>",
+          "analysis_text": "GLU + -Z- + -IN- + -OS (-IS → -INOS: pasivo a intransitivo)",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "cuerpo",
+            "salud"
+          ],
+          "notes": [
+            "-IN-OS convierte el predicado pasivo gluzis en intransitivo dinámico: «ponerse sudado» → sudar."
+          ]
+        }
+      ]
     },
     {
       "id": "root-glut",
