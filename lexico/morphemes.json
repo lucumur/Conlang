@@ -3593,6 +3593,29 @@
       "row_class": ""
     },
     {
+      "id": "morph-ov-generation",
+      "form": "*-OV",
+      "gloss": "cohorte, generación (nuevo; valor por precisar)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Provisional"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "Introducido en ĝenadov «generación».",
+        "Homónimo de -OV- posibilitativo."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-ch-diminutive",
       "form": "*-Ĉ- / *-IĈ-",
       "gloss": "diminutivo fuerte; tamaño especialmente pequeño",

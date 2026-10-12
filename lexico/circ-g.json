@@ -263,10 +263,15 @@
       "id": "root-gejn",
       "form": "*ĜEJN-",
       "gloss": "molestar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": null,
+      "etymology": "< Eo. ĝeni «molestar», del fr. gêner (< ant. fr. gehine «tortura», de gehir «confesar», fráncico *jehjan).",
       "notes": [],
       "row_class": "",
       "words": [
@@ -290,8 +295,8 @@
           ],
           "semantic_fields": [
             "acciones",
-            "interacción",
-            "emociones"
+            "emociones",
+            "interacción"
           ],
           "notes": []
         },
@@ -315,8 +320,8 @@
           ],
           "semantic_fields": [
             "emociones",
-            "estado",
-            "abstractos"
+            "abstractos",
+            "conflicto"
           ],
           "notes": []
         }
@@ -326,15 +331,24 @@
       "id": "root-gel",
       "form": "*ĜEL-",
       "gloss": "gel",
-      "tags": [],
+      "tags": [
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": null,
+      "etymology": "< Eo. ĝelo «gel», del ing. gel, acortamiento de gelatin < it. gelatina < lat. gelāre «helar».",
       "notes": [],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-ĝele",
+          "id": "lexeme-gele",
           "form": "ĝele",
           "gloss": "gel",
           "analysis_html": "ĜEL + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
@@ -352,27 +366,102 @@
             }
           ],
           "semantic_fields": [
-            "materiales",
             "sustancias",
+            "materiales",
             "química"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-gelpicen",
+          "form": "ĝelpiĉen",
+          "gloss": "medusa",
+          "analysis_html": "ĜEL + <a class=\"morph-link\" href=\"#root-pic\">PIĈ</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "ĜEL + PIĈ + -EN",
+          "refs": [
+            {
+              "id": "root-pic",
+              "label": "PIĈ"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Animado no humano EN"
+            }
+          ],
+          "semantic_fields": [
+            "animales acuáticos",
+            "fauna",
+            "mar"
+          ],
+          "notes": [
+            "Literalmente «gel que pica»."
+          ]
+        },
+        {
+          "id": "lexeme-melgele",
+          "form": "melĝele",
+          "gloss": "jalea",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mel\">MEL</a> + ĜEL + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "MEL + ĜEL + -E",
+          "refs": [
+            {
+              "id": "root-mel",
+              "label": "MEL"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "alimentos",
+            "cocina",
+            "sustancias"
+          ],
+          "notes": [
+            "Literalmente «gel de miel»."
+          ]
         }
       ]
     },
     {
       "id": "root-gen",
       "form": "*ĜEN-",
-      "gloss": "procrear ⭐",
-      "tags": [],
+      "gloss": "generar, procrear; linaje",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": null,
+      "etymology": "< Eo. gener- (generi «generar»), del lat. genus, generis / generāre (PIE *ǵenh₁- «engendrar»); ĝ- según la pronunciación romance palatalizada (it. genere, ing. generate).",
       "notes": [],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-ĝenas",
+          "id": "lexeme-genas",
           "form": "ĝenas",
           "gloss": "generar, crear",
           "analysis_html": "ĜEN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
@@ -391,8 +480,306 @@
           ],
           "semantic_fields": [
             "acciones",
-            "reproducción",
-            "creación"
+            "producción",
+            "inicio"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gentas",
+          "form": "ĝentas",
+          "gloss": "procrear, engendrar",
+          "analysis_html": "ĜEN + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĜEN + -T- + -AS",
+          "refs": [
+            {
+              "id": "morph-t-perfective",
+              "label": "-T-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "familia",
+            "sexualidad",
+            "biología"
+          ],
+          "notes": [
+            "-T- perfectivo: generación llevada a término, el hijo nacido."
+          ]
+        },
+        {
+          "id": "lexeme-genal",
+          "form": "ĝenal",
+          "gloss": "nación, lugar de nacimiento",
+          "analysis_html": "ĜEN + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ĜEN + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "países",
+            "sociedad",
+            "lugares"
+          ],
+          "notes": [
+            "Cf. lat. nātiō < nāscor."
+          ]
+        },
+        {
+          "id": "lexeme-genatel",
+          "form": "ĝenatel",
+          "gloss": "generativo, creativo",
+          "analysis_html": "ĜEN + <a class=\"morph-link\" href=\"#morph-atel\">-ATEL</a>",
+          "analysis_text": "ĜEN + -ATEL",
+          "refs": [
+            {
+              "id": "morph-atel",
+              "label": "-ATEL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ATEL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "producción",
+            "imaginación"
+          ],
+          "notes": [
+            "Adjetivo regular de ĝenal (-AL → -ATEL)."
+          ]
+        },
+        {
+          "id": "lexeme-genatan",
+          "form": "ĝenatan",
+          "gloss": "El Creador",
+          "analysis_html": "ĜEN + <a class=\"morph-link\" href=\"#morph-atan\">-ATAN</a>",
+          "analysis_text": "ĜEN + -ATAN",
+          "refs": [
+            {
+              "id": "morph-atan",
+              "label": "-ATAN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ATAN"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "divinidades",
+            "producción"
+          ],
+          "notes": [
+            "Humano regular de ĝenal (-AL → -ATAN)."
+          ]
+        },
+        {
+          "id": "lexeme-belgenin",
+          "form": "belĝenin",
+          "gloss": "de familia noble",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + ĜEN + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "BEL + ĜEN + -IN",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo-participio IN"
+            }
+          ],
+          "semantic_fields": [
+            "nobleza",
+            "familia",
+            "cualidades"
+          ],
+          "notes": [
+            "Calco del gr. εὐγενής «bien nacido»."
+          ]
+        },
+        {
+          "id": "lexeme-belgena",
+          "form": "belĝena",
+          "gloss": "nobleza",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-bel\">BEL</a> + ĜEN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "BEL + ĜEN + -A",
+          "refs": [
+            {
+              "id": "root-bel",
+              "label": "BEL"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "nobleza",
+            "jerarquía",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-pragena",
+          "form": "praĝena",
+          "gloss": "origen, género, linaje",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pra\">PRA</a> + ĜEN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "PRA + ĜEN + -A",
+          "refs": [
+            {
+              "id": "root-pra",
+              "label": "PRA"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "familia",
+            "historia",
+            "herencia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-genajn",
+          "form": "ĝenajn",
+          "gloss": "padres, progenitores",
+          "analysis_html": "ĜEN + <a class=\"morph-link\" href=\"#morph-ajn-family\">-AJN</a>",
+          "analysis_text": "ĜEN + -AJN",
+          "refs": [
+            {
+              "id": "morph-ajn-family",
+              "label": "-AJN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Persona AJN"
+            }
+          ],
+          "semantic_fields": [
+            "familia",
+            "parentesco",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-djugenan",
+          "form": "djuĝenan",
+          "gloss": "Theotokos, la Virgen María",
+          "analysis_html": "DJU- <span class=\"meta-extra\">(«dios»; no formalizado)</span> + ĜEN + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "DJU- («dios»; no formalizado) + ĜEN + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "cristianismo",
+            "divinidades"
+          ],
+          "notes": [
+            "Calco del gr. Θεοτόκος «madre de Dios». Pendiente: raíz DJU-."
+          ]
+        },
+        {
+          "id": "lexeme-genadov",
+          "form": "ĝenadov",
+          "gloss": "generación",
+          "analysis_html": "ĜEN + <a class=\"morph-link\" href=\"#morph-ad\">-AD-</a> + <a class=\"morph-link\" href=\"#morph-ov-generation\">-OV</a>",
+          "analysis_text": "ĜEN + -AD- + -OV",
+          "refs": [
+            {
+              "id": "morph-ad",
+              "label": "-AD-"
+            },
+            {
+              "id": "morph-ov-generation",
+              "label": "-OV"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Colectivo OV"
+            }
+          ],
+          "semantic_fields": [
+            "familia",
+            "tiempo",
+            "sociedad"
           ],
           "notes": []
         }
