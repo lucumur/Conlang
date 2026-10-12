@@ -1825,13 +1825,15 @@
     },
     {
       "id": "root-plat",
-      "form": "*PLAT-",
+      "form": "*PLA-T",
       "gloss": "plano",
       "tags": [],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Forma primigenia PLA- en compuestos: plaĝero «plancha»."
+      ],
       "row_class": "",
       "words": []
     },

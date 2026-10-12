@@ -502,6 +502,29 @@
       "row_class": ""
     },
     {
+      "id": "morph-ce-group",
+      "form": "*-CE",
+      "gloss": "grupo o conjunto de cosas (provisional)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "Provisional"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": null,
+      "notes": [
+        "Atestiguado en ĝerce «herrajes»; forma el tema ĜERC- de ĝercatal «herrería» y ĝercistan «herrero».",
+        "Valor aún no desarrollado."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-co",
       "form": "*-CO",
       "gloss": "nave, vehiculo",

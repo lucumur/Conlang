@@ -1077,8 +1077,8 @@
           "id": "lexeme-plagero",
           "form": "plaĝero",
           "gloss": "plancha",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-plat\">PLA</a> <span class=\"meta-extra\">(forma primigenia de *PLA-K «plano»)</span> + ĜER + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "PLA (forma primigenia de *PLA-K «plano») + ĜER + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-plat\">PLA</a> <span class=\"meta-extra\">(forma primigenia de *PLA-T)</span> + ĜER + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "PLA (forma primigenia de *PLA-T) + ĜER + -O",
           "refs": [
             {
               "id": "root-plat",
@@ -1112,12 +1112,12 @@
           "id": "lexeme-gerce",
           "form": "ĝerce",
           "gloss": "herrajes",
-          "analysis_html": "ĜER + -C- <span class=\"meta-extra\">(no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
-          "analysis_text": "ĜER + -C- (no formalizado) + -E",
+          "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#morph-ce-group\">-CE</a>",
+          "analysis_text": "ĜER + -CE",
           "refs": [
             {
-              "id": "morph-e",
-              "label": "-E"
+              "id": "morph-ce-group",
+              "label": "-CE"
             }
           ],
           "tags": [
@@ -1132,16 +1132,20 @@
             "objetos"
           ],
           "notes": [
-            "Pendiente: valor de -C-; tema ĜERC- en ĝercatal, ĝercistan."
+            "-CE «grupo de cosas»: el conjunto de piezas de hierro."
           ]
         },
         {
           "id": "lexeme-gercatal",
           "form": "ĝercatal",
           "gloss": "herrería",
-          "analysis_html": "ĜER + -C- <span class=\"meta-extra\">(no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
-          "analysis_text": "ĜER + -C- (no formalizado) + -AT- + -AL",
+          "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#morph-ce-group\">-CE</a> <span class=\"meta-extra\">(tema ĜERC-)</span> + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ĜER + -CE (tema ĜERC-) + -AT- + -AL",
           "refs": [
+            {
+              "id": "morph-ce-group",
+              "label": "-CE"
+            },
             {
               "id": "morph-at",
               "label": "-AT-"
@@ -1168,9 +1172,13 @@
           "id": "lexeme-gercistan",
           "form": "ĝercistan",
           "gloss": "herrero",
-          "analysis_html": "ĜER + -C- <span class=\"meta-extra\">(no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "ĜER + -C- (no formalizado) + -IST + -AN",
+          "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#morph-ce-group\">-CE</a> <span class=\"meta-extra\">(tema ĜERC-)</span> + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĜER + -CE (tema ĜERC-) + -IST + -AN",
           "refs": [
+            {
+              "id": "morph-ce-group",
+              "label": "-CE"
+            },
             {
               "id": "morph-ist",
               "label": "-IST"
@@ -1199,13 +1207,139 @@
       "id": "root-gest",
       "form": "*ĜEST-",
       "gloss": "digerir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< Eo. digesti «digerir», del lat. dīgestus (dīgerō «distribuir, digerir»); di-g- → ĝ-, como en ĝabl- < diablo.",
+      "notes": [
+        "Tema ĜESTR- (de ĝestar + -O, con síncopa) para el órgano: ĝestro, lonĝestro."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gestas",
+          "form": "ĝestas",
+          "gloss": "digerir",
+          "analysis_html": "ĜEST + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĜEST + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "alimentación",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gestar",
+          "form": "ĝestar",
+          "gloss": "digestivo",
+          "analysis_html": "ĜEST + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "ĜEST + -AR",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio AR"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "alimentación",
+            "cualidades"
+          ],
+          "notes": [
+            "-AR atribuye cualidad agentiva a lo inanimado, como ĉrivar «escritorio»."
+          ]
+        },
+        {
+          "id": "lexeme-gestro",
+          "form": "ĝestro",
+          "gloss": "estómago",
+          "analysis_html": "ĜEST + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(ĝestar-o → ĝestro, síncopa)</span>",
+          "analysis_text": "ĜEST + -AR + -O (ĝestar-o → ĝestro, síncopa)",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "alimentación"
+          ],
+          "notes": [
+            "Literalmente «el que digiere»."
+          ]
+        },
+        {
+          "id": "lexeme-longestro",
+          "form": "lonĝestro",
+          "gloss": "intestinos",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-long\">LON</a> <span class=\"meta-extra\">(forma primigenia de *LON-G)</span> + ĜESTR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "LON (forma primigenia de *LON-G) + ĜESTR + -O",
+          "refs": [
+            {
+              "id": "root-long",
+              "label": "LON"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "alimentación"
+          ],
+          "notes": [
+            "Literalmente «estómago largo»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-gi",
