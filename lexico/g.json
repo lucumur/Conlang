@@ -2522,18 +2522,22 @@
     {
       "id": "root-gern",
       "form": "*GERN-",
-      "gloss": "grano",
+      "gloss": "grano; verde",
       "tags": [
         {
           "class": "nat-mod",
           "label": "Nat-mod"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
         }
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": "< Eo. greno «grano, cereal», del al. Korn / lat. grānum; metátesis gren- → gern-. En compuestos ante consonante reaparece GREN-: grempino.",
+      "etymology": "< Eo. greno «grano», del al. Korn / lat. grānum, fusionado con *GREN- «verde» < al. grün / ing. green; metátesis gren- → gern-. La fusión es formal: green procede de PIE *ǵʰreh₁- «crecer», grain de *ǵr̥h₂-nó- «madurado». En compuestos ante consonante reaparece GREN-: grempino.",
       "notes": [
-        "No confundir GREN- (variante de *GERN-) con *GREN- «verde»."
+        "Absorbe la antigua raíz *GREN- «verde»."
       ],
       "row_class": "",
       "words": [
@@ -2622,6 +2626,33 @@
           ],
           "notes": [
             "-AD- grupal: el conjunto de granos."
+          ]
+        },
+        {
+          "id": "lexeme-gernor",
+          "form": "gernor",
+          "gloss": "verde",
+          "analysis_html": "GERN + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "GERN + -OR",
+          "refs": [
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OR"
+            }
+          ],
+          "semantic_fields": [
+            "colores",
+            "botánica",
+            "cualidades"
+          ],
+          "notes": [
+            "El color de lo que brota: grano y verde comparten raíz."
           ]
         }
       ]
@@ -5620,48 +5651,133 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. greka, del lat. Graecus, y este del gr. Γραικός (nombre de una tribu del Epiro).",
       "notes": [],
       "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-gren",
-      "form": "*GREN-",
-      "gloss": "verde",
-      "tags": [
+      "words": [
         {
-          "class": "germanico",
-          "label": "Germanico"
+          "id": "lexeme-grekon",
+          "form": "grekon",
+          "gloss": "griego (persona)",
+          "analysis_html": "GREK + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "GREK + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "personas",
+            "países"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-greka",
+          "form": "greka",
+          "gloss": "griego (idioma)",
+          "analysis_html": "GREK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GREK + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "lenguaje",
+            "gentilicios",
+            "cultura"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-grekur",
+          "form": "grekur",
+          "gloss": "griego, helénico (adjetivo)",
+          "analysis_html": "GREK + -UR <span class=\"meta-extra\">(adjetivo gentilicio; valor pendiente)</span>",
+          "analysis_text": "GREK + -UR (adjetivo gentilicio; valor pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo"
+            }
+          ],
+          "semantic_fields": [
+            "gentilicios",
+            "cualidades",
+            "cultura"
+          ],
+          "notes": [
+            "Pendiente: relación de este -UR con el participio -UR de -OS."
+          ]
+        },
+        {
+          "id": "lexeme-grekal",
+          "form": "grekal",
+          "gloss": "Grecia",
+          "analysis_html": "GREK + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "GREK + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "países",
+            "geografía",
+            "lugares"
+          ],
+          "notes": []
         }
-      ],
-      "letter": "G",
-      "section": "sec-g",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
+      ]
     },
     {
       "id": "root-grot",
       "form": "*GROT-",
-      "gloss": "cueva",
+      "gloss": "cueva, túnel",
       "tags": [
         {
           "class": "frances",
           "label": "Frances"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. groto, del fr. grotte / it. grotta, y este del lat. crypta < gr. κρύπτη «lugar oculto».",
       "notes": [],
       "row_class": "",
       "words": [
         {
           "id": "lexeme-groto",
           "form": "groto",
-          "gloss": "cueva, tunel",
+          "gloss": "cueva, túnel",
           "analysis_html": "GROT + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
           "analysis_text": "GROT + -O",
           "refs": [
@@ -5679,7 +5795,7 @@
           "semantic_fields": [
             "geografía",
             "lugares",
-            "naturaleza"
+            "geología"
           ],
           "notes": []
         }
@@ -5688,7 +5804,7 @@
     {
       "id": "root-gru",
       "form": "*GRU-",
-      "gloss": "grava",
+      "gloss": "grava, piedra menuda",
       "tags": [
         {
           "class": "germanico",
@@ -5697,10 +5813,112 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. gruzo «grava, cascajo», del al. Grus.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gruzono",
+          "form": "gruẑono",
+          "gloss": "guijarro, lasca",
+          "analysis_html": "GRU + <a class=\"morph-link\" href=\"#root-zon-2\">ẐON</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GRU + ẐON + -O",
+          "refs": [
+            {
+              "id": "root-zon-2",
+              "label": "ẐON"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "minerales",
+            "geología",
+            "objetos"
+          ],
+          "notes": [
+            "Literalmente «piedra de grava»: la unidad."
+          ]
+        },
+        {
+          "id": "lexeme-grune",
+          "form": "grune",
+          "gloss": "grava, gravilla",
+          "analysis_html": "GRU + -n- <span class=\"meta-extra\">(¿epentética?)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GRU + -n- (¿epentética?) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "materiales",
+            "minerales",
+            "construcción"
+          ],
+          "notes": [
+            "Pendiente: confirmar -n- epentética."
+          ]
+        },
+        {
+          "id": "lexeme-gruglaste",
+          "form": "gruglaste",
+          "gloss": "granizo",
+          "analysis_html": "GRU + GLAST <span class=\"meta-extra\">(hielo)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GRU + GLAST (hielo) + -E",
+          "refs": [
+            {
+              "id": "root-glas",
+              "label": "GLAS"
+            },
+            {
+              "id": "morph-t-perfective",
+              "label": "-T-"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "clima",
+            "agua",
+            "temperatura"
+          ],
+          "notes": [
+            "Literalmente «grava de hielo»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-gudr",
