@@ -4145,19 +4145,27 @@
     },
     {
       "id": "root-glut",
-      "form": "*GLUT-",
-      "gloss": "deglutir, tragar",
-      "tags": [],
+      "form": "*GLU-T-",
+      "gloss": "tragar, deglutir",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< Eo. gluti «tragar», del lat. gluttīre / glūtīre (cf. fr. engloutir).",
+      "notes": [
+        "Forma primigenia GLU- en compuestos: glupipo.",
+        "Homónima de *GLU- «pegar» (glutas «pegar» / glutas «tragar»)."
+      ],
       "row_class": "",
       "words": [
         {
           "id": "lexeme-glutas",
           "form": "glutas",
-          "gloss": "comer vorazmente, tragar .. deglutir",
+          "gloss": "comer vorazmente, tragar, deglutir",
           "analysis_html": "GLUT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
           "analysis_text": "GLUT + -AS",
           "refs": [
@@ -4180,12 +4188,117 @@
           "notes": []
         },
         {
-          "id": "lexeme-gluta",
-          "form": "gluta",
-          "gloss": "trago,, bebida, alcohol",
-          "analysis_html": "GLUT + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "GLUT + -A",
+          "id": "lexeme-glutedal",
+          "form": "glutedal",
+          "gloss": "bar, cantina",
+          "analysis_html": "GLUT + <a class=\"morph-link\" href=\"#morph-ed\">-ED-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "GLUT + -ED- + -AL",
           "refs": [
+            {
+              "id": "morph-ed",
+              "label": "-ED-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "edificios",
+            "alcohol",
+            "lugares"
+          ],
+          "notes": [
+            "Literalmente «edificio de tragos»."
+          ]
+        },
+        {
+          "id": "lexeme-vinglutan",
+          "form": "vinglutan",
+          "gloss": "borracho",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-vin\">VIN</a> + GLUT + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "VIN + GLUT + -AN",
+          "refs": [
+            {
+              "id": "root-vin",
+              "label": "VIN"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "alcohol",
+            "conducta"
+          ],
+          "notes": [
+            "Literalmente «tragavinos»."
+          ]
+        },
+        {
+          "id": "lexeme-glupipo",
+          "form": "glupipo",
+          "gloss": "esófago",
+          "analysis_html": "GLU <span class=\"meta-extra\">(forma primigenia de *GLU-T-)</span> + <a class=\"morph-link\" href=\"#root-pip\">PIP</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GLU (forma primigenia de *GLU-T-) + PIP + -O",
+          "refs": [
+            {
+              "id": "root-pip",
+              "label": "PIP"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "cuerpo",
+            "partes"
+          ],
+          "notes": [
+            "Literalmente «tubo de tragar»."
+          ]
+        },
+        {
+          "id": "lexeme-glutila",
+          "form": "glutila",
+          "gloss": "trago, bebida, alcohol",
+          "analysis_html": "GLUT + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GLUT + -IL- + -A",
+          "refs": [
+            {
+              "id": "morph-il-partitive",
+              "label": "-IL-"
+            },
             {
               "id": "morph-a-2",
               "label": "-A"
@@ -4199,8 +4312,66 @@
           ],
           "semantic_fields": [
             "alimentación",
-            "acciones",
-            "abstractos"
+            "alcohol",
+            "líquidos"
+          ],
+          "notes": [
+            "-IL- partitivo: una unidad de tragar, un trago. Sustituye a gluta."
+          ]
+        },
+        {
+          "id": "lexeme-glutaga",
+          "form": "glutaga",
+          "gloss": "tragazón, atracón",
+          "analysis_html": "GLUT + <a class=\"morph-link\" href=\"#morph-ag\">-AG-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GLUT + -AG- + -A",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "-AG-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "conducta",
+            "cantidad"
+          ],
+          "notes": [
+            "-AG- aumentativo."
+          ]
+        },
+        {
+          "id": "lexeme-gluteza",
+          "form": "gluteẑa",
+          "gloss": "deglución",
+          "analysis_html": "GLUT + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "GLUT + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "cuerpo",
+            "procesos",
+            "alimentación"
           ],
           "notes": []
         }
