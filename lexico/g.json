@@ -2731,14 +2731,113 @@
         {
           "class": "nat-mod",
           "label": "Nat-mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< *KVINK-, del Eo. kvin, del lat. quīnque (< PIE *pénkʷe, con asimilación p…kʷ → kʷ…kʷ) (KV- → G-).",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ginke",
+          "form": "ginke",
+          "gloss": "cinco",
+          "analysis_html": "GINK + -E (forma numeral)",
+          "analysis_text": "GINK + -E (forma numeral)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ginkol",
+          "form": "ginkol",
+          "gloss": "quinto (ordinal)",
+          "analysis_html": "GINK + -OL (ordinal lexicalizado)",
+          "analysis_text": "GINK + -OL (ordinal lexicalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral ordinal"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "orden",
+            "matemáticas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ginkeze",
+          "form": "ginkeẑe",
+          "gloss": "cincuenta",
+          "analysis_html": "GINK + -E (numeral) + <a class=\"morph-link\" href=\"#morph-zhe-decades\">-ẐE</a>",
+          "analysis_text": "GINK + -E (numeral) + -ẐE",
+          "refs": [
+            {
+              "id": "morph-zhe-decades",
+              "label": "-ẐE"
+            },
+            {
+              "id": "root-dez-num",
+              "label": "DEẐ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ginkezente",
+          "form": "ginkeẑente",
+          "gloss": "quinientos",
+          "analysis_html": "GINK + -E (numeral) + <a class=\"morph-link\" href=\"#root-zen-2\">ẐENT</a> + -E (numeral)",
+          "analysis_text": "GINK + -E (numeral) + ẐENT + -E (numeral)",
+          "refs": [
+            {
+              "id": "root-zen-2",
+              "label": "ẐENT"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Numeral"
+            }
+          ],
+          "semantic_fields": [
+            "números",
+            "cantidad",
+            "matemáticas"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-gis",
