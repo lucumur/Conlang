@@ -4006,16 +4006,16 @@
       "section": "sec-g",
       "etymology": "< Eo. gluo «cola, pegamento», del lat. glūs / glūten, glūtinis (fr. glu). Las formas con -t- y glutin- reproducen el tema latino glūtin-.",
       "notes": [
-        "glutas «pegar» es homónimo de glutas «tragar» (*GLUT-)."
+        "-v- epentética entre la raíz y una vocal de sufijo: gluvas."
       ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-glutas-pegar",
-          "form": "glutas",
-          "gloss": "pegar",
-          "analysis_html": "GLU + -T- <span class=\"meta-extra\">(tema GLUT-)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "GLU + -T- (tema GLUT-) + -AS",
+          "id": "lexeme-gluvas",
+          "form": "gluvas",
+          "gloss": "adherir, pegar (algo en algo)",
+          "analysis_html": "GLU + -v- <span class=\"meta-extra\">(epentética)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "GLU + -v- (epentética) + -AS",
           "refs": [
             {
               "id": "morph-as",
@@ -4033,7 +4033,9 @@
             "materiales",
             "construcción"
           ],
-          "notes": []
+          "notes": [
+            "Sustituye a glutas «pegar», que chocaba con glutas «tragar» (*GLU-T-)."
+          ]
         },
         {
           "id": "lexeme-glutis",
@@ -4157,8 +4159,7 @@
       "section": "sec-g",
       "etymology": "< Eo. gluti «tragar», del lat. gluttīre / glūtīre (cf. fr. engloutir).",
       "notes": [
-        "Forma primigenia GLU- en compuestos: glupipo.",
-        "Homónima de *GLU- «pegar» (glutas «pegar» / glutas «tragar»)."
+        "Forma primigenia GLU- en compuestos: glupipo."
       ],
       "row_class": "",
       "words": [
