@@ -3627,13 +3627,18 @@
           "id": "lexeme-glatira",
           "form": "glatira",
           "gloss": "lindura, gentileza",
-          "analysis_html": "GLAT + -IRA <span class=\"meta-extra\">(segmento no formalizado)</span>",
-          "analysis_text": "GLAT + -IRA (segmento no formalizado)",
-          "refs": [],
+          "analysis_html": "GLAT + <a class=\"morph-link\" href=\"#morph-ira\">-IRA</a>",
+          "analysis_text": "GLAT + -IRA",
+          "refs": [
+            {
+              "id": "morph-ira",
+              "label": "-IRA"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Nominalización"
+              "label": "Nominalización IRA"
             }
           ],
           "semantic_fields": [
@@ -3641,9 +3646,7 @@
             "conducta",
             "abstractos"
           ],
-          "notes": [
-            "Pendiente: valor de -IRA."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-glanatin",
@@ -3686,10 +3689,19 @@
       "id": "root-glav",
       "form": "*GLAV-",
       "gloss": "espada",
-      "tags": [],
+      "tags": [
+        {
+          "class": "frances",
+          "label": "Frances"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. glavo, del fr. glaive, y este del lat. gladius «espada» (prob. préstamo céltico).",
       "notes": [],
       "row_class": "",
       "words": [
@@ -3712,32 +3724,54 @@
             }
           ],
           "semantic_fields": [
-            "objetos",
             "armas",
+            "objetos",
             "combate"
           ],
           "notes": []
-        }
-      ]
-    },
-    {
-      "id": "root-glit",
-      "form": "*GLIT-",
-      "gloss": "resbalarse",
-      "tags": [],
-      "letter": "G",
-      "section": "sec-g",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
+        },
         {
-          "id": "lexeme-glitos",
-          "form": "glitos",
-          "gloss": "resbalarse",
-          "analysis_html": "GLIT + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "GLIT + -OS",
+          "id": "lexeme-glavaron",
+          "form": "glavaron",
+          "gloss": "espadachín",
+          "analysis_html": "GLAV + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "GLAV + -AR + -ON",
           "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "combate",
+            "oficios"
+          ],
+          "notes": [
+            "-AR participio agentivo («que esgrime espada») + -ON humano."
+          ]
+        },
+        {
+          "id": "lexeme-glavjos",
+          "form": "glavjos",
+          "gloss": "blandir la espada",
+          "analysis_html": "GLAV + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "GLAV + -J- + -OS",
+          "refs": [
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
             {
               "id": "morph-os",
               "label": "-OS"
@@ -3750,9 +3784,135 @@
             }
           ],
           "semantic_fields": [
+            "acciones",
+            "combate",
+            "movimiento"
+          ],
+          "notes": [
+            "-J- extensión de tema, como en flojos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-glit",
+      "form": "*GLIT-",
+      "gloss": "resbalarse",
+      "tags": [
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Eo. gliti «deslizarse», del al. gleiten.",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-glitis",
+          "form": "glitis",
+          "gloss": "resbalarse",
+          "analysis_html": "GLIT + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "GLIT + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
             "movimiento",
             "procesos",
             "acciones"
+          ],
+          "notes": [
+            "Sustituye a glitos con el mismo significado."
+          ]
+        },
+        {
+          "id": "lexeme-gliteco",
+          "form": "gliteco",
+          "gloss": "trineo",
+          "analysis_html": "GLIT + -EC- <span class=\"meta-extra\">(segmento no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GLIT + -EC- (segmento no formalizado) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "transporte",
+            "objetos",
+            "clima"
+          ],
+          "notes": [
+            "Pendiente: valor de -EC-."
+          ]
+        },
+        {
+          "id": "lexeme-glitubo",
+          "form": "glitubo",
+          "gloss": "resbaladero, tobogán",
+          "analysis_html": "GLIT + UB <span class=\"meta-extra\">(formante lexicalizado)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GLIT + UB (formante lexicalizado) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "lugares",
+            "objetos",
+            "movimiento"
+          ],
+          "notes": [
+            "Mismo formante que cejtubo «estufa»."
+          ]
+        },
+        {
+          "id": "lexeme-glitol",
+          "form": "glitol",
+          "gloss": "resbaladizo",
+          "analysis_html": "GLIT + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "GLIT + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "propiedades físicas",
+            "movimiento"
           ],
           "notes": []
         }

@@ -1137,6 +1137,25 @@
       "row_class": ""
     },
     {
+      "id": "morph-ira",
+      "form": "*-IRA",
+      "gloss": "nominalización de verbos en -IS",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -IRA nominaliza predicaciones en -IS: glatis → glatira «lindura, gentileza».",
+        "Relación con -IZA (también nominalizador de -IS) pendiente de definir."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-iza",
       "form": "*-IZA",
       "gloss": "nominalización de verbos en -IS",
