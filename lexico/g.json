@@ -2389,10 +2389,19 @@
       "id": "root-gerk",
       "form": "*GERK-",
       "gloss": "roble",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< *KVERK-, del Eo. kverko, y este del lat. quercus «roble» (KV- → G-).",
       "notes": [],
       "row_class": "",
       "words": [
@@ -2418,6 +2427,93 @@
             "botánica",
             "árboles",
             "plantas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gernuso",
+          "form": "gernuŝo",
+          "gloss": "bellota",
+          "analysis_html": "GERK + <a class=\"morph-link\" href=\"#root-nus\">NUŜ</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(gerk-nuŝo → gernuŝo, simplificación de -rkn-)</span>",
+          "analysis_text": "GERK + NUŜ + -O (gerk-nuŝo → gernuŝo, simplificación de -rkn-)",
+          "refs": [
+            {
+              "id": "root-nus",
+              "label": "NUŜ"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "alimentos"
+          ],
+          "notes": [
+            "Literalmente «nuez de roble». No confundir con *GERN- «grano»: aquí la -k- de GERK cae ante la n de NUŜ."
+          ]
+        },
+        {
+          "id": "lexeme-gergalo",
+          "form": "gergalo",
+          "gloss": "agalla (del roble)",
+          "analysis_html": "GERK + <a class=\"morph-link\" href=\"#root-gal\">GAL</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(gerk-galo → gergalo, pérdida de -k- ante g-)</span>",
+          "analysis_text": "GERK + GAL + -O (gerk-galo → gergalo, pérdida de -k- ante g-)",
+          "refs": [
+            {
+              "id": "root-gal",
+              "label": "GAL"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "árboles",
+            "materiales"
+          ],
+          "notes": [
+            "Literalmente «bilis/amarillo del roble», por la excrecencia amarillenta y amarga. Desambigua el doblete agalla = branquia."
+          ]
+        },
+        {
+          "id": "lexeme-gerkal",
+          "form": "gerkal",
+          "gloss": "robledo",
+          "analysis_html": "GERK + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "GERK + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "árboles",
+            "lugares",
+            "naturaleza"
           ],
           "notes": []
         }
