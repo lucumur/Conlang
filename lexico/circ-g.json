@@ -727,9 +727,13 @@
           "id": "lexeme-djugenan",
           "form": "djuĝenan",
           "gloss": "Theotokos, la Virgen María",
-          "analysis_html": "DJU- <span class=\"meta-extra\">(«dios»; no formalizado)</span> + ĜEN + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "DJU- («dios»; no formalizado) + ĜEN + -AN",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-div\">DJU</a> <span class=\"meta-extra\">(variante prefija de *DIV-)</span> + ĜEN + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "DJU (variante prefija de *DIV-) + ĜEN + -AN",
           "refs": [
+            {
+              "id": "root-div",
+              "label": "DJU"
+            },
             {
               "id": "morph-an-2",
               "label": "-AN"
@@ -751,7 +755,7 @@
             "divinidades"
           ],
           "notes": [
-            "Calco del gr. Θεοτόκος «madre de Dios». Pendiente: raíz DJU-."
+            "Calco del gr. Θεοτόκος «madre de Dios»."
           ]
         },
         {
@@ -788,14 +792,153 @@
     {
       "id": "root-ger",
       "form": "*ĜER-",
-      "gloss": "comportarse",
-      "tags": [],
+      "gloss": "comportarse; manejar, funcionar",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< Eo. geri «gestionar, administrar», del lat. gerere «llevar, conducir» (se gerere «comportarse»); ĝ- por palatalización romance.",
+      "notes": [
+        "Homónima de *ĜER- «hierro»."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-germos",
+          "form": "ĝermos",
+          "gloss": "comportarse",
+          "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#morph-mos\">-MOS</a>",
+          "analysis_text": "ĜER + -MOS",
+          "refs": [
+            {
+              "id": "morph-mos",
+              "label": "-MOS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado MOS"
+            }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "acciones",
+            "interacción social"
+          ],
+          "notes": [
+            "Calca el reflexivo lat. se gerere."
+          ]
+        },
+        {
+          "id": "lexeme-geras",
+          "form": "ĝeras",
+          "gloss": "manejar, organizar",
+          "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĜER + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "organización",
+            "trabajo",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-geris",
+          "form": "ĝeris",
+          "gloss": "funcionar",
+          "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "ĜER + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "procesos",
+            "tecnología",
+            "estado"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gerantan",
+          "form": "ĝerantan",
+          "gloss": "gerente",
+          "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#morph-antan\">-ANTAN</a>",
+          "analysis_text": "ĜER + -ANTAN",
+          "refs": [
+            {
+              "id": "morph-antan",
+              "label": "-ANTAN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ANTAN"
+            }
+          ],
+          "semantic_fields": [
+            "profesiones",
+            "organización",
+            "jerarquía"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-germura",
+          "form": "ĝermura",
+          "gloss": "comportamiento",
+          "analysis_html": "ĜER + -M- <span class=\"meta-extra\">(de -MOS)</span> + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "ĜER + -M- (de -MOS) + -URA",
+          "refs": [
+            {
+              "id": "morph-mos",
+              "label": "-MOS"
+            },
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            }
+          ],
+          "semantic_fields": [
+            "conducta",
+            "abstractos",
+            "interacción social"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ger-2",
@@ -803,18 +946,25 @@
       "gloss": "hierro ⭐",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< esp. hierro [ˈʝero], del lat. ferrum (cf. Eo. fero); la palatal inicial se representa con ĝ-.",
+      "notes": [
+        "Homónima de *ĜER- «comportarse».",
+        "También en gisĝere «hierro fundido» (*GIS-) y ĝercufo «herradura» (*CUF-)."
+      ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-ĝere",
+          "id": "lexeme-gere",
           "form": "ĝere",
           "gloss": "hierro",
           "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
@@ -833,8 +983,213 @@
           ],
           "semantic_fields": [
             "metales",
-            "sustancias",
-            "materiales"
+            "materiales",
+            "elementos químicos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-geros",
+          "form": "ĝeros",
+          "gloss": "trabajar el hierro",
+          "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ĜER + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "metalurgia",
+            "oficios",
+            "trabajo"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-geronas",
+          "form": "ĝeronas",
+          "gloss": "planchar",
+          "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a>",
+          "analysis_text": "ĜER + -ONAS",
+          "refs": [
+            {
+              "id": "morph-onas",
+              "label": "-ONAS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ONAS"
+            }
+          ],
+          "semantic_fields": [
+            "hogar",
+            "ropa",
+            "acciones"
+          ],
+          "notes": [
+            "-ONAS aplicativo: «aplicar el hierro»."
+          ]
+        },
+        {
+          "id": "lexeme-gerokse",
+          "form": "ĝerokse",
+          "gloss": "herrumbre, óxido",
+          "analysis_html": "ĜER + <a class=\"morph-link\" href=\"#root-oks\">OKS</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ĜER + OKS + -E",
+          "refs": [
+            {
+              "id": "root-oks",
+              "label": "OKS"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "metales",
+            "química",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-plagero",
+          "form": "plaĝero",
+          "gloss": "plancha",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-plat\">PLA</a> <span class=\"meta-extra\">(forma primigenia de *PLA-K «plano»)</span> + ĜER + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "PLA (forma primigenia de *PLA-K «plano») + ĜER + -O",
+          "refs": [
+            {
+              "id": "root-plat",
+              "label": "PLA"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "hogar",
+            "herramientas",
+            "ropa"
+          ],
+          "notes": [
+            "Literalmente «hierro plano»."
+          ]
+        },
+        {
+          "id": "lexeme-gerce",
+          "form": "ĝerce",
+          "gloss": "herrajes",
+          "analysis_html": "ĜER + -C- <span class=\"meta-extra\">(no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ĜER + -C- (no formalizado) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "metales",
+            "construcción",
+            "objetos"
+          ],
+          "notes": [
+            "Pendiente: valor de -C-; tema ĜERC- en ĝercatal, ĝercistan."
+          ]
+        },
+        {
+          "id": "lexeme-gercatal",
+          "form": "ĝercatal",
+          "gloss": "herrería",
+          "analysis_html": "ĜER + -C- <span class=\"meta-extra\">(no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ĜER + -C- (no formalizado) + -AT- + -AL",
+          "refs": [
+            {
+              "id": "morph-at",
+              "label": "-AT-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "oficios",
+            "edificios",
+            "metalurgia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gercistan",
+          "form": "ĝercistan",
+          "gloss": "herrero",
+          "analysis_html": "ĜER + -C- <span class=\"meta-extra\">(no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-ist\">-IST</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĜER + -C- (no formalizado) + -IST + -AN",
+          "refs": [
+            {
+              "id": "morph-ist",
+              "label": "-IST"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "profesiones",
+            "oficios",
+            "metalurgia"
           ],
           "notes": []
         }

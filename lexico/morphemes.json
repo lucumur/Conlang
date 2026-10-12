@@ -1366,6 +1366,29 @@
       "row_class": ""
     },
     {
+      "id": "morph-mos",
+      "form": "*-MOS",
+      "gloss": "intransitivo reflexivo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "reflexivo"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -MOS forma predicados intransitivos reflexivos: ĝermos «comportarse».",
+        "Su nominal abstracto se forma en -MURA: ĝermura «comportamiento»."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-o-mutual",
       "form": "*O-",
       "gloss": "mutuo, entre ambos; ambos",
