@@ -4402,14 +4402,14 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. gluk- (glukozo «glucosa»), del gr. γλυκύς «dulce»; -k- → -ẑ- por asibilación, como en el romance glic- (glicina, glicerina).",
       "notes": [],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-gluẑe",
+          "id": "lexeme-gluze",
           "form": "gluẑe",
-          "gloss": "azucar",
+          "gloss": "azúcar",
           "analysis_html": "GLUẐ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
           "analysis_text": "GLUẐ + -E",
           "refs": [
@@ -4425,11 +4425,119 @@
             }
           ],
           "semantic_fields": [
-            "alimentación",
+            "alimentos",
             "sustancias",
-            "sabores"
+            "cocina"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-gluzer",
+          "form": "gluẑer",
+          "gloss": "dulce (sabor)",
+          "analysis_html": "GLUẐ + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "GLUẐ + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "alimentación",
+            "percepción"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gluzo",
+          "form": "gluẑo",
+          "gloss": "dulce, golosina (confitería)",
+          "analysis_html": "GLUẐ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GLUẐ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "alimentos",
+            "cocina",
+            "objetos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gluzonas",
+          "form": "gluẑonas",
+          "gloss": "endulzar",
+          "analysis_html": "GLUẐ + <a class=\"morph-link\" href=\"#morph-onas\">-ONAS</a>",
+          "analysis_text": "GLUẐ + -ONAS",
+          "refs": [
+            {
+              "id": "morph-onas",
+              "label": "-ONAS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ONAS"
+            }
+          ],
+          "semantic_fields": [
+            "acciones",
+            "cocina",
+            "alimentación"
+          ],
+          "notes": [
+            "-ONAS aplicativo: «poner azúcar en algo»."
+          ]
+        },
+        {
+          "id": "lexeme-gluzate",
+          "form": "gluẑate",
+          "gloss": "endulzante",
+          "analysis_html": "GLUẐ + <a class=\"morph-link\" href=\"#morph-at\">-AT-</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GLUẐ + -AT- + -E",
+          "refs": [
+            {
+              "id": "morph-at",
+              "label": "-AT-"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "sustancias",
+            "alimentos",
+            "cocina"
+          ],
+          "notes": [
+            "Sustancia que sirve para endulzar; -AT- + -E incontable, como gidato con -O."
+          ]
         }
       ]
     },
