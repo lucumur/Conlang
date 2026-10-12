@@ -4006,7 +4006,7 @@
       "section": "sec-g",
       "etymology": "< Eo. gluo «cola, pegamento», del lat. glūs / glūten, glūtinis (fr. glu). Las formas con -t- y glutin- reproducen el tema latino glūtin-.",
       "notes": [
-        "-v- epentética entre la raíz y una vocal de sufijo: gluvas."
+        "Contraste aspectual: gluvas (-v- epentética), glutis (-T- perfectivo: adherido), gluzis (-Z- no perfectivo: pegajoso)."
       ],
       "row_class": "",
       "words": [
@@ -4040,10 +4040,14 @@
         {
           "id": "lexeme-glutis",
           "form": "glutis",
-          "gloss": "pegarse, quedar adherido",
-          "analysis_html": "GLU + -T- <span class=\"meta-extra\">(tema GLUT-)</span> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
-          "analysis_text": "GLU + -T- (tema GLUT-) + -IS",
+          "gloss": "estar adherido, adherirse",
+          "analysis_html": "GLU + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "GLU + -T- + -IS",
           "refs": [
+            {
+              "id": "morph-t-perfective",
+              "label": "-T-"
+            },
             {
               "id": "morph-is-2",
               "label": "-IS"
@@ -4093,9 +4097,13 @@
           "id": "lexeme-gluzis",
           "form": "gluzis",
           "gloss": "estar pegajoso, estar sudado",
-          "analysis_html": "GLU + -Z- <span class=\"meta-extra\">(segmento no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
-          "analysis_text": "GLU + -Z- (segmento no formalizado) + -IS",
+          "analysis_html": "GLU + <a class=\"morph-link\" href=\"#morph-z-imperfective\">-Z-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "GLU + -Z- + -IS",
           "refs": [
+            {
+              "id": "morph-z-imperfective",
+              "label": "-Z-"
+            },
             {
               "id": "morph-is-2",
               "label": "-IS"
@@ -4113,16 +4121,20 @@
             "salud"
           ],
           "notes": [
-            "Pendiente: valor de -Z-."
+            "-Z- no perfectivo: estado inherente, «ser pegajoso», frente a glutis «haber quedado adherido»."
           ]
         },
         {
           "id": "lexeme-gluzinos",
           "form": "gluzinos",
           "gloss": "sudar",
-          "analysis_html": "GLU + -Z- + -IN- + <a class=\"morph-link\" href=\"#morph-os\">-OS</a> <span class=\"meta-extra\">(-IS → -INOS: pasivo a intransitivo)</span>",
+          "analysis_html": "GLU + <a class=\"morph-link\" href=\"#morph-z-imperfective\">-Z-</a> + -IN- + <a class=\"morph-link\" href=\"#morph-os\">-OS</a> <span class=\"meta-extra\">(-IS → -INOS: pasivo a intransitivo)</span>",
           "analysis_text": "GLU + -Z- + -IN- + -OS (-IS → -INOS: pasivo a intransitivo)",
           "refs": [
+            {
+              "id": "morph-z-imperfective",
+              "label": "-Z-"
+            },
             {
               "id": "morph-os",
               "label": "-OS"

@@ -3765,6 +3765,29 @@
       "etymology": "< *DEẐ- «diez».",
       "notes": [],
       "row_class": ""
+    },
+    {
+      "id": "morph-z-imperfective",
+      "form": "*-Z-",
+      "gloss": "no perfectivo; estado o cualidad inherente",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "aspecto"
+        }
+      ],
+      "letter": "Z",
+      "section": "sec-z",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -Z- marca aspecto no perfectivo, opuesto a -T- perfectivo.",
+        "GLU-: glutis «estar adherido» (-T-) frente a gluzis «estar pegajoso, sudado» (-Z-)."
+      ],
+      "row_class": ""
     }
   ]
 }
