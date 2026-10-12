@@ -3587,15 +3587,100 @@
     },
     {
       "id": "root-glat",
-      "form": "*GLAT-",
+      "form": "*GLA-T-",
       "gloss": "lindo, gentil",
       "tags": [],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Forma primigenia GLA- en compuestos: glanatin."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-glatin",
+          "form": "glatin",
+          "gloss": "lindo, gentil (persona)",
+          "analysis_html": "GLAT + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "GLAT + -IN",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo-participio IN"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "apariencia",
+            "conducta"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-glatira",
+          "form": "glatira",
+          "gloss": "lindura, gentileza",
+          "analysis_html": "GLAT + -IRA <span class=\"meta-extra\">(segmento no formalizado)</span>",
+          "analysis_text": "GLAT + -IRA (segmento no formalizado)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "conducta",
+            "abstractos"
+          ],
+          "notes": [
+            "Pendiente: valor de -IRA."
+          ]
+        },
+        {
+          "id": "lexeme-glanatin",
+          "form": "glanatin",
+          "gloss": "noble, bien nacido, de buena cuna",
+          "analysis_html": "GLA <span class=\"meta-extra\">(forma primigenia de *GLA-T-)</span> + <a class=\"morph-link\" href=\"#root-na-t\">NA-T</a> + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "GLA (forma primigenia de *GLA-T-) + NA-T + -IN",
+          "refs": [
+            {
+              "id": "root-na-t",
+              "label": "NA-T"
+            },
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo-participio IN"
+            }
+          ],
+          "semantic_fields": [
+            "nobleza",
+            "personas",
+            "jerarquía"
+          ],
+          "notes": [
+            "Literalmente «nacido gentil»; calco de bien nacido / lat. generōsus."
+          ]
+        }
+      ]
     },
     {
       "id": "root-glav",
