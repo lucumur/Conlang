@@ -2458,7 +2458,7 @@
             "alimentos"
           ],
           "notes": [
-            "Literalmente «nuez de roble»; la -k- de GERK cae ante la n de NUŜ."
+            "Literalmente «nuez de roble»; la -k- de GERK cae ante la n de NUŜ. No confundir con *GERN- «grano»."
           ]
         },
         {
@@ -2516,6 +2516,113 @@
             "naturaleza"
           ],
           "notes": []
+        }
+      ]
+    },
+    {
+      "id": "root-gern",
+      "form": "*GERN-",
+      "gloss": "grano",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Eo. greno «grano, cereal», del al. Korn / lat. grānum; metátesis gren- → gern-. En compuestos ante consonante reaparece GREN-: grempino.",
+      "notes": [
+        "No confundir GREN- (variante de *GERN-) con *GREN- «verde»."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-gerno",
+          "form": "gerno",
+          "gloss": "grano",
+          "analysis_html": "GERN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "GERN + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "alimentos",
+            "vegetales"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-grempino",
+          "form": "grempino",
+          "gloss": "espiga",
+          "analysis_html": "GREN <span class=\"meta-extra\">(variante sin metátesis)</span> + <a class=\"morph-link\" href=\"#root-pin\">PIN</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(gren-pino → grempino, asimilación n → m ante p)</span>",
+          "analysis_text": "GREN (variante sin metátesis) + PIN + -O (gren-pino → grempino, asimilación n → m ante p)",
+          "refs": [
+            {
+              "id": "root-pin",
+              "label": "PIN"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "botánica",
+            "vegetales",
+            "plantas"
+          ],
+          "notes": [
+            "Literalmente «punta de grano»."
+          ]
+        },
+        {
+          "id": "lexeme-gernade",
+          "form": "gernade",
+          "gloss": "cereal",
+          "analysis_html": "GERN + <a class=\"morph-link\" href=\"#morph-ad\">-AD-</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "GERN + -AD- + -E",
+          "refs": [
+            {
+              "id": "morph-ad",
+              "label": "-AD-"
+            },
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "alimentos",
+            "botánica",
+            "plantas"
+          ],
+          "notes": [
+            "-AD- grupal: el conjunto de granos."
+          ]
         }
       ]
     },
@@ -4745,7 +4852,7 @@
     },
     {
       "id": "root-goril",
-      "form": "*GORIL-",
+      "form": "*GORL-",
       "gloss": "gorila",
       "tags": [
         {
@@ -4755,18 +4862,18 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. gorilo, del gr. Γόριλλαι, nombre de un pueblo «velludo» en el Periplo de Hanón; síncopa de la -i-.",
       "notes": [
-        "CANÓNICO: gorilen «gorila» con -EN animado no humano; gorilin descartada."
+        "CANÓNICO: gorlen «gorila» con -EN animado no humano; gorilin y gorilen descartadas."
       ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-gorilen",
-          "form": "gorilen",
+          "id": "lexeme-gorlen",
+          "form": "gorlen",
           "gloss": "gorila",
-          "analysis_html": "GORIL + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
-          "analysis_text": "GORIL + -EN",
+          "analysis_html": "GORL + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "GORL + -EN",
           "refs": [
             {
               "id": "morph-en",
@@ -4784,16 +4891,14 @@
             "mamíferos",
             "animales"
           ],
-          "notes": [
-            "Forma regular de -EN; la forma de Tana gorilin queda descartada."
-          ]
+          "notes": []
         }
       ]
     },
     {
       "id": "root-graf",
       "form": "*GRAF-",
-      "gloss": "Conde",
+      "gloss": "conde",
       "tags": [
         {
           "class": "germanico",
@@ -4802,32 +4907,119 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. grafo «conde», del al. Graf.",
       "notes": [],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-grafon",
-          "form": "grafon",
-          "gloss": "Conde",
-          "analysis_html": "GRAF + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "GRAF + -ON",
+          "id": "lexeme-grafan",
+          "form": "grafan",
+          "gloss": "conde",
+          "analysis_html": "GRAF + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "GRAF + -AN",
           "refs": [
             {
-              "id": "morph-on",
-              "label": "-ON"
+              "id": "morph-an-2",
+              "label": "-AN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Humano ON"
+              "label": "Humano AN"
             }
           ],
           "semantic_fields": [
-            "personas",
+            "nobleza",
             "títulos",
-            "jerarquía"
+            "personas"
+          ],
+          "notes": [
+            "Sustituye a grafon."
+          ]
+        },
+        {
+          "id": "lexeme-grafelan",
+          "form": "grafelan",
+          "gloss": "condesa",
+          "analysis_html": "GRAF + <a class=\"morph-link\" href=\"#morph-el-feminine\">-EL-</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "GRAF + -EL- + -AN",
+          "refs": [
+            {
+              "id": "morph-el-feminine",
+              "label": "-EL-"
+            },
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "nobleza",
+            "títulos",
+            "personas"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-grafantal",
+          "form": "grafantal",
+          "gloss": "comité, corte municipal",
+          "analysis_html": "GRAF + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> + -T- <span class=\"meta-extra\">(segmento no formalizado)</span> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "GRAF + -AN + -T- (segmento no formalizado) + -AL",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "gobierno",
+            "organización",
+            "sociedad"
+          ],
+          "notes": [
+            "Pendiente: valor de -T-."
+          ]
+        },
+        {
+          "id": "lexeme-grafal",
+          "form": "grafal",
+          "gloss": "condado, municipio",
+          "analysis_html": "GRAF + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "GRAF + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "gobierno",
+            "lugares",
+            "nobleza"
           ],
           "notes": []
         }

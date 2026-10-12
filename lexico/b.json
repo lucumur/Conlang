@@ -5113,7 +5113,7 @@
     },
     {
       "id": "root-blok",
-      "form": "*BLOK-",
+      "form": "*BLO-K",
       "gloss": "bloquear, obstruir",
       "tags": [
         {
@@ -5129,7 +5129,8 @@
       "section": "sec-b",
       "etymology": "Etym. Eo. bloki < French bloquer < Germanico bloc → *BLOK-",
       "notes": [
-        "La familia conserva el valor de impedir el paso, movimiento, acción o acceso."
+        "La familia conserva el valor de impedir el paso, movimiento, acción o acceso.",
+        "Forma primigenia BLO- en compuestos: blogorkos «atragantarse»."
       ],
       "row_class": "lex-root-row",
       "words": [
