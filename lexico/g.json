@@ -5923,8 +5923,12 @@
     {
       "id": "root-gudr",
       "form": "*GUDR-",
-      "gloss": "brea",
+      "gloss": "brea, alquitrán",
       "tags": [
+        {
+          "class": "frances",
+          "label": "Frances"
+        },
         {
           "class": "arabe",
           "label": "Arabe"
@@ -5932,14 +5936,14 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. gudro, del fr. goudron, y este del ár. qaṭrān «alquitrán».",
       "notes": [],
       "row_class": "",
       "words": [
         {
           "id": "lexeme-gudre",
           "form": "gudre",
-          "gloss": "alquitran, brea",
+          "gloss": "brea, alquitrán",
           "analysis_html": "GUDR + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
           "analysis_text": "GUDR + -E",
           "refs": [
@@ -5955,8 +5959,8 @@
             }
           ],
           "semantic_fields": [
-            "materiales",
             "sustancias",
+            "materiales",
             "construcción"
           ],
           "notes": []
@@ -5975,7 +5979,7 @@
       ],
       "letter": "G",
       "section": "sec-g",
-      "etymology": null,
+      "etymology": "< Eo. gumo, del lat. gummi, del gr. κόμμι, y este del egipcio qmyt «resina».",
       "notes": [],
       "row_class": "",
       "words": [
@@ -5998,9 +6002,9 @@
             }
           ],
           "semantic_fields": [
-            "materiales",
             "sustancias",
-            "objetos"
+            "materiales",
+            "botánica"
           ],
           "notes": []
         }

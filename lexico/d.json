@@ -3678,6 +3678,78 @@
       "words": []
     },
     {
+      "id": "root-dru",
+      "form": "*DRU-",
+      "gloss": "árbol; asta, lanza (poético)",
+      "tags": [
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "D",
+      "section": "sec-d",
+      "etymology": "De novo, sobre el PIE *dóru / *drew- «árbol, madera»: gr. δρῦς «árbol, roble» y δόρυ «madero; asta de lanza», sánscr. dā́ru, ing. tree. El doble sentido árbol/lanza reproduce el de δόρυ.",
+      "notes": [
+        "Raíz de registro poético; en compuestos aporta «árbol»: druĝardal."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-druvo",
+          "form": "druvo",
+          "gloss": "árbol (poético)",
+          "analysis_html": "DRU + -v- <span class=\"meta-extra\">(epentética)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "DRU + -v- (epentética) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "árboles",
+            "botánica",
+            "literatura"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-druko",
+          "form": "druko",
+          "gloss": "lanza (poético)",
+          "analysis_html": "DRU + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
+          "analysis_text": "DRU + -KO",
+          "refs": [
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal KO"
+            }
+          ],
+          "semantic_fields": [
+            "armas",
+            "combate",
+            "literatura"
+          ],
+          "notes": [
+            "Literalmente «objeto de madera»: el asta."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-du",
       "form": "*DU-",
       "gloss": "vez, tiempo",
