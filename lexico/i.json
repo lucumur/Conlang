@@ -256,28 +256,6 @@
           "notes": []
         },
         {
-          "id": "lexeme-idima",
-          "form": "idima",
-          "gloss": "idea",
-          "analysis_html": "ID + -IMA? <span class=\"meta-extra\">(segmentación pendiente)</span>",
-          "analysis_text": "ID + -IMA? (segmentación pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal A"
-            }
-          ],
-          "semantic_fields": [
-            "mente",
-            "pensamiento",
-            "abstractos"
-          ],
-          "notes": [
-            "Homófono buscado: del gr. ἰδέα «forma, aspecto» (Eo. ideo), etimológicamente ajeno a idem. Pendiente: segmentar -IMA."
-          ]
-        },
-        {
           "id": "lexeme-idvalos",
           "form": "idvalos",
           "gloss": "equivaler",
@@ -350,19 +328,297 @@
     {
       "id": "root-im",
       "form": "*IM-",
-      "gloss": "imaginar",
+      "gloss": "imagen; imaginar",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "I",
       "section": "sec-i",
-      "etymology": null,
+      "etymology": "< Eo. imagi «imaginar», del lat. imāginārī (imāgō «imagen»). Reanálisis: imag- → IM + AG- (aumentativo), con extracción de la raíz *IM- «imagen»; imagas = «agrandar la imagen».",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ima",
+          "form": "ima",
+          "gloss": "imagen",
+          "analysis_html": "IM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "IM + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "percepción",
+            "arte",
+            "representación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-idima",
+          "form": "idima",
+          "gloss": "idea",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-id\">ID</a> + IM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ID + IM + -A",
+          "refs": [
+            {
+              "id": "root-id",
+              "label": "ID"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "mente",
+            "pensamiento",
+            "abstractos"
+          ],
+          "notes": [
+            "Literalmente «imagen idéntica»; homófono buscado del gr. ἰδέα (Eo. ideo)."
+          ]
+        },
+        {
+          "id": "lexeme-trajma",
+          "form": "trajma",
+          "gloss": "copia",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-traj\">TRAJ</a>? + (I)M + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">(síncopa; segmentación pendiente)</span>",
+          "analysis_text": "TRAJ? + (I)M + -A (síncopa; segmentación pendiente)",
+          "refs": [
+            {
+              "id": "root-traj",
+              "label": "TRAJ"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "representación",
+            "reproducción",
+            "documentos"
+          ],
+          "notes": [
+            "Pendiente: primer elemento TRAJ- «rasgo» o TRA- «a través»."
+          ]
+        },
+        {
+          "id": "lexeme-trajmas",
+          "form": "trajmas",
+          "gloss": "copiar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-traj\">TRAJ</a>? + (I)M + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TRAJ? + (I)M + -AS",
+          "refs": [
+            {
+              "id": "root-traj",
+              "label": "TRAJ"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Verbal AS"
+            }
+          ],
+          "semantic_fields": [
+            "representación",
+            "reproducción",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-imako",
+          "form": "imako",
+          "gloss": "símbolo, glifo",
+          "analysis_html": "IMA + <a class=\"morph-link\" href=\"#morph-ko\">-KO</a>",
+          "analysis_text": "IMA + -KO",
+          "refs": [
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "símbolos",
+            "representación"
+          ],
+          "notes": [
+            "-KO de objeto: «imagen hecha objeto»."
+          ]
+        },
+        {
+          "id": "lexeme-imakorol",
+          "form": "imakorol",
+          "gloss": "lleno de símbolos",
+          "analysis_html": "IMAKO + R? + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a> <span class=\"meta-extra\">(segmento -r- pendiente)</span>",
+          "analysis_text": "IMAKO + R? + -OL (segmento -r- pendiente)",
+          "refs": [
+            {
+              "id": "morph-ko",
+              "label": "-KO"
+            },
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "símbolos",
+            "cualidades"
+          ],
+          "notes": [
+            "-OL de abundancia. Pendiente: la -r- (¿-OR de grado, o -R- de enlace?)."
+          ]
+        },
+        {
+          "id": "lexeme-imagas",
+          "form": "imagas",
+          "gloss": "imaginar, idealizar",
+          "analysis_html": "IM + <a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "IM + AG- + -AS",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Verbal AS"
+            }
+          ],
+          "semantic_fields": [
+            "mente",
+            "creatividad",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-imageza",
+          "form": "imageẑa",
+          "gloss": "imaginación",
+          "analysis_html": "IM + <a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "IM + AG- + -EẐA",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "mente",
+            "creatividad",
+            "abstractos"
+          ],
+          "notes": [
+            "Como domageẑa (DOM + AG- + -EẐA)."
+          ]
+        },
+        {
+          "id": "lexeme-imagatel",
+          "form": "imagatel",
+          "gloss": "imaginativo",
+          "analysis_html": "IM + <a class=\"morph-link\" href=\"#morph-ag\">AG-</a> + <a class=\"morph-link\" href=\"#morph-atel\">-ATEL</a> <span class=\"meta-extra\">(segmentación pendiente)</span>",
+          "analysis_text": "IM + AG- + -ATEL (segmentación pendiente)",
+          "refs": [
+            {
+              "id": "morph-ag",
+              "label": "AG-"
+            },
+            {
+              "id": "morph-atel",
+              "label": "-ATEL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo"
+            }
+          ],
+          "semantic_fields": [
+            "mente",
+            "creatividad",
+            "cualidades"
+          ],
+          "notes": [
+            "Pendiente: -ATEL (adjetivo de un locativo *imagal) o -AT- perfectivo + -EL."
+          ]
+        }
+      ]
     },
     {
       "id": "root-ind",
