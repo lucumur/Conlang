@@ -1677,18 +1677,77 @@
     {
       "id": "root-goj",
       "form": "*ĜOJ-",
-      "gloss": "gusto",
-      "tags": [],
+      "gloss": "gusto, alegría",
+      "tags": [
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": null,
+      "etymology": "< Eo. ĝoji «alegrarse», del fr. joie «alegría» (ant. fr. joie, joi), y este del lat. gaudia, pl. de gaudium «gozo».",
       "notes": [],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-ĝoja",
+          "id": "lexeme-gojos",
+          "form": "ĝojos",
+          "gloss": "disfrutar",
+          "analysis_html": "ĜOJ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ĜOJ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Verbal OS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "experiencia",
+            "conducta"
+          ],
+          "notes": [
+            "Intransitivo: el experimentante es el sujeto absolutivo."
+          ]
+        },
+        {
+          "id": "lexeme-gojol",
+          "form": "ĝojol",
+          "gloss": "gustoso, feliz",
+          "analysis_html": "ĜOJ + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "ĜOJ + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "cualidades",
+            "estados"
+          ],
+          "notes": [
+            "-OL de presencia marcada: «lleno de gusto»."
+          ]
+        },
+        {
+          "id": "lexeme-goja",
           "form": "ĝoja",
-          "gloss": "alegria, felicidad",
+          "gloss": "alegría, felicidad",
           "analysis_html": "ĜOJ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
           "analysis_text": "ĜOJ + -A",
           "refs": [
@@ -1700,12 +1759,12 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Nominalización A"
+              "label": "Nominal A"
             }
           ],
           "semantic_fields": [
             "emociones",
-            "cualidades",
+            "estados",
             "abstractos"
           ],
           "notes": []
