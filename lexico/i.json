@@ -824,12 +824,12 @@
           "id": "lexeme-inketo",
           "form": "inketo",
           "gloss": "tatuaje",
-          "analysis_html": "INK + e <span class=\"meta-extra\">(epentética)</span> + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(segmentación pendiente)</span>",
-          "analysis_text": "INK + e (epentética) + -T- + -O (segmentación pendiente)",
+          "analysis_html": "INK + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "INK + -ET- + -O",
           "refs": [
             {
-              "id": "morph-t-perfective",
-              "label": "-T-"
+              "id": "morph-et",
+              "label": "-ET-"
             },
             {
               "id": "morph-o",
@@ -847,9 +847,7 @@
             "cuerpo",
             "marcas"
           ],
-          "notes": [
-            "Propuesta: «tinta fijada para siempre», con -T- perfectivo y e epentética como en icnetis. Alternativa: -ET-."
-          ]
+          "notes": []
         }
       ]
     },

@@ -1650,9 +1650,14 @@
           "id": "lexeme-gisnu",
           "form": "ĝisnu",
           "gloss": "¡hasta pronto!, adiós",
-          "analysis_html": "ĜIS + NU <span class=\"meta-extra\">(«ahora»; no formalizado)</span>",
-          "analysis_text": "ĜIS + NU («ahora»; no formalizado)",
-          "refs": [],
+          "analysis_html": "ĜIS + <a class=\"morph-link\" href=\"#root-nu-j\">NU</a> <span class=\"meta-extra\">(forma primigenia de *NU-J)</span>",
+          "analysis_text": "ĜIS + NU (forma primigenia de *NU-J)",
+          "refs": [
+            {
+              "id": "root-nu-j",
+              "label": "NU"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -1669,7 +1674,7 @@
             "comunicación"
           ],
           "notes": [
-            "Literalmente «hasta ahora»."
+            "Literalmente «hasta lo nuevo», «hasta ahora»."
           ]
         }
       ]
