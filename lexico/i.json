@@ -855,13 +855,164 @@
       "id": "root-ir",
       "form": "*IR-",
       "gloss": "ir, andar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "I",
       "section": "sec-i",
-      "etymology": null,
+      "etymology": "< Eo. iri «ir», del lat. īre (ī-, raíz IE *h₁ei-).",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-irus",
+          "form": "irus",
+          "gloss": "ir, andar",
+          "analysis_html": "IR + <a class=\"morph-link\" href=\"#morph-us-directional\">-US</a>",
+          "analysis_text": "IR + -US",
+          "refs": [
+            {
+              "id": "morph-us-directional",
+              "label": "-US"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Verbal US"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "dirección",
+            "viajes"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-forirus",
+          "form": "forirus",
+          "gloss": "irse",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-for\">FOR-</a> + IR + <a class=\"morph-link\" href=\"#morph-us-directional\">-US</a>",
+          "analysis_text": "FOR- + IR + -US",
+          "refs": [
+            {
+              "id": "morph-for",
+              "label": "FOR-"
+            },
+            {
+              "id": "morph-us-directional",
+              "label": "-US"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Verbal US"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "dirección",
+            "partida"
+          ],
+          "notes": [
+            "Literalmente «ir lejos, ir fuera»."
+          ]
+        },
+        {
+          "id": "lexeme-trajrus",
+          "form": "trajrus",
+          "gloss": "regresar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-tra-behind\">TRA-</a> + IR + <a class=\"morph-link\" href=\"#morph-us-directional\">-US</a> <span class=\"meta-extra\">(tra-ir → trajr: i → j)</span>",
+          "analysis_text": "TRA- + IR + -US (tra-ir → trajr: i → j)",
+          "refs": [
+            {
+              "id": "morph-tra-behind",
+              "label": "TRA-"
+            },
+            {
+              "id": "morph-us-directional",
+              "label": "-US"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Verbal US"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "dirección",
+            "retorno"
+          ],
+          "notes": [
+            "Literalmente «ir hacia atrás». Misma semivocalización que trajma."
+          ]
+        },
+        {
+          "id": "lexeme-iruston",
+          "form": "iruston",
+          "gloss": "viajero",
+          "analysis_html": "IR + <a class=\"morph-link\" href=\"#morph-us-directional\">-US</a> + T? + <a class=\"morph-link\" href=\"#morph-on\">-ON</a> <span class=\"meta-extra\">(segmentación pendiente)</span>",
+          "analysis_text": "IR + -US + T? + -ON (segmentación pendiente)",
+          "refs": [
+            {
+              "id": "morph-us-directional",
+              "label": "-US"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "viajes",
+            "movimiento"
+          ],
+          "notes": [
+            "Pendiente: la -t- (¿-T- perfectivo, «el que ha ido»?)."
+          ]
+        },
+        {
+          "id": "lexeme-iruda",
+          "form": "iruda",
+          "gloss": "ida, viaje",
+          "analysis_html": "IR + UD? + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">(segmentación pendiente)</span>",
+          "analysis_text": "IR + UD? + -A (segmentación pendiente)",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "viajes",
+            "movimiento",
+            "abstractos"
+          ],
+          "notes": [
+            "Pendiente: -ud- como extensión de tema (cf. suruda) o variante de -US ante vocal."
+          ]
+        }
+      ]
     },
     {
       "id": "root-is",

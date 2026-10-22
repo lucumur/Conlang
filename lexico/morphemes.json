@@ -2857,6 +2857,29 @@
       "row_class": ""
     },
     {
+      "id": "morph-us-directional",
+      "form": "*-US",
+      "gloss": "verbo de dirección o desplazamiento",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "verbal"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [
+        "Forma verbos de movimiento direccional: irus «ir», forirus «irse», trajrus «regresar».",
+        "Homónimo del -US- habituativo (avuser, avusa)."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-us-habit",
       "form": "*-US-",
       "gloss": "habituativo; relacionado con algo habitual",
