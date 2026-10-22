@@ -989,12 +989,12 @@
           "id": "lexeme-iruda",
           "form": "iruda",
           "gloss": "ida, viaje",
-          "analysis_html": "IR + UD? + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">(segmentación pendiente)</span>",
-          "analysis_text": "IR + UD? + -A (segmentación pendiente)",
+          "analysis_html": "IR + <a class=\"morph-link\" href=\"#morph-uda\">-UDA</a>",
+          "analysis_text": "IR + -UDA",
           "refs": [
             {
-              "id": "morph-a-2",
-              "label": "-A"
+              "id": "morph-uda",
+              "label": "-UDA"
             }
           ],
           "tags": [
@@ -1009,7 +1009,7 @@
             "abstractos"
           ],
           "notes": [
-            "Pendiente: -ud- como extensión de tema (cf. suruda) o variante de -US ante vocal."
+            "Abstracto de irus."
           ]
         }
       ]

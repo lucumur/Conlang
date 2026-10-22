@@ -2857,6 +2857,28 @@
       "row_class": ""
     },
     {
+      "id": "morph-uda",
+      "form": "*-UDA",
+      "gloss": "nominalizador abstracto de los verbos de dirección en -US",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "nominalizador"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: -UDA forma el abstracto de los verbos en -US, análogo a -IZA para -IS y -MURA para -MOS: iruda «ida, viaje»."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-us-directional",
       "form": "*-US",
       "gloss": "verbo de dirección o desplazamiento",
@@ -2875,7 +2897,8 @@
       "etymology": null,
       "notes": [
         "Forma verbos de movimiento direccional: irus «ir», forirus «irse», trajrus «regresar».",
-        "Homónimo del -US- habituativo (avuser, avusa)."
+        "Homónimo del -US- habituativo (avuser, avusa).",
+        "Su nominal abstracto se forma en -UDA: irus → iruda «ida, viaje»."
       ],
       "row_class": ""
     },
