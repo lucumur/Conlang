@@ -27,14 +27,195 @@
     {
       "id": "root-id",
       "form": "*ID-",
-      "gloss": "igualar",
-      "tags": [],
+      "gloss": "igual, idéntico",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "I",
       "section": "sec-i",
-      "etymology": null,
+      "etymology": "< Eo. identa «idéntico», del lat. tardío identicus, de idem «el mismo» (is + -dem).",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ider",
+          "form": "ider",
+          "gloss": "igual, idéntico",
+          "analysis_html": "ID + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "ID + -ER",
+          "refs": [
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo ER"
+            }
+          ],
+          "semantic_fields": [
+            "cualidades",
+            "comparación",
+            "relaciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-idigas",
+          "form": "idiĝas",
+          "gloss": "igualar, equiparar",
+          "analysis_html": "ID + <a class=\"morph-link\" href=\"#root-ig\">IĜ</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ID + IĜ + -AS",
+          "refs": [
+            {
+              "id": "root-ig",
+              "label": "IĜ"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Verbal AS"
+            }
+          ],
+          "semantic_fields": [
+            "comparación",
+            "acciones",
+            "relaciones"
+          ],
+          "notes": [
+            "Literalmente «hacer que algo se vuelva igual»."
+          ]
+        },
+        {
+          "id": "lexeme-idiga",
+          "form": "idiĝa",
+          "gloss": "paridad, igualdad, empate",
+          "analysis_html": "ID + <a class=\"morph-link\" href=\"#root-ig\">IĜ</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ID + IĜ + -A",
+          "refs": [
+            {
+              "id": "root-ig",
+              "label": "IĜ"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "comparación",
+            "abstractos",
+            "juegos y deporte"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-idima",
+          "form": "idima",
+          "gloss": "idea",
+          "analysis_html": "ID + -IMA? <span class=\"meta-extra\">(segmentación pendiente)</span>",
+          "analysis_text": "ID + -IMA? (segmentación pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "mente",
+            "pensamiento",
+            "abstractos"
+          ],
+          "notes": [
+            "Homófono buscado: del gr. ἰδέα «forma, aspecto» (Eo. ideo), etimológicamente ajeno a idem. Pendiente: segmentar -IMA."
+          ]
+        },
+        {
+          "id": "lexeme-idvalos",
+          "form": "idvalos",
+          "gloss": "equivaler",
+          "analysis_html": "ID + <a class=\"morph-link\" href=\"#root-val\">VAL</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ID + VAL + -OS",
+          "refs": [
+            {
+              "id": "root-val",
+              "label": "VAL"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Verbal OS"
+            }
+          ],
+          "semantic_fields": [
+            "comparación",
+            "valor",
+            "relaciones"
+          ],
+          "notes": [
+            "Calco del lat. aequivalere: «valer igual»."
+          ]
+        },
+        {
+          "id": "lexeme-idvalor",
+          "form": "idvalor",
+          "gloss": "equivalente",
+          "analysis_html": "ID + <a class=\"morph-link\" href=\"#root-val\">VAL</a> + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "ID + VAL + -OR",
+          "refs": [
+            {
+              "id": "root-val",
+              "label": "VAL"
+            },
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Adjetivo OR"
+            }
+          ],
+          "semantic_fields": [
+            "comparación",
+            "valor",
+            "cualidades"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ikn",

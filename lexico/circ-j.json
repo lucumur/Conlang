@@ -6,7 +6,7 @@
     {
       "id": "root-jx",
       "form": "*Ĵ-",
-      "gloss": "uno, esto; afirmación",
+      "gloss": "esto, así (deíctico)",
       "tags": [
         {
           "class": "nat-mod",
@@ -15,7 +15,7 @@
       ],
       "letter": "Ĵ",
       "section": "sec-circ-j",
-      "etymology": "< Eo. ja «ciertamente» (del al. ja «sí») y jam «ya» (del lat. iam). Reanálisis: ja/jam se segmentan como raíz deíctica J- + terminación correlativa (-A, -AM), con palatalización j- → ĵ-; la raíz se extiende luego con -OM y -UK sobre el modelo de las correlativas esperánticas (tiom, tiel).",
+      "etymology": "< Eo. jam «ya» (del lat. iam), reanalizado como raíz deíctica J- + -AM, con palatalización j- → ĵ-; la raíz se extiende con -OM y -UK sobre el modelo de las correlativas esperánticas (tiom, tiel).",
       "notes": [
         "Sustituye a *I- «uno, esto» (Nova), que queda retirada."
       ],
@@ -25,18 +25,17 @@
           "id": "lexeme-ja",
           "form": "ĵa",
           "gloss": "sí, claro",
-          "analysis_html": "Ĵ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "Ĵ + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
+          "analysis_html": "ĴA <span class=\"meta-extra\">(partícula; no se segmenta)</span>",
+          "analysis_text": "ĴA (partícula; no se segmenta)",
+          "refs": [],
           "tags": [
             {
               "class": "generic",
               "label": "Interjección"
+            },
+            {
+              "class": "generic",
+              "label": "Partícula"
             }
           ],
           "semantic_fields": [
@@ -45,7 +44,7 @@
             "interacción social"
           ],
           "notes": [
-            "< Eo. ja; funciona como partícula afirmativa (Eo. jes)."
+            "< Eo. ja «ciertamente» (del al. ja). Partícula nueva, sin segmentar; homófona de la raíz deíctica pero no derivada de ella."
           ]
         },
         {
