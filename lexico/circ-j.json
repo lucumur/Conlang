@@ -234,6 +234,224 @@
           "notes": []
         }
       ]
+    },
+    {
+      "id": "root-jxar",
+      "form": "*ĴAR-",
+      "gloss": "año",
+      "tags": [
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "Ĵ",
+      "section": "sec-circ-j",
+      "etymology": "< Eo. jaro «año», del al. Jahr (ingl. year, gót. jēr), del protogermánico *jēra-, IE *yeh₁-ro- «estación, año»; con palatalización j- → ĵ-.",
+      "notes": [
+        "Antes *JAR-."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-jxara",
+          "form": "ĵara",
+          "gloss": "año",
+          "analysis_html": "ĴAR + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĴAR + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "calendario"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trajxarel",
+          "form": "traĵarel",
+          "gloss": "anual",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tra\">TRA</a>? + ĴAR + <a class=\"morph-link\" href=\"#morph-el\">-EL</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TRA? + ĴAR + -EL (pendiente)",
+          "refs": [
+            {
+              "id": "root-tra",
+              "label": "TRA"
+            },
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "calendario",
+            "cualidades"
+          ],
+          "notes": [
+            "Pendiente: TRA «a través (del año)» o TRA- «detrás, siguiente (año tras año)»."
+          ]
+        },
+        {
+          "id": "lexeme-jxarenos",
+          "form": "ĵarenos",
+          "gloss": "envejecer",
+          "analysis_html": "ĴAR + EN? + <a class=\"morph-link\" href=\"#morph-os\">-OS</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ĴAR + EN? + -OS (pendiente)",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Verbal OS"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "vida",
+            "cambio"
+          ],
+          "notes": [
+            "Pendiente: el segmento -en-."
+          ]
+        },
+        {
+          "id": "lexeme-jxarta",
+          "form": "ĵarta",
+          "gloss": "temporada, estación",
+          "analysis_html": "ĴAR + T? + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ĴAR + T? + -A (pendiente)",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "calendario",
+            "clima"
+          ],
+          "notes": [
+            "Pendiente: la -t- (¿-T- perfectivo?)."
+          ]
+        },
+        {
+          "id": "lexeme-zenjxarda",
+          "form": "ẑenĵarda",
+          "gloss": "siglo",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-zen-2\">ẐEN(T)</a> + ĴAR + D? + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ẐEN(T) + ĴAR + D? + -A (pendiente)",
+          "refs": [
+            {
+              "id": "root-zen-2",
+              "label": "ẐENT"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "historia",
+            "calendario"
+          ],
+          "notes": [
+            "Literalmente «cien años»; ẐENT pierde la -t- ante ĵ. Pendiente: la -d-."
+          ]
+        },
+        {
+          "id": "lexeme-prijxaram",
+          "form": "priĵaram",
+          "gloss": "el año pasado",
+          "analysis_html": "PRI? + ĴAR + <a class=\"morph-link\" href=\"#morph-am\">-AM</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "PRI? + ĴAR + -AM (pendiente)",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "deixis",
+            "adverbios"
+          ],
+          "notes": [
+            "Pendiente: PRI-; el PRI- del repositorio es «alrededor, cerca de»."
+          ]
+        },
+        {
+          "id": "lexeme-zijxaram",
+          "form": "ẑiĵaram",
+          "gloss": "este año",
+          "analysis_html": "ẐI? + ĴAR + <a class=\"morph-link\" href=\"#morph-am\">-AM</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ẐI? + ĴAR + -AM (pendiente)",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "deixis",
+            "adverbios"
+          ],
+          "notes": [
+            "Pendiente: ẐI-; el ẐI- del repositorio es «usted, ella»."
+          ]
+        }
+      ]
     }
   ]
 }

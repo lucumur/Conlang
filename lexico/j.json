@@ -4,18 +4,6 @@
   "key": "j",
   "entries": [
     {
-      "id": "root-jar",
-      "form": "*JAR-",
-      "gloss": "año",
-      "tags": [],
-      "letter": "J",
-      "section": "sec-j",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-jaraf",
       "form": "*JARAF-",
       "gloss": "jirafa",
