@@ -1026,7 +1026,7 @@
       ],
       "letter": "I",
       "section": "sec-i",
-      "etymology": "Del esp. isla (< lat. insula), frente a Eo. insulo; raíz reducida a IS-.",
+      "etymology": "Del esp. isla (< lat. insula), no del Eo. insulo; raíz reducida a IS-.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1079,7 +1079,7 @@
             "Europa"
           ],
           "notes": [
-            "Literalmente «país-isla». Pendiente: la -a- de enlace."
+            "Reinterpretación: Islandia es en origen «tierra de hielo» (nórd. ant. íss), leída como «país-isla». Pendiente: la -a- de enlace."
           ]
         },
         {
@@ -1110,7 +1110,7 @@
             "Europa"
           ],
           "notes": [
-            "Gentilicio sobre isapal con -AN en lugar de -AL."
+            "Reinterpretación: Islandia es en origen «tierra de hielo» (nórd. ant. íss), leída como «país-isla». Pendiente: la -a- de enlace."
           ]
         },
         {
@@ -1153,16 +1153,101 @@
     {
       "id": "root-ism",
       "form": "*ISM-",
-      "gloss": "arabes",
-      "tags": [],
+      "gloss": "Ismael; árabes",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Mundial"
+        }
+      ],
       "letter": "I",
       "section": "sec-i",
-      "etymology": null,
+      "etymology": "Del esp. Ismael, del hebr. Yišmāʿēl «Dios oye». Según la tradición bíblica e islámica, Ismael es el antepasado de los árabes (ismaelitas).",
       "notes": [
         "de la casa de Ismael"
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ismel",
+          "form": "ismel",
+          "gloss": "Ismael",
+          "analysis_html": "ISM + <a class=\"morph-link\" href=\"#morph-el\">-EL</a> <span class=\"meta-extra\">(nombre propio)</span>",
+          "analysis_text": "ISM + -EL (nombre propio)",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nombre propio"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "nombres",
+            "historia"
+          ],
+          "notes": [
+            "La -el reproduce la terminación teofórica de Ismael (hebr. -ʾēl «Dios»)."
+          ]
+        },
+        {
+          "id": "lexeme-ismelon",
+          "form": "ismelon",
+          "gloss": "árabe (persona)",
+          "analysis_html": "ISMEL + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ISMEL + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "pueblos",
+            "Asia"
+          ],
+          "notes": [
+            "Literalmente «descendiente de Ismael»."
+          ]
+        },
+        {
+          "id": "lexeme-ismal",
+          "form": "ismal",
+          "gloss": "Arabia",
+          "analysis_html": "ISM + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ISM + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "países",
+            "Asia"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ital",
