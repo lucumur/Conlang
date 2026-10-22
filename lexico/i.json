@@ -1059,9 +1059,13 @@
           "id": "lexeme-isapal",
           "form": "isapal",
           "gloss": "Islandia",
-          "analysis_html": "IS + A? + <a class=\"morph-link\" href=\"#morph-pal\">-PAL</a> <span class=\"meta-extra\">(-a- pendiente)</span>",
-          "analysis_text": "IS + A? + -PAL (-a- pendiente)",
+          "analysis_html": "ISA(L) + <a class=\"morph-link\" href=\"#morph-pal\">-PAL</a> <span class=\"meta-extra\">(isal-pal → isapal, abreviación)</span>",
+          "analysis_text": "ISA(L) + -PAL (isal-pal → isapal, abreviación)",
           "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            },
             {
               "id": "morph-pal",
               "label": "-PAL"
@@ -1079,15 +1083,16 @@
             "Europa"
           ],
           "notes": [
-            "Reinterpretación: Islandia es en origen «tierra de hielo» (nórd. ant. íss), leída como «país-isla». Pendiente: la -a- de enlace."
+            "Abreviación de isal-pal: se pierde la -l de isal ante -PAL.",
+            "Reinterpretación: Islandia es en origen «tierra de hielo» (nórd. ant. íss), leída como «país-isla»."
           ]
         },
         {
           "id": "lexeme-isapan",
           "form": "isapan",
           "gloss": "islandés",
-          "analysis_html": "IS + A? + PA + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "IS + A? + PA + -AN",
+          "analysis_html": "ISA(L) + PA + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> <span class=\"meta-extra\">(sobre isapal)</span>",
+          "analysis_text": "ISA(L) + PA + -AN (sobre isapal)",
           "refs": [
             {
               "id": "morph-pal",
@@ -1110,7 +1115,7 @@
             "Europa"
           ],
           "notes": [
-            "Reinterpretación: Islandia es en origen «tierra de hielo» (nórd. ant. íss), leída como «país-isla». Pendiente: la -a- de enlace."
+            "Gentilicio sobre isapal, con -AN en lugar de -AL."
           ]
         },
         {
@@ -1252,14 +1257,89 @@
     {
       "id": "root-ital",
       "form": "*ITAL-",
-      "gloss": "Italia",
-      "tags": [],
+      "gloss": "Italia, italiano",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "I",
       "section": "sec-i",
-      "etymology": null,
+      "etymology": "< Eo. Italio, del lat. Italia, gr. Ἰταλία; prob. de un étnico osco Víteliú «tierra de terneros» (cf. lat. vitulus).",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ital",
+          "form": "ital",
+          "gloss": "Italia",
+          "analysis_html": "ITAL <span class=\"meta-extra\">(raíz desnuda)</span>",
+          "analysis_text": "ITAL (raíz desnuda)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nombre propio"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "países",
+            "Europa"
+          ],
+          "notes": [
+            "Topónimo sin sufijo; la -al final coincide con el locativo -AL."
+          ]
+        },
+        {
+          "id": "lexeme-italon",
+          "form": "italon",
+          "gloss": "italiano (persona)",
+          "analysis_html": "ITAL + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ITAL + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "pueblos",
+            "Europa"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-italor",
+          "form": "italor",
+          "gloss": "idioma italiano",
+          "analysis_html": "ITAL + -OR? <span class=\"meta-extra\">(segmentación pendiente)</span>",
+          "analysis_text": "ITAL + -OR? (segmentación pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal"
+            }
+          ],
+          "semantic_fields": [
+            "idiomas",
+            "comunicación",
+            "Europa"
+          ],
+          "notes": [
+            "Pendiente: -OR en nombre de idioma; los demás van en -A (angla, greka)."
+          ]
+        }
+      ]
     },
     {
       "id": "root-ivan",
