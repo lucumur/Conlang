@@ -8723,12 +8723,12 @@
           "id": "lexeme-beznetis",
           "form": "beznetis",
           "gloss": "carecer",
-          "analysis_html": "BEZN + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
-          "analysis_text": "BEZN + -ET- + -IS",
+          "analysis_html": "BEZN + e <span class=\"meta-extra\">(epentética)</span> + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "BEZN + e (epentética) + -T- + -IS",
           "refs": [
             {
-              "id": "morph-et",
-              "label": "-ET-"
+              "id": "morph-t-perfective",
+              "label": "-T-"
             },
             {
               "id": "morph-is-2",
@@ -8742,7 +8742,7 @@
             },
             {
               "class": "generic",
-              "label": "Extensión de tema"
+              "label": "Perfectivo T"
             }
           ],
           "semantic_fields": [
@@ -8751,7 +8751,7 @@
             "estado"
           ],
           "notes": [
-            "ET se interpreta aquí como extensión de tema; su función general sigue provisional."
+            "-T- perfectivo; la -e- epentética evita el grupo *beznt-."
           ]
         },
         {

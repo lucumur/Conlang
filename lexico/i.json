@@ -71,12 +71,12 @@
           "id": "lexeme-icnetis",
           "form": "icnetis",
           "gloss": "consumirse",
-          "analysis_html": "ICN + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
-          "analysis_text": "ICN + -ET- + -IS",
+          "analysis_html": "ICN + e <span class=\"meta-extra\">(epentética)</span> + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "ICN + e (epentética) + -T- + -IS",
           "refs": [
             {
-              "id": "morph-et",
-              "label": "-ET-"
+              "id": "morph-t-perfective",
+              "label": "-T-"
             },
             {
               "id": "morph-is-2",
@@ -90,7 +90,7 @@
             },
             {
               "class": "generic",
-              "label": "Extensión de tema"
+              "label": "Perfectivo T"
             }
           ],
           "semantic_fields": [
@@ -99,7 +99,7 @@
             "destrucción"
           ],
           "notes": [
-            "-ET- como extensión de tema, igual que en beznetis; función general provisional."
+            "-T- perfectivo; la -e- epentética evita el grupo *icnt-."
           ]
         },
         {
