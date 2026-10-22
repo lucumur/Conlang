@@ -6,7 +6,7 @@
     {
       "id": "root-iber",
       "form": "*IBER-",
-      "gloss": "ibérico",
+      "gloss": "Iberia, España, ibérico",
       "tags": [
         {
           "class": "nat-plen",
@@ -19,10 +19,112 @@
       ],
       "letter": "I",
       "section": "sec-i",
-      "etymology": "< Eo. ibero; cf. Lat. Iber, Iberia.",
+      "etymology": "< Eo. ibero, del lat. Ibēria / Ibēr, gr. Ἰβηρία, prob. del nombre del río Ebro (lat. Hibērus).",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-iberal",
+          "form": "iberal",
+          "gloss": "Iberia, la península ibérica",
+          "analysis_html": "IBER + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "IBER + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "territorio",
+            "Europa"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-iberpal",
+          "form": "iberpal",
+          "gloss": "España",
+          "analysis_html": "IBER + <a class=\"morph-link\" href=\"#morph-pal\">-PAL</a>",
+          "analysis_text": "IBER + -PAL",
+          "refs": [
+            {
+              "id": "morph-pal",
+              "label": "-PAL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "países",
+            "Europa"
+          ],
+          "notes": [
+            "Sin abreviación de iberal (cf. isapal, ivrapal)."
+          ]
+        },
+        {
+          "id": "lexeme-iberkon",
+          "form": "iberkon",
+          "gloss": "español (habitante)",
+          "analysis_html": "IBER + K? + <a class=\"morph-link\" href=\"#morph-on\">-ON</a> <span class=\"meta-extra\">(-k- pendiente)</span>",
+          "analysis_text": "IBER + K? + -ON (-k- pendiente)",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "pueblos",
+            "Europa"
+          ],
+          "notes": [
+            "Pendiente: la -k- (¿de ibérico, -ico?)."
+          ]
+        },
+        {
+          "id": "lexeme-iberkor",
+          "form": "iberkor",
+          "gloss": "español (idioma)",
+          "analysis_html": "IBER + K? + -OR? <span class=\"meta-extra\">(idioma; pendiente)</span>",
+          "analysis_text": "IBER + K? + -OR? (idioma; pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal"
+            }
+          ],
+          "semantic_fields": [
+            "idiomas",
+            "comunicación",
+            "Europa"
+          ],
+          "notes": [
+            "Pendiente: -OR como formante de nombre de idioma (italor, ivralor, iberkor)."
+          ]
+        }
+      ]
     },
     {
       "id": "root-icn",
@@ -1521,20 +1623,75 @@
             "Europa"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-ivralor",
+          "form": "ivralor",
+          "gloss": "irlandés (idioma)",
+          "analysis_html": "IVRAL + -OR? <span class=\"meta-extra\">(idioma; pendiente)</span>",
+          "analysis_text": "IVRAL + -OR? (idioma; pendiente)",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal"
+            }
+          ],
+          "semantic_fields": [
+            "idiomas",
+            "comunicación",
+            "Europa"
+          ],
+          "notes": [
+            "Pendiente: -OR como formante de nombre de idioma (italor, ivralor, iberkor)."
+          ]
         }
       ]
     },
     {
       "id": "root-ig",
       "form": "*IĜ-",
-      "gloss": "hacerse",
+      "gloss": "hacerse, volverse",
       "tags": [],
       "letter": "I",
       "section": "sec-i",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< Eo. -iĝ- (sufijo incoativo) e iĝi «volverse», lexicalizado como verbo; el origen del sufijo esperántico es incierto.",
+      "notes": [
+        "También funciona como segundo elemento verbal: idiĝas, gitiĝas, arbiĝos, suriĝos."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-igis",
+          "form": "iĝis",
+          "gloss": "volverse",
+          "analysis_html": "IĜ + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "IĜ + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "cambio",
+            "procesos",
+            "estados"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }
