@@ -43,7 +43,7 @@
     },
     {
       "id": "root-paj",
-      "form": "*PAJ-",
+      "form": "*PA-J",
       "gloss": "padre ⭐",
       "tags": [
         {
@@ -54,9 +54,39 @@
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Forma primigenia PA- en el sufijo -PAL «país de»."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-pajal",
+          "form": "pajal",
+          "gloss": "patria",
+          "analysis_html": "PAJ + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "PAJ + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "política",
+            "familia"
+          ],
+          "notes": [
+            "Literalmente «tierra del padre»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-pak",

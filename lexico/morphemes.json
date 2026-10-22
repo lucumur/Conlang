@@ -1784,6 +1784,29 @@
       "row_class": ""
     },
     {
+      "id": "morph-pal",
+      "form": "*-PAL",
+      "gloss": "país de, tierra de (-landia)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "locativo"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": null,
+      "notes": [
+        "De PA-, forma primigenia de *PA-J «padre» (patrio, patrimonio), + -AL locativo: «tierra paterna».",
+        "Atestiguado en isapal «Islandia», isapan «islandés»; cf. pajal «patria»."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-pen",
       "form": "*-PEN-",
       "gloss": "casi",
