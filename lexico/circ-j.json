@@ -129,6 +129,111 @@
           ]
         }
       ]
+    },
+    {
+      "id": "root-jxan",
+      "form": "*ĴAN-",
+      "gloss": "Jano (dios romano)",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "Ĵ",
+      "section": "sec-circ-j",
+      "etymology": "Del lat. Iānus, dios de las puertas y los comienzos (cf. iānua «puerta»), con palatalización j- → ĵ-; de ahí Iānuārius «enero».",
+      "notes": [
+        "Antes *JAN-."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-jxanun",
+          "form": "ĵanun",
+          "gloss": "Jano",
+          "analysis_html": "ĴAN + <a class=\"morph-link\" href=\"#morph-un-parahuman\">-UN</a>",
+          "analysis_text": "ĴAN + -UN",
+          "refs": [
+            {
+              "id": "morph-un-parahuman",
+              "label": "-UN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano UN"
+            }
+          ],
+          "semantic_fields": [
+            "religión",
+            "mitología",
+            "Roma"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxanevam",
+          "form": "ĵanevam",
+          "gloss": "enero",
+          "analysis_html": "ĴAN + <a class=\"morph-link\" href=\"#morph-ev\">-EV-</a> + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "ĴAN + -EV- + -AM",
+          "refs": [
+            {
+              "id": "morph-ev",
+              "label": "-EV-"
+            },
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "calendario",
+            "meses"
+          ],
+          "notes": [
+            "Literalmente «la época de Jano», como lat. Iānuārius. Mismo -EV- + -AM que nevam, samevam."
+          ]
+        },
+        {
+          "id": "lexeme-jxanebo",
+          "form": "ĵanebo",
+          "gloss": "Jano (luna de Saturno)",
+          "analysis_html": "ĴAN + <a class=\"morph-link\" href=\"#morph-eb\">-EB-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĴAN + -EB- + -O",
+          "refs": [
+            {
+              "id": "morph-eb",
+              "label": "-EB-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "astronomía",
+            "Saturno",
+            "satélites"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }

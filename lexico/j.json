@@ -4,23 +4,6 @@
   "key": "j",
   "entries": [
     {
-      "id": "root-jan",
-      "form": "*JAN-",
-      "gloss": "Janus (Dios Romano)",
-      "tags": [
-        {
-          "class": "latin",
-          "label": "Latin"
-        }
-      ],
-      "letter": "J",
-      "section": "sec-j",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-jar",
       "form": "*JAR-",
       "gloss": "año",

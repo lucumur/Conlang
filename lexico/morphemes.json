@@ -1236,22 +1236,6 @@
       "row_class": ""
     },
     {
-      "id": "morph-ja",
-      "form": "*-JA-",
-      "gloss": "otra vez, de nuevo",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "sufijo"
-        }
-      ],
-      "letter": "J",
-      "section": "sec-j",
-      "etymology": null,
-      "notes": [],
-      "row_class": ""
-    },
-    {
       "id": "morph-jo",
       "form": "*-JO",
       "gloss": "mujer (alternativo)",
@@ -2343,6 +2327,24 @@
       "section": "sec-o",
       "etymology": null,
       "notes": [],
+      "row_class": ""
+    },
+    {
+      "id": "morph-eb",
+      "form": "*-EB-",
+      "gloss": "satélite, luna de un planeta (provisional)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": null,
+      "notes": [
+        "Nuevo. Atestiguado en ĵanebo «Jano (luna de Saturno)». Valor exacto pendiente de confirmar."
+      ],
       "row_class": ""
     },
     {
