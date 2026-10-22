@@ -25,6 +25,136 @@
       "words": []
     },
     {
+      "id": "root-icn",
+      "form": "*ICN-",
+      "gloss": "arder",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": "Del lat. ignis «fuego» (tema ign-), con ensordecimiento -gn- → -cn- [kn]. Nova respecto del esperanto (Eo. bruli).",
+      "notes": [
+        "Antes *IKN-."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-icnos",
+          "form": "icnos",
+          "gloss": "arder",
+          "analysis_html": "ICN + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "ICN + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Verbal OS"
+            }
+          ],
+          "semantic_fields": [
+            "fuego",
+            "procesos",
+            "física"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-icnetis",
+          "form": "icnetis",
+          "gloss": "consumirse",
+          "analysis_html": "ICN + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "ICN + -ET- + -IS",
+          "refs": [
+            {
+              "id": "morph-et",
+              "label": "-ET-"
+            },
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            },
+            {
+              "class": "generic",
+              "label": "Extensión de tema"
+            }
+          ],
+          "semantic_fields": [
+            "fuego",
+            "procesos",
+            "destrucción"
+          ],
+          "notes": [
+            "-ET- como extensión de tema, igual que en beznetis; función general provisional."
+          ]
+        },
+        {
+          "id": "lexeme-icnura",
+          "form": "icnura",
+          "gloss": "ardor",
+          "analysis_html": "ICN + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "ICN + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "fuego",
+            "sensaciones",
+            "emociones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-icne",
+          "form": "icne",
+          "gloss": "brasas",
+          "analysis_html": "ICN + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ICN + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "fuego",
+            "materiales",
+            "cocina"
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "root-id",
       "form": "*ID-",
       "gloss": "igual, idéntico",
@@ -216,18 +346,6 @@
           "notes": []
         }
       ]
-    },
-    {
-      "id": "root-ikn",
-      "form": "*IKN-",
-      "gloss": "arder",
-      "tags": [],
-      "letter": "I",
-      "section": "sec-i",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
     },
     {
       "id": "root-im",
