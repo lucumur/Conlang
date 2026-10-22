@@ -692,8 +692,8 @@
           "id": "lexeme-indigol",
           "form": "indigol",
           "gloss": "azul marino, índigo",
-          "analysis_html": "IND + IG? + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> <span class=\"meta-extra\">(segmentación pendiente)</span>",
-          "analysis_text": "IND + IG? + -OL- (segmentación pendiente)",
+          "analysis_html": "IND + IG? + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> <span class=\"meta-extra\">(similativo; -ig- pendiente)</span>",
+          "analysis_text": "IND + IG? + -OL- (similativo; -ig- pendiente)",
           "refs": [
             {
               "id": "morph-ol",
@@ -712,7 +712,7 @@
             "cualidades"
           ],
           "notes": [
-            "< esp. índigo, del lat. indicum «(tinte) de la India», gr. ἰνδικόν. Pendiente: -ig- y valor de -OL."
+            "< esp. índigo, del lat. indicum «(tinte) de la India», gr. ἰνδικόν. -OL- similativo: «como el índigo». Pendiente: -ig-."
           ]
         }
       ]
@@ -721,13 +721,137 @@
       "id": "root-ink",
       "form": "*INK-",
       "gloss": "tinta",
-      "tags": [],
+      "tags": [
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "I",
       "section": "sec-i",
-      "etymology": null,
+      "etymology": "< Eo. inko «tinta», del ing. ink (ant. fr. enque), y este del lat. tardío encaustum, gr. ἔγκαυστον «(tinta) quemada, encáustica».",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-inke",
+          "form": "inke",
+          "gloss": "tinta",
+          "analysis_html": "INK + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "INK + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "materiales",
+            "arte"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-inkida",
+          "form": "inkida",
+          "gloss": "tinte, color",
+          "analysis_html": "INK + <a class=\"morph-link\" href=\"#morph-id\">-ID-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "INK + -ID- + -A",
+          "refs": [
+            {
+              "id": "morph-id",
+              "label": "-ID-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "colores",
+            "tintes",
+            "materiales"
+          ],
+          "notes": [
+            "-ID- de subclase: «tipo de tinta»."
+          ]
+        },
+        {
+          "id": "lexeme-ajnkas",
+          "form": "ajnkas",
+          "gloss": "entintar, rellenar una pluma o sello",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a-instrumental\">A-</a> + INK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a> <span class=\"meta-extra\">(a-ink → ajnk: i → j)</span>",
+          "analysis_text": "A- + INK + -AS (a-ink → ajnk: i → j)",
+          "refs": [
+            {
+              "id": "morph-a-instrumental",
+              "label": "A-"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Verbal AS"
+            }
+          ],
+          "semantic_fields": [
+            "escritura",
+            "acciones",
+            "herramientas"
+          ],
+          "notes": [
+            "A- instrumental, como en abatas o aĉampas. La i de INK pasa a semivocal tras A-, como en trajma."
+          ]
+        },
+        {
+          "id": "lexeme-inketo",
+          "form": "inketo",
+          "gloss": "tatuaje",
+          "analysis_html": "INK + e <span class=\"meta-extra\">(epentética)</span> + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a> <span class=\"meta-extra\">(segmentación pendiente)</span>",
+          "analysis_text": "INK + e (epentética) + -T- + -O (segmentación pendiente)",
+          "refs": [
+            {
+              "id": "morph-t-perfective",
+              "label": "-T-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "arte",
+            "cuerpo",
+            "marcas"
+          ],
+          "notes": [
+            "Propuesta: «tinta fijada para siempre», con -T- perfectivo y e epentética como en icnetis. Alternativa: -ET-."
+          ]
+        }
+      ]
     },
     {
       "id": "root-ir",
