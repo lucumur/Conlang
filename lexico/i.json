@@ -1525,23 +1525,6 @@
       ]
     },
     {
-      "id": "root-ivr",
-      "form": "*IVR-",
-      "gloss": "Irlanda",
-      "tags": [
-        {
-          "class": "nat-mod",
-          "label": "Nat-mod"
-        }
-      ],
-      "letter": "I",
-      "section": "sec-i",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-ig",
       "form": "*IĜ-",
       "gloss": "hacerse",
