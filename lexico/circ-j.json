@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "letter": "Ĵ",
+  "key": "circ-j",
+  "entries": [
+    {
+      "id": "root-jx",
+      "form": "*Ĵ-",
+      "gloss": "uno, esto; afirmación",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-mod"
+        }
+      ],
+      "letter": "Ĵ",
+      "section": "sec-circ-j",
+      "etymology": "< Eo. ja «ciertamente» (del al. ja «sí») y jam «ya» (del lat. iam). Reanálisis: ja/jam se segmentan como raíz deíctica J- + terminación correlativa (-A, -AM), con palatalización j- → ĵ-; la raíz se extiende luego con -OM y -UK sobre el modelo de las correlativas esperánticas (tiom, tiel).",
+      "notes": [
+        "Sustituye a *I- «uno, esto» (Nova), que queda retirada."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ja",
+          "form": "ĵa",
+          "gloss": "sí, claro",
+          "analysis_html": "Ĵ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "Ĵ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Interjección"
+            }
+          ],
+          "semantic_fields": [
+            "habla",
+            "afirmación",
+            "interacción social"
+          ],
+          "notes": [
+            "< Eo. ja; funciona como partícula afirmativa (Eo. jes)."
+          ]
+        },
+        {
+          "id": "lexeme-jam",
+          "form": "ĵam",
+          "gloss": "ya, ahora",
+          "analysis_html": "Ĵ + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "Ĵ + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            }
+          ],
+          "semantic_fields": [
+            "tiempo",
+            "deixis",
+            "adverbios"
+          ],
+          "notes": [
+            "< Eo. jam. -AM adverbial de tiempo: «en este momento»."
+          ]
+        },
+        {
+          "id": "lexeme-jom",
+          "form": "ĵom",
+          "gloss": "tanto",
+          "analysis_html": "Ĵ + <a class=\"morph-link\" href=\"#morph-om-quant\">-OM</a>",
+          "analysis_text": "Ĵ + -OM",
+          "refs": [
+            {
+              "id": "morph-om-quant",
+              "label": "-OM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Cuantificador"
+            }
+          ],
+          "semantic_fields": [
+            "cantidad",
+            "deixis",
+            "adverbios"
+          ],
+          "notes": [
+            "Correlativo de cantidad, como Eo. tiom."
+          ]
+        },
+        {
+          "id": "lexeme-juk",
+          "form": "ĵuk",
+          "gloss": "así",
+          "analysis_html": "Ĵ + <a class=\"morph-link\" href=\"#morph-uk\">-UK</a>",
+          "analysis_text": "Ĵ + -UK",
+          "refs": [
+            {
+              "id": "morph-uk",
+              "label": "-UK"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial UK"
+            }
+          ],
+          "semantic_fields": [
+            "modo",
+            "deixis",
+            "adverbios"
+          ],
+          "notes": [
+            "Correlativo de modo, como Eo. tiel."
+          ]
+        }
+      ]
+    }
+  ]
+}
