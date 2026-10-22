@@ -405,12 +405,12 @@
           "id": "lexeme-trajma",
           "form": "trajma",
           "gloss": "copia",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-traj\">TRAJ</a>? + (I)M + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">(síncopa; segmentación pendiente)</span>",
-          "analysis_text": "TRAJ? + (I)M + -A (síncopa; segmentación pendiente)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-tra-behind\">TRA-</a> + IM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> <span class=\"meta-extra\">(tra-ima → trajma: i → j)</span>",
+          "analysis_text": "TRA- + IM + -A (tra-ima → trajma: i → j)",
           "refs": [
             {
-              "id": "root-traj",
-              "label": "TRAJ"
+              "id": "morph-tra-behind",
+              "label": "TRA-"
             },
             {
               "id": "morph-a-2",
@@ -433,19 +433,19 @@
             "documentos"
           ],
           "notes": [
-            "Pendiente: primer elemento TRAJ- «rasgo» o TRA- «a través»."
+            "TRA- «detrás, posterior»: la imagen que sigue a otra, como al calcar por detrás de un original. La i de IM pasa a semivocal j tras la vocal de TRA-."
           ]
         },
         {
           "id": "lexeme-trajmas",
           "form": "trajmas",
           "gloss": "copiar",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-traj\">TRAJ</a>? + (I)M + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "TRAJ? + (I)M + -AS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-tra-behind\">TRA-</a> + IM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a> <span class=\"meta-extra\">(tra-ima → trajma: i → j)</span>",
+          "analysis_text": "TRA- + IM + -AS (tra-ima → trajma: i → j)",
           "refs": [
             {
-              "id": "root-traj",
-              "label": "TRAJ"
+              "id": "morph-tra-behind",
+              "label": "TRA-"
             },
             {
               "id": "morph-as",
@@ -467,7 +467,9 @@
             "reproducción",
             "acciones"
           ],
-          "notes": []
+          "notes": [
+            "TRA- «detrás, posterior»: la imagen que sigue a otra, como al calcar por detrás de un original. La i de IM pasa a semivocal j tras la vocal de TRA-."
+          ]
         },
         {
           "id": "lexeme-imako",
@@ -623,7 +625,7 @@
     {
       "id": "root-ind",
       "form": "*IND-",
-      "gloss": "indio",
+      "gloss": "India, indio",
       "tags": [
         {
           "class": "generic",
@@ -632,10 +634,88 @@
       ],
       "letter": "I",
       "section": "sec-i",
-      "etymology": null,
+      "etymology": "< Eo. Indio «India», del lat. India, gr. Ἰνδία (de Ἰνδός «el río Indo»), a través del persa antiguo Hindu, del sánscr. Sindhu «río, el Indo».",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-indal",
+          "form": "indal",
+          "gloss": "India",
+          "analysis_html": "IND + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "IND + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "geografía",
+            "países",
+            "Asia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-indan",
+          "form": "indan",
+          "gloss": "indio (persona)",
+          "analysis_html": "IND + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "IND + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "personas",
+            "pueblos",
+            "Asia"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-indigol",
+          "form": "indigol",
+          "gloss": "azul marino, índigo",
+          "analysis_html": "IND + IG? + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> <span class=\"meta-extra\">(segmentación pendiente)</span>",
+          "analysis_text": "IND + IG? + -OL- (segmentación pendiente)",
+          "refs": [
+            {
+              "id": "morph-ol",
+              "label": "-OL-"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
+          "semantic_fields": [
+            "colores",
+            "tintes",
+            "cualidades"
+          ],
+          "notes": [
+            "< esp. índigo, del lat. indicum «(tinte) de la India», gr. ἰνδικόν. Pendiente: -ig- y valor de -OL."
+          ]
+        }
+      ]
     },
     {
       "id": "root-ink",
