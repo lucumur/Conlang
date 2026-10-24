@@ -768,6 +768,81 @@
           ]
         }
       ]
+    },
+    {
+      "id": "root-jxet",
+      "form": "*ĴET-",
+      "gloss": "lanzar",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "Ĵ",
+      "section": "sec-circ-j",
+      "etymology": "< Eo. ĵeti «lanzar», del fr. jeter, del lat. vulg. *iectāre, por el lat. iactāre «arrojar», frecuentativo de iacere.",
+      "notes": [
+        "Antes *JET-."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-jxetas",
+          "form": "ĵetas",
+          "gloss": "lanzar",
+          "analysis_html": "ĴET + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĴET + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acción física"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gajxetas",
+          "form": "ĝaĵetas",
+          "gloss": "distribuir, disipar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ga-distributive\">ĜA</a> + ĴET + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĜA + ĴET + -AS",
+          "refs": [
+            {
+              "id": "morph-ga-distributive",
+              "label": "ĜA"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "distribución",
+            "dispersión"
+          ],
+          "notes": [
+            "ĜA- distributivo: «lanzar en distintas direcciones». Calco de lat. dis-icere / dis-sipāre."
+          ]
+        }
+      ]
     }
   ]
 }
