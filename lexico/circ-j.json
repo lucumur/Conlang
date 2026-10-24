@@ -584,7 +584,7 @@
       ],
       "letter": "Ĵ",
       "section": "sec-circ-j",
-      "etymology": null,
+      "etymology": "Raíz de novo: forma reconfigurada de *E- «haber, ser» (< Eo. esti, estas).",
       "notes": [
         "Antes *JE-."
       ],
@@ -840,6 +840,92 @@
           ],
           "notes": [
             "ĜA- distributivo: «lanzar en distintas direcciones». Calco de lat. dis-icere / dis-sipāre."
+          ]
+        },
+        {
+          "id": "lexeme-jxeteza",
+          "form": "ĵeteẑa",
+          "gloss": "lanzamiento",
+          "analysis_html": "ĴET + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "ĴET + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "acción física"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxetoja",
+          "form": "ĵetoja",
+          "gloss": "trayectoria, curso, trayecto",
+          "analysis_html": "ĴET + <a class=\"morph-link\" href=\"#morph-oj-theme\">-OJ-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĴET + -OJ- + -A",
+          "refs": [
+            {
+              "id": "morph-oj-theme",
+              "label": "-OJ-"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Tema OJ"
+            },
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "dirección",
+            "espacio"
+          ],
+          "notes": [
+            "Misma formación que dretoja «dirección»."
+          ]
+        },
+        {
+          "id": "lexeme-jxetus",
+          "form": "ĵetus",
+          "gloss": "lanzarse, irse a por algo",
+          "analysis_html": "ĴET + <a class=\"morph-link\" href=\"#morph-us-directional\">-US</a>",
+          "analysis_text": "ĴET + -US",
+          "refs": [
+            {
+              "id": "morph-us-directional",
+              "label": "-US"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Verbal US"
+            }
+          ],
+          "semantic_fields": [
+            "movimiento",
+            "dirección",
+            "desplazamiento"
+          ],
+          "notes": [
+            "-US direccional, como irus, trajrus."
           ]
         }
       ]
