@@ -4,57 +4,6 @@
   "key": "j",
   "entries": [
     {
-      "id": "root-jaraf",
-      "form": "*JARAF-",
-      "gloss": "jirafa",
-      "tags": [
-        {
-          "class": "arabe",
-          "label": "Arabe"
-        }
-      ],
-      "letter": "J",
-      "section": "sec-j",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-jat-r",
-      "form": "*JAT-R",
-      "gloss": "sanar",
-      "tags": [
-        {
-          "class": "griego",
-          "label": "Griego"
-        }
-      ],
-      "letter": "J",
-      "section": "sec-j",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
-      "id": "root-je",
-      "form": "*JE-",
-      "gloss": "ser",
-      "tags": [
-        {
-          "class": "nova",
-          "label": "Nova"
-        }
-      ],
-      "letter": "J",
-      "section": "sec-j",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-jet",
       "form": "*JET-",
       "gloss": "lanzar",
@@ -380,20 +329,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "root-jatr",
-      "form": "*JATR-",
-      "gloss": "medicina, médico",
-      "tags": [],
-      "letter": "J",
-      "section": "sec-j",
-      "etymology": null,
-      "notes": [
-        "CANÓNICO: *JATR- es un formante médico; atestiguado en eθjatran «anestesiólogo» y eθjatrja «anestesiología»."
-      ],
-      "row_class": "lex-root-row",
-      "words": []
     }
   ]
 }

@@ -452,6 +452,322 @@
           ]
         }
       ]
+    },
+    {
+      "id": "root-jxarf",
+      "form": "*ĴARF-",
+      "gloss": "jirafa",
+      "tags": [
+        {
+          "class": "arabe",
+          "label": "Arabe"
+        }
+      ],
+      "letter": "Ĵ",
+      "section": "sec-circ-j",
+      "etymology": "< Eo. ĝirafo «jirafa», del it. giraffa, del ár. zarāfa; con síncopa de la vocal interna y palatalización j- → ĵ-.",
+      "notes": [
+        "Antes *JARAF-."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-jxarfin",
+          "form": "ĵarfin",
+          "gloss": "jirafa",
+          "analysis_html": "ĴARF + <a class=\"morph-link\" href=\"#morph-in\">-IN</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ĴARF + -IN (pendiente)",
+          "refs": [
+            {
+              "id": "morph-in",
+              "label": "-IN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Provisional"
+            }
+          ],
+          "semantic_fields": [
+            "animales",
+            "mamíferos",
+            "África"
+          ],
+          "notes": [
+            "Pendiente: -IN es el participio humano / hipocorístico; para animales el esperable es -EN (cf. ŝafen, lupen)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-jxatr",
+      "form": "*ĴATR-",
+      "gloss": "tratar (médicamente)",
+      "tags": [
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
+      "letter": "Ĵ",
+      "section": "sec-circ-j",
+      "etymology": "< Eo. -iatr- (pediatro, psikiatro), del gr. ἰατρός «médico», de ἰάομαι «curar»; con i- → ĵ- como en *Ĵ- < *I-.",
+      "notes": [
+        "Antes *JATR- «medicina, médico» y *JAT-R «sanar», que quedan fundidas aquí.",
+        "Formante médico también en ĝinĵatran, ĝinĵatrea, eθĵatran, eθĵatrja."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-jxatran",
+          "form": "ĵatran",
+          "gloss": "médico, doctor",
+          "analysis_html": "ĴATR + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĴATR + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "medicina",
+            "salud",
+            "profesiones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxatria",
+          "form": "ĵatria",
+          "gloss": "medicina",
+          "analysis_html": "ĴATR + IA (terminación lexicalizada)",
+          "analysis_text": "ĴATR + IA (terminación lexicalizada)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Lexicalizado"
+            },
+            {
+              "class": "generic",
+              "label": "Nominal A"
+            }
+          ],
+          "semantic_fields": [
+            "medicina",
+            "salud",
+            "ciencia"
+          ],
+          "notes": [
+            "Cf. gr. ἰατρεία. Mismo tratamiento que ĉalpekera «cirugía» (ERA lexicalizada)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-jxe",
+      "form": "*ĴE-",
+      "gloss": "ser",
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "Ĵ",
+      "section": "sec-circ-j",
+      "etymology": null,
+      "notes": [
+        "Antes *JE-."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-jxes",
+          "form": "ĵes",
+          "gloss": "estar, ser",
+          "analysis_html": "ĴE + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "ĴE + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "existencia",
+            "cópula",
+            "estado"
+          ],
+          "notes": [
+            "ĵe-es > ĵes."
+          ]
+        },
+        {
+          "id": "lexeme-jxen",
+          "form": "ĵen",
+          "gloss": "entidad, ente",
+          "analysis_html": "ĴE + <a class=\"morph-link\" href=\"#morph-en\">-EN</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ĴE + -EN (pendiente)",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Provisional"
+            }
+          ],
+          "semantic_fields": [
+            "existencia",
+            "ontología",
+            "filosofía"
+          ],
+          "notes": [
+            "Pendiente: -EN es animado no humano; ¿-EN extendido a «ente» o -N distinto?"
+          ]
+        },
+        {
+          "id": "lexeme-jxestis",
+          "form": "ĵestis",
+          "gloss": "encontrarse, estar en",
+          "analysis_html": "ĴES (tema de ĵes) + <a class=\"morph-link\" href=\"#morph-t-perfective\">-T-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "ĴES (tema de ĵes) + -T- + -IS",
+          "refs": [
+            {
+              "id": "morph-t-perfective",
+              "label": "-T-"
+            },
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "existencia",
+            "ubicación",
+            "estado"
+          ],
+          "notes": [
+            "Misma formación -T- + -IS que glastis, glutis."
+          ]
+        },
+        {
+          "id": "lexeme-parjxes",
+          "form": "parĵes",
+          "gloss": "estar, existir",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-par\">PAR</a> + ĴE + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "PAR + ĴE + -ES",
+          "refs": [
+            {
+              "id": "morph-par",
+              "label": "PAR"
+            },
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "existencia",
+            "estado"
+          ],
+          "notes": [
+            "Cf. pares «estar junto a»."
+          ]
+        },
+        {
+          "id": "lexeme-parjxera",
+          "form": "parĵera",
+          "gloss": "existencia",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-par\">PAR</a> + ĴE + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "PAR + ĴE + -ER + -A",
+          "refs": [
+            {
+              "id": "morph-par",
+              "label": "PAR"
+            },
+            {
+              "id": "morph-er",
+              "label": "-ER"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "existencia",
+            "ontología",
+            "filosofía"
+          ],
+          "notes": [
+            "Abstracto de parĵes, con -ER + -A como gitera, galera."
+          ]
+        },
+        {
+          "id": "lexeme-surjxes",
+          "form": "surĵes",
+          "gloss": "surgir, comenzar a existir",
+          "analysis_html": "SUR? + ĴE + <a class=\"morph-link\" href=\"#morph-es\">-ES</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "SUR? + ĴE + -ES (pendiente)",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "existencia",
+            "inicio",
+            "cambio"
+          ],
+          "notes": [
+            "SUR- aún no registrado como prefijo (cf. suros «sobrar, superar»)."
+          ]
+        }
+      ]
     }
   ]
 }

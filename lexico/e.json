@@ -3822,15 +3822,15 @@
           "notes": []
         },
         {
-          "id": "lexeme-ethjatran",
-          "form": "eθjatran",
+          "id": "lexeme-ethjxatran",
+          "form": "eθĵatran",
           "gloss": "anestesiologo",
-          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#root-jatr\">JATR</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "EΘ + JATR + -AN",
+          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#root-jxatr\">ĴATR</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "EΘ + ĴATR + -AN",
           "refs": [
             {
-              "id": "root-jatr",
-              "label": "JATR"
+              "id": "root-jxatr",
+              "label": "ĴATR"
             },
             {
               "id": "morph-an-2",
@@ -3855,15 +3855,15 @@
           "notes": []
         },
         {
-          "id": "lexeme-ethjatrja",
-          "form": "eθjatrja",
+          "id": "lexeme-ethjxatrja",
+          "form": "eθĵatrja",
           "gloss": "anestesiologia",
-          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#root-jatr\">JATR</a> + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "EΘ + JATR + -J- + -A",
+          "analysis_html": "EΘ + <a class=\"morph-link\" href=\"#root-jxatr\">ĴATR</a> + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "EΘ + ĴATR + -J- + -A",
           "refs": [
             {
-              "id": "root-jatr",
-              "label": "JATR"
+              "id": "root-jxatr",
+              "label": "ĴATR"
             },
             {
               "id": "morph-j-theme",

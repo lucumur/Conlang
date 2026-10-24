@@ -1469,15 +1469,15 @@
           ]
         },
         {
-          "id": "lexeme-ginjatran",
-          "form": "ĝinjatran",
+          "id": "lexeme-ginjxatran",
+          "form": "ĝinĵatran",
           "gloss": "ginecólogo",
-          "analysis_html": "ĜIN + <a class=\"morph-link\" href=\"#root-jatr\">JATR</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "ĜIN + JATR + -AN",
+          "analysis_html": "ĜIN + <a class=\"morph-link\" href=\"#root-jxatr\">ĴATR</a> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ĜIN + ĴATR + -AN",
           "refs": [
             {
-              "id": "root-jatr",
-              "label": "JATR"
+              "id": "root-jxatr",
+              "label": "ĴATR"
             },
             {
               "id": "morph-an-2",
@@ -1502,15 +1502,15 @@
           "notes": []
         },
         {
-          "id": "lexeme-ginjatrea",
-          "form": "ĝinjatrea",
+          "id": "lexeme-ginjxatrea",
+          "form": "ĝinĵatrea",
           "gloss": "ginecología",
-          "analysis_html": "ĜIN + <a class=\"morph-link\" href=\"#root-jatr\">JATR</a> + -EA <span class=\"meta-extra\">(disciplina; no formalizado)</span>",
-          "analysis_text": "ĜIN + JATR + -EA (disciplina; no formalizado)",
+          "analysis_html": "ĜIN + <a class=\"morph-link\" href=\"#root-jxatr\">ĴATR</a> + -EA <span class=\"meta-extra\">(disciplina; no formalizado)</span>",
+          "analysis_text": "ĜIN + ĴATR + -EA (disciplina; no formalizado)",
           "refs": [
             {
-              "id": "root-jatr",
-              "label": "JATR"
+              "id": "root-jxatr",
+              "label": "ĴATR"
             }
           ],
           "tags": [
