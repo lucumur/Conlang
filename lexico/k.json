@@ -23,49 +23,89 @@
           "id": "lexeme-kaj",
           "form": "kaj",
           "gloss": "y",
-          "analysis_html": "K + AJ <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "K + AJ (pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-k-copulativo\">K-</a> + <a class=\"morph-link\" href=\"#morph-aj-part\">-AJ</a>",
+          "analysis_text": "K- + -AJ",
+          "refs": [
+            {
+              "id": "morph-aj-part",
+              "label": "-AJ"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Partícula gramatical"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "gramática",
+            "coordinación"
+          ],
           "notes": []
         },
         {
-          "id": "lexeme-vokaj",
-          "form": "vokaj",
+          "id": "lexeme-kathoj",
+          "form": "kaθoj",
           "gloss": "pero",
-          "analysis_html": "VO <span class=\"meta-extra\">(pendiente)</span> + K + AJ <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "VO (pendiente) + K + AJ (pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-k-copulativo\">K-</a> + <a class=\"morph-link\" href=\"#morph-tho\">ΘO</a> (disyuntiva) + <a class=\"morph-link\" href=\"#morph-aj-part\">-J</a> <span class=\"meta-extra\">(-AJ reducido a -J tras vocal; resolución de *kθ- pendiente de formalizar)</span>",
+          "analysis_text": "K- + ΘO (disyuntiva) + -J (-AJ tras vocal; resolución de *kθ- pendiente)",
+          "refs": [
+            {
+              "id": "morph-tho",
+              "label": "ΘO"
+            },
+            {
+              "id": "morph-aj-part",
+              "label": "-AJ"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Partícula gramatical"
             }
           ],
-          "semantic_fields": [],
-          "notes": []
+          "semantic_fields": [
+            "gramática",
+            "coordinación",
+            "disyunción",
+            "contraste"
+          ],
+          "notes": [
+            "Forma antigua: vokaj (plantilla externa VO + kaj).",
+            "*k-θo-aj > kaθoj."
+          ]
         },
         {
-          "id": "lexeme-ecxkaj",
-          "form": "eĉkaj",
+          "id": "lexeme-kecxaj",
+          "form": "keĉaj",
           "gloss": "incluso",
-          "analysis_html": "EĈ <span class=\"meta-extra\">(pendiente)</span> + K + AJ <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "EĈ (pendiente) + K + AJ (pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-k-copulativo\">K-</a> + <a class=\"morph-link\" href=\"#root-ec-3\">EĈ</a> (incluso, condicional) + <a class=\"morph-link\" href=\"#morph-aj-part\">-AJ</a>",
+          "analysis_text": "K- + EĈ (incluso, condicional) + -AJ",
+          "refs": [
+            {
+              "id": "root-ec-3",
+              "label": "EĈ"
+            },
+            {
+              "id": "morph-aj-part",
+              "label": "-AJ"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Partícula gramatical"
             }
           ],
-          "semantic_fields": [],
-          "notes": []
+          "semantic_fields": [
+            "gramática",
+            "coordinación",
+            "énfasis"
+          ],
+          "notes": [
+            "Forma antigua: eĉkaj (plantilla externa EĈ + kaj)."
+          ]
         },
         {
           "id": "lexeme-ankaj",
@@ -86,36 +126,67 @@
           ]
         },
         {
-          "id": "lexeme-nenkaj",
-          "form": "nenkaj",
+          "id": "lexeme-kenaj",
+          "form": "kenaj",
           "gloss": "tampoco",
-          "analysis_html": "NEN <span class=\"meta-extra\">(pendiente)</span> + K + AJ <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "NEN (pendiente) + K + AJ (pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-k-copulativo\">K-</a> + <a class=\"morph-link\" href=\"#morph-ne\">NE-</a> + <a class=\"morph-link\" href=\"#morph-aj-part\">-AJ</a> <span class=\"meta-extra\">(*k-ne-aj > kenaj; resolución de *kn- pendiente de formalizar)</span>",
+          "analysis_text": "K- + NE- + -AJ (*k-ne-aj > kenaj; resolución pendiente)",
+          "refs": [
+            {
+              "id": "morph-ne",
+              "label": "NE-"
+            },
+            {
+              "id": "morph-aj-part",
+              "label": "-AJ"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Partícula gramatical"
             }
           ],
-          "semantic_fields": [],
-          "notes": []
+          "semantic_fields": [
+            "gramática",
+            "coordinación",
+            "negación"
+          ],
+          "notes": [
+            "Forma antigua: nenkaj (plantilla externa NEN + kaj)."
+          ]
         },
         {
           "id": "lexeme-pojkaj",
           "form": "pojkaj",
           "gloss": "y luego",
-          "analysis_html": "POJ <span class=\"meta-extra\">(pendiente)</span> + K + AJ <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "POJ (pendiente) + K + AJ (pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-po\">POJ-</a> (posterior) + [<a class=\"morph-link\" href=\"#root-k-copulativo\">K-</a> + <a class=\"morph-link\" href=\"#morph-aj-part\">-AJ</a>]",
+          "analysis_text": "POJ- (posterior) + [K- + -AJ]",
+          "refs": [
+            {
+              "id": "morph-po",
+              "label": "PO-"
+            },
+            {
+              "id": "morph-aj-part",
+              "label": "-AJ"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Partícula gramatical"
             }
           ],
-          "semantic_fields": [],
-          "notes": []
+          "semantic_fields": [
+            "gramática",
+            "coordinación",
+            "tiempo",
+            "secuencia"
+          ],
+          "notes": [
+            "Plantilla externa: el modificador temporal se aplica a kaj ya formado. Cf. posaj (*PO-S)."
+          ]
         }
       ]
     },

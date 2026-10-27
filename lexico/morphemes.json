@@ -3928,6 +3928,43 @@
         "GLU-: glutis «estar adherido» (-T-) frente a gluzis «estar pegajoso, sudado» (-Z-)."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-aj-part",
+      "form": "*-AJ (partícula)",
+      "gloss": "sufijo de partícula; -J tras vocal",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [
+        "Homófono de *-AJ «plural de -A», distinto morfema.",
+        "Cf. kaj, kaθoj, keĉaj, kenaj."
+      ],
+      "row_class": ""
+    },
+    {
+      "id": "morph-tho",
+      "form": "*ΘO",
+      "gloss": "partícula disyuntiva",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "partícula"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": null,
+      "notes": [
+        "Cf. kaθoj «pero»."
+      ],
+      "row_class": ""
     }
   ]
 }
