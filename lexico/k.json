@@ -426,9 +426,14 @@
           "id": "lexeme-kafol",
           "form": "kafol",
           "gloss": "marrón, color café",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-kaf\">KAF</a> + -OL <span class=\"meta-extra\">(¿-OL de abundancia o -OL- similativo?)</span>",
-          "analysis_text": "KAF + -OL (valor pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kaf\">KAF</a> + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> (similativo)",
+          "analysis_text": "KAF + -OL- (similativo)",
+          "refs": [
+            {
+              "id": "morph-ol",
+              "label": "-OL-"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -438,7 +443,9 @@
           "semantic_fields": [
             "color"
           ],
-          "notes": []
+          "notes": [
+            "Lit. «como el café»."
+          ]
         }
       ]
     },
