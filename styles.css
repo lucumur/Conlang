@@ -12,3 +12,4 @@ a{color:inherit}.wrap{width:min(1180px,calc(100% - 32px));margin:auto}.page-head
 .semantic-card:hover{border-color:var(--accent);transform:translateY(-1px)}
 .semantic-card strong{font-size:.94rem}.semantic-card span{color:var(--muted);font-size:.8rem}
 .morph-notes{margin-top:5px;color:var(--muted);font-size:.8rem;font-style:italic}
+.refresh-data{margin-left:4px;padding:3px 10px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--muted);font:inherit;font-size:.86rem;cursor:pointer}.refresh-data:hover{border-color:var(--accent);color:var(--accent)}.refresh-data:disabled{opacity:.6;cursor:wait}
