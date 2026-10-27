@@ -19,7 +19,87 @@
       "notes": [],
       "row_class": "",
       "kind": "other",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-to",
+          "form": "to",
+          "gloss": "artículo inanimado; el inanimado",
+          "analysis_html": "T + O <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "T + O (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Declinación: tel, ten, tek / tor, tom, tok; ergativo te; alativo/dativo ton; gen./abl. tes."
+          ]
+        },
+        {
+          "id": "lexeme-ta",
+          "form": "ta",
+          "gloss": "eso",
+          "analysis_html": "T + A <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "T + A (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Paradigma: ta / to / tel / ton / tol (erg., acus., gen., loc.-dat., alat.)."
+          ]
+        },
+        {
+          "id": "lexeme-eta",
+          "form": "eta",
+          "gloss": "inanimado deíctico",
+          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + T + A <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "E (pendiente) + T + A (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Formas: eta, eto, etaj, etoj."
+          ]
+        },
+        {
+          "id": "lexeme-tejam",
+          "form": "tejam",
+          "gloss": "entonces",
+          "analysis_html": "T + EJ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "T + EJ (pendiente) + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tab",
@@ -83,6 +163,185 @@
             "cualidades"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-tabeno",
+          "form": "tabeno",
+          "gloss": "mesa, superficie, escritorio",
+          "analysis_html": "TAB + EN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TAB + EN (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Sufijo: *-ENO «objeto plano»."
+          ]
+        },
+        {
+          "id": "lexeme-tabrenejdo",
+          "form": "tabrenejdo",
+          "gloss": "trapecio",
+          "analysis_html": "TAB + RENEJD <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TAB + RENEJD (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tablo",
+          "form": "tablo",
+          "gloss": "pieza de madera plana, una tabla, plancha",
+          "analysis_html": "TAB + L <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TAB + L (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-vasxtablo",
+          "form": "vaŝtablo",
+          "gloss": "tablilla de cera",
+          "analysis_html": "VAŜ <span class=\"meta-extra\">(pendiente)</span> + TAB + L <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "VAŜ (pendiente) + TAB + L (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tabuko",
+          "form": "tabuko",
+          "gloss": "tabique, septo, separación",
+          "analysis_html": "TAB + UK <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TAB + UK (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tabenal",
+          "form": "tabenal",
+          "gloss": "comedor",
+          "analysis_html": "TAB + EN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "TAB + EN (pendiente) + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Sufijo: *-ER «locativo» (según Tana)."
+          ]
+        },
+        {
+          "id": "lexeme-tabadol",
+          "form": "tabadol",
+          "gloss": "lleno de madera",
+          "analysis_html": "TAB + AD <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "TAB + AD (pendiente) + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -120,6 +379,31 @@
             "acciones"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-zxontajlistan",
+          "form": "ẑontajlistan",
+          "gloss": "cantero",
+          "analysis_html": "ẐON <span class=\"meta-extra\">(pendiente)</span> + TAJL + IST <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "ẐON (pendiente) + TAJL + IST (pendiente) + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -138,7 +422,164 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-altakas",
+          "form": "altakas",
+          "gloss": "atacar, invadir",
+          "analysis_html": "AL <span class=\"meta-extra\">(pendiente)</span> + TAK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "AL (pendiente) + TAK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Combate, uno sobre el otro. Prefijo: *AL- «partícula alativa»."
+          ]
+        },
+        {
+          "id": "lexeme-juntakas",
+          "form": "juntakas",
+          "gloss": "agregar, acoplar",
+          "analysis_html": "JUN <span class=\"meta-extra\">(pendiente)</span> + TAK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "JUN (pendiente) + TAK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Con *ĴUN «uno, unir»."
+          ]
+        },
+        {
+          "id": "lexeme-detakas",
+          "form": "detakas",
+          "gloss": "separar, arrancar, desacoplar",
+          "analysis_html": "DE <span class=\"meta-extra\">(pendiente)</span> + TAK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "DE (pendiente) + TAK + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Prefijo: *DE- «ablativo»."
+          ]
+        },
+        {
+          "id": "lexeme-altakan",
+          "form": "altakan",
+          "gloss": "atacante, ofensor",
+          "analysis_html": "AL <span class=\"meta-extra\">(pendiente)</span> + TAK + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "AL (pendiente) + TAK + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tako",
+          "form": "tako",
+          "gloss": "taquete, clavo",
+          "analysis_html": "TAK + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TAK + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-altakea",
+          "form": "altakea",
+          "gloss": "ataque",
+          "analysis_html": "AL <span class=\"meta-extra\">(pendiente)</span> + TAK + E <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "AL (pendiente) + TAK + E (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-taks",
@@ -287,6 +728,56 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-tardis",
+          "form": "tardis",
+          "gloss": "tarde",
+          "analysis_html": "TARD + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "TARD + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-etardes",
+          "form": "etardes",
+          "gloss": "es tarde, se hizo tarde",
+          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + TARD + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "E (pendiente) + TARD + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -305,7 +796,65 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tartrudin",
+          "form": "tartrudin",
+          "gloss": "tortuga",
+          "analysis_html": "TARTAR <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "TARTAR (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tartarma",
+          "form": "tartarma",
+          "gloss": "tormento",
+          "analysis_html": "TARTAR + M <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TARTAR + M (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tartaren",
+          "form": "Tartaren",
+          "gloss": "inframundo",
+          "analysis_html": "TARTAR + EN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TARTAR + EN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tav-r",
@@ -314,10 +863,88 @@
       "tags": [],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "< Eo. taŭro.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tavrin",
+          "form": "Tavrin",
+          "gloss": "toro",
+          "analysis_html": "TAVR + IN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TAVR + IN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Macho bóvido."
+          ]
+        },
+        {
+          "id": "lexeme-tavrelo",
+          "form": "tavrelo",
+          "gloss": "constelación de Tauro",
+          "analysis_html": "TAVR + EL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TAVR + EL (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tavridin",
+          "form": "tavridin",
+          "gloss": "ternera",
+          "analysis_html": "TAVR + IDIN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TAVR + IDIN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-vrantavrin",
+          "form": "Vrantavrin",
+          "gloss": "Toro del Cielo",
+          "analysis_html": "VRAN <span class=\"meta-extra\">(pendiente)</span> + TAVR + IN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "VRAN (pendiente) + TAVR + IN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Animal mitológico babilonio."
+          ]
+        }
+      ]
     },
     {
       "id": "root-te",
@@ -334,7 +961,53 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-teyen",
+          "form": "teyen",
+          "gloss": "allá",
+          "analysis_html": "TE + YEN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TE + YEN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Con *YEN «ahí»."
+          ]
+        },
+        {
+          "id": "lexeme-teyam",
+          "form": "teyam",
+          "gloss": "en aquel momento, entonces",
+          "analysis_html": "TE + Y <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "TE + Y (pendiente) + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Con jam «ya, ahora»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-tenc",
@@ -348,7 +1021,149 @@
         "CANÓNICO: *TECN- «técnica»; sustituye la grafía anterior *TENC-."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tecnatheker",
+          "form": "tecnaθeker",
+          "gloss": "instituto tecnológico",
+          "analysis_html": "TECN + AΘEKER <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TECN + AΘEKER (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tecniston",
+          "form": "tecniston",
+          "gloss": "técnico",
+          "analysis_html": "TECN + IST <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "TECN + IST (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tecna",
+          "form": "tecna",
+          "gloss": "técnica",
+          "analysis_html": "TECN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TECN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tecnada",
+          "form": "tecnada",
+          "gloss": "tecnología",
+          "analysis_html": "TECN + AD <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TECN + AD (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tecneos",
+          "form": "tecneos",
+          "gloss": "adiestrarse",
+          "analysis_html": "TECN + E <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TECN + E (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tecnadel",
+          "form": "tecnadel",
+          "gloss": "tecnológico",
+          "analysis_html": "TECN + AD <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "TECN + AD (pendiente) + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ted",
@@ -360,7 +1175,151 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-pratedas",
+          "form": "pratedas",
+          "gloss": "obstruir, impedir, dificultar",
+          "analysis_html": "PRA <span class=\"meta-extra\">(pendiente)</span> + TED + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "PRA (pendiente) + TED + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tedeas",
+          "form": "tedeas",
+          "gloss": "causar tedio, aburrimiento, molestia",
+          "analysis_html": "TED + E <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TED + E (pendiente) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-prateda",
+          "form": "prateda",
+          "gloss": "problema, obstáculo, obstrucción",
+          "analysis_html": "PRA <span class=\"meta-extra\">(pendiente)</span> + TED + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "PRA (pendiente) + TED + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Algo que impide, obstruye."
+          ]
+        },
+        {
+          "id": "lexeme-tedea",
+          "form": "tedea",
+          "gloss": "aburrimiento, tedio",
+          "analysis_html": "TED + E <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TED + E (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tedeol",
+          "form": "tedeol",
+          "gloss": "aburrido",
+          "analysis_html": "TED + E <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "TED + E (pendiente) + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tedemik",
+          "form": "tedemik",
+          "gloss": "tedioso",
+          "analysis_html": "TED + EMIK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TED + EMIK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-teg",
@@ -377,7 +1336,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tegmo",
+          "form": "tegmo",
+          "gloss": "techo",
+          "analysis_html": "TEG + M <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TEG + M (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-busxtegmo",
+          "form": "buŝtegmo",
+          "gloss": "paladar",
+          "analysis_html": "BUŜ <span class=\"meta-extra\">(pendiente)</span> + TEG + M <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BUŜ (pendiente) + TEG + M (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ten",
@@ -414,6 +1424,235 @@
             "acciones"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-tento",
+          "form": "tento",
+          "gloss": "mano",
+          "analysis_html": "TEN + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TEN + T (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-soteno",
+          "form": "soteno",
+          "gloss": "base, soporte",
+          "analysis_html": "SO <span class=\"meta-extra\">(pendiente)</span> + TEN + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "SO (pendiente) + TEN + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tendlo",
+          "form": "tendlo",
+          "gloss": "mango, manija",
+          "analysis_html": "TEN + DL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TEN + DL (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tenga",
+          "form": "tenga",
+          "gloss": "puñado",
+          "analysis_html": "TEN + G <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TEN + G (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tenzxos",
+          "form": "tenẑos",
+          "gloss": "pertenecer",
+          "analysis_html": "TEN + Ẑ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TEN + Ẑ (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tenecxas",
+          "form": "teneĉas",
+          "gloss": "resistir, soportar",
+          "analysis_html": "TEN + EĈ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TEN + EĈ (pendiente) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Sufijo: *-EĈ «aun, a pesar»."
+          ]
+        },
+        {
+          "id": "lexeme-tentas",
+          "form": "tentas",
+          "gloss": "palpar",
+          "analysis_html": "TEN + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TEN + T (pendiente) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-lotenas",
+          "form": "lotenas",
+          "gloss": "mantener",
+          "analysis_html": "LO <span class=\"meta-extra\">(pendiente)</span> + TEN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LO (pendiente) + TEN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ostentas",
+          "form": "ostentas",
+          "gloss": "prestar atención",
+          "analysis_html": "OS <span class=\"meta-extra\">(pendiente)</span> + TEN + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "OS (pendiente) + TEN + T (pendiente) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Prefijo: *OS- «oído»."
+          ]
         }
       ]
     },
@@ -427,7 +1666,56 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tembra",
+          "form": "tembra",
+          "gloss": "tinieblas, oscuridad",
+          "analysis_html": "TENBR <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "TENBR (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tembris",
+          "form": "tembris",
+          "gloss": "oscuro (poca visibilidad por poca luz)",
+          "analysis_html": "TENBR <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "TENBR (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tembrafis",
+          "form": "tembrafis",
+          "gloss": "tenebroso, lúgubre",
+          "analysis_html": "TENBR <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "TENBR (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tend",
@@ -439,7 +1727,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mjeltendo",
+          "form": "mjeltendo",
+          "gloss": "nervio",
+          "analysis_html": "MJEL <span class=\"meta-extra\">(pendiente)</span> + TEND + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MJEL (pendiente) + TEND + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mjotendo",
+          "form": "mjotendo",
+          "gloss": "ligamento",
+          "analysis_html": "MJO <span class=\"meta-extra\">(pendiente)</span> + TEND + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MJO (pendiente) + TEND + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ter",
@@ -451,7 +1790,131 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-terernel",
+          "form": "terernel",
+          "gloss": "terrestre",
+          "analysis_html": "TER + ERN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "TER + ERN (pendiente) + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cxefteren",
+          "form": "ĉefteren",
+          "gloss": "cabo (geografía)",
+          "analysis_html": "ĈEF <span class=\"meta-extra\">(pendiente)</span> + TER + EN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ĈEF (pendiente) + TER + EN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-teras",
+          "form": "teras",
+          "gloss": "secar",
+          "analysis_html": "TER + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TER + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-teril",
+          "form": "teril",
+          "gloss": "seco",
+          "analysis_html": "TER + IL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TER + IL (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-terejon",
+          "form": "terejon",
+          "gloss": "terrícola",
+          "analysis_html": "TER + EJ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "TER + EJ (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-terer",
+          "form": "Terer",
+          "gloss": "la Tierra",
+          "analysis_html": "TER + ER <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TER + ER (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tes",
@@ -460,12 +1923,129 @@
       "tags": [],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "< Eo. teksi.",
       "notes": [
         "CANÓNICO: *TEŜ- «tejer»; sustituye la grafía anterior *TES-."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tesxas",
+          "form": "teŝas",
+          "gloss": "tejer",
+          "analysis_html": "TEŜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TEŜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tesxcxeto",
+          "form": "teŝĉeto",
+          "gloss": "telaraña, red",
+          "analysis_html": "TEŜ + ĈET <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TEŜ + ĈET (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tesxcxin",
+          "form": "teŝĉin",
+          "gloss": "araña",
+          "analysis_html": "TEŜ + ĈIN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TEŜ + ĈIN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cxatesxa",
+          "form": "ĉateŝa",
+          "gloss": "internet",
+          "analysis_html": "ĈA <span class=\"meta-extra\">(pendiente)</span> + TEŜ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĈA (pendiente) + TEŜ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cxotesxena",
+          "form": "ĉoteŝena",
+          "gloss": "internet",
+          "analysis_html": "ĈO <span class=\"meta-extra\">(pendiente)</span> + TEŜ + EN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĈO (pendiente) + TEŜ + EN (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-test",
@@ -502,6 +2082,138 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-partestas",
+          "form": "partestas",
+          "gloss": "atestar, atestiguar",
+          "analysis_html": "PAR <span class=\"meta-extra\">(pendiente)</span> + TEST + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "PAR (pendiente) + TEST + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-urtestas",
+          "form": "urtestas",
+          "gloss": "testificar, historiar",
+          "analysis_html": "UR <span class=\"meta-extra\">(pendiente)</span> + TEST + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "UR (pendiente) + TEST + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-partestan",
+          "form": "partestan",
+          "gloss": "testigo",
+          "analysis_html": "PAR <span class=\"meta-extra\">(pendiente)</span> + TEST + AN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "PAR (pendiente) + TEST + AN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-urtestaran",
+          "form": "urtestaran",
+          "gloss": "historiador",
+          "analysis_html": "UR <span class=\"meta-extra\">(pendiente)</span> + TEST + ARAN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "UR (pendiente) + TEST + ARAN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-testolo",
+          "form": "testolo",
+          "gloss": "certificado",
+          "analysis_html": "TEST + OL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TEST + OL (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-urtesta",
+          "form": "urtesta",
+          "gloss": "historia",
+          "analysis_html": "UR <span class=\"meta-extra\">(pendiente)</span> + TEST + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "UR (pendiente) + TEST + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -520,7 +2232,65 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tevditon",
+          "form": "tevditon",
+          "gloss": "alemán",
+          "analysis_html": "TEVD + IT <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "TEVD + IT (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tevditer",
+          "form": "Tevditer",
+          "gloss": "Alemania",
+          "analysis_html": "TEVD + ITER <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TEVD + ITER (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tevdi",
+          "form": "tevdi",
+          "gloss": "los teutones",
+          "analysis_html": "TEVD + I <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TEVD + I (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tibr",
@@ -537,7 +2307,49 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tibron-ogoston",
+          "form": "Tibron Ogoston",
+          "gloss": "emperador Tiberio",
+          "analysis_html": "TIBR <span class=\"meta-extra\">(locución o afijo; segmentación pendiente)</span>",
+          "analysis_text": "TIBR (segmentación pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tibral",
+          "form": "tibral",
+          "gloss": "río Tíber",
+          "analysis_html": "TIBR + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "TIBR + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tif",
@@ -554,7 +2366,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tifago",
+          "form": "tifago",
+          "gloss": "huracán, tornado",
+          "analysis_html": "TIF + AG <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TIF + AG (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tig",
@@ -563,10 +2401,86 @@
       "tags": [],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "< Eo. tigo.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tigosto",
+          "form": "tigosto",
+          "gloss": "tibia",
+          "analysis_html": "TIG + OST <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TIG + OST (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tigo",
+          "form": "tigo",
+          "gloss": "tallo, palo",
+          "analysis_html": "TIG + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TIG + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tigido",
+          "form": "tigido",
+          "gloss": "vástago, pedúnculo del tallo",
+          "analysis_html": "TIG + ID <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TIG + ID (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tig-2",
@@ -575,10 +2489,127 @@
       "tags": [],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "< Eo. tigro.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tigiso",
+          "form": "Tigiso",
+          "gloss": "tigresa",
+          "analysis_html": "TIG + IS <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TIG + IS (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-pantigro",
+          "form": "Pantigro",
+          "gloss": "pantera",
+          "analysis_html": "PAN <span class=\"meta-extra\">(pendiente)</span> + TIG + R <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "PAN (pendiente) + TIG + R (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tibetigro",
+          "form": "Tibetigro",
+          "gloss": "leopardo de las nieves / irbis",
+          "analysis_html": "TIBE <span class=\"meta-extra\">(pendiente)</span> + TIG + R <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TIBE (pendiente) + TIG + R (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-sibertigro",
+          "form": "Sibertigro",
+          "gloss": "tigre siberiano",
+          "analysis_html": "SIBER <span class=\"meta-extra\">(pendiente)</span> + TIG + R <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "SIBER (pendiente) + TIG + R (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tigrin",
+          "form": "Tigrin",
+          "gloss": "tigre",
+          "analysis_html": "TIG + RIN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TIG + RIN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-til",
@@ -653,6 +2684,138 @@
             "acciones"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-etimes",
+          "form": "etimes",
+          "gloss": "tener miedo",
+          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + TIM + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "E (pendiente) + TIM + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-timura",
+          "form": "timura",
+          "gloss": "miedo",
+          "analysis_html": "TIM + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "TIM + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fitimana",
+          "form": "fitimana",
+          "gloss": "expectativa (mala)",
+          "analysis_html": "FI <span class=\"meta-extra\">(pendiente)</span> + TIM + AN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FI (pendiente) + TIM + AN (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-sotimezxa",
+          "form": "sotimeẑa",
+          "gloss": "timidez",
+          "analysis_html": "SO <span class=\"meta-extra\">(pendiente)</span> + TIM + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "SO (pendiente) + TIM + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-sotimen",
+          "form": "sotimen",
+          "gloss": "temido",
+          "analysis_html": "SO <span class=\"meta-extra\">(pendiente)</span> + TIM + EN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "SO (pendiente) + TIM + EN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-timigxar",
+          "form": "timiĝar",
+          "gloss": "atemorizante",
+          "analysis_html": "TIM + IĜAR <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TIM + IĜAR (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -690,6 +2853,124 @@
             "comunicación",
             "abstractos"
           ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tinida",
+          "form": "tinida",
+          "gloss": "acento",
+          "analysis_html": "TIN + ID <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TIN + ID (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tintinos",
+          "form": "tintinos",
+          "gloss": "timbrar, sonar",
+          "analysis_html": "TIN + TIN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TIN + TIN (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tinko",
+          "form": "tinko",
+          "gloss": "copa",
+          "analysis_html": "TIN + K <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TIN + K (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "En desuso."
+          ]
+        },
+        {
+          "id": "lexeme-tintro",
+          "form": "tintro",
+          "gloss": "cristal",
+          "analysis_html": "TIN + TR <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TIN + TR (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tintri",
+          "form": "tintri",
+          "gloss": "de cristal, cristalino",
+          "analysis_html": "TIN + TRI <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TIN + TRI (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
           "notes": []
         }
       ]
@@ -758,6 +3039,81 @@
             "sustancias"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-gxatintas",
+          "form": "ĝatintas",
+          "gloss": "distinguir",
+          "analysis_html": "ĜA <span class=\"meta-extra\">(pendiente)</span> + TINT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĜA (pendiente) + TINT + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tintja",
+          "form": "tintja",
+          "gloss": "matiz, tinción, distinción de color",
+          "analysis_html": "TINT + J <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TINT + J (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gxatintel",
+          "form": "ĝatintel",
+          "gloss": "distinto (algo sutil que diferencia)",
+          "analysis_html": "ĜA <span class=\"meta-extra\">(pendiente)</span> + TINT + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "ĜA (pendiente) + TINT + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -768,10 +3124,61 @@
       "tags": [],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "< Eo. atingi.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-atingas",
+          "form": "atingas",
+          "gloss": "completar, alcanzar",
+          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + TING + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A (pendiente) + TING + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tinges",
+          "form": "tinges",
+          "gloss": "estar completo, realizado, alcanzado",
+          "analysis_html": "TING + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "TING + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tir",
@@ -806,6 +3213,56 @@
             "movimiento",
             "acciones"
           ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tirviga",
+          "form": "tirviga",
+          "gloss": "gravedad, atracción",
+          "analysis_html": "TIR + VIG <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TIR + VIG (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-zxitiras",
+          "form": "ẑitiras",
+          "gloss": "atraer",
+          "analysis_html": "ẐI <span class=\"meta-extra\">(pendiente)</span> + TIR + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ẐI (pendiente) + TIR + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
           "notes": []
         }
       ]
@@ -846,7 +3303,60 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-titan",
+          "form": "titan",
+          "gloss": "titán (ser mitológico)",
+          "analysis_html": "TIT + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "TIT + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-titalje",
+          "form": "titalje",
+          "gloss": "titanio (metal)",
+          "analysis_html": "TIT + ALJ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "TIT + ALJ (pendiente) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Sufijo: *-ALJE «metal»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-tog",
@@ -887,6 +3397,31 @@
             "cualidades"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-togema",
+          "form": "togema",
+          "gloss": "aptitud",
+          "analysis_html": "TOG + EM <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TOG + EM (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -912,7 +3447,56 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-toldras",
+          "form": "toldras",
+          "gloss": "tolerar, soportar",
+          "analysis_html": "TOLR <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "TOLR (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-toldrezxa",
+          "form": "toldreẑa",
+          "gloss": "tolerancia, paciencia",
+          "analysis_html": "TOLR <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "TOLR (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-frotoldrezxa",
+          "form": "frotoldreẑa",
+          "gloss": "resiliencia",
+          "analysis_html": "TOLR <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "TOLR (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ton",
@@ -924,7 +3508,126 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tonajo",
+          "form": "tonajo",
+          "gloss": "sol (eufemismo)",
+          "analysis_html": "TON + AJ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TON + AJ (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tona",
+          "form": "tona",
+          "gloss": "color de piel",
+          "analysis_html": "TON + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TON + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tonizos",
+          "form": "tonizos",
+          "gloss": "broncearse",
+          "analysis_html": "TON + IZ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TON + IZ (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tonini",
+          "form": "tonini",
+          "gloss": "asoleado, bronceado",
+          "analysis_html": "TON + INI <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TON + INI (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tonzxo",
+          "form": "tonço",
+          "gloss": "bronce",
+          "analysis_html": "TON + Ç <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TON + Ç (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Grafía en Tana con ç."
+          ]
+        }
+      ]
     },
     {
       "id": "root-tondr",
@@ -986,6 +3689,72 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-tondral",
+          "form": "tondral",
+          "gloss": "trueno",
+          "analysis_html": "TONDR + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "TONDR + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tondrerga",
+          "form": "tondrerga",
+          "gloss": "electricidad",
+          "analysis_html": "TONDR + ERG <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TONDR + ERG (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tondrelik",
+          "form": "tondrelik",
+          "gloss": "eléctrico",
+          "analysis_html": "TONDR + ELIK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TONDR + ELIK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -996,7 +3765,7 @@
       "tags": [],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "< Eo. tordi.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1049,6 +3818,188 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-tuturza",
+          "form": "tuturza",
+          "gloss": "esguince",
+          "analysis_html": "TOR <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "TOR (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-torkos",
+          "form": "torkos",
+          "gloss": "girarse, dar vuelta",
+          "analysis_html": "TOR + K <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TOR + K (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-rotorkos",
+          "form": "rotorkos",
+          "gloss": "girar, rotar",
+          "analysis_html": "RO <span class=\"meta-extra\">(pendiente)</span> + TOR + K <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "RO (pendiente) + TOR + K (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-toril",
+          "form": "toril",
+          "gloss": "torcido, chueco",
+          "analysis_html": "TOR + IL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TOR + IL (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-torgxo",
+          "form": "torĝo",
+          "gloss": "tuerca, brazalete",
+          "analysis_html": "TOR + Ĝ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TOR + Ĝ (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-torgo",
+          "form": "torgo",
+          "gloss": "rueda",
+          "analysis_html": "TOR + G <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TOR + G (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-rotorko",
+          "form": "rotorko",
+          "gloss": "motor, turbina",
+          "analysis_html": "RO <span class=\"meta-extra\">(pendiente)</span> + TOR + K <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "RO (pendiente) + TOR + K (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-torka",
+          "form": "torka",
+          "gloss": "giro, vuelta, vez",
+          "analysis_html": "TOR + K <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TOR + K (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -1062,7 +4013,240 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tro",
+          "form": "tro",
+          "gloss": "mucho",
+          "analysis_html": "TR + O <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TR + O (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trium",
+          "form": "trium",
+          "gloss": "triple",
+          "analysis_html": "TR + IUM <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TR + IUM (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Sufijo: *-PLOM «múltiple» (según Tana)."
+          ]
+        },
+        {
+          "id": "lexeme-tridjo",
+          "form": "tridjo",
+          "gloss": "tercio",
+          "analysis_html": "TR + IDJO <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TR + IDJO (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-triel",
+          "form": "triel",
+          "gloss": "tercero",
+          "analysis_html": "TR + I <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "TR + I (pendiente) + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tri",
+          "form": "tri",
+          "gloss": "tres",
+          "analysis_html": "TR + I <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TR + I (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tranti",
+          "form": "tranti",
+          "gloss": "treinta",
+          "analysis_html": "TR + ANTI <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TR + ANTI (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Variante: trideẑ."
+          ]
+        },
+        {
+          "id": "lexeme-trizxen",
+          "form": "triẑen",
+          "gloss": "trescientos",
+          "analysis_html": "TR + IẐEN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TR + IẐEN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tricil",
+          "form": "tricil",
+          "gloss": "tres mil",
+          "analysis_html": "TR + ICIL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TR + ICIL (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trimek",
+          "form": "trimek",
+          "gloss": "tres millones",
+          "analysis_html": "TR + IMEK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TR + IMEK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-triplumas",
+          "form": "triplumas",
+          "gloss": "triplicar",
+          "analysis_html": "TR + IPLUM <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TR + IPLUM (pendiente) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-triango",
+          "form": "triango",
+          "gloss": "triángulo",
+          "analysis_html": "TR + IANG <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TR + IANG (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trino",
+          "form": "trino",
+          "gloss": "tercia",
+          "analysis_html": "TR + IN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TR + IN (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tra",
@@ -1074,7 +4258,40 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tra",
+          "form": "tra",
+          "gloss": "por",
+          "analysis_html": "TRA",
+          "analysis_text": "TRA",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tru",
+          "form": "tru",
+          "gloss": "a través",
+          "analysis_html": "TRA <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "TRA (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trab",
@@ -1110,6 +4327,72 @@
             "construcción"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-atrabas",
+          "form": "atrabas",
+          "gloss": "cerrar, trabar",
+          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + TRAB + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A (pendiente) + TRAB + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trabako",
+          "form": "trabako",
+          "gloss": "obstáculo",
+          "analysis_html": "TRAB + AK <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TRAB + AK (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trabacxer",
+          "form": "trabaĉer",
+          "gloss": "barracas, cuarteles",
+          "analysis_html": "TRAB + AĈER <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TRAB + AĈER (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -1123,7 +4406,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trabantan",
+          "form": "trabantan",
+          "gloss": "guardián, vigilante",
+          "analysis_html": "TRAB + ANT <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "TRAB + ANT (pendiente) + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trabanto",
+          "form": "trabanto",
+          "gloss": "satélite, luna",
+          "analysis_html": "TRAB + ANT <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TRAB + ANT (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-traj",
@@ -1140,7 +4474,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trajta",
+          "form": "trajta",
+          "gloss": "característica, rasgo",
+          "analysis_html": "TRAJ + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TRAJ + T (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tramp",
@@ -1149,7 +4509,7 @@
       "tags": [],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "< Eo. trampo.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1177,6 +4537,151 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-trampon",
+          "form": "trampon",
+          "gloss": "vago, vagante",
+          "analysis_html": "TRAMP + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "TRAMP + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trampunon",
+          "form": "trampunon",
+          "gloss": "vagabundo",
+          "analysis_html": "TRAMP + UN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "TRAMP + UN (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-eltrampos",
+          "form": "eltrampos",
+          "gloss": "salirse del camino, divagar",
+          "analysis_html": "EL <span class=\"meta-extra\">(pendiente)</span> + TRAMP + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "EL (pendiente) + TRAMP + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-rontrampas",
+          "form": "rontrampas",
+          "gloss": "orbitar",
+          "analysis_html": "RON <span class=\"meta-extra\">(pendiente)</span> + TRAMP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "RON (pendiente) + TRAMP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Con *ĜARD- «cerca»."
+          ]
+        },
+        {
+          "id": "lexeme-astrampasmo",
+          "form": "astrampasmo",
+          "gloss": "sistema planetario",
+          "analysis_html": "AS <span class=\"meta-extra\">(pendiente)</span> + TRAMP + ASM <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "AS (pendiente) + TRAMP + ASM (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-rontrampil",
+          "form": "rontrampil",
+          "gloss": "órbita",
+          "analysis_html": "RON <span class=\"meta-extra\">(pendiente)</span> + TRAMP + IL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "RON (pendiente) + TRAMP + IL (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Con *VOJ- «vía»."
+          ]
         }
       ]
     },
@@ -1190,7 +4695,99 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trancxelo",
+          "form": "tranĉelo",
+          "gloss": "rebanada",
+          "analysis_html": "TRAN + ĈEL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TRAN + ĈEL (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trancxako",
+          "form": "tranĉako",
+          "gloss": "cuchillo",
+          "analysis_html": "TRAN + ĈAK <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TRAN + ĈAK (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trambo",
+          "form": "trambo",
+          "gloss": "pan",
+          "analysis_html": "TRAN <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "TRAN (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trancxas",
+          "form": "tranĉas",
+          "gloss": "rebanar",
+          "analysis_html": "TRAN + Ĉ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TRAN + Ĉ (pendiente) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trang",
@@ -1202,7 +4799,24 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trangofin",
+          "form": "trangofin",
+          "gloss": "boa",
+          "analysis_html": "TRANG + OFIN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TRANG + OFIN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trat",
@@ -1214,7 +4828,24 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tratil",
+          "form": "tratil",
+          "gloss": "calle",
+          "analysis_html": "TRAT + IL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TRAT + IL (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trec",
@@ -1233,7 +4864,33 @@
         "CANÓNICO: *TREĈ- «estrecharse, reducirse»; sustituye la grafía anterior *TREC-."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-trecxos",
+          "form": "treĉos",
+          "gloss": "estrecharse, reducirse",
+          "analysis_html": "TREĈ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TREĈ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-trejn",
@@ -1245,7 +4902,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ontrejnas",
+          "form": "ontrejnas",
+          "gloss": "entrenar (q)",
+          "analysis_html": "ON <span class=\"meta-extra\">(pendiente)</span> + TREJN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ON (pendiente) + TREJN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trejnos",
+          "form": "trejnos",
+          "gloss": "entrenar",
+          "analysis_html": "TREJN + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TREJN + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trejnistan",
+          "form": "trejnistan",
+          "gloss": "entrenador",
+          "analysis_html": "TREJN + IST <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "TREJN + IST (pendiente) + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tremp",
@@ -1254,7 +4987,7 @@
       "tags": [],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "< Eo. trempi.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1318,6 +5051,33 @@
             "movimiento"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-tretacxas",
+          "form": "tretaĉas",
+          "gloss": "aplastar, atropellar",
+          "analysis_html": "TRET + AĈ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TRET + AĈ (pendiente) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Sufijo: *-AĈ- «intensificativo verbal»."
+          ]
         }
       ]
     },
@@ -1360,6 +5120,47 @@
             "valor",
             "acciones"
           ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kasxtrezo",
+          "form": "kaŝtrezo",
+          "gloss": "tesoro",
+          "analysis_html": "KAŜ <span class=\"meta-extra\">(pendiente)</span> + TREZ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KAŜ (pendiente) + TREZ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trezeden",
+          "form": "trezeden",
+          "gloss": "banco",
+          "analysis_html": "TREZ + EDEN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TREZ + EDEN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
           "notes": []
         }
       ]
@@ -1427,6 +5228,31 @@
             "acciones",
             "abstractos"
           ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gxatrias",
+          "form": "ĝatrias",
+          "gloss": "filtrar",
+          "analysis_html": "ĜA <span class=\"meta-extra\">(pendiente)</span> + TRI + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĜA (pendiente) + TRI + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
           "notes": []
         }
       ]
@@ -1570,6 +5396,97 @@
             "cualidades"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-sotrista",
+          "form": "sotrista",
+          "gloss": "bajón ligero",
+          "analysis_html": "SO <span class=\"meta-extra\">(pendiente)</span> + TRIST + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "SO (pendiente) + TRIST + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tristuma",
+          "form": "tristuma",
+          "gloss": "depresión",
+          "analysis_html": "TRIST + UM <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TRIST + UM (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxontrista",
+          "form": "ĵontrista",
+          "gloss": "nostalgia",
+          "analysis_html": "ĴON <span class=\"meta-extra\">(pendiente)</span> + TRIST + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ĴON (pendiente) + TRIST + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tristan",
+          "form": "tristan",
+          "gloss": "lamentable, triste",
+          "analysis_html": "TRIST + AN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TRIST + AN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -1638,6 +5555,172 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-trofistan",
+          "form": "trofistan",
+          "gloss": "nodriza, cuidadora, nana",
+          "analysis_html": "TROF + IST <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "TROF + IST (pendiente) + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trofate",
+          "form": "trofate",
+          "gloss": "nutrientes",
+          "analysis_html": "TROF + AT <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "TROF + AT (pendiente) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trofa",
+          "form": "trofa",
+          "gloss": "naturaleza (entidad)",
+          "analysis_html": "TROF + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TROF + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trofara",
+          "form": "trofara",
+          "gloss": "nutrición",
+          "analysis_html": "TROF + AR <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TROF + AR (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-satitrofura",
+          "form": "satitrofura",
+          "gloss": "hipertrofia",
+          "analysis_html": "SATI <span class=\"meta-extra\">(pendiente)</span> + TROF + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "SATI (pendiente) + TROF + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-mintrofura",
+          "form": "mintrofura",
+          "gloss": "hipotrofia",
+          "analysis_html": "MIN <span class=\"meta-extra\">(pendiente)</span> + TROF + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "MIN (pendiente) + TROF + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trofalik",
+          "form": "trofalik",
+          "gloss": "natural (de la naturaleza)",
+          "analysis_html": "TROF + ALIK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TROF + ALIK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -1653,7 +5736,7 @@
       ],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "< Eo. trompi.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1705,6 +5788,56 @@
             "conducta",
             "abstractos"
           ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trompabla",
+          "form": "trompabla",
+          "gloss": "capacidad de engaño",
+          "analysis_html": "TROMP + ABL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TROMP + ABL (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trompanor",
+          "form": "trompanor",
+          "gloss": "engañoso",
+          "analysis_html": "TROMP + AN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "TROMP + AN (pendiente) + -OR",
+          "refs": [
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OR"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
           "notes": []
         }
       ]
@@ -1840,6 +5973,56 @@
             "objetos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-truklo",
+          "form": "truklo",
+          "gloss": "taladro",
+          "analysis_html": "TRU + KL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TRU + KL (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-truon",
+          "form": "truon",
+          "gloss": "truhán, malhechor",
+          "analysis_html": "TRU + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "TRU + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -1877,6 +6060,22 @@
             "acciones"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-trudil",
+          "form": "trudil",
+          "gloss": "forzado, impuesto",
+          "analysis_html": "TRUD + IL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "TRUD + IL (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -1907,7 +6106,83 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tujam",
+          "form": "tujam",
+          "gloss": "enseguida, de inmediato",
+          "analysis_html": "TUJ + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "TUJ + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tujamja",
+          "form": "tujamja",
+          "gloss": "inmediatez",
+          "analysis_html": "TUJ + AMJ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TUJ + AMJ (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tujis",
+          "form": "tujis",
+          "gloss": "apresurado",
+          "analysis_html": "TUJ + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "TUJ + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tuk",
@@ -1969,6 +6244,31 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-tukenos",
+          "form": "tukenos",
+          "gloss": "llevar puesto",
+          "analysis_html": "TUK + EN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TUK + EN (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -1982,7 +6282,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tungas",
+          "form": "tungas",
+          "gloss": "tocar un instrumento",
+          "analysis_html": "TUNG + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TUNG + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-turk",
@@ -1994,7 +6320,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-turkizxone",
+          "form": "turkiẑone",
+          "gloss": "turquesa",
+          "analysis_html": "TURK + IẐON <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "TURK + IẐON (pendiente) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-tus",
@@ -2056,6 +6408,31 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-tusastro",
+          "form": "tusastro",
+          "gloss": "tusílago (planta)",
+          "analysis_html": "TUS + ASTR <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TUS + ASTR (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -2066,7 +6443,7 @@
       "tags": [],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "< Eo. tuŝi.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -2118,6 +6495,31 @@
             "abstractos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-tutusxas",
+          "form": "tutuŝas",
+          "gloss": "toquetear",
+          "analysis_html": "TU <span class=\"meta-extra\">(pendiente)</span> + TUŜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TU (pendiente) + TUŜ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -2160,6 +6562,22 @@
             "dientes",
             "objetos"
           ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-martuskin",
+          "form": "martuskin",
+          "gloss": "morsa, marsopa",
+          "analysis_html": "MAR <span class=\"meta-extra\">(pendiente)</span> + TUSK + IN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "MAR (pendiente) + TUSK + IN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
           "notes": []
         }
       ]

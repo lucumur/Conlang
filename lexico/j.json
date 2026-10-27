@@ -35,7 +35,76 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-jxonzxo",
+          "form": "ĵonẑo",
+          "gloss": "ion",
+          "analysis_html": "JON + Ẑ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "JON + Ẑ (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxonis",
+          "form": "ĵonis",
+          "gloss": "",
+          "analysis_html": "JON + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "JON + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "sin glosa en Tana"
+          ]
+        },
+        {
+          "id": "lexeme-jxonik-2",
+          "form": "ĵonik",
+          "gloss": "iónico",
+          "analysis_html": "JON + IK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "JON + IK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-jon-2",
@@ -47,7 +116,88 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-jxone",
+          "form": "ĵone",
+          "gloss": "lejos",
+          "analysis_html": "JON + E <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "JON + E (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-oljxoname",
+          "form": "olĵoname",
+          "gloss": "ultimadamente, al final, al último",
+          "analysis_html": "OL <span class=\"meta-extra\">(pendiente)</span> + JON + AME <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "OL (pendiente) + JON + AME (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-oljxoni",
+          "form": "olĵoni",
+          "gloss": "último",
+          "analysis_html": "OL <span class=\"meta-extra\">(pendiente)</span> + JON + I <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "OL (pendiente) + JON + I (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxoni",
+          "form": "ĵoni",
+          "gloss": "el otro",
+          "analysis_html": "JON + I <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "JON + I (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxonik",
+          "form": "ĵonik",
+          "gloss": "lejano",
+          "analysis_html": "JON + IK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "JON + IK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-jo",
@@ -81,19 +231,66 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-voj",
+          "form": "voj",
+          "gloss": "ustedes",
+          "analysis_html": "JU <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "JU (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Declinación: vof / vojn / vosku; ergativo vos; alativo/dativo vof; gen./abl. vor; colectivo voks «con vos»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-ju-2",
-      "form": "*JU-",
+      "form": "*JUL-",
       "gloss": "joya",
       "tags": [],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Forma anterior en el repo: *JU-."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-rujxulzxono",
+          "form": "ruĵulẑono",
+          "gloss": "rubí",
+          "analysis_html": "RU <span class=\"meta-extra\">(pendiente)</span> + JUL + ẐON <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "RU (pendiente) + JUL + ẐON (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-jun",
@@ -107,10 +304,218 @@
       ],
       "letter": "J",
       "section": "sec-j",
-      "etymology": null,
+      "etymology": "< Eo. *kun.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-junas",
+          "form": "junas",
+          "gloss": "unir, juntar",
+          "analysis_html": "JUN + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "JUN + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ajunos",
+          "form": "ajunos",
+          "gloss": "aislarse",
+          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + JUN + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "A (pendiente) + JUN + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-juna",
+          "form": "juna",
+          "gloss": "unión",
+          "analysis_html": "JUN + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "JUN + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-parjunon",
+          "form": "parjunon",
+          "gloss": "amigo, compañero",
+          "analysis_html": "PAR <span class=\"meta-extra\">(pendiente)</span> + JUN + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "PAR (pendiente) + JUN + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-junto",
+          "form": "junto",
+          "gloss": "enlace, liga",
+          "analysis_html": "JUN + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "JUN + T (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ajunum",
+          "form": "ajunum",
+          "gloss": "solamente",
+          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + JUN + UM <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "A (pendiente) + JUN + UM (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-juntek",
+          "form": "juntek",
+          "gloss": "junto a",
+          "analysis_html": "JUN + TEK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "JUN + TEK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxun",
+          "form": "ĵun",
+          "gloss": "uno",
+          "analysis_html": "JUN",
+          "analysis_text": "JUN",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxunopor",
+          "form": "ĵunopor",
+          "gloss": "uno por uno",
+          "analysis_html": "JUN + OPOR <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "JUN + OPOR (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-ajunik",
+          "form": "ajunik",
+          "gloss": "solo",
+          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + JUN + IK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "A (pendiente) + JUN + IK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Antónimo: togol «correcto, apropiado, mejor»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-jun-2",
@@ -122,7 +527,140 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-jxunen",
+          "form": "ĵunen",
+          "gloss": "joven",
+          "analysis_html": "JUN + EN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "JUN + EN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxunevel",
+          "form": "ĵunevel",
+          "gloss": "juvenil",
+          "analysis_html": "JUN + EV <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "JUN + EV (pendiente) + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxunevom",
+          "form": "ĵunevom",
+          "gloss": "juventud (generación)",
+          "analysis_html": "JUN + EVOM <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "JUN + EVOM (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxuneva",
+          "form": "ĵuneva",
+          "gloss": "juventud",
+          "analysis_html": "JUN + EV <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "JUN + EV (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxunon",
+          "form": "ĵunon",
+          "gloss": "joven",
+          "analysis_html": "JUN + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "JUN + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-objxunonas",
+          "form": "obĵunonas",
+          "gloss": "rejuvenecer",
+          "analysis_html": "OB <span class=\"meta-extra\">(pendiente)</span> + JUN + ON <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "OB (pendiente) + JUN + ON (pendiente) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-jur",
@@ -131,10 +669,93 @@
       "tags": [],
       "letter": "J",
       "section": "sec-j",
-      "etymology": null,
+      "etymology": "< Eo. jurn-.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-jxurnida",
+          "form": "ĵurnida",
+          "gloss": "jornada",
+          "analysis_html": "JUR + NID <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "JUR + NID (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tejxur",
+          "form": "teĵur",
+          "gloss": "hoy",
+          "analysis_html": "TE <span class=\"meta-extra\">(pendiente)</span> + JUR",
+          "analysis_text": "TE (pendiente) + JUR",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-oljxur",
+          "form": "olĵur",
+          "gloss": "otro día",
+          "analysis_html": "OL <span class=\"meta-extra\">(pendiente)</span> + JUR",
+          "analysis_text": "OL (pendiente) + JUR",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxurna",
+          "form": "ĵurna",
+          "gloss": "día",
+          "analysis_html": "JUR + N <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "JUR + N (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-jur-2",
@@ -146,7 +767,62 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-jxurina",
+          "form": "ĵurina",
+          "gloss": "justicia",
+          "analysis_html": "JUR + IN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "JUR + IN (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "En Tana vinculada a *ĴUS-."
+          ]
+        },
+        {
+          "id": "lexeme-jxuris",
+          "form": "ĵuris",
+          "gloss": "justo",
+          "analysis_html": "JUR + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "JUR + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "En Tana vinculada a *ĴUS-."
+          ]
+        }
+      ]
     },
     {
       "id": "root-jus",
@@ -155,10 +831,118 @@
       "tags": [],
       "letter": "J",
       "section": "sec-j",
-      "etymology": null,
+      "etymology": "< Eo. ĵusta.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-jxusmel",
+          "form": "ĵusmel",
+          "gloss": "instantáneo",
+          "analysis_html": "JUS + M <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "JUS + M (pendiente) + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxusma",
+          "form": "ĵusma",
+          "gloss": "instante",
+          "analysis_html": "JUS + M <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "JUS + M (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxum",
+          "form": "ĵum",
+          "gloss": "ahora",
+          "analysis_html": "JUS <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "JUS (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxusmam",
+          "form": "ĵusmam",
+          "gloss": "instantáneamente",
+          "analysis_html": "JUS + M <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "JUS + M (pendiente) + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-jxusom",
+          "form": "ĵusom",
+          "gloss": "justamente, solamente",
+          "analysis_html": "JUS + OM <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "JUS + OM (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-jep",

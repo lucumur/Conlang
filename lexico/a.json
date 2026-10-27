@@ -7184,7 +7184,49 @@
       "etymology": "Etym. Eo. aŭgusto → *AVG-",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-avgulunda",
+          "form": "Avgulunda",
+          "gloss": "agosto",
+          "analysis_html": "AVG + ULUND <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "AVG + ULUND (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-avguzxun",
+          "form": "Avguẑun",
+          "gloss": "Octaviano (personaje)",
+          "analysis_html": "AVG + UẐUN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "AVG + UẐUN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     }
   ]
 }

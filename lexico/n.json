@@ -13,7 +13,24 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ne",
+          "form": "ne",
+          "gloss": "no",
+          "analysis_html": "N + E <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "N + E (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-na-t",
@@ -27,7 +44,7 @@
       ],
       "letter": "N",
       "section": "sec-n",
-      "etymology": null,
+      "etymology": "< Eo. naski.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -79,6 +96,254 @@
             "nacimiento",
             "cualidades"
           ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-natanos",
+          "form": "natanos",
+          "gloss": "estar naciendo",
+          "analysis_html": "NAT + AN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "NAT + AN (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nateva",
+          "form": "nateva",
+          "gloss": "nacimiento",
+          "analysis_html": "NAT + EV <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NAT + EV (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-natum",
+          "form": "natum",
+          "gloss": "generación",
+          "analysis_html": "NAT + UM <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NAT + UM (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-alknazxa",
+          "form": "alknaẑa",
+          "gloss": "alta cuna",
+          "analysis_html": "ALK <span class=\"meta-extra\">(pendiente)</span> + NAT + Ẑ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "ALK (pendiente) + NAT + Ẑ (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nunaton",
+          "form": "nunaton",
+          "gloss": "recién nacido, neonato",
+          "analysis_html": "NU <span class=\"meta-extra\">(pendiente)</span> + NAT + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "NU (pendiente) + NAT + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nurnakel",
+          "form": "nurnakel",
+          "gloss": "neonatal",
+          "analysis_html": "NUR <span class=\"meta-extra\">(pendiente)</span> + NAT + K <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "NUR (pendiente) + NAT + K (pendiente) + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-natjon",
+          "form": "natjon",
+          "gloss": "hijo",
+          "analysis_html": "NAT + J <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "NAT + J (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nabon",
+          "form": "nabon",
+          "gloss": "chico, joven",
+          "analysis_html": "NAT + B <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "NAT + B (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nabin",
+          "form": "nabin",
+          "gloss": "chica, jovencita",
+          "analysis_html": "NAT + BIN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NAT + BIN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-samnatoj",
+          "form": "samnatoj",
+          "gloss": "gemelos; constelación de Géminis",
+          "analysis_html": "SAM <span class=\"meta-extra\">(pendiente)</span> + NAT + <a class=\"morph-link\" href=\"#morph-oj\">-OJ</a>",
+          "analysis_text": "SAM (pendiente) + NAT + -OJ",
+          "refs": [
+            {
+              "id": "morph-oj",
+              "label": "-OJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Plural OJ"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-natal",
+          "form": "natal",
+          "gloss": "vital, que da vida",
+          "analysis_html": "NAT + AL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NAT + AL (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
           "notes": []
         }
       ]
@@ -143,6 +408,290 @@
             "acciones"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-nagxos",
+          "form": "naĝos",
+          "gloss": "nadar",
+          "analysis_html": "NAV + Ĝ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "NAV + Ĝ (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Activamente. En Tana vinculada a *NAĜ-."
+          ]
+        },
+        {
+          "id": "lexeme-nagxisma",
+          "form": "naĝisma",
+          "gloss": "natación",
+          "analysis_html": "NAV + Ĝ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-isma\">-ISMA</a>",
+          "analysis_text": "NAV + Ĝ (pendiente) + -ISMA",
+          "refs": [
+            {
+              "id": "morph-isma",
+              "label": "-ISMA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Sistema ISMA"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nagxilo",
+          "form": "naĝilo",
+          "gloss": "aleta",
+          "analysis_html": "NAV + ĜIL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NAV + ĜIL (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-anagxilos",
+          "form": "anaĝilos",
+          "gloss": "aletear",
+          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + NAV + ĜIL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "A (pendiente) + NAV + ĜIL (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-malnavos",
+          "form": "malnavos",
+          "gloss": "marearse, tener náuseas",
+          "analysis_html": "MAL <span class=\"meta-extra\">(pendiente)</span> + NAV + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MAL (pendiente) + NAV + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-arnavalo",
+          "form": "arnavalo",
+          "gloss": "avión",
+          "analysis_html": "AR <span class=\"meta-extra\">(pendiente)</span> + NAV + AL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "AR (pendiente) + NAV + AL (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-naveto",
+          "form": "naveto",
+          "gloss": "nave, bote",
+          "analysis_html": "NAV + ET <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NAV + ET (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nafegeli",
+          "form": "nafegeli",
+          "gloss": "naval",
+          "analysis_html": "NAV + FEGELI <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NAV + FEGELI (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-navalo",
+          "form": "navalo",
+          "gloss": "barco",
+          "analysis_html": "NAV + AL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NAV + AL (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-malnave",
+          "form": "malnave",
+          "gloss": "náuseas",
+          "analysis_html": "MAL <span class=\"meta-extra\">(pendiente)</span> + NAV + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "MAL (pendiente) + NAV + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-anagxila",
+          "form": "anaĝila",
+          "gloss": "aleteo",
+          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + NAV + ĜIL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "A (pendiente) + NAV + ĜIL (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-naver",
+          "form": "naver",
+          "gloss": "loft, salón",
+          "analysis_html": "NAV + ER <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NAV + ER (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -156,7 +705,108 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-naf",
+          "form": "naf",
+          "gloss": "nueve",
+          "analysis_html": "NAF",
+          "analysis_text": "NAF",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nafam",
+          "form": "nafam",
+          "gloss": "a las nueve horas",
+          "analysis_html": "NAF + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "NAF + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nafanti",
+          "form": "nafanti",
+          "gloss": "noventa",
+          "analysis_html": "NAF + ANTI <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NAF + ANTI (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Variante: navdeẑ."
+          ]
+        },
+        {
+          "id": "lexeme-nafzxeni",
+          "form": "nafẑeni",
+          "gloss": "novecientos",
+          "analysis_html": "NAF + ẐENI <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NAF + ẐENI (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nafor",
+          "form": "nafor",
+          "gloss": "noveno",
+          "analysis_html": "NAF + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "NAF + -OR",
+          "refs": [
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OR"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-najf",
@@ -202,6 +852,88 @@
             "abstractos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-najfizol",
+          "form": "najfizol",
+          "gloss": "primerizo, novato",
+          "analysis_html": "NAJF + IZ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "NAJF + IZ (pendiente) + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-najfen",
+          "form": "najfen",
+          "gloss": "inocente",
+          "analysis_html": "NAJF + EN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NAJF + EN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-najfizam",
+          "form": "najfizam",
+          "gloss": "primera vez",
+          "analysis_html": "NAJF + IZAM <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NAJF + IZAM (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-finajfizda",
+          "form": "finajfizda",
+          "gloss": "novatada, broma pesada",
+          "analysis_html": "FI <span class=\"meta-extra\">(pendiente)</span> + NAJF + IZD <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FI (pendiente) + NAJF + IZD (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -245,6 +977,58 @@
             "acciones"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-nanto",
+          "form": "nanto",
+          "gloss": "nana, cuidadora",
+          "analysis_html": "NAN + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NAN + T (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nancxo",
+          "form": "nanĉo",
+          "gloss": "mami",
+          "analysis_html": "NAN + Ĉ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NAN + Ĉ (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Registro informal."
+          ]
         }
       ]
     },
@@ -258,7 +1042,99 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-narketo",
+          "form": "narketo",
+          "gloss": "narcótico",
+          "analysis_html": "NARK + ET <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NARK + ET (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-narkiflo",
+          "form": "narkiflo",
+          "gloss": "amapola",
+          "analysis_html": "NARK + IFL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NARK + IFL (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-narkiso",
+          "form": "narkiso",
+          "gloss": "narciso",
+          "analysis_html": "NARK + IS <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NARK + IS (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-narketan",
+          "form": "narketan",
+          "gloss": "somnífero",
+          "analysis_html": "NARK + ETAN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NARK + ETAN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-natr",
@@ -275,7 +1151,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-natrote",
+          "form": "natrote",
+          "gloss": "sodio",
+          "analysis_html": "NATR + OT <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "NATR + OT (pendiente) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-natrone",
+          "form": "natrone",
+          "gloss": "bicarbonato de sodio",
+          "analysis_html": "NATR + ON <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "NATR + ON (pendiente) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ne",
@@ -296,10 +1223,93 @@
       "tags": [],
       "letter": "N",
       "section": "sec-n",
-      "etymology": null,
+      "etymology": "< Eo. nepre; ruso nepreménno.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nepreme",
+          "form": "nepreme",
+          "gloss": "ciertamente, necesariamente, definitivamente, totalmente",
+          "analysis_html": "NEPREM + E <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NEPREM + E (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nepremik",
+          "form": "nepremik",
+          "gloss": "incondicional, incondicionado",
+          "analysis_html": "NEPREM + IK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NEPREM + IK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nepremis",
+          "form": "nepremis",
+          "gloss": "esencial, indispensable, incondicional, absoluto",
+          "analysis_html": "NEPREM + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "NEPREM + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nepremea",
+          "form": "nepremea",
+          "gloss": "incondicionalidad",
+          "analysis_html": "NEPREM + E <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NEPREM + E (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ne-v",
@@ -308,7 +1318,7 @@
       "tags": [],
       "letter": "N",
       "section": "sec-n",
-      "etymology": null,
+      "etymology": "< Eo. neĝo «nieve».",
       "notes": [],
       "row_class": "",
       "words": [
@@ -336,6 +1346,72 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-negxe",
+          "form": "neĝe",
+          "gloss": "nieve",
+          "analysis_html": "NEV + Ĝ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "NEV + Ĝ (pendiente) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nevik",
+          "form": "nevik",
+          "gloss": "nevado",
+          "analysis_html": "NEV + IK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NEV + IK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-negxol",
+          "form": "neĝol",
+          "gloss": "blanco",
+          "analysis_html": "NEV + Ĝ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "NEV + Ĝ (pendiente) + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -354,7 +1430,78 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-neftigo",
+          "form": "Neftigo",
+          "gloss": "planeta Neptuno",
+          "analysis_html": "NEFT + IG <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NEFT + IG (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-neftu",
+          "form": "Neftu",
+          "gloss": "Neptuno, Poseidón ♂️",
+          "analysis_html": "NEFT + U <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NEFT + U (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Sufijo: *-U «masculino». Dios marino. En Tana vinculada a *NEP-."
+          ]
+        },
+        {
+          "id": "lexeme-neftuzeta",
+          "form": "Neftuzeta",
+          "gloss": "noviembre",
+          "analysis_html": "NEFT + UZET <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NEFT + UZET (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Marcada como dudosa en Tana."
+          ]
+        }
+      ]
     },
     {
       "id": "root-nek",
@@ -371,7 +1518,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nektuko",
+          "form": "nektuko",
+          "gloss": "sudario, ropa fúnebre",
+          "analysis_html": "NEK + TUK <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NEK + TUK (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nep",
@@ -407,6 +1580,47 @@
             "personas"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-franepon",
+          "form": "franepon",
+          "gloss": "sobrino",
+          "analysis_html": "FRA <span class=\"meta-extra\">(pendiente)</span> + NEP + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "FRA (pendiente) + NEP + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-genepnar",
+          "form": "genepnar",
+          "gloss": "nietada",
+          "analysis_html": "GE <span class=\"meta-extra\">(pendiente)</span> + NEP + NAR <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "GE (pendiente) + NEP + NAR (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -425,7 +1639,49 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nerik",
+          "form": "nerik",
+          "gloss": "negro",
+          "analysis_html": "NER + IK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NER + IK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nerete",
+          "form": "nerete",
+          "gloss": "tizne, hollín",
+          "analysis_html": "NER + ET <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "NER + ET (pendiente) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nes",
@@ -437,7 +1693,58 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nesto",
+          "form": "nesto",
+          "gloss": "nido",
+          "analysis_html": "NES + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NES + T (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-melnesto",
+          "form": "melnesto",
+          "gloss": "colmena de abejas",
+          "analysis_html": "MEL <span class=\"meta-extra\">(pendiente)</span> + NES + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MEL (pendiente) + NES + T (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nik",
@@ -503,6 +1810,31 @@
             "victoria"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-nikalje",
+          "form": "nikalje",
+          "gloss": "níquel",
+          "analysis_html": "NIK + ALJ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "NIK + ALJ (pendiente) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -516,7 +1848,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ninfloro",
+          "form": "ninfloro",
+          "gloss": "nenúfar",
+          "analysis_html": "NINF + LOR <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NINF + LOR (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-noc",
@@ -528,7 +1886,222 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nocis",
+          "form": "nocis",
+          "gloss": "oscuro",
+          "analysis_html": "NOC + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "NOC + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nocam",
+          "form": "nocam",
+          "gloss": "de noche",
+          "analysis_html": "NOC + AM <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NOC + AM (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nocxeli",
+          "form": "noĉeli",
+          "gloss": "nocturno",
+          "analysis_html": "NOC <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NOC (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nocximezo",
+          "form": "noĉimezo",
+          "gloss": "medianoche",
+          "analysis_html": "NOC <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NOC (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tranocam",
+          "form": "tranocam",
+          "gloss": "anoche",
+          "analysis_html": "TRA <span class=\"meta-extra\">(pendiente)</span> + NOC + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "TRA (pendiente) + NOC + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adverbial AM"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-noces",
+          "form": "noces",
+          "gloss": "anochecer",
+          "analysis_html": "NOC + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "NOC + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trunocos",
+          "form": "trunocos",
+          "gloss": "trasnocharse",
+          "analysis_html": "TRU <span class=\"meta-extra\">(pendiente)</span> + NOC + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TRU (pendiente) + NOC + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-pronocxunin",
+          "form": "pronoĉunin",
+          "gloss": "trasnochado, desvelado",
+          "analysis_html": "NOC <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NOC (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fornocos",
+          "form": "fornocos",
+          "gloss": "pernoctar",
+          "analysis_html": "FOR <span class=\"meta-extra\">(pendiente)</span> + NOC + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FOR (pendiente) + NOC + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-noca",
+          "form": "noca",
+          "gloss": "noche",
+          "analysis_html": "NOC + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NOC + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nod",
@@ -542,7 +2115,7 @@
       ],
       "letter": "N",
       "section": "sec-n",
-      "etymology": null,
+      "etymology": "< No procede del Eo.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -570,6 +2143,88 @@
             "procesos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-nodazos",
+          "form": "nodazos",
+          "gloss": "cabecear",
+          "analysis_html": "NOD + AZ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "NOD + AZ (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nodaza",
+          "form": "nodaza",
+          "gloss": "cabeceo",
+          "analysis_html": "NOD + AZ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NOD + AZ (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nodazon",
+          "form": "nodazon",
+          "gloss": "cabeceante, somnoliento",
+          "analysis_html": "NOD + AZON <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NOD + AZON (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nodoton",
+          "form": "nodoton",
+          "gloss": "asintiente, confirmante",
+          "analysis_html": "NOD + OTON <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NOD + OTON (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -588,7 +2243,26 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-noj",
+          "form": "noj",
+          "gloss": "nosotros",
+          "analysis_html": "NOJ",
+          "analysis_text": "NOJ",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Declinación: nof / nojn / nosku; ergativo nos; alativo/dativo nof; gen./abl. nor; colectivo noks «con nos»."
+          ]
+        }
+      ]
     },
     {
       "id": "root-nom",
@@ -650,6 +2324,188 @@
             "objetos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-nomumas",
+          "form": "nomumas",
+          "gloss": "nominar",
+          "analysis_html": "NOM + UM <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "NOM + UM (pendiente) + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nomuma",
+          "form": "nomuma",
+          "gloss": "nominación, nombramiento",
+          "analysis_html": "NOM + UM <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NOM + UM (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cxinomas",
+          "form": "ĉinomas",
+          "gloss": "invocar",
+          "analysis_html": "ĈI <span class=\"meta-extra\">(pendiente)</span> + NOM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈI (pendiente) + NOM + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nomis",
+          "form": "nomis",
+          "gloss": "llamarse",
+          "analysis_html": "NOM + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "NOM + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nomin",
+          "form": "nomin",
+          "gloss": "llamado",
+          "analysis_html": "NOM + IN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NOM + IN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-onomor",
+          "form": "onomor",
+          "gloss": "famoso, renombrado",
+          "analysis_html": "O <span class=\"meta-extra\">(pendiente)</span> + NOM + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "O (pendiente) + NOM + -OR",
+          "refs": [
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OR"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-senomil",
+          "form": "senomil",
+          "gloss": "sin nombre",
+          "analysis_html": "SE <span class=\"meta-extra\">(pendiente)</span> + NOM + IL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "SE (pendiente) + NOM + IL (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-majnoma",
+          "form": "majnoma",
+          "gloss": "renombre, fama",
+          "analysis_html": "MAJ <span class=\"meta-extra\">(pendiente)</span> + NOM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "MAJ (pendiente) + NOM + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -668,7 +2524,24 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nonen",
+          "form": "nonen",
+          "gloss": "abuela paterna",
+          "analysis_html": "NON + EN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NON + EN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-northeta",
@@ -705,6 +2578,145 @@
             "abstractos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-nor",
+          "form": "nor-",
+          "gloss": "prefijo de «arriba»",
+          "analysis_html": "NORΘ <span class=\"meta-extra\">(locución o afijo; segmentación pendiente)</span>",
+          "analysis_text": "NORΘ (segmentación pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-northini",
+          "form": "norθini",
+          "gloss": "norsemen, nórdicos",
+          "analysis_html": "NORΘ + INI <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NORΘ + INI (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-norakso",
+          "form": "norakso",
+          "gloss": "polo",
+          "analysis_html": "NORΘ <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NORΘ (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-norakseli",
+          "form": "norakseli",
+          "gloss": "polar",
+          "analysis_html": "NORΘ <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NORΘ (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-northik",
+          "form": "norθik",
+          "gloss": "nórdico",
+          "analysis_html": "NORΘ + IK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NORΘ + IK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-northaldo",
+          "form": "northaldo",
+          "gloss": "norteño",
+          "analysis_html": "NORΘ <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NORΘ (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-northaldi",
+          "form": "northaldi",
+          "gloss": "norteño",
+          "analysis_html": "NORΘ <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NORΘ (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-northalje",
+          "form": "norθalje",
+          "gloss": "escandio",
+          "analysis_html": "NORΘ + ALJ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "NORΘ + ALJ (pendiente) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Sufijo: *-ALJE «metal»."
+          ]
         }
       ]
     },
@@ -742,6 +2754,22 @@
             "cuerpo",
             "objetos"
           ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-noscxerin",
+          "form": "nosĉerin",
+          "gloss": "rinoceronte",
+          "analysis_html": "NOS + ĈERIN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NOS + ĈERIN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
           "notes": []
         }
       ]
@@ -781,6 +2809,31 @@
             "acciones"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-notatro",
+          "form": "notatro",
+          "gloss": "computadora",
+          "analysis_html": "NOT + ATR <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NOT + ATR (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -794,7 +2847,99 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nocxavi",
+          "form": "noĉavi",
+          "gloss": "dentado",
+          "analysis_html": "NOĈ + AVI <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NOĈ + AVI (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nocxo",
+          "form": "noĉo",
+          "gloss": "diente",
+          "analysis_html": "NOĈ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NOĈ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nocxado",
+          "form": "noĉado",
+          "gloss": "dentadura",
+          "analysis_html": "NOĈ + AD <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NOĈ + AD (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nornocxo",
+          "form": "nornoĉo",
+          "gloss": "encía",
+          "analysis_html": "NOR <span class=\"meta-extra\">(pendiente)</span> + NOĈ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NOR (pendiente) + NOĈ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nu-j",
@@ -808,7 +2953,7 @@
       ],
       "letter": "N",
       "section": "sec-n",
-      "etymology": null,
+      "etymology": "< Eo. nova, nur.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -860,6 +3005,493 @@
             "cambio",
             "abstractos"
           ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nuj",
+          "form": "nuj",
+          "gloss": "y, ahora, luego",
+          "analysis_html": "NUJ",
+          "analysis_text": "NUJ",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-num",
+          "form": "num",
+          "gloss": "ahora",
+          "analysis_html": "NUJ + M <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NUJ + M (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nur",
+          "form": "nur",
+          "gloss": "recién, apenas, justo",
+          "analysis_html": "NUJ + R <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NUJ + R (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-alnovam",
+          "form": "alnovam",
+          "gloss": "de nuevo, otra vez",
+          "analysis_html": "NUJ <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NUJ (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trunujas",
+          "form": "trunujas",
+          "gloss": "anunciar, mandar mensaje",
+          "analysis_html": "TRU <span class=\"meta-extra\">(pendiente)</span> + NUJ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TRU (pendiente) + NUJ + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nundan",
+          "form": "nundan",
+          "gloss": "mensajero",
+          "analysis_html": "NUJ + ND <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "NUJ + ND (pendiente) + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nundasto",
+          "form": "nundasto",
+          "gloss": "mailman, mensajero",
+          "analysis_html": "NUJ + NDAST <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NUJ + NDAST (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nunda",
+          "form": "nunda",
+          "gloss": "correo",
+          "analysis_html": "NUJ + ND <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NUJ + ND (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nundila",
+          "form": "nundila",
+          "gloss": "mensaje",
+          "analysis_html": "NUJ + NDIL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NUJ + NDIL (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nujagxos",
+          "form": "nujaĝos",
+          "gloss": "innovar",
+          "analysis_html": "NUJ + AĜ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "NUJ + AĜ (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-januva",
+          "form": "januva",
+          "gloss": "innovación",
+          "analysis_html": "JA <span class=\"meta-extra\">(pendiente)</span> + NUJ + V <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "JA (pendiente) + NUJ + V (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-januvan",
+          "form": "januvan",
+          "gloss": "innovativo",
+          "analysis_html": "JA <span class=\"meta-extra\">(pendiente)</span> + NUJ + V <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "JA (pendiente) + NUJ + V (pendiente) + -AN",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nujes",
+          "form": "nujes",
+          "gloss": "estar nuevo, ser joven",
+          "analysis_html": "NUJ + ES <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NUJ + ES (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-numol",
+          "form": "numol",
+          "gloss": "actual, moderno",
+          "analysis_html": "NUJ + M <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
+          "analysis_text": "NUJ + M (pendiente) + -OL",
+          "refs": [
+            {
+              "id": "morph-ol-2",
+              "label": "-OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nujen",
+          "form": "nujen",
+          "gloss": "nuevo, joven, por estrenar",
+          "analysis_html": "NUJ + EN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NUJ + EN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nujagxel",
+          "form": "nujaĝel",
+          "gloss": "juvenil",
+          "analysis_html": "NUJ + AĜ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "NUJ + AĜ (pendiente) + -EL",
+          "refs": [
+            {
+              "id": "morph-el",
+              "label": "-EL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo EL"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nujson",
+          "form": "nujson",
+          "gloss": "jovencita",
+          "analysis_html": "NUJ + S <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "NUJ + S (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-trunuja",
+          "form": "trunuja",
+          "gloss": "noticia",
+          "analysis_html": "TRU <span class=\"meta-extra\">(pendiente)</span> + NUJ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "TRU (pendiente) + NUJ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-numula",
+          "form": "numula",
+          "gloss": "actualidad",
+          "analysis_html": "NUJ + MUL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NUJ + MUL (pendiente) + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nujagxezxa",
+          "form": "nujaĝeẑa",
+          "gloss": "innovación",
+          "analysis_html": "NUJ + AĜ <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "NUJ + AĜ (pendiente) + -EẐA",
+          "refs": [
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-noak",
+          "form": "noak",
+          "gloss": "ahora, ya",
+          "analysis_html": "NUJ <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NUJ (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-numoron",
+          "form": "numoron",
+          "gloss": "hombre contemporáneo",
+          "analysis_html": "NUJ + MOR <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "NUJ + MOR (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
           "notes": []
         }
       ]
@@ -929,6 +3561,224 @@
             "abstractos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-nubures",
+          "form": "nubures",
+          "gloss": "estar por casarse, ser novios",
+          "analysis_html": "NUB + UR <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "NUB + UR (pendiente) + -ES",
+          "refs": [
+            {
+              "id": "morph-es",
+              "label": "-ES"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-enubis",
+          "form": "enubis",
+          "gloss": "estar casados",
+          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + NUB + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "E (pendiente) + NUB + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nuburon",
+          "form": "nuburon",
+          "gloss": "novio",
+          "analysis_html": "NUB + UR <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "NUB + UR (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nuburson",
+          "form": "nuburson",
+          "gloss": "novia",
+          "analysis_html": "NUB + URS <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "NUB + URS (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nuburom",
+          "form": "nuburom",
+          "gloss": "pareja de novios",
+          "analysis_html": "NUB + UROM <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NUB + UROM (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nubon",
+          "form": "nubon",
+          "gloss": "novio",
+          "analysis_html": "NUB + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "NUB + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Registro formal."
+          ]
+        },
+        {
+          "id": "lexeme-nubjon",
+          "form": "nubjon",
+          "gloss": "novia",
+          "analysis_html": "NUB + J <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "NUB + J (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nuboj",
+          "form": "nuboj",
+          "gloss": "pareja de recién casados",
+          "analysis_html": "NUB + <a class=\"morph-link\" href=\"#morph-oj\">-OJ</a>",
+          "analysis_text": "NUB + -OJ",
+          "refs": [
+            {
+              "id": "morph-oj",
+              "label": "-OJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Plural OJ"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nubura",
+          "form": "nubura",
+          "gloss": "boda",
+          "analysis_html": "NUB + <a class=\"morph-link\" href=\"#morph-ura\">-URA</a>",
+          "analysis_text": "NUB + -URA",
+          "refs": [
+            {
+              "id": "morph-ura",
+              "label": "-URA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto URA"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -967,6 +3817,72 @@
             "objetos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-sonube",
+          "form": "sonube",
+          "gloss": "neblina",
+          "analysis_html": "SO <span class=\"meta-extra\">(pendiente)</span> + NUB + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "SO (pendiente) + NUB + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-anubos",
+          "form": "anubos",
+          "gloss": "nublarse",
+          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + NUB + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "A (pendiente) + NUB + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-inubul",
+          "form": "inubul",
+          "gloss": "nublado",
+          "analysis_html": "I <span class=\"meta-extra\">(pendiente)</span> + NUB + UL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "I (pendiente) + NUB + UL (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -985,11 +3901,76 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nulum",
+          "form": "nulum",
+          "gloss": "nada",
+          "analysis_html": "NUL + UM <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NUL + UM (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nemu",
+          "form": "nemu",
+          "gloss": "nadie",
+          "analysis_html": "NUL <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NUL (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nuljen",
+          "form": "nuljen",
+          "gloss": "en ningún lugar",
+          "analysis_html": "NUL + JEN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NUL + JEN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nulkal",
+          "form": "nulkal",
+          "gloss": "de ninguna forma",
+          "analysis_html": "NUL + KAL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "NUL + KAL (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nefm",
-      "form": "*NEFM-",
+      "form": "*NUM-",
       "gloss": "aire",
       "tags": [
         {
@@ -999,10 +3980,90 @@
       ],
       "letter": "N",
       "section": "sec-n",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< Eo. pneŭm-.",
+      "notes": [
+        "Forma anterior en el repo: *NEFM-."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-numa",
+          "form": "numa",
+          "gloss": "viento",
+          "analysis_html": "NUM + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "NUM + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Registro técnico; aire con fuerza."
+          ]
+        },
+        {
+          "id": "lexeme-numbro",
+          "form": "numbro",
+          "gloss": "pulmón",
+          "analysis_html": "NUM + BR <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NUM + BR (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-numpipo",
+          "form": "numpipo",
+          "gloss": "tráquea",
+          "analysis_html": "NUM + PIP <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NUM + PIP (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nur",
@@ -1019,7 +4080,33 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nurvenos",
+          "form": "nurvenos",
+          "gloss": "acercarse",
+          "analysis_html": "NUR + VEN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "NUR + VEN (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nur-2",
@@ -1028,10 +4115,61 @@
       "tags": [],
       "letter": "N",
       "section": "sec-n",
-      "etymology": null,
+      "etymology": "< Eo. ŝnuro.",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nurilo",
+          "form": "nurilo",
+          "gloss": "cuerda",
+          "analysis_html": "NUR + IL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NUR + IL (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nuredo",
+          "form": "nuredo",
+          "gloss": "arpa, marco de cuerdas",
+          "analysis_html": "NUR + ED <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "NUR + ED (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-nus",
@@ -1040,7 +4178,7 @@
       "tags": [],
       "letter": "N",
       "section": "sec-n",
-      "etymology": null,
+      "etymology": "< Eo. nukso.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1068,6 +4206,56 @@
             "objetos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-brunnusxo",
+          "form": "brunnuŝo",
+          "gloss": "castaña",
+          "analysis_html": "BRUN <span class=\"meta-extra\">(pendiente)</span> + NUŜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BRUN (pendiente) + NUŜ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-avelnusxo",
+          "form": "avelnuŝo",
+          "gloss": "avellana",
+          "analysis_html": "AVEL <span class=\"meta-extra\">(pendiente)</span> + NUŜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "AVEL (pendiente) + NUŜ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
@@ -1086,7 +4274,40 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-nutheos",
+          "form": "nutheos",
+          "gloss": "desnudarse",
+          "analysis_html": "NUΘ <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NUΘ (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nuthi",
+          "form": "nuthi",
+          "gloss": "desnudo",
+          "analysis_html": "NUΘ <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
+          "analysis_text": "NUΘ (relación formal pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     }
   ]
 }
