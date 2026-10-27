@@ -17,7 +17,8 @@
       "section": "sec-circ-c",
       "etymology": null,
       "notes": [
-        "Absorbe las formas en ĉ- de la antigua *K- (relativo)."
+        "Absorbe las formas en ĉ- de la antigua *K- (relativo).",
+        "Funde las antiguas raíces *ĈA- «(interrogativo)», *ĈE- «aqui, en», *ĈU- «Interrogativo»."
       ],
       "row_class": "",
       "words": [
@@ -218,18 +219,6 @@
           "notes": []
         }
       ]
-    },
-    {
-      "id": "root-ca",
-      "form": "*ĈA-",
-      "gloss": "(interrogativo)",
-      "tags": [],
-      "letter": "Ĉ",
-      "section": "sec-circ-c",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
     },
     {
       "id": "root-cagr",
@@ -1576,18 +1565,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "root-ce",
-      "form": "*ĈE-",
-      "gloss": "aqui, en",
-      "tags": [],
-      "letter": "Ĉ",
-      "section": "sec-circ-c",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
     },
     {
       "id": "root-cef",
@@ -3527,18 +3504,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "root-cu",
-      "form": "*ĈU-",
-      "gloss": "Interrogativo",
-      "tags": [],
-      "letter": "Ĉ",
-      "section": "sec-circ-c",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
     },
     {
       "id": "root-cuf-2",
