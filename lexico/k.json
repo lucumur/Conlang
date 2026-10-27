@@ -355,22 +355,6 @@
           "notes": []
         },
         {
-          "id": "lexeme-kafesten",
-          "form": "kafesten",
-          "gloss": "café, cafetería",
-          "analysis_html": "KAF + ESTEN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "KAF + ESTEN (pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
           "id": "lexeme-kafaral",
           "form": "kafaral",
           "gloss": "cafetería",
@@ -394,7 +378,8 @@
           ],
           "semantic_fields": [],
           "notes": [
-            "Lit. «lugar que tiene café»."
+            "Lit. «lugar que tiene café».",
+            "Forma antigua: kafesten."
           ]
         },
         {
