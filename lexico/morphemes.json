@@ -3983,6 +3983,24 @@
         "Cf. okja «¡vaya!». Distinto de *O- «esto» y *O- «mutuo»."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-to-unit",
+      "form": "*-TO",
+      "gloss": "unidad contable, porción («una taza de»)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [
+        "Par contable de *-TE (sustancia genérica): kafeto «un café» / kafete «café»."
+      ],
+      "row_class": ""
     }
   ]
 }
