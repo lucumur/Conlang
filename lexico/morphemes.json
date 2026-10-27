@@ -3965,6 +3965,24 @@
         "Cf. kaθoj «pero»."
       ],
       "row_class": ""
+    },
+    {
+      "id": "morph-o-admirativa",
+      "form": "*O- (admirativa)",
+      "gloss": "prefijo admirativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "prefijo"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": null,
+      "notes": [
+        "Cf. okja «¡vaya!». Distinto de *O- «esto» y *O- «mutuo»."
+      ],
+      "row_class": ""
     }
   ]
 }

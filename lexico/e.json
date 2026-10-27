@@ -1373,33 +1373,6 @@
             "énfasis"
           ],
           "notes": []
-        },
-        {
-          "id": "lexeme-nechkaj",
-          "form": "neĉkaj",
-          "gloss": "nisiquiera",
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ne\">NE-</a> + EĈ + KAJ <span class=\"meta-extra\">(KAJ gramatical pendiente de formalización)</span>",
-          "analysis_text": "NE- + EĈ + KAJ (KAJ gramatical pendiente de formalización)",
-          "refs": [
-            {
-              "id": "morph-ne",
-              "label": "NE-"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Partícula gramatical"
-            }
-          ],
-          "semantic_fields": [
-            "gramática",
-            "negación",
-            "énfasis"
-          ],
-          "notes": [
-            "PENDIENTE: KAJ no figura todavía como raíz o morfema canónico independiente en el léxico."
-          ]
         }
       ]
     },

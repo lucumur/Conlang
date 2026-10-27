@@ -4,6 +4,222 @@
   "key": "circ-c",
   "entries": [
     {
+      "id": "root-c-deictico",
+      "form": "*Ĉ- (deíctico)",
+      "gloss": "deíctico",
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [
+        "Absorbe las formas en ĉ- de la antigua *K- (relativo)."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cxal",
+          "form": "ĉal",
+          "gloss": "allí",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-c-deictico\">Ĉ-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "Ĉ- + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula gramatical"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "deixis",
+            "lugar"
+          ],
+          "notes": [
+            "Forma antigua: eken."
+          ]
+        },
+        {
+          "id": "lexeme-cxi",
+          "form": "ĉi",
+          "gloss": "¿qué?, el que",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-c-deictico\">Ĉ-</a> + I <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "Ĉ- + I (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula gramatical"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "deixis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cxan",
+          "form": "ĉan",
+          "gloss": "¿quién?, el que",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-c-deictico\">Ĉ-</a> + AN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "Ĉ- + AN (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula gramatical"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "deixis"
+          ],
+          "notes": [
+            "Ubicación provisional: no figuraba en la lista de *Ĉ-; venía de *K- (relativo), ya eliminado."
+          ]
+        },
+        {
+          "id": "lexeme-cxaj",
+          "form": "ĉaj",
+          "gloss": "¿quiénes?",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-c-deictico\">Ĉ-</a> + AJ <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "Ĉ- + AJ (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula gramatical"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "deixis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cxor",
+          "form": "ĉor",
+          "gloss": "¿de qué forma?, ¿cómo?",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-c-deictico\">Ĉ-</a> + OR <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "Ĉ- + OR (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula gramatical"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "deixis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cxom",
+          "form": "ĉom",
+          "gloss": "¿cuánto?",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-c-deictico\">Ĉ-</a> + <a class=\"morph-link\" href=\"#morph-om-quant\">-OM</a>",
+          "analysis_text": "Ĉ- + -OM",
+          "refs": [
+            {
+              "id": "morph-om-quant",
+              "label": "-OM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula gramatical"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "deixis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cxok",
+          "form": "ĉok",
+          "gloss": "¿dónde?",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-c-deictico\">Ĉ-</a> + OK <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "Ĉ- + OK (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula gramatical"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "deixis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cxam",
+          "form": "ĉam",
+          "gloss": "¿cuándo?",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-c-deictico\">Ĉ-</a> + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
+          "analysis_text": "Ĉ- + -AM",
+          "refs": [
+            {
+              "id": "morph-am",
+              "label": "-AM"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula gramatical"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "deixis"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cxajpor",
+          "form": "ĉajpor",
+          "gloss": "para qué",
+          "analysis_html": "ĉaj + <a class=\"morph-link\" href=\"#root-po\">POR</a>",
+          "analysis_text": "ĉaj + POR «para»",
+          "refs": [
+            {
+              "id": "root-po",
+              "label": "POR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula gramatical"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "deixis"
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "root-ca",
       "form": "*ĈA-",
       "gloss": "(interrogativo)",

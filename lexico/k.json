@@ -108,6 +108,42 @@
           ]
         },
         {
+          "id": "lexeme-nekecxaj",
+          "form": "nekeĉaj",
+          "gloss": "nisiquiera",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-ne\">NE-</a> + [<a class=\"morph-link\" href=\"#root-k-copulativo\">K-</a> + <a class=\"morph-link\" href=\"#root-ec-3\">EĈ</a> + <a class=\"morph-link\" href=\"#morph-aj-part\">-AJ</a>]",
+          "analysis_text": "NE- + [K- + EĈ + -AJ] (= NE- + keĉaj)",
+          "refs": [
+            {
+              "id": "morph-ne",
+              "label": "NE-"
+            },
+            {
+              "id": "root-ec-3",
+              "label": "EĈ"
+            },
+            {
+              "id": "morph-aj-part",
+              "label": "-AJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula gramatical"
+            }
+          ],
+          "semantic_fields": [
+            "gramática",
+            "negación",
+            "énfasis"
+          ],
+          "notes": [
+            "Forma antigua: neĉkaj (NE- + EĈ + kaj).",
+            "Negación externa sobre keĉaj «incluso»."
+          ]
+        },
+        {
           "id": "lexeme-ankaj",
           "form": "ankaj",
           "gloss": "también",
@@ -187,201 +223,50 @@
           "notes": [
             "Plantilla externa: el modificador temporal se aplica a kaj ya formado. Cf. posaj (*PO-S)."
           ]
-        }
-      ]
-    },
-    {
-      "id": "root-k",
-      "form": "*K-",
-      "gloss": "relativo",
-      "tags": [
-        {
-          "class": "nova",
-          "label": "Nova"
-        }
-      ],
-      "letter": "K",
-      "section": "sec-k",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
+        },
         {
           "id": "lexeme-okja",
           "form": "okja",
           "gloss": "¡vaya!",
-          "analysis_html": "O <span class=\"meta-extra\">(pendiente)</span> + K + JA <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "O (pendiente) + K + JA (pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-o-admirativa\">O-</a> (admirativa) + <a class=\"morph-link\" href=\"#root-k-copulativo\">K-</a> + JA <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "O- (admirativa) + K- + JA (pendiente)",
+          "refs": [
+            {
+              "id": "morph-o-admirativa",
+              "label": "O-"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Partícula gramatical"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "gramática",
+            "exclamación"
+          ],
           "notes": [
             "Etim.: Eo. kia «¡vaya!»."
           ]
         },
         {
-          "id": "lexeme-eken",
-          "form": "eken",
-          "gloss": "allí",
-          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + K + EN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "E (pendiente) + K + EN (pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
           "id": "lexeme-ke",
           "form": "ke",
           "gloss": "that, que…",
-          "analysis_html": "K + E <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "K + E (pendiente)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-k-copulativo\">K-</a> + E <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "K- + E (pendiente)",
           "refs": [],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Partícula gramatical"
             }
           ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-cxor",
-          "form": "ĉor",
-          "gloss": "¿de qué forma?, ¿cómo?",
-          "analysis_html": "K <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "K (relación formal pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
+          "semantic_fields": [
+            "gramática",
+            "subordinación"
           ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-cxi",
-          "form": "ĉi",
-          "gloss": "¿qué?, el que",
-          "analysis_html": "K <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "K (relación formal pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-cxan",
-          "form": "ĉan",
-          "gloss": "¿quién?, el que",
-          "analysis_html": "K <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "K (relación formal pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-cxaj",
-          "form": "ĉaj",
-          "gloss": "¿quiénes?",
-          "analysis_html": "K <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "K (relación formal pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-cxom",
-          "form": "ĉom",
-          "gloss": "¿cuánto?",
-          "analysis_html": "K <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "K (relación formal pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-cxok",
-          "form": "ĉok",
-          "gloss": "¿dónde?",
-          "analysis_html": "ĈO <span class=\"meta-extra\">(pendiente)</span> + K",
-          "analysis_text": "ĈO (pendiente) + K",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-cxam",
-          "form": "ĉam",
-          "gloss": "¿cuándo?",
-          "analysis_html": "K <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "K (relación formal pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-cxajpor",
-          "form": "ĉajpor",
-          "gloss": "para qué",
-          "analysis_html": "K <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "K (relación formal pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
           "notes": []
         }
       ]
