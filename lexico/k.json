@@ -753,22 +753,6 @@
             "química",
             "ácido-base"
           ]
-        },
-        {
-          "id": "lexeme-kalumur",
-          "form": "kalumur",
-          "gloss": "alcalino",
-          "analysis_html": "KAL + UMUR <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "KAL + UMUR (pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
         }
       ]
     },
