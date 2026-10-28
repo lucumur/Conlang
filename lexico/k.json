@@ -668,16 +668,16 @@
           "id": "lexeme-kaljone",
           "form": "kaljone",
           "gloss": "potasio",
-          "analysis_html": "KAL + <a class=\"morph-link\" href=\"#root-jon\">JON</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
-          "analysis_text": "KAL + JON + -E",
+          "analysis_html": "KAL + <a class=\"morph-link\" href=\"#root-jon\">JON</a> + <a class=\"morph-link\" href=\"#morph-te-substance\">-TE</a>",
+          "analysis_text": "KAL + JON + -TE",
           "refs": [
             {
               "id": "root-jon",
               "label": "JON"
             },
             {
-              "id": "morph-e",
-              "label": "-E"
+              "id": "morph-te-substance",
+              "label": "-TE"
             }
           ],
           "tags": [
@@ -690,7 +690,8 @@
             "química",
             "elementos",
             "metales"
-          ]
+          ],
+          "notes": []
         },
         {
           "id": "lexeme-kaljur",
