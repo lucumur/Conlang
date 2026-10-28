@@ -798,6 +798,34 @@
             "recipientes"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-kalkaron",
+          "form": "kalkaron",
+          "gloss": "copero",
+          "analysis_html": "KAL-K + <a class=\"morph-link\" href=\"#morph-ar-collective\">-AR-</a> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "KAL-K + -AR- + -ON",
+          "refs": [
+            {
+              "id": "morph-ar-collective",
+              "label": "-AR-"
+            },
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen ON"
+            }
+          ],
+          "semantic_fields": [
+            "trabajo",
+            "empleo"
+          ],
+          "notes": []
         }
       ]
     },
