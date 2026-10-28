@@ -697,9 +697,13 @@
           "id": "lexeme-kaljur",
           "form": "kaljemor",
           "gloss": "alcalino",
-          "analysis_html": "KALJ + -EM- tendencia + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
-          "analysis_text": "KALJ + -EM- tendencia + -OR",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kal\">KAL-I</a> + -EM- tendencia + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "KAL-I + -EM- tendencia + -OR",
           "refs": [
+            {
+              "id": "root-kal",
+              "label": "KAL-I"
+            },
             {
               "id": "morph-or",
               "label": "-OR"
