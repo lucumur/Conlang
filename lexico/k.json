@@ -695,15 +695,11 @@
         },
         {
           "id": "lexeme-kaljur",
-          "form": "kaljor",
+          "form": "kaljemor",
           "gloss": "alcalino",
-          "analysis_html": "KAL + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
-          "analysis_text": "KAL + -J- + -OR",
+          "analysis_html": "KALJ + -EM- tendencia + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "KALJ + -EM- tendencia + -OR",
           "refs": [
-            {
-              "id": "morph-j-theme",
-              "label": "-J-"
-            },
             {
               "id": "morph-or",
               "label": "-OR"
@@ -718,7 +714,8 @@
           "semantic_fields": [
             "química",
             "ácido-base"
-          ]
+          ],
+          "notes": []
         },
         {
           "id": "lexeme-kalja",
