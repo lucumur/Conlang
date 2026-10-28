@@ -1970,20 +1970,15 @@
           "id": "lexeme-gaznol",
           "form": "gaznol",
           "gloss": "verde, herbáceo",
-          "analysis_html": "GAZ + -N- (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "GAZ + -N- (extensión lexicalizada) + -OL",
+          "analysis_html": "GAZ + -N- (extensión lexicalizada) + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> (similativo)",
+          "analysis_text": "GAZ + -N- (extensión lexicalizada) + -OL- (similativo)",
           "refs": [
             {
-              "id": "morph-ol-2",
-              "label": "-OL"
+              "id": "morph-ol",
+              "label": "-OL-"
             }
           ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo OL"
-            }
-          ],
+          "tags": [],
           "semantic_fields": [
             "flora",
             "cualidades",

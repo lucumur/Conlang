@@ -1676,19 +1676,15 @@
           "id": "lexeme-vegol",
           "form": "vegol",
           "gloss": "verde",
-          "analysis_html": "VEG + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "VEG + -OL",
+          "analysis_html": "VEG + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> (similativo)",
+          "analysis_text": "VEG + -OL- (similativo)",
           "refs": [
             {
-              "id": "morph-ol-2",
-              "label": "-OL"
+              "id": "morph-ol",
+              "label": "-OL-"
             }
           ],
           "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo OL"
-            },
             {
               "class": "generic",
               "label": "Importado de Tana"
@@ -7040,19 +7036,15 @@
           "id": "lexeme-vjolol",
           "form": "vjolol",
           "gloss": "violeta",
-          "analysis_html": "VJOL + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "VJOL + -OL",
+          "analysis_html": "VJOL + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> (similativo)",
+          "analysis_text": "VJOL + -OL- (similativo)",
           "refs": [
             {
-              "id": "morph-ol-2",
-              "label": "-OL"
+              "id": "morph-ol",
+              "label": "-OL-"
             }
           ],
           "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo OL"
-            },
             {
               "class": "generic",
               "label": "Importado de Tana"

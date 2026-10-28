@@ -2799,20 +2799,15 @@
           "id": "lexeme-orol",
           "form": "orol",
           "gloss": "dorado",
-          "analysis_html": "OR + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "OR + -OL",
+          "analysis_html": "OR + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> (similativo)",
+          "analysis_text": "OR + -OL- (similativo)",
           "refs": [
             {
-              "id": "morph-ol-2",
-              "label": "-OL"
+              "id": "morph-ol",
+              "label": "-OL-"
             }
           ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo OL"
-            }
-          ],
+          "tags": [],
           "semantic_fields": [
             "metales",
             "materiales",

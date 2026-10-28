@@ -1175,24 +1175,19 @@
           "id": "lexeme-albjol",
           "form": "albjol",
           "gloss": "blanco",
-          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "ALB + -J- + -OL",
+          "analysis_html": "ALB + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> (similativo)",
+          "analysis_text": "ALB + -J- + -OL- (similativo)",
           "refs": [
             {
               "id": "morph-j-theme",
               "label": "-J-"
             },
             {
-              "id": "morph-ol-2",
-              "label": "-OL"
+              "id": "morph-ol",
+              "label": "-OL-"
             }
           ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo OL"
-            }
-          ],
+          "tags": [],
           "semantic_fields": [
             "colores",
             "apariencia"
@@ -1937,20 +1932,15 @@
           "id": "lexeme-ambrol",
           "form": "ambrol",
           "gloss": "amarillo (modernamente genérico; históricamente más próximo a amarillo-naranja)",
-          "analysis_html": "AMBR + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "AMBR + -OL",
+          "analysis_html": "AMBR + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> (similativo)",
+          "analysis_text": "AMBR + -OL- (similativo)",
           "refs": [
             {
-              "id": "morph-ol-2",
-              "label": "-OL"
+              "id": "morph-ol",
+              "label": "-OL-"
             }
           ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo OL"
-            }
-          ],
+          "tags": [],
           "semantic_fields": [
             "colores",
             "apariencia"
@@ -6496,20 +6486,15 @@
           "id": "lexeme-avol",
           "form": "avol",
           "gloss": "color avellana",
-          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-ol-2\">-OL</a>",
-          "analysis_text": "AV + -OL",
+          "analysis_html": "AV + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> (similativo)",
+          "analysis_text": "AV + -OL- (similativo)",
           "refs": [
             {
-              "id": "morph-ol-2",
-              "label": "-OL"
+              "id": "morph-ol",
+              "label": "-OL-"
             }
           ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adjetivo OL"
-            }
-          ],
+          "tags": [],
           "semantic_fields": [
             "colores",
             "apariencia",
