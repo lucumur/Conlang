@@ -1002,18 +1002,31 @@
       "words": [
         {
           "id": "lexeme-kamblin",
-          "form": "kamblin",
+          "form": "kamblen",
           "gloss": "camello",
-          "analysis_html": "KAML <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "KAML (relación formal pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kaml\">KAML</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "KAML + -EN",
+          "refs": [
+            {
+              "id": "root-kaml",
+              "label": "KAML"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Nomen EN"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "mamíferos",
+            "desiertos",
+            "animales domesticados"
+          ],
           "notes": []
         },
         {
