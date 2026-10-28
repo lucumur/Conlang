@@ -991,9 +991,14 @@
     },
     {
       "id": "root-kaml",
-      "form": "*KAML-",
+      "form": "*KAM-L",
       "gloss": "camello",
-      "tags": [],
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
