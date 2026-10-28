@@ -1036,19 +1036,37 @@
         },
         {
           "id": "lexeme-parjxkamblin",
-          "form": "parĵkamblin",
+          "form": "gutkamblen",
           "gloss": "jirafa",
-          "analysis_html": "KAML <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "KAML (relación formal pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-gut\">GUT</a> + <a class=\"morph-link\" href=\"#root-kaml\">KAM-L</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "GUT + KAM-L + -EN",
+          "refs": [
+            {
+              "id": "root-gut",
+              "label": "GUT"
+            },
+            {
+              "id": "root-kaml",
+              "label": "KAM-L"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Nomen EN"
             }
           ],
-          "semantic_fields": [],
-          "notes": []
+          "semantic_fields": [
+            "mamíferos",
+            "animales exoticos"
+          ],
+          "notes": [
+            "\"camello de manchas\""
+          ]
         },
         {
           "id": "lexeme-sxafkamblin",
