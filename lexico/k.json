@@ -448,7 +448,7 @@
       "section": "sec-k",
       "etymology": null,
       "notes": [
-        "El -AG- de la serie es *AG- «comportarse, actuar» (Eo. agi), no el aumentativo *AG- (Eo. -eg-)."
+        "La serie se forma con *AĴ- «hacer» (cf. lat. agere): Kajsaĵan «el que hace de César»."
       ],
       "row_class": "",
       "words": [
@@ -472,15 +472,15 @@
           "notes": []
         },
         {
-          "id": "lexeme-kajsagan",
-          "form": "Kajsagan",
+          "id": "lexeme-kajsajxan",
+          "form": "Kajsaĵan",
           "gloss": "emperador",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-kajs\">KAJS</a> + <a class=\"morph-link\" href=\"#root-ag\">AG-</a> (actuar, cf. lat. agere) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "KAJS + AG- (actuar) + -AN",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kajs\">KAJS</a> + <a class=\"morph-link\" href=\"#root-aj\">AĴ-</a> (hacer, cf. lat. agere) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "KAJS + AĴ- (hacer) + -AN",
           "refs": [
             {
-              "id": "root-ag",
-              "label": "AG-"
+              "id": "root-aj",
+              "label": "AĴ-"
             },
             {
               "id": "morph-an-2",
@@ -502,15 +502,15 @@
           ]
         },
         {
-          "id": "lexeme-kajsagelan",
-          "form": "Kajsagelan",
+          "id": "lexeme-kajsajxelan",
+          "form": "Kajsaĵelan",
           "gloss": "emperatriz",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-kajs\">KAJS</a> + <a class=\"morph-link\" href=\"#root-ag\">AG-</a> (actuar, cf. lat. agere) + <a class=\"morph-link\" href=\"#morph-el-feminine\">-EL-</a> (femenino) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
-          "analysis_text": "KAJS + AG- (actuar) + -EL- (femenino) + -AN",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kajs\">KAJS</a> + <a class=\"morph-link\" href=\"#root-aj\">AĴ-</a> (hacer, cf. lat. agere) + <a class=\"morph-link\" href=\"#morph-el-feminine\">-EL-</a> (femenino) + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a>",
+          "analysis_text": "KAJS + AĴ- (hacer) + -EL- (femenino) + -AN",
           "refs": [
             {
-              "id": "root-ag",
-              "label": "AG-"
+              "id": "root-aj",
+              "label": "AĴ-"
             },
             {
               "id": "morph-el-feminine",
@@ -536,15 +536,15 @@
           ]
         },
         {
-          "id": "lexeme-kajsagas",
-          "form": "Kajsagas",
+          "id": "lexeme-kajsajxas",
+          "form": "Kajsaĵas",
           "gloss": "imperar, imponer",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-kajs\">KAJS</a> + <a class=\"morph-link\" href=\"#root-ag\">AG-</a> (actuar, cf. lat. agere) + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "KAJS + AG- (actuar) + -AS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kajs\">KAJS</a> + <a class=\"morph-link\" href=\"#root-aj\">AĴ-</a> (hacer, cf. lat. agere) + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KAJS + AĴ- (hacer) + -AS",
           "refs": [
             {
-              "id": "root-ag",
-              "label": "AG-"
+              "id": "root-aj",
+              "label": "AĴ-"
             },
             {
               "id": "morph-as",
@@ -566,15 +566,15 @@
           ]
         },
         {
-          "id": "lexeme-kajsagil",
-          "form": "Kajsagil",
+          "id": "lexeme-kajsajxil",
+          "form": "Kajsaĵil",
           "gloss": "imperio",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-kajs\">KAJS</a> + <a class=\"morph-link\" href=\"#root-ag\">AG-</a> (actuar, cf. lat. agere) + IL <span class=\"meta-extra\">(¿-IL participio absolutivo-pasivo, «lo imperado»?)</span>",
-          "analysis_text": "KAJS + AG- (actuar) + IL (pendiente)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kajs\">KAJS</a> + <a class=\"morph-link\" href=\"#root-aj\">AĴ-</a> (hacer, cf. lat. agere) + IL <span class=\"meta-extra\">(¿-IL participio absolutivo-pasivo, «lo imperado»?)</span>",
+          "analysis_text": "KAJS + AĴ- (hacer) + IL (pendiente)",
           "refs": [
             {
-              "id": "root-ag",
-              "label": "AG-"
+              "id": "root-aj",
+              "label": "AĴ-"
             }
           ],
           "tags": [],
@@ -587,15 +587,15 @@
           ]
         },
         {
-          "id": "lexeme-kajsagitel",
-          "form": "Kajsagitel",
+          "id": "lexeme-kajsajxitel",
+          "form": "Kajsaĵitel",
           "gloss": "imperial",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-kajs\">KAJS</a> + <a class=\"morph-link\" href=\"#root-ag\">AG-</a> (actuar, cf. lat. agere) + IT <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
-          "analysis_text": "KAJS + AG- (actuar) + IT (pendiente) + -EL",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kajs\">KAJS</a> + <a class=\"morph-link\" href=\"#root-aj\">AĴ-</a> (hacer, cf. lat. agere) + IT <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "KAJS + AĴ- (hacer) + IT (pendiente) + -EL",
           "refs": [
             {
-              "id": "root-ag",
-              "label": "AG-"
+              "id": "root-aj",
+              "label": "AĴ-"
             },
             {
               "id": "morph-el",
