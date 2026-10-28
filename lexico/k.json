@@ -1070,19 +1070,37 @@
         },
         {
           "id": "lexeme-sxafkamblin",
-          "form": "ŝafkamblin",
+          "form": "ŝafkamblen",
           "gloss": "alpaca",
-          "analysis_html": "KAML <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "KAML (relación formal pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-saj\">ŜAF</a> + <a class=\"morph-link\" href=\"#root-kaml\">KAM-L</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "ŜAF + KAM-L + -EN",
+          "refs": [
+            {
+              "id": "root-saj",
+              "label": "ŜAF"
+            },
+            {
+              "id": "root-kaml",
+              "label": "KAM-L"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Nomen EN"
             }
           ],
-          "semantic_fields": [],
-          "notes": []
+          "semantic_fields": [
+            "mamíferos",
+            "nuevo mundo"
+          ],
+          "notes": [
+            "\"camello oveja\""
+          ]
         },
         {
           "id": "lexeme-kamblornin",
