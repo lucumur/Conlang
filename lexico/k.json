@@ -666,7 +666,7 @@
         },
         {
           "id": "lexeme-kaljone",
-          "form": "kaljone",
+          "form": "kaljonte",
           "gloss": "potasio",
           "analysis_html": "KAL + <a class=\"morph-link\" href=\"#root-jon\">JON</a> + <a class=\"morph-link\" href=\"#morph-te-substance\">-TE</a>",
           "analysis_text": "KAL + JON + -TE",
