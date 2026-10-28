@@ -6018,6 +6018,23 @@
       ],
       "row_class": "lex-root-row",
       "words": []
+    },
+    {
+      "id": "root-gut",
+      "form": "*GUT-",
+      "gloss": "gota",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
     }
   ]
 }
