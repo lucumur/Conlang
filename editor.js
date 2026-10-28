@@ -272,6 +272,7 @@
     '.ce-chip button{border:0;background:none;cursor:pointer;color:var(--muted);font-size:.95rem;line-height:1;padding:0 3px}',
     '.ce-segs{display:grid;gap:6px}.ce-seg{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto auto;gap:6px;align-items:center}',
     '.ce-seg .ce-link{font-size:.72rem;color:var(--muted);white-space:nowrap;max-width:190px;overflow:hidden;text-overflow:ellipsis}.ce-seg .ce-link.linked{color:var(--accent);font-weight:700}',
+    '.ce-pick{max-width:190px;font:inherit;font-size:.74rem;padding:3px 4px;border:1px solid var(--accent);border-radius:7px;background:#fff;color:var(--accent)}',
     '.ce-seg input.ce-linked{border-color:var(--accent)!important;background:#f5f6ff!important}',
     '.ce-seg label{font-size:.78rem;color:var(--muted);white-space:nowrap}',
     '.ce-ico{border:1px solid var(--line);background:#fff;border-radius:7px;width:28px;height:28px;cursor:pointer;color:var(--muted)}.ce-ico:hover{color:var(--accent);border-color:var(--accent)}',
@@ -339,6 +340,14 @@
     (idx.morphemes || []).forEach(function (m) { var l = bare(m.form); refInfo[m.id] = { label: l, gloss: m.gloss, kind: 'morfema' }; refOpts.push(l + '  ·  ' + m.gloss + '  [' + m.id + ']'); });
     (idx.roots || []).forEach(function (r) { var l = rootLabel(r.form); refInfo[r.id] = { label: l, gloss: r.gloss, kind: 'raíz' }; refOpts.push(l + '  ·  ' + r.gloss + '  [' + r.id + ']'); });
     var dl = datalist(refOpts);
+    /* Enlace automático: si el texto escrito coincide con la forma de un morfema, se enlaza sin tener que
+       elegirlo de la lista (solo morfemas; las raíces se siguen enlazando desde la lista). Primero coincidencia exacta (con guiones), luego sin guiones ni mayúsculas. */
+    function norm(t, keepHyphen) { t = String(t || '').trim().toLocaleLowerCase('es'); return keepHyphen ? t : t.replace(/-/g, ''); }
+    function candidates(text) {
+      if (!norm(text)) return [];
+      var ids = Object.keys(refInfo).filter(function (id) { return refInfo[id].kind === 'morfema'; }), exact = ids.filter(function (id) { return norm(refInfo[id].label, true) === norm(text, true); });
+      return exact.length ? exact : ids.filter(function (id) { return norm(refInfo[id].label) === norm(text); });
+    }
     var orig = word ? { analysis_html: word.analysis_html || '', analysis_text: word.analysis_text || '', refs: word.refs || [] } : null;
     var parsed = orig ? parseAnalysis(orig.analysis_html) : { segs: defaultFirst ? [{ ref: null, text: defaultFirst, q: false }] : [], pend: false };
     var mode = parsed && (!orig || segsHTML(parsed.segs, parsed.pend) === orig.analysis_html) ? 'seg' : 'html';
@@ -353,12 +362,32 @@
     function segRow(s, i) {
       var inp = textInput(s.text, { list: dl, class: 'ce-mono', placeholder: 'Raíz, morfema o texto (p. ej. -A)' });
       var link = el('span', { class: 'ce-link' + (s.ref ? ' linked' : '') });
+      var pick = el('select', { class: 'ce-pick', hidden: true, title: 'Varias coincidencias: elige a cuál enlazar' });
+      pick.addEventListener('change', function () {
+        if (pick.value) { s.ref = pick.value; s.text = refInfo[s.ref].label; inp.value = s.text; }
+        else s.ref = null;
+        dirty = true; showLink(); update();
+      });
       function showLink() {
         link.className = 'ce-link' + (s.ref ? ' linked' : '');
         link.textContent = s.ref ? '→ ' + (refInfo[s.ref] ? refInfo[s.ref].kind + ': ' + refInfo[s.ref].gloss : s.ref) : 'texto';
         link.title = s.ref || 'Segmento sin enlace';
         inp.classList.toggle('ce-linked', !!s.ref);
+        var c = s.ref ? [] : candidates(s.text);
+        pick.hidden = c.length < 2; link.hidden = c.length >= 2;
+        if (c.length >= 2) {
+          pick.innerHTML = '';
+          pick.appendChild(el('option', { value: '', text: 'texto (sin enlace) · ' + c.length + ' coincidencias' }));
+          c.forEach(function (id) { pick.appendChild(el('option', { value: id, text: refInfo[id].kind + ': ' + refInfo[id].label + ' · ' + refInfo[id].gloss })); });
+        }
       }
+      function autoLink() {
+        if (s.ref) return;
+        var c = candidates(s.text);
+        if (c.length === 1) { s.ref = c[0]; s.text = refInfo[c[0]].label; inp.value = s.text; dirty = true; update(); }
+        showLink();
+      }
+      inp.addEventListener('change', autoLink);
       inp.addEventListener('input', function () {
         var m = inp.value.match(/\[([^\]]+)\]\s*$/);
         if (m && refInfo[m[1]]) { s.ref = m[1]; s.text = refInfo[m[1]].label; inp.value = s.text; }
@@ -371,7 +400,7 @@
       var q = el('input', { type: 'checkbox', title: 'Dudoso (?)' }); q.checked = s.q;
       q.addEventListener('change', function () { s.q = q.checked; dirty = true; update(); });
       showLink();
-      return el('div', { class: 'ce-seg' }, [inp, link, el('label', {}, [q, ' ?']),
+      return el('div', { class: 'ce-seg' }, [inp, el('span', {}, [link, pick]), el('label', {}, [q, ' ?']),
         el('button', { type: 'button', class: 'ce-ico', title: 'Subir', text: '↑', onclick: function () { if (i > 0) { segs.splice(i - 1, 0, segs.splice(i, 1)[0]); dirty = true; render(); } } }),
         el('button', { type: 'button', class: 'ce-ico', title: 'Quitar', text: '×', onclick: function () { segs.splice(i, 1); dirty = true; render(); } })]);
     }
@@ -386,7 +415,7 @@
           el('label', {}, [pendBox, ' (pendiente)']),
           el('button', { type: 'button', text: 'Editar como HTML', onclick: function () { htmlBox.value = segsHTML(segs, pend); mode = 'html'; render(); } })
         ]));
-        box.appendChild(el('small', { text: 'Escribe y elige de la lista para enlazar un morfema o raíz; lo que no se elija de la lista queda como texto (p. ej. la propia raíz).' }));
+        box.appendChild(el('small', { text: 'Escribe un morfema (p. ej. -AR) y se enlaza solo al salir del campo; para raíces, elige de la lista. Si hay varias coincidencias aparece un selector. Lo demás queda como texto (p. ej. la propia raíz).' }));
       } else {
         box.appendChild(htmlBox);
         box.appendChild(el('div', { class: 'ce-linkrow' }, [
