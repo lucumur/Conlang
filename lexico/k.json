@@ -1151,18 +1151,27 @@
       "words": [
         {
           "id": "lexeme-kampen",
-          "form": "kampen",
+          "form": "kampal",
           "gloss": "campo",
-          "analysis_html": "KAMP + EN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "KAMP + EN (pendiente)",
-          "refs": [],
+          "analysis_html": "KAMP + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "KAMP + -AL (pendiente)",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Locativo AL"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "terreno",
+            "area",
+            "ambiente exterior"
+          ],
           "notes": []
         },
         {
