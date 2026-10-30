@@ -1236,24 +1236,20 @@
         },
         {
           "id": "lexeme-kampros",
-          "form": "kampros",
+          "form": "kamperos",
           "gloss": "labrar, jornalear",
-          "analysis_html": "KAMP + R <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "KAMP + R (pendiente) + -OS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kamp\">KAMP</a>",
+          "analysis_text": "KAMP",
           "refs": [
             {
-              "id": "morph-os",
-              "label": "-OS"
+              "id": "root-kamp",
+              "label": "KAMP"
             }
           ],
           "tags": [
             {
               "class": "generic",
               "label": "Predicado OS"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
             }
           ],
           "semantic_fields": [],
