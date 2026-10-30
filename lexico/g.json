@@ -6107,6 +6107,29 @@
             "agua"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-nerguto",
+          "form": "nerguto",
+          "gloss": "lunar, nevo",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ner\">NER</a> + GUT",
+          "analysis_text": "NER + GUT",
+          "refs": [
+            {
+              "id": "root-ner",
+              "label": "NER"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "fisionomia"
+          ],
+          "notes": []
         }
       ]
     }
