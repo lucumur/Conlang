@@ -1363,14 +1363,22 @@
         },
         {
           "id": "lexeme-kampristore",
-          "form": "kampristore",
+          "form": "kamperome",
           "gloss": "campesinado",
-          "analysis_html": "KAMP + RISTOR <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
-          "analysis_text": "KAMP + RISTOR (pendiente) + -E",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kamp\">KAMP</a> + <a class=\"morph-link\" href=\"#morph-eros\">-EROS</a> + <a class=\"morph-link\" href=\"#morph-om-quant\">-OM</a>",
+          "analysis_text": "KAMP + -EROS + -OM",
           "refs": [
             {
-              "id": "morph-e",
-              "label": "-E"
+              "id": "root-kamp",
+              "label": "KAMP"
+            },
+            {
+              "id": "morph-eros",
+              "label": "-EROS"
+            },
+            {
+              "id": "morph-om-quant",
+              "label": "-OM"
             }
           ],
           "tags": [
@@ -1380,7 +1388,7 @@
             },
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Cuantificativo OM"
             }
           ],
           "semantic_fields": [],
