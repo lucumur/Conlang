@@ -10,6 +10,13 @@
   <link rel="stylesheet" href="styles.css?v=202610280022">
   <script src="refresh.js"></script>
   <script src="editor.js"></script>
+  <style>
+    .morph-more{margin-top:6px}
+    .morph-more summary{cursor:pointer;color:var(--accent);font-size:.83rem;font-weight:700;width:fit-content}
+    .morph-more summary:hover{text-decoration:underline}
+    .morph-more[open] .morph-expand,.morph-more:not([open]) .morph-collapse{display:none}
+    .morph-more .morph-notes{margin-top:7px}
+  </style>
 </head>
 <body>
 <header class="page-header">
@@ -63,7 +70,13 @@
   function repertoire(m){
     const words=(index.words||[]).filter(w=>(w.refs||[]).includes(m.id));
     if(!words.length)return'<span class="meta-extra">Sin repertorio indexado</span>';
-    return '<div class="morph-notes">'+words.map(w=>'<a href="lexico.html#'+esc(w.id)+'">'+esc(w.form)+'</a>').join(' · ')+'</div>';
+    const link=w=>'<a href="lexico.html#'+esc(w.id)+'">'+esc(w.form)+'</a>';
+    const first=words.slice(0,30).map(link).join(' · ');
+    const remaining=words.slice(30);
+    const more=remaining.length
+      ? '<details class="morph-more"><summary><span class="morph-expand">Ver más…</span><span class="morph-collapse">Ver menos…</span> ('+remaining.length+' restantes)</summary><div class="morph-notes">'+remaining.map(link).join(' · ')+'</div></details>'
+      : '';
+    return '<div class="morph-notes">'+first+'</div>'+more;
   }
   function row(m){
     const notes=(m.notes||[]).map(n=>'<div class="morph-notes">'+esc(n)+'</div>').join('');
