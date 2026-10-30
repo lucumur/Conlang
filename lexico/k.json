@@ -1513,6 +1513,10 @@
         {
           "class": "latin",
           "label": "Latin"
+        },
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
         }
       ],
       "letter": "K",
