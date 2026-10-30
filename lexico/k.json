@@ -1571,12 +1571,16 @@
           "id": "lexeme-kandlo",
           "form": "kandlo",
           "gloss": "vela",
-          "analysis_html": "KAND + L <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "KAND + L (pendiente) + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kand\">KAND</a> + <a class=\"morph-link\" href=\"#morph-lo\">-LO</a>",
+          "analysis_text": "KAND + -LO",
           "refs": [
             {
-              "id": "morph-o",
-              "label": "-O"
+              "id": "root-kand",
+              "label": "KAND"
+            },
+            {
+              "id": "morph-lo",
+              "label": "-LO"
             }
           ],
           "tags": [
@@ -1589,7 +1593,11 @@
               "label": "Importado de Tana"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "religión",
+            "objeto domestico",
+            "elongado"
+          ],
           "notes": []
         },
         {
