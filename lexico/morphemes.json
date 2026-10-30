@@ -3965,6 +3965,28 @@
       "row_class": ""
     },
     {
+      "id": "morph-ak-2",
+      "form": "*-AK-",
+      "gloss": "deslocativo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "mesofijo"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "-al > -ak-",
+      "notes": [
+        "locativo morfizado en nomen o verbo"
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-tho",
       "form": "*ΘO",
       "gloss": "partícula disyuntiva",
