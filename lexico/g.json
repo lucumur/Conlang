@@ -1287,6 +1287,27 @@
       ]
     },
     {
+      "id": "root-gar",
+      "form": "*GAR",
+      "gloss": "guerra",
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Nova",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-gar-z",
       "form": "*GARẐ-",
       "gloss": "cuarzo",
