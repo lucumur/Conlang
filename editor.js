@@ -843,9 +843,24 @@
       var fEt = textArea(cur ? cur.etymology || '' : '', { rows: 2 });
       var fNotes = textArea(cur ? (cur.notes || []).join('\n') : '', { rows: 3, placeholder: 'Una nota por línea' });
       var fTags = chipInput(cur ? labels(cur.tags) : ['sufijo'], Object.keys(tagSugs).sort(coll.compare), 'sufijo, prefijo, Provisional…');
+      var rootById = new Map((idx.roots || []).map(function (root) { return [root.id, root]; }));
+      var rootOption = function (root) { return root.form + ' [' + root.id + ']'; };
+      var fRootRefs = chipInput((cur && cur.root_refs || []).map(function (id) {
+        return rootById.has(id) ? rootOption(rootById.get(id)) : id;
+      }), (idx.roots || []).map(rootOption), '*CO-T [root-co-t]');
+      function selectedRootRefs() {
+        var chosen = fRootRefs.get().map(function (value) {
+          var match = value.match(/\[([^\]]+)\]$/);
+          var id = match ? match[1] : value.trim();
+          if (!rootById.has(id)) fail('Selecciona una raíz existente de la lista: ' + value);
+          return id;
+        });
+        return Array.from(new Set(chosen));
+      }
       var used = cur ? idx.words.filter(function (w) { return w.refs.indexOf(morphId) >= 0; }).length : 0;
       var body = [el('div', { class: 'ce-row' }, [field('Forma', fForm, 'Sufijo *-AR, prefijo *TRA-, infijo *-IL-'), field('Glosa', fGloss)]),
-        field('Notas', fNotes), field('Etimología', fEt), field('Etiquetas', fTags.el)];
+        field('Notas', fNotes), field('Etimología', fEt), field('Etiquetas', fTags.el),
+        field('Raíces de origen', fRootRefs.el, 'Vincula solo raíces de las que deriva este morfema; selecciona las opciones con identificador.')];
       if (cur) body.push(el('small', { class: 'ce-help', text: 'Identificador: ' + cur.id + ' · usado en ' + used + ' vocablos' }));
       dialog(isNew ? 'Nuevo morfema' : 'Editar morfema ' + cur.form, body, {
         onDelete: isNew ? null : function () {
@@ -865,13 +880,14 @@
           if (bare(form).replace(/-/g, '') === '') fail('Escribe la forma del morfema.');
           if (!gloss) fail('Escribe la glosa.');
           var L = letterOf(form); if (!L) fail('La inicial de ' + form + ' no corresponde a ninguna letra del léxico.');
-          var et = fEt.value.trim() || null, notes = lines(fNotes.value), tagLabels = fTags.get();
+          var et = fEt.value.trim() || null, notes = lines(fNotes.value), tagLabels = fTags.get(), rootRefs = selectedRootRefs();
           return transact(function (ctx) {
             return ctx.read('lexico/morphemes.json').then(function (md) {
               var list = md.morphemes, files = { 'lexico/morphemes.json': md };
               if (isNew) {
                 var id = uniqueId('morph-' + slug(bare(form)), new Set(list.map(function (m) { return m.id; })));
                 var nm = { id: id, form: form, gloss: gloss, tags: tagsFrom(tagLabels, []), letter: L.letter, section: 'sec-' + L.key, etymology: et, notes: notes, row_class: '' };
+                if (rootRefs.length) nm.root_refs = rootRefs;
                 var last = -1; list.forEach(function (m, i) { if (m.letter === L.letter) last = i; });
                 if (last < 0) { var order = LETTER_FILES.map(function (x) { return x[0]; }); list.forEach(function (m, i) { if (order.indexOf(m.letter) < order.indexOf(L.letter)) last = i; }); }
                 list.splice(last + 1, 0, nm);
@@ -882,6 +898,7 @@
               var before = JSON.stringify(m);
               m.form = form; m.gloss = gloss; m.etymology = et; m.notes = notes; m.tags = tagsFrom(tagLabels, m.tags);
               m.letter = L.letter; m.section = 'sec-' + L.key;
+              if (rootRefs.length) m.root_refs = rootRefs; else delete m.root_refs;
               if (JSON.stringify(m) === before) fail('No hay cambios que guardar.');
               return { files: files, message: 'Morfema: editar ' + form, after: reload };
             });

@@ -2506,7 +2506,10 @@
       "notes": [
         "Derivado desprendible de *CO-T; la T final de la raíz original es desprendible."
       ],
-      "row_class": ""
+      "row_class": "",
+      "root_refs": [
+        "root-co-t"
+      ]
     },
     {
       "id": "morph-erz",

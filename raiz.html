@@ -70,6 +70,13 @@
   const fieldHTML=fields=>(fields||[]).map(f=>'<a class="field" href="vocablos.html?q='+encodeURIComponent(f)+'">'+esc(f)+'</a>').join('');
   let index=null,root=null;
 
+  function morphemeCard(m){
+    const notes=(m.notes||[]).map(n=>'<div class="word-note">'+esc(n)+'</div>').join('');
+    const et=m.etymology?'<div class="word-analysis">'+esc(m.etymology)+'</div>':'';
+    const tags=(m.tags||[]).length?'<div class="word-tags">'+tagHTML(m.tags)+'</div>':'';
+    return '<article class="word-card"><div class="word-form"><a href="morfemas.html#'+encodeURIComponent(m.id)+'"><code>'+esc(m.form)+'</code></a></div><div class="word-gloss">'+esc(m.gloss)+'</div>'+et+notes+tags+'</article>';
+  }
+
   function wordCard(w,external=false){
     const notes=(w.notes||[]).map(n=>'<div class="word-note">'+esc(n)+'</div>').join('');
     const tags=(w.tags||[]).length?'<div class="word-tags">'+tagHTML(w.tags)+'</div>':'';
@@ -105,9 +112,10 @@
   async function load(){
     const id=new URLSearchParams(location.search).get('id');
     if(!id)throw Error('missing root id');
-    const [idx,hist]=await Promise.all([
+    const [idx,hist,morphData]=await Promise.all([
       fetch('lexico/index.json').then(r=>{if(!r.ok)throw Error('index');return r.json()}),
-      fetch('lexico/history.json').then(r=>r.ok?r.json():({roots:{}}))
+      fetch('lexico/history.json').then(r=>r.ok?r.json():({roots:{}})),
+      fetch('lexico/morphemes.json').then(r=>{if(!r.ok)throw Error('morphemes');return r.json()})
     ]);
     index=idx;
     const meta=(idx.roots||[]).find(r=>r.id===id);
@@ -122,6 +130,7 @@
     const et=root.etymology?'<div class="meta-card"><span class="meta-label">Etimología</span><div class="meta-text">'+esc(root.etymology)+'</div></div>':'';
     const notes=(root.notes||[]).length?'<div class="root-notes">'+root.notes.map(n=>'<p class="root-note">'+esc(n)+'</p>').join('')+'</div>':'';
     const words=root.words||[];
+    const derivedMorphs=(morphData.morphemes||[]).filter(m=>(m.root_refs||[]).includes(id));
 
     const rootMap=new Map((idx.roots||[]).map(r=>[r.id,r]));
     const externalMeta=(idx.words||[]).filter(w=>(w.refs||[]).includes(id)&&w.root_id!==id);
@@ -134,7 +143,7 @@
     }));
     const external=externalMeta.map(w=>sourceById.get(w.id)).filter(Boolean);
 
-    box.innerHTML='<article class="root-sheet root-relation '+esc(relationClass(root))+' '+esc(etymologyClass(root))+'"><div class="root-head"><div><p class="eyebrow">Raíz</p><h1 class="root-form">'+esc(root.form)+'</h1><p class="root-gloss">'+esc(root.gloss)+'</p></div><div class="root-tags">'+rootTagsHTML(root.tags)+'</div></div><div class="root-meta">'+et+'<div class="meta-card"><span class="meta-label">Identificador</span><div class="meta-text"><code>'+esc(root.id)+'</code></div></div><div class="meta-card"><span class="meta-label">Vocablos propios</span><div class="meta-text">'+words.length+'</div></div></div>'+notes+(words.length?'<section class="detail-section"><h2>Vocablos <span class="detail-section-count">('+words.length+')</span></h2><div class="word-grid">'+words.map(w=>wordCard(w)).join('')+'</div></section>':'<section class="detail-section"><h2>Vocablos</h2><div class="empty-note">Esta raíz todavía no tiene vocablos asociados.</div></section>')+(external.length?'<section class="detail-section"><h2>Usada en otros vocablos <span class="detail-section-count">('+external.length+')</span></h2><div class="word-grid">'+external.map(w=>wordCard(w,true)).join('')+'</div></section>':'')+'<section class="detail-section"><h2>Historial de commits</h2>'+historyHTML(hist.roots?.[id]||[])+'</section></article>';
+    box.innerHTML='<article class="root-sheet root-relation '+esc(relationClass(root))+' '+esc(etymologyClass(root))+'"><div class="root-head"><div><p class="eyebrow">Raíz</p><h1 class="root-form">'+esc(root.form)+'</h1><p class="root-gloss">'+esc(root.gloss)+'</p></div><div class="root-tags">'+rootTagsHTML(root.tags)+'</div></div><div class="root-meta">'+et+'<div class="meta-card"><span class="meta-label">Identificador</span><div class="meta-text"><code>'+esc(root.id)+'</code></div></div><div class="meta-card"><span class="meta-label">Vocablos propios</span><div class="meta-text">'+words.length+'</div></div><div class="meta-card"><span class="meta-label">Morfemas derivados</span><div class="meta-text">'+derivedMorphs.length+'</div></div></div>'+notes+(words.length?'<section class="detail-section"><h2>Vocablos <span class="detail-section-count">('+words.length+')</span></h2><div class="word-grid">'+words.map(w=>wordCard(w)).join('')+'</div></section>':'<section class="detail-section"><h2>Vocablos</h2><div class="empty-note">Esta raíz todavía no tiene vocablos asociados.</div></section>')+'<section class="detail-section"><h2>Morfemas derivados <span class="detail-section-count">('+derivedMorphs.length+')</span></h2>'+(derivedMorphs.length?'<div class="word-grid">'+derivedMorphs.map(morphemeCard).join('')+'</div>':'<div class="empty-note">Esta raíz todavía no tiene morfemas derivados vinculados.</div>')+'</section>'+(external.length?'<section class="detail-section"><h2>Usada en otros vocablos <span class="detail-section-count">('+external.length+')</span></h2><div class="word-grid">'+external.map(w=>wordCard(w,true)).join('')+'</div></section>':'')+'<section class="detail-section"><h2>Historial de commits</h2>'+historyHTML(hist.roots?.[id]||[])+'</section></article>';
   }
 
   document.addEventListener('click',e=>{
