@@ -1454,6 +1454,37 @@
           ],
           "notes": [],
           "emoji": "🤺"
+        },
+        {
+          "id": "lexeme-pilkampal",
+          "form": "pilkampal",
+          "gloss": "campo de juego",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pil-k\">PIL-K</a> + <a class=\"morph-link\" href=\"#root-kamp\">KAMP</a>",
+          "analysis_text": "PIL-K + KAMP",
+          "refs": [
+            {
+              "id": "root-pil-k",
+              "label": "PIL-K"
+            },
+            {
+              "id": "root-kamp",
+              "label": "KAMP"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "terreno",
+            "deportes",
+            "infraestructura"
+          ],
+          "notes": [
+            "literal \"campo de pelota\""
+          ]
         }
       ]
     },
