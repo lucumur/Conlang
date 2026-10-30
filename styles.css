@@ -19,7 +19,27 @@ body.home{position:relative}
 
 /* Relación con el esperanto: el fondo de las raíces es siempre neutro;
    solo la franja lateral codifica esta clasificación. */
-.root-relation{--relation-accent:#b9b3a9}
+.root-relation{--relation-accent:#b9b3a9;--etym-color:var(--paper);--etym-bg:color-mix(in srgb,var(--etym-color) 80%,var(--paper))}
+.root-relation.etym-latin{--etym-color:#ffe2d6}
+.root-relation.etym-romance{--etym-color:#fbe3d0}
+.root-relation.etym-italico{--etym-color:#ffdfe5}
+.root-relation.etym-frances{--etym-color:#e0e9ff}
+.root-relation.etym-espanol{--etym-color:#fbeac3}
+.root-relation.etym-portugues{--etym-color:#ddf0d5}
+.root-relation.etym-iberico{--etym-color:#fff0bf}
+.root-relation.etym-germanico{--etym-color:#d8efdf}
+.root-relation.etym-anglo{--etym-color:#dcf1ff}
+.root-relation.etym-griego{--etym-color:#e9deff}
+.root-relation.etym-helenico{--etym-color:#f3e3ff}
+.root-relation.etym-eslavo{--etym-color:#e2e9fc}
+.root-relation.etym-slavo{--etym-color:#e4e0fa}
+.root-relation.etym-celta{--etym-color:#d7f3e9}
+.root-relation.etym-arabe{--etym-color:#f8e5c4}
+.root-relation.etym-turquico{--etym-color:#d5f2e4}
+.root-relation.etym-baltico{--etym-color:#d9f1f1}
+.root-relation.etym-persa{--etym-color:#f6dded}
+.root-relation.etym-sinico{--etym-color:#ffe0de}
+.root-relation.etym-indico{--etym-color:#f7e7cf}
 .relation-nat-plen{--relation-accent:#278557}
 .relation-nat-mod{--relation-accent:#2879b5}
 .relation-nat-red{--relation-accent:#8753b0}
@@ -29,7 +49,7 @@ body.home{position:relative}
 .root-tag-set{display:inline-flex;align-items:center;flex-wrap:wrap;gap:3px}
 .root-tag-set-label{font-size:.67rem;letter-spacing:.02em;font-weight:800;color:var(--muted);margin-right:5px}
 .root-tag-set .tag{margin:1px 3px 1px 0}
-/* Los colores de las pastillas distinguen orígenes; no cambian el fondo de raíz. */
+/* Las pastillas identifican categorías; el fondo de las raíces corresponde a la etimología externa. */
 .tag{border:1px solid transparent}
 .tag.nat-plen{background:#def4e6;color:#155c39;border:1px solid #a6dabc}
 .tag.nat-mod{background:#ddedfb;color:#175c86;border:1px solid #a7cce7}
