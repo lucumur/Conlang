@@ -1537,10 +1537,15 @@
               "label": "-OL-"
             }
           ],
-          "tags": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo OL"
+            }
+          ],
           "semantic_fields": [
-            "cualidades",
-            "descripción"
+            "colores",
+            "pureza"
           ],
           "notes": []
         },
