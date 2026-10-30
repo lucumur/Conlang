@@ -27,6 +27,7 @@
           id: w.id, root_id: e.id, root_form: get(e, 'form', ''), root_gloss: get(e, 'gloss', ''),
           letter: letter, key: key,
           form: get(w, 'form', ''), gloss: get(w, 'gloss', ''),
+          ...(get(w, 'emoji', '') ? { emoji: get(w, 'emoji', '') } : {}),
           analysis_text: get(w, 'analysis_text', ''),
           tags: labels(get(w, 'tags', null)),
           refs: get(w, 'refs', []).map(function (r) { return get(r, 'id', null); }).filter(Boolean),
@@ -597,6 +598,7 @@
         var rootOpts = idx.roots.map(function (r) { return r.form + '  ·  ' + r.gloss + '  [' + r.id + ']'; });
         var chosenRoot = meta, fRoot = null;
         var fForm = textInput(w ? w.form : '', { class: 'ce-mono', required: true });
+        var fEmoji = emojiPicker(w ? w.emoji : '');
         var fGloss = textInput(w ? w.gloss : '', { required: true });
         var an = analysisEditor(w, root ? rootLabel(root.form) : '', idx), anSlot = el('div', {}, [an.el]);
         var fSem = chipInput(w ? w.semantic_fields || [] : [], Object.keys(fields).sort(coll.compare), 'Campo semántico (Enter para añadir)');
@@ -612,7 +614,7 @@
           });
           body.push(field('Raíz', fRoot, 'Elige de la lista.'));
         }
-        body.push(el('div', { class: 'ce-row' }, [field('Forma', fForm), field('Glosa', fGloss)]), anSlot,
+        body.push(el('div', { class: 'ce-row' }, [field('Forma', el('div', { class: 'ce-word-form-row' }, [fEmoji.el, fForm]), 'Pulsa el icono para elegir, pegar o quitar un emoji.'), field('Glosa', fGloss)]), anSlot,
           field('Campos semánticos', fSem.el), field('Etiquetas', fTags.el), field('Notas', fNotes));
         dialog(isNew ? 'Nuevo vocablo' + (root ? ' en ' + root.form : '') : 'Editar vocablo ' + w.form, body, {
           onDelete: isNew ? null : function () {
@@ -636,6 +638,8 @@
             var form = fForm.value.trim(), gloss = fGloss.value.trim();
             if (!form) fail('Escribe la forma del vocablo.');
             if (!gloss) fail('Escribe la glosa.');
+            var emoji = fEmoji.get();
+            if (!validEmoji(emoji)) fail('El icono debe ser un único emoji Unicode.');
             var a = an.get(), sem = fSem.get(), tagLabels = fTags.get(), notes = lines(fNotes.value), rid = chosenRoot.id;
             return transact(function (ctx) {
               return ctx.read('lexico/index.json').then(function (cidx) {
@@ -652,7 +656,8 @@
                     var nw = { id: uniqueId('lexeme-' + slug(form), taken), form: form, gloss: gloss,
                       analysis_html: a.analysis_html, analysis_text: a.analysis_text, refs: a.refs,
                       tags: tagsFrom(tagLabels, []), semantic_fields: sem, notes: notes };
-                    e.words.push(nw);
+                    if (emoji) nw.emoji = emoji;
+                     e.words.push(nw);
                     return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: rootId ? reload : goRoot(rid) };
                   }
                   var x = e.words.find(function (y) { return y.id === wordId; });
@@ -661,6 +666,7 @@
                   x.form = form; x.gloss = gloss;
                   x.analysis_html = a.analysis_html; x.analysis_text = a.analysis_text; x.refs = a.refs;
                   x.tags = tagsFrom(tagLabels, x.tags); x.semantic_fields = sem; x.notes = notes;
+                   if (emoji) x.emoji = emoji; else delete x.emoji;
                   if (JSON.stringify(x) === before) fail('No hay cambios que guardar.');
                   return { files: files, message: 'Vocablo: editar ' + form + ' (' + e.form + ')', after: reload };
                 });
