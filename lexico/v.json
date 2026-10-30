@@ -1461,7 +1461,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "V",
@@ -2680,7 +2680,7 @@
         },
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "V",
@@ -6052,7 +6052,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "V",
