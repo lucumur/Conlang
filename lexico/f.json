@@ -18,6 +18,27 @@
       "words": []
     },
     {
+      "id": "root-f-ung",
+      "form": "*F-UNG",
+      "gloss": "hongo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "F",
+      "section": "sec-f",
+      "etymology": "< Eo: fungo",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-fab",
       "form": "*FAB-",
       "gloss": "haba, frijol",
