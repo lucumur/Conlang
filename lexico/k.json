@@ -1389,6 +1389,30 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-garkampal",
+          "form": "garkampal",
+          "gloss": "campo de batalla; batalla",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-gar\">GAR-</a>",
+          "analysis_text": "GAR-",
+          "refs": [
+            {
+              "id": "morph-gar",
+              "label": "GAR-"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "guerra"
+          ],
+          "notes": [],
+          "emoji": "🏕️"
         }
       ]
     },
