@@ -2324,18 +2324,26 @@
       "words": [
         {
           "id": "lexeme-kapor",
-          "form": "kapor",
-          "gloss": "cabras",
-          "analysis_html": "KAPR + OR <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "KAPR + OR (pendiente)",
-          "refs": [],
+          "form": "kapren",
+          "gloss": "cabra",
+          "analysis_html": "KAPR + <a class=\"morph-link\" href=\"#morph-en\">-EN</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "KAPR + -EN (pendiente)",
+          "refs": [
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Nomen EN"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "mamíferos",
+            "animales domesticados"
+          ],
           "notes": []
         },
         {
