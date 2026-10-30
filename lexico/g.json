@@ -10,7 +10,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         },
         {
           "class": "latin",
@@ -338,7 +338,7 @@
         },
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "G",
@@ -1204,7 +1204,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         },
         {
           "class": "latin",
@@ -1721,7 +1721,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "G",
@@ -2270,7 +2270,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         },
         {
           "class": "latin",
@@ -2408,7 +2408,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         },
         {
           "class": "latin",
@@ -2542,7 +2542,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         },
         {
           "class": "germanico",
@@ -2680,7 +2680,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         },
         {
           "class": "frances",
@@ -2884,7 +2884,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         },
         {
           "class": "latin",
@@ -3117,7 +3117,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         },
         {
           "class": "latin",
@@ -3348,7 +3348,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         },
         {
           "class": "anglo",
@@ -4079,7 +4079,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         },
         {
           "class": "frances",
