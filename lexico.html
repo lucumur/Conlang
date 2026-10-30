@@ -45,6 +45,15 @@
   <section class="hero compact"><p class="eyebrow">Fuente léxica</p><h1>Raíces</h1><p>Inventario de raíces y sus familias derivadas, con morfemas, etimologías y etiquetas. Los datos canónicos siguen almacenados en <code>lexico/*.json</code>.</p></section>
   <div class="lex-search-box"><label for="lex-search">Buscar raíces</label><div class="lex-search-row"><input id="lex-search" type="search" autocomplete="off" spellcheck="false" placeholder="Ej.: helenico AND animal · nat-red OR nova"><span id="lex-search-count" aria-live="polite"></span></div><div class="lex-search-help">La búsqueda recorre raíces, sus vocablos y morfemas. Usa <strong>AND</strong> para exigir términos y <strong>OR</strong> para aceptar alternativas.</div></div>
   <div class="lex-view-toggle" role="group" aria-label="Modo de visualización"><span class="view-label">Vista</span><button id="lex-view-table" type="button" aria-pressed="true">Tabla</button><button id="lex-view-cards" type="button" aria-pressed="false">Tarjetas</button></div>
+  <div class="root-legend" aria-label="Leyenda de colores para las franjas de raíces">
+    <span class="root-legend-label">Franja: relación con el esperanto</span>
+    <span class="relation-nat-plen"><i aria-hidden="true"></i>Nat-Plen</span>
+    <span class="relation-nat-mod"><i aria-hidden="true"></i>Nat-Mod</span>
+    <span class="relation-nat-red"><i aria-hidden="true"></i>Nat-Red</span>
+    <span class="relation-nova"><i aria-hidden="true"></i>Nova</span>
+    <span><i aria-hidden="true"></i>Sin clasificar</span>
+    <span class="relation-conflict"><i aria-hidden="true"></i>Clasificación múltiple</span>
+  </div>
   <nav class="alphabet" aria-label="Índice alfabético"><a href="#sec-a" data-key="a">A</a><a href="#sec-b" data-key="b">B</a><a href="#sec-c" data-key="c">C</a><a href="#sec-circ-c" data-key="circ-c">Ĉ</a><a href="#sec-d" data-key="d">D</a><a href="#sec-e" data-key="e">E</a><a href="#sec-f" data-key="f">F</a><a href="#sec-g" data-key="g">G</a><a href="#sec-circ-g" data-key="circ-g">Ĝ</a><a href="#sec-i" data-key="i">I</a><a href="#sec-j" data-key="j">J</a><a href="#sec-circ-j" data-key="circ-j">Ĵ</a><a href="#sec-k" data-key="k">K</a><a href="#sec-l" data-key="l">L</a><a href="#sec-m" data-key="m">M</a><a href="#sec-n" data-key="n">N</a><a href="#sec-o" data-key="o">O</a><a href="#sec-p" data-key="p">P</a><a href="#sec-r" data-key="r">R</a><a href="#sec-s" data-key="s">S</a><a href="#sec-circ-s" data-key="circ-s">Ŝ</a><a href="#sec-t" data-key="t">T</a><a href="#sec-theta" data-key="theta">Θ</a><a href="#sec-u" data-key="u">U</a><a href="#sec-v" data-key="v">V</a><a href="#sec-z" data-key="z">Z</a><a href="#sec-circ-z" data-key="circ-z">Ẑ</a><a href="#lex-all" id="lex-letter-all" title="Mostrar todas las letras" aria-label="Mostrar todas las raíces">∞</a></nav>
   <div id="morpheme-focus"></div>
   <div id="lex-content" aria-live="polite"><div class="loading-note">Cargando A…</div></div>
@@ -68,7 +77,8 @@
     const relations=(e.tags||[]).filter(t=>RELATION_CLASSES.has(t.class));
     return relations.length>1?'relation-conflict':relations.length===1?'relation-'+relations[0].class:'';
   }
-  function tagHTML(tags){return(tags||[]).map(t=>`<span class="tag ${esc(t.class||'generic')}">${esc(t.label)}</span>`).join('')}
+  const NOTE_LABELS={'Bas':'note-bas','Part.':'note-part','Sono':'note-sono','formal':'note-formal','Mundial':'note-mundial','arcaico':'note-arcaico','onomato':'note-onomato','nom':'note-nom'};
+  function tagHTML(tags){return(tags||[]).map(t=>`<span class="tag ${esc(t.class||'generic')} ${esc(NOTE_LABELS[t.label]||'')}">${esc(t.label)}</span>`).join('')}
   function rootTagsHTML(tags){
     const groups=[
       ['Relación con esperanto',(tags||[]).filter(t=>RELATION_CLASSES.has(t.class))],
