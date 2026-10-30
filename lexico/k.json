@@ -1814,10 +1814,19 @@
       "id": "root-kant",
       "form": "*KANT-",
       "gloss": "cantar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
-      "etymology": null,
+      "etymology": "< Eo kanti",
       "notes": [],
       "row_class": "",
       "words": [
