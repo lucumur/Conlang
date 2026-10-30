@@ -9,7 +9,7 @@
   <meta name="description" content="Ficha individual de una raíz del conlang">
   <link rel="stylesheet" href="styles.css?v=20261029etym-palette13">
   <script src="refresh.js"></script>
-  <script src="editor.js?v=20261029root-morphs"></script>
+  <script src="editor.js?v=20261029analysis-lexemes"></script>
   <style>
     .root-back{display:inline-flex;align-items:center;gap:6px;margin:0 0 22px;color:var(--muted);text-decoration:none;font-weight:700}.root-back:hover{color:var(--accent)}
     .root-sheet{border:1px solid var(--line);border-left:7px solid var(--relation-accent,#b9b3a9);border-radius:22px;background:var(--etym-bg,var(--paper));padding:clamp(22px,5vw,48px);box-shadow:0 12px 38px rgba(47,42,35,.05)}
@@ -150,7 +150,8 @@
     const a=e.target.closest('a.morph-link[href^="#"]');if(!a||!index)return;
     const id=a.getAttribute('href').slice(1);
     if((index.roots||[]).some(r=>r.id===id)){e.preventDefault();location.assign('raiz.html?id='+encodeURIComponent(id));return}
-    if((index.morphemes||[]).some(m=>m.id===id)){e.preventDefault();location.href='morfemas.html#'+encodeURIComponent(id)}
+    if((index.morphemes||[]).some(m=>m.id===id)){e.preventDefault();location.href='morfemas.html#'+encodeURIComponent(id);return}
+    if((index.words||[]).some(w=>w.id===id)){e.preventDefault();location.href='vocablos.html#'+encodeURIComponent(id)}
   });
 
   load().catch(err=>{console.error(err);box.innerHTML='<div class="empty-note">No se pudo cargar esta raíz. <a href="lexico.html">Volver al inventario de raíces</a>.</div>'});

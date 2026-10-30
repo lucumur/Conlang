@@ -28,7 +28,7 @@
           letter: letter, key: key,
           form: get(w, 'form', ''), gloss: get(w, 'gloss', ''),
           ...(get(w, 'emoji', '') ? { emoji: get(w, 'emoji', '') } : {}),
-          analysis_text: get(w, 'analysis_text', ''),
+          analysis_text: get(w, 'analysis_text', ''), analysis_html: get(w, 'analysis_html', ''),
           tags: labels(get(w, 'tags', null)),
           refs: get(w, 'refs', []).map(function (r) { return get(r, 'id', null); }).filter(Boolean),
           semantic_fields: sf, notes: notes,
@@ -479,14 +479,15 @@
     return { el: holder, get: function () { return chosen; } };
   }
 
-  /* Constructor de análisis: segmentos enlazables a morfemas o raíces, o HTML libre. */
+  /* Constructor de análisis: segmentos enlazables a morfemas, raíces y vocablos, o HTML libre. */
   function analysisEditor(word, defaultFirst, idx) {
     var refOpts = [], refInfo = {};
     (idx.morphemes || []).forEach(function (m) { var l = bare(m.form); refInfo[m.id] = { label: l, gloss: m.gloss, kind: 'morfema' }; refOpts.push(l + '  ·  ' + m.gloss + '  [' + m.id + ']'); });
     (idx.roots || []).forEach(function (r) { var l = rootLabel(r.form); refInfo[r.id] = { label: l, gloss: r.gloss, kind: 'raíz' }; refOpts.push(l + '  ·  ' + r.gloss + '  [' + r.id + ']'); });
+    (idx.words || []).forEach(function (w) { if (word && w.id === word.id) return; refInfo[w.id] = { label: w.form, gloss: w.gloss, kind: 'vocablo' }; refOpts.push(w.form + '  ·  ' + w.gloss + '  ·  vocablo [' + w.id + ']'); });
     var dl = datalist(refOpts);
     /* Enlace automático: si el texto escrito coincide con la forma de un morfema, se enlaza sin tener que
-       elegirlo de la lista (solo morfemas; las raíces se siguen enlazando desde la lista). Primero coincidencia exacta (con guiones), luego sin guiones ni mayúsculas. */
+       elegirlo de la lista (solo morfemas; raíces y vocablos se seleccionan explícitamente). Primero coincidencia exacta (con guiones), luego sin guiones ni mayúsculas. */
     function norm(t, keepHyphen) { t = String(t || '').trim().toLocaleLowerCase('es'); return keepHyphen ? t : t.replace(/-/g, ''); }
     function candidates(text) {
       if (!norm(text)) return [];
@@ -505,7 +506,7 @@
     function currentHTML() { return mode === 'seg' ? segsHTML(segs, pend) : htmlBox.value.trim(); }
     function update() { var h = currentHTML(); preview.innerHTML = h || '<span style="color:var(--muted)">(sin análisis)</span>'; }
     function segRow(s, i) {
-      var inp = textInput(s.text, { list: dl, class: 'ce-mono', placeholder: 'Raíz, morfema o texto (p. ej. -A)' });
+      var inp = textInput(s.text, { list: dl, class: 'ce-mono', placeholder: 'Raíz, morfema, vocablo o texto' });
       var link = el('span', { class: 'ce-link' + (s.ref ? ' linked' : '') });
       var pick = el('select', { class: 'ce-pick', hidden: true, title: 'Varias coincidencias: elige a cuál enlazar' });
       pick.addEventListener('change', function () {
@@ -560,7 +561,7 @@
           el('label', {}, [pendBox, ' (pendiente)']),
           el('button', { type: 'button', text: 'Editar como HTML', onclick: function () { htmlBox.value = segsHTML(segs, pend); mode = 'html'; render(); } })
         ]));
-        box.appendChild(el('small', { text: 'Escribe un morfema (p. ej. -AR) y se enlaza solo al salir del campo; para raíces, elige de la lista. Si hay varias coincidencias aparece un selector. Lo demás queda como texto (p. ej. la propia raíz).' }));
+        box.appendChild(el('small', { text: 'Escribe un morfema (p. ej. -AR) y se enlaza solo al salir del campo; para raíces y vocablos, elige la opción de la lista (con identificador). Si hay varias coincidencias aparece un selector. Lo demás queda como texto.' }));
       } else {
         box.appendChild(htmlBox);
         box.appendChild(el('div', { class: 'ce-linkrow' }, [
@@ -570,7 +571,7 @@
             segs = p.segs; pend = p.pend; pendBox.checked = pend; mode = 'seg'; render();
           } })
         ]));
-        box.appendChild(el('small', { text: 'Enlaces: <a class="morph-link" href="#morph-…">-X</a>. El texto plano y las referencias se derivan solos.' }));
+        box.appendChild(el('small', { text: 'Enlaces: <a class="morph-link" href="#morph-…">-X</a>, <a class="morph-link" href="#root-…">RAÍZ</a> o <a class="morph-link" href="#lexeme-…">vocablo</a>. Texto y referencias se derivan solos.' }));
       }
       box.appendChild(preview); update();
     }

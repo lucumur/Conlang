@@ -29,7 +29,7 @@ for letter,key in LETTER_FILES:
                 'letter':letter,'key':key,
                 'form':w.get('form',''),'gloss':w.get('gloss',''),
                 **({'emoji':w['emoji']} if w.get('emoji') else {}),
-                'analysis_text':w.get('analysis_text',''),
+                'analysis_text':w.get('analysis_text',''),'analysis_html':w.get('analysis_html',''),
                 'tags':labels(w.get('tags')),
                 'refs':[r.get('id') for r in w.get('refs',[]) if r.get('id')],
                 'semantic_fields':semantic_fields,'notes':notes,
