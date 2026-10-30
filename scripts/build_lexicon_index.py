@@ -28,6 +28,7 @@ for letter,key in LETTER_FILES:
                 'id':w['id'],'root_id':e['id'],'root_form':e.get('form',''),'root_gloss':e.get('gloss',''),
                 'letter':letter,'key':key,
                 'form':w.get('form',''),'gloss':w.get('gloss',''),
+                **({'emoji':w['emoji']} if w.get('emoji') else {}),
                 'analysis_text':w.get('analysis_text',''),
                 'tags':labels(w.get('tags')),
                 'refs':[r.get('id') for r in w.get('refs',[]) if r.get('id')],
