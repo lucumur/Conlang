@@ -1421,6 +1421,35 @@
           ],
           "notes": [],
           "emoji": "🏕️"
+        },
+        {
+          "id": "lexeme-garkampan",
+          "form": "garkampan",
+          "gloss": "campeón; guerrero de campo de batalla",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-gar\">GAR</a> + <a class=\"morph-link\" href=\"#root-kamp\">KAMP</a>",
+          "analysis_text": "GAR + KAMP",
+          "refs": [
+            {
+              "id": "root-gar",
+              "label": "GAR"
+            },
+            {
+              "id": "root-kamp",
+              "label": "KAMP"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano AN"
+            }
+          ],
+          "semantic_fields": [
+            "guerra",
+            "militar"
+          ],
+          "notes": [],
+          "emoji": "🤺"
         }
       ]
     },
