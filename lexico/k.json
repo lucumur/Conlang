@@ -1606,14 +1606,14 @@
         },
         {
           "id": "lexeme-kandleco",
-          "form": "kandleco",
+          "form": "kandlaro",
           "gloss": "candelabro",
-          "analysis_html": "KAND + LEC <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "KAND + LEC (pendiente) + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kand\">KAND</a> + morph-lo",
+          "analysis_text": "KAND + morph-lo",
           "refs": [
             {
-              "id": "morph-o",
-              "label": "-O"
+              "id": "root-kand",
+              "label": "KAND"
             }
           ],
           "tags": [
