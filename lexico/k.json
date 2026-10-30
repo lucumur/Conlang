@@ -760,7 +760,16 @@
       "id": "root-kal-k",
       "form": "*KAL-K",
       "gloss": "copa",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
