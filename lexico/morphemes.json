@@ -217,12 +217,12 @@
     },
     {
       "id": "morph-an-2-2",
-      "form": "*-AN-",
+      "form": "*AN-",
       "gloss": "tambien",
       "tags": [
         {
           "class": "generic",
-          "label": "sufijo"
+          "label": "prefijo"
         }
       ],
       "letter": "A",
