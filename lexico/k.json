@@ -1952,7 +1952,16 @@
       "id": "root-kap",
       "form": "*KAP-",
       "gloss": "cabeza",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. kapo.",
