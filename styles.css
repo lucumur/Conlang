@@ -15,5 +15,49 @@ a{color:inherit}.wrap{width:min(1180px,calc(100% - 32px));margin:auto}.page-head
 .refresh-data{margin-left:4px;padding:3px 10px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--muted);font:inherit;font-size:.86rem;cursor:pointer}.refresh-data:hover{border-color:var(--accent);color:var(--accent)}.refresh-data:disabled{opacity:.6;cursor:wait}
 /* Portada: fondo textil (greca escalonada, xicalcoliuhqui) */
 body.home{position:relative}
+
+
+/* Relación con el esperanto: el fondo de las raíces es siempre neutro;
+   solo la franja lateral codifica esta clasificación. */
+.root-relation{--relation-accent:#b9b3a9}
+.relation-nat-plen{--relation-accent:#278557}
+.relation-nat-mod{--relation-accent:#2879b5}
+.relation-nat-red{--relation-accent:#8753b0}
+.relation-nova{--relation-accent:#c88520}
+.relation-conflict{--relation-accent:#6d687a}
+.root-tag-groups{display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px}
+.root-tag-set{display:inline-flex;align-items:center;flex-wrap:wrap;gap:3px}
+.root-tag-set-label{font-size:.67rem;letter-spacing:.02em;font-weight:800;color:var(--muted);margin-right:5px}
+.root-tag-set .tag{margin:1px 3px 1px 0}
+/* Los colores de las pastillas distinguen orígenes; no cambian el fondo de raíz. */
+.tag{border:1px solid transparent}
+.tag.nat-plen{background:#def4e6;color:#155c39;border:1px solid #a6dabc}
+.tag.nat-mod{background:#ddedfb;color:#175c86;border:1px solid #a7cce7}
+.tag.nat-red{background:#eee1f8;color:#663f91;border:1px solid #d5b6ea}
+.tag.nova{background:#fff0d2;color:#87510d;border:1px solid #ebca84}
+.tag.latin{background:#ffe2d6;color:#893b28;border:1px solid #eeb5a0}
+.tag.frances{background:#e0e9ff;color:#304f9d;border:1px solid #b3c7f3}
+.tag.germanico{background:#d8efdf;color:#246445;border:1px solid #a8d6b8}
+.tag.anglo{background:#dcf1ff;color:#1e618e;border:1px solid #b0d9ef}
+.tag.italico{background:#ffdfe5;color:#91475e;border:1px solid #e9b6c5}
+.tag.iberico{background:#fff0bf;color:#7f5b15;border:1px solid #ecd68a}
+.tag.griego{background:#e9deff;color:#5e3b9b;border:1px solid #c6b4ef}
+.tag.helenico{background:#f3e3ff;color:#824a9a;border:1px solid #ddbdea}
+.tag.eslavo{background:#e2e9fc;color:#405b9a;border:1px solid #b8c7ec}
+.tag.slavo{background:#e4e0fa;color:#6254a1;border:1px solid #bfb6e9}
+.tag.celta{background:#d7f3e9;color:#206d60;border:1px solid #a4d9c9}
+.tag.arabe{background:#f8e5c4;color:#916017;border:1px solid #e8cba0}
+.tag.baltico{background:#d9f1f1;color:#276b77;border:1px solid #addbdb}
+.tag.persa{background:#f6dded;color:#8b476c;border:1px solid #e7b7d0}
+.tag.sinico{background:#ffe0de;color:#944640;border:1px solid #ebb6b1}
+.tag.indico{background:#f7e7cf;color:#846121;border:1px solid #e8ce9e}
+.tag.turquico{background:#d5f2e4;color:#246a52;border:1px solid #abd9c4}
+.tag.romance{background:#fbe3d0;color:#9b5a34;border:1px solid #ecc2a6}
+.tag.espanol{background:#fbeac3;color:#825812;border:1px solid #e7ce96}
+.tag.portugues{background:#ddf0d5;color:#4b7431;border:1px solid #b8dca8}
+.tag.esper{background:#ebe7e5;color:#615653;border:1px solid #d2c8c3}
+.tag.neo{background:#e6e9f9;color:#4c5d94;border:1px solid #c0c7eb}
+.tag.generic{background:#ece9e2;color:#574f44;border:1px solid #dad4ca}
+
 body.home::before{content:"";position:absolute;z-index:-1;pointer-events:none;inset:0;background:url(fondo-greca.svg?v=202610280022) repeat center 14px;-webkit-mask-image:radial-gradient(ellipse 620px 230px at calc(50% - 250px) 285px,rgba(0,0,0,.35) 40%,#000 100%),linear-gradient(#000 0,#000 520px,rgba(0,0,0,.6) 820px,rgba(0,0,0,.45) 100%);-webkit-mask-composite:source-in;mask-image:radial-gradient(ellipse 620px 230px at calc(50% - 250px) 285px,rgba(0,0,0,.35) 40%,#000 100%),linear-gradient(#000 0,#000 520px,rgba(0,0,0,.6) 820px,rgba(0,0,0,.45) 100%);mask-composite:intersect}
 @media(max-width:760px){body.home::before{-webkit-mask-image:radial-gradient(ellipse 320px 240px at 40% 320px,rgba(0,0,0,.3) 50%,#000 100%),linear-gradient(#000 0,#000 520px,rgba(0,0,0,.6) 820px,rgba(0,0,0,.45) 100%);mask-image:radial-gradient(ellipse 320px 240px at 40% 320px,rgba(0,0,0,.3) 50%,#000 100%),linear-gradient(#000 0,#000 520px,rgba(0,0,0,.6) 820px,rgba(0,0,0,.45) 100%)}}
