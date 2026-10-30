@@ -59,5 +59,20 @@ body.home{position:relative}
 .tag.neo{background:#e6e9f9;color:#4c5d94;border:1px solid #c0c7eb}
 .tag.generic{background:#ece9e2;color:#574f44;border:1px solid #dad4ca}
 
+
+/* Etiquetas editoriales heredadas: colores exclusivos, sin atribuirles origen etimológico. */
+.tag.note-bas{background:#e1f1e0;color:#356c38;border:1px solid #bfdcba}
+.tag.note-part{background:#ece6f6;color:#664d87;border:1px solid #cfc1e5}
+.tag.note-sono{background:#fff0d8;color:#8d611d;border:1px solid #edd3a6}
+.tag.note-formal{background:#e0e9ec;color:#415e68;border:1px solid #b7cbd1}
+.tag.note-mundial{background:#ebedcf;color:#616a26;border:1px solid #d0d6a0}
+.tag.note-arcaico{background:#efdddd;color:#84494c;border:1px solid #ddbabc}
+.tag.note-onomato{background:#f3edba;color:#74641d;border:1px solid #ded48b}
+.tag.note-nom{background:#d9ecf6;color:#38657f;border:1px solid #aed3e8}
+.root-legend{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:0 0 16px;font-size:.77rem;color:var(--muted)}
+.root-legend span{display:inline-flex;align-items:center;gap:6px}
+.root-legend i{display:inline-block;width:5px;height:20px;border-radius:3px;background:var(--relation-accent,#b9b3a9)}
+.root-legend-label{font-weight:700;color:var(--ink)}
+
 body.home::before{content:"";position:absolute;z-index:-1;pointer-events:none;inset:0;background:url(fondo-greca.svg?v=202610280022) repeat center 14px;-webkit-mask-image:radial-gradient(ellipse 620px 230px at calc(50% - 250px) 285px,rgba(0,0,0,.35) 40%,#000 100%),linear-gradient(#000 0,#000 520px,rgba(0,0,0,.6) 820px,rgba(0,0,0,.45) 100%);-webkit-mask-composite:source-in;mask-image:radial-gradient(ellipse 620px 230px at calc(50% - 250px) 285px,rgba(0,0,0,.35) 40%,#000 100%),linear-gradient(#000 0,#000 520px,rgba(0,0,0,.6) 820px,rgba(0,0,0,.45) 100%);mask-composite:intersect}
 @media(max-width:760px){body.home::before{-webkit-mask-image:radial-gradient(ellipse 320px 240px at 40% 320px,rgba(0,0,0,.3) 50%,#000 100%),linear-gradient(#000 0,#000 520px,rgba(0,0,0,.6) 820px,rgba(0,0,0,.45) 100%);mask-image:radial-gradient(ellipse 320px 240px at 40% 320px,rgba(0,0,0,.3) 50%,#000 100%),linear-gradient(#000 0,#000 520px,rgba(0,0,0,.6) 820px,rgba(0,0,0,.45) 100%)}}
