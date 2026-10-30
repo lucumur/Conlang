@@ -1204,14 +1204,18 @@
         },
         {
           "id": "lexeme-kampinel",
-          "form": "kampakel",
+          "form": "ankampael",
           "gloss": "campestre",
-          "analysis_html": "kamp + <a class=\"morph-link\" href=\"#morph-ak-2\">-AK-</a> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
-          "analysis_text": "kamp + -AK- + -EL",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-an-2-2\">-AN-</a> + <a class=\"morph-link\" href=\"#root-kamp\">KAMP</a> + (a) + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "-AN- + KAMP + (a) + -EL",
           "refs": [
             {
-              "id": "morph-ak-2",
-              "label": "-AK-"
+              "id": "morph-an-2-2",
+              "label": "-AN-"
+            },
+            {
+              "id": "root-kamp",
+              "label": "KAMP"
             },
             {
               "id": "morph-el",
@@ -1225,7 +1229,9 @@
             }
           ],
           "semantic_fields": [],
-          "notes": []
+          "notes": [
+            "\"entre el campo\""
+          ]
         },
         {
           "id": "lexeme-kampros",
