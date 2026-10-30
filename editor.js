@@ -186,7 +186,9 @@
   function lines(s) { return String(s || '').split('\n').map(function (x) { return x.trim(); }).filter(Boolean); }
   function sameJSON(a, b) { return JSON.stringify(a) === JSON.stringify(b); }
 
-  var ORIGIN = ['Latin','Nova','Griego','Germanico','Nat-Mod','Nat-Plen','Nat-Red','Frances','Anglo','Italico','Iberico','Helenico','Slavo','Eslavo','Esper','Arabe','Celta','Persa','Neo','Turquico','Baltico','Indico','Sinico','Romance','Espanol','Portugues'];
+  var ROOT_RELATION = ['Nat-Plen','Nat-Mod','Nat-Red','Nova'];
+  var EXTERNAL_ETYM = ['Latin','Griego','Germanico','Frances','Anglo','Italico','Iberico','Helenico','Slavo','Eslavo','Arabe','Celta','Persa','Turquico','Baltico','Indico','Sinico','Romance','Espanol','Portugues'];
+  var ORIGIN = ROOT_RELATION.concat(EXTERNAL_ETYM,['Esper','Neo']);
   var ORIGIN_CLASS = {}, ORIGIN_LABEL = {};
   ORIGIN.forEach(function (l) { ORIGIN_CLASS[l.toLowerCase()] = l.toLowerCase(); ORIGIN_LABEL[l.toLowerCase()] = l; });
   ['latín', 'francés', 'germánico', 'helénico', 'ibérico', 'itálico', 'árabe', 'español', 'portugués'].forEach(function (l) {
@@ -198,8 +200,8 @@
     (previous || []).forEach(function (t) { prevBy[String(t.label).toLowerCase()] = t; });
     return labelsList.map(function (l) {
       var k = l.toLowerCase();
-      if (prevBy[k]) return prevBy[k];
-      return ORIGIN_CLASS[k] ? { class: ORIGIN_CLASS[k], label: ORIGIN_LABEL[k] } : { class: 'generic', label: l };
+      if (ORIGIN_CLASS[k]) return { class: ORIGIN_CLASS[k], label: ORIGIN_LABEL[k] };
+      return prevBy[k] || { class: 'generic', label: l };
     });
   }
 
@@ -657,14 +659,23 @@
       return readJSON('lexico/' + meta.key + '.json', currentRef()).then(function (d) { return { meta: meta, entry: d.entries.find(function (e) { return e.id === rootId; }) }; });
     })]).then(function (r) {
       var idx = r[0], cur = r[1] ? r[1].entry : null;
-      var tagSugs = ORIGIN.concat(['Bas', 'Part.', 'Sono', 'formal', 'Mundial', 'arcaico']);
+      var extraTags = ['Bas','Part.','Sono','formal','Mundial','arcaico','onomato','nom','Esper','Neo'];
+      var relationOf = function(t){return ROOT_RELATION.some(function(l){return l.toLowerCase()===(t.class||'').toLowerCase();});};
+      var etymOf = function(t){return EXTERNAL_ETYM.some(function(l){return l.toLowerCase()===(t.class||'').toLowerCase();});};
       var fForm = textInput(cur ? cur.form : '*', { class: 'ce-mono', required: true, placeholder: '*RAÍZ-' });
       var fGloss = textInput(cur ? cur.gloss : '', { required: true });
       var fEt = textArea(cur ? cur.etymology || '' : '', { rows: 3, placeholder: '< Eo. … , del lat. …' });
       var fNotes = textArea(cur ? (cur.notes || []).join('\n') : '', { rows: 2, placeholder: 'Una nota por línea' });
-      var fTags = chipInput(cur ? labels(cur.tags) : [], tagSugs, 'Origen o etiqueta (Latin, Nova, Nat-Mod…)');
+      var currentTags = cur ? cur.tags || [] : [];
+      var fRelation = chipInput(labels(currentTags.filter(relationOf)), ROOT_RELATION, 'Nat-Plen, Nat-Mod, Nat-Red, Nova');
+      var fEtym = chipInput(labels(currentTags.filter(etymOf)), EXTERNAL_ETYM, 'Latin, Germanico, Frances…');
+      var fTags = chipInput(labels(currentTags.filter(function(t){return !relationOf(t)&&!etymOf(t); })), extraTags, 'Otras etiquetas (si proceden)');
       var body = [el('div', { class: 'ce-row' }, [field('Forma', fForm, 'Con asterisco y guiones: *ĴAR-, *MA-J'), field('Glosa', fGloss)]),
-        field('Etimología', fEt), field('Notas', fNotes), field('Etiquetas', fTags.el)];
+        field('Etimología', fEt), field('Notas', fNotes),
+        field('Relación con esperanto', fRelation.el, 'Normalmente una sola clasificación. La franja lateral representa esta categoría.'),
+        field('Procedencia etimológica externa', fEtym.el, 'Se pueden indicar varias lenguas de origen.'),
+        field('Otras etiquetas', fTags.el, 'Anotaciones heredadas que no son clasificación esperántica ni lengua natural.')];
+      if (cur && currentTags.filter(relationOf).length>1) body.push(el('small', { class: 'ce-error', text: 'Clasificación múltiple: esta raíz tiene más de una relación con esperanto. Revísala cuando corresponda.' }));
       if (cur) body.push(el('small', { class: 'ce-help', text: 'Identificador: ' + cur.id + ' (no cambia aunque cambie la forma)' }));
       dialog(isNew ? 'Nueva raíz' : 'Editar raíz ' + cur.form, body, {
         onDelete: isNew ? null : function () {
@@ -688,7 +699,7 @@
           if (form[0] !== '*') form = '*' + form;
           if (!gloss) fail('Escribe la glosa.');
           var L = letterOf(form); if (!L) fail('La inicial de ' + form + ' no corresponde a ninguna letra del léxico.');
-          var et = fEt.value.trim() || null, notes = lines(fNotes.value), tagLabels = fTags.get();
+          var et = fEt.value.trim() || null, notes = lines(fNotes.value), tagLabels = fRelation.get().concat(fEtym.get(),fTags.get());
           return transact(function (ctx) {
             return ctx.read('lexico/index.json').then(function (cidx) {
               var files = {};
