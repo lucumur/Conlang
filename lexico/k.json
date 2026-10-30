@@ -1551,27 +1551,30 @@
         },
         {
           "id": "lexeme-esxkando",
-          "form": "eŝkando",
+          "form": "sumkando",
           "gloss": "mecha",
-          "analysis_html": "EŜ <span class=\"meta-extra\">(pendiente)</span> + KAND + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "EŜ (pendiente) + KAND + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-sum\">SUM</a> + <a class=\"morph-link\" href=\"#root-kand\">KAND</a>",
+          "analysis_text": "SUM + KAND",
           "refs": [
             {
-              "id": "morph-o",
-              "label": "-O"
+              "id": "root-sum",
+              "label": "SUM"
+            },
+            {
+              "id": "root-kand",
+              "label": "KAND"
             }
           ],
           "tags": [
             {
               "class": "generic",
               "label": "Nominal O"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "consumible",
+            "iluminacion"
+          ],
           "notes": [
             "Combustible de vela."
           ]
