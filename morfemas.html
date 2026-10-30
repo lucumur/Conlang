@@ -70,7 +70,7 @@
   function repertoire(m){
     const words=(index.words||[]).filter(w=>(w.refs||[]).includes(m.id));
     if(!words.length)return'<span class="meta-extra">Sin repertorio indexado</span>';
-    const link=w=>'<a href="lexico.html#'+esc(w.id)+'">'+esc(w.form)+'</a>';
+    const link=w=>'<a href="lexico.html#'+esc(w.id)+'">'+(w.emoji?'<span aria-hidden="true">'+esc(w.emoji)+'</span> ':'')+esc(w.form)+'</a>';
     const first=words.slice(0,30).map(link).join(' · ');
     const remaining=words.slice(30);
     const more=remaining.length
