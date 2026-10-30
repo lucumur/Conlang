@@ -12,7 +12,8 @@
   <script src="editor.js"></script>
   <style>
     .root-back{display:inline-flex;align-items:center;gap:6px;margin:0 0 22px;color:var(--muted);text-decoration:none;font-weight:700}.root-back:hover{color:var(--accent)}
-    .root-sheet{border:1px solid var(--line);border-radius:22px;background:var(--paper);padding:clamp(22px,5vw,48px);box-shadow:0 12px 38px rgba(47,42,35,.05)}
+    .root-sheet{border:1px solid var(--line);border-left:7px solid var(--relation-accent,#b9b3a9);border-radius:22px;background:var(--paper);padding:clamp(22px,5vw,48px);box-shadow:0 12px 38px rgba(47,42,35,.05)}
+    .root-sheet.relation-conflict{border-left-style:dashed}
     .root-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:start;border-bottom:1px solid var(--line);padding-bottom:26px}
     .root-form{margin:0;font:800 clamp(2.8rem,8vw,6.6rem)/.95 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:-.06em;overflow-wrap:anywhere}
     .root-gloss{margin:14px 0 0;font-size:clamp(1.25rem,2.5vw,1.8rem)}
@@ -48,6 +49,22 @@
   const box=document.getElementById('root-content');
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const tagHTML=tags=>(tags||[]).map(t=>'<span class="tag '+esc(t.class||'generic')+'">'+esc(t.label)+'</span>').join('');
+  const RELATION_CLASSES=new Set(['nat-plen','nat-mod','nat-red','nova']);
+  const ETYMOLOGY_CLASSES=new Set(['latin','romance','italico','frances','espanol','portugues','iberico','germanico','anglo','griego','helenico','eslavo','slavo','celta','arabe','turquico','baltico','persa','sinico','indico']);
+  function relationClass(root){
+    const tags=(root.tags||[]).filter(t=>RELATION_CLASSES.has(t.class));
+    return tags.length>1?'relation-conflict':tags.length===1?'relation-'+tags[0].class:'';
+  }
+  function rootTagsHTML(tags){
+    const groups=[
+      ['Relación con esperanto',(tags||[]).filter(t=>RELATION_CLASSES.has(t.class))],
+      ['Etimología externa',(tags||[]).filter(t=>ETYMOLOGY_CLASSES.has(t.class))],
+      ['Otras etiquetas',(tags||[]).filter(t=>!RELATION_CLASSES.has(t.class)&&!ETYMOLOGY_CLASSES.has(t.class))]
+    ];
+    return '<div class="root-tag-groups">'+groups.filter(([,arr])=>arr.length).map(([label,arr])=>
+      '<span class="root-tag-set"><span class="root-tag-set-label">'+esc(label)+'</span>'+tagHTML(arr)+'</span>'
+    ).join('')+'</div>';
+  }
   const fieldHTML=fields=>(fields||[]).map(f=>'<a class="field" href="vocablos.html?q='+encodeURIComponent(f)+'">'+esc(f)+'</a>').join('');
   let index=null,root=null;
 
@@ -115,7 +132,7 @@
     }));
     const external=externalMeta.map(w=>sourceById.get(w.id)).filter(Boolean);
 
-    box.innerHTML='<article class="root-sheet"><div class="root-head"><div><p class="eyebrow">Raíz</p><h1 class="root-form">'+esc(root.form)+'</h1><p class="root-gloss">'+esc(root.gloss)+'</p></div><div class="root-tags">'+tagHTML(root.tags)+'</div></div><div class="root-meta">'+et+'<div class="meta-card"><span class="meta-label">Identificador</span><div class="meta-text"><code>'+esc(root.id)+'</code></div></div><div class="meta-card"><span class="meta-label">Vocablos propios</span><div class="meta-text">'+words.length+'</div></div></div>'+notes+(words.length?'<section class="detail-section"><h2>Vocablos <span class="detail-section-count">('+words.length+')</span></h2><div class="word-grid">'+words.map(w=>wordCard(w)).join('')+'</div></section>':'<section class="detail-section"><h2>Vocablos</h2><div class="empty-note">Esta raíz todavía no tiene vocablos asociados.</div></section>')+(external.length?'<section class="detail-section"><h2>Usada en otros vocablos <span class="detail-section-count">('+external.length+')</span></h2><div class="word-grid">'+external.map(w=>wordCard(w,true)).join('')+'</div></section>':'')+'<section class="detail-section"><h2>Historial de commits</h2>'+historyHTML(hist.roots?.[id]||[])+'</section></article>';
+    box.innerHTML='<article class="root-sheet root-relation '+esc(relationClass(root))+'"><div class="root-head"><div><p class="eyebrow">Raíz</p><h1 class="root-form">'+esc(root.form)+'</h1><p class="root-gloss">'+esc(root.gloss)+'</p></div><div class="root-tags">'+rootTagsHTML(root.tags)+'</div></div><div class="root-meta">'+et+'<div class="meta-card"><span class="meta-label">Identificador</span><div class="meta-text"><code>'+esc(root.id)+'</code></div></div><div class="meta-card"><span class="meta-label">Vocablos propios</span><div class="meta-text">'+words.length+'</div></div></div>'+notes+(words.length?'<section class="detail-section"><h2>Vocablos <span class="detail-section-count">('+words.length+')</span></h2><div class="word-grid">'+words.map(w=>wordCard(w)).join('')+'</div></section>':'<section class="detail-section"><h2>Vocablos</h2><div class="empty-note">Esta raíz todavía no tiene vocablos asociados.</div></section>')+(external.length?'<section class="detail-section"><h2>Usada en otros vocablos <span class="detail-section-count">('+external.length+')</span></h2><div class="word-grid">'+external.map(w=>wordCard(w,true)).join('')+'</div></section>':'')+'<section class="detail-section"><h2>Historial de commits</h2>'+historyHTML(hist.roots?.[id]||[])+'</section></article>';
   }
 
   document.addEventListener('click',e=>{
