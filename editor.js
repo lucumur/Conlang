@@ -470,6 +470,11 @@
     panel.appendChild(help);
     holder.appendChild(trigger);
     holder.appendChild(panel);
+    function onOutside(event) {
+      if (!holder.isConnected) { document.removeEventListener('pointerdown', onOutside, true); return; }
+      if (!holder.contains(event.target)) open(false);
+    }
+    document.addEventListener('pointerdown', onOutside, true);
     return { el: holder, get: function () { return chosen; } };
   }
 
@@ -795,7 +800,7 @@
                       analysis_html: a.analysis_html, analysis_text: a.analysis_text, refs: a.refs,
                       tags: tagsFrom(tagLabels, []), semantic_fields: sem, notes: notes };
                     if (emoji) nw.emoji = emoji;
-                     e.words.push(nw);
+                    e.words.push(nw);
                     return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: rootId ? reload : goRoot(rid) };
                   }
                   var x = e.words.find(function (y) { return y.id === wordId; });
@@ -804,7 +809,7 @@
                   x.form = form; x.gloss = gloss;
                   x.analysis_html = a.analysis_html; x.analysis_text = a.analysis_text; x.refs = a.refs;
                   x.tags = tagsFrom(tagLabels, x.tags); x.semantic_fields = sem; x.notes = notes;
-                   if (emoji) x.emoji = emoji; else delete x.emoji;
+                  if (emoji) x.emoji = emoji; else delete x.emoji;
                   if (JSON.stringify(x) === before) fail('No hay cambios que guardar.');
                   return { files: files, message: 'Vocablo: editar ' + form + ' (' + e.form + ')', after: reload };
                 });
