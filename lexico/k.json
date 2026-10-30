@@ -1394,12 +1394,20 @@
           "id": "lexeme-garkampal",
           "form": "garkampal",
           "gloss": "campo de batalla; batalla",
-          "analysis_html": "<a class=\"morph-link\" href=\"#morph-gar\">GAR-</a>",
-          "analysis_text": "GAR-",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-gar-war\">GAR</a> + <a class=\"morph-link\" href=\"#root-kamp\">KAMP</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "GAR + KAMP + -AL",
           "refs": [
             {
-              "id": "morph-gar",
-              "label": "GAR-"
+              "id": "root-gar-war",
+              "label": "GAR"
+            },
+            {
+              "id": "root-kamp",
+              "label": "KAMP"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
             }
           ],
           "tags": [
