@@ -585,7 +585,7 @@
         },
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "R",
@@ -608,7 +608,7 @@
         },
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "R",
@@ -939,7 +939,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "R",
@@ -3002,7 +3002,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "R",
