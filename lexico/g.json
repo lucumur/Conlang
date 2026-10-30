@@ -6055,7 +6055,32 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-kriguto",
+          "form": "kriguto",
+          "gloss": "lagrima",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kri\">KRI</a> + <a class=\"morph-link\" href=\"#root-gut\">GUT</a>",
+          "analysis_text": "KRI + GUT",
+          "refs": [
+            {
+              "id": "root-kri",
+              "label": "KRI"
+            },
+            {
+              "id": "root-gut",
+              "label": "GUT"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "secrecion",
+            "visceral",
+            "objeto perla"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }
