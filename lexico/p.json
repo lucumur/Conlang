@@ -3517,7 +3517,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "P",
@@ -5884,7 +5884,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "P",
@@ -6344,7 +6344,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "P",
@@ -6656,7 +6656,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-plen"
+          "label": "Nat-Plen"
         }
       ],
       "letter": "P",
@@ -9587,7 +9587,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-plen"
+          "label": "Nat-Plen"
         }
       ],
       "letter": "P",
