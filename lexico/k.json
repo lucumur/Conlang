@@ -1204,16 +1204,11 @@
         },
         {
           "id": "lexeme-kampinel",
-          "form": "kampinel",
+          "form": "kamparel",
           "gloss": "campestre",
-          "analysis_html": "KAMP + IN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
-          "analysis_text": "KAMP + IN (pendiente) + -EL",
-          "refs": [
-            {
-              "id": "morph-el",
-              "label": "-EL"
-            }
-          ],
+          "analysis_html": "kamp",
+          "analysis_text": "kamp",
+          "refs": [],
           "tags": [
             {
               "class": "generic",
