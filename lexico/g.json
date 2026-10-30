@@ -6164,6 +6164,22 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-gutacxo",
+          "form": "gutaĉo",
+          "gloss": "mancha",
+          "analysis_html": "GUT",
+          "analysis_text": "GUT",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     }
