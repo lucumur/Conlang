@@ -341,6 +341,138 @@
     return { el: wrap, get: function () { commit(); return list.slice(); } };
   }
 
+
+  /* Selector híbrido de iconos: catálogo local + búsqueda + emoji Unicode pegado. */
+  var EMOJI_GROUPS = [
+    ['Frecuentes', [
+      ['⛺','acampar tienda campaña'],['🏕️','campamento camping'],['🌳','árbol bosque'],['🏠','casa hogar'],
+      ['📚','libros lectura estudio'],['❤️','amor corazón'],['⭐','estrella'],['🌍','mundo tierra'],
+      ['🔥','fuego quemar'],['💧','agua gota'],['☀️','sol día'],['🌙','luna noche'],
+      ['🧠','mente cerebro'],['🛠️','herramientas trabajo'],['🚶','caminar andar'],['🧭','brújula orientación']
+    ]],
+    ['Naturaleza y clima', [
+      ['🌲','pino conífera bosque'],['🌴','palmera tropical'],['🌿','hierba planta'],['🍀','trébol suerte'],
+      ['🌸','flor rosa'],['🌻','girasol flor'],['🍄','hongo seta'],['🌾','espiga cereal'],
+      ['🍎','manzana fruta'],['🍇','uva fruta'],['🥕','zanahoria verdura'],['🌱','brote crecer'],
+      ['🌊','ola mar agua'],['🏞️','paisaje naturaleza'],['⛰️','montaña pico'],['🏜️','desierto arena'],
+      ['🌋','volcán lava'],['🪨','piedra roca'],['🌧️','lluvia nube'],['⛈️','tormenta trueno'],
+      ['❄️','nieve frío'],['🌈','arcoíris colores'],['🌬️','viento aire'],['🌫️','niebla bruma']
+    ]],
+    ['Animales', [
+      ['🐕','perro'],['🐈','gato'],['🐺','lobo'],['🦊','zorro'],['🐻','oso'],['🦁','león'],
+      ['🐎','caballo'],['🐄','vaca buey'],['🐑','oveja'],['🐖','cerdo puerco'],['🐇','conejo'],
+      ['🦅','águila ave'],['🐦','pájaro ave'],['🦆','pato'],['🐝','abeja insecto'],
+      ['🦋','mariposa'],['🐜','hormiga'],['🐍','serpiente'],['🐟','pez pescado'],
+      ['🐬','delfín'],['🦀','cangrejo'],['🐸','rana']
+    ]],
+    ['Personas y cuerpo', [
+      ['🧍','persona estar de pie'],['👨','hombre'],['👩','mujer'],['👶','bebé niño'],
+      ['👨‍👩‍👧','familia'],['🧑‍🤝‍🧑','personas pareja'],['👁️','ojo ver'],['👂','oreja oído'],
+      ['👃','nariz olfato'],['👄','boca labios'],['🦷','diente'],['🦴','hueso'],
+      ['✋','mano palma'],['🦶','pie'],['💪','brazo fuerza músculo'],['🫀','corazón órgano'],
+      ['🩸','sangre'],['🧬','genética ADN'],['😴','dormir sueño'],['😊','alegría sonrisa'],
+      ['😢','tristeza llanto'],['😠','ira enojo'],['🤔','pensar reflexión'],['🗣️','hablar voz']
+    ]],
+    ['Objetos y lugares', [
+      ['📖','libro abierto'],['✏️','lápiz escribir'],['🔑','llave'],['🚪','puerta'],
+      ['🛏️','cama dormir'],['🪑','silla asiento'],['🏰','castillo fortaleza'],['🏙️','ciudad'],
+      ['🏡','vivienda pueblo'],['🌉','puente'],['⛵','barco navegar'],['🚗','auto coche'],
+      ['🚆','tren transporte'],['✈️','avión viaje'],['🗺️','mapa'],['🔭','telescopio'],
+      ['🔬','microscopio ciencia'],['⚖️','balanza justicia'],['🛡️','escudo proteger'],['⚔️','espadas combate'],
+      ['💡','luz idea'],['⚙️','engranaje mecanismo'],['📦','paquete caja'],['💎','gema cristal']
+    ]],
+    ['Acciones y símbolos', [
+      ['🏃','correr movimiento'],['🏊','nadar agua'],['🧗','escalar trepar'],['🚴','bicicleta ciclismo'],
+      ['🪓','hacha cortar'],['🔨','martillo construir'],['🧵','hilo coser'],['🎨','pintura arte'],
+      ['🎭','teatro máscaras'],['🎶','música cantar'],['⚽','fútbol deporte'],['🎯','objetivo blanco meta'],
+      ['🎁','regalo dar'],['🤝','acuerdo saludo'],['💬','diálogo conversación'],['✅','correcto sí'],
+      ['❌','incorrecto no'],['❓','interrogación pregunta'],['⚠️','advertencia peligro'],
+      ['♻️','reciclaje ciclo'],['🕰️','reloj tiempo'],['♾️','infinito'],['➕','más suma'],
+      ['➖','menos resta'],['🔄','girar volver'],['⬆️','arriba'],['⬇️','abajo']
+    ]]
+  ];
+  function validEmoji(value) {
+    var s = String(value || '').trim();
+    if (!s) return true;
+    if (s.length > 64 || !/[\p{Extended_Pictographic}\p{Regional_Indicator}\u20E3]/u.test(s)) return false;
+    if (typeof Intl !== 'undefined' && Intl.Segmenter) {
+      return Array.from(new Intl.Segmenter('es', { granularity: 'grapheme' }).segment(s)).length === 1;
+    }
+    return true;
+  }
+  function emojiPicker(value) {
+    var chosen = String(value || '').trim();
+    var holder = el('div', { class: 'ce-emoji-picker' });
+    var trigger = el('button', { type: 'button', class: 'ce-emoji-trigger',
+      title: 'Elegir emoji del vocablo', 'aria-label': 'Elegir emoji del vocablo', 'aria-expanded': 'false' });
+    var panel = el('div', { class: 'ce-emoji-panel', hidden: true });
+    var search = textInput('', { placeholder: 'Buscar emoji (árbol, casa, fuego…)', 'aria-label': 'Buscar emoji' });
+    var results = el('div', { class: 'ce-emoji-results' });
+    var paste = textInput('', { placeholder: 'Pega cualquier emoji', maxlength: '64', 'aria-label': 'Pegar otro emoji' });
+    var help = el('small', { class: 'ce-emoji-empty', text: 'También puedes pegar un emoji que no esté en el catálogo.' });
+    function fold(t) {
+      return String(t || '').toLocaleLowerCase('es').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+    function open(show) {
+      panel.hidden = !show;
+      trigger.setAttribute('aria-expanded', String(show));
+      if (show) { renderResults(); search.focus(); }
+    }
+    function select(value) {
+      var emoji = String(value || '').trim();
+      if (!validEmoji(emoji)) { help.textContent = 'Introduce un único emoji válido.'; return; }
+      chosen = emoji;
+      trigger.textContent = chosen || '＋';
+      trigger.title = chosen ? 'Cambiar o quitar emoji' : 'Elegir emoji del vocablo';
+      paste.value = '';
+      help.textContent = 'También puedes pegar un emoji que no esté en el catálogo.';
+      open(false);
+    }
+    function renderResults() {
+      results.innerHTML = '';
+      var q = fold(search.value), any = false;
+      EMOJI_GROUPS.forEach(function (group) {
+        var items = group[1].filter(function (item) {
+          return !q || fold(item[1]).includes(q) || item[0].includes(q);
+        });
+        if (!items.length) return;
+        any = true;
+        var grid = el('div', { class: 'ce-emoji-grid' });
+        items.forEach(function (item) {
+          grid.appendChild(el('button', { type: 'button', class: 'ce-emoji-option',
+            text: item[0], title: item[1], 'aria-label': item[1],
+            onclick: function () { select(item[0]); } }));
+        });
+        results.appendChild(el('section', { class: 'ce-emoji-group' },
+          [el('span', { class: 'ce-emoji-group-title', text: group[0] }), grid]));
+      });
+      if (!any) results.appendChild(el('div', { class: 'ce-emoji-empty',
+        text: 'No se encontraron emojis. Puedes pegar otro abajo.' }));
+    }
+    trigger.textContent = chosen || '＋';
+    trigger.addEventListener('click', function () { open(panel.hidden); });
+    search.addEventListener('input', renderResults);
+    search.addEventListener('keydown', function (e) { if (e.key === 'Enter') e.preventDefault(); });
+    paste.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); select(paste.value); }
+    });
+    panel.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { e.stopPropagation(); open(false); trigger.focus(); }
+    });
+    var apply = el('button', { type: 'button', class: 'ce-btn small', text: 'Usar',
+      onclick: function () { select(paste.value); } });
+    var remove = el('button', { type: 'button', class: 'ce-btn small', text: 'Quitar icono',
+      onclick: function () { select(''); } });
+    panel.appendChild(search);
+    panel.appendChild(results);
+    panel.appendChild(el('div', { class: 'ce-emoji-paste' }, [paste, apply]));
+    panel.appendChild(remove);
+    panel.appendChild(help);
+    holder.appendChild(trigger);
+    holder.appendChild(panel);
+    return { el: holder, get: function () { return chosen; } };
+  }
+
   /* Constructor de análisis: segmentos enlazables a morfemas o raíces, o HTML libre. */
   function analysisEditor(word, defaultFirst, idx) {
     var refOpts = [], refInfo = {};
