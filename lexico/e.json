@@ -1079,7 +1079,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-plen"
+          "label": "Nat-Plen"
         }
       ],
       "letter": "E",
@@ -2370,7 +2370,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-plen"
+          "label": "Nat-Plen"
         },
         {
           "class": "iberico",
