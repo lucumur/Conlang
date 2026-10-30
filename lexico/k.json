@@ -1176,18 +1176,30 @@
         },
         {
           "id": "lexeme-kampiken",
-          "form": "kampiken",
+          "form": "kampakial",
           "gloss": "campamento",
-          "analysis_html": "KAMP + IKEN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "KAMP + IKEN (pendiente)",
-          "refs": [],
+          "analysis_html": "KAMP + <a class=\"morph-link\" href=\"#morph-ak-2\">-AK-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "KAMP + -AK- + -AL (pendiente)",
+          "refs": [
+            {
+              "id": "morph-ak-2",
+              "label": "-AK-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
               "label": "Importado de Tana"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "al aire libre",
+            "actividad"
+          ],
           "notes": []
         },
         {
