@@ -1833,7 +1833,7 @@
         {
           "id": "lexeme-kantas",
           "form": "kantas",
-          "gloss": "cantar",
+          "gloss": "cantar (modular voz para recitar cancion)",
           "analysis_html": "KANT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
           "analysis_text": "KANT + -AS",
           "refs": [
@@ -1849,11 +1849,11 @@
             }
           ],
           "semantic_fields": [
-            "arte",
-            "sonido",
-            "acciones"
+            "verbos de voz"
           ],
-          "notes": []
+          "notes": [
+            "2. declamar, declarar, proclamar."
+          ]
         },
         {
           "id": "lexeme-kanta",
