@@ -1244,20 +1244,25 @@
           "id": "lexeme-kampikos",
           "form": "kampakis",
           "gloss": "acampar",
-          "analysis_html": "kamp",
-          "analysis_text": "kamp",
-          "refs": [],
+          "analysis_html": "kamp + <a class=\"morph-link\" href=\"#morph-ak-2\">-AK-</a>",
+          "analysis_text": "kamp + -AK-",
+          "refs": [
+            {
+              "id": "morph-ak-2",
+              "label": "-AK-"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado OS"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Verbal IS"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "ambiente exterior",
+            "naturaleza",
+            "viajes"
+          ],
           "notes": []
         },
         {
