@@ -36,7 +36,28 @@
       "etymology": "< Eo: fungo",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-fungo",
+          "form": "fungo",
+          "gloss": "hongo",
+          "analysis_html": "F-UNG",
+          "analysis_text": "F-UNG",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "reino fungi",
+            "parasitario",
+            "comestible"
+          ],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-fab",
