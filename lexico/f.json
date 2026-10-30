@@ -56,6 +56,34 @@
             "comestible"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-kandungi",
+          "form": "kandungi",
+          "gloss": "candida albicans",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kand\">KAND</a> + <a class=\"morph-link\" href=\"#morph-ung\">-UNG-</a>",
+          "analysis_text": "KAND + -UNG-",
+          "refs": [
+            {
+              "id": "root-kand",
+              "label": "KAND"
+            },
+            {
+              "id": "morph-ung",
+              "label": "-UNG-"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal I"
+            }
+          ],
+          "semantic_fields": [
+            "infeccion",
+            "reino fungi"
+          ],
+          "notes": []
         }
       ]
     },
