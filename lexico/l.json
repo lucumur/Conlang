@@ -2076,7 +2076,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "L",
@@ -2247,7 +2247,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "L",
@@ -2682,7 +2682,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "L",
@@ -3018,7 +3018,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         },
         {
           "class": "germanico",
@@ -4019,7 +4019,7 @@
         },
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "L",
@@ -5855,7 +5855,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-mod"
+          "label": "Nat-Mod"
         }
       ],
       "letter": "L",
