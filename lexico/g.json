@@ -6148,6 +6148,22 @@
             "verbo continuativo"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-gutacxas",
+          "form": "gutaĉas",
+          "gloss": "manchar",
+          "analysis_html": "GUT",
+          "analysis_text": "GUT",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Verbal AS"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     }
