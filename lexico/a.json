@@ -3524,8 +3524,8 @@
           "label": "Nat-Red"
         },
         {
-          "class": "helenico",
-          "label": "Helenico"
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "A",
@@ -3612,8 +3612,8 @@
           "label": "Nat-Red"
         },
         {
-          "class": "helenico",
-          "label": "Helenico"
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "A",
@@ -4410,8 +4410,8 @@
           "label": "Nova"
         },
         {
-          "class": "helenico",
-          "label": "Helenico"
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "A",
@@ -4738,8 +4738,8 @@
           "label": "Nat-Red"
         },
         {
-          "class": "helenico",
-          "label": "Helenico"
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "A",
@@ -5864,8 +5864,8 @@
           "label": "Nat-Plen"
         },
         {
-          "class": "helenico",
-          "label": "Helenico"
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "A",

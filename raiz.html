@@ -7,9 +7,9 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <title>Raíz · Conlang</title>
   <meta name="description" content="Ficha individual de una raíz del conlang">
-  <link rel="stylesheet" href="styles.css?v=20261029root-etym-bg">
+  <link rel="stylesheet" href="styles.css?v=20261029etym-palette13">
   <script src="refresh.js"></script>
-  <script src="editor.js"></script>
+  <script src="editor.js?v=20261029etym-palette13"></script>
   <style>
     .root-back{display:inline-flex;align-items:center;gap:6px;margin:0 0 22px;color:var(--muted);text-decoration:none;font-weight:700}.root-back:hover{color:var(--accent)}
     .root-sheet{border:1px solid var(--line);border-left:7px solid var(--relation-accent,#b9b3a9);border-radius:22px;background:var(--etym-bg,var(--paper));padding:clamp(22px,5vw,48px);box-shadow:0 12px 38px rgba(47,42,35,.05)}
@@ -51,7 +51,7 @@
   const NOTE_LABELS={'Bas':'note-bas','Part.':'note-part','Sono':'note-sono','formal':'note-formal','Mundial':'note-mundial','arcaico':'note-arcaico','onomato':'note-onomato','nom':'note-nom'};
   const tagHTML=tags=>(tags||[]).map(t=>'<span class="tag '+esc(t.class||'generic')+' '+esc(NOTE_LABELS[t.label]||'')+'">'+esc(t.label)+'</span>').join('');
   const RELATION_CLASSES=new Set(['nat-plen','nat-mod','nat-red','nova']);
-  const ETYMOLOGY_CLASSES=new Set(['latin','romance','italico','frances','espanol','portugues','iberico','germanico','anglo','griego','helenico','eslavo','slavo','celta','arabe','turquico','baltico','persa','sinico','indico']);
+  const ETYMOLOGY_CLASSES=new Set(['latin','griego','germanico','frances','anglo','italico','iberico','eslavo','arabe','celta','indopersa','turquico','sinico']);
   function relationClass(root){
     const tags=(root.tags||[]).filter(t=>RELATION_CLASSES.has(t.class));
     return tags.length>1?'relation-conflict':tags.length===1?'relation-'+tags[0].class:'';

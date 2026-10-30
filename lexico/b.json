@@ -6546,8 +6546,8 @@
           "label": "Nat-Red"
         },
         {
-          "class": "persa",
-          "label": "Persa"
+          "class": "indopersa",
+          "label": "Indopersa"
         }
       ],
       "letter": "B",
@@ -6710,8 +6710,8 @@
           "label": "Nova"
         },
         {
-          "class": "helenico",
-          "label": "Helenico"
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "B",

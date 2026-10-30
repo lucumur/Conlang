@@ -187,13 +187,12 @@
   function sameJSON(a, b) { return JSON.stringify(a) === JSON.stringify(b); }
 
   var ROOT_RELATION = ['Nat-Plen','Nat-Mod','Nat-Red','Nova'];
-  var EXTERNAL_ETYM = ['Latin','Griego','Germanico','Frances','Anglo','Italico','Iberico','Helenico','Slavo','Eslavo','Arabe','Celta','Persa','Turquico','Baltico','Indico','Sinico','Romance','Espanol','Portugues'];
+  var EXTERNAL_ETYM = ['Latin','Griego','Germanico','Frances','Anglo','Italico','Iberico','Eslavo','Arabe','Celta','Indopersa','Turquico','Sinico'];
   var ORIGIN = ROOT_RELATION.concat(EXTERNAL_ETYM,['Esper','Neo']);
   var ORIGIN_CLASS = {}, ORIGIN_LABEL = {};
   ORIGIN.forEach(function (l) { ORIGIN_CLASS[l.toLowerCase()] = l.toLowerCase(); ORIGIN_LABEL[l.toLowerCase()] = l; });
-  ['latín', 'francés', 'germánico', 'helénico', 'ibérico', 'itálico', 'árabe', 'español', 'portugués'].forEach(function (l) {
-    var k = l.normalize('NFD').replace(/[\u0300-\u036f]/g, ''); ORIGIN_CLASS[l] = k; ORIGIN_LABEL[l] = ORIGIN_LABEL[k];
-  });
+  var ETYM_ALIASES = {"latín":"Latin","germánico":"Germanico","francés":"Frances","itálico":"Italico","ibérico":"Iberico","árabe":"Arabe","túrquico":"Turquico","sínico":"Sinico","helénico":"Griego","helenico":"Griego","slavo":"Eslavo","romance":"Italico","espanol":"Iberico","español":"Iberico","portugues":"Iberico","portugués":"Iberico","indico":"Indopersa","persa":"Indopersa"};
+  Object.keys(ETYM_ALIASES).forEach(function (l) { var canonical = ETYM_ALIASES[l]; ORIGIN_CLASS[l] = canonical.toLowerCase(); ORIGIN_LABEL[l] = canonical; });
   /* Etiquetas: se conservan tal cual las que ya existían; las nuevas toman clase de origen si la reconocen. */
   function tagsFrom(labelsList, previous) {
     var prevBy = {};
