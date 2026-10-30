@@ -2159,18 +2159,25 @@
         },
         {
           "id": "lexeme-kapen",
-          "form": "kapen",
+          "form": "kaparin",
           "gloss": "con cabeza",
-          "analysis_html": "KAP + EN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "KAP + EN (pendiente)",
-          "refs": [],
+          "analysis_html": "KAP + <a class=\"morph-link\" href=\"#morph-ar-collective\">-AR-</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "KAP + -AR- (pendiente)",
+          "refs": [
+            {
+              "id": "morph-ar-collective",
+              "label": "-AR-"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Participio animante IN"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "posesión"
+          ],
           "notes": []
         },
         {
