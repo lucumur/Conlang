@@ -1242,16 +1242,11 @@
         },
         {
           "id": "lexeme-kampikos",
-          "form": "kampikos",
+          "form": "kampakis",
           "gloss": "acampar",
-          "analysis_html": "KAMP + IK <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "KAMP + IK (pendiente) + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
+          "analysis_html": "kamp",
+          "analysis_text": "kamp",
+          "refs": [],
           "tags": [
             {
               "class": "generic",
