@@ -2198,24 +2198,24 @@
         },
         {
           "id": "lexeme-okapes",
-          "form": "okapes",
+          "form": "prikapos",
           "gloss": "encabezar, liderar, estar arriba de todo",
-          "analysis_html": "O <span class=\"meta-extra\">(pendiente)</span> + KAP + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "O (pendiente) + KAP + -ES",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pr\">PR</a> + <a class=\"morph-link\" href=\"#root-kap\">KAP</a>",
+          "analysis_text": "PR + KAP",
           "refs": [
             {
-              "id": "morph-es",
-              "label": "-ES"
+              "id": "root-pr",
+              "label": "PR"
+            },
+            {
+              "id": "root-kap",
+              "label": "KAP"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado ES"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Verbal OS"
             }
           ],
           "semantic_fields": [],
