@@ -6079,6 +6079,34 @@
             "objeto perla"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-pluguti",
+          "form": "pluguti",
+          "gloss": "gotas de lluvia",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-plu\">PLU</a> + <a class=\"morph-link\" href=\"#root-gut\">GUT</a>",
+          "analysis_text": "PLU + GUT",
+          "refs": [
+            {
+              "id": "root-plu",
+              "label": "PLU"
+            },
+            {
+              "id": "root-gut",
+              "label": "GUT"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal I"
+            }
+          ],
+          "semantic_fields": [
+            "objeto perla",
+            "agua"
+          ],
+          "notes": []
         }
       ]
     }
