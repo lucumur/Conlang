@@ -2495,11 +2495,16 @@
         },
         {
           "id": "lexeme-ervaklin",
-          "form": "ervaklin",
+          "form": "eruklen",
           "gloss": "hercules",
-          "analysis_html": "ERV + AKLIN <span class=\"meta-extra\">(formación lexicalizada pendiente de análisis)</span>",
-          "analysis_text": "ERV + AKLIN (formación lexicalizada pendiente de análisis)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-erv\">ERU</a> + klen",
+          "analysis_text": "ERU + klen",
+          "refs": [
+            {
+              "id": "root-erv",
+              "label": "ERU"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -2508,12 +2513,9 @@
           ],
           "semantic_fields": [
             "mitología",
-            "héroes",
-            "personas"
+            "héroes"
           ],
-          "notes": [
-            "PENDIENTE: AKLIN no está documentado como raíz o morfema independiente."
-          ]
+          "notes": []
         }
       ]
     },
