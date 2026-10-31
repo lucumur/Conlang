@@ -3040,7 +3040,16 @@
       "id": "root-bel",
       "form": "*BEL-",
       "gloss": "bueno, bonito",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
