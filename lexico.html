@@ -72,7 +72,7 @@
 (()=>{
   const LETTERS=[{"letter": "A", "key": "a", "file": "lexico/a.json"}, {"letter": "B", "key": "b", "file": "lexico/b.json"}, {"letter": "C", "key": "c", "file": "lexico/c.json"}, {"letter": "Ĉ", "key": "circ-c", "file": "lexico/circ-c.json"}, {"letter": "D", "key": "d", "file": "lexico/d.json"}, {"letter": "E", "key": "e", "file": "lexico/e.json"}, {"letter": "F", "key": "f", "file": "lexico/f.json"}, {"letter": "G", "key": "g", "file": "lexico/g.json"}, {"letter": "Ĝ", "key": "circ-g", "file": "lexico/circ-g.json"}, {"letter": "I", "key": "i", "file": "lexico/i.json"}, {"letter": "J", "key": "j", "file": "lexico/j.json"}, {"letter": "Ĵ", "key": "circ-j", "file": "lexico/circ-j.json"}, {"letter": "K", "key": "k", "file": "lexico/k.json"}, {"letter": "L", "key": "l", "file": "lexico/l.json"}, {"letter": "M", "key": "m", "file": "lexico/m.json"}, {"letter": "N", "key": "n", "file": "lexico/n.json"}, {"letter": "O", "key": "o", "file": "lexico/o.json"}, {"letter": "P", "key": "p", "file": "lexico/p.json"}, {"letter": "R", "key": "r", "file": "lexico/r.json"}, {"letter": "S", "key": "s", "file": "lexico/s.json"}, {"letter": "Ŝ", "key": "circ-s", "file": "lexico/circ-s.json"}, {"letter": "T", "key": "t", "file": "lexico/t.json"}, {"letter": "Θ", "key": "theta", "file": "lexico/theta.json"}, {"letter": "U", "key": "u", "file": "lexico/u.json"}, {"letter": "V", "key": "v", "file": "lexico/v.json"}, {"letter": "Z", "key": "z", "file": "lexico/z.json"}, {"letter": "Ẑ", "key": "circ-z", "file": "lexico/circ-z.json"}];
   const content=document.getElementById('lex-content'),search=document.getElementById('lex-search'),count=document.getElementById('lex-search-count'),morphFocus=document.getElementById('morpheme-focus');
-  const cache=new Map();let indexPromise=null,morphPromise=null,mode='letter',activeKey='a',activeEtym=null,view=localStorage.getItem('conlang-lexicon-view')||'table';
+  const cache=new Map();let indexPromise=null,morphPromise=null,mode='letter',activeKey='a',activeEtym=null,view=(()=>{try{return localStorage.getItem('conlang-lexicon-view')}catch(e){return null}})()||'table';
   const norm=s=>(s||'').toLocaleLowerCase('es').trim();
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function parseQuery(raw){const q=norm(raw);if(!q)return[];return q.split(/\s+or\s+/i).map(g=>g.split(/\s+and\s+/i).map(norm).filter(Boolean)).filter(g=>g.length)}
@@ -141,8 +141,8 @@
     setNav();renderEtymology(etym).catch(showError);
   }));
   document.getElementById('etym-filter-all').addEventListener('click',clearEtymology);
-  document.getElementById('lex-view-table').onclick=()=>{view='table';localStorage.setItem('conlang-lexicon-view',view);applyView()};
-  document.getElementById('lex-view-cards').onclick=()=>{view='cards';localStorage.setItem('conlang-lexicon-view',view);applyView()};
+  document.getElementById('lex-view-table').onclick=()=>{view='table';try{localStorage.setItem('conlang-lexicon-view',view)}catch(e){}applyView()};
+  document.getElementById('lex-view-cards').onclick=()=>{view='cards';try{localStorage.setItem('conlang-lexicon-view',view)}catch(e){}applyView()};
   document.querySelectorAll('.alphabet a[data-key]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();search.value='';activeEtym=null;count.textContent='';mode='letter';activeKey=a.dataset.key;history.replaceState(null,'','#sec-'+activeKey);renderLetter(activeKey).catch(showError)}));
   document.getElementById('lex-letter-all').addEventListener('click',e=>{e.preventDefault();search.value='';activeEtym=null;count.textContent='';mode='all';history.replaceState(null,'','#lex-all');renderAll().catch(showError)});
   async function doSearch(){
