@@ -1966,6 +1966,103 @@
       "words": []
     },
     {
+      "id": "root-fliz",
+      "form": "*FELẐ-",
+      "gloss": "feliz",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "F",
+      "section": "sec-f",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-fliẑos",
+          "form": "felẑos",
+          "gloss": "alegrarse",
+          "analysis_html": "FELẐ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "FELẐ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fliẑis",
+          "form": "felẑis",
+          "gloss": "feliz",
+          "analysis_html": "FELẐ + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "FELẐ + -IS",
+          "refs": [
+            {
+              "id": "morph-is-2",
+              "label": "-IS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado IS"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "estado",
+            "cualidades"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-fliẑa",
+          "form": "felẑa",
+          "gloss": "felicidad",
+          "analysis_html": "FELẐ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "FELẐ + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominalización A"
+            }
+          ],
+          "semantic_fields": [
+            "emociones",
+            "cualidades",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "root-fem",
       "form": "*FEM-",
       "gloss": "hembra",
@@ -2154,7 +2251,16 @@
       "id": "root-fi",
       "form": "*FI-",
       "gloss": "verguenza",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2166,7 +2272,16 @@
       "id": "root-fig",
       "form": "*FIG-",
       "gloss": "higo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2204,7 +2319,16 @@
       "id": "root-fik",
       "form": "*FIK-",
       "gloss": "fijar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2241,7 +2365,16 @@
       "id": "root-fil",
       "form": "*FIL-",
       "gloss": "hijo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2253,7 +2386,16 @@
       "id": "root-film",
       "form": "*FILM-",
       "gloss": "pelicula",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2341,7 +2483,16 @@
       "id": "root-fin",
       "form": "*FIN-",
       "gloss": "terminar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2477,7 +2628,16 @@
       "id": "root-fing",
       "form": "*FING-",
       "gloss": "dedo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2515,7 +2675,16 @@
       "id": "root-fis",
       "form": "*FIŜ-",
       "gloss": "pescar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2584,8 +2753,12 @@
       "gloss": "creer ⭐",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "F",
@@ -2786,7 +2959,16 @@
       "id": "root-fla",
       "form": "*FLA-",
       "gloss": "amarillo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2798,7 +2980,16 @@
       "id": "root-fla-2",
       "form": "*FLA-",
       "gloss": "inflar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2827,7 +3018,16 @@
       "id": "root-flan",
       "form": "*FLAN-",
       "gloss": "lados",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2839,7 +3039,16 @@
       "id": "root-flar",
       "form": "*FLAR-",
       "gloss": "oler",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2952,7 +3161,16 @@
       "id": "root-fleb",
       "form": "*FLEB-",
       "gloss": "vena",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -2964,7 +3182,16 @@
       "id": "root-flek-s",
       "form": "*FLEK-S",
       "gloss": "doblar ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -3049,98 +3276,19 @@
       ]
     },
     {
-      "id": "root-fliz",
-      "form": "*FLIẐ-",
-      "gloss": "feliz",
-      "tags": [],
-      "letter": "F",
-      "section": "sec-f",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-fliẑos",
-          "form": "fliẑos",
-          "gloss": "alegrarse",
-          "analysis_html": "FLIẐ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "FLIẐ + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "emociones",
-            "estado",
-            "procesos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-fliẑis",
-          "form": "fliẑis",
-          "gloss": "feliz",
-          "analysis_html": "FLIẐ + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
-          "analysis_text": "FLIẐ + -IS",
-          "refs": [
-            {
-              "id": "morph-is-2",
-              "label": "-IS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado IS"
-            }
-          ],
-          "semantic_fields": [
-            "emociones",
-            "estado",
-            "cualidades"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-fliẑa",
-          "form": "fliẑa",
-          "gloss": "felicidad",
-          "analysis_html": "FLIẐ + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "FLIẐ + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominalización A"
-            }
-          ],
-          "semantic_fields": [
-            "emociones",
-            "cualidades",
-            "abstractos"
-          ],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-flo",
       "form": "*FLO-",
       "gloss": "florecer",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -3182,7 +3330,16 @@
       "id": "root-flu",
       "form": "*FLU-",
       "gloss": "flotar, fluir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -3194,7 +3351,16 @@
       "id": "root-flug",
       "form": "*FLUG-",
       "gloss": "volar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -3257,7 +3423,16 @@
       "id": "root-fo-t",
       "form": "*FO-T-",
       "gloss": "foto",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -3337,7 +3512,16 @@
       "id": "root-fok",
       "form": "*FOK-",
       "gloss": "enfocar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -3425,7 +3609,16 @@
       "id": "root-fol",
       "form": "*FOL-",
       "gloss": "caer",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -3488,7 +3681,16 @@
       "id": "root-fon-t",
       "form": "*FON-T-",
       "gloss": "fuente, brotar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -3551,7 +3753,16 @@
       "id": "root-for-t",
       "form": "*FOR-T",
       "gloss": "fuerza, potencia",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -3588,7 +3799,16 @@
       "id": "root-forg",
       "form": "*FORG-",
       "gloss": "olvidar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Nat-Refor"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -3600,7 +3820,16 @@
       "id": "root-form",
       "form": "*FORM-",
       "gloss": "formar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -3688,7 +3917,16 @@
       "id": "root-fos-t",
       "form": "*FOS-T",
       "gloss": "poste ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -4651,8 +4889,12 @@
       "gloss": "refutar",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Nat-Mod"
+          "class": "nat-refor",
+          "label": "Nat-Refor"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "F",
