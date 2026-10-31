@@ -2385,11 +2385,15 @@
       "words": [
         {
           "id": "lexeme-ervedal",
-          "form": "ervedal",
+          "form": "erudal",
           "gloss": "heroon (santuario de heroe)",
-          "analysis_html": "ERV + <a class=\"morph-link\" href=\"#morph-ed\">-ED-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
-          "analysis_text": "ERV + -ED- + -AL",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-erv\">ERU</a> + <a class=\"morph-link\" href=\"#morph-ed\">-ED-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ERU + -ED- + -AL",
           "refs": [
+            {
+              "id": "root-erv",
+              "label": "ERU"
+            },
             {
               "id": "morph-ed",
               "label": "-ED-"
@@ -2400,10 +2404,6 @@
             }
           ],
           "tags": [
-            {
-              "class": "generic",
-              "label": "Edificio ED"
-            },
             {
               "class": "generic",
               "label": "Locativo AL"
