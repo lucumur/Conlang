@@ -647,7 +647,16 @@
       "id": "root-bal",
       "form": "*BAL-",
       "gloss": "bailar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
