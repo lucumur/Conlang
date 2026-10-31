@@ -75,11 +75,21 @@
   function ls(k, v) { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; } }
   function token() { return ls(TK); }
   function editOn() { return !!token() && ls(EK) === '1'; }
-  function currentRef() {
-    try { var o = JSON.parse(sessionStorage.getItem(RK) || 'null'); if (o && Date.now() - o.t < 10 * 60 * 1000) return o.sha; } catch (e) {}
+  /* Commit al que se leen los datos: la cabeza ACTUAL de main, consultada una vez por carga de página.
+     (Antes se fijaba por pestaña el commit del último guardado durante 10 min, y otra pestaña
+     seguía viendo datos viejos aunque se recargara.) */
+  var headP = null;
+  function storedRef() {
+    try { var o = JSON.parse(localStorage.getItem(RK) || 'null'); if (o && Date.now() - o.t < 10 * 60 * 1000) return o.sha; } catch (e) {}
     return BRANCH;
   }
-  function setRef(sha) { try { sessionStorage.setItem(RK, JSON.stringify({ sha: sha, t: Date.now() })); } catch (e) {} }
+  function currentRef() {
+    if (!headP) headP = baseFetch(API + '/repos/' + OWNER + '/' + REPO + '/git/ref/heads/' + BRANCH, { headers: headers(false), cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw r; return r.json(); })
+      .then(function (j) { return j.object.sha; }, function () { return storedRef(); });
+    return headP;
+  }
+  function setRef(sha) { headP = Promise.resolve(sha); try { localStorage.setItem(RK, JSON.stringify({ sha: sha, t: Date.now() })); } catch (e) {} }
 
   var baseFetch = window.fetch.bind(window);
   function contentsURL(path, ref) { return API + '/repos/' + OWNER + '/' + REPO + '/contents/' + path + '?ref=' + encodeURIComponent(ref || BRANCH); }
@@ -95,7 +105,7 @@
       if (typeof input === 'string') {
         var m = input.match(/^(?:\.\/)?lexico\/([^?#\/]+\.json)/);
         if (m) {
-          return baseFetch(contentsURL('lexico/' + m[1], currentRef()), { headers: headers(true), cache: 'no-store' })
+          return currentRef().then(function (ref) { return baseFetch(contentsURL('lexico/' + m[1], ref), { headers: headers(true), cache: 'no-store' }); })
             .then(function (r) { return r.ok ? r : baseFetch(input, init); }, function () { return baseFetch(input, init); });
         }
       }
@@ -116,7 +126,7 @@
       });
   }
   var RP = '/repos/' + OWNER + '/' + REPO;
-  function readJSON(path, ref) { return gh('/repos/' + OWNER + '/' + REPO + '/contents/' + path + '?ref=' + encodeURIComponent(ref || BRANCH), { raw: true }).then(JSON.parse); }
+  function readJSON(path, ref) { return Promise.resolve(ref).then(function (ref) { return gh('/repos/' + OWNER + '/' + REPO + '/contents/' + path + '?ref=' + encodeURIComponent(ref || BRANCH), { raw: true }); }).then(JSON.parse); }
 
   /* Un guardado = una transacción: leer en la cabeza de main, aplicar el cambio, regenerar el índice,
      y crear un único commit. Si main avanzó entretanto, se repite sobre la versión nueva. */
