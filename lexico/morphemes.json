@@ -1095,7 +1095,7 @@
     },
     {
       "id": "morph-isma",
-      "form": "*-ISMA",
+      "form": "*-MA",
       "gloss": "sistema",
       "tags": [
         {
@@ -1103,8 +1103,8 @@
           "label": "sufijo"
         }
       ],
-      "letter": "I",
-      "section": "sec-i",
+      "letter": "M",
+      "section": "sec-m",
       "etymology": null,
       "notes": [],
       "row_class": ""
