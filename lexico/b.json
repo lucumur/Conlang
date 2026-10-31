@@ -73,7 +73,20 @@
       "id": "root-bab-l",
       "form": "*BAB-L",
       "gloss": "balbucear, parlotear, hablar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        },
+        {
+          "class": "generic",
+          "label": "onomato"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
