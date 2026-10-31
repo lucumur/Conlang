@@ -453,7 +453,16 @@
       "id": "root-bak",
       "form": "*BAK-",
       "gloss": "hornear, pan",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
