@@ -434,12 +434,12 @@
       "gloss": "escoria",
       "tags": [
         {
-          "class": "nat-plen",
-          "label": "Nat-Plen"
+          "class": "nat-mod",
+          "label": "Nat-Mod"
         },
         {
-          "class": "esper",
-          "label": "Esper"
+          "class": "generic",
+          "label": "Esperide"
         }
       ],
       "letter": "A",
