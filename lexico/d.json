@@ -7,7 +7,16 @@
       "id": "root-dan",
       "form": "*DAN-",
       "gloss": "daneses",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-tek",
+          "label": "Nat-Tek"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -82,7 +91,16 @@
       "id": "root-danz",
       "form": "*DANẐ-",
       "gloss": "bailar, danzar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -217,6 +235,10 @@
         {
           "class": "nat-mod",
           "label": "Nat-Mod"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
         }
       ],
       "letter": "D",
@@ -456,8 +478,12 @@
       "gloss": "propio, decente",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Nat-Mod"
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "D",
@@ -588,6 +614,10 @@
         {
           "class": "nat-mod",
           "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "D",
@@ -688,6 +718,14 @@
       "form": "*DEN-TR-",
       "gloss": "dentro, en, sobre",
       "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        },
         {
           "class": "generic",
           "label": "Part."
@@ -820,7 +858,16 @@
       "id": "root-difr",
       "form": "*DIFR-",
       "gloss": "diferenciar, discernir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -928,7 +975,16 @@
       "id": "root-dik",
       "form": "*DIK-",
       "gloss": "indicar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -1013,8 +1069,12 @@
       "gloss": "obedecer",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "D",
@@ -1074,7 +1134,16 @@
       "id": "root-dir",
       "form": "*DIR-",
       "gloss": "decir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -1323,7 +1392,16 @@
       "id": "root-div",
       "form": "*DIV-",
       "gloss": "iluminar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -1455,7 +1533,16 @@
       "id": "root-dok",
       "form": "*DOK-",
       "gloss": "enseñar ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -1714,7 +1801,16 @@
       "id": "root-dom",
       "form": "*DOM-",
       "gloss": "poseer, señor ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -2282,7 +2378,16 @@
       "id": "root-don",
       "form": "*DON-",
       "gloss": "dar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -2479,7 +2584,16 @@
       "id": "root-dorm",
       "form": "*DORM-",
       "gloss": "dormir, dormir(se)",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -2662,7 +2776,16 @@
       "id": "root-dors",
       "form": "*DORS-",
       "gloss": "dorso, espalda",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -2983,7 +3106,16 @@
       "id": "root-drak",
       "form": "*DRAK-",
       "gloss": "Bestia Serpentina",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -3110,7 +3242,16 @@
       "id": "root-drat",
       "form": "*DRAT-",
       "gloss": "cable",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -3148,7 +3289,16 @@
       "id": "root-dras",
       "form": "*DRAŜ-",
       "gloss": "azotar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -3186,7 +3336,16 @@
       "id": "root-drem",
       "form": "*DREM-",
       "gloss": "soñar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -3554,7 +3713,16 @@
       "id": "root-drib",
       "form": "*DRIB-",
       "gloss": "gotear",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -3671,7 +3839,16 @@
       "id": "root-driz",
       "form": "*DRIZ-",
       "gloss": "lloviznar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
@@ -3755,7 +3932,16 @@
       "id": "root-du",
       "form": "*DU-",
       "gloss": "vez, tiempo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "D",
       "section": "sec-d",
       "etymology": null,
