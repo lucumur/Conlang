@@ -2364,27 +2364,33 @@
         },
         {
           "id": "lexeme-kapro",
-          "form": "kapro",
+          "form": "kapriĉen",
           "gloss": "macho cabrío",
-          "analysis_html": "KAPR + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "KAPR + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-kap-r\">KAP-R</a> + <a class=\"morph-link\" href=\"#morph-cx\">-Ĉ-</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "KAP-R + -Ĉ- + -EN",
           "refs": [
             {
-              "id": "morph-o",
-              "label": "-O"
+              "id": "root-kap-r",
+              "label": "KAP-R"
+            },
+            {
+              "id": "morph-cx",
+              "label": "-Ĉ-"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Nominal O"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Nomen EN"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "mamiferos masculinos"
+          ],
           "notes": []
         }
       ]
