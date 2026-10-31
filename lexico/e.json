@@ -2005,15 +2005,11 @@
         },
         {
           "id": "lexeme-ervepikel",
-          "form": "ervepikel",
+          "form": "epikel",
           "gloss": "epico",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-erv\">ERV</a> + EP-IK + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
-          "analysis_text": "ERV + EP-IK + -EL",
+          "analysis_html": "EP-IK + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "EP-IK + -EL",
           "refs": [
-            {
-              "id": "root-erv",
-              "label": "ERV"
-            },
             {
               "id": "morph-el",
               "label": "-EL"
