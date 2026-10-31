@@ -10,7 +10,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         }
       ],
       "letter": "Ŝ",
@@ -52,7 +52,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         }
       ],
       "letter": "Ŝ",
@@ -435,7 +435,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         }
       ],
       "letter": "Ŝ",
@@ -1091,7 +1091,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         }
       ],
       "letter": "Ŝ",
