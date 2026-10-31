@@ -1956,7 +1956,16 @@
       "id": "root-bas",
       "form": "*BAS-",
       "gloss": "base",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
