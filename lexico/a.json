@@ -442,7 +442,7 @@
           "label": "Nat-Mod"
         },
         {
-          "class": "generic",
+          "class": "esperide",
           "label": "Esperide"
         }
       ],
@@ -723,11 +723,11 @@
       "gloss": "hacer",
       "tags": [
         {
-          "class": "generic",
+          "class": "nat-refor",
           "label": "Nat-Refor"
         },
         {
-          "class": "generic",
+          "class": "esperide",
           "label": "Esperide"
         }
       ],
