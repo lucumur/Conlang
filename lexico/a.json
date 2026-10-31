@@ -723,12 +723,12 @@
       "gloss": "hacer",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Nat-Mod"
+          "class": "generic",
+          "label": "Nat-Refor"
         },
         {
-          "class": "esper",
-          "label": "Esper"
+          "class": "generic",
+          "label": "Esperide"
         }
       ],
       "letter": "A",
