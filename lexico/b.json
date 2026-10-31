@@ -653,8 +653,8 @@
           "label": "Nat-Mod"
         },
         {
-          "class": "frances",
-          "label": "Frances"
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "B",
@@ -3210,7 +3210,16 @@
       "id": "root-bend",
       "form": "*BEND-",
       "gloss": "cinta",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -3411,7 +3420,16 @@
       "id": "root-ber",
       "form": "*BER-",
       "gloss": "mora",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -3523,7 +3541,16 @@
       "id": "root-best",
       "form": "*BES-T",
       "gloss": "bestia",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -3777,7 +3804,16 @@
       "id": "root-bet",
       "form": "*BET-",
       "gloss": "abedul",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -3957,8 +3993,12 @@
       "gloss": "verdura larga",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "B",
@@ -4102,6 +4142,10 @@
         {
           "class": "nat-plen",
           "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         },
         {
           "class": "esper",
@@ -4491,6 +4535,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "B",
@@ -5790,7 +5838,16 @@
       "id": "root-blu",
       "form": "*BLU-",
       "gloss": "azul",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -5855,7 +5912,16 @@
       "id": "root-bob",
       "form": "*BOB-",
       "gloss": "burbuja",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -5923,7 +5989,16 @@
       "id": "root-boj",
       "form": "*BOJ-",
       "gloss": "ladrar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -5984,7 +6059,16 @@
       "id": "root-bomb",
       "form": "*BOM-B",
       "gloss": "explotar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -6306,6 +6390,10 @@
         {
           "class": "nat-plen",
           "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "B",
@@ -6429,8 +6517,12 @@
       "gloss": "buey",
       "tags": [
         {
-          "class": "nat-red",
-          "label": "Nat-Red"
+          "class": "nat-refor",
+          "label": "Nat-Refor"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "B",
@@ -6897,7 +6989,16 @@
       "id": "root-bra-nk",
       "form": "*BRA-N-K",
       "gloss": "rama",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -7311,7 +7412,16 @@
       "id": "root-bril",
       "form": "*BRIL-",
       "gloss": "brillar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -7422,7 +7532,16 @@
       "id": "root-brov",
       "form": "*BROV-",
       "gloss": "ceja",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
