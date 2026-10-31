@@ -275,6 +275,10 @@
         {
           "class": "nat-plen",
           "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
         }
       ],
       "letter": "A",
