@@ -10,7 +10,7 @@
       "tags": [
         {
           "class": "nat-refor",
-          "label": "Nat-Refor"
+          "label": "Reformada"
         },
         {
           "class": "latin",
@@ -31,7 +31,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "italico",
@@ -1189,7 +1189,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "esperide",
@@ -1334,7 +1334,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "esperide",
@@ -1433,7 +1433,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "esperide",
@@ -1952,7 +1952,7 @@
       "tags": [
         {
           "class": "nat-tek",
-          "label": "Nat-Tek"
+          "label": "Tecnica"
         },
         {
           "class": "griego",
@@ -2376,7 +2376,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "griego",
@@ -2541,7 +2541,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "germanico",
@@ -2821,7 +2821,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -3137,7 +3137,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "italico",
@@ -3444,7 +3444,7 @@
       "tags": [
         {
           "class": "nat-tek",
-          "label": "Nat-Tek"
+          "label": "Tecnica"
         },
         {
           "class": "griego",
@@ -4073,7 +4073,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "germanico",
@@ -4285,7 +4285,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "italico",
