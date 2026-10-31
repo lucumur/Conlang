@@ -2418,20 +2418,24 @@
         },
         {
           "id": "lexeme-ervon",
-          "form": "ervon",
+          "form": "erun",
           "gloss": "heroe",
-          "analysis_html": "ERV + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "ERV + -ON",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-erv\">ERU</a> + <a class=\"morph-link\" href=\"#morph-un-parahuman\">-UN</a>",
+          "analysis_text": "ERU + -UN",
           "refs": [
             {
-              "id": "morph-on",
-              "label": "-ON"
+              "id": "root-erv",
+              "label": "ERU"
+            },
+            {
+              "id": "morph-un-parahuman",
+              "label": "-UN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Humano ON"
+              "label": "Humano UN"
             }
           ],
           "semantic_fields": [
