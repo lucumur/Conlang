@@ -122,7 +122,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         }
       ],
       "letter": "O",
@@ -4092,7 +4092,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         }
       ],
       "letter": "O",
