@@ -10,7 +10,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -1450,7 +1450,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         }
       ],
       "letter": "I",
