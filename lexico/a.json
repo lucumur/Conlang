@@ -1529,10 +1529,19 @@
       "id": "root-alk",
       "form": "*ALK-",
       "gloss": "alcalino",
-      "tags": [],
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Nat-Tek"
+        },
+        {
+          "class": "arabe",
+          "label": "Arabe"
+        }
+      ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": null,
+      "etymology": "< Eo. alkala",
       "notes": [],
       "row_class": "",
       "words": []
