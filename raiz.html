@@ -9,7 +9,7 @@
   <meta name="description" content="Ficha individual de una raíz del conlang">
   <link rel="stylesheet" href="styles.css?v=20261031nat-tek">
   <script src="refresh.js?v=20261031fresh2"></script>
-  <script src="editor.js?v=20261031nat-tek"></script>
+  <script src="editor.js?v=20261031relacion-nativa"></script>
   <style>
     .root-back{display:inline-flex;align-items:center;gap:6px;margin:0 0 22px;color:var(--muted);text-decoration:none;font-weight:700}.root-back:hover{color:var(--accent)}
     .root-sheet{border:1px solid var(--line);border-left:7px solid var(--relation-accent,#b9b3a9);border-radius:22px;background:var(--etym-bg,var(--paper));padding:clamp(22px,5vw,48px);box-shadow:0 12px 38px rgba(47,42,35,.05)}
@@ -49,8 +49,9 @@
   const box=document.getElementById('root-content');
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const NOTE_LABELS={'Bas':'note-bas','Part.':'note-part','Sono':'note-sono','formal':'note-formal','Mundial':'note-mundial','arcaico':'note-arcaico','onomato':'note-onomato','nom':'note-nom'};
-  const tagHTML=tags=>(tags||[]).map(t=>'<span class="tag '+esc(t.class||'generic')+' '+esc(NOTE_LABELS[t.label]||'')+'">'+esc(t.label)+'</span>').join('');
+  const tagHTML=tags=>(tags||[]).map(t=>'<span class="tag '+esc(t.class||'generic')+' '+esc(NOTE_LABELS[t.label]||'')+'">'+esc(RELATION_NAMES[t.class]||t.label)+'</span>').join('');
   const RELATION_CLASSES=new Set(['nat-plen','nat-mod','nat-red','nat-refor','nat-tek','nova']);
+  const RELATION_NAMES={'nat-plen':'Original','nat-tek':'Tecnica','nat-mod':'Modificada','nat-red':'Reducida','nat-refor':'Reformada','nova':'Nova'};
   const ETYMOLOGY_CLASSES=new Set(['latin','griego','germanico','frances','anglo','italico','iberico','eslavo','arabe','celta','indopersa','turquico','sinico','esperide']);
   function relationClass(root){
     const tags=(root.tags||[]).filter(t=>RELATION_CLASSES.has(t.class));
@@ -59,7 +60,7 @@
   function etymologyClass(root){const tag=(root.tags||[]).find(t=>ETYMOLOGY_CLASSES.has(t.class));return tag?'etym-'+tag.class:'';}
   function rootTagsHTML(tags){
     const groups=[
-      ['Relación con esperanto',(tags||[]).filter(t=>RELATION_CLASSES.has(t.class))],
+      ['Relación nativa',(tags||[]).filter(t=>RELATION_CLASSES.has(t.class))],
       ['Etimología externa',(tags||[]).filter(t=>ETYMOLOGY_CLASSES.has(t.class))],
       ['Otras etiquetas',(tags||[]).filter(t=>!RELATION_CLASSES.has(t.class)&&!ETYMOLOGY_CLASSES.has(t.class))]
     ];
