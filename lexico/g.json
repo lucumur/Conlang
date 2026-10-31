@@ -333,12 +333,12 @@
       "gloss": "croar",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
-        },
-        {
           "class": "nat-mod",
           "label": "Modificada"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
         }
       ],
       "letter": "G",
@@ -1722,6 +1722,10 @@
         {
           "class": "nat-mod",
           "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "G",
@@ -1929,6 +1933,10 @@
         {
           "class": "nat-red",
           "label": "Reducida"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
         }
       ],
       "letter": "G",
@@ -2013,7 +2021,16 @@
       "id": "root-gas-2",
       "form": "*GAŜ-",
       "gloss": "torrentoso",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -3743,7 +3760,16 @@
       "id": "root-glat",
       "form": "*GLA-T-",
       "gloss": "lindo, gentil",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
@@ -6030,7 +6056,16 @@
       "id": "root-gar-war",
       "form": "*GAR-",
       "gloss": "guerra",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "G",
       "section": "sec-g",
       "etymology": null,
