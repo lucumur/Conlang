@@ -3234,10 +3234,19 @@
       "id": "root-ang-3",
       "form": "*ANĜ-",
       "gloss": "enviar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "A",
       "section": "sec-a",
-      "etymology": null,
+      "etymology": "< Eo. anĝelo",
       "notes": [],
       "row_class": "lex-root-row",
       "words": [
