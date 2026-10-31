@@ -2348,18 +2348,25 @@
         },
         {
           "id": "lexeme-kapicxerol",
-          "form": "Kapiĉerol",
+          "form": "Kapriĉeren",
           "gloss": "Capricornio",
-          "analysis_html": "KAPR + IĈEROL <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "KAPR + IĈEROL (pendiente)",
-          "refs": [],
+          "analysis_html": "KAPR + <a class=\"morph-link\" href=\"#root-cer-2\">ĈER</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "KAPR + ĈER (pendiente)",
+          "refs": [
+            {
+              "id": "root-cer-2",
+              "label": "ĈER"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Nomen EN"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "animales mitologicos"
+          ],
           "notes": []
         },
         {
