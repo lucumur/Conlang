@@ -196,7 +196,7 @@
   function lines(s) { return String(s || '').split('\n').map(function (x) { return x.trim(); }).filter(Boolean); }
   function sameJSON(a, b) { return JSON.stringify(a) === JSON.stringify(b); }
 
-  var ROOT_RELATION = ['Nat-Plen','Nat-Mod','Nat-Red','Nat-Refor','Nova'];
+  var ROOT_RELATION = ['Nat-Plen','Nat-Mod','Nat-Red','Nat-Refor','Nat-Tek','Nova'];
   var EXTERNAL_ETYM = ['Latin','Griego','Germanico','Frances','Anglo','Italico','Iberico','Eslavo','Arabe','Celta','Indopersa','Turquico','Sinico','Esperide'];
   var ORIGIN = ROOT_RELATION.concat(EXTERNAL_ETYM,['Esper','Neo']);
   var ORIGIN_CLASS = {}, ORIGIN_LABEL = {};
@@ -677,7 +677,7 @@
       var fEt = textArea(cur ? cur.etymology || '' : '', { rows: 3, placeholder: '< Eo. … , del lat. …' });
       var fNotes = textArea(cur ? (cur.notes || []).join('\n') : '', { rows: 2, placeholder: 'Una nota por línea' });
       var currentTags = cur ? cur.tags || [] : [];
-      var fRelation = chipInput(labels(currentTags.filter(relationOf)), ROOT_RELATION, 'Nat-Plen, Nat-Mod, Nat-Red, Nat-Refor, Nova');
+      var fRelation = chipInput(labels(currentTags.filter(relationOf)), ROOT_RELATION, 'Nat-Plen, Nat-Mod, Nat-Red, Nat-Refor, Nat-Tek, Nova');
       var fEtym = chipInput(labels(currentTags.filter(etymOf)), EXTERNAL_ETYM, 'Latin, Germanico, Frances…');
       var fTags = chipInput(labels(currentTags.filter(function(t){return !relationOf(t)&&!etymOf(t); })), extraTags, 'Otras etiquetas (si proceden)');
       var body = [el('div', { class: 'ce-row' }, [field('Forma', fForm, 'Con asterisco y guiones: *ĴAR-, *MA-J'), field('Glosa', fGloss)]),
