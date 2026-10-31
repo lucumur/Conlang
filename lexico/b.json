@@ -1399,8 +1399,12 @@
       "gloss": "barrer",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Nat-Mod"
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
         }
       ],
       "letter": "B",
