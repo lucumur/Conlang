@@ -4226,14 +4226,16 @@
         {
           "class": "nat-mod",
           "label": "Nat-Mod"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
-      "notes": [
-        "CANÓNICO: *ARC- «arcaico/origen» es distinto de *ARC-A «regir» y de *ARĈ- «arco». No se usa como formante jerárquico."
-      ],
+      "notes": [],
       "row_class": "lex-root-row",
       "words": [
         {
