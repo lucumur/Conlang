@@ -110,7 +110,16 @@
       "id": "root-jon-2",
       "form": "*JON-",
       "gloss": "lejos",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -224,6 +233,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "J",
@@ -256,7 +269,16 @@
       "id": "root-ju-2",
       "form": "*JUL-",
       "gloss": "joya",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -298,8 +320,12 @@
       "gloss": "uno, unir ⭐",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "J",
@@ -521,7 +547,16 @@
       "id": "root-jun-2",
       "form": "*JUN-",
       "gloss": "joven",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -666,7 +701,16 @@
       "id": "root-jur",
       "form": "*JUR-",
       "gloss": "Dia",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "J",
       "section": "sec-j",
       "etymology": "< Eo. jurn-.",
@@ -761,7 +805,16 @@
       "id": "root-jur-2",
       "form": "*JUR-",
       "gloss": "jurar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -828,7 +881,16 @@
       "id": "root-jus",
       "form": "*JUS-",
       "gloss": "justo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "J",
       "section": "sec-j",
       "etymology": "< Eo. ĵusta.",
@@ -948,7 +1010,16 @@
       "id": "root-jep",
       "form": "*JEP-",
       "gloss": "higado",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
@@ -1006,7 +1077,16 @@
       "id": "root-jerb",
       "form": "*JERB-",
       "gloss": "hierba",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
       "letter": "J",
       "section": "sec-j",
       "etymology": null,
