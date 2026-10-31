@@ -6139,7 +6139,16 @@
       "id": "root-asp-r",
       "form": "*ASP-R",
       "gloss": "aspero",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
