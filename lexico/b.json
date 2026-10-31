@@ -1751,7 +1751,16 @@
       "id": "root-bard",
       "form": "*BARD-",
       "gloss": "borde, orilla",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
