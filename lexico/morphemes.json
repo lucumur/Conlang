@@ -3760,6 +3760,22 @@
       "row_class": ""
     },
     {
+      "id": "morph-cx",
+      "form": "*-Ĉ-",
+      "gloss": "genero masculino en animales",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "mesofijo"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": ""
+    },
+    {
       "id": "morph-k-diminutive",
       "form": "*-K- / *-IK-",
       "gloss": "diminutivo",
