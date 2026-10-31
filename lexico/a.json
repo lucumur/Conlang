@@ -6356,7 +6356,16 @@
       "id": "root-av",
       "form": "*AV-",
       "gloss": "abuelo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
