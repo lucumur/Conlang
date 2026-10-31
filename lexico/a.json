@@ -3761,13 +3761,20 @@
       "id": "root-afr",
       "form": "*AFR-",
       "gloss": "África",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
-      "notes": [
-        "El segmento -ik- de afrikon/afriker no se enlaza a *-IK- (diminutivo); su función en estas formas queda sin analizar."
-      ],
+      "notes": [],
       "row_class": "lex-root-row",
       "words": [
         {
