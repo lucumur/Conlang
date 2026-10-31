@@ -186,7 +186,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -268,7 +268,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "anglo",
@@ -451,7 +451,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -719,7 +719,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "germanico",
@@ -813,7 +813,7 @@
       "tags": [
         {
           "class": "nat-tek",
-          "label": "Nat-Tek"
+          "label": "Tecnica"
         },
         {
           "class": "germanico",
@@ -1860,7 +1860,7 @@
         },
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         }
       ],
       "letter": "C",
@@ -2580,7 +2580,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "griego",
@@ -2674,7 +2674,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "frances",
@@ -2744,7 +2744,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "esperide",
@@ -2793,7 +2793,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "griego",
@@ -3315,7 +3315,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -3425,7 +3425,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -3617,7 +3617,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "germanico",
@@ -4052,7 +4052,7 @@
         },
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         }
       ],
       "letter": "C",
