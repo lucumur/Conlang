@@ -1532,6 +1532,78 @@
       ]
     },
     {
+      "id": "root-elp",
+      "form": "*CELP-",
+      "gloss": "ayudar",
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-elpas",
+          "form": "celpas",
+          "gloss": "ayudar",
+          "analysis_html": "CELP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "CELP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "ayuda",
+            "acciones",
+            "cooperación"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-elpa",
+          "form": "celpa",
+          "gloss": "ayuda",
+          "analysis_html": "CELP + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "CELP + -A",
+          "refs": [
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen A"
+            }
+          ],
+          "semantic_fields": [
+            "ayuda",
+            "cooperación",
+            "abstractos"
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "root-cem",
       "form": "*CEM-",
       "gloss": "sustancia, química",
