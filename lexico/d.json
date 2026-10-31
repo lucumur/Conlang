@@ -10,7 +10,7 @@
       "tags": [
         {
           "class": "nat-tek",
-          "label": "Nat-Tek"
+          "label": "Tecnica"
         },
         {
           "class": "germanico",
@@ -94,7 +94,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -234,7 +234,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "iberico",
@@ -479,7 +479,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -613,7 +613,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -861,7 +861,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "latin",
@@ -978,7 +978,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -1070,7 +1070,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "italico",
@@ -1137,7 +1137,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "italico",
@@ -1395,7 +1395,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -1804,7 +1804,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -2381,7 +2381,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -2587,7 +2587,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -2779,7 +2779,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -3109,7 +3109,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "griego",
@@ -3245,7 +3245,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "germanico",
@@ -3292,7 +3292,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "anglo",
@@ -3716,7 +3716,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
