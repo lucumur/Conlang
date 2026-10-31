@@ -6189,7 +6189,16 @@
       "id": "root-athl",
       "form": "*AΘL-",
       "gloss": "competir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "A",
       "section": "sec-a",
       "etymology": null,
