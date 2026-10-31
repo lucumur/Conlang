@@ -2347,31 +2347,6 @@
           "notes": []
         },
         {
-          "id": "lexeme-kapjo",
-          "form": "kapjo",
-          "gloss": "cabra",
-          "analysis_html": "KAPR + J <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "KAPR + J (pendiente) + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
           "id": "lexeme-kapicxerol",
           "form": "Kapiĉerol",
           "gloss": "Capricornio",
