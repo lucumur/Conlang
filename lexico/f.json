@@ -7,7 +7,16 @@
       "id": "root-f",
       "form": "*F-",
       "gloss": "hacer, volver, convertir en",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -91,7 +100,16 @@
       "id": "root-fab",
       "form": "*FAB-",
       "gloss": "haba, frijol",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -164,7 +182,16 @@
       "id": "root-fabl",
       "form": "*FABL-",
       "gloss": "contar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -326,7 +353,16 @@
       "id": "root-fabr",
       "form": "*FABR-",
       "gloss": "fabricar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -540,7 +576,16 @@
       "id": "root-fac",
       "form": "*FAC-",
       "gloss": "haya",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -644,7 +689,16 @@
       "id": "root-faj-r",
       "form": "*FAJ-R",
       "gloss": "fuego, encender",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -800,7 +854,16 @@
       "id": "root-fajf",
       "form": "*FAJF-",
       "gloss": "chupar, silbar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -946,7 +1009,16 @@
       "id": "root-fajn",
       "form": "*FAJN-",
       "gloss": "fino, afinar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1079,7 +1151,16 @@
       "id": "root-fand",
       "form": "*FAND-",
       "gloss": "fundir, fundirse",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1235,7 +1316,16 @@
       "id": "root-far",
       "form": "*FAR-",
       "gloss": "hacer, fabricar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1428,7 +1518,16 @@
       "id": "root-farb",
       "form": "*FARB-",
       "gloss": "pintar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1595,7 +1694,16 @@
       "id": "root-faz",
       "form": "*FAẐ-",
       "gloss": "fachada, frente ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1624,7 +1732,16 @@
       "id": "root-feb-r",
       "form": "*FEB-R",
       "gloss": "fiebre",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1687,7 +1804,16 @@
       "id": "root-febl",
       "form": "*FEBL-",
       "gloss": "debil",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1725,7 +1851,16 @@
       "id": "root-fek",
       "form": "*FEK-",
       "gloss": "heces",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1813,7 +1948,16 @@
       "id": "root-fel",
       "form": "*FEL-",
       "gloss": "pelaje",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1825,7 +1969,16 @@
       "id": "root-fem",
       "form": "*FEM-",
       "gloss": "hembra",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1913,7 +2066,16 @@
       "id": "root-fend",
       "form": "*FEND-",
       "gloss": "hendir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1950,7 +2112,16 @@
       "id": "root-ferm",
       "form": "*FERM-",
       "gloss": "firme",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
@@ -1962,7 +2133,16 @@
       "id": "root-fes",
       "form": "*FES-",
       "gloss": "festejar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Nat-Refor"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "F",
       "section": "sec-f",
       "etymology": null,
