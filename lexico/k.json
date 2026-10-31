@@ -2404,11 +2404,27 @@
           "id": "lexeme-kapreten",
           "form": "kapreten",
           "gloss": "cabrito",
-          "analysis_html": "KAP-R",
-          "analysis_text": "KAP-R",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": [],
+          "analysis_html": "KAP-R + <a class=\"morph-link\" href=\"#morph-et\">-ET-</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "KAP-R + -ET- + -EN",
+          "refs": [
+            {
+              "id": "morph-et",
+              "label": "-ET-"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen EN"
+            }
+          ],
+          "semantic_fields": [
+            "mamiferos juveniles"
+          ],
           "notes": [],
           "emoji": "🐐"
         }
