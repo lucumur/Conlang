@@ -1345,7 +1345,16 @@
       "id": "root-gi",
       "form": "*ĜI-",
       "gloss": "ese (anim.)",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
       "etymology": null,
@@ -1536,13 +1545,17 @@
       "gloss": "jengibre, naranja, pelirrojo",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-tek",
+          "label": "Tecnica"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "Ĝ",
       "section": "sec-circ-g",
-      "etymology": "< Eo. zingibro / ing. ginger, del lat. zingiber, gr. ζιγγίβερις, de origen índico (pali siṅgivera). Nova en la forma.",
+      "etymology": "< Eo. zingibro / ing. ginger, del lat. zingiber, gr. ζιγγίβερις, de origen índico (pali siṅgivera). Forma técnica lexicalizada.",
       "notes": [
         "Forma primigenia ĜIN- en compuestos: ĝinbeto «zanahoria»; homónima de *ĜIN- «mujer»."
       ],
@@ -1580,6 +1593,14 @@
       "form": "*ĜIS-",
       "gloss": "hasta",
       "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        },
         {
           "class": "generic",
           "label": "Part."
