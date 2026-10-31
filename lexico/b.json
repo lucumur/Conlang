@@ -653,8 +653,8 @@
           "label": "Nat-Mod"
         },
         {
-          "class": "italico",
-          "label": "Italico"
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "B",
@@ -6207,7 +6207,16 @@
       "id": "root-bon",
       "form": "*BON-",
       "gloss": "bueno",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -7670,7 +7679,16 @@
       "id": "root-broc",
       "form": "*BROĈ-",
       "gloss": "broche, fíbula",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -7824,7 +7842,16 @@
       "id": "root-bru",
       "form": "*BRU-",
       "gloss": "hacer ruido",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -7836,7 +7863,16 @@
       "id": "root-bru-l",
       "form": "*BRU-L",
       "gloss": "quemar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -7852,6 +7888,10 @@
         {
           "class": "nat-mod",
           "label": "Nat-Mod"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "B",
@@ -7943,7 +7983,16 @@
       "id": "root-brus",
       "form": "*BRUS-",
       "gloss": "pecho",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -8077,6 +8126,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "B",
@@ -8090,7 +8143,16 @@
       "id": "root-bub",
       "form": "*BUB-",
       "gloss": "chico travieso",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-tek",
+          "label": "Nat-Tek"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
@@ -8102,7 +8164,16 @@
       "id": "root-bul",
       "form": "*BUL-",
       "gloss": "bola, punto",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
