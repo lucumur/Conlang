@@ -999,7 +999,16 @@
       "id": "root-bald",
       "form": "*BALD-",
       "gloss": "pronto",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
