@@ -2179,7 +2179,16 @@
       "id": "root-bat",
       "form": "*BAT-",
       "gloss": "tumbar, golpear hasta tumbar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Nat-Refor"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "B",
       "section": "sec-b",
       "etymology": null,
