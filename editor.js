@@ -196,11 +196,17 @@
   function lines(s) { return String(s || '').split('\n').map(function (x) { return x.trim(); }).filter(Boolean); }
   function sameJSON(a, b) { return JSON.stringify(a) === JSON.stringify(b); }
 
-  var ROOT_RELATION = ['Nat-Plen','Nat-Mod','Nat-Red','Nat-Refor','Nat-Tek','Nova'];
+  var ROOT_RELATION = ['Original','Tecnica','Modificada','Reducida','Reformada','Nova'];
+  var ROOT_RELATION_NAMES = {'nat-plen':'Original','nat-tek':'Tecnica','nat-mod':'Modificada','nat-red':'Reducida','nat-refor':'Reformada','nova':'Nova'};
   var EXTERNAL_ETYM = ['Latin','Griego','Germanico','Frances','Anglo','Italico','Iberico','Eslavo','Arabe','Celta','Indopersa','Turquico','Sinico','Esperide'];
   var ORIGIN = ROOT_RELATION.concat(EXTERNAL_ETYM,['Esper','Neo']);
   var ORIGIN_CLASS = {}, ORIGIN_LABEL = {};
   ORIGIN.forEach(function (l) { ORIGIN_CLASS[l.toLowerCase()] = l.toLowerCase(); ORIGIN_LABEL[l.toLowerCase()] = l; });
+  Object.keys(ROOT_RELATION_NAMES).forEach(function (klass) {
+    var label = ROOT_RELATION_NAMES[klass];
+    ORIGIN_CLASS[klass] = klass; ORIGIN_LABEL[klass] = label;
+    ORIGIN_CLASS[label.toLowerCase()] = klass; ORIGIN_LABEL[label.toLowerCase()] = label;
+  });
   var ETYM_ALIASES = {"latín":"Latin","germánico":"Germanico","francés":"Frances","itálico":"Italico","ibérico":"Iberico","árabe":"Arabe","túrquico":"Turquico","sínico":"Sinico","helénico":"Griego","helenico":"Griego","slavo":"Eslavo","romance":"Italico","espanol":"Iberico","español":"Iberico","portugues":"Iberico","portugués":"Iberico","indico":"Indopersa","persa":"Indopersa"};
   Object.keys(ETYM_ALIASES).forEach(function (l) { var canonical = ETYM_ALIASES[l]; ORIGIN_CLASS[l] = canonical.toLowerCase(); ORIGIN_LABEL[l] = canonical; });
   /* Etiquetas: se conservan tal cual las que ya existían; las nuevas toman clase de origen si la reconocen. */
@@ -670,22 +676,22 @@
     })]).then(function (r) {
       var idx = r[0], cur = r[1] ? r[1].entry : null;
       var extraTags = ['Bas','Part.','Sono','formal','Mundial','arcaico','onomato','nom','Esper','Neo'];
-      var relationOf = function(t){return ROOT_RELATION.some(function(l){return l.toLowerCase()===(t.class||'').toLowerCase();});};
+      var relationOf = function(t){return Object.prototype.hasOwnProperty.call(ROOT_RELATION_NAMES,(t.class||'').toLowerCase());};
       var etymOf = function(t){return EXTERNAL_ETYM.some(function(l){return l.toLowerCase()===(t.class||'').toLowerCase();});};
       var fForm = textInput(cur ? cur.form : '*', { class: 'ce-mono', required: true, placeholder: '*RAÍZ-' });
       var fGloss = textInput(cur ? cur.gloss : '', { required: true });
       var fEt = textArea(cur ? cur.etymology || '' : '', { rows: 3, placeholder: '< Eo. … , del lat. …' });
       var fNotes = textArea(cur ? (cur.notes || []).join('\n') : '', { rows: 2, placeholder: 'Una nota por línea' });
       var currentTags = cur ? cur.tags || [] : [];
-      var fRelation = chipInput(labels(currentTags.filter(relationOf)), ROOT_RELATION, 'Nat-Plen, Nat-Mod, Nat-Red, Nat-Refor, Nat-Tek, Nova');
+      var fRelation = chipInput(currentTags.filter(relationOf).map(function(t){return ROOT_RELATION_NAMES[t.class.toLowerCase()];}), ROOT_RELATION, 'Original, Tecnica, Modificada, Reducida, Reformada, Nova');
       var fEtym = chipInput(labels(currentTags.filter(etymOf)), EXTERNAL_ETYM, 'Latin, Germanico, Frances…');
       var fTags = chipInput(labels(currentTags.filter(function(t){return !relationOf(t)&&!etymOf(t); })), extraTags, 'Otras etiquetas (si proceden)');
       var body = [el('div', { class: 'ce-row' }, [field('Forma', fForm, 'Con asterisco y guiones: *ĴAR-, *MA-J'), field('Glosa', fGloss)]),
         field('Etimología', fEt), field('Notas', fNotes),
-        field('Relación con esperanto', fRelation.el, 'Normalmente una sola clasificación. La franja lateral representa esta categoría.'),
+        field('Relación nativa', fRelation.el, 'Normalmente una sola clasificación. La franja lateral representa esta categoría.'),
         field('Procedencia etimológica externa', fEtym.el, 'Se pueden indicar varias lenguas de origen.'),
-        field('Otras etiquetas', fTags.el, 'Anotaciones heredadas que no son clasificación esperántica ni lengua natural.')];
-      if (cur && currentTags.filter(relationOf).length>1) body.push(el('small', { class: 'ce-error', text: 'Clasificación múltiple: esta raíz tiene más de una relación con esperanto. Revísala cuando corresponda.' }));
+        field('Otras etiquetas', fTags.el, 'Anotaciones heredadas que no son de relación nativa ni de etimología externa.')];
+      if (cur && currentTags.filter(relationOf).length>1) body.push(el('small', { class: 'ce-error', text: 'Clasificación múltiple: esta raíz tiene más de una relación nativa. Revísala cuando corresponda.' }));
       if (cur) body.push(el('small', { class: 'ce-help', text: 'Identificador: ' + cur.id + ' (no cambia aunque cambie la forma)' }));
       dialog(isNew ? 'Nueva raíz' : 'Editar raíz ' + cur.form, body, {
         onDelete: isNew ? null : function () {
