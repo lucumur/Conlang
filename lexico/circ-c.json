@@ -265,16 +265,16 @@
         {
           "class": "nat-mod",
           "label": "Nat-Mod"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": "Etym. Eo. skalpi → *ĈALP-",
-      "notes": [
-        "CANÓNICO: en ĉalpekur la secuencia UR es lexicalizada y no se identifica con el superlativizador productivo -UR.",
-        "CANÓNICO: ĈALPEK- se analiza productivamente como ĈALP + -EK-, donde -EK- es ablativo derivativo «quitar, romper».",
-        "CANÓNICO: ĈALPAR- se analiza productivamente como ĈALP + -AR-, donde -AR- es colectivo; en ĉalpara forma el colectivo de pelo/cabello «cabellera»."
-      ],
+      "notes": [],
       "row_class": "",
       "words": [
         {
