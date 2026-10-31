@@ -76,7 +76,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "anglo",
@@ -456,7 +456,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -650,7 +650,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -796,7 +796,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -1006,7 +1006,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "germanico",
@@ -1963,7 +1963,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "griego",
@@ -2186,7 +2186,7 @@
       "tags": [
         {
           "class": "nat-refor",
-          "label": "Nat-Refor"
+          "label": "Reformada"
         },
         {
           "class": "frances",
@@ -3047,7 +3047,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -3217,7 +3217,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -3427,7 +3427,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -3548,7 +3548,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -3811,7 +3811,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -3998,7 +3998,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -4145,7 +4145,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -4468,7 +4468,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "germanico",
@@ -4668,7 +4668,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -4878,7 +4878,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "eslavo",
@@ -5097,7 +5097,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "germanico",
@@ -5256,7 +5256,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "germanico",
@@ -5393,7 +5393,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -5845,7 +5845,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -5919,7 +5919,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -5996,7 +5996,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "frances",
@@ -6066,7 +6066,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -6214,7 +6214,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -6402,7 +6402,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -6531,7 +6531,7 @@
       "tags": [
         {
           "class": "nat-refor",
-          "label": "Nat-Refor"
+          "label": "Reformada"
         },
         {
           "class": "italico",
@@ -6732,7 +6732,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "indopersa",
@@ -7005,7 +7005,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "anglo",
@@ -7428,7 +7428,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -7548,7 +7548,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -7686,7 +7686,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -7849,7 +7849,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "frances",
@@ -7870,7 +7870,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "frances",
@@ -7891,7 +7891,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "italico",
@@ -7990,7 +7990,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "germanico",
@@ -8150,7 +8150,7 @@
       "tags": [
         {
           "class": "nat-tek",
-          "label": "Nat-Tek"
+          "label": "Tecnica"
         },
         {
           "class": "germanico",
@@ -8171,7 +8171,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "frances",
@@ -8320,7 +8320,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "germanico",
@@ -8752,7 +8752,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "frances",
