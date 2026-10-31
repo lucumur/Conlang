@@ -2399,6 +2399,18 @@
             "mamiferos masculinos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-kapreten",
+          "form": "kapreten",
+          "gloss": "cabrito",
+          "analysis_html": "KAP-R",
+          "analysis_text": "KAP-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [],
+          "notes": [],
+          "emoji": "🐐"
         }
       ]
     },
