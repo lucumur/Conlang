@@ -10,7 +10,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -274,7 +274,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "frances",
@@ -401,7 +401,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "germanico",
@@ -439,7 +439,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "esperide",
@@ -484,7 +484,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -724,7 +724,7 @@
       "tags": [
         {
           "class": "nat-refor",
-          "label": "Nat-Refor"
+          "label": "Reformada"
         },
         {
           "class": "esperide",
@@ -971,7 +971,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -1090,7 +1090,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -1111,7 +1111,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "latin",
@@ -1420,7 +1420,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "italico",
@@ -1511,7 +1511,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "frances",
@@ -1830,7 +1830,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -1907,7 +1907,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -1928,7 +1928,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "frances",
@@ -2023,7 +2023,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "italico",
@@ -2128,7 +2128,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "iberico",
@@ -2149,7 +2149,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "latin",
@@ -2418,7 +2418,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "latin",
@@ -2571,7 +2571,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "anglo",
@@ -2771,7 +2771,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -2901,7 +2901,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "latin",
@@ -3237,7 +3237,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "frances",
@@ -3543,7 +3543,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "griego",
@@ -3631,7 +3631,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "griego",
@@ -3743,7 +3743,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "frances",
@@ -3764,7 +3764,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "latin",
@@ -3857,7 +3857,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -3878,7 +3878,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "italico",
@@ -3972,7 +3972,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "latin",
@@ -4225,7 +4225,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "griego",
@@ -4766,7 +4766,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "griego",
@@ -4840,7 +4840,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "latin",
@@ -5264,7 +5264,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "frances",
@@ -5468,7 +5468,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "italico",
@@ -5674,7 +5674,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "italico",
@@ -5892,7 +5892,7 @@
       "tags": [
         {
           "class": "nat-plen",
-          "label": "Nat-Plen"
+          "label": "Original"
         },
         {
           "class": "griego",
@@ -6142,7 +6142,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -6192,7 +6192,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "griego",
@@ -6472,7 +6472,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "italico",
@@ -6565,7 +6565,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "italico",
@@ -6891,7 +6891,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "italico",
@@ -6965,7 +6965,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "frances",
@@ -7015,7 +7015,7 @@
       "tags": [
         {
           "class": "nat-mod",
-          "label": "Nat-Mod"
+          "label": "Modificada"
         },
         {
           "class": "latin",
@@ -7207,7 +7207,7 @@
       "tags": [
         {
           "class": "nat-red",
-          "label": "Nat-Red"
+          "label": "Reducida"
         },
         {
           "class": "latin",
