@@ -183,7 +183,16 @@
       "id": "root-car-2",
       "form": "*CAR-",
       "gloss": "pelo, cabello",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -256,7 +265,16 @@
       "id": "root-car-d",
       "form": "*CAR-D",
       "gloss": "duro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -430,7 +448,16 @@
       "id": "root-car-t",
       "form": "*CAR-T",
       "gloss": "cartón, carta, tarjeta",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -691,8 +718,12 @@
       "gloss": "gas",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
         }
       ],
       "letter": "C",
@@ -779,7 +810,16 @@
       "id": "root-cav",
       "form": "*CAF-N",
       "gloss": "puerto, refugio",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-tek",
+          "label": "Nat-Tek"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -1699,6 +1739,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
         }
       ],
       "letter": "C",
@@ -1973,8 +2017,12 @@
       "gloss": "china",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Nat-Mod"
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "sinico",
+          "label": "Sinico"
         }
       ],
       "letter": "C",
@@ -2413,6 +2461,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
         }
       ],
       "letter": "C",
@@ -2453,7 +2505,16 @@
       "id": "root-condr",
       "form": "*CONDR-",
       "gloss": "cartilago",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -2538,7 +2599,16 @@
       "id": "root-cont",
       "form": "*CONT-",
       "gloss": "pena",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -2599,7 +2669,16 @@
       "id": "root-cor",
       "form": "*COR-",
       "gloss": "coral",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -2639,7 +2718,16 @@
       "id": "root-cor-2",
       "form": "*COR-",
       "gloss": "coro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -2651,7 +2739,16 @@
       "id": "root-cor-3",
       "form": "*COR-",
       "gloss": "erizarse",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -2810,7 +2907,16 @@
       "id": "root-corz",
       "form": "*COR-Ẑ-",
       "gloss": "cebada",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -2958,7 +3064,16 @@
       "id": "root-cron",
       "form": "*CRON-",
       "gloss": "tiempo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -3125,7 +3240,16 @@
       "id": "root-cuf",
       "form": "*CUF-",
       "gloss": "pezuña",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
@@ -3228,8 +3352,12 @@
       "gloss": "humano ⭐",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "C",
@@ -3414,7 +3542,16 @@
       "id": "root-cund",
       "form": "*CUN-D-",
       "gloss": "perro, caza",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "C",
       "section": "sec-c",
       "etymology": null,
