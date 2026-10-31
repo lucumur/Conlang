@@ -9,8 +9,12 @@
       "gloss": "deíctico",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-refor",
+          "label": "Nat-Refor"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
         }
       ],
       "letter": "Ĉ",
@@ -224,7 +228,16 @@
       "id": "root-cagr",
       "form": "*ĈAGR-",
       "gloss": "disgusto, enojo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -545,7 +558,16 @@
       "id": "root-cam-br",
       "form": "*ĈAM-BR",
       "gloss": "cámara, cueva",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -734,7 +756,16 @@
       "id": "root-cam-n",
       "form": "*ĈAM-N",
       "gloss": "fogón, hogar, chimenea",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -1019,7 +1050,16 @@
       "id": "root-can",
       "form": "*ĈAN-L",
       "gloss": "surco",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -1157,22 +1197,19 @@
       ]
     },
     {
-      "id": "root-cap",
-      "form": "*ĈAR-",
-      "gloss": "carro",
-      "tags": [],
-      "letter": "Ĉ",
-      "section": "sec-circ-c",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-carm",
       "form": "*ĈARM-",
       "gloss": "encantar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -1428,7 +1465,16 @@
       "id": "root-carp",
       "form": "*ĈARP-",
       "gloss": "madera",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -1570,7 +1616,16 @@
       "id": "root-cef",
       "form": "*ĈEF-",
       "gloss": "cabeza ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -1845,7 +1900,16 @@
       "id": "root-cel-2",
       "form": "*ĈEL-",
       "gloss": "celda",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -2165,7 +2229,16 @@
       "id": "root-cer-2",
       "form": "*ĈER-",
       "gloss": "cuerno",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Nat-Refor"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -2243,7 +2316,16 @@
       "id": "root-cerz",
       "form": "*ĈERZ-",
       "gloss": "cerezo, cereza",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -2338,7 +2420,16 @@
       "id": "root-ces",
       "form": "*ĈES-",
       "gloss": "pausar; cesar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -2468,8 +2559,12 @@
       "gloss": "recibir",
       "tags": [
         {
-          "class": "nat-red",
-          "label": "Nat-Red"
+          "class": "nat-refor",
+          "label": "Nat-Refor"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "Ĉ",
@@ -2511,7 +2606,20 @@
       "id": "root-cirp",
       "form": "*ĈIRP-",
       "gloss": "chirpiar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        },
+        {
+          "class": "generic",
+          "label": "onomato"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -2607,7 +2715,16 @@
       "id": "root-cit",
       "form": "*ĈIT-",
       "gloss": "callar, callarse",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -2823,7 +2940,16 @@
       "id": "root-ciz",
       "form": "*ĈIZ-",
       "gloss": "cortar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -2913,7 +3039,16 @@
       "id": "root-com",
       "form": "*ĈOM-",
       "gloss": "mucho",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -2927,8 +3062,20 @@
       "gloss": "arrancar bocado, morder",
       "tags": [
         {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        },
+        {
           "class": "generic",
           "label": "Sono"
+        },
+        {
+          "class": "generic",
+          "label": "onomato"
         }
       ],
       "letter": "Ĉ",
@@ -3060,7 +3207,16 @@
       "id": "root-cri",
       "form": "*ĈRI-",
       "gloss": "línea",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Nat-Refor"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": "Etym. de novo; string- → *ĈRI-",
@@ -3138,8 +3294,12 @@
       "gloss": "búho",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Nat-Mod"
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "Ĉ",
@@ -3181,7 +3341,16 @@
       "id": "root-criv",
       "form": "*ĈRIV-",
       "gloss": "escribir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": "Etym. de novo; scriv- → *ĈRIV-",
@@ -3436,7 +3605,16 @@
       "id": "root-crump",
       "form": "*ĈRUMP-",
       "gloss": "calcetín",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
@@ -3511,8 +3689,20 @@
       "gloss": "sonido de tren",
       "tags": [
         {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        },
+        {
           "class": "generic",
           "label": "Sono"
+        },
+        {
+          "class": "generic",
+          "label": "onomato"
         }
       ],
       "letter": "Ĉ",
@@ -3619,13 +3809,20 @@
       "id": "root-car-cart",
       "form": "*ĈAR-",
       "gloss": "carro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "Ĉ",
       "section": "sec-circ-c",
       "etymology": null,
-      "notes": [
-        "CANÓNICO: *ĈAR- «carro» es una raíz independiente de *ĈAP- «carro»; ambas coexisten por ahora."
-      ],
+      "notes": [],
       "row_class": "lex-root-row",
       "words": []
     }
