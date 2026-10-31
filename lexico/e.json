@@ -2475,20 +2475,24 @@
         },
         {
           "id": "lexeme-ervuna",
-          "form": "ervuna",
+          "form": "erusma",
           "gloss": "heroismo",
-          "analysis_html": "ERV + <a class=\"morph-link\" href=\"#morph-una\">-UNA</a>",
-          "analysis_text": "ERV + -UNA",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-erv\">ERU</a> + <a class=\"morph-link\" href=\"#morph-isma\">-ISMA</a>",
+          "analysis_text": "ERU + -ISMA",
           "refs": [
             {
-              "id": "morph-una",
-              "label": "-UNA"
+              "id": "root-erv",
+              "label": "ERU"
+            },
+            {
+              "id": "morph-isma",
+              "label": "-ISMA"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Abstracto UNA"
+              "label": "Abstracto ISMA"
             }
           ],
           "semantic_fields": [
@@ -2496,9 +2500,7 @@
             "conducta",
             "abstractos"
           ],
-          "notes": [
-            "-UNA corresponde regularmente a la forma humana ervon."
-          ]
+          "notes": []
         },
         {
           "id": "lexeme-ervaklin",
