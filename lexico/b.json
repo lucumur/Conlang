@@ -9,12 +9,16 @@
       "gloss": "interjección de sorpresa o susto",
       "tags": [
         {
-          "class": "generic",
-          "label": "onomato"
-        },
-        {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        },
+        {
+          "class": "generic",
+          "label": "onomato"
         }
       ],
       "letter": "B",
