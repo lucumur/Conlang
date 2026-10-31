@@ -2084,15 +2084,11 @@
         },
         {
           "id": "lexeme-ervepika",
-          "form": "ervepika",
+          "form": "epika",
           "gloss": "poema epico",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-erv\">ERV</a> + EP-IK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "ERV + EP-IK + -A",
+          "analysis_html": "EP-IK + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "EP-IK + -A",
           "refs": [
-            {
-              "id": "root-erv",
-              "label": "ERV"
-            },
             {
               "id": "morph-a-2",
               "label": "-A"
