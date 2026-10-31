@@ -1,0 +1,17 @@
+name: Validar léxico
+on:
+  push:
+    paths:
+      - 'lexico/*.json'
+      - 'scripts/**'
+      - '.github/workflows/validate-lexicon.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar integridad del léxico
+        run: python scripts/validate_lexicon.py
