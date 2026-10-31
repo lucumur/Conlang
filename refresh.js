@@ -1,9 +1,10 @@
 /* Datos siempre frescos + botón «Actualizar datos».
-   - Toda petición a lexico/*.json se revalida con el servidor (no usa copia vieja del navegador).
+   - Cada carga usa una versión nueva para lexico/*.json; evita cachés obsoletas del CDN.
    - El botón añade una marca ?v=… que además salta la caché del CDN de GitHub Pages. */
 (function(){
-  var KEY='conlang-data-version', v=null;
-  try{v=sessionStorage.getItem(KEY)}catch(e){}
+  // Una versión distinta en cada carga evita reutilizar JSON antiguos del CDN.
+  var KEY='conlang-data-version', v=String(Date.now());
+  try{sessionStorage.setItem(KEY,v)}catch(e){}
   var orig=window.fetch.bind(window);
   window.fetch=function(input,init){
     if(typeof input==='string' && /(^|\/)lexico\/[^?#]+\.json(\?|#|$)/.test(input)){
