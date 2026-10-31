@@ -2365,7 +2365,7 @@
     },
     {
       "id": "root-erv",
-      "form": "*ERV-",
+      "form": "*ERU-",
       "gloss": "heroe",
       "tags": [
         {
@@ -2373,16 +2373,14 @@
           "label": "Nat-Plen"
         },
         {
-          "class": "iberico",
-          "label": "Iberico"
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [
-        "CANÓNICO: *ERV- queda reservado a «héroe»; la antigua glosa «hierba» se transfiere a *JERB-."
-      ],
+      "notes": [],
       "row_class": "",
       "words": [
         {
