@@ -9,8 +9,12 @@
       "gloss": "esto, así (deíctico)",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
         }
       ],
       "letter": "Ĵ",
@@ -578,13 +582,17 @@
       "gloss": "ser",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
         }
       ],
       "letter": "Ĵ",
       "section": "sec-circ-j",
-      "etymology": "Raíz de novo: forma reconfigurada de *E- «haber, ser» (< Eo. esti, estas).",
+      "etymology": "Raíz reformada a partir de *E- «haber, ser» (< Eo. esti, estas).",
       "notes": [
         "Antes *JE-."
       ],
