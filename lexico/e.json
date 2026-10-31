@@ -9,8 +9,12 @@
       "gloss": "haber, ser",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-refor",
+          "label": "Nat-Refor"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "E",
@@ -466,7 +470,16 @@
       "id": "root-ec",
       "form": "*EC-",
       "gloss": "puas",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -603,7 +616,16 @@
       "id": "root-ec-2",
       "form": "*EC-",
       "gloss": "sonido",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -807,6 +829,14 @@
       "form": "*ED-",
       "gloss": "construir",
       "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        },
         {
           "class": "generic",
           "label": "formal"
@@ -1078,8 +1108,12 @@
       "gloss": "cara, lado",
       "tags": [
         {
-          "class": "nat-plen",
-          "label": "Nat-Plen"
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "E",
@@ -1153,6 +1187,14 @@
       "form": "*EG-",
       "gloss": "grande",
       "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        },
         {
           "class": "generic",
           "label": "Part."
@@ -1291,6 +1333,14 @@
       "gloss": "even",
       "tags": [
         {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        },
+        {
           "class": "generic",
           "label": "Part."
         }
@@ -1380,7 +1430,16 @@
       "id": "root-el",
       "form": "*EL-",
       "gloss": "fuera",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -1655,73 +1714,19 @@
       "words": []
     },
     {
-      "id": "root-elp",
-      "form": "*ELP-",
-      "gloss": "ayudar",
-      "tags": [],
-      "letter": "E",
-      "section": "sec-e",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-elpas",
-          "form": "elpas",
-          "gloss": "ayudar",
-          "analysis_html": "ELP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "ELP + -AS",
-          "refs": [
-            {
-              "id": "morph-as",
-              "label": "-AS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado AS"
-            }
-          ],
-          "semantic_fields": [
-            "ayuda",
-            "acciones",
-            "cooperación"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-elpa",
-          "form": "elpa",
-          "gloss": "ayuda",
-          "analysis_html": "ELP + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "ELP + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nomen A"
-            }
-          ],
-          "semantic_fields": [
-            "ayuda",
-            "cooperación",
-            "abstractos"
-          ],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-empr",
       "form": "*EMPR-",
       "gloss": "imperar, mandar; poder",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -1944,7 +1949,16 @@
       "id": "root-ep",
       "form": "*EP-IK",
       "gloss": "narrar, relato",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-tek",
+          "label": "Nat-Tek"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -2524,7 +2538,16 @@
       "id": "root-erz",
       "form": "*ERẐ-",
       "gloss": "mineral",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -2681,18 +2704,6 @@
       ]
     },
     {
-      "id": "root-esp-r",
-      "form": "*ESP-R-",
-      "gloss": "esperanza",
-      "tags": [],
-      "letter": "E",
-      "section": "sec-e",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-est",
       "form": "*EST-",
       "gloss": "Estonia",
@@ -2809,8 +2820,12 @@
       "gloss": "caballo, equino",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Nat-Mod"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "E",
@@ -3121,8 +3136,12 @@
       "gloss": "pequeño",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "E",
@@ -3424,6 +3443,14 @@
       "gloss": "costumbre, cultura, pueblo",
       "tags": [
         {
+          "class": "nat-tek",
+          "label": "Nat-Tek"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        },
+        {
           "class": "generic",
           "label": "formal"
         }
@@ -3685,7 +3712,16 @@
       "id": "root-etheta-r",
       "form": "*EΘ-",
       "gloss": "eter, sedacion, alcohol",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -4034,7 +4070,16 @@
       "id": "root-ez",
       "form": "*EẐ-",
       "gloss": "casarse; cónyuge",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Nat-Plen"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -4130,7 +4175,16 @@
       "id": "root-er-love",
       "form": "*ER-",
       "gloss": "amor, Eros",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
@@ -4228,7 +4282,16 @@
       "id": "root-espr",
       "form": "*ESPR-",
       "gloss": "esperanza",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Nat-Red"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
