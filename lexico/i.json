@@ -730,8 +730,12 @@
       "gloss": "India, indio",
       "tags": [
         {
-          "class": "generic",
-          "label": "Mundial"
+          "class": "nat-tek",
+          "label": "Tecnica"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "I",
@@ -1263,8 +1267,12 @@
       "gloss": "Ismael; árabes",
       "tags": [
         {
-          "class": "generic",
-          "label": "Mundial"
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "arabe",
+          "label": "Arabe"
         }
       ],
       "letter": "I",
@@ -1451,6 +1459,10 @@
         {
           "class": "nat-mod",
           "label": "Modificada"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
         }
       ],
       "letter": "I",
@@ -1657,7 +1669,16 @@
       "id": "root-ig",
       "form": "*IĜ-",
       "gloss": "hacerse, volverse",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
+        }
+      ],
       "letter": "I",
       "section": "sec-i",
       "etymology": "< Eo. -iĝ- (sufijo incoativo) e iĝi «volverse», lexicalizado como verbo; el origen del sufijo esperántico es incierto.",
