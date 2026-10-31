@@ -252,12 +252,12 @@
       "gloss": "gran",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Nat-Mod"
+          "class": "nova",
+          "label": "Nova"
         },
         {
-          "class": "esper",
-          "label": "Esper"
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "A",
