@@ -24,6 +24,7 @@ for letter,key in LETTER_FILES:
         for w in e.get('words',[]):
             semantic_fields=w.get('semantic_fields',[]) or []
             notes=w.get('notes',[]) or []
+            antiguas=w.get('formas_antiguas',[]) or []
             words.append({
                 'id':w['id'],'root_id':e['id'],'root_form':e.get('form',''),'root_gloss':e.get('gloss',''),
                 'letter':letter,'key':key,
@@ -33,7 +34,8 @@ for letter,key in LETTER_FILES:
                 'tags':labels(w.get('tags')),
                 'refs':[r.get('id') for r in w.get('refs',[]) if r.get('id')],
                 'semantic_fields':semantic_fields,'notes':notes,
-                'search':' '.join([w.get('form',''),w.get('gloss',''),e.get('form',''),e.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields+notes)
+                **({'formas_antiguas':antiguas} if antiguas else {}),
+                'search':' '.join([w.get('form',''),w.get('gloss',''),e.get('form',''),e.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields+notes+[a.get('form','') for a in antiguas])
             })
         roots.append({
             'id':e['id'],'letter':letter,'key':key,'form':e.get('form',''),'gloss':e.get('gloss',''),

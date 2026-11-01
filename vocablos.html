@@ -11,6 +11,7 @@
   <script src="refresh.js"></script>
   <script src="editor.js?v=20261031indigena"></script>
   <style>
+    .word-old{margin-top:6px;font-size:.84rem;color:var(--muted)}.word-old-label{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-right:4px}.word-old code{text-decoration:line-through;text-decoration-color:rgba(0,0,0,.25)}.word-old-an{font-size:.8rem}
     .word-search{margin:0 0 18px}.word-search label{display:block;margin:0 0 7px;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
     .word-search-row{display:flex;align-items:center;gap:12px}.word-search-row input{width:min(680px,100%);padding:12px 15px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit;outline:none}.word-search-row input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(67,56,202,.12)}#word-count{color:var(--muted);font-size:.86rem;white-space:nowrap}
     .word-help{margin-top:7px;color:var(--muted);font-size:.82rem}.alphabet a[aria-current="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10);color:var(--accent)}
@@ -48,6 +49,7 @@
   const search=document.getElementById('word-search'),count=document.getElementById('word-count'),alphabet=document.getElementById('word-alphabet'),content=document.getElementById('word-content');
   let index=null,words=[],roots=new Map(),active=null,mode='letter';
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  function oldFormsHTML(w){const a=w.formas_antiguas||[];return a.length?'<div class="word-old"><span class="word-old-label">Formas antiguas</span> '+a.map(x=>'<code>'+esc(x.form)+'</code>'+(x.analysis_text?' <span class="word-old-an">('+esc(x.analysis_text)+')</span>':'')).join(' · ')+'</div>':''}
   const norm=s=>String(s??'').toLocaleLowerCase('es').trim();
   const initial=s=>Array.from(String(s||'').trim().toLocaleUpperCase('es'))[0]||'#';
   const rank=x=>{const i=ORDER.indexOf(x);return i<0?999:i};
@@ -59,7 +61,7 @@
   function fieldsHTML(w){return (w.semantic_fields||[]).length?'<div class="fields">'+w.semantic_fields.map(f=>'<a class="field" href="vocablos.html?q='+encodeURIComponent(f)+'">'+esc(f)+'</a>').join('')+'</div>':''}
   function tagsHTML(w){return (w.tags||[]).length?'<div class="word-tags">'+w.tags.map(t=>'<span class="tag generic">'+esc(t)+'</span>').join('')+'</div>':''}
   function emojiHTML(w){return w.emoji?'<span class="word-emoji" aria-hidden="true">'+esc(w.emoji)+'</span>':''}
-  function row(w){const r=rootOf(w),rf=w.root_form||r.form||'';return '<tr id="'+esc(w.id)+'"><td class="word-form">'+emojiHTML(w)+'<code>'+esc(w.form)+'</code></td><td class="word-gloss">'+esc(w.gloss)+(w.notes||[]).map(n=>'<div class="word-note">'+esc(n)+'</div>').join('')+'</td><td class="word-root"><a class="root-link" data-root-id="'+esc(w.root_id)+'" href="raiz.html?id='+encodeURIComponent(w.root_id)+'"><code>'+esc(rf)+'</code></a></td><td class="word-analysis">'+(w.analysis_html||w.analysis_text?'<div class="analysis">'+(w.analysis_html||esc(w.analysis_text))+'</div>':'')+tagsHTML(w)+'</td><td class="word-fields">'+fieldsHTML(w)+'</td></tr>'}
+  function row(w){const r=rootOf(w),rf=w.root_form||r.form||'';return '<tr id="'+esc(w.id)+'"><td class="word-form">'+emojiHTML(w)+'<code>'+esc(w.form)+'</code></td><td class="word-gloss">'+esc(w.gloss)+(w.notes||[]).map(n=>'<div class="word-note">'+esc(n)+'</div>').join('')+oldFormsHTML(w)+'</td><td class="word-root"><a class="root-link" data-root-id="'+esc(w.root_id)+'" href="raiz.html?id='+encodeURIComponent(w.root_id)+'"><code>'+esc(rf)+'</code></a></td><td class="word-analysis">'+(w.analysis_html||w.analysis_text?'<div class="analysis">'+(w.analysis_html||esc(w.analysis_text))+'</div>':'')+tagsHTML(w)+'</td><td class="word-fields">'+fieldsHTML(w)+'</td></tr>'}
   function section(letter,items){return '<section class="lex-section" id="voc-'+encodeURIComponent(letter)+'"><h2>'+esc(letter)+'</h2><div class="table-wrap"><table class="lex-table vocab-table"><thead><tr><th>Forma</th><th>Glosa</th><th>Raíz</th><th>Análisis</th><th>Campos</th></tr></thead><tbody>'+items.map(row).join('')+'</tbody></table></div></section>'}
   function availableLetters(arr=words){return [...new Set(arr.map(w=>initial(w.form)))].sort((a,b)=>rank(a)-rank(b)||a.localeCompare(b,'es'))}
   function updateAlphabet(){const letters=availableLetters();if(!active||!letters.includes(active))active=letters[0]||null;alphabet.innerHTML=letters.map(l=>'<a href="#voc-'+encodeURIComponent(l)+'" data-letter="'+esc(l)+'" aria-current="'+(mode==='letter'&&l===active?'true':'false')+'">'+esc(l)+'</a>').join('')+'<a href="#voc-all" data-all="1" aria-current="'+(mode==='all'?'true':'false')+'" title="Mostrar todos los vocablos">∞</a>'}

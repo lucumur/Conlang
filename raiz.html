@@ -19,6 +19,7 @@
     .root-gloss{margin:14px 0 0;font-size:clamp(1.25rem,2.5vw,1.8rem)}
     .root-tags{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;max-width:300px}
     .root-meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:22px 0 0}.meta-card{border:1px solid var(--line);border-radius:14px;padding:14px 16px}.meta-label{display:block;margin-bottom:4px;color:var(--muted);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em}.meta-text{overflow-wrap:anywhere}
+    .word-old{margin-top:6px;font-size:.84rem;color:var(--muted)}.word-old-label{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-right:4px}.word-old code{text-decoration:line-through;text-decoration-color:rgba(0,0,0,.25)}.word-old-an{font-size:.8rem}
     .root-notes{margin-top:18px}.root-note{margin:6px 0;color:var(--muted);font-style:italic}
     .detail-section{margin-top:36px}.detail-section h2{margin:0 0 14px;font-size:1.6rem}.detail-section-count{color:var(--muted);font-size:.9rem;font-weight:500}
     .word-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:12px}.word-card{border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:var(--paper)}.word-form a{text-decoration:none}.word-form a:hover{color:var(--accent)}.word-form code{font-size:1.08rem}.word-emoji{display:inline-block;margin-right:6px;font-size:1.15rem;vertical-align:middle}.word-gloss{margin-top:4px}.word-analysis{margin-top:8px;color:var(--muted);font-size:.84rem}.word-note{margin-top:7px;color:var(--muted);font-size:.8rem;font-style:italic}.word-tags,.word-fields{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}.field{display:inline-block;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:var(--paper);font-size:.76rem;text-decoration:none}.field:hover{border-color:var(--accent);color:var(--accent)}
@@ -49,6 +50,7 @@
 (()=>{
   const box=document.getElementById('root-content');
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  function oldFormsHTML(w){const a=w.formas_antiguas||[];return a.length?'<div class="word-old"><span class="word-old-label">Formas antiguas</span> '+a.map(x=>'<code>'+esc(x.form)+'</code>'+(x.analysis_text?' <span class="word-old-an">('+esc(x.analysis_text)+')</span>':'')).join(' · ')+'</div>':''}
   const NOTE_LABELS={'Bas':'note-bas','Part.':'note-part','Sono':'note-sono','formal':'note-formal','Mundial':'note-mundial','arcaico':'note-arcaico','onomato':'note-onomato','nom':'note-nom'};
   const tagHTML=tags=>(tags||[]).map(t=>'<span class="tag '+esc(t.class||'generic')+' '+esc(NOTE_LABELS[t.label]||'')+'">'+esc(RELATION_NAMES[t.class]||t.label)+'</span>').join('');
   const RELATION_CLASSES=new Set(['nat-plen','nat-mod','nat-red','nat-refor','nat-tek','nat-nom','nat-insp','nova']);
@@ -80,7 +82,7 @@
   }
 
   function wordCard(w,external=false){
-    const notes=(w.notes||[]).map(n=>'<div class="word-note">'+esc(n)+'</div>').join('');
+    const notes=(w.notes||[]).map(n=>'<div class="word-note">'+esc(n)+'</div>').join('')+oldFormsHTML(w);
     const tags=(w.tags||[]).length?'<div class="word-tags">'+tagHTML(w.tags)+'</div>':'';
     const fields=(w.semantic_fields||[]).length?'<div class="word-fields">'+fieldHTML(w.semantic_fields)+'</div>':'';
     const externalRoot=external?'<div class="word-analysis">Raíz principal: <a href="raiz.html?id='+encodeURIComponent(w._root.id)+'"><code>'+esc(w._root.form)+'</code></a></div>':'';

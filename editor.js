@@ -22,7 +22,7 @@
       if (get(e, 'kind', null) === 'other') return;
       var parts = [get(e, 'form', ''), get(e, 'gloss', ''), get(e, 'etymology', null) || ''].concat(labels(get(e, 'tags', null)));
       get(e, 'words', []).forEach(function (w) {
-        var sf = get(w, 'semantic_fields', []) || [], notes = get(w, 'notes', []) || [];
+        var sf = get(w, 'semantic_fields', []) || [], notes = get(w, 'notes', []) || [], antiguas = get(w, 'formas_antiguas', []) || [];
         words.push({
           id: w.id, root_id: e.id, root_form: get(e, 'form', ''), root_gloss: get(e, 'gloss', ''),
           letter: letter, key: key,
@@ -32,8 +32,9 @@
           tags: labels(get(w, 'tags', null)),
           refs: get(w, 'refs', []).map(function (r) { return get(r, 'id', null); }).filter(Boolean),
           semantic_fields: sf, notes: notes,
+          ...(antiguas.length ? { formas_antiguas: antiguas } : {}),
           search: [get(w, 'form', ''), get(w, 'gloss', ''), get(e, 'form', ''), get(e, 'gloss', ''), get(w, 'analysis_text', '')]
-            .concat(labels(get(w, 'tags', null)), sf, notes).join(' ')
+            .concat(labels(get(w, 'tags', null)), sf, notes, antiguas.map(function (a) { return get(a, 'form', ''); })).join(' ')
         });
       });
       roots.push({ id: e.id, letter: letter, key: key, form: get(e, 'form', ''), gloss: get(e, 'gloss', ''),
@@ -774,6 +775,8 @@
         var fSem = chipInput(w ? w.semantic_fields || [] : [], Object.keys(fields).sort(coll.compare), 'Campo semántico (Enter para añadir)');
         var fTags = chipInput(w ? labels(w.tags) : [], Object.keys(wtags).sort(coll.compare), 'Etiqueta (Nominal A, Verbal OS…)');
         var fNotes = textArea(w ? (w.notes || []).join('\n') : '', { rows: 2, placeholder: 'Una nota por línea (p. ej. Pendiente: …)' });
+        var fOld = textArea(w ? (w.formas_antiguas || []).map(function (a) { return a.form + (a.analysis_text ? ' = ' + a.analysis_text : ''); }).join('\n') : '', { rows: 2, class: 'ce-mono', placeholder: 'Una por línea: forma = análisis (p. ej. imorbos = I + MORB + -OS)' });
+        function oldForms() { return lines(fOld.value).map(function (l) { var i = l.indexOf('='); return i < 0 ? { form: l.trim() } : { form: l.slice(0, i).trim(), analysis_text: l.slice(i + 1).trim() }; }).filter(function (a) { return a.form; }); }
         var body = [];
         if (!meta) {
           fRoot = textInput('', { list: datalist(rootOpts), class: 'ce-mono', placeholder: 'Busca la raíz: *ĴAR-…', required: true });
@@ -785,7 +788,7 @@
           body.push(field('Raíz', fRoot, 'Elige de la lista.'));
         }
         body.push(el('div', { class: 'ce-row' }, [field('Forma', el('div', { class: 'ce-word-form-row' }, [fEmoji.el, fForm]), 'Pulsa el icono para elegir, pegar o quitar un emoji.'), field('Glosa', fGloss)]), anSlot,
-          field('Campos semánticos', fSem.el), field('Etiquetas', fTags.el), field('Notas', fNotes));
+          field('Campos semánticos', fSem.el), field('Etiquetas', fTags.el), field('Notas', fNotes), field('Formas antiguas', fOld, 'Variantes desplazadas por la forma actual.'));
         dialog(isNew ? 'Nuevo vocablo' + (root ? ' en ' + root.form : '') : 'Editar vocablo ' + w.form, body, {
           onDelete: isNew ? null : function () {
             var used = idx.words.filter(function (x) { return x.refs.indexOf(wordId) >= 0; }).length;
@@ -810,7 +813,7 @@
             if (!gloss) fail('Escribe la glosa.');
             var emoji = fEmoji.get();
             if (!validEmoji(emoji)) fail('El icono debe ser un único emoji Unicode.');
-            var a = an.get(), sem = fSem.get(), tagLabels = fTags.get(), notes = lines(fNotes.value), rid = chosenRoot.id;
+            var a = an.get(), sem = fSem.get(), tagLabels = fTags.get(), notes = lines(fNotes.value), olds = oldForms(), rid = chosenRoot.id;
             return transact(function (ctx) {
               return ctx.read('lexico/index.json').then(function (cidx) {
                 var m = cidx.roots.find(function (x) { return x.id === rid; });
@@ -827,6 +830,7 @@
                       analysis_html: a.analysis_html, analysis_text: a.analysis_text, refs: a.refs,
                       tags: tagsFrom(tagLabels, []), semantic_fields: sem, notes: notes };
                     if (emoji) nw.emoji = emoji;
+                    if (olds.length) nw.formas_antiguas = olds;
                     e.words.push(nw);
                     return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: rootId ? reload : goRoot(rid) };
                   }
@@ -837,6 +841,7 @@
                   x.analysis_html = a.analysis_html; x.analysis_text = a.analysis_text; x.refs = a.refs;
                   x.tags = tagsFrom(tagLabels, x.tags); x.semantic_fields = sem; x.notes = notes;
                   if (emoji) x.emoji = emoji; else delete x.emoji;
+                  if (olds.length) x.formas_antiguas = olds; else delete x.formas_antiguas;
                   if (JSON.stringify(x) === before) fail('No hay cambios que guardar.');
                   return { files: files, message: 'Vocablo: editar ' + form + ' (' + e.form + ')', after: reload };
                 });
