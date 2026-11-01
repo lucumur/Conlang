@@ -1857,11 +1857,15 @@
         },
         {
           "id": "lexeme-esaves",
-          "form": "esaves",
+          "form": "saves",
           "gloss": "estar a salvo",
-          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + SAV + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "E (pendiente) + SAV + -ES",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-sav\">SAV</a> + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "SAV + -ES",
           "refs": [
+            {
+              "id": "root-sav",
+              "label": "SAV"
+            },
             {
               "id": "morph-es",
               "label": "-ES"

@@ -8135,11 +8135,15 @@
         },
         {
           "id": "lexeme-emortes",
-          "form": "emortes",
+          "form": "mortes",
           "gloss": "estar muerto",
-          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + MORT + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "E (pendiente) + MORT + -ES",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mor-t\">MORT</a> + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "MORT + -ES",
           "refs": [
+            {
+              "id": "root-mor-t",
+              "label": "MORT"
+            },
             {
               "id": "morph-es",
               "label": "-ES"

@@ -4882,11 +4882,15 @@
         },
         {
           "id": "lexeme-evives",
-          "form": "evives",
+          "form": "vives",
           "gloss": "estar vivo",
-          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + VIV + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "E (pendiente) + VIV + -ES",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-viv\">VIV</a> + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "VIV + -ES",
           "refs": [
+            {
+              "id": "root-viv",
+              "label": "VIV"
+            },
             {
               "id": "morph-es",
               "label": "-ES"
