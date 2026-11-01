@@ -7,7 +7,16 @@
       "id": "root-zed-r",
       "form": "*ZED-R",
       "gloss": "cedro, enebro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -47,8 +56,12 @@
       "gloss": "asno",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "Z",
@@ -283,8 +296,12 @@
       "gloss": "desear",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "Z",
@@ -349,7 +366,16 @@
       "id": "root-zon",
       "form": "*ZON-",
       "gloss": "zona, cinturon",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -437,7 +463,16 @@
       "id": "root-zorg",
       "form": "*ZORG-",
       "gloss": "inquietud",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -913,7 +948,16 @@
       "id": "root-zuk",
       "form": "*ZUK-",
       "gloss": "jugo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -976,7 +1020,16 @@
       "id": "root-zum",
       "form": "*ZUM-",
       "gloss": "zumbar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
@@ -1171,10 +1224,19 @@
       "id": "root-zuzu",
       "form": "*ZUZU-",
       "gloss": "tararear",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "Z",
       "section": "sec-z",
-      "etymology": null,
+      "etymology": "Etym. de novo; Esperide.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1234,10 +1296,19 @@
       "id": "root-zverg",
       "form": "*ZVERG-",
       "gloss": "enano",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "Z",
       "section": "sec-z",
-      "etymology": "< al. Zwerg.",
+      "etymology": "Etym. de novo; Germanico (referencia externa: al. Zwerg).",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1272,7 +1343,16 @@
       "id": "root-zvi",
       "form": "*ZVI-",
       "gloss": "dos",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-insp",
+          "label": "Inspirada"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "Z",
       "section": "sec-z",
       "etymology": null,
