@@ -3391,14 +3391,14 @@
         },
         {
           "id": "lexeme-zelangxel",
-          "form": "ẑelanĝel",
+          "form": "ẑjelanĝel",
           "gloss": "angelical",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-zel\">ẐEL</a> + ANĜ + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
-          "analysis_text": "ẐEL + ANĜ + -EL",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-zel\">ẐJEL</a> + ANĜ + <a class=\"morph-link\" href=\"#morph-el\">-EL</a>",
+          "analysis_text": "ẐJEL + ANĜ + -EL",
           "refs": [
             {
               "id": "root-zel",
-              "label": "ẐEL"
+              "label": "ẐJEL"
             },
             {
               "id": "morph-el",
@@ -3419,14 +3419,14 @@
         },
         {
           "id": "lexeme-zelangxon",
-          "form": "ẑelanĝon",
+          "form": "ẑjelanĝon",
           "gloss": "angel",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-zel\">ẐEL</a> + ANĜ + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "ẐEL + ANĜ + -ON",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-zel\">ẐJEL</a> + ANĜ + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ẐJEL + ANĜ + -ON",
           "refs": [
             {
               "id": "root-zel",
-              "label": "ẐEL"
+              "label": "ẐJEL"
             },
             {
               "id": "morph-on",
