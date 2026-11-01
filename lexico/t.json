@@ -252,11 +252,15 @@
         },
         {
           "id": "lexeme-vasxtablo",
-          "form": "vaŝtablo",
+          "form": "vakstablo",
           "gloss": "tablilla de cera",
-          "analysis_html": "VAŜ <span class=\"meta-extra\">(pendiente)</span> + TAB + L <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "VAŜ (pendiente) + TAB + L (pendiente) + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-vas\">VAKS</a> + TAB + L <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "VAKS + TAB + L (pendiente) + -O",
           "refs": [
+            {
+              "id": "root-vas",
+              "label": "VAKS"
+            },
             {
               "id": "morph-o",
               "label": "-O"
