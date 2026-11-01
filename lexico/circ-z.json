@@ -7,10 +7,19 @@
       "id": "root-zaf",
       "form": "*ẐAF-",
       "gloss": "eje",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
-      "etymology": "< ingl. staff.",
+      "etymology": "Etym. de novo; Anglo (referencia externa: ingl. staff).",
       "notes": [],
       "row_class": "",
       "words": [
@@ -70,7 +79,16 @@
       "id": "root-zal",
       "form": "*ẐAL-",
       "gloss": "acero",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -149,7 +167,16 @@
       "id": "root-zamp",
       "form": "*ẐAMP-",
       "gloss": "sellar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -237,7 +264,16 @@
       "id": "root-zan",
       "form": "*ẐAN-",
       "gloss": "estaño",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -472,6 +508,10 @@
         {
           "class": "nat-mod",
           "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "Ẑ",
@@ -583,48 +623,19 @@
       ]
     },
     {
-      "id": "root-zarb",
-      "form": "*ẐARB-",
-      "gloss": "estrabico",
-      "tags": [],
-      "letter": "Ẑ",
-      "section": "sec-circ-z",
-      "etymology": "< Eo. strab-.",
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-zxarbon",
-          "form": "ẑarbon",
-          "gloss": "bizco",
-          "analysis_html": "ẐARB + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "ẐARB + -ON",
-          "refs": [
-            {
-              "id": "morph-on",
-              "label": "-ON"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Humano ON"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-zat",
       "form": "*ẐAT-",
       "gloss": "estado, ciudad",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -640,6 +651,10 @@
         {
           "class": "nat-mod",
           "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "Ẑ",
@@ -736,7 +751,16 @@
       "id": "root-zebr",
       "form": "*ẐEBR-",
       "gloss": "cerebro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": "< Eo. cerbo.",
@@ -799,7 +823,16 @@
       "id": "root-zed",
       "form": "*ẐED-",
       "gloss": "dejar, permitir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": "< Eo. ceda.",
@@ -976,18 +1009,24 @@
     },
     {
       "id": "root-zel-stel",
-      "form": "*ẐEL- (ŜTEL)",
+      "form": "*ẐEL-",
       "gloss": "robar",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Desambiguación anterior: *ẐEL- (ŜTEL)."
+      ],
       "row_class": "",
       "words": [
         {
@@ -1085,9 +1124,18 @@
     },
     {
       "id": "root-zel",
-      "form": "*ẐEL-",
+      "form": "*ẐJEL-",
       "gloss": "cielo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -1096,10 +1144,10 @@
       "words": [
         {
           "id": "lexeme-zxeler",
-          "form": "ẑeler",
+          "form": "ẑjeler",
           "gloss": "cielo",
-          "analysis_html": "ẐEL + ER <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "ẐEL + ER (pendiente)",
+          "analysis_html": "ẐJEL + ER <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ẐJEL + ER (pendiente)",
           "refs": [],
           "tags": [
             {
@@ -1112,10 +1160,10 @@
         },
         {
           "id": "lexeme-zxelkorplo",
-          "form": "ẑelkorplo",
+          "form": "ẑjelkorplo",
           "gloss": "cuerpo celeste",
-          "analysis_html": "ẐEL + KORPL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "ẐEL + KORPL (pendiente) + -O",
+          "analysis_html": "ẐJEL + KORPL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ẐJEL + KORPL (pendiente) + -O",
           "refs": [
             {
               "id": "morph-o",
@@ -1137,10 +1185,10 @@
         },
         {
           "id": "lexeme-zxelen",
-          "form": "ẑelen",
+          "form": "ẑjelen",
           "gloss": "celeste",
-          "analysis_html": "ẐEL + EN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "ẐEL + EN (pendiente)",
+          "analysis_html": "ẐJEL + EN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ẐJEL + EN (pendiente)",
           "refs": [],
           "tags": [
             {
@@ -1159,8 +1207,12 @@
       "gloss": "cien",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "Ẑ",
@@ -1268,7 +1320,16 @@
       "id": "root-zerk",
       "form": "*ẐERK-",
       "gloss": "estiercol",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -1306,7 +1367,16 @@
       "id": "root-zert",
       "form": "*ẐERT-",
       "gloss": "seguro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -1519,7 +1589,16 @@
       "id": "root-zet-2",
       "form": "*ẐET-",
       "gloss": "ballena, cetaceo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": "< Eo. cetaceo.",
@@ -1568,11 +1647,15 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
-      "etymology": null,
+      "etymology": "Etym. de novo; Latin.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1602,11 +1685,15 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
         }
       ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
-      "etymology": null,
+      "etymology": "Etym. de novo; Esperide.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1668,7 +1755,16 @@
       "id": "root-zil",
       "form": "*ẐIL-",
       "gloss": "vello, ceja",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -1733,7 +1829,16 @@
       "id": "root-zim",
       "form": "*ẐIM-",
       "gloss": "estimar, apreciar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -1812,7 +1917,16 @@
       "id": "root-zim-2",
       "form": "*ẐIM-",
       "gloss": "insecto",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": "< Eo. cimo «insecto».",
@@ -1891,7 +2005,16 @@
       "id": "root-zin",
       "form": "*ẐIN-",
       "gloss": "ceniza",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -1995,7 +2118,16 @@
       "id": "root-zink",
       "form": "*ẐINK-",
       "gloss": "zinc",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -2033,7 +2165,16 @@
       "id": "root-zip",
       "form": "*ẐIP-",
       "gloss": "estipo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
@@ -2714,11 +2855,15 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
         }
       ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
-      "etymology": null,
+      "etymology": "Etym. de novo; Esperide.",
       "notes": [],
       "row_class": "",
       "words": []
@@ -2787,7 +2932,16 @@
       "id": "root-zump",
       "form": "*ẐUMP-",
       "gloss": "mochar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": "< Eo. stumpo.",
@@ -2825,7 +2979,16 @@
       "id": "root-zxitr",
       "form": "*ẐITR-",
       "gloss": "limón",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ẑ",
       "section": "sec-circ-z",
       "etymology": null,
