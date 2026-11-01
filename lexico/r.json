@@ -7,7 +7,16 @@
       "id": "root-raj-d",
       "form": "*RAJ-D",
       "gloss": "montar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -940,6 +949,10 @@
         {
           "class": "nat-mod",
           "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "R",
@@ -1003,7 +1016,16 @@
       "id": "root-re",
       "form": "*RE-",
       "gloss": "Real",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -1200,7 +1222,16 @@
       "id": "root-rec",
       "form": "*REC-",
       "gloss": "regular",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": "< Eo. regi.",
@@ -1238,7 +1269,16 @@
       "id": "root-rest",
       "form": "*REST-",
       "gloss": "quedar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -1324,7 +1364,16 @@
       "id": "root-rev",
       "form": "*REV-",
       "gloss": "soñar, imaginar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": "< Eo. revo.",
@@ -1487,7 +1536,16 @@
       "id": "root-rid",
       "form": "*RID-",
       "gloss": "reir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -1823,7 +1881,16 @@
       "id": "root-rif",
       "form": "*RIF-",
       "gloss": "orilla-veta (2)",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -1965,7 +2032,16 @@
       "id": "root-rip",
       "form": "*RIP-",
       "gloss": "orilla, costilla",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -2119,7 +2195,16 @@
       "id": "root-ris",
       "form": "*RIS-",
       "gloss": "enjuagar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": "< Eo. rinsi.",
@@ -2157,7 +2242,16 @@
       "id": "root-risk",
       "form": "*RISK-",
       "gloss": "riesgo, peligro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -2294,7 +2388,16 @@
       "id": "root-riv",
       "form": "*RIV-",
       "gloss": "fluir ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -2634,7 +2737,16 @@
       "id": "root-ric",
       "form": "*RIĈ-",
       "gloss": "rico",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -2721,7 +2833,16 @@
       "id": "root-riz",
       "form": "*RIẐ-",
       "gloss": "raiz",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -2834,7 +2955,16 @@
       "id": "root-rob",
       "form": "*ROB-",
       "gloss": "ropa",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -2969,6 +3099,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
         }
       ],
       "letter": "R",
@@ -3001,8 +3135,12 @@
       "gloss": "redondo ⭐",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
         }
       ],
       "letter": "R",
@@ -3392,7 +3530,16 @@
       "id": "root-ronk",
       "form": "*RONK-",
       "gloss": "roncar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -3496,7 +3643,16 @@
       "id": "root-rong",
       "form": "*RONĜ-",
       "gloss": "roer",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -3605,7 +3761,16 @@
       "id": "root-ros",
       "form": "*ROS-",
       "gloss": "rocío",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -3768,7 +3933,16 @@
       "id": "root-ru",
       "form": "*RU-",
       "gloss": "rojo, color",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -4060,7 +4234,16 @@
       "id": "root-rujn",
       "form": "*RUJN-",
       "gloss": "ruina",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -4145,7 +4328,16 @@
       "id": "root-rur",
       "form": "*RUR-",
       "gloss": "rural",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -4208,7 +4400,16 @@
       "id": "root-ruks",
       "form": "*RUKS-",
       "gloss": "eructar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": null,
@@ -4270,7 +4471,16 @@
       "id": "root-ruz",
       "form": "*RUZ-",
       "gloss": "astuto",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "R",
       "section": "sec-r",
       "etymology": "< Eo. ruza.",
