@@ -291,6 +291,16 @@
     '.ce-emoji-option{display:grid;place-items:center;min-width:0;height:34px;padding:0;border:1px solid transparent;border-radius:7px;background:transparent;font-size:1.34rem;cursor:pointer}.ce-emoji-option:hover,.ce-emoji-option:focus-visible{border-color:var(--accent);background:#eef2ff;outline:none}',
     '.ce-emoji-paste{display:flex;gap:6px}.ce-emoji-paste input{min-width:0;flex:1}.ce-emoji-paste button{white-space:nowrap}.ce-emoji-empty{font-size:.83rem;color:var(--muted)}',
     '.ce-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace!important}',
+    'dialog.ce-dialog:has(.ce-text-editor){width:min(1100px,calc(100% - 24px))}',
+    '.ce-text-editor{display:grid;gap:14px}.ce-text-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}.ce-text-pair textarea{min-height:190px;line-height:1.55;white-space:pre;overflow-x:auto}',
+    '@media(max-width:720px){.ce-text-pair{grid-template-columns:1fr}}',
+    '.ce-text-count{color:var(--muted);font-size:.8rem}.ce-text-count.bad{color:#b42318;font-weight:700}',
+    '.ce-text-review{display:grid;gap:6px;padding:10px;border:1px solid var(--line);border-radius:9px;background:#fff;max-height:260px;overflow:auto}',
+    '.ce-text-line{display:flex;flex-wrap:wrap;gap:4px;align-items:center}.ce-text-n{width:22px;color:var(--muted);font-size:.72rem;text-align:right;margin-right:4px}',
+    '.ce-tok{border:1px solid var(--line);border-radius:7px;padding:2px 7px;font:600 .88rem ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;background:#fff;color:var(--ink);cursor:pointer}',
+    '.ce-tok.fixed{background:#e0e7ff;border-color:#a5b4fc}.ce-tok.auto{background:#eef7ee;border-color:#b7dcb7}.ce-tok.lookup{border-style:dashed;color:var(--muted)}.ce-tok.plain{background:#f1eee6;color:var(--muted);font-style:italic}.ce-tok.broken{background:#ffe4e4;border-color:#f3a5a5}',
+    'small .ce-tok{cursor:default;font-size:.72rem;padding:0 5px}',
+    '.ce-tok-pop{display:grid;gap:10px;margin-top:8px;padding:12px;border:1px solid var(--accent);border-radius:10px;background:#fbfbff}.ce-tok-actions{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.ce-tok-actions .ce-spacer{flex:1}',
     '.ce-chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:6px;border:1px solid var(--line);border-radius:9px;background:#fff}',
     '.ce-chips input{flex:1 1 140px;border:0!important;padding:3px 4px!important;outline:0!important}',
     '.ce-chip{display:inline-flex;align-items:center;gap:4px;padding:2px 4px 2px 9px;border-radius:999px;background:#ece9e2;font-size:.82rem;font-weight:600}',
@@ -932,6 +942,160 @@
 
   /* ---------- Integración en cada página ---------- */
   function guard(p) { return function () { Promise.resolve().then(p).catch(function (e) { console.error(e); alert('No se pudo abrir el editor: ' + e.message); }); }; }
+  /* ---------- Textos: editor de textos paralelos ---------- */
+  var TEXT_WORD = /[\p{L}\p{M}\p{N}]+(?:[’'-][\p{L}\p{M}\p{N}]+)*/gu;
+  function tnorm(s) { return String(s == null ? '' : s).normalize('NFC').toLocaleLowerCase('es').trim(); }
+  function ttokens(s) { var out = []; String(s || '').replace(TEXT_WORD, function (m) { out.push(m); return m; }); return out; }
+  // Correspondencia de índices entre dos listas de palabras (subsecuencia común más larga).
+  function tokenMap(a, b) {
+    var n = a.length, m = b.length, L = [], i, j;
+    for (i = 0; i <= n; i++) { L.push(new Array(m + 1).fill(0)); }
+    for (i = n - 1; i >= 0; i--) for (j = m - 1; j >= 0; j--) L[i][j] = tnorm(a[i]) === tnorm(b[j]) ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+    var map = {}; i = 0; j = 0;
+    while (i < n && j < m) { if (tnorm(a[i]) === tnorm(b[j])) { map[i] = j; i++; j++; } else if (L[i + 1][j] >= L[i][j + 1]) i++; else j++; }
+    return map;
+  }
+  function textLines(s) { return String(s || '').replace(/\r/g, '').split('\n').map(function (x) { return x.trim(); }); }
+  function trimTail(arr) { while (arr.length && !arr[arr.length - 1]) arr.pop(); return arr; }
+
+  function textDialog(textId) {
+    var isNew = !textId;
+    return Promise.all([loadIndex(), readJSON('textos/index.json', currentRef())]).then(function (r) {
+      var idx = r[0], lib = r[1], t = isNew ? {} : (lib.textos || []).find(function (x) { return x.id === textId; });
+      if (!t) throw Error('Texto no encontrado: ' + textId);
+      var byForm = {}, byId = {};
+      idx.words.forEach(function (w) { var k = tnorm(w.form); (byForm[k] = byForm[k] || []).push(w); byId[w.id] = w; });
+      var wordOpts = idx.words.map(function (w) { return w.form + '  ·  ' + w.gloss + '  [' + w.id + ']'; }), dl = datalist(wordOpts);
+
+      var fTitle = textInput(t.titulo, { required: true }), fTitleO = textInput(t.titulo_original);
+      var fLang = textInput(t.idioma_original, { placeholder: 'Esperanto, Latín…' }), fAuthor = textInput(t.autor), fTrans = textInput(t.traductor);
+      var fSource = textInput(t.fuente), fLic = textInput(t.licencia), fNotes = textArea(t.notas, { rows: 2 });
+      var ps = t.parrafos || [];
+      var fOrig = textArea(ps.map(function (p) { return p.original || ''; }).join('\n'), { rows: 8, spellcheck: 'false', placeholder: 'Una línea por renglón' });
+      var fTr = textArea(ps.map(function (p) { return p.traduccion || ''; }).join('\n'), { rows: 8, spellcheck: 'false', placeholder: 'Una línea por renglón, en el mismo orden' });
+      var countBox = el('small', { class: 'ce-text-count' });
+
+      // Estado de enlaces por línea: { tokens, links: {i: {vocablo_id, nota}}, plain: {i: motivo} }
+      var state = ps.map(function (p) {
+        var links = {}, plain = {};
+        (p.enlaces || []).forEach(function (e) { links[e.indice] = { vocablo_id: e.vocablo_id, nota: e.nota }; });
+        (p.sin_enlace || []).forEach(function (e) { plain[e.indice] = e.motivo || 'Nombre propio'; });
+        return { tokens: ttokens(p.traduccion), links: links, plain: plain };
+      });
+      function sync() {
+        var lines = textLines(fTr.value);
+        lines.forEach(function (line, k) {
+          var toks = ttokens(line), old = state[k];
+          if (!old) { state[k] = { tokens: toks, links: {}, plain: {} }; return; }
+          if (old.tokens.join('\u0001') === toks.join('\u0001')) return;
+          var map = tokenMap(old.tokens, toks), links = {}, plain = {};
+          Object.keys(old.links).forEach(function (i) { if (map[i] != null) links[map[i]] = old.links[i]; });
+          Object.keys(old.plain).forEach(function (i) { if (map[i] != null) plain[map[i]] = old.plain[i]; });
+          state[k] = { tokens: toks, links: links, plain: plain };
+        });
+        state.length = Math.max(lines.length, 0);
+        var no = trimTail(textLines(fOrig.value)).length, nt = trimTail(lines.slice()).length;
+        countBox.textContent = no + ' líneas originales · ' + nt + ' traducidas' + (no !== nt ? '  — deben coincidir' : '');
+        countBox.className = 'ce-text-count' + (no !== nt ? ' bad' : '');
+        renderReview();
+      }
+      var review = el('div', { class: 'ce-text-review' }), popSlot = el('div');
+      function status(k, i, tok) {
+        var s = state[k];
+        if (s.plain[i] != null) return { cls: 'plain', title: 'Sin enlace · ' + s.plain[i] };
+        if (s.links[i]) { var w = byId[s.links[i].vocablo_id]; return { cls: w ? 'fixed' : 'broken', title: w ? 'Fijado → ' + w.form + ' «' + w.gloss + '»' + (s.links[i].nota ? ' · ' + s.links[i].nota : '') : 'Vocablo inexistente: ' + s.links[i].vocablo_id }; }
+        var c = byForm[tnorm(tok)] || [];
+        if (c.length === 1) return { cls: 'auto', title: 'Automático → ' + c[0].form + ' «' + c[0].gloss + '»' };
+        return { cls: 'lookup', title: c.length ? c.length + ' homógrafos: elige uno' : 'No está en el léxico: abrirá una búsqueda' };
+      }
+      function renderReview() {
+        review.innerHTML = '';
+        state.forEach(function (s, k) {
+          if (!s.tokens.length) return;
+          var row = el('div', { class: 'ce-text-line' }, [el('span', { class: 'ce-text-n', text: String(k + 1) })]);
+          s.tokens.forEach(function (tok, i) {
+            var st = status(k, i, tok);
+            row.appendChild(el('button', { type: 'button', class: 'ce-tok ' + st.cls, title: st.title, text: tok, onclick: function () { editToken(k, i, tok); } }));
+          });
+          review.appendChild(row);
+        });
+      }
+      function editToken(k, i, tok) {
+        var s = state[k], cur = s.links[i], c = byForm[tnorm(tok)] || [];
+        var fW = textInput(cur && byId[cur.vocablo_id] ? wordOpts[idx.words.indexOf(byId[cur.vocablo_id])] : (c.length === 1 ? '' : ''), { list: dl, class: 'ce-mono', placeholder: 'Busca el vocablo: forma · glosa' });
+        var fN = textInput(cur ? cur.nota : '', { placeholder: 'Nota opcional (p. ej. Plural de legro)' });
+        function close() { popSlot.innerHTML = ''; }
+        popSlot.innerHTML = '';
+        popSlot.appendChild(el('div', { class: 'ce-tok-pop' }, [
+          el('strong', { text: 'Línea ' + (k + 1) + ' · «' + tok + '»' }),
+          el('div', { class: 'ce-row' }, [field('Vocablo', fW), field('Nota', fN)]),
+          el('div', { class: 'ce-tok-actions' }, [
+            btn('Fijar enlace', function () {
+              var m = fW.value.match(/\[([^\]]+)\]\s*$/);
+              if (!m || !byId[m[1]]) { fW.focus(); fW.setCustomValidity('Elige un vocablo de la lista'); fW.reportValidity(); fW.setCustomValidity(''); return; }
+              s.links[i] = { vocablo_id: m[1] }; if (fN.value.trim()) s.links[i].nota = fN.value.trim(); delete s.plain[i]; close(); renderReview();
+            }, 'primary'),
+            btn('Sin enlace (nombre propio)', function () { delete s.links[i]; s.plain[i] = fN.value.trim() || 'Nombre propio'; close(); renderReview(); }),
+            btn('Automático', function () { delete s.links[i]; delete s.plain[i]; close(); renderReview(); }),
+            el('span', { class: 'ce-spacer' }), btn('Cerrar', close)])]));
+        fW.focus();
+      }
+      fTr.addEventListener('input', sync); fOrig.addEventListener('input', sync);
+
+      var body = [el('div', { class: 'ce-text-editor' }, [
+        el('div', { class: 'ce-row' }, [field('Título', fTitle), field('Título original', fTitleO), field('Idioma original', fLang)]),
+        el('div', { class: 'ce-row' }, [field('Autor', fAuthor), field('Traductor', fTrans), field('Fuente', fSource), field('Licencia', fLic)]),
+        field('Notas', fNotes),
+        el('div', { class: 'ce-text-pair' }, [field('Original', fOrig), field('Traducción', fTr)]), countBox,
+        el('div', { class: 'ce-field' }, [el('span', { text: 'Enlaces de la traducción' }),
+          el('small', { html: 'Pulsa una palabra para fijar su vocablo. <b class="ce-tok fixed">fijado</b> <b class="ce-tok auto">automático</b> <b class="ce-tok lookup">sin identificar</b> <b class="ce-tok plain">sin enlace</b> <b class="ce-tok broken">vocablo inexistente</b>' }),
+          review, popSlot])])];
+      sync();
+
+      dialog(isNew ? 'Nuevo texto' : 'Editar texto «' + (t.titulo || '') + '»', body, {
+        onDelete: isNew ? null : function () {
+          if (!confirm('¿Eliminar el texto «' + t.titulo + '»?')) return false;
+          return transact(function (ctx) {
+            return ctx.read('textos/index.json').then(function (cur) {
+              var i = (cur.textos || []).findIndex(function (x) { return x.id === textId; }); if (i < 0) fail('El texto ya no existe.');
+              cur.textos.splice(i, 1);
+              return { files: { 'textos/index.json': cur }, message: 'Texto: eliminar ' + t.titulo, after: reload };
+            });
+          });
+        },
+        onSave: function () {
+          var title = fTitle.value.trim(); if (!title) fail('Escribe el título.');
+          var orig = trimTail(textLines(fOrig.value)), tr = trimTail(textLines(fTr.value));
+          if (!tr.length) fail('Escribe al menos una línea de traducción.');
+          if (orig.length !== tr.length) fail('El original tiene ' + orig.length + ' líneas y la traducción ' + tr.length + '. Deben coincidir línea por línea.');
+          var parrafos = [];
+          tr.forEach(function (line, k) {
+            if (!line && !orig[k]) return;
+            var s = state[k] || { links: {}, plain: {} }, p = { original: orig[k], traduccion: line };
+            var en = Object.keys(s.links).map(Number).sort(function (a, b) { return a - b; }).map(function (i) { var o = { indice: i, vocablo_id: s.links[i].vocablo_id }; if (s.links[i].nota) o.nota = s.links[i].nota; return o; });
+            var se = Object.keys(s.plain).map(Number).sort(function (a, b) { return a - b; }).map(function (i) { return { indice: i, motivo: s.plain[i] }; });
+            if (en.length) p.enlaces = en; if (se.length) p.sin_enlace = se;
+            parrafos.push(p);
+          });
+          var meta = { titulo: title, titulo_original: fTitleO.value.trim(), idioma_original: fLang.value.trim(), autor: fAuthor.value.trim(), traductor: fTrans.value.trim(), fuente: fSource.value.trim(), licencia: fLic.value.trim(), notas: fNotes.value.trim() };
+          return transact(function (ctx) {
+            return ctx.read('textos/index.json').then(function (cur) {
+              cur.textos = cur.textos || [];
+              var x;
+              if (isNew) { x = { id: uniqueId(slug(title) || 'texto', new Set(cur.textos.map(function (y) { return y.id; }))) }; cur.textos.push(x); }
+              else { x = cur.textos.find(function (y) { return y.id === textId; }); if (!x) fail('El texto ya no existe.'); }
+              var before = JSON.stringify(x);
+              Object.keys(meta).forEach(function (k) { if (meta[k]) x[k] = meta[k]; else delete x[k]; });
+              x.parrafos = parrafos;
+              if (!isNew && JSON.stringify(x) === before) fail('No hay cambios que guardar.');
+              return { files: { 'textos/index.json': cur }, message: 'Texto: ' + (isNew ? 'añadir ' : 'editar ') + title, after: function () { location.assign('textos.html#' + x.id); location.reload(); } };
+            });
+          });
+        }
+      });
+    });
+  }
+
   function bar(buttons) {
     return el('div', { class: 'ce-bar' }, [el('span', { class: 'ce-bar-label', text: 'Edición' })].concat(buttons));
   }
@@ -987,6 +1151,16 @@
           tr.dataset.ce = '1';
           var td = tr.querySelector('td.form');
           if (td) td.appendChild(el('button', { type: 'button', class: 'ce-btn small ce-inline', title: 'Editar morfema', text: '✎', onclick: guard(function () { return morphDialog(tr.id); }) }));
+        });
+      });
+    } else if (page === 'textos') {
+      var tl = document.getElementById('textos-list');
+      if (tl) tl.parentNode.insertBefore(bar([btn('+ Nuevo texto', guard(function () { return textDialog(null); }), 'primary')]), tl);
+      observe(tl, function () {
+        tl.querySelectorAll('article.text-article:not([data-ce])').forEach(function (art) {
+          art.dataset.ce = '1';
+          var h = art.querySelector('.text-header'); if (!h) return;
+          h.appendChild(el('div', { class: 'ce-card-actions' }, [el('button', { type: 'button', class: 'ce-btn small', text: '✎ Editar texto', onclick: guard(function () { return textDialog(art.id); }) })]));
         });
       });
     } else if (page === 'semantica') {

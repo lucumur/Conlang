@@ -70,3 +70,14 @@ Las traducciones no se generan automáticamente: únicamente se muestran las
 que se consignen en este archivo. No duplicar entradas léxicas aquí. Revisar
 la autorización para reproducir el texto original y añadir una fuente y una
 licencia cuando corresponda.
+
+## Edición desde la página
+
+Con el modo edición activo, la página Textos muestra **+ Nuevo texto** y, en
+cada texto, **✎ Editar texto**. El formulario tiene dos columnas, original y
+traducción, con una línea por renglón; ambas deben tener el mismo número de
+líneas. Debajo, cada palabra de la traducción aparece con su estado de enlace
+(fijado, automático, sin identificar, sin enlace o vocablo inexistente); al
+pulsarla se puede fijar el vocablo con una nota opcional, marcarla sin enlace
+o devolverla a la coincidencia automática. Al editar una línea, los enlaces
+fijados de las palabras que no cambiaron se conservan.
