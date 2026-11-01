@@ -599,6 +599,30 @@
           ]
         },
         {
+          "id": "lexeme-cambral",
+          "form": "ĉambral",
+          "gloss": "cuarto, habitación",
+          "analysis_html": "ĈAMBR + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "ĈAMBR + -AL",
+          "refs": [
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "arquitectura",
+            "lugares",
+            "vivienda"
+          ]
+        },
+        {
           "id": "lexeme-socambro",
           "form": "soĉambro",
           "gloss": "sótano",
