@@ -4477,7 +4477,16 @@
       "id": "root-pil-k",
       "form": "*PIL-K",
       "gloss": "pelota",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -4539,7 +4548,16 @@
       "id": "root-pin",
       "form": "*PIN-",
       "gloss": "punta, pico",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -4706,7 +4724,16 @@
       "id": "root-pip",
       "form": "*PIP-",
       "gloss": "pipa, tubo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -4743,7 +4770,16 @@
       "id": "root-pir",
       "form": "*PIR-",
       "gloss": "pera",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -4926,8 +4962,12 @@
       "gloss": "orinar",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "P",
@@ -6959,6 +6999,10 @@
         {
           "class": "nat-plen",
           "label": "Original"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
         }
       ],
       "letter": "P",
@@ -6991,8 +7035,12 @@
       "gloss": "despues",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "P",
@@ -7130,7 +7178,16 @@
       "id": "root-pojn",
       "form": "*POJN-",
       "gloss": "muñeca",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -7168,7 +7225,16 @@
       "id": "root-polv",
       "form": "*POLV-",
       "gloss": "polvo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": "< Eo. polvo.",
@@ -7272,7 +7338,16 @@
       "id": "root-pom",
       "form": "*POM-",
       "gloss": "fruta",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -7560,7 +7635,16 @@
       "id": "root-pon",
       "form": "*PON-",
       "gloss": "occidente, poniente ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -7755,7 +7839,16 @@
       "id": "root-pong",
       "form": "*PONĜ-",
       "gloss": "empaparse",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": "< Eo. spongo.",
@@ -7850,7 +7943,16 @@
       "id": "root-por",
       "form": "*POR-",
       "gloss": "pasar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -7954,7 +8056,16 @@
       "id": "root-pork",
       "form": "*PORK-",
       "gloss": "Puerco",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -8115,7 +8226,16 @@
       "id": "root-port",
       "form": "*PORT-",
       "gloss": "portar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -8250,7 +8370,16 @@
       "id": "root-porc",
       "form": "*PORĈ-",
       "gloss": "porche",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -8447,7 +8576,16 @@
       "id": "root-pot",
       "form": "*POT-",
       "gloss": "potar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -8585,7 +8723,16 @@
       "id": "root-pov",
       "form": "*POV-",
       "gloss": "poder",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -8739,7 +8886,16 @@
       "id": "root-pr",
       "form": "*PR-",
       "gloss": "antes",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -8809,7 +8965,16 @@
       "id": "root-pra",
       "form": "*PRA-",
       "gloss": "antes, anterior",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -9011,7 +9176,16 @@
       "id": "root-prav",
       "form": "*PRAV-",
       "gloss": "correcto",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -9081,7 +9255,16 @@
       "id": "root-pref",
       "form": "*PREF-",
       "gloss": "querer, preferir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": "< Eo. preferi.",
@@ -9260,7 +9443,16 @@
       "id": "root-pren",
       "form": "*PREN-",
       "gloss": "tomar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -9322,7 +9514,16 @@
       "id": "root-presk",
       "form": "*PRESK-",
       "gloss": "aproximar, acercar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -9442,7 +9643,16 @@
       "id": "root-pret",
       "form": "*PRET-",
       "gloss": "listo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -9597,7 +9807,16 @@
       "id": "root-prim",
       "form": "*PRIM-",
       "gloss": "presionar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -9773,7 +9992,16 @@
       "id": "root-proc",
       "form": "*PROĈ-",
       "gloss": "reprochar, quejarse",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -9890,6 +10118,10 @@
         {
           "class": "nat-plen",
           "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
         }
       ],
       "letter": "P",
@@ -9953,7 +10185,16 @@
       "id": "root-prun",
       "form": "*PRUN-",
       "gloss": "ciruela",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -10041,7 +10282,16 @@
       "id": "root-pruz",
       "form": "*PRUẐ-",
       "gloss": "chispear",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": "< Eo. ŝpruci.",
@@ -10108,7 +10358,16 @@
       "id": "root-pub",
       "form": "*PUB-",
       "gloss": "puber",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -10246,7 +10505,16 @@
       "id": "root-publ",
       "form": "*PUBL-",
       "gloss": "poblar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -10423,7 +10691,16 @@
       "id": "root-pulp",
       "form": "*PULP-",
       "gloss": "carne",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -10461,7 +10738,16 @@
       "id": "root-pun",
       "form": "*PUN-",
       "gloss": "doler",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -10656,7 +10942,16 @@
       "id": "root-pur",
       "form": "*PUR-",
       "gloss": "puro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
@@ -10815,7 +11110,16 @@
       "id": "root-pus",
       "form": "*PUŜ-",
       "gloss": "empujar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "P",
       "section": "sec-p",
       "etymology": null,
