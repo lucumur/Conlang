@@ -4017,12 +4017,12 @@
           "id": "lexeme-vjolbeto",
           "form": "vjolbeto",
           "gloss": "betabel",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-vjol\">VJOL</a> + BET + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "VJOL + BET + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-viol\">VJOL</a> <span class=\"meta-extra\">(variante de VIOL)</span> + BET + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "VJOL [variante de VIOL] + BET + -O",
           "refs": [
             {
-              "id": "root-vjol",
-              "label": "VJOL"
+              "id": "root-viol",
+              "label": "VIOL"
             },
             {
               "id": "morph-o",
