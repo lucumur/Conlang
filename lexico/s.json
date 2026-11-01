@@ -5805,7 +5805,16 @@
       "id": "root-son",
       "form": "*SON-",
       "gloss": "sonar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
