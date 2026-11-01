@@ -2479,6 +2479,29 @@
       "row_class": ""
     },
     {
+      "id": "morph-j-anticaus",
+      "form": "*-J-",
+      "gloss": "anticausativo / incoativo (alternancia de Haspelmath)",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        },
+        {
+          "class": "generic",
+          "label": "voz"
+        }
+      ],
+      "letter": "J",
+      "section": "sec-j",
+      "etymology": null,
+      "notes": [
+        "CANÓNICO: con -OS forma el miembro anticausativo (cambio de estado espontáneo) de la tríada -AS causativo / -J- + -OS anticausativo / -IS estativo. Ver gramática §2.2.",
+        "Homónimo de -J- extensión de tema (domjo, albjol, glavjos), que no tiene este valor."
+      ],
+      "row_class": ""
+    },
+    {
       "id": "morph-into",
       "form": "*-INTO",
       "gloss": "sufijo de elemento químico",

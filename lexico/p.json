@@ -1158,6 +1158,10 @@
             {
               "class": "generic",
               "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Alternancia Haspelmath"
             }
           ],
           "semantic_fields": [
@@ -1170,7 +1174,7 @@
           "id": "lexeme-papjos",
           "form": "papjos",
           "gloss": "alimentarse",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-pap\">PAP</a> + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pap\">PAP</a> + <a class=\"morph-link\" href=\"#morph-j-anticaus\">-J-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
           "analysis_text": "PAP + -J- + -OS",
           "refs": [
             {
@@ -1178,7 +1182,7 @@
               "label": "PAP"
             },
             {
-              "id": "morph-j-theme",
+              "id": "morph-j-anticaus",
               "label": "-J-"
             },
             {
@@ -1190,6 +1194,10 @@
             {
               "class": "generic",
               "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Alternancia Haspelmath"
             }
           ],
           "semantic_fields": []
@@ -1270,6 +1278,10 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Alternancia Haspelmath"
             }
           ],
           "semantic_fields": [],
