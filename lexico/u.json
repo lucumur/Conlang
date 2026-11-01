@@ -113,11 +113,15 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
         }
       ],
       "letter": "U",
       "section": "sec-u",
-      "etymology": null,
+      "etymology": "Etym. de novo; Esperide.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -177,10 +181,19 @@
       "id": "root-ul",
       "form": "*UL-",
       "gloss": "alguno",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "U",
       "section": "sec-u",
-      "etymology": null,
+      "etymology": "Etym. de novo; Latin.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -231,7 +244,16 @@
       "id": "root-ulm",
       "form": "*ULM-",
       "gloss": "olmo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -294,7 +316,16 @@
       "id": "root-uln",
       "form": "*ULN-",
       "gloss": "codo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -361,6 +392,10 @@
         {
           "class": "nat-mod",
           "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "U",
@@ -436,24 +471,19 @@
       ]
     },
     {
-      "id": "root-ul-2",
-      "form": "*UM-",
-      "gloss": "mucho",
-      "tags": [],
-      "letter": "U",
-      "section": "sec-u",
-      "etymology": null,
-      "notes": [
-        "Forma anterior en el repo: *UL-."
-      ],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-um-br",
       "form": "*UM-BR-",
       "gloss": "sombra",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -711,22 +741,19 @@
       ]
     },
     {
-      "id": "root-und",
-      "form": "*UND-",
-      "gloss": "[sin glosa visible]",
-      "tags": [],
-      "letter": "U",
-      "section": "sec-u",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-ung",
       "form": "*UNG-",
       "gloss": "uña",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "U",
       "section": "sec-u",
       "etymology": "< Eo. ungo.",
@@ -864,10 +891,19 @@
       "id": "root-up",
       "form": "*UP-",
       "gloss": "ulular",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "U",
       "section": "sec-u",
-      "etymology": null,
+      "etymology": "Etym. de novo; Latin.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -915,22 +951,19 @@
       ]
     },
     {
-      "id": "root-ur",
-      "form": "*UR-",
-      "gloss": "genitivo arcaico",
-      "tags": [],
-      "letter": "U",
-      "section": "sec-u",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-urb",
       "form": "*URB-",
       "gloss": "ciudad",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -1059,7 +1092,16 @@
       "id": "root-urs",
       "form": "*URS-",
       "gloss": "oso",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
@@ -1101,22 +1143,19 @@
       ]
     },
     {
-      "id": "root-us",
-      "form": "*US-",
-      "gloss": "mucho",
-      "tags": [],
-      "letter": "U",
-      "section": "sec-u",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-uz",
       "form": "*UZ-",
       "gloss": "usar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "U",
       "section": "sec-u",
       "etymology": null,
