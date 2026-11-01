@@ -1,4 +1,101 @@
 {
   "schema_version": 1,
-  "textos": []
+  "textos": [
+    {
+      "id": "marko-karlon",
+      "titulo": "Marko",
+      "idioma_original": "Esperanto",
+      "fuente": "Texto proporcionado para el proyecto",
+      "parrafos": [
+        {
+          "original": "Marko estas mia amiko",
+          "traduccion": "Marko ĵes mel karlon",
+          "enlaces": [
+            {
+              "indice": 1,
+              "vocablo_id": "lexeme-jxes"
+            },
+            {
+              "indice": 2,
+              "vocablo_id": "lexeme-mel"
+            },
+            {
+              "indice": 3,
+              "vocablo_id": "lexeme-karlon"
+            }
+          ]
+        },
+        {
+          "original": "Li estas lernanto kaj sportisto",
+          "traduccion": "Ci ĵes lernulan kaj aθlistan",
+          "enlaces": [
+            {
+              "indice": 0,
+              "vocablo_id": "lexeme-ci"
+            },
+            {
+              "indice": 1,
+              "vocablo_id": "lexeme-jxes"
+            },
+            {
+              "indice": 2,
+              "vocablo_id": "lexeme-lernulan"
+            },
+            {
+              "indice": 3,
+              "vocablo_id": "lexeme-kaj"
+            },
+            {
+              "indice": 4,
+              "vocablo_id": "lexeme-athlistan"
+            }
+          ]
+        },
+        {
+          "original": "Li nun sidas en ĉambro kaj lernas.",
+          "traduccion": "Ci sidis ĵam sur ĉambral por lernar",
+          "enlaces": [
+            {
+              "indice": 0,
+              "vocablo_id": "lexeme-ci"
+            },
+            {
+              "indice": 2,
+              "vocablo_id": "lexeme-jam"
+            },
+            {
+              "indice": 3,
+              "vocablo_id": "lexeme-sur"
+            },
+            {
+              "indice": 5,
+              "vocablo_id": "lexeme-por"
+            }
+          ]
+        },
+        {
+          "original": "Sur tablo estas paperoj kaj libroj",
+          "traduccion": "Sur to tablo res paprili kaj legri",
+          "enlaces": [
+            {
+              "indice": 0,
+              "vocablo_id": "lexeme-sur"
+            },
+            {
+              "indice": 1,
+              "vocablo_id": "lexeme-to"
+            },
+            {
+              "indice": 2,
+              "vocablo_id": "lexeme-tablo"
+            },
+            {
+              "indice": 5,
+              "vocablo_id": "lexeme-kaj"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
