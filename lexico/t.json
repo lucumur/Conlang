@@ -676,6 +676,53 @@
       ]
     },
     {
+      "id": "root-tung",
+      "form": "*TANG-",
+      "gloss": "tocar, frotar, pasar las manos",
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": "Etym. de novo; Latin.",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-tungas",
+          "form": "tangas",
+          "gloss": "tocar un instrumento",
+          "analysis_html": "TANG + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "TANG + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "root-tard",
       "form": "*TARD-",
       "gloss": "tarde",
@@ -4181,7 +4228,16 @@
       "id": "root-tr",
       "form": "*TR-",
       "gloss": "tres",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -4426,10 +4482,19 @@
       "id": "root-tra",
       "form": "*TRA-",
       "gloss": "atraves",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "Etym. de novo; Italico.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -4471,7 +4536,16 @@
       "id": "root-trab",
       "form": "*TRAB-",
       "gloss": "barra",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -4574,10 +4648,19 @@
       "id": "root-trab-2",
       "form": "*TRAB-",
       "gloss": "cuidar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
-      "etymology": null,
+      "etymology": "Etym. de novo; Eslavo.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -4680,7 +4763,16 @@
       "id": "root-tramp",
       "form": "*TRAMP-",
       "gloss": "vagar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": "< Eo. trampo.",
@@ -4863,7 +4955,16 @@
       "id": "root-tran",
       "form": "*TRAN-",
       "gloss": "rebanar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -4964,64 +5065,6 @@
       ]
     },
     {
-      "id": "root-trang",
-      "form": "*TRANG-",
-      "gloss": "estrangular",
-      "tags": [],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-trangofin",
-          "form": "trangofin",
-          "gloss": "boa",
-          "analysis_html": "TRANG + OFIN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "TRANG + OFIN (pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        }
-      ]
-    },
-    {
-      "id": "root-trat",
-      "form": "*TRAT-",
-      "gloss": "calle",
-      "tags": [],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-tratil",
-          "form": "tratil",
-          "gloss": "calle",
-          "analysis_html": "TRAT + IL <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "TRAT + IL (pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-trec",
       "form": "*TREĈ-",
       "gloss": "estrecharse, reducirse",
@@ -5070,7 +5113,16 @@
       "id": "root-trejn",
       "form": "*TREJN-",
       "gloss": "entrenar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -5158,7 +5210,16 @@
       "id": "root-tremp",
       "form": "*TREMP-",
       "gloss": "remojar, dipear",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": "< Eo. trempi.",
@@ -5195,7 +5256,16 @@
       "id": "root-tret",
       "form": "*TRET-",
       "gloss": "pisar, aplastar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -6204,7 +6274,16 @@
       "id": "root-trud",
       "form": "*TRUD-",
       "gloss": "imponer, forzar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -6254,6 +6333,103 @@
       ]
     },
     {
+      "id": "root-tuk",
+      "form": "*TUC-",
+      "gloss": "ropa",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-tuke",
+          "form": "tuce",
+          "gloss": "ropa",
+          "analysis_html": "TUC + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "TUC + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "objetos",
+            "sustancias"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tukos",
+          "form": "tucos",
+          "gloss": "ponerse",
+          "analysis_html": "TUC + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TUC + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "ropa",
+            "objetos",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-tukenos",
+          "form": "tucenos",
+          "gloss": "llevar puesto",
+          "analysis_html": "TUC + EN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TUC + EN (pendiente) + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "root-tuf",
       "form": "*TUF-",
       "gloss": "copete",
@@ -6274,7 +6450,16 @@
       "id": "root-tuj",
       "form": "*TUJ-",
       "gloss": "inmediato",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -6359,136 +6544,19 @@
       ]
     },
     {
-      "id": "root-tuk",
-      "form": "*TUK-",
-      "gloss": "ropa",
-      "tags": [],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-tuke",
-          "form": "tuke",
-          "gloss": "ropa",
-          "analysis_html": "TUK + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
-          "analysis_text": "TUK + -E",
-          "refs": [
-            {
-              "id": "morph-e",
-              "label": "-E"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Incontable E"
-            }
-          ],
-          "semantic_fields": [
-            "ropa",
-            "objetos",
-            "sustancias"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-tukos",
-          "form": "tukos",
-          "gloss": "ponerse",
-          "analysis_html": "TUK + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "TUK + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "ropa",
-            "objetos",
-            "procesos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-tukenos",
-          "form": "tukenos",
-          "gloss": "llevar puesto",
-          "analysis_html": "TUK + EN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "TUK + EN (pendiente) + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        }
-      ]
-    },
-    {
-      "id": "root-tung",
-      "form": "*TUNG-",
-      "gloss": "tocar, frotar, pasar las manos",
-      "tags": [],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-tungas",
-          "form": "tungas",
-          "gloss": "tocar un instrumento",
-          "analysis_html": "TUNG + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "TUNG + -AS",
-          "refs": [
-            {
-              "id": "morph-as",
-              "label": "-AS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado AS"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-turk",
       "form": "*TURK-",
       "gloss": "turco",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-nom",
+          "label": "Nominal"
+        },
+        {
+          "class": "turquico",
+          "label": "Turquico"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -6526,7 +6594,16 @@
       "id": "root-tus",
       "form": "*TUS-",
       "gloss": "tos",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -6614,7 +6691,16 @@
       "id": "root-tus-2",
       "form": "*TUŜ-",
       "gloss": "tocar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": "< Eo. tuŝi.",
