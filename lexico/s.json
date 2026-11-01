@@ -4259,11 +4259,15 @@
         },
         {
           "id": "lexeme-esidis",
-          "form": "esidis",
+          "form": "sidis",
           "gloss": "estar sentado",
-          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + SID + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
-          "analysis_text": "E (pendiente) + SID + -IS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-sid\">SID</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "SID + -IS",
           "refs": [
+            {
+              "id": "root-sid",
+              "label": "SID"
+            },
             {
               "id": "morph-is-2",
               "label": "-IS"
@@ -4272,14 +4276,12 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado IS"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Verbal IS"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "estatico"
+          ],
           "notes": []
         },
         {
