@@ -57,7 +57,16 @@
       "id": "root-ma-j",
       "form": "*MA-J",
       "gloss": "madre",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": "< Eo. mamo «pecho».",
@@ -188,7 +197,16 @@
       "id": "root-ma-m",
       "form": "*MA-M-",
       "gloss": "lactar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -362,6 +380,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "M",
@@ -676,8 +698,12 @@
       "gloss": "magnetico",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-tek",
+          "label": "Tecnica"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "M",
@@ -902,7 +928,16 @@
       "id": "root-mald",
       "form": "*MALD-",
       "gloss": "maleolo, tobillo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -940,7 +975,16 @@
       "id": "root-malo",
       "form": "*MALΘ-",
       "gloss": "cerveza",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -1072,23 +1116,38 @@
       ]
     },
     {
-      "id": "root-man-2",
-      "form": "*MAN-",
+      "id": "root-man-t",
+      "form": "*MAN-T",
       "gloss": "tela",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "celta",
+          "label": "Celta"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Forma anterior *MAN- «tela»; la consonante -T pertenece ahora a la raíz *MAN-T. No confundir con *MAN- «mano»."
+      ],
       "row_class": "",
       "words": [
         {
           "id": "lexeme-mantlo",
           "form": "mantlo",
           "gloss": "capa",
-          "analysis_html": "MAN + TL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "MAN + TL (pendiente) + -O",
+          "analysis_html": "MANT + L <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "MANT + L (pendiente) + -O",
           "refs": [
+            {
+              "id": "root-man-t",
+              "label": "MAN-T"
+            },
             {
               "id": "morph-o",
               "label": "-O"
@@ -1111,9 +1170,13 @@
           "id": "lexeme-tafmanto",
           "form": "tafmanto",
           "gloss": "mantel de mesa",
-          "analysis_html": "TAF <span class=\"meta-extra\">(pendiente)</span> + MAN + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "TAF (pendiente) + MAN + T (pendiente) + -O",
+          "analysis_html": "TAF <span class=\"meta-extra\">(pendiente)</span> + MANT + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "TAF (pendiente) + MANT + -O",
           "refs": [
+            {
+              "id": "root-man-t",
+              "label": "MAN-T"
+            },
             {
               "id": "morph-o",
               "label": "-O"
@@ -1136,9 +1199,13 @@
           "id": "lexeme-banmanto",
           "form": "banmanto",
           "gloss": "toalla",
-          "analysis_html": "BAN <span class=\"meta-extra\">(pendiente)</span> + MAN + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "BAN (pendiente) + MAN + T (pendiente) + -O",
+          "analysis_html": "BAN <span class=\"meta-extra\">(pendiente)</span> + MANT + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "BAN (pendiente) + MANT + -O",
           "refs": [
+            {
+              "id": "root-man-t",
+              "label": "MAN-T"
+            },
             {
               "id": "morph-o",
               "label": "-O"
@@ -1380,7 +1447,16 @@
       "id": "root-map",
       "form": "*MAP-",
       "gloss": "maple",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -1444,6 +1520,10 @@
       "form": "*MAR-",
       "gloss": "casarse",
       "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
         {
           "class": "latin",
           "label": "Latin"
@@ -1615,7 +1695,16 @@
       "id": "root-mar-2",
       "form": "*MAR-",
       "gloss": "mar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -1905,7 +1994,16 @@
       "id": "root-mark",
       "form": "*MARK-",
       "gloss": "marcar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -1969,7 +2067,16 @@
       "id": "root-marm",
       "form": "*MARM-",
       "gloss": "marmol",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -2048,7 +2155,16 @@
       "id": "root-mas",
       "form": "*MAS-",
       "gloss": "masa",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -2151,7 +2267,16 @@
       "id": "root-mat",
       "form": "*MAT-",
       "gloss": "amanecer",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": "< Eo. mateno «mañana».",
@@ -2555,7 +2680,16 @@
       "id": "root-mas-2",
       "form": "*MAŜ-",
       "gloss": "mojarse",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -2718,7 +2852,16 @@
       "id": "root-maz-2",
       "form": "*MAẐ-",
       "gloss": "hacer smak",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": "< Eo. ŝmaci.",
@@ -2821,7 +2964,16 @@
       "id": "root-mec-n",
       "form": "*MEC-N",
       "gloss": "maquina",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-tek",
+          "label": "Tecnica"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -3000,8 +3152,12 @@
       "gloss": "remediar",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "M",
@@ -3394,7 +3550,16 @@
       "id": "root-mej",
       "form": "*MEJ-",
       "gloss": "posibilitativo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -3406,7 +3571,16 @@
       "id": "root-mel",
       "form": "*MEL-",
       "gloss": "miel",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -3518,7 +3692,16 @@
       "id": "root-melk",
       "form": "*MELK-",
       "gloss": "exprimir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -3687,7 +3870,16 @@
       "id": "root-mem",
       "form": "*MEM-",
       "gloss": "recordar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -3750,7 +3942,16 @@
       "id": "root-mem-br",
       "form": "*MEM-BR",
       "gloss": "propio",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -3956,7 +4157,16 @@
       "id": "root-merk",
       "form": "*MERK-",
       "gloss": "vender",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -4289,8 +4499,12 @@
       "gloss": "poner",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
         }
       ],
       "letter": "M",
@@ -4429,7 +4643,16 @@
       "id": "root-mez",
       "form": "*MEZ-",
       "gloss": "medio",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -4549,7 +4772,16 @@
       "id": "root-mez-2",
       "form": "*MEZ-",
       "gloss": "medir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
