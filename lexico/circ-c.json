@@ -1637,6 +1637,56 @@
       ]
     },
     {
+      "id": "root-ce",
+      "form": "*ĈE-",
+      "gloss": "en, junto a (locativo)",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": "< Eo. ĉe.",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ce",
+          "form": "ĉe",
+          "gloss": "en, estar en (a veces con implicación de interior)",
+          "analysis_html": "ĈE",
+          "analysis_text": "ĈE",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "espacio",
+            "lugares"
+          ],
+          "notes": [
+            "CANÓNICO: locativo de ubicación; puede implicar interioridad sin marcarla explícitamente (ĉe ĉambral «en el cuarto»)."
+          ]
+        },
+        {
+          "id": "lexeme-ence",
+          "form": "enĉe",
+          "gloss": "dentro de, adentro de",
+          "analysis_html": "EN <span class=\"meta-extra\">(pendiente)</span> + ĈE",
+          "analysis_text": "EN (pendiente) + ĈE",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "espacio",
+            "lugares"
+          ],
+          "notes": [
+            "CANÓNICO: inesivo explícito, frente a ĉe, que solo lo implica."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-cef",
       "form": "*ĈEF-",
       "gloss": "cabeza ⭐",

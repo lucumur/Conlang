@@ -7450,7 +7450,7 @@
         {
           "id": "lexeme-sur",
           "form": "sur",
-          "gloss": "en, sobre",
+          "gloss": "sobre, encima de; en (superficie); acerca de",
           "analysis_html": "SUR",
           "analysis_text": "SUR",
           "refs": [],
@@ -7461,7 +7461,10 @@
             }
           ],
           "semantic_fields": [],
-          "notes": []
+          "notes": [
+            "CANÓNICO: locativo de superficie o contacto: sur tabeno «en la mesa», en el piso, en la cabeza, en la piel.",
+            "CANÓNICO: con lugares grandes toma valor temático «acerca de, about»: sur Mexico «sobre México»."
+          ]
         }
       ]
     },
