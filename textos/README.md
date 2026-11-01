@@ -57,6 +57,14 @@ La página tokeniza la cadena `traduccion` conservando espacios y puntuación:
   textual.
 - Los textos del idioma original se presentan sin enlaces automáticos,
   porque sus palabras no pertenecen necesariamente al vocabulario del conlang.
+- Las formas flexionadas que no figuran como entradas independientes pueden
+  enlazar a su **base léxica** mediante `enlaces`: por ejemplo, un plural
+  puede enlazar a su singular, o un participio al predicado del que procede.
+  Se puede añadir `nota` a la referencia para explicar esa relación en el
+  título del enlace.
+- Para nombres propios o palabras que deliberadamente no deben abrir ninguna
+  búsqueda, añadir `sin_enlace: [{"indice": 0, "motivo": "Nombre propio"}]`
+  al párrafo. La palabra se conserva sin enlace en la traducción.
 
 Las traducciones no se generan automáticamente: únicamente se muestran las
 que se consignen en este archivo. No duplicar entradas léxicas aquí. Revisar
