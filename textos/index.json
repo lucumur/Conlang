@@ -3,12 +3,12 @@
   "textos": [
     {
       "id": "marko-karlon",
-      "titulo": "Marko",
-      "idioma_original": "Esperanto",
+      "titulo": "Mi amigo Marko",
+      "idioma_original": "Español",
       "fuente": "Texto proporcionado para el proyecto",
       "parrafos": [
         {
-          "original": "Marko estas mia amiko",
+          "original": "Marko es mi amigo",
           "traduccion": "Marko ĵes mel karlon",
           "enlaces": [
             {
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "original": "Li estas lernanto kaj sportisto",
+          "original": "El es estudiante y deportista",
           "traduccion": "Ci ĵes lernulan kaj aθlistan",
           "enlaces": [
             {
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "original": "Li nun sidas en ĉambro kaj lernas.",
+          "original": "Ahora esta sentado en su recamara y esta estudiando.",
           "traduccion": "Ci sidis ĵam sur ĉambral por lernar",
           "enlaces": [
             {
@@ -95,7 +95,7 @@
           ]
         },
         {
-          "original": "Sur tablo estas paperoj kaj libroj",
+          "original": "Sobre la mesa hay papeles y libros",
           "traduccion": "Sur to tabeno res paprili kaj legri",
           "enlaces": [
             {
@@ -126,7 +126,8 @@
             }
           ]
         }
-      ]
+      ],
+      "autor": "Lernu"
     }
   ]
 }
