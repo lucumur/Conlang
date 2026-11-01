@@ -7,7 +7,16 @@
       "id": "root-s",
       "form": "*S-",
       "gloss": "propio",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -164,12 +173,24 @@
     {
       "id": "root-sac",
       "form": "*SAC-",
-      "gloss": "percibir",
-      "tags": [],
+      "gloss": "percibir, ingeniar; sabio",
+      "tags": [
+        {
+          "class": "nat-insp",
+          "label": "Inspirada"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: *SAĜ- «sabio» se fusionó con *SAC-; la raíz única *SAC- reúne los sentidos de percepción, ingenio y sabiduría.",
+        "La raíz fusionada *SAĜ- documentaba históricamente «< Eo. saĝa»; se conserva esta información como antecedente, sin cambiar la clasificación vigente Inspirada · Frances."
+      ],
       "row_class": "",
       "words": [
         {
@@ -212,6 +233,37 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-sacezxa",
+          "form": "saceẑa",
+          "gloss": "sabiduría, inteligencia",
+          "analysis_html": "SAC + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
+          "analysis_text": "SAC + -EẐA",
+          "refs": [
+            {
+              "id": "root-sac",
+              "label": "SAC"
+            },
+            {
+              "id": "morph-eza",
+              "label": "-EẐA"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto EẐA"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Forma anterior saĝeẑa, derivada de la raíz fusionada *SAĜ-. La derivación vigente emplea *SAC-."
+          ]
         }
       ]
     },
@@ -339,7 +391,16 @@
       "id": "root-safr",
       "form": "*SAFR-",
       "gloss": "azafran",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "arabe",
+          "label": "Arabe"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -423,7 +484,16 @@
       "id": "root-sag",
       "form": "*SAG-",
       "gloss": "flecha, dardo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -473,50 +543,19 @@
       ]
     },
     {
-      "id": "root-sag-2",
-      "form": "*SAĜ-",
-      "gloss": "sabio",
-      "tags": [],
-      "letter": "S",
-      "section": "sec-s",
-      "etymology": "< Eo. saĝa.",
-      "notes": [
-        "CANÓNICO: *SAĜ- «sabio». La glosa previa «sablo» fue un dato obsoleto y queda descartada."
-      ],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-sagxezxa",
-          "form": "saĝeẑa",
-          "gloss": "sabiduría, inteligencia",
-          "analysis_html": "SAĜ + <a class=\"morph-link\" href=\"#morph-eza\">-EẐA</a>",
-          "analysis_text": "SAĜ + -EẐA",
-          "refs": [
-            {
-              "id": "morph-eza",
-              "label": "-EẐA"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto EẐA"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-sak",
       "form": "*SAK-",
       "gloss": "bolsa",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -556,7 +595,16 @@
       "id": "root-sal",
       "form": "*SAL-",
       "gloss": "sal, pagar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -725,7 +773,16 @@
       "id": "root-salt",
       "form": "*SALT-",
       "gloss": "saltar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -788,7 +845,16 @@
       "id": "root-san",
       "form": "*SAN-",
       "gloss": "sano",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -1374,7 +1440,16 @@
       "id": "root-sat",
       "form": "*SAT-",
       "gloss": "demasiado",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -1740,7 +1815,16 @@
       "id": "root-sav",
       "form": "*SAV-",
       "gloss": "salvar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -1893,7 +1977,16 @@
       "id": "root-sef-t",
       "form": "*SEF-T-",
       "gloss": "siete",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": "< Eo. sep.",
@@ -2063,21 +2156,87 @@
       "id": "root-sejv",
       "form": "*SEJV-",
       "gloss": "selva",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
       "notes": [
-        "CANÓNICO: *SEJV- «selva»; sustituye la atribución histórica de «selva» a *SIV- en Tana. *SIV- «seda» continúa vigente como raíz distinta."
+        "CANÓNICO: *SEJV- «selva»; sustituye la atribución histórica de «selva» a *SIV- en Tana. *SILK- «seda» continúa vigente como raíz distinta.",
+        "Los vocablos históricos siven y sivaĝon se reinterpretan como derivados de *SEJV- «selva» con las formas sejven y sejvaĝon."
       ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-sejven",
+          "form": "sejven",
+          "gloss": "selva",
+          "analysis_html": "SEJV + EN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "SEJV + EN (pendiente)",
+          "refs": [
+            {
+              "id": "root-sejv",
+              "label": "SEJV"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Vinculado históricamente a *SIV- por datos de Tana, pero corresponde semánticamente a *SEJV- «selva»; forma anterior siven."
+          ]
+        },
+        {
+          "id": "lexeme-sejvagxon",
+          "form": "sejvaĝon",
+          "gloss": "salvaje, bárbaro",
+          "analysis_html": "SEJV + AĜON <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "SEJV + AĜON (pendiente)",
+          "refs": [
+            {
+              "id": "root-sejv",
+              "label": "SEJV"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [
+            "Vinculado históricamente a *SIV- por datos de Tana, pero corresponde semánticamente a *SEJV- «selva»; forma anterior sivaĝon."
+          ]
+        }
+      ]
     },
     {
       "id": "root-sek",
       "form": "*SEK-",
       "gloss": "seco",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -2172,7 +2331,16 @@
       "id": "root-sem",
       "form": "*SEM-",
       "gloss": "sembrar ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -2487,7 +2655,16 @@
       "id": "root-sen",
       "form": "*SEN-",
       "gloss": "sin",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -2516,7 +2693,16 @@
       "id": "root-send",
       "form": "*SEND-",
       "gloss": "enviar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -2554,7 +2740,16 @@
       "id": "root-sent",
       "form": "*SENT-",
       "gloss": "sentir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -2758,7 +2953,16 @@
       "id": "root-serc",
       "form": "*SERĈ-",
       "gloss": "buscar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": "< Eo. serĉi.",
@@ -2939,7 +3143,16 @@
       "id": "root-serp",
       "form": "*SERP-",
       "gloss": "serpentear",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -3068,7 +3281,16 @@
       "id": "root-serv",
       "form": "*SERV-",
       "gloss": "siervo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -3263,7 +3485,16 @@
       "id": "root-ses",
       "form": "*SEŜ-",
       "gloss": "seis",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": "< Eo. ses (seks).",
@@ -3426,7 +3657,16 @@
       "id": "root-sesv",
       "form": "*SEŜV-",
       "gloss": "seguir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": "< Eo. sekvi «seguir».",
@@ -3582,7 +3822,16 @@
       "id": "root-sevr",
       "form": "*SEVR-",
       "gloss": "Dificil, Severo, Grave",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -3713,7 +3962,16 @@
       "id": "root-sez",
       "form": "*SEZ-",
       "gloss": "estacion",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -3908,7 +4166,16 @@
       "id": "root-sid",
       "form": "*SID-",
       "gloss": "sentar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -4087,7 +4354,16 @@
       "id": "root-sil",
       "form": "*SIL-",
       "gloss": "silencio",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -4334,7 +4610,16 @@
       "id": "root-sim",
       "form": "*SIM-",
       "gloss": "Simio",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -4363,7 +4648,16 @@
       "id": "root-sin",
       "form": "*SIN-",
       "gloss": "signo ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -4950,51 +5244,28 @@
       ]
     },
     {
-      "id": "root-siv",
-      "form": "*SIV-",
+      "id": "root-silk",
+      "form": "*SILK-",
       "gloss": "seda",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
       "notes": [
-        "CANÓNICO: *SIV- «seda», raíz distinta de *SEJV- «selva». No hereda el valor «selva» registrado anteriormente en Tana."
+        "CANÓNICO: *SILK- «seda» reemplaza a *SIV- «seda». La raíz *SEJV- «selva» es distinta de *SILK-.",
+        "Las dos palabras antiguamente agrupadas con *SIV- en Tana se referían a «selva» y «salvaje», no a «seda»; se trasladaron a *SEJV- y se regularizaron con esa raíz."
       ],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-siven",
-          "form": "siven",
-          "gloss": "selva",
-          "analysis_html": "SIV + EN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "SIV + EN (pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-sivagxon",
-          "form": "sivaĝon",
-          "gloss": "salvaje, bárbaro",
-          "analysis_html": "SIV + AĜON <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "SIV + AĜON (pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        }
-      ]
+      "words": []
     },
     {
       "id": "root-skot",
