@@ -847,10 +847,10 @@
         },
         {
           "id": "lexeme-etardes",
-          "form": "tardes",
-          "gloss": "es tarde, se hizo tarde",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-tard\">TARD</a> + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "TARD + -ES",
+          "form": "itardes",
+          "gloss": "ya es tarde, se hizo tarde",
+          "analysis_html": "I- <span class=\"meta-extra\">(«ya»)</span> + <a class=\"morph-link\" href=\"#root-tard\">TARD</a> + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "I- («ya») + TARD + -ES",
           "refs": [
             {
               "id": "root-tard",
@@ -872,7 +872,9 @@
             }
           ],
           "semantic_fields": [],
-          "notes": []
+          "notes": [
+            "I- «ya»; -ES con valor impersonal."
+          ]
         }
       ]
     },
@@ -2816,7 +2818,7 @@
         {
           "id": "lexeme-timas",
           "form": "timas",
-          "gloss": "temer (anticipacion de resultado negativo) // eso temo",
+          "gloss": "asustar, dar miedo",
           "analysis_html": "TIM + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
           "analysis_text": "TIM + -AS",
           "refs": [
@@ -2840,18 +2842,18 @@
         },
         {
           "id": "lexeme-etimes",
-          "form": "times",
+          "form": "timis",
           "gloss": "tener miedo",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-tim\">TIM</a> + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "TIM + -ES",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tim\">TIM</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "TIM + -IS",
           "refs": [
             {
               "id": "root-tim",
               "label": "TIM"
             },
             {
-              "id": "morph-es",
-              "label": "-ES"
+              "id": "morph-is-2",
+              "label": "-IS"
             }
           ],
           "tags": [
@@ -2866,6 +2868,34 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-timjos",
+          "form": "timjos",
+          "gloss": "asustarse",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tim\">TIM</a> + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "TIM + -J- + -OS",
+          "refs": [
+            {
+              "id": "root-tim",
+              "label": "TIM"
+            },
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": []
         },
         {
           "id": "lexeme-timura",

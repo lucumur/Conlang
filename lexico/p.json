@@ -1167,6 +1167,34 @@
           "notes": []
         },
         {
+          "id": "lexeme-papjos",
+          "form": "papjos",
+          "gloss": "alimentarse",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pap\">PAP</a> + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "PAP + -J- + -OS",
+          "refs": [
+            {
+              "id": "root-pap",
+              "label": "PAP"
+            },
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": []
+        },
+        {
           "id": "lexeme-papo",
           "form": "papo",
           "gloss": "alimento",
@@ -1216,14 +1244,18 @@
         },
         {
           "id": "lexeme-epapis",
-          "form": "papis",
+          "form": "papakis",
           "gloss": "estar nutrido",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-pap\">PAP</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
-          "analysis_text": "PAP + -IS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pap\">PAP</a> + <a class=\"morph-link\" href=\"#morph-ak-augmentative\">-AK-</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "PAP + -AK- + -IS",
           "refs": [
             {
               "id": "root-pap",
               "label": "PAP"
+            },
+            {
+              "id": "morph-ak-augmentative",
+              "label": "-AK-"
             },
             {
               "id": "morph-is-2",
@@ -1241,7 +1273,9 @@
             }
           ],
           "semantic_fields": [],
-          "notes": []
+          "notes": [
+            "-AK- aumentativo, aquí con valor resultativo."
+          ]
         },
         {
           "id": "lexeme-papsan",

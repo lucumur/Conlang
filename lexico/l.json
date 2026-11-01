@@ -223,18 +223,18 @@
       "words": [
         {
           "id": "lexeme-elames",
-          "form": "lames",
+          "form": "lamis",
           "gloss": "estar inválido",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-lam\">LAM</a> + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "LAM + -ES",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-lam\">LAM</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "LAM + -IS",
           "refs": [
             {
               "id": "root-lam",
               "label": "LAM"
             },
             {
-              "id": "morph-es",
-              "label": "-ES"
+              "id": "morph-is-2",
+              "label": "-IS"
             }
           ],
           "tags": [
@@ -249,6 +249,58 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-lamas",
+          "form": "lamas",
+          "gloss": "mochar",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-lam\">LAM</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LAM + -AS",
+          "refs": [
+            {
+              "id": "root-lam",
+              "label": "LAM"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": []
+        },
+        {
+          "id": "lexeme-lamjos",
+          "form": "lamjos",
+          "gloss": "quedarse inválido",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-lam\">LAM</a> + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "LAM + -J- + -OS",
+          "refs": [
+            {
+              "id": "root-lam",
+              "label": "LAM"
+            },
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": []
         },
         {
           "id": "lexeme-lamiros",

@@ -7826,6 +7826,34 @@
           "notes": []
         },
         {
+          "id": "lexeme-morbjos",
+          "form": "morbjos",
+          "gloss": "enfermarse",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mor-b\">MORB</a> + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MORB + -J- + -OS",
+          "refs": [
+            {
+              "id": "root-mor-b",
+              "label": "MORB"
+            },
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": []
+        },
+        {
           "id": "lexeme-morbil",
           "form": "morbil",
           "gloss": "enfermo",
