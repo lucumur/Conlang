@@ -4,24 +4,108 @@
   "key": "v",
   "entries": [
     {
-      "id": "root-v-exclamativa",
-      "form": "*V- (exclamativa)",
-      "gloss": "",
-      "tags": [],
+      "id": "root-vas",
+      "form": "*VAKS-",
+      "gloss": "cera",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
-      "etymology": null,
+      "etymology": "Etym. Eo. vakso → *VAKS-",
       "notes": [],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-vaj",
-          "form": "vaj",
-          "gloss": "¡ay!",
-          "analysis_html": "V + AJ <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "V + AJ (pendiente)",
+          "id": "lexeme-vasxelo",
+          "form": "vakselo",
+          "gloss": "vela",
+          "analysis_html": "VAKS + EL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "VAKS + EL (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-vasxe",
+          "form": "vakse",
+          "gloss": "cera",
+          "analysis_html": "VAKS + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "VAKS + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-vasxil",
+          "form": "vaksil",
+          "gloss": "encerado",
+          "analysis_html": "VAKS + IL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "VAKS + IL (pendiente)",
           "refs": [],
           "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-vasxas",
+          "form": "vaksas",
+          "gloss": "encerar",
+          "analysis_html": "VAKS + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "VAKS + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            },
             {
               "class": "generic",
               "label": "Importado de Tana"
@@ -36,7 +120,16 @@
       "id": "root-val",
       "form": "*VAL-",
       "gloss": "valer ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -467,7 +560,16 @@
       "id": "root-van",
       "form": "*VAN-",
       "gloss": "avanzar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -505,7 +607,16 @@
       "id": "root-vand",
       "form": "*VAND-",
       "gloss": "muro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -695,7 +806,16 @@
       "id": "root-vang",
       "form": "*VANG-",
       "gloss": "slap slap",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": "< Eo. vangi.",
@@ -842,7 +962,16 @@
       "id": "root-vap",
       "form": "*VAP-",
       "gloss": "vapor",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": "< Eo. vaporo.",
@@ -996,10 +1125,19 @@
       "id": "root-var",
       "form": "*VAR-",
       "gloss": "objeto",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
-      "etymology": null,
+      "etymology": "Etym. de novo; Latin.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1100,7 +1238,16 @@
       "id": "root-varm",
       "form": "*VARM-",
       "gloss": "caliente",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": "< Eo. varma.",
@@ -1288,7 +1435,16 @@
       "id": "root-vast",
       "form": "*VAST-",
       "gloss": "ancho",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -1455,115 +1611,6 @@
       ]
     },
     {
-      "id": "root-vas",
-      "form": "*VAŜ-",
-      "gloss": "cera",
-      "tags": [
-        {
-          "class": "nat-mod",
-          "label": "Modificada"
-        }
-      ],
-      "letter": "V",
-      "section": "sec-v",
-      "etymology": "< Eo. vakso.",
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-vasxelo",
-          "form": "vaŝelo",
-          "gloss": "vela",
-          "analysis_html": "VAŜ + EL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "VAŜ + EL (pendiente) + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-vasxe",
-          "form": "vaŝe",
-          "gloss": "cera",
-          "analysis_html": "VAŜ + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
-          "analysis_text": "VAŜ + -E",
-          "refs": [
-            {
-              "id": "morph-e",
-              "label": "-E"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Incontable E"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-vasxil",
-          "form": "vaŝil",
-          "gloss": "encerado",
-          "analysis_html": "VAŜ + IL <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "VAŜ + IL (pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-vasxas",
-          "form": "vaŝas",
-          "gloss": "encerar",
-          "analysis_html": "VAŜ + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "VAŜ + -AS",
-          "refs": [
-            {
-              "id": "morph-as",
-              "label": "-AS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado AS"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-vec",
       "form": "*VEC-",
       "gloss": "vehiculo",
@@ -1639,11 +1686,15 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "V",
       "section": "sec-v",
-      "etymology": null,
+      "etymology": "Etym. de novo; Latin.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -1840,7 +1891,16 @@
       "id": "root-vek",
       "form": "*VEK-",
       "gloss": "despertar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": "< Eo. veki.",
@@ -2141,7 +2201,16 @@
       "id": "root-vemb",
       "form": "*VEMB-",
       "gloss": "utero, vientre, abdomen ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -2517,7 +2586,16 @@
       "id": "root-ven",
       "form": "*VEN-",
       "gloss": "llegar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -3055,7 +3133,16 @@
       "id": "root-ver",
       "form": "*VER-",
       "gloss": "verdadero",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -3266,7 +3353,16 @@
       "id": "root-verb",
       "form": "*VERB-",
       "gloss": "palabra",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -3278,7 +3374,16 @@
       "id": "root-vers",
       "form": "*VERS-",
       "gloss": "voltear",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": "< Eo. versi.",
@@ -3457,7 +3562,16 @@
       "id": "root-vesp",
       "form": "*VESP-",
       "gloss": "tarde",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": "< Eo. vespero.",
@@ -3586,7 +3700,16 @@
       "id": "root-vest",
       "form": "*VEST-",
       "gloss": "vestir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -3728,7 +3851,16 @@
       "id": "root-vez",
       "form": "*VEZ-",
       "gloss": "vesicula",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
