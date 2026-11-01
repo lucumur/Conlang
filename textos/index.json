@@ -23,6 +23,12 @@
               "indice": 3,
               "vocablo_id": "lexeme-karlon"
             }
+          ],
+          "sin_enlace": [
+            {
+              "indice": 0,
+              "motivo": "Nombre propio"
+            }
           ]
         },
         {
@@ -60,6 +66,11 @@
               "vocablo_id": "lexeme-ci"
             },
             {
+              "indice": 1,
+              "vocablo_id": "lexeme-esidis",
+              "nota": "Predicación en -IS de SID- (estar sentado)"
+            },
+            {
               "indice": 2,
               "vocablo_id": "lexeme-jam"
             },
@@ -68,14 +79,24 @@
               "vocablo_id": "lexeme-sur"
             },
             {
+              "indice": 4,
+              "vocablo_id": "lexeme-cambral",
+              "nota": "Locativo de ĈAMBR-"
+            },
+            {
               "indice": 5,
               "vocablo_id": "lexeme-por"
+            },
+            {
+              "indice": 6,
+              "vocablo_id": "lexeme-lernas",
+              "nota": "Participio agentivo -AR de lernas"
             }
           ]
         },
         {
           "original": "Sur tablo estas paperoj kaj libroj",
-          "traduccion": "Sur to tablo res paprili kaj legri",
+          "traduccion": "Sur to tabeno res paprili kaj legri",
           "enlaces": [
             {
               "indice": 0,
@@ -87,11 +108,21 @@
             },
             {
               "indice": 2,
-              "vocablo_id": "lexeme-tablo"
+              "vocablo_id": "lexeme-tabeno"
+            },
+            {
+              "indice": 4,
+              "vocablo_id": "lexeme-paprilo",
+              "nota": "Plural de paprilo (-O → -I)"
             },
             {
               "indice": 5,
               "vocablo_id": "lexeme-kaj"
+            },
+            {
+              "indice": 6,
+              "vocablo_id": "lexeme-legro",
+              "nota": "Plural de legro (-O → -I)"
             }
           ]
         }
