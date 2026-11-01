@@ -1250,8 +1250,12 @@
       "gloss": "ella",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "Ŝ",
@@ -1284,7 +1288,16 @@
       "id": "root-si-2",
       "form": "*ŜI-",
       "gloss": "saber",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< Eo. scii.",
@@ -1516,7 +1529,16 @@
       "id": "root-sim-2",
       "form": "*ŜIM-",
       "gloss": "fango",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< Eo. ŝlimo (slim).",
@@ -1688,7 +1710,16 @@
       "id": "root-spik",
       "form": "*ŜPIK-",
       "gloss": "espiga",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -1726,7 +1757,16 @@
       "id": "root-srim",
       "form": "*ŜIRM-",
       "gloss": "proteger",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -1816,7 +1856,16 @@
       "id": "root-skap",
       "form": "*ŜKAP-",
       "gloss": "escapar, evitar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< Eo. eskapi.",
@@ -2114,8 +2163,12 @@
       "gloss": "alcachofa",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
         }
       ],
       "letter": "Ŝ",
@@ -2155,7 +2208,16 @@
       "id": "root-soc",
       "form": "*ŜOK-",
       "gloss": "chocar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< Eo. ŝoko.",
@@ -2399,25 +2461,45 @@
       ]
     },
     {
-      "id": "root-sos-2",
-      "form": "*ŜOS-",
+      "id": "root-slos",
+      "form": "*ŜLOS-",
       "gloss": "cerrar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
       "notes": [
-        "Forma anterior en el repo: *ŜOŜ-."
+        "Forma anterior en el repo: *ŜOŜ-.",
+        "Forma anterior *ŜOS- (y, previamente, *ŜOŜ-). La raíz vigente es *ŜLOS-.",
+        "Los vocablos heredados de Tana ŝjosas y ŝjosal tenían una relación formal pendiente con *ŜOS-. Se regularizan como ŝlosas y ŝlosal sobre *ŜLOS-."
       ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-sxjosas",
-          "form": "ŝjosas",
+          "id": "lexeme-sxlosas",
+          "form": "ŝlosas",
           "gloss": "cerrar",
-          "analysis_html": "ŜOS <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "ŜOS (relación formal pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-slos\">ŜLOS</a> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ŜLOS + -AS",
+          "refs": [
+            {
+              "id": "root-slos",
+              "label": "ŜLOS"
+            },
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -2425,15 +2507,22 @@
             }
           ],
           "semantic_fields": [],
-          "notes": []
+          "notes": [
+            "Forma anterior: ŝjosas; adaptación a la raíz canónica *ŜLOS-."
+          ]
         },
         {
-          "id": "lexeme-sxjosal",
-          "form": "ŝjosal",
+          "id": "lexeme-sxlosal",
+          "form": "ŝlosal",
           "gloss": "llave",
-          "analysis_html": "ŜOS <span class=\"meta-extra\">(relación formal con la raíz pendiente)</span>",
-          "analysis_text": "ŜOS (relación formal pendiente)",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-slos\">ŜLOS</a> + AL <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ŜLOS + AL (pendiente)",
+          "refs": [
+            {
+              "id": "root-slos",
+              "label": "ŜLOS"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -2441,7 +2530,9 @@
             }
           ],
           "semantic_fields": [],
-          "notes": []
+          "notes": [
+            "Forma anterior: ŝjosal; adaptación a la raíz canónica *ŜLOS-."
+          ]
         }
       ]
     },
@@ -2449,7 +2540,16 @@
       "id": "root-span",
       "form": "*ŜPAN-",
       "gloss": "España",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-nom",
+          "label": "Nominal"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -2494,7 +2594,16 @@
       "id": "root-spir",
       "form": "*ŜPIR-",
       "gloss": "espirar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -2607,7 +2716,16 @@
       "id": "root-spok",
       "form": "*ŜPOK-",
       "gloss": "rayo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -2619,7 +2737,16 @@
       "id": "root-suv",
       "form": "*ŜUV-",
       "gloss": "zapato",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< Eo. ŝuo.",
@@ -2682,7 +2809,16 @@
       "id": "root-suf",
       "form": "*ŜUF-",
       "gloss": "sofocar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< Eo. sufoki.",
@@ -2836,7 +2972,16 @@
       "id": "root-sult",
       "form": "*ŜULT-",
       "gloss": "hombro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -2924,7 +3069,16 @@
       "id": "root-su",
       "form": "*ŜUT-",
       "gloss": "echar, arrojar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -2989,7 +3143,16 @@
       "id": "root-sus",
       "form": "*ŜUŜ-",
       "gloss": "flujo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -3136,7 +3299,16 @@
       "id": "root-svit",
       "form": "*ŜVIT-",
       "gloss": "sudar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -3224,7 +3396,16 @@
       "id": "root-sxpazx",
       "form": "*ŜPAẐ",
       "gloss": "espacio, vacío",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< Eo. spaco.",
