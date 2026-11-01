@@ -5756,11 +5756,15 @@
         },
         {
           "id": "lexeme-vasxplatko",
-          "form": "vaŝplatko",
+          "form": "vaksplatko",
           "gloss": "tablilla de cera",
-          "analysis_html": "VAŜ <span class=\"meta-extra\">(pendiente)</span> + PLAT + K <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "VAŜ (pendiente) + PLAT + K (pendiente) + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-vas\">VAKS</a> + PLAT + K <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "VAKS + PLAT + K (pendiente) + -O",
           "refs": [
+            {
+              "id": "root-vas",
+              "label": "VAKS"
+            },
             {
               "id": "morph-o",
               "label": "-O"
