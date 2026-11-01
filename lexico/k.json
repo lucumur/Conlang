@@ -11,6 +11,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "K",
@@ -440,8 +444,12 @@
       "gloss": "Cesar",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-nom",
+          "label": "Nominal"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "K",
@@ -1151,7 +1159,16 @@
       "id": "root-kamp",
       "form": "*KAMP-",
       "gloss": "campo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. kampo.",
@@ -1735,7 +1752,16 @@
       "id": "root-kank",
       "form": "*KANK-",
       "gloss": "cangrejo, tenaza",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -2252,7 +2278,16 @@
       "id": "root-kap-n",
       "form": "*KAP-N",
       "gloss": "humo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -2315,7 +2350,16 @@
       "id": "root-kap-r",
       "form": "*KAP-R-",
       "gloss": "cabra",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -2434,7 +2478,16 @@
       "id": "root-kar",
       "form": "*KAR-",
       "gloss": "querer",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -2962,7 +3015,16 @@
       "id": "root-kat",
       "form": "*KAT-",
       "gloss": "gato",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "arabe",
+          "label": "Arabe"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -3050,7 +3112,16 @@
       "id": "root-kav",
       "form": "*KAV-",
       "gloss": "hueco",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -3105,7 +3176,16 @@
       "id": "root-kaz",
       "form": "*KAZ-",
       "gloss": "ocurrir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. okazi.",
@@ -3316,7 +3396,16 @@
       "id": "root-kac",
       "form": "*KAĈ-",
       "gloss": "capturar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -3378,7 +3467,16 @@
       "id": "root-kas",
       "form": "*KAŜ-",
       "gloss": "caja, esconder",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -3514,7 +3612,16 @@
       "id": "root-ker",
       "form": "*KER-",
       "gloss": "cortar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -3666,7 +3773,16 @@
       "id": "root-kern",
       "form": "*KERN-",
       "gloss": "nucleo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -3803,7 +3919,16 @@
       "id": "root-kest",
       "form": "*KEST-",
       "gloss": "conquistar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -3889,7 +4014,16 @@
       "id": "root-kir",
       "form": "*KIR-",
       "gloss": "adquirir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -3993,7 +4127,16 @@
       "id": "root-kirk",
       "form": "*KIRK-",
       "gloss": "iglesia",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -4030,7 +4173,16 @@
       "id": "root-klad",
       "form": "*KLAD-",
       "gloss": "tipo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-tek",
+          "label": "Tecnica"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -4116,7 +4268,16 @@
       "id": "root-klak",
       "form": "*KLAK-",
       "gloss": "clac",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. klako.",
@@ -4269,7 +4430,16 @@
       "id": "root-klam",
       "form": "*KLAM-",
       "gloss": "clamar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -4374,7 +4544,16 @@
       "id": "root-klar",
       "form": "*KLAR-",
       "gloss": "claro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -4411,7 +4590,16 @@
       "id": "root-klav",
       "form": "*KLAV-",
       "gloss": "llave",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -4590,7 +4778,16 @@
       "id": "root-kler",
       "form": "*KLER-",
       "gloss": "educar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. klera.",
@@ -4651,7 +4848,16 @@
       "id": "root-klic",
       "form": "*KLIĈ-",
       "gloss": "rechinar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. klaĉo.",
@@ -4705,7 +4911,16 @@
       "id": "root-klok",
       "form": "*KLOK-",
       "gloss": "campana",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -4743,7 +4958,16 @@
       "id": "root-klomb",
       "form": "*KLOMB-",
       "gloss": "paloma",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -4769,75 +4993,25 @@
       ]
     },
     {
-      "id": "root-klons",
-      "form": "*KLONŜ-",
-      "gloss": "tintinear",
-      "tags": [],
-      "letter": "K",
-      "section": "sec-k",
-      "etymology": "< Eo. kloŝo.",
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-klonŝos",
-          "form": "klonŝos",
-          "gloss": "tolonear",
-          "analysis_html": "KLONŜ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "KLONŜ + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "sonido",
-            "procesos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-klonŝo",
-          "form": "klonŝo",
-          "gloss": "campana",
-          "analysis_html": "KLONŜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "KLONŜ + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "objetos",
-            "sonido"
-          ],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-klos",
       "form": "*KLOŜ-",
-      "gloss": "pantalla",
-      "tags": [],
+      "gloss": "pantalla; campana, tintinear",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
-      "etymology": null,
-      "notes": [],
+      "etymology": "< Eo. kloŝo (familia *KLONŜ-, fusionada en *KLOŜ-).",
+      "notes": [
+        "Se fusionan *KLOŜ- «pantalla» y la antigua *KLONŜ- «tintinear». No se fusiona *KOŜ- «cadera, pelvis»."
+      ],
       "row_class": "",
       "words": [
         {
@@ -4866,26 +5040,85 @@
           "notes": [
             "Prefijo: *MEL- «dulcemente»."
           ]
+        },
+        {
+          "id": "lexeme-kloŝos",
+          "form": "kloŝos",
+          "gloss": "tolonear",
+          "analysis_html": "KLOŜ + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "KLOŜ + -OS",
+          "refs": [
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "sonido",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-kloŝo",
+          "form": "kloŝo",
+          "gloss": "campana",
+          "analysis_html": "KLOŜ + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KLOŜ + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            }
+          ],
+          "semantic_fields": [
+            "objetos",
+            "sonido"
+          ],
+          "notes": []
         }
       ]
     },
     {
-      "id": "root-klup",
-      "form": "*KLUP-",
+      "id": "root-kulp",
+      "form": "*KULP-",
       "gloss": "esculpir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
-      "etymology": "< Eo. skulpti > klupti.",
-      "notes": [],
+      "etymology": "< Eo. skulpti; forma anterior del conlang *KLUP-.",
+      "notes": [
+        "Antes *KLUP-; los vocablos se adaptan a *KULP-."
+      ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-klupas",
-          "form": "klupas",
+          "id": "lexeme-kulpas",
+          "form": "kulpas",
           "gloss": "esculpir",
-          "analysis_html": "KLUP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "KLUP + -AS",
+          "analysis_html": "KULP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "KULP + -AS",
           "refs": [
             {
               "id": "morph-as",
@@ -4905,11 +5138,11 @@
           "notes": []
         },
         {
-          "id": "lexeme-klupto",
-          "form": "klupto",
+          "id": "lexeme-kulpto",
+          "form": "kulpto",
           "gloss": "estatua",
-          "analysis_html": "KLUP + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "KLUP + T (pendiente) + -O",
+          "analysis_html": "KULP + T <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "KULP + T (pendiente) + -O",
           "refs": [
             {
               "id": "morph-o",
@@ -5003,7 +5236,16 @@
       "id": "root-kobl",
       "form": "*KOBL-",
       "gloss": "duende",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-tek",
+          "label": "Tecnica"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -5123,7 +5365,16 @@
       "id": "root-kojn",
       "form": "*KOJN-",
       "gloss": "oinkear",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -5234,7 +5485,16 @@
       "id": "root-kok",
       "form": "*KOK-",
       "gloss": "cocinar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -5347,7 +5607,16 @@
       "id": "root-kok-2",
       "form": "*KOK-",
       "gloss": "kikirikear",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. kokolo.",
@@ -5476,7 +5745,16 @@
       "id": "root-koko",
       "form": "*KOKO-",
       "gloss": "fruta grande",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -5550,6 +5828,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "K",
@@ -5664,7 +5946,16 @@
       "id": "root-kol-2",
       "form": "*KOL-",
       "gloss": "cuello",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -5784,7 +6075,16 @@
       "id": "root-kol-t",
       "form": "*KOL-T",
       "gloss": "cosechar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -5890,7 +6190,16 @@
       "id": "root-kolp",
       "form": "*KOLP-",
       "gloss": "regazo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-tek",
+          "label": "Tecnica"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -5968,7 +6277,16 @@
       "id": "root-kom",
       "form": "*KOM-",
       "gloss": "peinar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. kombi.",
@@ -6148,7 +6466,16 @@
       "id": "root-kon",
       "form": "*KON-",
       "gloss": "conocer",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -6276,7 +6603,16 @@
       "id": "root-konc",
       "form": "*KO-N-C",
       "gloss": "concha, valva",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. konko, + gr. konch-.",
@@ -6482,7 +6818,16 @@
       "id": "root-kont",
       "form": "*KONT-",
       "gloss": "contar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -6548,6 +6893,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "K",
@@ -6635,7 +6984,16 @@
       "id": "root-kor",
       "form": "*KOR-",
       "gloss": "cuervo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -6698,7 +7056,16 @@
       "id": "root-kord",
       "form": "*KORD-",
       "gloss": "corazon",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. koro.",
@@ -6751,7 +7118,16 @@
       "id": "root-korp",
       "form": "*KORP-",
       "gloss": "cuerpo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -6956,7 +7332,16 @@
       "id": "root-kos-l",
       "form": "*KOS-L",
       "gloss": "consultar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -7171,7 +7556,16 @@
       "id": "root-kot",
       "form": "*KOT-",
       "gloss": "lodo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. koto.",
@@ -7257,7 +7651,16 @@
       "id": "root-koz",
       "form": "*KOZ-",
       "gloss": "causar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -7318,7 +7721,16 @@
       "id": "root-kos",
       "form": "*KOŜ-",
       "gloss": "cadera, pelvis",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -7380,7 +7792,16 @@
       "id": "root-krac",
       "form": "*KRAC-",
       "gloss": "crujir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. krako.",
@@ -7509,7 +7930,16 @@
       "id": "root-krad",
       "form": "*KRAD-",
       "gloss": "reja",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -7546,7 +7976,16 @@
       "id": "root-kramp",
       "form": "*KRAMP-",
       "gloss": "grapa",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -7608,7 +8047,16 @@
       "id": "root-krang",
       "form": "*KRANG-",
       "gloss": "bang",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. krako + ingl. bang.",
@@ -7735,7 +8183,16 @@
       "id": "root-kras",
       "form": "*KRAŜ-",
       "gloss": "chocar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. kraŝi.",
@@ -7814,7 +8271,16 @@
       "id": "root-kret",
       "form": "*KRET-",
       "gloss": "Creta",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-nom",
+          "label": "Nominal"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -7826,7 +8292,16 @@
       "id": "root-kri",
       "form": "*KRI-",
       "gloss": "gritar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. krii.",
@@ -7889,7 +8364,16 @@
       "id": "root-kric",
       "form": "*KRIĈ-",
       "gloss": "chirria",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. kriĉi.",
@@ -7968,7 +8452,16 @@
       "id": "root-kro",
       "form": "*KRO-",
       "gloss": "excepto",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -7997,7 +8490,16 @@
       "id": "root-kron",
       "form": "*KRON-",
       "gloss": "corona",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": "< Eo. krono «corona».",
@@ -8201,7 +8703,16 @@
       "id": "root-krud",
       "form": "*KRUD-",
       "gloss": "crudo, cruel",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -8300,144 +8811,19 @@
       ]
     },
     {
-      "id": "root-ksip",
-      "form": "*KSIP-",
-      "gloss": "embarcar",
-      "tags": [
-        {
-          "class": "nat-mod",
-          "label": "Modificada"
-        }
-      ],
-      "letter": "K",
-      "section": "sec-k",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-ksipas",
-          "form": "ksipas",
-          "gloss": "embarcar. enviar por mar",
-          "analysis_html": "KSIP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "KSIP + -AS",
-          "refs": [
-            {
-              "id": "morph-as",
-              "label": "-AS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado AS"
-            }
-          ],
-          "semantic_fields": [
-            "transportes",
-            "mar",
-            "acciones"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-ksipulon",
-          "form": "ksipulon",
-          "gloss": "tripulante, miembro del equipo",
-          "analysis_html": "KSIP + UL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "KSIP + UL (pendiente) + -ON",
-          "refs": [
-            {
-              "id": "morph-on",
-              "label": "-ON"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Humano ON"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-ksipor",
-          "form": "ksipor",
-          "gloss": "tripulación, equipo de juego",
-          "analysis_html": "KSIP + OR <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "KSIP + OR (pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-ksipade",
-          "form": "ksipade",
-          "gloss": "equipaje",
-          "analysis_html": "KSIP + AD <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
-          "analysis_text": "KSIP + AD (pendiente) + -E",
-          "refs": [
-            {
-              "id": "morph-e",
-              "label": "-E"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Incontable E"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-ksipiko",
-          "form": "ksipiko",
-          "gloss": "instrumento de equipaje",
-          "analysis_html": "KSIP + IK <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "KSIP + IK (pendiente) + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-kun",
       "form": "*KUN-",
       "gloss": "juntar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -8500,7 +8886,16 @@
       "id": "root-kunkl",
       "form": "*KUNKL-",
       "gloss": "Conejo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -8545,7 +8940,16 @@
       "id": "root-kur",
       "form": "*KUR-",
       "gloss": "cuidar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -8583,7 +8987,16 @@
       "id": "root-kurs",
       "form": "*KURS-",
       "gloss": "correr ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,
@@ -8855,8 +9268,12 @@
       "gloss": "tejer",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
         }
       ],
       "letter": "K",
@@ -8939,7 +9356,16 @@
       "id": "root-kus",
       "form": "*KUŜ-",
       "gloss": "estar acostado",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "K",
       "section": "sec-k",
       "etymology": null,

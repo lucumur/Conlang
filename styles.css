@@ -39,6 +39,7 @@ body.home{position:relative}
 .relation-nat-red{--relation-accent:#8753b0}
 .relation-nat-refor{--relation-accent:#b14d68}
 .relation-nat-tek{--relation-accent:#516b82}
+.relation-nat-nom{--relation-accent:#667464}
 .relation-nova{--relation-accent:#c88520}
 .relation-conflict{--relation-accent:#6d687a}
 .root-tag-groups{display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px}
@@ -52,6 +53,7 @@ body.home{position:relative}
 .tag.nat-red{background:#eee1f8;color:#663f91;border:1px solid #d5b6ea}
 .tag.nat-refor{background:#f8e3e9;color:#8a3650;border:1px solid #e5b8c6}
 .tag.nat-tek{background:#e1edf5;color:#345c75;border:1px solid #aecada}
+.tag.nat-nom{background:#e5f0e5;color:#385a3f;border:1px solid #b6d3b9}
 .tag.nova{background:#fff0d2;color:#87510d;border:1px solid #ebca84}
 .tag.latin{background:#CDEFFA;color:#39343A;border:1px solid color-mix(in srgb,#CDEFFA 68%,#817467)}
 .tag.frances{background:#CBA9E8;color:#39343A;border:1px solid color-mix(in srgb,#CBA9E8 68%,#817467)}

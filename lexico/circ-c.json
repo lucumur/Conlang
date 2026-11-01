@@ -2603,6 +2603,146 @@
       ]
     },
     {
+      "id": "root-cip",
+      "form": "*ĈIP-",
+      "gloss": "embarcar",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
+      "letter": "Ĉ",
+      "section": "sec-circ-c",
+      "etymology": null,
+      "notes": [
+        "Antes *KSIP-; entrada trasladada a la sección Ĉ."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cipas",
+          "form": "ĉipas",
+          "gloss": "embarcar. enviar por mar",
+          "analysis_html": "ĈIP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ĈIP + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado AS"
+            }
+          ],
+          "semantic_fields": [
+            "transportes",
+            "mar",
+            "acciones"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cipulon",
+          "form": "ĉipulon",
+          "gloss": "tripulante, miembro del equipo",
+          "analysis_html": "ĈIP + UL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ĈIP + UL (pendiente) + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cipor",
+          "form": "ĉipor",
+          "gloss": "tripulación, equipo de juego",
+          "analysis_html": "ĈIP + OR <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ĈIP + OR (pendiente)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cipade",
+          "form": "ĉipade",
+          "gloss": "equipaje",
+          "analysis_html": "ĈIP + AD <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_text": "ĈIP + AD (pendiente) + -E",
+          "refs": [
+            {
+              "id": "morph-e",
+              "label": "-E"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Incontable E"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-cipiko",
+          "form": "ĉipiko",
+          "gloss": "instrumento de equipaje",
+          "analysis_html": "ĈIP + IK <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ĈIP + IK (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "root-cirp",
       "form": "*ĈIRP-",
       "gloss": "chirpiar",
