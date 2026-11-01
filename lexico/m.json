@@ -7798,11 +7798,15 @@
         },
         {
           "id": "lexeme-emorbis",
-          "form": "emorbis",
+          "form": "morbis",
           "gloss": "estar enfermo",
-          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + MORB + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
-          "analysis_text": "E (pendiente) + MORB + -IS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-mor-b\">MORB</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "MORB + -IS",
           "refs": [
+            {
+              "id": "root-mor-b",
+              "label": "MORB"
+            },
             {
               "id": "morph-is-2",
               "label": "-IS"

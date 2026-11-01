@@ -223,11 +223,15 @@
       "words": [
         {
           "id": "lexeme-elames",
-          "form": "elames",
+          "form": "lames",
           "gloss": "estar inválido",
-          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + LAM + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "E (pendiente) + LAM + -ES",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-lam\">LAM</a> + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "LAM + -ES",
           "refs": [
+            {
+              "id": "root-lam",
+              "label": "LAM"
+            },
             {
               "id": "morph-es",
               "label": "-ES"
@@ -5049,11 +5053,15 @@
         },
         {
           "id": "lexeme-elotis",
-          "form": "elotis",
+          "form": "lotis",
           "gloss": "tener asignado, habérsele puesto",
-          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + LOT + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
-          "analysis_text": "E (pendiente) + LOT + -IS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-lot\">LOT</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "LOT + -IS",
           "refs": [
+            {
+              "id": "root-lot",
+              "label": "LOT"
+            },
             {
               "id": "morph-is-2",
               "label": "-IS"

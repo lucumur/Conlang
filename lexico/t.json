@@ -847,11 +847,15 @@
         },
         {
           "id": "lexeme-etardes",
-          "form": "etardes",
+          "form": "tardes",
           "gloss": "es tarde, se hizo tarde",
-          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + TARD + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "E (pendiente) + TARD + -ES",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tard\">TARD</a> + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "TARD + -ES",
           "refs": [
+            {
+              "id": "root-tard",
+              "label": "TARD"
+            },
             {
               "id": "morph-es",
               "label": "-ES"
@@ -2836,11 +2840,15 @@
         },
         {
           "id": "lexeme-etimes",
-          "form": "etimes",
+          "form": "times",
           "gloss": "tener miedo",
-          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + TIM + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
-          "analysis_text": "E (pendiente) + TIM + -ES",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-tim\">TIM</a> + <a class=\"morph-link\" href=\"#morph-es\">-ES</a>",
+          "analysis_text": "TIM + -ES",
           "refs": [
+            {
+              "id": "root-tim",
+              "label": "TIM"
+            },
             {
               "id": "morph-es",
               "label": "-ES"

@@ -1216,11 +1216,15 @@
         },
         {
           "id": "lexeme-epapis",
-          "form": "epapis",
+          "form": "papis",
           "gloss": "estar nutrido",
-          "analysis_html": "E <span class=\"meta-extra\">(pendiente)</span> + PAP + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
-          "analysis_text": "E (pendiente) + PAP + -IS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pap\">PAP</a> + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "PAP + -IS",
           "refs": [
+            {
+              "id": "root-pap",
+              "label": "PAP"
+            },
             {
               "id": "morph-is-2",
               "label": "-IS"
