@@ -105,7 +105,16 @@
       "id": "root-tab",
       "form": "*TAB-",
       "gloss": "madera",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -349,7 +358,16 @@
       "id": "root-tajl",
       "form": "*TAJL-",
       "gloss": "tallar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -413,8 +431,12 @@
       "gloss": "hacer masa",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-insp",
+          "label": "Inspirada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "T",
@@ -585,7 +607,16 @@
       "id": "root-taks",
       "form": "*TAKS-",
       "gloss": "taxar, calificar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -648,7 +679,16 @@
       "id": "root-tard",
       "form": "*TARD-",
       "gloss": "tarde",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -787,8 +827,12 @@
       "gloss": "tartaro, inframundo",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-nom",
+          "label": "Nominal"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "T",
@@ -860,10 +904,19 @@
       "id": "root-tav-r",
       "form": "*TAV-R",
       "gloss": "toro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
-      "etymology": "< Eo. taŭro.",
+      "etymology": "Etym. de novo; Latin.",
       "notes": [],
       "row_class": "",
       "words": [
@@ -947,73 +1000,19 @@
       ]
     },
     {
-      "id": "root-te",
-      "form": "*TE-",
-      "gloss": "deictico",
-      "tags": [
-        {
-          "class": "generic",
-          "label": "Part."
-        }
-      ],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-teyen",
-          "form": "teyen",
-          "gloss": "allá",
-          "analysis_html": "TE + YEN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "TE + YEN (pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": [
-            "Con *YEN «ahí»."
-          ]
-        },
-        {
-          "id": "lexeme-teyam",
-          "form": "teyam",
-          "gloss": "en aquel momento, entonces",
-          "analysis_html": "TE + Y <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-am\">-AM</a>",
-          "analysis_text": "TE + Y (pendiente) + -AM",
-          "refs": [
-            {
-              "id": "morph-am",
-              "label": "-AM"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Adverbial AM"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": [
-            "Con jam «ya, ahora»."
-          ]
-        }
-      ]
-    },
-    {
       "id": "root-tenc",
       "form": "*TECN-",
       "gloss": "tecnica",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -1169,7 +1168,16 @@
       "id": "root-ted",
       "form": "*TED-",
       "gloss": "tedio",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -1393,7 +1401,16 @@
       "id": "root-ten",
       "form": "*TEN-",
       "gloss": "tener ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -1660,7 +1677,16 @@
       "id": "root-ten-br",
       "form": "*TEN-BR-",
       "gloss": "tinieblas, oscuridad",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -1721,7 +1747,16 @@
       "id": "root-tend",
       "form": "*TEND-",
       "gloss": "extender",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -1784,7 +1819,16 @@
       "id": "root-ter",
       "form": "*TER-",
       "gloss": "tierra",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -1920,7 +1964,16 @@
       "id": "root-tes",
       "form": "*TEŜ-",
       "gloss": "tejer",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": "< Eo. teksi.",
@@ -2051,7 +2104,16 @@
       "id": "root-test",
       "form": "*TEST-",
       "gloss": "testigo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -2398,7 +2460,16 @@
       "id": "root-tig",
       "form": "*TIG-",
       "gloss": "tibia",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": "< Eo. tigo.",
@@ -2486,7 +2557,16 @@
       "id": "root-tig-2",
       "form": "*TIG-",
       "gloss": "Tigre",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": "< Eo. tigro.",
@@ -2615,7 +2695,16 @@
       "id": "root-til",
       "form": "*TIL-",
       "gloss": "tilo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -2653,7 +2742,16 @@
       "id": "root-tim",
       "form": "*TIM-",
       "gloss": "temor",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -2823,7 +2921,16 @@
       "id": "root-tin",
       "form": "*TIN-",
       "gloss": "timbrar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -3121,7 +3228,16 @@
       "id": "root-ting",
       "form": "*TING-",
       "gloss": "completar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": "< Eo. atingi.",
@@ -3184,7 +3300,16 @@
       "id": "root-tir",
       "form": "*TIR-",
       "gloss": "estirar, tirar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -3366,6 +3491,10 @@
         {
           "class": "nat-mod",
           "label": "Modificada"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
         }
       ],
       "letter": "T",
@@ -3429,7 +3558,16 @@
       "id": "root-toks",
       "form": "*TOKS-",
       "gloss": "veneno",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -3441,7 +3579,16 @@
       "id": "root-tolr",
       "form": "*TOLR-",
       "gloss": "soportar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -3502,7 +3649,16 @@
       "id": "root-ton",
       "form": "*TON-",
       "gloss": "broncear",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -3633,7 +3789,16 @@
       "id": "root-tondr",
       "form": "*TONDR-",
       "gloss": "trueno",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": null,
@@ -3762,7 +3927,16 @@
       "id": "root-tor",
       "form": "*TOR-",
       "gloss": "torcer",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "T",
       "section": "sec-t",
       "etymology": "< Eo. tordi.",
