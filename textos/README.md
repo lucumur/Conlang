@@ -2,7 +2,7 @@
 
 La fuente de datos de la sección [Textos](../textos.html) es `textos/index.json`.
 Este archivo es **independiente** del índice léxico generado `lexico/index.json`.
-No contiene todavía textos: se incorporan cuando se acuerden originales y traducciones.
+Los textos acordados se incorporan a esta colección. El primero es «Marko», con cuatro segmentos paralelos en esperanto y conlang.
 
 ## Estructura
 
