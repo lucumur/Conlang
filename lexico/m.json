@@ -4910,7 +4910,16 @@
       "id": "root-mi",
       "form": "*MI-",
       "gloss": "musculo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -4971,7 +4980,16 @@
       "id": "root-mi-2",
       "form": "*MI-",
       "gloss": "yo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -5034,7 +5052,16 @@
       "id": "root-miks",
       "form": "*MIKS-",
       "gloss": "mezclar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -5097,7 +5124,16 @@
       "id": "root-mil",
       "form": "*MIL-",
       "gloss": "guerra",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -5304,8 +5340,12 @@
       "gloss": "sonreir",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "M",
@@ -5370,7 +5410,16 @@
       "id": "root-mild",
       "form": "*MILD-",
       "gloss": "suave, gentil",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -5428,6 +5477,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "M",
@@ -5685,7 +5738,16 @@
       "id": "root-min",
       "form": "*MIN-",
       "gloss": "pequeño",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -5879,7 +5941,16 @@
       "id": "root-mint",
       "form": "*MINT-",
       "gloss": "menta",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -5917,7 +5988,16 @@
       "id": "root-mir",
       "form": "*MIR-",
       "gloss": "maravillarse",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -6121,7 +6201,16 @@
       "id": "root-mir-mit",
       "form": "*MIR-MIT-",
       "gloss": "hormiga",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -6375,8 +6464,12 @@
       "gloss": "quejarse",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "M",
@@ -6455,7 +6548,16 @@
       "id": "root-mis-2",
       "form": "*MIŜ-",
       "gloss": "enviar con proposito",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -6624,7 +6726,16 @@
       "id": "root-mitheta",
       "form": "*MIΘ-",
       "gloss": "mito, cuento ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": "< Eo. mito.",
@@ -6904,7 +7015,16 @@
       "id": "root-mol",
       "form": "*MOL-",
       "gloss": "suavizar, moler",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -6958,7 +7078,16 @@
       "id": "root-mon",
       "form": "*MON-",
       "gloss": "moneda",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": "< Eo. mono.",
@@ -7045,7 +7174,16 @@
       "id": "root-mon-t",
       "form": "*MON-T",
       "gloss": "sobresalir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -7239,7 +7377,16 @@
       "id": "root-mon-tr",
       "form": "*MON-TR",
       "gloss": "mostrar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -7351,7 +7498,16 @@
       "id": "root-mond",
       "form": "*MOND-",
       "gloss": "mundo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -7687,7 +7843,16 @@
       "id": "root-mor-g",
       "form": "*MOR-G",
       "gloss": "mañana",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -7877,7 +8042,16 @@
       "id": "root-mor-t",
       "form": "*MOR-T",
       "gloss": "morir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -8015,7 +8189,16 @@
       "id": "root-mosk",
       "form": "*MOSK-",
       "gloss": "almizcle",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "arabe",
+          "label": "Arabe"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -8093,7 +8276,16 @@
       "id": "root-mov",
       "form": "*MO-V",
       "gloss": "moverse",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -8306,7 +8498,16 @@
       "id": "root-mu-g",
       "form": "*MU-Ĝ-",
       "gloss": "mugir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -8448,12 +8649,22 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        },
+        {
+          "class": "generic",
+          "label": "onomato"
         }
       ],
       "letter": "M",
       "section": "sec-m",
-      "etymology": "< jap. nuru nuru.",
-      "notes": [],
+      "etymology": "Etym. de novo; clasificación Esperide, formación onomatopéyica. Referencia histórica previa: jap. nuru nuru.",
+      "notes": [
+        "Clasificación vigente: Nova · Esperide · onomato. La nota etimológica anterior mencionaba el japonés nuru nuru; se conserva como antecedente documental, no como la clasificación externa vigente."
+      ],
       "row_class": "",
       "words": []
     },
@@ -8461,7 +8672,16 @@
       "id": "root-mum",
       "form": "*MUM-",
       "gloss": "momia",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "arabe",
+          "label": "Arabe"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -8548,7 +8768,16 @@
       "id": "root-mur",
       "form": "*MUR-",
       "gloss": "pared",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
@@ -8608,22 +8837,33 @@
       ]
     },
     {
-      "id": "root-murr",
-      "form": "*MURR-",
+      "id": "root-mumur",
+      "form": "*MUMUR-",
       "gloss": "murmurar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Forma anterior: *MURR-; reemplazada por *MUMUR-."
+      ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-murros",
-          "form": "murros",
+          "id": "lexeme-mumuros",
+          "form": "mumuros",
           "gloss": "murmurar",
-          "analysis_html": "MURR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "MURR + -OS",
+          "analysis_html": "MUMUR + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "MUMUR + -OS",
           "refs": [
             {
               "id": "morph-os",
@@ -8649,7 +8889,16 @@
       "id": "root-mus",
       "form": "*MUS-",
       "gloss": "raton",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "M",
       "section": "sec-m",
       "etymology": null,
