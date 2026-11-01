@@ -3898,7 +3898,16 @@
       "id": "root-vi",
       "form": "*VI-",
       "gloss": "tu",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -3929,7 +3938,16 @@
       "id": "root-vig",
       "form": "*VIG-",
       "gloss": "vigor, energia",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -4192,7 +4210,16 @@
       "id": "root-vin",
       "form": "*VIN-",
       "gloss": "vino",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -4348,7 +4375,16 @@
       "id": "root-vin-tr",
       "form": "*VIN-TR",
       "gloss": "invierno",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -4518,7 +4554,16 @@
       "id": "root-vind",
       "form": "*VIND-",
       "gloss": "envolver, vendar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -4556,7 +4601,16 @@
       "id": "root-vir",
       "form": "*VIR-",
       "gloss": "hombre",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -4710,7 +4764,16 @@
       "id": "root-viv",
       "form": "*VIV-",
       "gloss": "vivo ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": "< Eo. vivi.",
@@ -5014,7 +5077,16 @@
       "id": "root-viz",
       "form": "*VIZ-",
       "gloss": "ver ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": "< Eo. vidi.",
@@ -5270,7 +5342,16 @@
       "id": "root-vig-2",
       "form": "*VIĜ-",
       "gloss": "alerta",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": "< Eo. vigla.",
@@ -5419,7 +5500,16 @@
       "id": "root-vis-r",
       "form": "*VIŜ-R",
       "gloss": "viscera",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -5511,16 +5601,130 @@
       "gloss": "violeta",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "V",
       "section": "sec-v",
-      "etymology": null,
-      "notes": [],
+      "etymology": "Etym. Eo. violo → *VIOL-; Latin.",
+      "notes": [
+        "VJOL- integrado en VIOL- como variante formal; las palabras ya registradas en vjol- conservan su grafía y sus análisis morfológicos."
+      ],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-vjol",
+          "form": "vjol",
+          "gloss": "violeta",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-viol\">VJOL</a> <span class=\"meta-extra\">(variante de VIOL)</span> (forma libre de *VJOL-)",
+          "analysis_text": "VJOL [variante de VIOL] (forma libre de *VJOL-)",
+          "refs": [
+            {
+              "id": "root-viol",
+              "label": "VIOL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Forma libre"
+            }
+          ],
+          "semantic_fields": [
+            "colores",
+            "apariencia",
+            "descripción"
+          ]
+        },
+        {
+          "id": "lexeme-vjolol",
+          "form": "vjolol",
+          "gloss": "violeta",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-viol\">VJOL</a> <span class=\"meta-extra\">(variante de VIOL)</span> + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> (similativo)",
+          "analysis_text": "VJOL [variante de VIOL] + -OL- (similativo)",
+          "refs": [
+            {
+              "id": "morph-ol",
+              "label": "-OL-"
+            },
+            {
+              "id": "root-viol",
+              "label": "VIOL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-vjolo",
+          "form": "vjolo",
+          "gloss": "violeta",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-viol\">VJOL</a> <span class=\"meta-extra\">(variante de VIOL)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "VJOL [variante de VIOL] + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            },
+            {
+              "id": "root-viol",
+              "label": "VIOL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        },
+        {
+          "id": "lexeme-vjoldrupo",
+          "form": "vjoldrupo",
+          "gloss": "jacinto",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-viol\">VJOL</a> <span class=\"meta-extra\">(variante de VIOL)</span> + DRUP <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "VJOL [variante de VIOL] + DRUP (pendiente) + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            },
+            {
+              "id": "root-viol",
+              "label": "VIOL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nominal O"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-viln",
@@ -5538,7 +5742,16 @@
       "id": "root-voj",
       "form": "*VOJ-",
       "gloss": "via",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -5701,7 +5914,16 @@
       "id": "root-volb",
       "form": "*VOLB-",
       "gloss": "boveda",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -5907,7 +6129,16 @@
       "id": "root-volv",
       "form": "*VOL-V",
       "gloss": "volver ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -6183,8 +6414,12 @@
       "gloss": "querer",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
         }
       ],
       "letter": "V",
@@ -6365,7 +6600,16 @@
       "id": "root-vor",
       "form": "*VOR-",
       "gloss": "palabra",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -6589,7 +6833,16 @@
       "id": "root-vost",
       "form": "*VOST-",
       "gloss": "cola",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -6627,7 +6880,16 @@
       "id": "root-voc",
       "form": "*VOĈ-",
       "gloss": "voz",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -6842,7 +7104,16 @@
       "id": "root-vrak",
       "form": "*VRAK-",
       "gloss": "ruinas",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": "< Eo. vrako.",
@@ -7014,9 +7285,18 @@
     },
     {
       "id": "root-vul",
-      "form": "*VUL-",
+      "form": "*VOJL-",
       "gloss": "cubrir, velar, esconder",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -7025,10 +7305,10 @@
       "words": [
         {
           "id": "lexeme-vulas",
-          "form": "vulas",
+          "form": "vojlas",
           "gloss": "cubrir, velar, esconder",
-          "analysis_html": "VUL + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "VUL + -AS",
+          "analysis_html": "VOJL + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "VOJL + -AS",
           "refs": [
             {
               "id": "morph-as",
@@ -7050,10 +7330,10 @@
         },
         {
           "id": "lexeme-ludivulen",
-          "form": "ludivulen",
+          "form": "ludivojlen",
           "gloss": "escondite secreto",
-          "analysis_html": "LUDI <span class=\"meta-extra\">(pendiente)</span> + VUL + EN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "LUDI (pendiente) + VUL + EN (pendiente)",
+          "analysis_html": "LUDI <span class=\"meta-extra\">(pendiente)</span> + VOJL + EN <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "LUDI (pendiente) + VOJL + EN (pendiente)",
           "refs": [],
           "tags": [
             {
@@ -7135,113 +7415,19 @@
       ]
     },
     {
-      "id": "root-vjol",
-      "form": "*VJOL-",
-      "gloss": "violeta",
-      "tags": [],
-      "letter": "V",
-      "section": "sec-v",
-      "etymology": null,
-      "notes": [],
-      "row_class": "lex-root-row",
-      "words": [
-        {
-          "id": "lexeme-vjol",
-          "form": "vjol",
-          "gloss": "violeta",
-          "analysis_html": "VJOL (forma libre de *VJOL-)",
-          "analysis_text": "VJOL (forma libre de *VJOL-)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Forma libre"
-            }
-          ],
-          "semantic_fields": [
-            "colores",
-            "apariencia",
-            "descripción"
-          ]
-        },
-        {
-          "id": "lexeme-vjolol",
-          "form": "vjolol",
-          "gloss": "violeta",
-          "analysis_html": "VJOL + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> (similativo)",
-          "analysis_text": "VJOL + -OL- (similativo)",
-          "refs": [
-            {
-              "id": "morph-ol",
-              "label": "-OL-"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-vjolo",
-          "form": "vjolo",
-          "gloss": "violeta",
-          "analysis_html": "VJOL + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "VJOL + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        },
-        {
-          "id": "lexeme-vjoldrupo",
-          "form": "vjoldrupo",
-          "gloss": "jacinto",
-          "analysis_html": "VJOL + DRUP <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "VJOL + DRUP (pendiente) + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        }
-      ]
-    },
-    {
       "id": "root-vlan",
       "form": "*VLAN-",
       "gloss": "lana, lanudo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": null,
@@ -7272,7 +7458,16 @@
       "id": "root-verk",
       "form": "*VERK-",
       "gloss": "trabajar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "V",
       "section": "sec-v",
       "etymology": "< Eo. verki.",
