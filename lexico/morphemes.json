@@ -641,7 +641,7 @@
     {
       "id": "morph-e-2",
       "form": "*E-",
-      "gloss": "pretérito arcaico; plenamente funcional con -IS y -ES",
+      "gloss": "imperfecto (arcaico)",
       "tags": [
         {
           "class": "generic",
@@ -651,7 +651,9 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: prefijo de imperfecto más antiguo; frecuente con verbos cortos, sobre todo monosílabos. Con verbos modernos o compuestos se prefiere -EV-. Ambos son válidos; E- suena más poético."
+      ],
       "row_class": ""
     },
     {
@@ -774,7 +776,9 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: imperfecto moderno sufijal; preferido con verbos modernos o compuestos. Alterna con el prefijo arcaico E-."
+      ],
       "row_class": ""
     },
     {
@@ -790,7 +794,9 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: imperfecto moderno sufijal; preferido con verbos modernos o compuestos. Alterna con el prefijo arcaico E-."
+      ],
       "row_class": ""
     },
     {
@@ -806,7 +812,9 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: imperfecto moderno sufijal; preferido con verbos modernos o compuestos. Alterna con el prefijo arcaico E-."
+      ],
       "row_class": ""
     },
     {
@@ -822,7 +830,9 @@
       "letter": "E",
       "section": "sec-e",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "CANÓNICO: imperfecto moderno sufijal; preferido con verbos modernos o compuestos. Alterna con el prefijo arcaico E-."
+      ],
       "row_class": ""
     },
     {
