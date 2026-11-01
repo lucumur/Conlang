@@ -370,13 +370,9 @@
           "id": "lexeme-orkaglen",
           "form": "orkaglen",
           "gloss": "milano",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-ork\">ORK</a> + <a class=\"morph-link\" href=\"#root-agl\">AGL</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
-          "analysis_text": "ORK + AGL + -EN",
+          "analysis_html": "ORK <span class=\"meta-extra\">(segmento sin raíz canónica; análisis pendiente)</span> + <a class=\"morph-link\" href=\"#root-agl\">AGL</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "ORK (segmento pendiente) + AGL + -EN",
           "refs": [
-            {
-              "id": "root-ork",
-              "label": "ORK"
-            },
             {
               "id": "root-agl",
               "label": "AGL"
@@ -390,6 +386,9 @@
           "semantic_fields": [
             "aves",
             "fauna"
+          ],
+          "notes": [
+            "La antigua raíz *ORK- fue eliminada del léxico; se conserva la forma orkaglen y se marca ORK como segmento pendiente de análisis."
           ]
         }
       ]

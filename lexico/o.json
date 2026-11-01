@@ -4,18 +4,6 @@
   "key": "o",
   "entries": [
     {
-      "id": "root-o",
-      "form": "*O-",
-      "gloss": "bueno",
-      "tags": [],
-      "letter": "O",
-      "section": "sec-o",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-o-2",
       "form": "*O-",
       "gloss": "hola!",
@@ -116,27 +104,33 @@
       ]
     },
     {
-      "id": "root-obe",
-      "form": "*OBE-",
+      "id": "root-obd",
+      "form": "*OBD-",
       "gloss": "obedecer",
       "tags": [
         {
-          "class": "nat-plen",
-          "label": "Original"
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
-      "notes": [],
+      "notes": [
+        "Raíz anterior *OBE-; forma vigente *OBD-."
+      ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-obeos",
-          "form": "obeos",
+          "id": "lexeme-obdos",
+          "form": "obdos",
           "gloss": "obedecer",
-          "analysis_html": "OBE + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "OBE + -OS",
+          "analysis_html": "OBD + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "OBD + -OS",
           "refs": [
             {
               "id": "morph-os",
@@ -157,11 +151,11 @@
           "notes": []
         },
         {
-          "id": "lexeme-obea",
-          "form": "obea",
+          "id": "lexeme-obda",
+          "form": "obda",
           "gloss": "obediencia, lealtad",
-          "analysis_html": "OBE + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "OBE + -A",
+          "analysis_html": "OBD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "OBD + -A",
           "refs": [
             {
               "id": "morph-a-2",
@@ -182,11 +176,11 @@
           "notes": []
         },
         {
-          "id": "lexeme-obeon",
-          "form": "obeon",
+          "id": "lexeme-obdon",
+          "form": "obdon",
           "gloss": "obediente, leal",
-          "analysis_html": "OBE + ON <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "OBE + ON (pendiente)",
+          "analysis_html": "OBD + ON <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "OBD + ON (pendiente)",
           "refs": [],
           "tags": [
             {
@@ -198,11 +192,11 @@
           "notes": []
         },
         {
-          "id": "lexeme-sovobeon",
-          "form": "sovobeon",
+          "id": "lexeme-sovobdon",
+          "form": "sovobdon",
           "gloss": "súbdito",
-          "analysis_html": "SOV <span class=\"meta-extra\">(pendiente)</span> + OBE + ON <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "SOV (pendiente) + OBE + ON (pendiente)",
+          "analysis_html": "SOV <span class=\"meta-extra\">(pendiente)</span> + OBD + ON <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "SOV (pendiente) + OBD + ON (pendiente)",
           "refs": [],
           "tags": [
             {
@@ -214,11 +208,11 @@
           "notes": []
         },
         {
-          "id": "lexeme-so-obea",
-          "form": "so-obea",
+          "id": "lexeme-so-obda",
+          "form": "so-obda",
           "gloss": "obediencia, subyugación",
-          "analysis_html": "SO- <span class=\"meta-extra\">(pendiente)</span> + OBE + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "SO- (pendiente) + OBE + -A",
+          "analysis_html": "SO- <span class=\"meta-extra\">(pendiente)</span> + OBD + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "SO- (pendiente) + OBD + -A",
           "refs": [
             {
               "id": "morph-a-2",
@@ -244,7 +238,16 @@
       "id": "root-oc-t",
       "form": "*OC-T",
       "gloss": "ocho",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -520,7 +523,16 @@
       "id": "root-ofiz",
       "form": "*OFIẐ-",
       "gloss": "trabajar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -647,7 +659,16 @@
       "id": "root-ofr",
       "form": "*OFR-",
       "gloss": "ofrecer",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -735,7 +756,16 @@
       "id": "root-ok",
       "form": "*OK-",
       "gloss": "hueco, agujero, boca, ojo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": "< Eo. okulo.",
@@ -1152,6 +1182,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
         }
       ],
       "letter": "O",
@@ -1194,6 +1228,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
         }
       ],
       "letter": "O",
@@ -1249,7 +1287,16 @@
       "id": "root-olf",
       "form": "*OLF-",
       "gloss": "oler",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -1560,7 +1607,16 @@
       "id": "root-olv",
       "form": "*OLV-",
       "gloss": "aceite",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -1697,7 +1753,16 @@
       "id": "root-on",
       "form": "*ON-",
       "gloss": "solo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -1742,7 +1807,16 @@
       "id": "root-ond",
       "form": "*OND-",
       "gloss": "onda",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -1754,7 +1828,16 @@
       "id": "root-ondr",
       "form": "*ONDR-",
       "gloss": "honor",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": "< Eo. honoro.",
@@ -1930,7 +2013,16 @@
       "id": "root-onk-2",
       "form": "*ONK-",
       "gloss": "tio",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -2033,6 +2125,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
         }
       ],
       "letter": "O",
@@ -2306,7 +2402,16 @@
       "id": "root-op-o",
       "form": "*OP-O-",
       "gloss": "oponerse",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": "< Eo. opozicii.",
@@ -2550,7 +2655,16 @@
       "id": "root-or-2",
       "form": "*OR-",
       "gloss": "orientar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -2763,7 +2877,16 @@
       "id": "root-or-3",
       "form": "*OR-",
       "gloss": "oro",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": "< Eo. oro.",
@@ -2912,7 +3035,16 @@
       "id": "root-orb",
       "form": "*ORB-",
       "gloss": "orbitar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-tek",
+          "label": "Tecnica"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -3143,7 +3275,16 @@
       "id": "root-ord",
       "form": "*ORD-",
       "gloss": "orden",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -3415,7 +3556,16 @@
       "id": "root-org",
       "form": "*ORG-",
       "gloss": "organizar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -3562,18 +3712,6 @@
           "notes": []
         }
       ]
-    },
-    {
-      "id": "root-ork",
-      "form": "*ORK-",
-      "gloss": "glosa pendiente",
-      "tags": [],
-      "letter": "O",
-      "section": "sec-o",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
     },
     {
       "id": "root-orn",
@@ -3808,7 +3946,16 @@
       "id": "root-ost",
       "form": "*OST-",
       "gloss": "hueso",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -3885,7 +4032,16 @@
       "id": "root-ov",
       "form": "*OV-",
       "gloss": "huevo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
@@ -4091,8 +4247,12 @@
       "gloss": "oir",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "O",
@@ -4366,7 +4526,16 @@
       "id": "root-oz-m",
       "form": "*OẐ-M",
       "gloss": "albahaca",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "esperide",
+          "label": "Esperide"
+        }
+      ],
       "letter": "O",
       "section": "sec-o",
       "etymology": null,
