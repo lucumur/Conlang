@@ -2035,6 +2035,169 @@
             "personas",
             "referencia",
             "gramática"
+          ],
+          "notes": [
+            "Paradigma: ci | cu | cin | ces | cik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cu",
+          "form": "cu",
+          "gloss": "él (ergativo)",
+          "analysis_html": "ci · ergativo",
+          "analysis_text": "ci · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ci | cu | cin | ces | cik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cin",
+          "form": "cin",
+          "gloss": "él (alativo/dativo)",
+          "analysis_html": "ci · alativo/dativo",
+          "analysis_text": "ci · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ci | cu | cin | ces | cik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ces",
+          "form": "ces",
+          "gloss": "él (genitivo/ablativo)",
+          "analysis_html": "ci · genitivo/ablativo",
+          "analysis_text": "ci · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ci | cu | cin | ces | cik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cik",
+          "form": "cik",
+          "gloss": "con él",
+          "analysis_html": "ci · colectivo",
+          "analysis_text": "ci · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ci | cu | cin | ces | cik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cel",
+          "form": "cel",
+          "gloss": "suyo (de él)",
+          "analysis_html": "cel · forma básica",
+          "analysis_text": "cel · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: cel | cer | celin | celur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cer",
+          "form": "cer",
+          "gloss": "suyo (de él) (forma 2)",
+          "analysis_html": "cel · forma 2",
+          "analysis_text": "cel · forma 2",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: cel | cer | celin | celur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-celin-2",
+          "form": "celin",
+          "gloss": "suyo (de él) (forma 3)",
+          "analysis_html": "cel · forma 3",
+          "analysis_text": "cel · forma 3",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: cel | cer | celin | celur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-celur",
+          "form": "celur",
+          "gloss": "suyo (de él) (forma 4)",
+          "analysis_html": "cel · forma 4",
+          "analysis_text": "cel · forma 4",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: cel | cer | celin | celur (ver Pronombres)."
           ]
         }
       ]

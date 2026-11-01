@@ -2269,6 +2269,46 @@
       "words": []
     },
     {
+      "id": "root-fi-mismo",
+      "form": "*FI-",
+      "gloss": "el mismo",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "pronombre"
+        }
+      ],
+      "letter": "F",
+      "section": "sec-f",
+      "etymology": null,
+      "notes": [
+        "Distinta de *FI- «vergüenza»."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-fi",
+          "form": "fi",
+          "gloss": "el mismo",
+          "analysis_html": "FI",
+          "analysis_text": "FI",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Ver Pronombres."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-fig",
       "form": "*FIG-",
       "gloss": "higo",

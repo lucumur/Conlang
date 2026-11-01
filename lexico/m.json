@@ -5007,11 +5007,16 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Declinación: mir / mis / mek; ergativo ma / mu; alativo/dativo min; gen./abl. mes; colectivo mek «conmigo»."
+            "Declinación: mir / mis / mek; ergativo ma / mu; alativo/dativo min; gen./abl. mes; colectivo mek «conmigo».",
+            "Paradigma: mi | ma / mu | min | mes | mek (ver Pronombres)."
           ]
         },
         {
@@ -5025,10 +5030,16 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
             }
           ],
           "semantic_fields": [],
-          "notes": []
+          "notes": [
+            "Paradigma: mel | mer | melin | melur (ver Pronombres)."
+          ]
         },
         {
           "id": "lexeme-melfe",
@@ -5045,6 +5056,166 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-ma",
+          "form": "ma",
+          "gloss": "yo (ergativo)",
+          "analysis_html": "mi · ergativo",
+          "analysis_text": "mi · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: mi | ma / mu | min | mes | mek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-mu",
+          "form": "mu",
+          "gloss": "yo (ergativo)",
+          "analysis_html": "mi · ergativo",
+          "analysis_text": "mi · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: mi | ma / mu | min | mes | mek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-min",
+          "form": "min",
+          "gloss": "yo (alativo/dativo)",
+          "analysis_html": "mi · alativo/dativo",
+          "analysis_text": "mi · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: mi | ma / mu | min | mes | mek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-mes",
+          "form": "mes",
+          "gloss": "yo (genitivo/ablativo)",
+          "analysis_html": "mi · genitivo/ablativo",
+          "analysis_text": "mi · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: mi | ma / mu | min | mes | mek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-mek",
+          "form": "mek",
+          "gloss": "conmigo",
+          "analysis_html": "mi · colectivo",
+          "analysis_text": "mi · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: mi | ma / mu | min | mes | mek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-mer",
+          "form": "mer",
+          "gloss": "mío (forma 2)",
+          "analysis_html": "mel · forma 2",
+          "analysis_text": "mel · forma 2",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: mel | mer | melin | melur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-melin",
+          "form": "melin",
+          "gloss": "mío (forma 3)",
+          "analysis_html": "mel · forma 3",
+          "analysis_text": "mel · forma 3",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: mel | mer | melin | melur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-melur",
+          "form": "melur",
+          "gloss": "mío (forma 4)",
+          "analysis_html": "mel · forma 4",
+          "analysis_text": "mel · forma 4",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: mel | mer | melin | melur (ver Pronombres)."
+          ]
         }
       ]
     },

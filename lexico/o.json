@@ -1210,13 +1210,119 @@
             {
               "class": "generic",
               "label": "Adverbial AM"
+            },
+            {
+              "class": "generic",
+              "label": "Correlativo"
             }
           ],
           "semantic_fields": [
             "tiempo",
             "frecuencia"
           ],
-          "notes": []
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-oli",
+          "form": "oli",
+          "gloss": "alguien",
+          "analysis_html": "oli · forma básica",
+          "analysis_text": "oli · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oli | olu | olin | oles | olik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-olu",
+          "form": "olu",
+          "gloss": "alguien (ergativo)",
+          "analysis_html": "oli · ergativo",
+          "analysis_text": "oli · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oli | olu | olin | oles | olik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-olin",
+          "form": "olin",
+          "gloss": "alguien (alativo/dativo)",
+          "analysis_html": "oli · alativo/dativo",
+          "analysis_text": "oli · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oli | olu | olin | oles | olik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-oles",
+          "form": "oles",
+          "gloss": "alguien (genitivo/ablativo)",
+          "analysis_html": "oli · genitivo/ablativo",
+          "analysis_text": "oli · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oli | olu | olin | oles | olik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-olik",
+          "form": "olik",
+          "gloss": "con alguien",
+          "analysis_html": "oli · colectivo",
+          "analysis_text": "oli · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oli | olu | olin | oles | olik (ver Pronombres)."
+          ]
         }
       ]
     },

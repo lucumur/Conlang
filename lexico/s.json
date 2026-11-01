@@ -47,6 +47,66 @@
             "cualidades"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-sam",
+          "form": "sam",
+          "gloss": "ya, ahora",
+          "analysis_html": "S + -AM",
+          "analysis_text": "S + -AM",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sok",
+          "form": "sok",
+          "gloss": "aquí",
+          "analysis_html": "S + -OK",
+          "analysis_text": "S + -OK",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sor-2",
+          "form": "sor",
+          "gloss": "así",
+          "analysis_html": "S + -OR",
+          "analysis_text": "S + -OR",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
         }
       ]
     },

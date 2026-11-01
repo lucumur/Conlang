@@ -18,7 +18,6 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "kind": "other",
       "words": [
         {
           "id": "lexeme-to",
@@ -31,11 +30,16 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Artículo"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Declinación: tel, ten, tek / tor, tom, tok; ergativo te; alativo/dativo ton; gen./abl. tes."
+            "Declinación: tel, ten, tek / tor, tom, tok; ergativo te; alativo/dativo ton; gen./abl. tes.",
+            "Paradigma: to | te | ton | tes (ver Pronombres)."
           ]
         },
         {
@@ -98,6 +102,286 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-te",
+          "form": "te",
+          "gloss": "el (artículo inanimado) (ergativo)",
+          "analysis_html": "to · ergativo",
+          "analysis_text": "to · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Artículo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: to | te | ton | tes (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ton",
+          "form": "ton",
+          "gloss": "el (artículo inanimado) (alativo/dativo)",
+          "analysis_html": "to · alativo/dativo",
+          "analysis_text": "to · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Artículo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: to | te | ton | tes (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-tes",
+          "form": "tes",
+          "gloss": "el (artículo inanimado) (genitivo/ablativo)",
+          "analysis_html": "to · genitivo/ablativo",
+          "analysis_text": "to · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Artículo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: to | te | ton | tes (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ti",
+          "form": "ti",
+          "gloss": "los (artículo inanimado plural)",
+          "analysis_html": "ti · forma básica",
+          "analysis_text": "ti · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Artículo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ti | tos | tof | tor (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-tos",
+          "form": "tos",
+          "gloss": "los (artículo inanimado plural) (ergativo)",
+          "analysis_html": "ti · ergativo",
+          "analysis_text": "ti · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Artículo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ti | tos | tof | tor (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-tof",
+          "form": "tof",
+          "gloss": "los (artículo inanimado plural) (alativo/dativo)",
+          "analysis_html": "ti · alativo/dativo",
+          "analysis_text": "ti · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Artículo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ti | tos | tof | tor (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-tor",
+          "form": "tor",
+          "gloss": "los (artículo inanimado plural) (genitivo/ablativo)",
+          "analysis_html": "ti · genitivo/ablativo",
+          "analysis_text": "ti · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Artículo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ti | tos | tof | tor (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-endo",
+          "form": "endo",
+          "gloss": "este (de otros)",
+          "analysis_html": "pendiente",
+          "analysis_text": "pendiente",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-oldo",
+          "form": "oldo",
+          "gloss": "el otro",
+          "analysis_html": "pendiente",
+          "analysis_text": "pendiente",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-otom",
+          "form": "otom",
+          "gloss": "tanto",
+          "analysis_html": "O + T + -OM",
+          "analysis_text": "O + T + -OM",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-tam",
+          "form": "tam",
+          "gloss": "cuando… (relativo)",
+          "analysis_html": "T + -AM",
+          "analysis_text": "T + -AM",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-etam",
+          "form": "etam",
+          "gloss": "entonces",
+          "analysis_html": "E + T + -AM",
+          "analysis_text": "E + T + -AM",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-tok",
+          "form": "tok",
+          "gloss": "donde… (relativo)",
+          "analysis_html": "T + -OK",
+          "analysis_text": "T + -OK",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-taj",
+          "form": "taj",
+          "gloss": "porque… (relativo)",
+          "analysis_html": "T + -AJ",
+          "analysis_text": "T + -AJ",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
         }
       ]
     },

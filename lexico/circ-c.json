@@ -64,13 +64,19 @@
             {
               "class": "generic",
               "label": "Partícula gramatical"
+            },
+            {
+              "class": "generic",
+              "label": "Correlativo"
             }
           ],
           "semantic_fields": [
             "gramática",
             "deixis"
           ],
-          "notes": []
+          "notes": [
+            "Paradigma: ĉi | ĉu | ĉin | ĉes | ĉek (ver Pronombres)."
+          ]
         },
         {
           "id": "lexeme-cxan",
@@ -83,6 +89,10 @@
             {
               "class": "generic",
               "label": "Partícula gramatical"
+            },
+            {
+              "class": "generic",
+              "label": "Correlativo"
             }
           ],
           "semantic_fields": [
@@ -90,7 +100,8 @@
             "deixis"
           ],
           "notes": [
-            "Ubicación provisional: no figuraba en la lista de *Ĉ-; venía de *K- (relativo), ya eliminado."
+            "Ubicación provisional: no figuraba en la lista de *Ĉ-; venía de *K- (relativo), ya eliminado.",
+            "Paradigma: ĉan | ĉa | ĉajn | ĉel (ver Pronombres)."
           ]
         },
         {
@@ -104,13 +115,19 @@
             {
               "class": "generic",
               "label": "Partícula gramatical"
+            },
+            {
+              "class": "generic",
+              "label": "Correlativo"
             }
           ],
           "semantic_fields": [
             "gramática",
             "deixis"
           ],
-          "notes": []
+          "notes": [
+            "Paradigma: ĉaj | ĉas | ĉaf | ĉiur (ver Pronombres)."
+          ]
         },
         {
           "id": "lexeme-cxor",
@@ -123,13 +140,19 @@
             {
               "class": "generic",
               "label": "Partícula gramatical"
+            },
+            {
+              "class": "generic",
+              "label": "Correlativo"
             }
           ],
           "semantic_fields": [
             "gramática",
             "deixis"
           ],
-          "notes": []
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
         },
         {
           "id": "lexeme-cxom",
@@ -147,13 +170,19 @@
             {
               "class": "generic",
               "label": "Partícula gramatical"
+            },
+            {
+              "class": "generic",
+              "label": "Correlativo"
             }
           ],
           "semantic_fields": [
             "gramática",
             "deixis"
           ],
-          "notes": []
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
         },
         {
           "id": "lexeme-cxok",
@@ -166,13 +195,19 @@
             {
               "class": "generic",
               "label": "Partícula gramatical"
+            },
+            {
+              "class": "generic",
+              "label": "Correlativo"
             }
           ],
           "semantic_fields": [
             "gramática",
             "deixis"
           ],
-          "notes": []
+          "notes": [
+            "Paradigma: ĉok | — | ĉojn | ĉojel (ver Pronombres)."
+          ]
         },
         {
           "id": "lexeme-cxam",
@@ -190,13 +225,19 @@
             {
               "class": "generic",
               "label": "Partícula gramatical"
+            },
+            {
+              "class": "generic",
+              "label": "Correlativo"
             }
           ],
           "semantic_fields": [
             "gramática",
             "deixis"
           ],
-          "notes": []
+          "notes": [
+            "Paradigma: ĉam | — | ĉamin | ĉamel (ver Pronombres)."
+          ]
         },
         {
           "id": "lexeme-cxajpor",
@@ -221,6 +262,746 @@
             "deixis"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-cxu",
+          "form": "ĉu",
+          "gloss": "¿qué?, el que (ergativo)",
+          "analysis_html": "ĉi · ergativo",
+          "analysis_text": "ĉi · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉi | ĉu | ĉin | ĉes | ĉek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxin",
+          "form": "ĉin",
+          "gloss": "¿qué?, el que (alativo/dativo)",
+          "analysis_html": "ĉi · alativo/dativo",
+          "analysis_text": "ĉi · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉi | ĉu | ĉin | ĉes | ĉek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxes",
+          "form": "ĉes",
+          "gloss": "¿qué?, el que (genitivo/ablativo)",
+          "analysis_html": "ĉi · genitivo/ablativo",
+          "analysis_text": "ĉi · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉi | ĉu | ĉin | ĉes | ĉek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxek",
+          "form": "ĉek",
+          "gloss": "con eso",
+          "analysis_html": "ĉi · colectivo",
+          "analysis_text": "ĉi · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉi | ĉu | ĉin | ĉes | ĉek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ecxki",
+          "form": "eĉki",
+          "gloss": "cada uno, cada",
+          "analysis_html": "eĉki · forma básica",
+          "analysis_text": "eĉki · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eĉki | eĉku | — | — | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ecxku",
+          "form": "eĉku",
+          "gloss": "cada uno, cada (ergativo)",
+          "analysis_html": "eĉki · ergativo",
+          "analysis_text": "eĉki · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eĉki | eĉku | — | — | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-olcxi",
+          "form": "olĉi",
+          "gloss": "¿cuál de los dos?",
+          "analysis_html": "OL + ĈI",
+          "analysis_text": "OL + ĈI",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Colectivo adicional del paradigma de ĉi (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxa",
+          "form": "ĉa",
+          "gloss": "¿quién?, el que (ergativo)",
+          "analysis_html": "ĉan · ergativo",
+          "analysis_text": "ĉan · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉan | ĉa | ĉajn | ĉel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxajn",
+          "form": "ĉajn",
+          "gloss": "¿quién?, el que (alativo/dativo)",
+          "analysis_html": "ĉan · alativo/dativo",
+          "analysis_text": "ĉan · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉan | ĉa | ĉajn | ĉel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxel",
+          "form": "ĉel",
+          "gloss": "¿quién?, el que (genitivo/ablativo)",
+          "analysis_html": "ĉan · genitivo/ablativo",
+          "analysis_text": "ĉan · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉan | ĉa | ĉajn | ĉel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ecxkan",
+          "form": "eĉkan",
+          "gloss": "cada quien",
+          "analysis_html": "eĉkan · forma básica",
+          "analysis_text": "eĉkan · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eĉkan | eĉka | eĉkajn | eĉkel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ecxka",
+          "form": "eĉka",
+          "gloss": "cada quien (ergativo)",
+          "analysis_html": "eĉkan · ergativo",
+          "analysis_text": "eĉkan · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eĉkan | eĉka | eĉkajn | eĉkel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ecxkajn",
+          "form": "eĉkajn",
+          "gloss": "cada quien (alativo/dativo)",
+          "analysis_html": "eĉkan · alativo/dativo",
+          "analysis_text": "eĉkan · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eĉkan | eĉka | eĉkajn | eĉkel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ecxkel",
+          "form": "eĉkel",
+          "gloss": "cada quien (genitivo/ablativo)",
+          "analysis_html": "eĉkan · genitivo/ablativo",
+          "analysis_text": "eĉkan · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eĉkan | eĉka | eĉkajn | eĉkel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ocxaj",
+          "form": "oĉaj",
+          "gloss": "todos",
+          "analysis_html": "oĉaj · forma básica",
+          "analysis_text": "oĉaj · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oĉaj | oĉas | oĉaf | oĉur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ocxas",
+          "form": "oĉas",
+          "gloss": "todos (ergativo)",
+          "analysis_html": "oĉaj · ergativo",
+          "analysis_text": "oĉaj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oĉaj | oĉas | oĉaf | oĉur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ocxaf",
+          "form": "oĉaf",
+          "gloss": "todos (alativo/dativo)",
+          "analysis_html": "oĉaj · alativo/dativo",
+          "analysis_text": "oĉaj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oĉaj | oĉas | oĉaf | oĉur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ocxur",
+          "form": "oĉur",
+          "gloss": "todos (genitivo/ablativo)",
+          "analysis_html": "oĉaj · genitivo/ablativo",
+          "analysis_text": "oĉaj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oĉaj | oĉas | oĉaf | oĉur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxas",
+          "form": "ĉas",
+          "gloss": "¿quiénes? (ergativo)",
+          "analysis_html": "ĉaj · ergativo",
+          "analysis_text": "ĉaj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉaj | ĉas | ĉaf | ĉiur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxaf",
+          "form": "ĉaf",
+          "gloss": "¿quiénes? (alativo/dativo)",
+          "analysis_html": "ĉaj · alativo/dativo",
+          "analysis_text": "ĉaj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉaj | ĉas | ĉaf | ĉiur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxiur",
+          "form": "ĉiur",
+          "gloss": "¿quiénes? (genitivo/ablativo)",
+          "analysis_html": "ĉaj · genitivo/ablativo",
+          "analysis_text": "ĉaj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉaj | ĉas | ĉaf | ĉiur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-olcxan",
+          "form": "olĉan",
+          "gloss": "¿quién de los dos?",
+          "analysis_html": "OL + ĈAN",
+          "analysis_text": "OL + ĈAN",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Colectivo adicional del paradigma de ĉan (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxoj",
+          "form": "ĉoj",
+          "gloss": "¿qué cosas?, los que",
+          "analysis_html": "ĉoj · forma básica",
+          "analysis_text": "ĉoj · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉoj | ĉos | ĉof | ĉor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxos",
+          "form": "ĉos",
+          "gloss": "¿qué cosas?, los que (ergativo)",
+          "analysis_html": "ĉoj · ergativo",
+          "analysis_text": "ĉoj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉoj | ĉos | ĉof | ĉor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxof",
+          "form": "ĉof",
+          "gloss": "¿qué cosas?, los que (alativo/dativo)",
+          "analysis_html": "ĉoj · alativo/dativo",
+          "analysis_text": "ĉoj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉoj | ĉos | ĉof | ĉor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxor-2",
+          "form": "ĉor",
+          "gloss": "¿qué cosas?, los que (genitivo/ablativo)",
+          "analysis_html": "ĉoj · genitivo/ablativo",
+          "analysis_text": "ĉoj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉoj | ĉos | ĉof | ĉor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ocxoj",
+          "form": "oĉoj",
+          "gloss": "todo, todos",
+          "analysis_html": "oĉoj · forma básica",
+          "analysis_text": "oĉoj · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oĉoj | oĉos | oĉof | oĉor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ocxos",
+          "form": "oĉos",
+          "gloss": "todo, todos (ergativo)",
+          "analysis_html": "oĉoj · ergativo",
+          "analysis_text": "oĉoj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oĉoj | oĉos | oĉof | oĉor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ocxof",
+          "form": "oĉof",
+          "gloss": "todo, todos (alativo/dativo)",
+          "analysis_html": "oĉoj · alativo/dativo",
+          "analysis_text": "oĉoj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oĉoj | oĉos | oĉof | oĉor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ocxor",
+          "form": "oĉor",
+          "gloss": "todo, todos (genitivo/ablativo)",
+          "analysis_html": "oĉoj · genitivo/ablativo",
+          "analysis_text": "oĉoj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: oĉoj | oĉos | oĉof | oĉor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxamin",
+          "form": "ĉamin",
+          "gloss": "¿cuándo? (alativo/dativo)",
+          "analysis_html": "ĉam · alativo/dativo",
+          "analysis_text": "ĉam · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉam | — | ĉamin | ĉamel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxamel",
+          "form": "ĉamel",
+          "gloss": "¿cuándo? (genitivo/ablativo)",
+          "analysis_html": "ĉam · genitivo/ablativo",
+          "analysis_text": "ĉam · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉam | — | ĉamin | ĉamel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxojn",
+          "form": "ĉojn",
+          "gloss": "¿dónde? (alativo/dativo)",
+          "analysis_html": "ĉok · alativo/dativo",
+          "analysis_text": "ĉok · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉok | — | ĉojn | ĉojel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxojel",
+          "form": "ĉojel",
+          "gloss": "¿dónde? (genitivo/ablativo)",
+          "analysis_html": "ĉok · genitivo/ablativo",
+          "analysis_text": "ĉok · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĉok | — | ĉojn | ĉojel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ocxom",
+          "form": "oĉom",
+          "gloss": "todo",
+          "analysis_html": "O + Ĉ + -OM",
+          "analysis_text": "O + Ĉ + -OM",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ocxor-2",
+          "form": "oĉor",
+          "gloss": "de tantas formas",
+          "analysis_html": "O + Ĉ + -OR",
+          "analysis_text": "O + Ĉ + -OR",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-cxaj-por-que",
+          "form": "ĉaj",
+          "gloss": "¿por qué?",
+          "analysis_html": "Ĉ + -AJ",
+          "analysis_text": "Ĉ + -AJ",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Homógrafo de ĉaj «¿quiénes?» (ver Pronombres)."
+          ]
         }
       ]
     },

@@ -412,7 +412,28 @@
       "etymology": "Etym. Eo. ajn → *AJN-",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ajni",
+          "form": "ajni",
+          "gloss": "cualquier",
+          "analysis_html": "AJN + -I",
+          "analysis_text": "AJN + -I",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
+        }
+      ]
     },
     {
       "id": "root-akr",

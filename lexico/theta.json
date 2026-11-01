@@ -1239,11 +1239,16 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Declinación: θir / θis / θek; ergativo θu; alativo/dativo θin; gen./abl. θes; colectivo θek «contigo»."
+            "Declinación: θir / θis / θek; ergativo θu; alativo/dativo θin; gen./abl. θes; colectivo θek «contigo».",
+            "Paradigma: θi | θu | θin | θes | θek (ver Pronombres)."
           ]
         },
         {
@@ -1257,11 +1262,256 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Declinación: θof / θojn / θosku; ergativo θos; alativo/dativo θof; gen./abl. θor; colectivo θoks «con ustedes»."
+            "Declinación: θof / θojn / θosku; ergativo θos; alativo/dativo θof; gen./abl. θor; colectivo θoks «con ustedes».",
+            "Paradigma: θoj | θos | θof | θor | θoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-thu",
+          "form": "θu",
+          "gloss": "tú (informal) (ergativo)",
+          "analysis_html": "θi · ergativo",
+          "analysis_text": "θi · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θi | θu | θin | θes | θek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-thin",
+          "form": "θin",
+          "gloss": "tú (informal) (alativo/dativo)",
+          "analysis_html": "θi · alativo/dativo",
+          "analysis_text": "θi · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θi | θu | θin | θes | θek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-thes",
+          "form": "θes",
+          "gloss": "tú (informal) (genitivo/ablativo)",
+          "analysis_html": "θi · genitivo/ablativo",
+          "analysis_text": "θi · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θi | θu | θin | θes | θek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-thek",
+          "form": "θek",
+          "gloss": "contigo (informal)",
+          "analysis_html": "θi · colectivo",
+          "analysis_text": "θi · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θi | θu | θin | θes | θek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-thos",
+          "form": "θos",
+          "gloss": "ustedes dos (ergativo)",
+          "analysis_html": "θoj · ergativo",
+          "analysis_text": "θoj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θoj | θos | θof | θor | θoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-thof",
+          "form": "θof",
+          "gloss": "ustedes dos (alativo/dativo)",
+          "analysis_html": "θoj · alativo/dativo",
+          "analysis_text": "θoj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θoj | θos | θof | θor | θoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-thor",
+          "form": "θor",
+          "gloss": "ustedes dos (genitivo/ablativo)",
+          "analysis_html": "θoj · genitivo/ablativo",
+          "analysis_text": "θoj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θoj | θos | θof | θor | θoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-thoks",
+          "form": "θoks",
+          "gloss": "con ustedes dos",
+          "analysis_html": "θoj · colectivo",
+          "analysis_text": "θoj · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θoj | θos | θof | θor | θoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-thel",
+          "form": "θel",
+          "gloss": "tuyo (informal)",
+          "analysis_html": "θel · forma básica",
+          "analysis_text": "θel · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θel | θer | θelin | θelur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ther",
+          "form": "θer",
+          "gloss": "tuyo (informal) (forma 2)",
+          "analysis_html": "θel · forma 2",
+          "analysis_text": "θel · forma 2",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θel | θer | θelin | θelur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-thelin",
+          "form": "θelin",
+          "gloss": "tuyo (informal) (forma 3)",
+          "analysis_html": "θel · forma 3",
+          "analysis_text": "θel · forma 3",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θel | θer | θelin | θelur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-thelur",
+          "form": "θelur",
+          "gloss": "tuyo (informal) (forma 4)",
+          "analysis_html": "θel · forma 4",
+          "analysis_text": "θel · forma 4",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: θel | θer | θelin | θelur (ver Pronombres)."
           ]
         }
       ]

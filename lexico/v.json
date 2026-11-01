@@ -3925,11 +3925,196 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Declinación: vir / vis / vek; ergativo va / vu; alativo/dativo vin; gen./abl. ves; colectivo vek «contigo»."
+            "Declinación: vir / vis / vek; ergativo va / vu; alativo/dativo vin; gen./abl. ves; colectivo vek «contigo».",
+            "Paradigma: vi | va / vu | vin | ves | vek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-va",
+          "form": "va",
+          "gloss": "tú (ergativo)",
+          "analysis_html": "vi · ergativo",
+          "analysis_text": "vi · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vi | va / vu | vin | ves | vek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-vu",
+          "form": "vu",
+          "gloss": "tú (ergativo)",
+          "analysis_html": "vi · ergativo",
+          "analysis_text": "vi · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vi | va / vu | vin | ves | vek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-vin",
+          "form": "vin",
+          "gloss": "tú (alativo/dativo)",
+          "analysis_html": "vi · alativo/dativo",
+          "analysis_text": "vi · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vi | va / vu | vin | ves | vek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ves",
+          "form": "ves",
+          "gloss": "tú (genitivo/ablativo)",
+          "analysis_html": "vi · genitivo/ablativo",
+          "analysis_text": "vi · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vi | va / vu | vin | ves | vek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-vek",
+          "form": "vek",
+          "gloss": "contigo",
+          "analysis_html": "vi · colectivo",
+          "analysis_text": "vi · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vi | va / vu | vin | ves | vek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-vel",
+          "form": "vel",
+          "gloss": "tuyo",
+          "analysis_html": "vel · forma básica",
+          "analysis_text": "vel · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vel | ver | velin | velur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ver-2",
+          "form": "ver",
+          "gloss": "tuyo (forma 2)",
+          "analysis_html": "vel · forma 2",
+          "analysis_text": "vel · forma 2",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vel | ver | velin | velur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-velin",
+          "form": "velin",
+          "gloss": "tuyo (forma 3)",
+          "analysis_html": "vel · forma 3",
+          "analysis_text": "vel · forma 3",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vel | ver | velin | velur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-velur",
+          "form": "velur",
+          "gloss": "tuyo (forma 4)",
+          "analysis_html": "vel · forma 4",
+          "analysis_text": "vel · forma 4",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vel | ver | velin | velur (ver Pronombres)."
           ]
         }
       ]

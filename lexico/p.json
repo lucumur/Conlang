@@ -6960,10 +6960,16 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Correlativo"
             }
           ],
           "semantic_fields": [],
-          "notes": []
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
         },
         {
           "id": "lexeme-opluk",
@@ -6996,6 +7002,166 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-plaj",
+          "form": "plaj",
+          "gloss": "muchos (personas)",
+          "analysis_html": "plaj · forma básica",
+          "analysis_text": "plaj · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: plaj | plas | plaf | pliur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-plas",
+          "form": "plas",
+          "gloss": "muchos (personas) (ergativo)",
+          "analysis_html": "plaj · ergativo",
+          "analysis_text": "plaj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: plaj | plas | plaf | pliur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-plaf",
+          "form": "plaf",
+          "gloss": "muchos (personas) (alativo/dativo)",
+          "analysis_html": "plaj · alativo/dativo",
+          "analysis_text": "plaj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: plaj | plas | plaf | pliur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-pliur",
+          "form": "pliur",
+          "gloss": "muchos (personas) (genitivo/ablativo)",
+          "analysis_html": "plaj · genitivo/ablativo",
+          "analysis_text": "plaj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: plaj | plas | plaf | pliur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ploj",
+          "form": "ploj",
+          "gloss": "muchos",
+          "analysis_html": "ploj · forma básica",
+          "analysis_text": "ploj · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ploj | plos | plof | plor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-plos",
+          "form": "plos",
+          "gloss": "muchos (ergativo)",
+          "analysis_html": "ploj · ergativo",
+          "analysis_text": "ploj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ploj | plos | plof | plor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-plof",
+          "form": "plof",
+          "gloss": "muchos (alativo/dativo)",
+          "analysis_html": "ploj · alativo/dativo",
+          "analysis_text": "ploj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ploj | plos | plof | plor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-plor",
+          "form": "plor",
+          "gloss": "muchos (genitivo/ablativo)",
+          "analysis_html": "ploj · genitivo/ablativo",
+          "analysis_text": "ploj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ploj | plos | plof | plor | — (ver Pronombres)."
+          ]
         }
       ]
     },

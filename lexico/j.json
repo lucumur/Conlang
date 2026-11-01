@@ -256,11 +256,176 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Declinación: vof / vojn / vosku; ergativo vos; alativo/dativo vof; gen./abl. vor; colectivo voks «con vos»."
+            "Declinación: vof / vojn / vosku; ergativo vos; alativo/dativo vof; gen./abl. vor; colectivo voks «con vos».",
+            "Paradigma: voj | vos | vof | vor | voks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-vori",
+          "form": "vori",
+          "gloss": "vuestro",
+          "analysis_html": "vori · forma básica",
+          "analysis_text": "vori · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vori | vora | voron | voras (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-vora",
+          "form": "vora",
+          "gloss": "vuestro (forma 2)",
+          "analysis_html": "vori · forma 2",
+          "analysis_text": "vori · forma 2",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vori | vora | voron | voras (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-voron",
+          "form": "voron",
+          "gloss": "vuestro (forma 3)",
+          "analysis_html": "vori · forma 3",
+          "analysis_text": "vori · forma 3",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vori | vora | voron | voras (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-voras",
+          "form": "voras",
+          "gloss": "vuestro (forma 4)",
+          "analysis_html": "vori · forma 4",
+          "analysis_text": "vori · forma 4",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: vori | vora | voron | voras (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-vos",
+          "form": "vos",
+          "gloss": "ustedes (ergativo)",
+          "analysis_html": "voj · ergativo",
+          "analysis_text": "voj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: voj | vos | vof | vor | voks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-vof",
+          "form": "vof",
+          "gloss": "ustedes (alativo/dativo)",
+          "analysis_html": "voj · alativo/dativo",
+          "analysis_text": "voj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: voj | vos | vof | vor | voks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-vor",
+          "form": "vor",
+          "gloss": "ustedes (genitivo/ablativo)",
+          "analysis_html": "voj · genitivo/ablativo",
+          "analysis_text": "voj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: voj | vos | vof | vor | voks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-voks",
+          "form": "voks",
+          "gloss": "con ustedes",
+          "analysis_html": "voj · colectivo",
+          "analysis_text": "voj · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: voj | vos | vof | vor | voks (ver Pronombres)."
           ]
         }
       ]

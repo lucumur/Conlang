@@ -111,6 +111,10 @@
               "vocablo_id": "lexeme-tabeno"
             },
             {
+              "indice": 3,
+              "vocablo_id": "lexeme-res-hay"
+            },
+            {
               "indice": 4,
               "vocablo_id": "lexeme-paprilo",
               "nota": "Plural de paprilo (-O → -I)"

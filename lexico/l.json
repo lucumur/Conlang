@@ -5607,11 +5607,456 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Declinación: elar, eles / elof, elojn; ergativo elos; alativo/dativo elof; gen./abl. elor."
+            "Declinación: elar, eles / elof, elojn; ergativo elos; alativo/dativo elof; gen./abl. elor.",
+            "Paradigma: eloj | elos | elof | elor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-li",
+          "form": "li",
+          "gloss": "alguien; él/ella",
+          "analysis_html": "li · forma básica",
+          "analysis_text": "li · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: li | lu | lin | les | lik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-lu",
+          "form": "lu",
+          "gloss": "alguien; él/ella (ergativo)",
+          "analysis_html": "li · ergativo",
+          "analysis_text": "li · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: li | lu | lin | les | lik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-lin",
+          "form": "lin",
+          "gloss": "alguien; él/ella (alativo/dativo)",
+          "analysis_html": "li · alativo/dativo",
+          "analysis_text": "li · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: li | lu | lin | les | lik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-les",
+          "form": "les",
+          "gloss": "alguien; él/ella (genitivo/ablativo)",
+          "analysis_html": "li · genitivo/ablativo",
+          "analysis_text": "li · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: li | lu | lin | les | lik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-lik",
+          "form": "lik",
+          "gloss": "con él",
+          "analysis_html": "li · colectivo",
+          "analysis_text": "li · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: li | lu | lin | les | lik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-eli",
+          "form": "eli",
+          "gloss": "este, estos",
+          "analysis_html": "eli · forma básica",
+          "analysis_text": "eli · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eli | elu | elin | eles | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-elu",
+          "form": "elu",
+          "gloss": "este, estos (ergativo)",
+          "analysis_html": "eli · ergativo",
+          "analysis_text": "eli · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eli | elu | elin | eles | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-elin",
+          "form": "elin",
+          "gloss": "este, estos (alativo/dativo)",
+          "analysis_html": "eli · alativo/dativo",
+          "analysis_text": "eli · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eli | elu | elin | eles | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-eles",
+          "form": "eles",
+          "gloss": "este, estos (genitivo/ablativo)",
+          "analysis_html": "eli · genitivo/ablativo",
+          "analysis_text": "eli · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eli | elu | elin | eles | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-lori",
+          "form": "lori",
+          "gloss": "de ellos",
+          "analysis_html": "lori · forma básica",
+          "analysis_text": "lori · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: lori | lora | loron | loros (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-lora",
+          "form": "lora",
+          "gloss": "de ellos (forma 2)",
+          "analysis_html": "lori · forma 2",
+          "analysis_text": "lori · forma 2",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: lori | lora | loron | loros (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-loron",
+          "form": "loron",
+          "gloss": "de ellos (forma 3)",
+          "analysis_html": "lori · forma 3",
+          "analysis_text": "lori · forma 3",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: lori | lora | loron | loros (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-loros",
+          "form": "loros",
+          "gloss": "de ellos (forma 4)",
+          "analysis_html": "lori · forma 4",
+          "analysis_text": "lori · forma 4",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: lori | lora | loron | loros (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-loj",
+          "form": "loj",
+          "gloss": "ellos",
+          "analysis_html": "loj · forma básica",
+          "analysis_text": "loj · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: loj | los | lof | lor | loks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-los",
+          "form": "los",
+          "gloss": "ellos (ergativo)",
+          "analysis_html": "loj · ergativo",
+          "analysis_text": "loj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: loj | los | lof | lor | loks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-lof",
+          "form": "lof",
+          "gloss": "ellos (alativo/dativo)",
+          "analysis_html": "loj · alativo/dativo",
+          "analysis_text": "loj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: loj | los | lof | lor | loks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-lor",
+          "form": "lor",
+          "gloss": "ellos (genitivo/ablativo)",
+          "analysis_html": "loj · genitivo/ablativo",
+          "analysis_text": "loj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: loj | los | lof | lor | loks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-loks",
+          "form": "loks",
+          "gloss": "con ellos",
+          "analysis_html": "loj · colectivo",
+          "analysis_text": "loj · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: loj | los | lof | lor | loks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-elos",
+          "form": "elos",
+          "gloss": "aquellos (ergativo)",
+          "analysis_html": "eloj · ergativo",
+          "analysis_text": "eloj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eloj | elos | elof | elor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-elof",
+          "form": "elof",
+          "gloss": "aquellos (alativo/dativo)",
+          "analysis_html": "eloj · alativo/dativo",
+          "analysis_text": "eloj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eloj | elos | elof | elor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-elor",
+          "form": "elor",
+          "gloss": "aquellos (genitivo/ablativo)",
+          "analysis_html": "eloj · genitivo/ablativo",
+          "analysis_text": "eloj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: eloj | elos | elof | elor | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-elok",
+          "form": "elok",
+          "gloss": "allá",
+          "analysis_html": "EL + -OK",
+          "analysis_text": "EL + -OK",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
           ]
         }
       ]

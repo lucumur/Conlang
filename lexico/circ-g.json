@@ -1360,7 +1360,188 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-gxi",
+          "form": "ĝi",
+          "gloss": "ese (animado)",
+          "analysis_html": "ĝi · forma básica",
+          "analysis_text": "ĝi · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĝi | ĝu | ĝin | ĝes | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-gxu",
+          "form": "ĝu",
+          "gloss": "ese (animado) (ergativo)",
+          "analysis_html": "ĝi · ergativo",
+          "analysis_text": "ĝi · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĝi | ĝu | ĝin | ĝes | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-gxin",
+          "form": "ĝin",
+          "gloss": "ese (animado) (alativo/dativo)",
+          "analysis_html": "ĝi · alativo/dativo",
+          "analysis_text": "ĝi · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĝi | ĝu | ĝin | ĝes | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-gxes",
+          "form": "ĝes",
+          "gloss": "ese (animado) (genitivo/ablativo)",
+          "analysis_html": "ĝi · genitivo/ablativo",
+          "analysis_text": "ĝi · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĝi | ĝu | ĝin | ĝes | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-gxoj",
+          "form": "ĝoj",
+          "gloss": "esos (animados)",
+          "analysis_html": "ĝoj · forma básica",
+          "analysis_text": "ĝoj · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĝoj | ĝos | ĝof | ĝor | ĝoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-gxos",
+          "form": "ĝos",
+          "gloss": "esos (animados) (ergativo)",
+          "analysis_html": "ĝoj · ergativo",
+          "analysis_text": "ĝoj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĝoj | ĝos | ĝof | ĝor | ĝoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-gxof",
+          "form": "ĝof",
+          "gloss": "esos (animados) (alativo/dativo)",
+          "analysis_html": "ĝoj · alativo/dativo",
+          "analysis_text": "ĝoj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĝoj | ĝos | ĝof | ĝor | ĝoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-gxor",
+          "form": "ĝor",
+          "gloss": "esos (animados) (genitivo/ablativo)",
+          "analysis_html": "ĝoj · genitivo/ablativo",
+          "analysis_text": "ĝoj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĝoj | ĝos | ĝof | ĝor | ĝoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-gxoks",
+          "form": "ĝoks",
+          "gloss": "con esos",
+          "analysis_html": "ĝoj · colectivo",
+          "analysis_text": "ĝoj · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ĝoj | ĝos | ĝof | ĝor | ĝoks (ver Pronombres)."
+          ]
+        }
+      ]
     },
     {
       "id": "root-gib",

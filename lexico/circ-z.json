@@ -1674,6 +1674,86 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-zxetaj",
+          "form": "ẑetaj",
+          "gloss": "los demás",
+          "analysis_html": "ẑetaj · forma básica",
+          "analysis_text": "ẑetaj · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ẑetaj | ẑetas | ẑetaf | ẑetur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-zxetas",
+          "form": "ẑetas",
+          "gloss": "los demás (ergativo)",
+          "analysis_html": "ẑetaj · ergativo",
+          "analysis_text": "ẑetaj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ẑetaj | ẑetas | ẑetaf | ẑetur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-zxetaf",
+          "form": "ẑetaf",
+          "gloss": "los demás (alativo/dativo)",
+          "analysis_html": "ẑetaj · alativo/dativo",
+          "analysis_text": "ẑetaj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ẑetaj | ẑetas | ẑetaf | ẑetur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-zxetur",
+          "form": "ẑetur",
+          "gloss": "los demás (genitivo/ablativo)",
+          "analysis_html": "ẑetaj · genitivo/ablativo",
+          "analysis_text": "ẑetaj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ẑetaj | ẑetas | ẑetaf | ẑetur (ver Pronombres)."
+          ]
         }
       ]
     },
@@ -1708,11 +1788,96 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Declinación: ẑir / ẑis / ẑek; ergativo ẑu; alativo/dativo ẑin; gen./abl. ẑes; colectivo voẑek «con vos»."
+            "Declinación: ẑir / ẑis / ẑek; ergativo ẑu; alativo/dativo ẑin; gen./abl. ẑes; colectivo voẑek «con vos».",
+            "Paradigma: ẑi | ẑu | ẑin | ẑes | voẑek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-zxu",
+          "form": "ẑu",
+          "gloss": "vos (fem.) (ergativo)",
+          "analysis_html": "ẑi · ergativo",
+          "analysis_text": "ẑi · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ẑi | ẑu | ẑin | ẑes | voẑek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-zxin",
+          "form": "ẑin",
+          "gloss": "vos (fem.) (alativo/dativo)",
+          "analysis_html": "ẑi · alativo/dativo",
+          "analysis_text": "ẑi · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ẑi | ẑu | ẑin | ẑes | voẑek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-zxes",
+          "form": "ẑes",
+          "gloss": "vos (fem.) (genitivo/ablativo)",
+          "analysis_html": "ẑi · genitivo/ablativo",
+          "analysis_text": "ẑi · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ẑi | ẑu | ẑin | ẑes | voẑek (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-vozxek",
+          "form": "voẑek",
+          "gloss": "con vos",
+          "analysis_html": "ẑi · colectivo",
+          "analysis_text": "ẑi · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ẑi | ẑu | ẑin | ẑes | voẑek (ver Pronombres)."
           ]
         }
       ]

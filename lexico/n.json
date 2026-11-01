@@ -38,6 +38,26 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-nelor",
+          "form": "nelor",
+          "gloss": "de ninguna manera",
+          "analysis_html": "NE + L + -OR",
+          "analysis_text": "NE + L + -OR",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
         }
       ]
     },
@@ -2341,11 +2361,176 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Declinación: nof / nojn / nosku; ergativo nos; alativo/dativo nof; gen./abl. nor; colectivo noks «con nos»."
+            "Declinación: nof / nojn / nosku; ergativo nos; alativo/dativo nof; gen./abl. nor; colectivo noks «con nos».",
+            "Paradigma: noj | nos | nof | nor | noks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-nori",
+          "form": "nori",
+          "gloss": "nuestro",
+          "analysis_html": "nori · forma básica",
+          "analysis_text": "nori · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: nori | nora | noron | noras (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-nora",
+          "form": "nora",
+          "gloss": "nuestro (forma 2)",
+          "analysis_html": "nori · forma 2",
+          "analysis_text": "nori · forma 2",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: nori | nora | noron | noras (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-noron",
+          "form": "noron",
+          "gloss": "nuestro (forma 3)",
+          "analysis_html": "nori · forma 3",
+          "analysis_text": "nori · forma 3",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: nori | nora | noron | noras (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-noras",
+          "form": "noras",
+          "gloss": "nuestro (forma 4)",
+          "analysis_html": "nori · forma 4",
+          "analysis_text": "nori · forma 4",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: nori | nora | noron | noras (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-nos",
+          "form": "nos",
+          "gloss": "nosotros (ergativo)",
+          "analysis_html": "noj · ergativo",
+          "analysis_text": "noj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: noj | nos | nof | nor | noks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-nof",
+          "form": "nof",
+          "gloss": "nosotros (alativo/dativo)",
+          "analysis_html": "noj · alativo/dativo",
+          "analysis_text": "noj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: noj | nos | nof | nor | noks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-nor-2",
+          "form": "nor",
+          "gloss": "nosotros (genitivo/ablativo)",
+          "analysis_html": "noj · genitivo/ablativo",
+          "analysis_text": "noj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: noj | nos | nof | nor | noks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-noks",
+          "form": "noks",
+          "gloss": "con nosotros",
+          "analysis_html": "noj · colectivo",
+          "analysis_text": "noj · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: noj | nos | nof | nor | noks (ver Pronombres)."
           ]
         }
       ]

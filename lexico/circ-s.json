@@ -1275,11 +1275,276 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Declinación: ŝir / ŝis / ŝek; ergativo ŝu; alativo/dativo ŝin; gen./abl. ŝes; colectivo ŝik «con ella»."
+            "Declinación: ŝir / ŝis / ŝek; ergativo ŝu; alativo/dativo ŝin; gen./abl. ŝes; colectivo ŝik «con ella».",
+            "Paradigma: ŝi | ŝu | ŝin | ŝes | ŝik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxu",
+          "form": "ŝu",
+          "gloss": "ella (ergativo)",
+          "analysis_html": "ŝi · ergativo",
+          "analysis_text": "ŝi · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝi | ŝu | ŝin | ŝes | ŝik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxin",
+          "form": "ŝin",
+          "gloss": "ella (alativo/dativo)",
+          "analysis_html": "ŝi · alativo/dativo",
+          "analysis_text": "ŝi · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝi | ŝu | ŝin | ŝes | ŝik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxes",
+          "form": "ŝes",
+          "gloss": "ella (genitivo/ablativo)",
+          "analysis_html": "ŝi · genitivo/ablativo",
+          "analysis_text": "ŝi · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝi | ŝu | ŝin | ŝes | ŝik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxik",
+          "form": "ŝik",
+          "gloss": "con ella",
+          "analysis_html": "ŝi · colectivo",
+          "analysis_text": "ŝi · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝi | ŝu | ŝin | ŝes | ŝik (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxoj",
+          "form": "ŝoj",
+          "gloss": "ellas",
+          "analysis_html": "ŝoj · forma básica",
+          "analysis_text": "ŝoj · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝoj | ŝos | ŝof | ŝor | ŝoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxos",
+          "form": "ŝos",
+          "gloss": "ellas (ergativo)",
+          "analysis_html": "ŝoj · ergativo",
+          "analysis_text": "ŝoj · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝoj | ŝos | ŝof | ŝor | ŝoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxof",
+          "form": "ŝof",
+          "gloss": "ellas (alativo/dativo)",
+          "analysis_html": "ŝoj · alativo/dativo",
+          "analysis_text": "ŝoj · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝoj | ŝos | ŝof | ŝor | ŝoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxor",
+          "form": "ŝor",
+          "gloss": "ellas (genitivo/ablativo)",
+          "analysis_html": "ŝoj · genitivo/ablativo",
+          "analysis_text": "ŝoj · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝoj | ŝos | ŝof | ŝor | ŝoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxoks",
+          "form": "ŝoks",
+          "gloss": "con ellas",
+          "analysis_html": "ŝoj · colectivo",
+          "analysis_text": "ŝoj · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝoj | ŝos | ŝof | ŝor | ŝoks (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxel",
+          "form": "ŝel",
+          "gloss": "de ella",
+          "analysis_html": "ŝel · forma básica",
+          "analysis_text": "ŝel · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝel | ŝer | ŝelin | ŝelur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxer",
+          "form": "ŝer",
+          "gloss": "de ella (forma 2)",
+          "analysis_html": "ŝel · forma 2",
+          "analysis_text": "ŝel · forma 2",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝel | ŝer | ŝelin | ŝelur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxelin",
+          "form": "ŝelin",
+          "gloss": "de ella (forma 3)",
+          "analysis_html": "ŝel · forma 3",
+          "analysis_text": "ŝel · forma 3",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝel | ŝer | ŝelin | ŝelur (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-sxelur",
+          "form": "ŝelur",
+          "gloss": "de ella (forma 4)",
+          "analysis_html": "ŝel · forma 4",
+          "analysis_text": "ŝel · forma 4",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre posesivo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ŝel | ŝer | ŝelin | ŝelur (ver Pronombres)."
           ]
         }
       ]

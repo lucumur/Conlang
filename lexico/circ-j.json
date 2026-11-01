@@ -131,6 +131,26 @@
           "notes": [
             "Correlativo de modo, como Eo. tiel."
           ]
+        },
+        {
+          "id": "lexeme-jom-2",
+          "form": "jom",
+          "gloss": "poco",
+          "analysis_html": "pendiente",
+          "analysis_text": "pendiente",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Serie de correlativos (ver Pronombres)."
+          ]
         }
       ]
     },

@@ -1068,11 +1068,16 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Ergativo ru; alativo/dativo rin; gen./abl. res; colectivo rem «algo»."
+            "Ergativo ru; alativo/dativo rin; gen./abl. res; colectivo rem «algo».",
+            "Paradigma: ri | ru | rin | res | rem (ver Pronombres)."
           ]
         },
         {
@@ -1102,11 +1107,16 @@
             {
               "class": "generic",
               "label": "Importado de Tana"
+            },
+            {
+              "class": "generic",
+              "label": "Pronombre"
             }
           ],
           "semantic_fields": [],
           "notes": [
-            "Ergativo ra; alativo/dativo rajn; gen./abl. rel."
+            "Ergativo ra; alativo/dativo rajn; gen./abl. rel.",
+            "Paradigma: ran | ra | rajn | rel (ver Pronombres)."
           ]
         },
         {
@@ -1215,6 +1225,426 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-ru",
+          "form": "ru",
+          "gloss": "algo, lo que sea (ergativo)",
+          "analysis_html": "ri · ergativo",
+          "analysis_text": "ri · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ri | ru | rin | res | rem (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-rin",
+          "form": "rin",
+          "gloss": "algo, lo que sea (alativo/dativo)",
+          "analysis_html": "ri · alativo/dativo",
+          "analysis_text": "ri · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ri | ru | rin | res | rem (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-res",
+          "form": "res",
+          "gloss": "algo, lo que sea (genitivo/ablativo)",
+          "analysis_html": "ri · genitivo/ablativo",
+          "analysis_text": "ri · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ri | ru | rin | res | rem (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-rem",
+          "form": "rem",
+          "gloss": "algo (colectivo)",
+          "analysis_html": "ri · colectivo",
+          "analysis_text": "ri · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ri | ru | rin | res | rem (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ori",
+          "form": "ori",
+          "gloss": "algo",
+          "analysis_html": "ori · forma básica",
+          "analysis_text": "ori · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ori | oru | orin | ores | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-oru",
+          "form": "oru",
+          "gloss": "algo (ergativo)",
+          "analysis_html": "ori · ergativo",
+          "analysis_text": "ori · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ori | oru | orin | ores | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-orin",
+          "form": "orin",
+          "gloss": "algo (alativo/dativo)",
+          "analysis_html": "ori · alativo/dativo",
+          "analysis_text": "ori · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ori | oru | orin | ores | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ores",
+          "form": "ores",
+          "gloss": "algo (genitivo/ablativo)",
+          "analysis_html": "ori · genitivo/ablativo",
+          "analysis_text": "ori · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ori | oru | orin | ores | — (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-neri",
+          "form": "neri",
+          "gloss": "ninguno",
+          "analysis_html": "neri · forma básica",
+          "analysis_text": "neri · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: neri | neru | nerin | neres | nem (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-neru",
+          "form": "neru",
+          "gloss": "ninguno (ergativo)",
+          "analysis_html": "neri · ergativo",
+          "analysis_text": "neri · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: neri | neru | nerin | neres | nem (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-nerin",
+          "form": "nerin",
+          "gloss": "ninguno (alativo/dativo)",
+          "analysis_html": "neri · alativo/dativo",
+          "analysis_text": "neri · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: neri | neru | nerin | neres | nem (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-neres",
+          "form": "neres",
+          "gloss": "ninguno (genitivo/ablativo)",
+          "analysis_html": "neri · genitivo/ablativo",
+          "analysis_text": "neri · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: neri | neru | nerin | neres | nem (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-nem",
+          "form": "nem",
+          "gloss": "nada",
+          "analysis_html": "neri · colectivo",
+          "analysis_text": "neri · colectivo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: neri | neru | nerin | neres | nem (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-ra",
+          "form": "ra",
+          "gloss": "cualquiera (persona) (ergativo)",
+          "analysis_html": "ran · ergativo",
+          "analysis_text": "ran · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ran | ra | rajn | rel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-rajn",
+          "form": "rajn",
+          "gloss": "cualquiera (persona) (alativo/dativo)",
+          "analysis_html": "ran · alativo/dativo",
+          "analysis_text": "ran · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ran | ra | rajn | rel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-rel",
+          "form": "rel",
+          "gloss": "cualquiera (persona) (genitivo/ablativo)",
+          "analysis_html": "ran · genitivo/ablativo",
+          "analysis_text": "ran · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: ran | ra | rajn | rel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-neran",
+          "form": "neran",
+          "gloss": "nadie",
+          "analysis_html": "neran · forma básica",
+          "analysis_text": "neran · forma básica",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: neran | nera | nerajn | nerel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-nera",
+          "form": "nera",
+          "gloss": "nadie (ergativo)",
+          "analysis_html": "neran · ergativo",
+          "analysis_text": "neran · ergativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: neran | nera | nerajn | nerel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-nerajn",
+          "form": "nerajn",
+          "gloss": "nadie (alativo/dativo)",
+          "analysis_html": "neran · alativo/dativo",
+          "analysis_text": "neran · alativo/dativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: neran | nera | nerajn | nerel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-nerel",
+          "form": "nerel",
+          "gloss": "nadie (genitivo/ablativo)",
+          "analysis_html": "neran · genitivo/ablativo",
+          "analysis_text": "neran · genitivo/ablativo",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Paradigma: neran | nera | nerajn | nerel (ver Pronombres)."
+          ]
+        },
+        {
+          "id": "lexeme-res-hay",
+          "form": "res",
+          "gloss": "hay (forma contracta de rees)",
+          "analysis_html": "RE + -ES (contracto)",
+          "analysis_text": "RE + -ES (contracto)",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado ES"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Homógrafo del genitivo/ablativo res de ri."
+          ]
         }
       ]
     },
