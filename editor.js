@@ -100,13 +100,13 @@
     return h;
   }
 
-  /* En modo edición, lexico/*.json se lee desde la API (fresco); si falla, cae a la copia publicada. */
+  /* En modo edición, lexico/*.json y textos/*.json se leen desde la API (fresco); si falla, cae a la copia publicada. */
   if (editOn()) {
     window.fetch = function (input, init) {
       if (typeof input === 'string') {
-        var m = input.match(/^(?:\.\/)?lexico\/([^?#\/]+\.json)/);
+        var m = input.match(/^(?:\.\/)?(lexico|textos)\/([^?#\/]+\.json)/);
         if (m) {
-          return currentRef().then(function (ref) { return baseFetch(contentsURL('lexico/' + m[1], ref), { headers: headers(true), cache: 'no-store' }); })
+          return currentRef().then(function (ref) { return baseFetch(contentsURL(m[1] + '/' + m[2], ref), { headers: headers(true), cache: 'no-store' }); })
             .then(function (r) { return r.ok ? r : baseFetch(input, init); }, function () { return baseFetch(input, init); });
         }
       }

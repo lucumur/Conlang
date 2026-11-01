@@ -7,7 +7,7 @@
   try{sessionStorage.setItem(KEY,v)}catch(e){}
   var orig=window.fetch.bind(window);
   window.fetch=function(input,init){
-    if(typeof input==='string' && /(^|\/)lexico\/[^?#]+\.json(\?|#|$)/.test(input)){
+    if(typeof input==='string' && /(^|\/)(lexico|textos)\/[^?#]+\.json(\?|#|$)/.test(input)){
       if(v) input+=(input.indexOf('?')<0?'?':'&')+'v='+v;
       init=Object.assign({cache:v?'reload':'no-cache'},init||{});
     }
