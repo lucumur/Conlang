@@ -34,6 +34,7 @@ body.home{position:relative}
 .root-relation.etym-turquico{--etym-color:#D8C1AE}
 .root-relation.etym-sinico{--etym-color:#F5DF95}
 .root-relation.etym-esperide{--etym-color:#D5D3F5}
+.root-relation.etym-indigena{--etym-color:#D9E3C0}
 .relation-nat-plen{--relation-accent:#278557}
 .relation-nat-mod{--relation-accent:#2879b5}
 .relation-nat-red{--relation-accent:#8753b0}
@@ -81,6 +82,7 @@ body.home{position:relative}
 .tag.neo{background:#e6e9f9;color:#4c5d94;border:1px solid #c0c7eb}
 .tag.indopersa{background:#F5C7C0;color:#39343A;border:1px solid color-mix(in srgb,#F5C7C0 68%,#817467)}
 .tag.esperide{background:#D5D3F5;color:#39343A;border:1px solid color-mix(in srgb,#D5D3F5 68%,#817467)}
+.tag.indigena{background:#D9E3C0;color:#39343A;border:1px solid color-mix(in srgb,#D9E3C0 68%,#817467)}
 .tag.generic{background:#ece9e2;color:#574f44;border:1px solid #dad4ca}
 
 

@@ -4,28 +4,38 @@
   "key": "circ-s",
   "entries": [
     {
-      "id": "root-sad",
-      "form": "*ŜAD-",
+      "id": "root-svad",
+      "form": "*ŜVAD-",
       "gloss": "persuadir",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< svad- (Eo. persvadi).",
-      "notes": [],
+      "notes": [
+        "Forma anterior *ŜAD-; la forma canónica vigente es *ŜVAD-."
+      ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-ŝadas",
-          "form": "ŝadas",
+          "id": "lexeme-ŝvadas",
+          "form": "ŝvadas",
           "gloss": "persuadir",
-          "analysis_html": "ŜAD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "ŜAD + -AS",
+          "analysis_html": "ŜVAD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ŜVAD + -AS",
           "refs": [
+            {
+              "id": "root-svad",
+              "label": "ŜVAD"
+            },
             {
               "id": "morph-as",
               "label": "-AS"
@@ -53,6 +63,10 @@
         {
           "class": "nat-plen",
           "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
         }
       ],
       "letter": "Ŝ",
@@ -169,7 +183,16 @@
       "id": "root-sajn",
       "form": "*ŜAJN-",
       "gloss": "parecer",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< Eo. ŝajnas.",
@@ -282,7 +305,16 @@
       "id": "root-sam",
       "form": "*ŜAM-",
       "gloss": "espuma",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< Eo. ŝaŭmo.",
@@ -394,7 +426,16 @@
       "id": "root-san-2",
       "form": "*ŜAN-",
       "gloss": "cambiar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -436,6 +477,10 @@
         {
           "class": "nat-mod",
           "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "Ŝ",
@@ -598,7 +643,16 @@
       "id": "root-sat-3",
       "form": "*ŜAT-",
       "gloss": "encantar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": null,
@@ -837,8 +891,12 @@
       "gloss": "eslavico",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
         }
       ],
       "letter": "Ŝ",
@@ -869,7 +927,16 @@
       "id": "root-sel",
       "form": "*ŜEL-",
       "gloss": "piel",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< Eo. ŝelo.",
@@ -1007,7 +1074,16 @@
       "id": "root-sen-2",
       "form": "*ŜEN-",
       "gloss": "escena",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "Ŝ",
       "section": "sec-circ-s",
       "etymology": "< Eo. sceno.",
@@ -1072,90 +1148,6 @@
           "gloss": "escenario",
           "analysis_html": "ŜEN + ER <span class=\"meta-extra\">(pendiente)</span>",
           "analysis_text": "ŜEN + ER (pendiente)",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
-            }
-          ],
-          "semantic_fields": [],
-          "notes": []
-        }
-      ]
-    },
-    {
-      "id": "root-ser-l",
-      "form": "*ŜER-L",
-      "gloss": "pelear",
-      "tags": [
-        {
-          "class": "nat-mod",
-          "label": "Modificada"
-        }
-      ],
-      "letter": "Ŝ",
-      "section": "sec-circ-s",
-      "etymology": "< Eo. kvereli.",
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-ŝerla",
-          "form": "ŝerla",
-          "gloss": "pelea, pleito",
-          "analysis_html": "ŜERL + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "ŜERL + -A",
-          "refs": [
-            {
-              "id": "morph-a-2",
-              "label": "-A"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Abstracto A"
-            }
-          ],
-          "semantic_fields": [
-            "combate",
-            "acciones",
-            "abstractos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-ŝerlos",
-          "form": "ŝerlos",
-          "gloss": "pelearse",
-          "analysis_html": "ŜERL + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "ŜERL + -OS",
-          "refs": [
-            {
-              "id": "morph-os",
-              "label": "-OS"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Predicado OS"
-            }
-          ],
-          "semantic_fields": [
-            "combate",
-            "acciones",
-            "procesos"
-          ],
-          "notes": []
-        },
-        {
-          "id": "lexeme-sxerlamon",
-          "form": "ŝerlamon",
-          "gloss": "peleonero",
-          "analysis_html": "ŜERL + AMON <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "ŜERL + AMON (pendiente)",
           "refs": [],
           "tags": [
             {

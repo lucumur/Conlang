@@ -5271,7 +5271,16 @@
       "id": "root-skot",
       "form": "*SKOT-",
       "gloss": "Escocia",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -5287,8 +5296,12 @@
       "gloss": "solido",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "S",
@@ -5641,7 +5654,16 @@
       "id": "root-som-r",
       "form": "*SOM-R",
       "gloss": "verano",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": "< Eo. somero.",
@@ -5729,7 +5751,16 @@
       "id": "root-somj",
       "form": "*SOMJ-",
       "gloss": "finlandia",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-nom",
+          "label": "Nominal"
+        },
+        {
+          "class": "indigena",
+          "label": "Indigena"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -5836,7 +5867,16 @@
       "id": "root-sop",
       "form": "*SOP-",
       "gloss": "hisopo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -5924,7 +5964,16 @@
       "id": "root-sor",
       "form": "*SOR-",
       "gloss": "suerte",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -6078,7 +6127,16 @@
       "id": "root-sorb",
       "form": "*SORB-",
       "gloss": "absorber, sorber",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -6115,7 +6173,16 @@
       "id": "root-sos",
       "form": "*SOS-",
       "gloss": "hermana",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -6230,8 +6297,12 @@
       "gloss": "lograr",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "S",
@@ -6313,7 +6384,16 @@
       "id": "root-sum",
       "form": "*SUM-",
       "gloss": "sorber, consumir",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -6399,7 +6479,16 @@
       "id": "root-sun",
       "form": "*SUN-",
       "gloss": "sol, sur",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": "< Eo. suno «sol».",
@@ -6614,7 +6703,16 @@
       "id": "root-sup",
       "form": "*SUP-",
       "gloss": "sopa",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -6727,7 +6825,16 @@
       "id": "root-sup-2",
       "form": "*SUP-",
       "gloss": "supino, boca arriba",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -7100,7 +7207,16 @@
       "id": "root-sur",
       "form": "*SUR-",
       "gloss": "pantorrilla",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -7188,7 +7304,16 @@
       "id": "root-sur-2",
       "form": "*SUR-",
       "gloss": "sobre, encima",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -7333,7 +7458,16 @@
       "id": "root-sur-3",
       "form": "*SUR-",
       "gloss": "susurrar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": "< Eo. susuro.",
@@ -7437,7 +7571,16 @@
       "id": "root-salk",
       "form": "*SALK-",
       "gloss": "sauce",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "S",
       "section": "sec-s",
       "etymology": null,
@@ -7481,6 +7624,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "S",

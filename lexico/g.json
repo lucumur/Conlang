@@ -2419,6 +2419,109 @@
       ]
     },
     {
+      "id": "root-gerel",
+      "form": "*GEREL-",
+      "gloss": "pelear",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Eo. kvereli.",
+      "notes": [
+        "Forma anterior *ŜER-L; sustituida por la raíz canónica *GEREL- y trasladada al apartado G."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-gerela",
+          "form": "gerela",
+          "gloss": "pelea, pleito",
+          "analysis_html": "GEREL + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GEREL + -A",
+          "refs": [
+            {
+              "id": "root-gerel",
+              "label": "GEREL"
+            },
+            {
+              "id": "morph-a-2",
+              "label": "-A"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Abstracto A"
+            }
+          ],
+          "semantic_fields": [
+            "combate",
+            "acciones",
+            "abstractos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gerelos",
+          "form": "gerelos",
+          "gloss": "pelearse",
+          "analysis_html": "GEREL + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "GEREL + -OS",
+          "refs": [
+            {
+              "id": "root-gerel",
+              "label": "GEREL"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Predicado OS"
+            }
+          ],
+          "semantic_fields": [
+            "combate",
+            "acciones",
+            "procesos"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-gerelamon",
+          "form": "gerelamon",
+          "gloss": "peleonero",
+          "analysis_html": "GEREL + AMON <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "GEREL + AMON (pendiente)",
+          "refs": [
+            {
+              "id": "root-gerel",
+              "label": "GEREL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "root-gerk",
       "form": "*GERK-",
       "gloss": "roble",

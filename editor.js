@@ -198,7 +198,7 @@
 
   var ROOT_RELATION = ['Original','Tecnica','Modificada','Reducida','Reformada','Nominal','Inspirada','Nova'];
   var ROOT_RELATION_NAMES = {'nat-plen':'Original','nat-tek':'Tecnica','nat-nom':'Nominal','nat-insp':'Inspirada','nat-mod':'Modificada','nat-red':'Reducida','nat-refor':'Reformada','nova':'Nova'};
-  var EXTERNAL_ETYM = ['Latin','Griego','Germanico','Frances','Anglo','Italico','Iberico','Eslavo','Arabe','Celta','Indopersa','Turquico','Sinico','Esperide'];
+  var EXTERNAL_ETYM = ['Latin','Griego','Germanico','Frances','Anglo','Italico','Iberico','Eslavo','Arabe','Celta','Indopersa','Turquico','Sinico','Esperide','Indigena'];
   var ORIGIN = ROOT_RELATION.concat(EXTERNAL_ETYM,['Esper','Neo']);
   var ORIGIN_CLASS = {}, ORIGIN_LABEL = {};
   ORIGIN.forEach(function (l) { ORIGIN_CLASS[l.toLowerCase()] = l.toLowerCase(); ORIGIN_LABEL[l.toLowerCase()] = l; });
@@ -207,7 +207,7 @@
     ORIGIN_CLASS[klass] = klass; ORIGIN_LABEL[klass] = label;
     ORIGIN_CLASS[label.toLowerCase()] = klass; ORIGIN_LABEL[label.toLowerCase()] = label;
   });
-  var ETYM_ALIASES = {"latín":"Latin","germánico":"Germanico","francés":"Frances","itálico":"Italico","ibérico":"Iberico","árabe":"Arabe","túrquico":"Turquico","sínico":"Sinico","helénico":"Griego","helenico":"Griego","slavo":"Eslavo","romance":"Italico","espanol":"Iberico","español":"Iberico","portugues":"Iberico","portugués":"Iberico","indico":"Indopersa","persa":"Indopersa"};
+  var ETYM_ALIASES = {"latín":"Latin","germánico":"Germanico","francés":"Frances","itálico":"Italico","ibérico":"Iberico","árabe":"Arabe","túrquico":"Turquico","sínico":"Sinico","helénico":"Griego","helenico":"Griego","slavo":"Eslavo","romance":"Italico","espanol":"Iberico","español":"Iberico","portugues":"Iberico","portugués":"Iberico","indico":"Indopersa","persa":"Indopersa","indígena":"Indigena"};
   Object.keys(ETYM_ALIASES).forEach(function (l) { var canonical = ETYM_ALIASES[l]; ORIGIN_CLASS[l] = canonical.toLowerCase(); ORIGIN_LABEL[l] = canonical; });
   /* Etiquetas: se conservan tal cual las que ya existían; las nuevas toman clase de origen si la reconocen. */
   function tagsFrom(labelsList, previous) {
