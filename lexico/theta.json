@@ -2078,6 +2078,53 @@
       ]
     },
     {
+      "id": "root-zarb",
+      "form": "*ΘRAB-",
+      "gloss": "estrabico",
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "Θ",
+      "section": "sec-theta",
+      "etymology": "< Eo. strab-.",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-zxarbon",
+          "form": "θrabon",
+          "gloss": "bizco",
+          "analysis_html": "ΘRAB + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
+          "analysis_text": "ΘRAB + -ON",
+          "refs": [
+            {
+              "id": "morph-on",
+              "label": "-ON"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            },
+            {
+              "class": "generic",
+              "label": "Importado de Tana"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
+    },
+    {
       "id": "root-trat",
       "form": "*ΘRAD-",
       "gloss": "calle",
