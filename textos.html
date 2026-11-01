@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4338ca">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Textos · Conlang</title>
+  <meta name="description" content="Biblioteca de textos originales y sus traducciones al conlang, con enlaces al vocabulario">
+  <link rel="stylesheet" href="styles.css?v=20261031indigena">
+  <script src="refresh.js?v=20261031fresh2"></script>
+  <style>
+    .texts-intro{max-width:820px}
+    .texts-toolbar{display:flex;justify-content:space-between;align-items:end;gap:14px;flex-wrap:wrap;margin:12px 0 30px}
+    .texts-filter{flex:1 1 290px;max-width:620px}
+    .texts-filter label{display:block;color:var(--muted);font-size:.78rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:7px}
+    .texts-filter input{width:100%;padding:11px 14px;border:1px solid var(--line);border-radius:11px;background:var(--paper);color:var(--ink);font:inherit}
+    .texts-filter input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+    .texts-count{font-size:.85rem;color:var(--muted);padding-bottom:12px}
+    .texts-list{display:grid;gap:24px}
+    .text-article{min-width:0;background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+    .text-header{padding:22px clamp(16px,3vw,28px);border-bottom:1px solid var(--line)}
+    .text-header h2{margin:0 0 7px;font-size:clamp(1.25rem,2.5vw,1.7rem);line-height:1.25}
+    .text-original-title{color:var(--muted);font-size:.92rem;margin:0 0 10px}
+    .text-meta{display:flex;flex-wrap:wrap;gap:6px 14px;color:var(--muted);font-size:.82rem}
+    .text-meta span{overflow-wrap:anywhere}
+    .text-note{font-size:.9rem;margin:12px 0 0;color:var(--muted)}
+    .parallel-line{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+    .parallel-line+.parallel-line{border-top:1px solid var(--line)}
+    .text-lane{min-width:0;padding:20px clamp(16px,3vw,28px)}
+    .text-lane+.text-lane{border-left:1px solid var(--line);background:color-mix(in srgb,var(--paper) 92%,var(--accent) 8%)}
+    .lane-title{margin:0 0 11px;font-size:.73rem;letter-spacing:.07em;text-transform:uppercase;font-weight:800;color:var(--muted)}
+    .text-prose{margin:0;font-size:1.08rem;line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere}
+    .text-prose a.text-word{color:inherit;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:1.4px;text-underline-offset:4px;border-radius:3px}
+    .text-prose a.text-word.lookup{text-decoration-style:dotted}
+    .text-prose a.text-word:hover,.text-prose a.text-word:focus-visible{color:var(--accent);background:rgba(67,56,202,.09);outline:2px solid transparent}
+    .texts-explain{margin:0 0 20px;color:var(--muted);font-size:.86rem}
+    .texts-empty{padding:26px;border:1px solid var(--line);border-radius:15px;background:var(--paper)}
+    .texts-empty h2{margin:0 0 8px;font-size:1.25rem}
+    .texts-empty p{margin:0;color:var(--muted);max-width:65ch}
+    .texts-empty .empty-columns{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:21px}
+    .texts-empty .empty-column{padding:15px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);font-size:.83rem}
+    .texts-empty .empty-column strong{display:block;color:var(--ink);margin-bottom:5px}
+    @media(max-width:720px){.parallel-line{grid-template-columns:minmax(0,1fr)}.text-lane+.text-lane{border-left:0;border-top:1px dashed var(--line)}.text-lane{padding:16px}.text-header{padding:18px 16px}.texts-empty .empty-columns{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<header class="page-header"><div class="wrap"><div class="brand"><a href="index.html">CONLANG</a></div><nav class="site-nav" aria-label="Navegación principal">
+  <a href="index.html">Inicio</a>
+  <a href="lexico.html">Raíces</a>
+  <a href="vocablos.html">Vocablos</a>
+  <a href="textos.html" aria-current="page">Textos</a>
+  <a href="morfemas.html">Morfemas</a>
+  <a href="semantica.html">Semántica</a>
+  <a href="pronombres.html">Pronombres</a>
+  <a href="gramatica.html">Gramática</a>
+  <a href="fonologia.html">Fonología</a>
+  <a href="historia.html">Historia</a>
+</nav></div></header>
+<main class="wrap">
+  <section class="hero compact texts-intro">
+    <p class="eyebrow">Biblioteca bilingüe</p>
+    <h1>Textos</h1>
+    <p>Textos en su idioma original y traducidos al conlang, presentados en paralelo. Cada palabra de la traducción enlaza con su entrada en <a href="vocablos.html">Vocablos</a> o con una búsqueda de su forma.</p>
+  </section>
+  <div class="texts-toolbar">
+    <div class="texts-filter"><label for="textos-search">Buscar textos</label><input id="textos-search" type="search" autocomplete="off" placeholder="Título, autor, idioma o contenido"></div>
+    <span id="textos-count" class="texts-count" aria-live="polite"></span>
+  </div>
+  <p class="texts-explain">En la traducción, el subrayado continuo abre una ficha identificada del vocabulario; el punteado busca la forma cuando todavía no tiene una referencia inequívoca.</p>
+  <div id="textos-list" class="texts-list" aria-live="polite"><div class="texts-empty">Cargando textos…</div></div>
+</main>
+<footer class="page-footer"><div class="wrap">Conlang · documentación viva</div></footer>
+<script>
+(()=>{
+  'use strict';
+  const list=document.getElementById('textos-list');
+  const search=document.getElementById('textos-search');
+  const counter=document.getElementById('textos-count');
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const norm=s=>String(s??'').normalize('NFC').toLocaleLowerCase('es').trim();
+  const wordPattern=/[\p{L}\p{M}\p{N}]+(?:[’'-][\p{L}\p{M}\p{N}]+)*/gu;
+  let texts=[],byForm=new Map(),byId=new Map(),loaded=false;
+
+  function linkWord(token,position,explicit){
+    const lookup='vocablos.html?q='+encodeURIComponent(token);
+    const requested=explicit.get(position);
+    const chosen=requested?byId.get(requested):null;
+    const candidates=byForm.get(norm(token))||[];
+    const word=chosen||(!requested&&candidates.length===1?candidates[0]:null);
+    const href=word?'vocablos.html#'+encodeURIComponent(word.id):lookup;
+    const title=word?(word.form+' — '+word.gloss):('Buscar «'+token+'» en Vocablos');
+    return '<a class="text-word '+(word?'found':'lookup')+'" href="'+esc(href)+'" title="'+esc(title)+'">'+esc(token)+'</a>';
+  }
+  function translationHTML(paragraph){
+    const content=String(paragraph?.traduccion??'');
+    const explicit=new Map();
+    for(const ref of (paragraph?.enlaces||[])){
+      if(Number.isInteger(ref.indice)&&ref.indice>=0&&typeof ref.vocablo_id==='string')explicit.set(ref.indice,ref.vocablo_id);
+    }
+    const pieces=[];let cursor=0,position=0;
+    for(const match of content.matchAll(wordPattern)){
+      pieces.push(esc(content.slice(cursor,match.index)));
+      pieces.push(linkWord(match[0],position,explicit));
+      cursor=match.index+match[0].length;position++;
+    }
+    pieces.push(esc(content.slice(cursor)));
+    return pieces.join('');
+  }
+  function metadataHTML(t){
+    const fields=[['Idioma original',t.idioma_original],['Autor',t.autor],['Traducción',t.traductor],['Fuente',t.fuente],['Licencia',t.licencia]];
+    return fields.filter(x=>x[1]).map(x=>'<span><strong>'+esc(x[0])+':</strong> '+esc(x[1])+'</span>').join('');
+  }
+  function textHTML(t){
+    const originalTitle=t.titulo_original&&t.titulo_original!==t.titulo?'<p class="text-original-title">'+esc(t.titulo_original)+'</p>':'';
+    const pairs=(Array.isArray(t.parrafos)?t.parrafos:[]).map(p=>'<div class="parallel-line"><section class="text-lane"><h3 class="lane-title">Original</h3><p class="text-prose">'+esc(p.original??'')+'</p></section><section class="text-lane"><h3 class="lane-title">Conlang</h3><p class="text-prose">'+translationHTML(p)+'</p></section></div>').join('');
+    const note=t.notas?'<p class="text-note">'+esc(t.notas)+'</p>':'';
+    return '<article class="text-article" id="'+esc(t.id)+'"><div class="text-header"><h2>'+esc(t.titulo||t.titulo_original||'Sin título')+'</h2>'+originalTitle+'<div class="text-meta">'+metadataHTML(t)+'</div>'+note+'</div>'+(pairs||'<div class="texts-empty">Este texto aún no tiene pasajes registrados.</div>')+'</article>';
+  }
+  function emptyHTML(filtered){
+    return filtered?'<div class="texts-empty"><h2>Sin resultados</h2><p>No hay textos que coincidan con esa búsqueda.</p></div>':
+    '<div class="texts-empty"><h2>Aún no hay textos publicados</h2><p>La biblioteca está preparada para reunir originales y traducciones al conlang. Cuando se incorpore el primer texto aparecerá aquí, con cada palabra traducida enlazada al repertorio de vocablos.</p><div class="empty-columns"><div class="empty-column"><strong>Texto original</strong>Idioma y redacción de partida</div><div class="empty-column"><strong>Traducción al conlang</strong>Palabras enlazadas al vocabulario</div></div></div>';
+  }
+  function render(){
+    if(!loaded)return;
+    const q=norm(search.value);
+    const subset=texts.filter(t=>!q||norm([t.titulo,t.titulo_original,t.idioma_original,t.autor,t.traductor,t.fuente,...(t.parrafos||[]).flatMap(p=>[p.original,p.traduccion])].join(' ')).includes(q));
+    counter.textContent=subset.length+' texto'+(subset.length===1?'':'s');
+    list.innerHTML=subset.length?subset.map(textHTML).join(''):emptyHTML(texts.length>0);
+  }
+  Promise.all([
+    fetch('textos/index.json').then(r=>{if(!r.ok)throw Error('No se pudo leer la biblioteca');return r.json()}),
+    fetch('lexico/index.json').then(r=>{if(!r.ok)throw Error('No se pudo leer el vocabulario');return r.json()})
+  ]).then(([library,lexicon])=>{
+    texts=Array.isArray(library.textos)?library.textos:[];
+    for(const w of (lexicon.words||[])){
+      if(!w.id||!w.form)continue;
+      byId.set(w.id,w);
+      const key=norm(w.form);
+      if(!byForm.has(key))byForm.set(key,[]);
+      byForm.get(key).push(w);
+    }
+    loaded=true;render();
+    const id=decodeURIComponent(location.hash.slice(1));
+    if(id)document.getElementById(id)?.scrollIntoView({block:'start'});
+  }).catch(err=>{console.error(err);list.innerHTML='<div class="texts-empty"><h2>No se pudo cargar la biblioteca</h2><p>Comprueba que estén disponibles los archivos de textos y el índice del vocabulario.</p></div>';counter.textContent='';});
+  search.addEventListener('input',render);
+})();
+</script>
+</body>
+</html>
