@@ -25,12 +25,14 @@
     .text-meta{display:flex;flex-wrap:wrap;gap:6px 14px;color:var(--muted);font-size:.82rem}
     .text-meta span{overflow-wrap:anywhere}
     .text-note{font-size:.9rem;margin:12px 0 0;color:var(--muted)}
-    .parallel-line{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
-    .parallel-line+.parallel-line{border-top:1px solid var(--line)}
-    .text-lane{min-width:0;padding:20px clamp(16px,3vw,28px)}
-    .text-lane+.text-lane{border-left:1px solid var(--line);background:color-mix(in srgb,var(--paper) 92%,var(--accent) 8%)}
-    .lane-title{margin:0 0 11px;font-size:.73rem;letter-spacing:.07em;text-transform:uppercase;font-weight:800;color:var(--muted)}
-    .text-prose{margin:0;font-size:1.08rem;line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere}
+    .parallel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+    .parallel>*{min-width:0;padding:7px clamp(16px,3vw,28px)}
+    .parallel .tr{background:color-mix(in srgb,var(--paper) 92%,var(--accent) 8%);border-left:1px solid var(--line)}
+    .parallel .src,.parallel .tr{margin:0;font-size:1.02rem;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere}
+    .parallel .src{color:color-mix(in srgb,var(--ink) 80%,var(--muted))}
+    .parallel .row-first{padding-top:12px}.parallel .row-last{padding-bottom:14px}
+    .text-prose{margin:0}
+    .parallel .lane-head,.parallel .lane-head.tr{padding-top:12px;padding-bottom:6px;font-size:.7rem;letter-spacing:.07em;text-transform:uppercase;font-weight:800;color:var(--muted);border-bottom:1px solid var(--line)}
     .text-prose a.text-word{color:inherit;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:1.4px;text-underline-offset:4px;border-radius:3px}
     .text-prose a.text-word.lookup{text-decoration-style:dotted}
     .text-prose a.text-word:hover,.text-prose a.text-word:focus-visible{color:var(--accent);background:rgba(67,56,202,.09);outline:2px solid transparent}
@@ -41,7 +43,7 @@
     .texts-empty .empty-columns{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:21px}
     .texts-empty .empty-column{padding:15px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);font-size:.83rem}
     .texts-empty .empty-column strong{display:block;color:var(--ink);margin-bottom:5px}
-    @media(max-width:720px){.parallel-line{grid-template-columns:minmax(0,1fr)}.text-lane+.text-lane{border-left:0;border-top:1px dashed var(--line)}.text-lane{padding:16px}.text-header{padding:18px 16px}.texts-empty .empty-columns{grid-template-columns:1fr}}
+    @media(max-width:720px){.parallel{grid-template-columns:minmax(0,1fr)}.parallel .lane-head{display:none}.parallel .tr{border-left:0;padding-top:0;padding-bottom:12px}.parallel .src{font-size:.9rem;padding-bottom:2px}.parallel .src.row-first{padding-top:12px}.text-header{padding:18px 16px}.texts-empty .empty-columns{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -118,12 +120,13 @@
     return pieces.join('');
   }
   function metadataHTML(t){
-    const fields=[['Idioma original',t.idioma_original],['Autor',t.autor],['Traducción',t.traductor],['Fuente',t.fuente],['Licencia',t.licencia]];
+    const fields=[['Autor',t.autor],['Traducción',t.traductor],['Fuente',t.fuente],['Licencia',t.licencia]];
     return fields.filter(x=>x[1]).map(x=>'<span><strong>'+esc(x[0])+':</strong> '+esc(x[1])+'</span>').join('');
   }
   function textHTML(t){
     const originalTitle=t.titulo_original&&t.titulo_original!==t.titulo?'<p class="text-original-title">'+esc(t.titulo_original)+'</p>':'';
-    const pairs=(Array.isArray(t.parrafos)?t.parrafos:[]).map(p=>'<div class="parallel-line"><section class="text-lane"><h3 class="lane-title">Original</h3><p class="text-prose">'+esc(p.original??'')+'</p></section><section class="text-lane"><h3 class="lane-title">Conlang</h3><p class="text-prose">'+translationHTML(p)+'</p></section></div>').join('');
+    const ps=Array.isArray(t.parrafos)?t.parrafos:[];
+    const pairs=ps.length?'<div class="parallel"><div class="lane-head">'+esc(t.idioma_original||'Original')+'</div><div class="lane-head tr">Traducción</div>'+ps.map((p,i)=>{const c=(i===0?' row-first':'')+(i===ps.length-1?' row-last':'');return '<p class="src text-prose'+c+'">'+esc(p.original??'')+'</p><p class="tr text-prose'+c+'">'+translationHTML(p)+'</p>'}).join('')+'</div>':'';
     const note=t.notas?'<p class="text-note">'+esc(t.notas)+'</p>':'';
     return '<article class="text-article" id="'+esc(t.id)+'"><div class="text-header"><h2>'+esc(t.titulo||t.titulo_original||'Sin título')+'</h2>'+originalTitle+'<div class="text-meta">'+metadataHTML(t)+'</div>'+note+'</div>'+(pairs||'<div class="texts-empty">Este texto aún no tiene pasajes registrados.</div>')+'</article>';
   }
