@@ -7,7 +7,16 @@
       "id": "root-n",
       "form": "*N-",
       "gloss": "no",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -38,8 +47,12 @@
       "gloss": "nacer",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-insp",
+          "label": "Inspirada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "N",
@@ -352,7 +365,16 @@
       "id": "root-na-v",
       "form": "*NA-V",
       "gloss": "navegar, nadar ⭐",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -699,7 +721,16 @@
       "id": "root-naf",
       "form": "*NAF-",
       "gloss": "nueve",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -1036,7 +1067,16 @@
       "id": "root-nark",
       "form": "*NARK-",
       "gloss": "narcotico",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-tek",
+          "label": "Tecnica"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -1205,22 +1245,19 @@
       ]
     },
     {
-      "id": "root-ne",
-      "form": "*NE-",
-      "gloss": "dentro",
-      "tags": [],
-      "letter": "N",
-      "section": "sec-n",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": []
-    },
-    {
       "id": "root-ne-prem",
       "form": "*NE-PREM-",
       "gloss": "absolutamente",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-tek",
+          "label": "Tecnica"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": "< Eo. nepre; ruso nepreménno.",
@@ -1315,7 +1352,16 @@
       "id": "root-ne-v",
       "form": "*NE-V-",
       "gloss": "nieve",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": "< Eo. neĝo «nieve».",
@@ -1546,7 +1592,16 @@
       "id": "root-nep",
       "form": "*NEP-",
       "gloss": "nieto",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -1683,7 +1738,16 @@
       "id": "root-nes",
       "form": "*NES-",
       "gloss": "nido",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -1838,7 +1902,16 @@
       "id": "root-ninf",
       "form": "*NINF-",
       "gloss": "ninfa",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-nom",
+          "label": "Nominal"
+        },
+        {
+          "class": "griego",
+          "label": "Griego"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -1876,7 +1949,16 @@
       "id": "root-noc",
       "form": "*NOC-",
       "gloss": "noche",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -2107,6 +2189,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "N",
@@ -2232,6 +2318,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "N",
@@ -2264,7 +2354,16 @@
       "id": "root-nom",
       "form": "*NOM-",
       "gloss": "nombrar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -2543,7 +2642,16 @@
       "id": "root-northeta",
       "form": "*NORΘ-",
       "gloss": "norte",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -2720,7 +2828,16 @@
       "id": "root-nos",
       "form": "*NOS-",
       "gloss": "nariz",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -2774,7 +2891,16 @@
       "id": "root-not",
       "form": "*NOT-",
       "gloss": "nota",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -2837,7 +2963,16 @@
       "id": "root-noc-2",
       "form": "*NOĈ-",
       "gloss": "indentacion",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -2945,6 +3080,10 @@
         {
           "class": "nat-mod",
           "label": "Modificada"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "N",
@@ -3498,6 +3637,10 @@
       "gloss": "casarse",
       "tags": [
         {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
           "class": "latin",
           "label": "Latin"
         }
@@ -3782,7 +3925,16 @@
       "id": "root-nub-2",
       "form": "*NUB-",
       "gloss": "nube",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": null,
@@ -3890,6 +4042,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "N",
@@ -4108,7 +4264,16 @@
       "id": "root-nur-2",
       "form": "*NUR-",
       "gloss": "cuerda",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-red",
+          "label": "Reducida"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": "< Eo. ŝnuro.",
@@ -4171,7 +4336,16 @@
       "id": "root-nus",
       "form": "*NUŜ-",
       "gloss": "nuez",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "N",
       "section": "sec-n",
       "etymology": "< Eo. nukso.",
@@ -4261,8 +4435,12 @@
       "gloss": "desnudo",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "N",
