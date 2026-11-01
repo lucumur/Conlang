@@ -82,26 +82,36 @@
   const wordPattern=/[\p{L}\p{M}\p{N}]+(?:[’'-][\p{L}\p{M}\p{N}]+)*/gu;
   let texts=[],byForm=new Map(),byId=new Map(),loaded=false;
 
-  function linkWord(token,position,explicit){
+  function linkWord(token,position,explicit,plain){
+    if(plain.has(position)){
+      return '<span class="text-proper" title="'+esc(plain.get(position))+'">'+esc(token)+'</span>';
+    }
     const lookup='vocablos.html?q='+encodeURIComponent(token);
-    const requested=explicit.get(position);
+    const ref=explicit.get(position);
+    const requested=ref?.vocablo_id;
     const chosen=requested?byId.get(requested):null;
     const candidates=byForm.get(norm(token))||[];
     const word=chosen||(!requested&&candidates.length===1?candidates[0]:null);
-    const href=word?'vocablos.html#'+encodeURIComponent(word.id):lookup;
-    const title=word?(word.form+' — '+word.gloss):('Buscar «'+token+'» en Vocablos');
-    return '<a class="text-word '+(word?'found':'lookup')+'" href="'+esc(href)+'" title="'+esc(title)+'">'+esc(token)+'</a>';
+    const href=(word||requested)?'vocablos.html#'+encodeURIComponent(word?.id||requested):lookup;
+    const note=ref?.nota?String(ref.nota):'';
+    const label=word?(norm(token)===norm(word.form)?word.form:token+' → '+word.form)+' — '+word.gloss:('Buscar «'+token+'» en Vocablos');
+    const title=label+(note?' · '+note:'');
+    return '<a class="text-word '+(word||requested?'found':'lookup')+'" href="'+esc(href)+'" title="'+esc(title)+'">'+esc(token)+'</a>';
   }
   function translationHTML(paragraph){
     const content=String(paragraph?.traduccion??'');
     const explicit=new Map();
     for(const ref of (paragraph?.enlaces||[])){
-      if(Number.isInteger(ref.indice)&&ref.indice>=0&&typeof ref.vocablo_id==='string')explicit.set(ref.indice,ref.vocablo_id);
+      if(Number.isInteger(ref.indice)&&ref.indice>=0&&typeof ref.vocablo_id==='string')explicit.set(ref.indice,ref);
+    }
+    const plain=new Map();
+    for(const item of (paragraph?.sin_enlace||[])){
+      if(Number.isInteger(item.indice)&&item.indice>=0)plain.set(item.indice,String(item.motivo||'Nombre propio'));
     }
     const pieces=[];let cursor=0,position=0;
     for(const match of content.matchAll(wordPattern)){
       pieces.push(esc(content.slice(cursor,match.index)));
-      pieces.push(linkWord(match[0],position,explicit));
+      pieces.push(linkWord(match[0],position,explicit,plain));
       cursor=match.index+match[0].length;position++;
     }
     pieces.push(esc(content.slice(cursor)));
