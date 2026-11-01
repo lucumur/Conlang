@@ -718,8 +718,12 @@
       "gloss": "lagrima",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
         }
       ],
       "letter": "L",
@@ -1155,7 +1159,16 @@
       "id": "root-latv",
       "form": "*LATV-",
       "gloss": "letonia",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-nom",
+          "label": "Nominal"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": null,
@@ -1520,7 +1533,16 @@
       "id": "root-laz",
       "form": "*LAZ-",
       "gloss": "enlace",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": null,
@@ -1608,7 +1630,16 @@
       "id": "root-laz-2",
       "form": "*LAẐ-",
       "gloss": "cansarse",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": "< Eo. laca.",
@@ -2075,8 +2106,12 @@
       "gloss": "elegir",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "iberico",
+          "label": "Iberico"
         }
       ],
       "letter": "L",
@@ -2246,8 +2281,12 @@
       "gloss": "estudiar, aprender",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-refor",
+          "label": "Reformada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "L",
@@ -2444,7 +2483,16 @@
       "id": "root-letv",
       "form": "*LETV-",
       "gloss": "Lituania",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-nom",
+          "label": "Nominal"
+        },
+        {
+          "class": "eslavo",
+          "label": "Eslavo"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": null,
@@ -2676,8 +2724,12 @@
       "gloss": "acostarse",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "L",
@@ -4128,7 +4180,16 @@
       "id": "root-lok",
       "form": "*LOK-",
       "gloss": "poner",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": null,
@@ -4256,7 +4317,16 @@
       "id": "root-long",
       "form": "*LON-G",
       "gloss": "largo, alargado, elongado",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": "< Eo. longa.",
@@ -4441,7 +4511,16 @@
       "id": "root-lont",
       "form": "*LONT-",
       "gloss": "lejos",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": null,
@@ -4588,8 +4667,12 @@
       "gloss": "señor",
       "tags": [
         {
-          "class": "nova",
-          "label": "Nova"
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "L",
@@ -5111,7 +5194,16 @@
       "id": "root-log",
       "form": "*LOĜ-",
       "gloss": "habitar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": "< Eo. loĝi.",
@@ -5322,7 +5414,16 @@
       "id": "root-loz",
       "form": "*LOẐ-",
       "gloss": "aflojar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-mod",
+          "label": "Modificada"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": null,
@@ -5411,6 +5512,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "L",
@@ -5443,7 +5548,16 @@
       "id": "root-lud",
       "form": "*LUD-",
       "gloss": "jugar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": null,
@@ -5758,6 +5872,10 @@
         {
           "class": "nova",
           "label": "Nova"
+        },
+        {
+          "class": "anglo",
+          "label": "Anglo"
         }
       ],
       "letter": "L",
@@ -5844,27 +5962,33 @@
       ]
     },
     {
-      "id": "root-luk",
-      "form": "*LUK-",
+      "id": "root-lug",
+      "form": "*LUG-",
       "gloss": "seducir, atraer",
       "tags": [
         {
-          "class": "nat-mod",
-          "label": "Modificada"
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "germanico",
+          "label": "Germanico"
         }
       ],
       "letter": "L",
       "section": "sec-l",
       "etymology": "< Eo. logi, loki.",
-      "notes": [],
+      "notes": [
+        "Antes *LUK-; forma canónica actual *LUG-."
+      ],
       "row_class": "",
       "words": [
         {
-          "id": "lexeme-lukas",
-          "form": "lukas",
+          "id": "lexeme-lugas",
+          "form": "lugas",
           "gloss": "atraer (mediante estimulo o señuelo)",
-          "analysis_html": "LUK + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "LUK + -AS",
+          "analysis_html": "LUG + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "LUG + -AS",
           "refs": [
             {
               "id": "morph-as",
@@ -5884,11 +6008,11 @@
           "notes": []
         },
         {
-          "id": "lexeme-alukilas",
-          "form": "alukilas",
+          "id": "lexeme-alugilas",
+          "form": "alugilas",
           "gloss": "atraer con señuelo, tentar con algo",
-          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + LUK + IL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "A (pendiente) + LUK + IL (pendiente) + -AS",
+          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + LUG + IL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A (pendiente) + LUG + IL (pendiente) + -AS",
           "refs": [
             {
               "id": "morph-as",
@@ -5909,11 +6033,11 @@
           "notes": []
         },
         {
-          "id": "lexeme-alukila",
-          "form": "alukila",
+          "id": "lexeme-alugila",
+          "form": "alugila",
           "gloss": "tentación",
-          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + LUK + IL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "A (pendiente) + LUK + IL (pendiente) + -A",
+          "analysis_html": "A <span class=\"meta-extra\">(pendiente)</span> + LUG + IL <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "A (pendiente) + LUG + IL (pendiente) + -A",
           "refs": [
             {
               "id": "morph-a-2",
@@ -5939,7 +6063,16 @@
       "id": "root-lum",
       "form": "*LUM-",
       "gloss": "iluminar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": "< Eo. lumo.",
@@ -6052,7 +6185,16 @@
       "id": "root-lumb",
       "form": "*LUMB-",
       "gloss": "lumbar",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": null,
@@ -6156,7 +6298,16 @@
       "id": "root-lun",
       "form": "*LUN-",
       "gloss": "luna",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": "< Eo. luno.",
@@ -6305,7 +6456,16 @@
       "id": "root-lup",
       "form": "*LUP-",
       "gloss": "lobo",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": "< Eo. lupo.",
@@ -6511,7 +6671,16 @@
       "id": "root-lus",
       "form": "*LUS-",
       "gloss": "pulga",
-      "tags": [],
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
       "letter": "L",
       "section": "sec-l",
       "etymology": "< Eo. laŭso.",
