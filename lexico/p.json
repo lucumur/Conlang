@@ -5790,9 +5790,14 @@
           "id": "lexeme-platen",
           "form": "pjato",
           "gloss": "plano, suelo",
-          "analysis_html": "PLAT + EN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "PLAT + EN (pendiente)",
-          "refs": [],
+          "analysis_html": "PJAT + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "PJAT + -O",
+          "refs": [
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -5806,8 +5811,8 @@
           "id": "lexeme-vasxplatko",
           "form": "vakspjo",
           "gloss": "tablilla de cera",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-vas\">VAKS</a> + PLAT + K <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "VAKS + PLAT + K (pendiente) + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-vas\">VAKS</a> + PJA <span class=\"meta-extra\">(reducida a PJ-)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "VAKS + PJA (reducida a PJ-) + -O",
           "refs": [
             {
               "id": "root-vas",
@@ -5831,9 +5836,18 @@
           "id": "lexeme-platopon",
           "form": "pjafaẑor",
           "gloss": "de cara chata",
-          "analysis_html": "PLAT + OPON <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "PLAT + OPON (pendiente)",
-          "refs": [],
+          "analysis_html": "PJA + <a class=\"morph-link\" href=\"#root-faz\">FAẐ</a> + <a class=\"morph-link\" href=\"#morph-or\">-OR</a>",
+          "analysis_text": "PJA + FAẐ + -OR",
+          "refs": [
+            {
+              "id": "root-faz",
+              "label": "FAẐ"
+            },
+            {
+              "id": "morph-or",
+              "label": "-OR"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
@@ -5847,8 +5861,8 @@
           "id": "lexeme-plater",
           "form": "pjater",
           "gloss": "plano",
-          "analysis_html": "PLAT + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
-          "analysis_text": "PLAT + -ER",
+          "analysis_html": "PJAT + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "PJAT + -ER",
           "refs": [
             {
               "id": "morph-er",
@@ -5868,9 +5882,13 @@
           "id": "lexeme-plateas",
           "form": "apjatas",
           "gloss": "aplanar",
-          "analysis_html": "PLAT + E <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "PLAT + E (pendiente) + -AS",
+          "analysis_html": "<a class=\"morph-link\" href=\"#morph-a\">A-</a> + PJAT + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "A- + PJAT + -AS",
           "refs": [
+            {
+              "id": "morph-a",
+              "label": "A-"
+            },
             {
               "id": "morph-as",
               "label": "-AS"
