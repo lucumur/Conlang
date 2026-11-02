@@ -305,7 +305,8 @@
     '.ce-chips input{flex:1 1 140px;border:0!important;padding:3px 4px!important;outline:0!important}',
     '.ce-chip{display:inline-flex;align-items:center;gap:4px;padding:2px 4px 2px 9px;border-radius:999px;background:#ece9e2;font-size:.82rem;font-weight:600}',
     '.ce-chip button{border:0;background:none;cursor:pointer;color:var(--muted);font-size:.95rem;line-height:1;padding:0 3px}',
-    '.ce-segs{display:grid;gap:6px}.ce-seg{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto auto;gap:6px;align-items:center}',
+    '.ce-segs{display:grid;gap:6px}.ce-seg{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto auto auto;gap:6px;align-items:center}',
+    '.ce-main{font-size:.78rem;color:var(--muted);white-space:nowrap;cursor:pointer}.ce-main.on{color:#b45309;font-weight:800}.ce-move{color:#b45309!important;font-weight:700}',
     '.ce-seg .ce-link{font-size:.72rem;color:var(--muted);white-space:nowrap;max-width:190px;overflow:hidden;text-overflow:ellipsis}.ce-seg .ce-link.linked{color:var(--accent);font-weight:700}',
     '.ce-pick{max-width:190px;font:inherit;font-size:.74rem;padding:3px 4px;border:1px solid var(--accent);border-radius:7px;background:#fff;color:var(--accent)}',
     '.ce-seg input.ce-linked{border-color:var(--accent)!important;background:#f5f6ff!important}',
@@ -331,7 +332,7 @@
     '.bt .bt-an{min-width:170px;padding:7px 8px;color:var(--muted);font-size:.8rem}.bt .bt-an button{margin-left:4px}',
     '.bt-foot{position:sticky;bottom:12px;z-index:5;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--paper);box-shadow:0 8px 24px rgba(30,27,22,.12)}.bt-status{flex:1;color:var(--muted);font-size:.86rem}.bt-status.bad{color:#b42318;font-weight:700}',
     '.bt-hint{margin:8px 0 0;color:var(--muted);font-size:.78rem}',
-    '@media(max-width:560px){.ce-seg{grid-template-columns:minmax(0,1fr) auto auto auto}.ce-seg .ce-link{display:none}}'
+    '@media(max-width:560px){.ce-seg{grid-template-columns:minmax(0,1fr) auto auto auto auto}.ce-seg .ce-link{display:none}}'
   ].join('\n');
 
   function el(tag, attrs, kids) {
@@ -520,7 +521,10 @@
   }
 
   /* Constructor de análisis: segmentos enlazables a morfemas, raíces y vocablos, o HTML libre. */
-  function analysisEditor(word, defaultFirst, idx) {
+  /* ownerId: raíz en cuyo archivo vive (o vivirá) el vocablo. Por convención su segmento va como texto
+     sin enlace. Un segmento enlazado a otra raíz puede marcarse como «principal» (★): al guardar, el
+     vocablo se archiva en esa raíz y el segmento de la raíz anterior pasa a enlazarse explícitamente. */
+  function analysisEditor(word, defaultFirst, idx, ownerId) {
     var refOpts = [], refInfo = {};
     (idx.morphemes || []).forEach(function (m) { var l = bare(m.form); refInfo[m.id] = { label: l, gloss: m.gloss, kind: 'morfema' }; refOpts.push(l + '  ·  ' + m.gloss + '  [' + m.id + ']'); });
     (idx.roots || []).forEach(function (r) { var l = rootLabel(r.form); refInfo[r.id] = { label: l, gloss: r.gloss, kind: 'raíz' }; refOpts.push(l + '  ·  ' + r.gloss + '  [' + r.id + ']'); });
@@ -538,6 +542,19 @@
     var parsed = orig ? parseAnalysis(orig.analysis_html) : { segs: defaultFirst ? [{ ref: null, text: defaultFirst, q: false }] : [], pend: false };
     var mode = parsed && (!orig || segsHTML(parsed.segs, parsed.pend) === orig.analysis_html) ? 'seg' : 'html';
     var segs = parsed ? parsed.segs : [], pend = parsed ? parsed.pend : false, dirty = false;
+    var principal = ownerId || null, radioName = 'ce-main-' + (++dlCount);
+    var ownerLabel = ownerId && refInfo[ownerId] ? norm(refInfo[ownerId].label) : null;
+    if (ownerLabel) {
+      var implicit = segs.find(function (x) { return !x.ref && norm(x.text) === ownerLabel; });
+      if (implicit) implicit.implicitOwner = true;
+    }
+    function isRootSeg(x) { return x.implicitOwner || (x.ref && refInfo[x.ref] && refInfo[x.ref].kind === 'raíz'); }
+    function setPrincipal(id) {
+      if (id === principal) return;
+      principal = id;
+      segs.forEach(function (x) { if (x.implicitOwner) x.ref = principal === ownerId ? null : ownerId; });
+      dirty = true; render();
+    }
     var box = el('div', { class: 'ce-field' }), segWrap = el('div', { class: 'ce-segs' }), preview = el('div', { class: 'ce-preview' });
     var htmlBox = textArea(orig ? orig.analysis_html : '', { class: 'ce-mono', rows: 3 });
     var pendBox = el('input', { type: 'checkbox' }); pendBox.checked = pend;
@@ -583,12 +600,20 @@
         }
         dirty = true; showLink(); update();
       });
+      var main = el('span');
+      if (isRootSeg(s)) {
+        var segRoot = s.implicitOwner ? ownerId : s.ref;
+        var rb = el('input', { type: 'radio', name: radioName, title: 'Raíz principal: el vocablo se archiva y aparece en la ficha de esta raíz' });
+        rb.checked = segRoot === principal;
+        rb.addEventListener('change', function () { if (rb.checked) setPrincipal(segRoot); });
+        main = el('label', { class: 'ce-main' + (rb.checked ? ' on' : '') }, [rb, ' ★']);
+      }
       var q = el('input', { type: 'checkbox', title: 'Dudoso (?)' }); q.checked = s.q;
       q.addEventListener('change', function () { s.q = q.checked; dirty = true; update(); });
       showLink();
-      return el('div', { class: 'ce-seg' }, [inp, el('span', {}, [link, pick]), el('label', {}, [q, ' ?']),
+      return el('div', { class: 'ce-seg' }, [inp, el('span', {}, [link, pick]), main, el('label', {}, [q, ' ?']),
         el('button', { type: 'button', class: 'ce-ico', title: 'Subir', text: '↑', onclick: function () { if (i > 0) { segs.splice(i - 1, 0, segs.splice(i, 1)[0]); dirty = true; render(); } } }),
-        el('button', { type: 'button', class: 'ce-ico', title: 'Quitar', text: '×', onclick: function () { segs.splice(i, 1); dirty = true; render(); } })]);
+        el('button', { type: 'button', class: 'ce-ico', title: 'Quitar', text: '×', onclick: function () { var gone = segs.splice(i, 1)[0]; if (gone.ref === principal && principal !== ownerId) principal = ownerId; dirty = true; render(); } })]);
     }
     function render() {
       box.innerHTML = '';
@@ -602,6 +627,8 @@
           el('button', { type: 'button', text: 'Editar como HTML', onclick: function () { htmlBox.value = segsHTML(segs, pend); mode = 'html'; render(); } })
         ]));
         box.appendChild(el('small', { text: 'Escribe un morfema (p. ej. -AR) y se enlaza solo al salir del campo; para raíces y vocablos, elige la opción de la lista (con identificador). Si hay varias coincidencias aparece un selector. Lo demás queda como texto.' }));
+        if (ownerId) box.appendChild(el('small', { text: '★ marca la raíz principal: el vocablo se archiva en esa raíz y aparece en su ficha. Para elegir otra raíz del compuesto, enlaza su segmento a la raíz (desde la lista) y márcala.' }));
+        if (principal && principal !== ownerId) box.appendChild(el('small', { class: 'ce-move', text: 'Al guardar, el vocablo pasará de ' + (refInfo[ownerId] ? refInfo[ownerId].label : ownerId) + ' a ' + (refInfo[principal] ? refInfo[principal].label : principal) + '.' }));
       } else {
         box.appendChild(htmlBox);
         box.appendChild(el('div', { class: 'ce-linkrow' }, [
@@ -616,7 +643,7 @@
       box.appendChild(preview); update();
     }
     render();
-    return { el: box, get: function () { return (!dirty && orig) ? orig : analysisFromHTML(currentHTML()); } };
+    return { el: box, get: function () { return (!dirty && orig) ? orig : analysisFromHTML(currentHTML()); }, principal: function () { return principal; } };
   }
 
   /* Diálogo genérico */
@@ -794,7 +821,7 @@
         var fForm = textInput(w ? w.form : '', { class: 'ce-mono', required: true });
         var fEmoji = emojiPicker(w ? w.emoji : '');
         var fGloss = textInput(w ? w.gloss : '', { required: true });
-        var an = analysisEditor(w, root ? rootLabel(root.form) : '', idx), anSlot = el('div', {}, [an.el]);
+        var an = analysisEditor(w, root ? rootLabel(root.form) : '', idx, rootId || null), anSlot = el('div', {}, [an.el]);
         var fSem = chipInput(w ? w.semantic_fields || [] : [], Object.keys(fields).sort(coll.compare), 'Campo semántico (Enter para añadir)');
         var fTags = chipInput(w ? labels(w.tags) : [], Object.keys(wtags).sort(coll.compare), 'Etiqueta (Nominal A, Verbal OS…)');
         var fNotes = textArea(w ? (w.notes || []).join('\n') : '', { rows: 2, placeholder: 'Una nota por línea (p. ej. Pendiente: …)' });
@@ -806,7 +833,7 @@
           fRoot.addEventListener('change', function () {
             var m = fRoot.value.match(/\[([^\]]+)\]\s*$/), r = m && idx.roots.find(function (x) { return x.id === m[1]; });
             chosenRoot = r || null;
-            if (r) { fRoot.value = r.form + '  ·  ' + r.gloss + '  [' + r.id + ']'; an = analysisEditor(null, rootLabel(r.form), idx); anSlot.innerHTML = ''; anSlot.appendChild(an.el); }
+            if (r) { fRoot.value = r.form + '  ·  ' + r.gloss + '  [' + r.id + ']'; an = analysisEditor(null, rootLabel(r.form), idx, r.id); anSlot.innerHTML = ''; anSlot.appendChild(an.el); }
           });
           body.push(field('Raíz', fRoot, 'Elige de la lista.'));
         }
@@ -836,17 +863,21 @@
             if (!gloss) fail('Escribe la glosa.');
             var emoji = fEmoji.get();
             if (!validEmoji(emoji)) fail('El icono debe ser un único emoji Unicode.');
-            var a = an.get(), sem = fSem.get(), tagLabels = fTags.get(), notes = lines(fNotes.value), olds = oldForms(), rid = chosenRoot.id;
+            var a = an.get(), sem = fSem.get(), tagLabels = fTags.get(), notes = lines(fNotes.value), olds = oldForms();
+            var rid = (an.principal && an.principal()) || chosenRoot.id, srcId = isNew ? null : rootId, moving = !isNew && rid !== srcId;
             return transact(function (ctx) {
               return ctx.read('lexico/index.json').then(function (cidx) {
                 var m = cidx.roots.find(function (x) { return x.id === rid; });
                 if (!m) fail('La raíz ya no existe.');
-                var path = 'lexico/' + m.key + '.json';
-                return ctx.read(path).then(function (dd) {
+                var sm = moving ? cidx.roots.find(function (x) { return x.id === srcId; }) : m;
+                if (!sm) fail('La raíz de origen ya no existe.');
+                var path = 'lexico/' + m.key + '.json', spath = 'lexico/' + sm.key + '.json';
+                return Promise.all([ctx.read(path), ctx.read(spath)]).then(function (ds) {
+                  var dd = ds[0], sd = spath === path ? dd : ds[1];
                   var e = dd.entries.find(function (x) { return x.id === rid; });
                   if (!e) fail('La raíz ya no existe.');
                   e.words = e.words || [];
-                  var files = {}; files[path] = dd;
+                  var files = {}; files[path] = dd; files[spath] = sd;
                   if (isNew) {
                     var taken = new Set(cidx.words.map(function (x) { return x.id; }).concat(e.words.map(function (x) { return x.id; })));
                     var nw = { id: uniqueId('lexeme-' + slug(form), taken), form: form, gloss: gloss,
@@ -855,16 +886,23 @@
                     if (emoji) nw.emoji = emoji;
                     if (olds.length) nw.formas_antiguas = olds;
                     e.words.push(nw);
-                    return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: rootId ? reload : goRoot(rid) };
+                    return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: rootId && rid === rootId ? reload : goRoot(rid) };
                   }
-                  var x = e.words.find(function (y) { return y.id === wordId; });
-                  if (!x) fail('El vocablo ya no existe.');
+                  var se = sd.entries.find(function (x) { return x.id === srcId; });
+                  if (!se) fail('La raíz de origen ya no existe.');
+                  var xi = (se.words || []).findIndex(function (y) { return y.id === wordId; });
+                  if (xi < 0) fail('El vocablo ya no existe.');
+                  var x = se.words[xi];
                   var before = JSON.stringify(x);
                   x.form = form; x.gloss = gloss;
                   x.analysis_html = a.analysis_html; x.analysis_text = a.analysis_text; x.refs = a.refs;
                   x.tags = tagsFrom(tagLabels, x.tags); x.semantic_fields = sem; x.notes = notes;
                   if (emoji) x.emoji = emoji; else delete x.emoji;
                   if (olds.length) x.formas_antiguas = olds; else delete x.formas_antiguas;
+                  if (moving) {
+                    se.words.splice(xi, 1); e.words.push(x);
+                    return { files: files, message: 'Vocablo: ' + form + ' pasa de ' + se.form + ' a ' + e.form + ' (raíz principal)', after: goRoot(rid) };
+                  }
                   if (JSON.stringify(x) === before) fail('No hay cambios que guardar.');
                   return { files: files, message: 'Vocablo: editar ' + form + ' (' + e.form + ')', after: reload };
                 });
