@@ -5788,7 +5788,7 @@
       "words": [
         {
           "id": "lexeme-platen",
-          "form": "platen",
+          "form": "pjato",
           "gloss": "plano, suelo",
           "analysis_html": "PLAT + EN <span class=\"meta-extra\">(pendiente)</span>",
           "analysis_text": "PLAT + EN (pendiente)",
@@ -5796,7 +5796,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Nomen O"
             }
           ],
           "semantic_fields": [],
@@ -5804,7 +5804,7 @@
         },
         {
           "id": "lexeme-vasxplatko",
-          "form": "vaksplatko",
+          "form": "vakspjo",
           "gloss": "tablilla de cera",
           "analysis_html": "<a class=\"morph-link\" href=\"#root-vas\">VAKS</a> + PLAT + K <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
           "analysis_text": "VAKS + PLAT + K (pendiente) + -O",
@@ -5822,10 +5822,6 @@
             {
               "class": "generic",
               "label": "Nominal O"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
             }
           ],
           "semantic_fields": [],
@@ -5833,7 +5829,7 @@
         },
         {
           "id": "lexeme-platopon",
-          "form": "platopon",
+          "form": "pjafaẑor",
           "gloss": "de cara chata",
           "analysis_html": "PLAT + OPON <span class=\"meta-extra\">(pendiente)</span>",
           "analysis_text": "PLAT + OPON (pendiente)",
@@ -5841,7 +5837,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Participio OR"
             }
           ],
           "semantic_fields": [],
@@ -5849,7 +5845,7 @@
         },
         {
           "id": "lexeme-plater",
-          "form": "plater",
+          "form": "pjater",
           "gloss": "plano",
           "analysis_html": "PLAT + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
           "analysis_text": "PLAT + -ER",
@@ -5863,10 +5859,6 @@
             {
               "class": "generic",
               "label": "Adjetivo ER"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
             }
           ],
           "semantic_fields": [],
@@ -5874,7 +5866,7 @@
         },
         {
           "id": "lexeme-plateas",
-          "form": "plateas",
+          "form": "apjatas",
           "gloss": "aplanar",
           "analysis_html": "PLAT + E <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
           "analysis_text": "PLAT + E (pendiente) + -AS",
@@ -5887,11 +5879,11 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado AS"
+              "label": "Verbal AS"
             },
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Verbal Causativo"
             }
           ],
           "semantic_fields": [],
