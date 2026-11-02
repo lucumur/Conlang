@@ -3155,45 +3155,6 @@
           "notes": []
         },
         {
-          "id": "lexeme-gisgere",
-          "form": "gisĝere",
-          "gloss": "hierro fundido, hierro colado",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-gis\">GIS</a> + <a class=\"morph-link\" href=\"#root-ger-2\">ĜER</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
-          "analysis_text": "GIS + ĜER + -E",
-          "refs": [
-            {
-              "id": "root-gis",
-              "label": "GIS"
-            },
-            {
-              "id": "root-ger-2",
-              "label": "ĜER"
-            },
-            {
-              "id": "morph-e",
-              "label": "-E"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Compuesto"
-            },
-            {
-              "class": "generic",
-              "label": "Incontable E"
-            }
-          ],
-          "semantic_fields": [
-            "metales",
-            "materiales",
-            "metalurgia"
-          ],
-          "notes": [
-            "Paralelo al Eo. gisfero y al al. Gusseisen."
-          ]
-        },
-        {
           "id": "lexeme-gisgeredal",
           "form": "gisĝeredal",
           "gloss": "fundidora, fundición (taller)",
