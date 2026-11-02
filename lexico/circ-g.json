@@ -1074,50 +1074,6 @@
           "notes": []
         },
         {
-          "id": "lexeme-plagero",
-          "form": "ĝerpjatar",
-          "gloss": "plancha",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-ger-2\">ĜER</a> + <a class=\"morph-link\" href=\"#root-plat\">PJA-T</a> + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
-          "analysis_text": "ĜER + PJA-T + -AR",
-          "refs": [
-            {
-              "id": "root-ger-2",
-              "label": "ĜER"
-            },
-            {
-              "id": "root-plat",
-              "label": "PJA-T"
-            },
-            {
-              "id": "morph-ar-2",
-              "label": "-AR"
-            }
-          ],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Compuesto"
-            },
-            {
-              "class": "generic",
-              "label": "Nominal O"
-            }
-          ],
-          "semantic_fields": [
-            "hogar",
-            "herramientas",
-            "ropa"
-          ],
-          "notes": [
-            "literalmente \"planchador de hierro\""
-          ],
-          "formas_antiguas": [
-            {
-              "form": "plaĝero (antes de que plat se volviese pja-t)"
-            }
-          ]
-        },
-        {
           "id": "lexeme-gerce",
           "form": "ĝerce",
           "gloss": "herrajes",
