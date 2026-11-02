@@ -459,30 +459,23 @@
         },
         {
           "id": "lexeme-tabeno",
-          "form": "tabeno",
+          "form": "tafpjo",
           "gloss": "mesa, superficie, escritorio",
-          "analysis_html": "TAB + EN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "TAB + EN (pendiente) + -O",
-          "refs": [
-            {
-              "id": "morph-o",
-              "label": "-O"
-            }
-          ],
+          "analysis_html": "",
+          "analysis_text": "",
+          "refs": [],
           "tags": [
             {
               "class": "generic",
               "label": "Nominal O"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
             }
           ],
-          "semantic_fields": [],
-          "notes": [
-            "Sufijo: *-ENO «objeto plano»."
-          ]
+          "semantic_fields": [
+            "superficie",
+            "objetos de madera",
+            "de letras"
+          ],
+          "notes": []
         },
         {
           "id": "lexeme-tabrenejdo",
