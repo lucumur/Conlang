@@ -1075,18 +1075,22 @@
         },
         {
           "id": "lexeme-plagero",
-          "form": "plaĝero",
+          "form": "ĝerpjatar",
           "gloss": "plancha",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-plat\">PLA</a> <span class=\"meta-extra\">(forma primigenia de *PLA-T)</span> + ĜER + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
-          "analysis_text": "PLA (forma primigenia de *PLA-T) + ĜER + -O",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ger-2\">ĜER</a> + <a class=\"morph-link\" href=\"#root-plat\">PJA-T</a> + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "ĜER + PJA-T + -AR",
           "refs": [
             {
-              "id": "root-plat",
-              "label": "PLA"
+              "id": "root-ger-2",
+              "label": "ĜER"
             },
             {
-              "id": "morph-o",
-              "label": "-O"
+              "id": "root-plat",
+              "label": "PJA-T"
+            },
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
             }
           ],
           "tags": [
@@ -1105,7 +1109,7 @@
             "ropa"
           ],
           "notes": [
-            "Literalmente «hierro plano»."
+            "literalmente \"planchador de hierro\""
           ]
         },
         {
