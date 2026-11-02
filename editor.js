@@ -318,6 +318,19 @@
     '.ce-help{color:var(--muted);font-size:.88rem;margin:0}.ce-help ol{margin:6px 0 0;padding-left:20px}',
     '.ce-toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:9999;padding:10px 16px;border-radius:12px;background:#25231f;color:#fff;font-size:.9rem;box-shadow:0 10px 30px rgba(0,0,0,.25)}',
     '.ce-card-actions{display:flex;gap:6px;margin-top:10px}',
+    '.bt-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px}.bt-tools input,.bt-tools select{padding:5px 9px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.86rem;background:#fff;color:var(--ink)}.bt-tools .bt-filter{flex:1 1 200px;min-width:0}.bt-tools .bt-sep{width:1px;align-self:stretch;background:var(--line);margin:0 4px}.bt-tools .bt-selcount{font-size:.8rem;color:var(--muted)}',
+    '.bt-wrap{overflow:auto;max-height:72vh;border:1px solid var(--line);border-radius:12px;background:#fff}',
+    'table.bt{border-collapse:separate;border-spacing:0;width:100%;min-width:1080px;font-size:.88rem}',
+    '.bt th{position:sticky;top:0;z-index:1;background:#f1eee6;text-align:left;padding:7px 8px;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-bottom:1px solid var(--line);white-space:nowrap}',
+    '.bt td{padding:0;border-bottom:1px solid var(--line);border-right:1px solid #f0ede6;vertical-align:top}.bt tr:last-child td{border-bottom:0}',
+    '.bt input[type=text],.bt textarea{display:block;width:100%;min-height:34px;margin:0;padding:7px 8px;border:0;border-radius:0;background:transparent;color:var(--ink);font:inherit;resize:none;field-sizing:content}',
+    '.bt input[type=text]:focus,.bt textarea:focus{outline:2px solid var(--accent);outline-offset:-2px;background:#f5f6ff}',
+    '.bt tr.sel td{background:#eef2ff}.bt td.dirty{background:#fff4c2}.bt td.bad{box-shadow:inset 0 0 0 2px #e5484d}',
+    '.bt .bt-chk{width:34px;text-align:center;vertical-align:middle}.bt .bt-emoji{width:52px}.bt .bt-emoji input{text-align:center;font-size:1.1rem}',
+    '.bt .bt-form{min-width:130px}.bt .bt-gloss{min-width:220px}.bt .bt-list{min-width:170px}.bt .bt-notes{min-width:220px}',
+    '.bt .bt-an{min-width:170px;padding:7px 8px;color:var(--muted);font-size:.8rem}.bt .bt-an button{margin-left:4px}',
+    '.bt-foot{position:sticky;bottom:12px;z-index:5;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--paper);box-shadow:0 8px 24px rgba(30,27,22,.12)}.bt-status{flex:1;color:var(--muted);font-size:.86rem}.bt-status.bad{color:#b42318;font-weight:700}',
+    '.bt-hint{margin:8px 0 0;color:var(--muted);font-size:.78rem}',
     '@media(max-width:560px){.ce-seg{grid-template-columns:minmax(0,1fr) auto auto auto}.ce-seg .ce-link{display:none}}'
   ].join('\n');
 
@@ -1096,6 +1109,264 @@
     });
   }
 
+  /* ---------- Vocablos de una raíz en tabla (edición en bloque) ----------
+     Todas las modificaciones se guardan en UN commit. Solo se escriben los campos que cambiaste,
+     así que una edición hecha por otro lado en otro campo del mismo vocablo no se pisa. */
+  var BT_KEY = 'conlang-bulk-table';
+  var BT_COLS = [
+    { k: 'emoji', label: 'Emoji', cls: 'bt-emoji' },
+    { k: 'form', label: 'Forma', cls: 'bt-form ce-mono' },
+    { k: 'gloss', label: 'Glosa', cls: 'bt-gloss' },
+    { k: 'fields', label: 'Campos semánticos', cls: 'bt-list', list: true },
+    { k: 'tags', label: 'Etiquetas', cls: 'bt-list', list: true },
+    { k: 'notes', label: 'Notas (una por línea)', cls: 'bt-notes', multi: true }
+  ];
+  function splitList(v) { var out = []; String(v || '').split(',').forEach(function (x) { x = x.trim(); if (x && out.indexOf(x) < 0) out.push(x); }); return out; }
+  function btNorm(k, v) {
+    var c = BT_COLS.find(function (x) { return x.k === k; });
+    if (c.list) return splitList(v).join(', ');
+    if (c.multi) return lines(v).join('\n');
+    return String(v || '').trim();
+  }
+  function btValues(w) {
+    return { emoji: w.emoji || '', form: w.form || '', gloss: w.gloss || '', fields: (w.semantic_fields || []).join(', '),
+      tags: labels(w.tags).join(', '), notes: (w.notes || []).join('\n') };
+  }
+  // TSV como lo copia una hoja de cálculo (celdas con salto de línea van entre comillas).
+  function parseTSV(text) {
+    var rows = [], row = [], cell = '', i = 0, q = false;
+    text = String(text).replace(/\r\n?/g, '\n').replace(/\n$/, '');
+    for (; i < text.length; i++) {
+      var ch = text[i];
+      if (q) { if (ch === '"') { if (text[i + 1] === '"') { cell += '"'; i++; } else q = false; } else cell += ch; }
+      else if (ch === '"' && cell === '') q = true;
+      else if (ch === '\t') { row.push(cell); cell = ''; }
+      else if (ch === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
+      else cell += ch;
+    }
+    row.push(cell); rows.push(row);
+    return rows;
+  }
+
+  function bulkTable(rootId, section, onClose) {
+    return loadIndex().then(function (idx) {
+      var meta = idx.roots.find(function (r) { return r.id === rootId; });
+      if (!meta) throw Error('Raíz no encontrada en el índice');
+      return readJSON('lexico/' + meta.key + '.json', currentRef()).then(function (d) {
+        var root = d.entries.find(function (e) { return e.id === rootId; });
+        if (!root) throw Error('Raíz no encontrada');
+        var fieldSet = {}, tagSet = {};
+        idx.words.forEach(function (x) { (x.semantic_fields || []).forEach(function (f) { fieldSet[f] = 1; }); (x.tags || []).forEach(function (t) { tagSet[t] = 1; }); });
+        var dlF = datalist(Object.keys(fieldSet).sort(coll.compare)), dlT = datalist(Object.keys(tagSet).sort(coll.compare));
+
+        var rows = (root.words || []).map(function (w) { var v = btValues(w); return { id: w.id, word: w, orig: v, cur: Object.assign({}, v), cells: {}, sel: false, tr: null }; });
+        var tbody = el('tbody');
+        var status = el('span', { class: 'bt-status' });
+        var saveBtn = btn('Guardar cambios', null, 'primary');
+        var discardBtn = btn('Descartar', null);
+
+        function changedKeys(r) { return BT_COLS.map(function (c) { return c.k; }).filter(function (k) { return btNorm(k, r.cur[k]) !== btNorm(k, r.orig[k]); }); }
+        function cellProblem(r, k) {
+          var v = btNorm(k, r.cur[k]);
+          if ((k === 'form' || k === 'gloss') && !v) return k === 'form' ? 'forma vacía' : 'glosa vacía';
+          if (k === 'emoji' && !validEmoji(v)) return 'emoji no válido';
+          return null;
+        }
+        function refresh() {
+          var nWords = 0, nCells = 0, bad = 0;
+          rows.forEach(function (r) {
+            var ch = changedKeys(r); if (ch.length) nWords++; nCells += ch.length;
+            BT_COLS.forEach(function (c) {
+              var td = r.cells[c.k].parentNode;
+              td.classList.toggle('dirty', ch.indexOf(c.k) >= 0);
+              var p = cellProblem(r, c.k); td.classList.toggle('bad', !!p); td.title = p || '';
+              if (p) bad++;
+            });
+            r.tr.classList.toggle('sel', r.sel);
+          });
+          var nSel = rows.filter(function (r) { return r.sel; }).length;
+          selCount.textContent = nSel ? nSel + ' seleccionados' : 'Sin selección: las acciones aplican a los visibles';
+          status.className = 'bt-status' + (bad ? ' bad' : '');
+          status.textContent = bad ? bad + ' celda(s) con error' : nCells ? nCells + ' cambio(s) en ' + nWords + ' vocablo(s), sin guardar' : 'Sin cambios';
+          saveBtn.disabled = !nCells || !!bad; discardBtn.disabled = !nCells;
+          return nCells;
+        }
+        function visible() { return rows.filter(function (r) { return !r.tr.hidden; }); }
+        function setCell(r, k, v) { r.cur[k] = v; r.cells[k].value = v; if (r.fit && r.fit[k]) r.fit[k](); }
+
+        function move(r, k, dr) {
+          var vis = visible(), i = vis.indexOf(r) + dr;
+          if (i >= 0 && i < vis.length) { vis[i].cells[k].focus(); if (vis[i].cells[k].select) vis[i].cells[k].select(); }
+        }
+        function onPaste(r, ci, e) {
+          var text = (e.clipboardData || window.clipboardData).getData('text');
+          if (!/[\t\n]/.test(text.replace(/\n$/, ''))) return;
+          var m = parseTSV(text);
+          if (m.length === 1 && m[0].length === 1) return;
+          e.preventDefault();
+          var vis = visible(), start = vis.indexOf(r);
+          m.forEach(function (line, dr) {
+            var rr = vis[start + dr]; if (!rr) return;
+            line.forEach(function (val, dc) { var c = BT_COLS[ci + dc]; if (c) setCell(rr, c.k, val); });
+          });
+          if (start + m.length > vis.length) toast('Se pegaron ' + (vis.length - start) + ' de ' + m.length + ' filas (no hay más vocablos visibles).', 4500);
+          refresh();
+        }
+
+        rows.forEach(function (r) {
+          var chk = el('input', { type: 'checkbox', title: 'Seleccionar' });
+          chk.addEventListener('change', function () { r.sel = chk.checked; refresh(); });
+          r.chk = chk;
+          var tds = [el('td', { class: 'bt-chk' }, [chk])];
+          BT_COLS.forEach(function (c, ci) {
+            var inp = c.multi ? textArea(r.cur[c.k], { rows: 1, spellcheck: 'false' })
+              : textInput(r.cur[c.k], c.list ? { list: c.k === 'fields' ? dlF : dlT, placeholder: 'a, b, c' } : {});
+            if (c.k === 'form') inp.classList.add('ce-mono');
+            function fit() { if (!c.multi) return; inp.style.height = ''; if (inp.value.indexOf('\n') >= 0 || inp.scrollHeight > inp.clientHeight + 2) inp.style.height = inp.scrollHeight + 'px'; }
+            inp.addEventListener('input', function () { r.cur[c.k] = inp.value; fit(); refresh(); });
+            r.fit = r.fit || {}; r.fit[c.k] = fit;
+            inp.addEventListener('paste', function (e) { onPaste(r, ci, e); });
+            inp.addEventListener('keydown', function (e) {
+              if (e.key === 'Enter' && c.multi && (e.altKey || e.shiftKey)) { e.preventDefault(); inp.setRangeText('\n', inp.selectionStart, inp.selectionEnd, 'end'); r.cur[c.k] = inp.value; fit(); refresh(); }
+              else if (e.key === 'Enter') { e.preventDefault(); move(r, c.k, 1); }
+              else if (e.key === 'ArrowDown' && (e.altKey || !c.multi)) { e.preventDefault(); move(r, c.k, 1); }
+              else if (e.key === 'ArrowUp' && (e.altKey || !c.multi)) { e.preventDefault(); move(r, c.k, -1); }
+              else if (e.key === 'Escape') { setCell(r, c.k, r.orig[c.k]); refresh(); }
+            });
+            r.cells[c.k] = inp;
+            tds.push(el('td', { class: c.cls }, [inp]));
+          });
+            tds.push(el('td', { class: 'bt-an' }, [el('span', { class: 'ce-mono', text: r.word.analysis_text || '—' }),
+              el('button', { type: 'button', class: 'ce-btn small', title: 'Editar análisis y demás campos en el diálogo', text: '✎',
+                onclick: guard(function () {
+                  if (refresh() && !confirm('Tienes cambios sin guardar en la tabla. El diálogo recarga la página al guardar y se perderían. ¿Abrirlo de todos modos?')) return;
+                  return wordDialog(rootId, r.id);
+                }) })]));
+          r.tr = el('tr', { 'data-id': r.id }, tds);
+          tbody.appendChild(r.tr);
+        });
+
+        var allChk = el('input', { type: 'checkbox', title: 'Seleccionar todos los visibles' });
+        allChk.addEventListener('change', function () { visible().forEach(function (r) { r.sel = allChk.checked; r.chk.checked = allChk.checked; }); refresh(); });
+        var head = [el('th', { class: 'bt-chk' }, [allChk])];
+        BT_COLS.forEach(function (c) { head.push(el('th', { text: c.label })); });
+        head.push(el('th', { text: 'Análisis' }));
+
+        // Herramientas en bloque
+        var filter = textInput('', { class: 'bt-filter', placeholder: 'Filtrar por forma, glosa, campo, etiqueta…' });
+        filter.addEventListener('input', function () {
+          var q = tnorm(filter.value);
+          rows.forEach(function (r) { r.tr.hidden = !!q && tnorm(BT_COLS.map(function (c) { return r.cur[c.k]; }).join(' ') + ' ' + (r.word.analysis_text || '')).indexOf(q) < 0; });
+        });
+        var op = el('select', {}, [
+          ['add-fields', '+ campo semántico'], ['rm-fields', '− campo semántico'], ['add-tags', '+ etiqueta'], ['rm-tags', '− etiqueta'],
+          ['rep-gloss', 'Reemplazar en glosa'], ['rep-form', 'Reemplazar en forma'], ['rep-notes', 'Reemplazar en notas'], ['emoji', 'Poner emoji']
+        ].map(function (o) { return el('option', { value: o[0], text: o[1] }); }));
+        var v1 = textInput('', { placeholder: 'valor' }), v2 = textInput('', { placeholder: 'reemplazar por' });
+        function syncOp() {
+          var o = op.value; v2.hidden = o.indexOf('rep-') !== 0;
+          v1.placeholder = o.indexOf('rep-') === 0 ? 'buscar' : o === 'emoji' ? 'emoji (vacío = quitar)' : 'valor (o varios: a, b)';
+          v1.setAttribute('list', /fields$/.test(o) ? dlF : /tags$/.test(o) ? dlT : '');
+        }
+        op.addEventListener('change', syncOp); syncOp();
+        var selCount = el('span', { class: 'bt-selcount' });
+        var apply = btn('Aplicar', function () {
+          var o = op.value, a = v1.value, b = v2.value;
+          if (!a && o !== 'emoji') { v1.focus(); return; }
+          if (o === 'emoji' && !validEmoji(a)) { toast('Ese no es un único emoji válido.'); return; }
+          var target = rows.filter(function (r) { return r.sel; });
+          if (!target.length) target = visible();
+          var n = 0;
+          target.forEach(function (r) {
+            var before = JSON.stringify(r.cur), m = o.match(/^(add|rm|rep)-(.+)$/);
+            if (o === 'emoji') setCell(r, 'emoji', a.trim());
+            else if (m[1] === 'rep') setCell(r, m[2], String(r.cur[m[2]]).split(a).join(b));
+            else {
+              var list = splitList(r.cur[m[2]]), vals = splitList(a);
+              list = m[1] === 'add' ? list.concat(vals.filter(function (x) { return list.indexOf(x) < 0; })) : list.filter(function (x) { return vals.indexOf(x) < 0; });
+              setCell(r, m[2], list.join(', '));
+            }
+            if (JSON.stringify(r.cur) !== before) n++;
+          });
+          refresh();
+          toast(n ? 'Modificados ' + n + ' vocablo(s). Revisa y pulsa «Guardar cambios».' : 'Ningún vocablo cambió.');
+        });
+
+        function close() {
+          window.removeEventListener('beforeunload', guardUnload);
+          wrap.remove(); ls(BT_KEY, null); onClose();
+        }
+        function guardUnload(e) { if (rows.some(function (r) { return changedKeys(r).length; })) { e.preventDefault(); e.returnValue = ''; } }
+        window.addEventListener('beforeunload', guardUnload);
+
+        discardBtn.onclick = function () {
+          if (!confirm('¿Descartar todos los cambios de la tabla?')) return;
+          rows.forEach(function (r) { BT_COLS.forEach(function (c) { setCell(r, c.k, r.orig[c.k]); }); });
+          refresh();
+        };
+        var closeBtn = btn('Volver a fichas', function () {
+          if (refresh() && !confirm('Hay cambios sin guardar. ¿Cerrar la tabla y perderlos?')) return;
+          close();
+        });
+
+        saveBtn.onclick = function () {
+          var changes = rows.map(function (r) { return { r: r, keys: changedKeys(r) }; }).filter(function (c) { return c.keys.length; });
+          if (!changes.length) return;
+          saveBtn.disabled = discardBtn.disabled = true; saveBtn.textContent = 'Guardando…';
+          transact(function (ctx) {
+            return ctx.read('lexico/index.json').then(function (cidx) {
+              var m = cidx.roots.find(function (x) { return x.id === rootId; });
+              if (!m) fail('La raíz ya no existe.');
+              var path = 'lexico/' + m.key + '.json';
+              return ctx.read(path).then(function (dd) {
+                var e = dd.entries.find(function (x) { return x.id === rootId; });
+                if (!e) fail('La raíz ya no existe.');
+                changes.forEach(function (c) {
+                  var x = (e.words || []).find(function (y) { return y.id === c.r.id; });
+                  if (!x) fail('El vocablo ' + c.r.orig.form + ' ya no existe (¿se movió o borró?). Recarga la página.');
+                  c.keys.forEach(function (k) {
+                    var v = btNorm(k, c.r.cur[k]);
+                    if (k === 'form') x.form = v;
+                    else if (k === 'gloss') x.gloss = v;
+                    else if (k === 'emoji') { if (v) x.emoji = v; else delete x.emoji; }
+                    else if (k === 'fields') x.semantic_fields = splitList(v);
+                    else if (k === 'tags') x.tags = tagsFrom(splitList(v), x.tags);
+                    else if (k === 'notes') x.notes = lines(v);
+                  });
+                });
+                var files = {}; files[path] = dd;
+                var n = changes.length, names = changes.slice(0, 6).map(function (c) { return btNorm('form', c.r.cur.form); }).join(', ') + (n > 6 ? '…' : '');
+                return { files: files, message: 'Vocablos: edición en tabla de ' + n + ' vocablo' + (n === 1 ? '' : 's') + ' (' + e.form + '): ' + names };
+              });
+            });
+          }).then(function (res) {
+            window.removeEventListener('beforeunload', guardUnload);
+            toast('Guardado · commit ' + res.sha.slice(0, 7));
+            setTimeout(reload, 700);
+          }, function (err) {
+            console.error(err);
+            status.className = 'bt-status bad';
+            status.textContent = err.status === 401 || err.status === 403 || err.status === 404
+              ? 'GitHub rechazó la escritura (' + err.status + '). Revisa el token.' : err.message;
+            saveBtn.disabled = discardBtn.disabled = false;
+          }).then(function () { saveBtn.textContent = 'Guardar cambios'; });
+        };
+
+        var wrap = el('div', { class: 'bt-root' }, [
+          el('div', { class: 'bt-tools' }, [filter, el('span', { class: 'bt-sep' }), op, v1, v2, apply, selCount]),
+          el('div', { class: 'bt-wrap' }, [el('table', { class: 'bt' }, [el('thead', {}, [el('tr', {}, head)]), tbody])]),
+          el('p', { class: 'bt-hint', text: 'Enter/↓ baja de fila · Esc revierte la celda · Listas separadas por comas · Puedes pegar un bloque copiado de una hoja de cálculo (se reparte por filas y columnas desde la celda donde pegas) · Shift+Enter salto de línea en notas.' }),
+          el('div', { class: 'bt-foot' }, [status, closeBtn, discardBtn, saveBtn])
+        ]);
+        section.appendChild(wrap);
+        rows.forEach(function (r) { if (r.fit && r.fit.notes) r.fit.notes(); });
+        ls(BT_KEY, '1');
+        refresh();
+        return wrap;
+      });
+    });
+  }
+
   function bar(buttons) {
     return el('div', { class: 'ce-bar' }, [el('span', { class: 'ce-bar-label', text: 'Edición' })].concat(buttons));
   }
@@ -1120,10 +1391,19 @@
       observe(box, function () {
         var sheet = box.querySelector('.root-sheet'); if (!sheet || sheet.dataset.ce) return; sheet.dataset.ce = '1';
         var head = sheet.querySelector('.root-head');
+        var wordSec = sheet.querySelector('.detail-section'), grid = wordSec && wordSec.querySelector('.word-grid'), tableOpen = false;
+        function showCards() { tableOpen = false; if (grid) grid.style.display = ''; tableBtn.textContent = '▦ Vocablos en tabla'; }
+        function openTable() {
+          if (!grid || tableOpen) return;
+          tableOpen = true; tableBtn.textContent = 'Cargando tabla…';
+          return bulkTable(rootId, wordSec, showCards).then(function () { grid.style.display = 'none'; tableBtn.textContent = '▦ Tabla abierta'; }, function (e) { showCards(); throw e; });
+        }
+        var tableBtn = btn('▦ Vocablos en tabla', guard(function () { if (tableOpen) { var t = wordSec.querySelector('.bt-root'); if (t) t.scrollIntoView({ block: 'start' }); return; } return openTable(); }));
+        if (!grid) tableBtn.disabled = true;
         head.parentNode.insertBefore(el('div', { style: 'margin-top:18px' }, [bar([
           btn('✎ Editar raíz', guard(function () { return rootDialog(rootId); }), 'primary'),
           btn('+ Añadir vocablo', guard(function () { return wordDialog(rootId, null); })),
-          btn('+ Nuevo morfema', guard(function () { return morphDialog(null); }))])]), head.nextSibling);
+          btn('+ Nuevo morfema', guard(function () { return morphDialog(null); })), tableBtn])]), head.nextSibling);
         sheet.querySelectorAll('.word-card').forEach(function (card) {
           var a = card.querySelector('.word-form a[href^="vocablos.html#"]'); if (!a) return;
           var wid = decodeURIComponent(a.getAttribute('href').split('#')[1]);
@@ -1131,6 +1411,7 @@
           var rid = ext ? new URLSearchParams(ext.getAttribute('href').split('?')[1]).get('id') : rootId;
           card.appendChild(el('div', { class: 'ce-card-actions' }, [el('button', { type: 'button', class: 'ce-btn small', text: '✎ Editar', onclick: guard(function () { return wordDialog(rid, wid); }) })]));
         });
+        if (ls(BT_KEY) === '1') guard(openTable)();
       });
     } else if (page === 'vocablos') {
       var wc = document.getElementById('word-content');
