@@ -875,7 +875,7 @@
                   if (i < 0) fail('El vocablo ya no existe.');
                   e.words.splice(i, 1);
                   var files = {}; files[path] = dd;
-                  return { files: files, message: 'Vocablo: eliminar ' + w.form + ' (' + e.form + ')', after: reload };
+                  return { files: files, message: 'Vocablo: eliminar ' + w.form + ' (' + e.form + ')', after: page === 'vocablo' ? goRoot(rootId) : reload };
                 });
               });
             });
@@ -911,7 +911,7 @@
                     if (olds.length) nw.formas_antiguas = olds;
                     if (from.length) nw.proviene_de = from;
                     e.words.push(nw);
-                    return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: rootId && rid === rootId ? reload : goRoot(rid) };
+                    return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: page === 'vocablo' ? function () { location.assign('vocablo.html?id=' + encodeURIComponent(nw.id)); } : rootId && rid === rootId ? reload : goRoot(rid) };
                   }
                   var se = sd.entries.find(function (x) { return x.id === srcId; });
                   if (!se) fail('La raíz de origen ya no existe.');
@@ -927,7 +927,7 @@
                   if (from.length) x.proviene_de = from; else delete x.proviene_de;
                   if (moving) {
                     se.words.splice(xi, 1); e.words.push(x);
-                    return { files: files, message: 'Vocablo: ' + form + ' pasa de ' + se.form + ' a ' + e.form + ' (raíz principal)', after: goRoot(rid) };
+                    return { files: files, message: 'Vocablo: ' + form + ' pasa de ' + se.form + ' a ' + e.form + ' (raíz principal)', after: page === 'vocablo' ? reload : goRoot(rid) };
                   }
                   if (JSON.stringify(x) === before) fail('No hay cambios que guardar.');
                   return { files: files, message: 'Vocablo: editar ' + form + ' (' + e.form + ')', after: reload };
@@ -979,7 +979,7 @@
               var i = md.morphemes.findIndex(function (m) { return m.id === morphId; });
               if (i < 0) fail('El morfema ya no existe.');
               md.morphemes.splice(i, 1);
-              return { files: { 'lexico/morphemes.json': md }, message: 'Morfema: eliminar ' + cur.form, after: reload };
+              return { files: { 'lexico/morphemes.json': md }, message: 'Morfema: eliminar ' + cur.form, after: page === 'morfema' ? function () { location.assign('morfemas.html'); } : reload };
             });
           });
         },
@@ -1469,13 +1469,25 @@
           btn('+ Añadir vocablo', guard(function () { return wordDialog(rootId, null); })),
           btn('+ Nuevo morfema', guard(function () { return morphDialog(null); })), tableBtn])]), head.nextSibling);
         sheet.querySelectorAll('.word-card').forEach(function (card) {
-          var a = card.querySelector('.word-form a[href^="vocablos.html#"]'); if (!a) return;
-          var wid = decodeURIComponent(a.getAttribute('href').split('#')[1]);
+          var a = card.querySelector('.word-form a[href^="vocablo.html?id="]'); if (!a) return;
+          var wid = new URLSearchParams(a.getAttribute('href').split('?')[1]).get('id');
           var ext = card.querySelector('a[href^="raiz.html?id="]');
           var rid = ext ? new URLSearchParams(ext.getAttribute('href').split('?')[1]).get('id') : rootId;
           card.appendChild(el('div', { class: 'ce-card-actions' }, [el('button', { type: 'button', class: 'ce-btn small', text: '✎ Editar', onclick: guard(function () { return wordDialog(rid, wid); }) })]));
         });
         if (ls(BT_KEY) === '1') guard(openTable)();
+      });
+    } else if (page === 'vocablo' || page === 'morfema') {
+      var cbox = document.getElementById(page === 'vocablo' ? 'word-content' : 'morph-content');
+      observe(cbox, function () {
+        var sh = cbox.querySelector('.root-sheet'); if (!sh || sh.dataset.ce) return; sh.dataset.ce = '1';
+        var hd = sh.querySelector('.root-head');
+        var buttons = page === 'vocablo'
+          ? [btn('✎ Editar vocablo', guard(function () { return wordDialog(sh.dataset.rootId, sh.dataset.wordId); }), 'primary'),
+             btn('+ Nuevo vocablo en esta raíz', guard(function () { return wordDialog(sh.dataset.rootId, null); }))]
+          : [btn('✎ Editar morfema', guard(function () { return morphDialog(sh.dataset.morphId); }), 'primary'),
+             btn('+ Nuevo morfema', guard(function () { return morphDialog(null); }))];
+        hd.parentNode.insertBefore(el('div', { style: 'margin-top:18px' }, [bar(buttons)]), hd.nextSibling);
       });
     } else if (page === 'vocablos') {
       var wc = document.getElementById('word-content');

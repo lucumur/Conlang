@@ -5,6 +5,7 @@ on:
       - 'lexico/*.json'
       - '!lexico/index.json'
       - '!lexico/history.json'
+      - '!lexico/history-items.json'
       - 'scripts/build_lexicon_index.py'
       - 'scripts/build_root_history.py'
       - '.github/workflows/build-lexicon-index.yml'
@@ -26,12 +27,12 @@ jobs:
           python scripts/build_root_history.py
       - name: Commit generated files if changed
         run: |
-          if [ -z "$(git status --porcelain -- lexico/index.json lexico/history.json)" ]; then
+          if [ -z "$(git status --porcelain -- lexico/index.json lexico/history.json lexico/history-items.json)" ]; then
             exit 0
           fi
           git config user.name "ChatGPT"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add lexico/index.json lexico/history.json
+          git add lexico/index.json lexico/history.json lexico/history-items.json
           git commit -m "Regenerar datos léxicos"
           git pull --rebase origin main
           git push

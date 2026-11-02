@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4338ca">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Vocablo · Conlang</title>
+  <meta name="description" content="Ficha individual de un vocablo del conlang">
+  <link rel="stylesheet" href="styles.css?v=20261031indigena">
+  <script src="refresh.js?v=20261101textos"></script>
+  <script src="editor.js?v=20261102fichas"></script>
+  <style>
+    .root-back{display:inline-flex;align-items:center;gap:6px;margin:0 0 22px;color:var(--muted);text-decoration:none;font-weight:700}.root-back:hover{color:var(--accent)}
+    .root-sheet{border:1px solid var(--line);border-left:7px solid var(--relation-accent,#b9b3a9);border-radius:22px;background:var(--etym-bg,var(--paper));padding:clamp(22px,5vw,48px);box-shadow:0 12px 38px rgba(47,42,35,.05)}
+    .root-sheet.relation-conflict{border-left-style:dashed}
+    .root-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:start;border-bottom:1px solid var(--line);padding-bottom:26px}
+    .root-form{margin:0;font:800 clamp(2.8rem,8vw,6.6rem)/.95 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:-.06em;overflow-wrap:anywhere}
+    .root-gloss{margin:14px 0 0;font-size:clamp(1.25rem,2.5vw,1.8rem)}
+    .root-tags{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;max-width:300px}
+    .root-meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:22px 0 0}.meta-card{border:1px solid var(--line);border-radius:14px;padding:14px 16px}.meta-label{display:block;margin-bottom:4px;color:var(--muted);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em}.meta-text{overflow-wrap:anywhere}
+    .word-lineage{margin-top:6px;font-size:.84rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px;align-items:center}.word-old{margin-top:6px;font-size:.84rem;color:var(--muted)}.word-old-label{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-right:4px}.word-old code{text-decoration:line-through;text-decoration-color:rgba(0,0,0,.25)}.word-old-an{font-size:.8rem}
+    .root-notes{margin-top:18px}.root-note{margin:6px 0;color:var(--muted);font-style:italic}
+    .detail-section{margin-top:36px}.detail-section h2{margin:0 0 14px;font-size:1.6rem}.detail-section-count{color:var(--muted);font-size:.9rem;font-weight:500}
+    .word-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:12px}.word-card{border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:var(--paper)}.word-form a{text-decoration:none}.word-form a:hover{color:var(--accent)}.word-form code{font-size:1.08rem}.word-emoji{display:inline-block;margin-right:6px;font-size:1.15rem;vertical-align:middle}.word-gloss{margin-top:4px}.word-analysis{margin-top:8px;color:var(--muted);font-size:.84rem}.word-note{margin-top:7px;color:var(--muted);font-size:.8rem;font-style:italic}.word-tags,.word-fields{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}.field{display:inline-block;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:var(--paper);font-size:.76rem;text-decoration:none}.field:hover{border-color:var(--accent);color:var(--accent)}
+    .morph-link{display:inline-block;padding:1px 6px;border-radius:999px;border:1px solid var(--line);text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.78rem;background:#fff}.morph-link:hover{border-color:var(--accent)}
+    .history-days{display:grid;gap:9px}.history-day{border:1px solid var(--line);border-radius:11px;overflow:hidden;background:var(--paper)}.history-day summary{cursor:pointer;display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px 14px;font-weight:700;list-style-position:inside}.history-day summary:hover{background:rgba(67,56,202,.05)}.history-day summary:focus-visible{outline:2px solid var(--accent);outline-offset:-3px}.history-count{font-size:.8rem;font-weight:500;color:var(--muted)}.history-day[open] summary{border-bottom:1px solid var(--line)}.history-list{padding:0 14px}.history-item{display:grid;grid-template-columns:max-content max-content minmax(0,1fr);gap:10px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--line);font-size:.86rem}.history-item:last-child{border-bottom:0}.history-item a{text-decoration:none}.history-item a:hover{text-decoration:underline}.history-item time{color:var(--muted);white-space:nowrap}.empty-note{padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--muted)}
+    @media(max-width:680px){.root-head{grid-template-columns:1fr}.root-tags{justify-content:flex-start}.history-item{grid-template-columns:max-content 1fr}.history-item .history-message{grid-column:1/-1}}
+
+    .lineage{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.lineage-label{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-right:4px}
+    .text-hits{display:grid;gap:10px}.text-hit{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--paper)}.text-hit-title{font-size:.78rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}.text-hit-title a{text-decoration:none}.text-hit-title a:hover{color:var(--accent)}.text-hit-line{margin-top:4px}.text-hit-line mark{background:#fde68a;border-radius:4px;padding:0 2px}.text-hit-orig{margin-top:3px;color:var(--muted);font-size:.86rem;font-style:italic}
+    .root-gloss .word-emoji{font-size:1em}.root-form .form-emoji{font-size:.7em;margin-right:.15em;vertical-align:.08em;letter-spacing:0}
+    .use-filter{width:100%;max-width:420px;margin:0 0 12px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);font:inherit}
+    .use-table td,.use-table th{padding:9px 12px}.use-table td.form{white-space:nowrap}.use-table a{text-decoration:none}.use-table a:hover{color:var(--accent)}
+
+  </style>
+</head>
+<body>
+<header class="page-header"><div class="wrap"><div class="brand"><a href="index.html">CONLANG</a></div><nav class="site-nav" aria-label="Navegación principal">
+  <a href="index.html">Inicio</a>
+  <a href="lexico.html">Raíces</a>
+  <a href="vocablos.html">Vocablos</a>
+  <a href="textos.html">Textos</a>
+  <a href="morfemas.html">Morfemas</a>
+  <a href="semantica.html">Semántica</a>
+  <a href="pronombres.html">Pronombres</a>
+  <a href="gramatica.html">Gramática</a>
+  <a href="fonologia.html">Fonología</a>
+  <a href="historia.html">Historia</a>
+</nav></div></header>
+<main class="wrap">
+  <a class="root-back" href="vocablos.html">← Volver a Vocablos</a>
+  <div id="word-content"><div class="empty-note">Cargando vocablo…</div></div>
+</main>
+<footer class="page-footer"><div class="wrap">Ficha individual de vocablo · documentación viva</div></footer>
+<script>
+(()=>{
+  const box=document.getElementById('word-content');
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fieldHTML=fields=>(fields||[]).map(f=>'<a class="field" href="vocablos.html?q='+encodeURIComponent(f)+'">'+esc(f)+'</a>').join('');
+  const labelTags=tags=>(tags||[]).map(t=>'<span class="tag generic">'+esc(t)+'</span>').join('');
+  const wordHref=id=>'vocablo.html?id='+encodeURIComponent(id);
+  const morphHref=id=>'morfema.html?id='+encodeURIComponent(id);
+  const rootHref=id=>'raiz.html?id='+encodeURIComponent(id);
+  const historyZone='America/Monterrey';
+  const historyDayFormat=new Intl.DateTimeFormat('es-MX',{timeZone:historyZone,year:'numeric',month:'2-digit',day:'2-digit'});
+  const historyDateLabel=new Intl.DateTimeFormat('es-MX',{timeZone:historyZone,day:'numeric',month:'long',year:'numeric'});
+  const historyTimeLabel=new Intl.DateTimeFormat('es-MX',{timeZone:historyZone,hour:'2-digit',minute:'2-digit',hour12:false});
+  function historyHTML(items,what){
+    if(!items.length)return '<div class="empty-note">Sin commits registrados para '+what+' (el historial se regenera automáticamente tras cada cambio).</div>';
+    const groups=new Map();
+    [...items].sort((a,b)=>Date.parse(b.date||'')-Date.parse(a.date||'')).forEach(c=>{
+      const date=new Date(c.date||''),valid=!Number.isNaN(date.getTime());
+      const key=valid?historyDayFormat.formatToParts(date).reduce((o,p)=>(o[p.type]=p.value,o),{}):null;
+      const day=key?key.year+'-'+key.month+'-'+key.day:'sin-fecha';
+      if(!groups.has(day))groups.set(day,{label:valid?historyDateLabel.format(date):'Fecha desconocida',commits:[]});
+      groups.get(day).commits.push({commit:c,date,valid});
+    });
+    return '<div class="history-days">'+[...groups.values()].map(g=>'<details class="history-day"><summary><span>'+esc(g.label)+'</span><span class="history-count">('+g.commits.length+' commit'+(g.commits.length===1?'':'s')+')</span></summary><div class="history-list">'+g.commits.map(it=>{const c=it.commit;return '<div class="history-item"><a href="'+esc(c.url)+'" target="_blank" rel="noopener noreferrer"><code>'+esc((c.sha||'').slice(0,7))+'</code></a><time datetime="'+esc(c.date||'')+'">'+esc(it.valid?historyTimeLabel.format(it.date):'Sin hora')+'</time><span class="history-message">'+esc(c.message)+'</span></div>'}).join('')+'</div></details>').join('')+'</div>';
+  }
+  function wordCard(w){
+    const notes=(w.notes||[]).map(n=>'<div class="word-note">'+esc(n)+'</div>').join('');
+    return '<article class="word-card"><div class="word-form">'+(w.emoji?'<span class="word-emoji" aria-hidden="true">'+esc(w.emoji)+'</span>':'')+'<a href="'+wordHref(w.id)+'"><code>'+esc(w.form)+'</code></a></div><div class="word-gloss">'+esc(w.gloss)+'</div><div class="word-analysis">Raíz: <a href="'+rootHref(w.root_id)+'"><code>'+esc(w.root_form)+'</code></a></div>'+(w.analysis_html?'<div class="word-analysis">'+w.analysis_html+'</div>':'')+notes+((w.semantic_fields||[]).length?'<div class="word-fields">'+fieldHTML(w.semantic_fields)+'</div>':'')+((w.tags||[]).length?'<div class="word-tags">'+labelTags(w.tags)+'</div>':'')+'</article>';
+  }
+  const section=(title,n,inner)=>'<section class="detail-section"><h2>'+title+(n!=null?' <span class="detail-section-count">('+n+')</span>':'')+'</h2>'+inner+'</section>';
+  const getJSON=(url,fallback)=>fetch(url).then(r=>{if(!r.ok){if(fallback!==undefined)return fallback;throw Error(url)}return r.json()}).catch(e=>{if(fallback!==undefined)return fallback;throw e});
+  function wireLinks(getIndex){
+    document.addEventListener('click',e=>{
+      const a=e.target.closest('a.morph-link[href^="#"]');const index=getIndex();if(!a||!index)return;
+      const id=a.getAttribute('href').slice(1);
+      if((index.roots||[]).some(r=>r.id===id)){e.preventDefault();location.assign(rootHref(id));return}
+      if((index.morphemes||[]).some(m=>m.id===id)){e.preventDefault();location.assign(morphHref(id));return}
+      if((index.words||[]).some(w=>w.id===id)){e.preventDefault();location.assign(wordHref(id))}
+    });
+  }
+
+  const wordPattern=/[\p{L}\p{M}\p{N}]+(?:[’'-][\p{L}\p{M}\p{N}]+)*/gu;
+  const tnorm=s=>String(s??'').normalize('NFC').toLocaleLowerCase('es').trim();
+  let index=null;
+  wireLinks(()=>index);
+
+  // Apariciones en textos: enlaces fijados a este vocablo, o automáticos (forma única en el léxico, sin enlace explícito).
+  function textHits(textos,w,byForm){
+    const hits=[];
+    for(const t of textos||[])(t.parrafos||[]).forEach((p,k)=>{
+      const explicit=new Map((p.enlaces||[]).map(e=>[e.indice,e.vocablo_id])),plain=new Set((p.sin_enlace||[]).map(e=>e.indice));
+      const line=String(p.traduccion||''),marks=new Set();let i=0;
+      for(const m of line.matchAll(wordPattern)){
+        const req=explicit.get(i);
+        if(req===w.id)marks.add(i);
+        else if(!req&&!plain.has(i)){const c=byForm.get(tnorm(m[0]))||[];if(c.length===1&&c[0].id===w.id)marks.add(i)}
+        i++;
+      }
+      if(!marks.size)return;
+      let out='',cur=0,j=0;
+      for(const m of line.matchAll(wordPattern)){out+=esc(line.slice(cur,m.index))+(marks.has(j)?'<mark>'+esc(m[0])+'</mark>':esc(m[0]));cur=m.index+m[0].length;j++}
+      out+=esc(line.slice(cur));
+      hits.push('<div class="text-hit"><div class="text-hit-title"><a href="textos.html#'+encodeURIComponent(t.id)+'">'+esc(t.titulo||t.id)+'</a> · línea '+(k+1)+'</div><div class="text-hit-line">'+out+'</div>'+(p.original?'<div class="text-hit-orig">'+esc(p.original)+'</div>':'')+'</div>');
+    });
+    return hits;
+  }
+
+  async function load(){
+    const id=new URLSearchParams(location.search).get('id');
+    if(!id)throw Error('missing word id');
+    const [idx,hist,lib]=await Promise.all([getJSON('lexico/index.json'),getJSON('lexico/history-items.json',{words:{}}),getJSON('textos/index.json',{textos:[]})]);
+    index=idx;
+    const w=(idx.words||[]).find(x=>x.id===id);
+    if(!w)throw Error('word not found');
+    const byId=new Map(idx.words.map(x=>[x.id,x])),byForm=new Map();
+    for(const x of idx.words){const k=tnorm(x.form);if(!byForm.has(k))byForm.set(k,[]);byForm.get(k).push(x)}
+    const root=(idx.roots||[]).find(r=>r.id===w.root_id)||{};
+    const from=(w.proviene_de||[]).map(i=>byId.get(i)).filter(Boolean);
+    const derived=idx.words.filter(x=>(x.proviene_de||[]).includes(id));
+    const usedIn=idx.words.filter(x=>x.id!==id&&(x.refs||[]).includes(id));
+    const homos=(byForm.get(tnorm(w.form))||[]).filter(x=>x.id!==id);
+    const hits=textHits(lib.textos,w,byForm);
+    document.title=w.form+' · Vocablo · Conlang';
+
+    const meta=[
+      '<div class="meta-card"><span class="meta-label">Raíz principal</span><div class="meta-text"><a href="'+rootHref(w.root_id)+'"><code>'+esc(w.root_form||root.form)+'</code></a> · '+esc(w.root_gloss||root.gloss||'')+'</div></div>',
+      w.analysis_html||w.analysis_text?'<div class="meta-card"><span class="meta-label">Análisis</span><div class="meta-text">'+(w.analysis_html||esc(w.analysis_text))+'</div></div>':'',
+      '<div class="meta-card"><span class="meta-label">Identificador</span><div class="meta-text"><code>'+esc(w.id)+'</code></div></div>',
+      (w.semantic_fields||[]).length?'<div class="meta-card"><span class="meta-label">Campos semánticos</span><div class="meta-text word-fields">'+fieldHTML(w.semantic_fields)+'</div></div>':''
+    ].join('');
+    const notes=(w.notes||[]).length?'<div class="root-notes">'+w.notes.map(n=>'<p class="root-note">'+esc(n)+'</p>').join('')+'</div>':'';
+    const olds=(w.formas_antiguas||[]).length?'<div class="word-old" style="margin-top:14px"><span class="word-old-label">Formas antiguas</span> '+w.formas_antiguas.map(x=>'<code>'+esc(x.form)+'</code>'+(x.analysis_text?' <span class="word-old-an">('+esc(x.analysis_text)+')</span>':'')).join(' · ')+'</div>':'';
+
+    box.innerHTML='<article class="root-sheet word-sheet" data-root-id="'+esc(w.root_id)+'" data-word-id="'+esc(w.id)+'"><div class="root-head"><div><p class="eyebrow">Vocablo</p><h1 class="root-form">'+(w.emoji?'<span class="form-emoji" aria-hidden="true">'+esc(w.emoji)+'</span>':'')+esc(w.form)+'</h1><p class="root-gloss">'+esc(w.gloss)+'</p></div><div class="root-tags">'+labelTags(w.tags)+'</div></div>'+
+      '<div class="root-meta">'+meta+'</div>'+notes+olds+
+      ((from.length||derived.length)?section('Procedencia',null,(from.length?'<h3 class="lineage-label">Proviene de</h3><div class="word-grid">'+from.map(wordCard).join('')+'</div>':'')+(derived.length?'<h3 class="lineage-label" style="margin-top:16px">Derivados <span class="detail-section-count">('+derived.length+')</span></h3><div class="word-grid">'+derived.map(wordCard).join('')+'</div>':'')):'')+
+      (usedIn.length?section('Usado en otros vocablos',usedIn.length,'<div class="word-grid">'+usedIn.map(wordCard).join('')+'</div>'):'')+
+      (homos.length?section('Homógrafos',homos.length,'<div class="word-grid">'+homos.map(wordCard).join('')+'</div>'):'')+
+      (hits.length?section('En textos',hits.length,'<div class="text-hits">'+hits.join('')+'</div>'):'')+
+      section('Historial de commits',null,historyHTML((hist.words||{})[id]||[],'este vocablo'))+'</article>';
+  }
+  load().catch(err=>{console.error(err);box.innerHTML='<div class="empty-note">No se pudo cargar este vocablo. <a href="vocablos.html">Volver a Vocablos</a>.</div>'});
+})();
+</script>
+</body>
+</html>

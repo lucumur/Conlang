@@ -9,7 +9,7 @@
   <meta name="description" content="Inventario canónico de morfemas del conlang">
   <link rel="stylesheet" href="styles.css?v=20261031indigena">
   <script src="refresh.js?v=20261101textos"></script>
-  <script src="editor.js?v=20261102proviene"></script>
+  <script src="editor.js?v=20261102fichas"></script>
   <style>
     .morph-more{margin-top:6px}
     .morph-more summary{cursor:pointer;color:var(--accent);font-size:.83rem;font-weight:700;width:fit-content}
@@ -71,7 +71,7 @@
   function repertoire(m){
     const words=(index.words||[]).filter(w=>(w.refs||[]).includes(m.id));
     if(!words.length)return'<span class="meta-extra">Sin repertorio indexado</span>';
-    const link=w=>'<a href="lexico.html#'+esc(w.id)+'">'+(w.emoji?'<span aria-hidden="true">'+esc(w.emoji)+'</span> ':'')+esc(w.form)+'</a>';
+    const link=w=>'<a href="vocablo.html?id='+encodeURIComponent(w.id)+'">'+(w.emoji?'<span aria-hidden="true">'+esc(w.emoji)+'</span> ':'')+esc(w.form)+'</a>';
     const first=words.slice(0,30).map(link).join(' · ');
     const remaining=words.slice(30);
     const more=remaining.length
@@ -81,7 +81,7 @@
   }
   function row(m){
     const notes=(m.notes||[]).map(n=>'<div class="morph-notes">'+esc(n)+'</div>').join('');
-    return '<tr id="'+esc(m.id)+'"><td class="form"><code>'+esc(m.form)+'</code></td><td class="gloss">'+esc(m.gloss)+notes+'</td><td class="tags">'+tagHTML(m.tags)+repertoire(m)+'</td></tr>';
+    return '<tr id="'+esc(m.id)+'"><td class="form"><a class="morph-page" href="morfema.html?id='+encodeURIComponent(m.id)+'" title="Abrir la ficha del morfema" style="text-decoration:none"><code>'+esc(m.form)+'</code></a></td><td class="gloss">'+esc(m.gloss)+notes+'</td><td class="tags">'+tagHTML(m.tags)+repertoire(m)+'</td></tr>';
   }
   function render(){
     const q=norm(search.value);
