@@ -369,6 +369,12 @@
       });
     }
     function commit() {
+      var whole = input.value.trim();
+      // Opciones con glosa e identificador («*ĜER-  ·  hierro, metal  [root-ger-2]»): pueden llevar comas, no se parten.
+      if (whole && ((suggestions && suggestions.indexOf(input.value) >= 0) || /\[[^\]]+\]$/.test(whole))) {
+        if (list.indexOf(input.value) < 0 && list.indexOf(whole) < 0) list.push(suggestions && suggestions.indexOf(input.value) >= 0 ? input.value : whole);
+        input.value = ''; render(); return;
+      }
       input.value.split(',').map(function (x) { return x.trim(); }).filter(Boolean).forEach(function (v) { if (list.indexOf(v) < 0) list.push(v); });
       input.value = ''; render();
     }
@@ -927,13 +933,13 @@
       var fNotes = textArea(cur ? (cur.notes || []).join('\n') : '', { rows: 3, placeholder: 'Una nota por línea' });
       var fTags = chipInput(cur ? labels(cur.tags) : ['sufijo'], Object.keys(tagSugs).sort(coll.compare), 'sufijo, prefijo, Provisional…');
       var rootById = new Map((idx.roots || []).map(function (root) { return [root.id, root]; }));
-      var rootOption = function (root) { return root.form + ' [' + root.id + ']'; };
+      var rootOption = function (root) { return root.form + '  ·  ' + root.gloss + '  [' + root.id + ']'; };
       var fRootRefs = chipInput((cur && cur.root_refs || []).map(function (id) {
         return rootById.has(id) ? rootOption(rootById.get(id)) : id;
-      }), (idx.roots || []).map(rootOption), '*CO-T [root-co-t]');
+      }), (idx.roots || []).map(rootOption), 'Busca la raíz: forma · glosa');
       function selectedRootRefs() {
         var chosen = fRootRefs.get().map(function (value) {
-          var match = value.match(/\[([^\]]+)\]$/);
+          var match = value.match(/\[([^\]]+)\]\s*$/);
           var id = match ? match[1] : value.trim();
           if (!rootById.has(id)) fail('Selecciona una raíz existente de la lista: ' + value);
           return id;
