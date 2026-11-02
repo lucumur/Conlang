@@ -3048,7 +3048,24 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-zxudas",
+          "form": "ẑudas",
+          "gloss": "estudiar, leer, repasar",
+          "analysis_html": "ẐUD + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
+          "analysis_text": "ẐUD + -AS",
+          "refs": [
+            {
+              "id": "morph-as",
+              "label": "-AS"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-zum-bl",
