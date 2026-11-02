@@ -4447,24 +4447,20 @@
         },
         {
           "id": "lexeme-crivar",
-          "form": "ĉrivar",
+          "form": "ĉrivapjo",
           "gloss": "escritorio",
-          "analysis_html": "ĈRIV + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
-          "analysis_text": "ĈRIV + -AR",
+          "analysis_html": "ĈRIV + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a> + pjo <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "ĈRIV + -A + pjo (pendiente)",
           "refs": [
             {
-              "id": "morph-ar-2",
-              "label": "-AR"
+              "id": "morph-a-2",
+              "label": "-A"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Participio agentivo AR"
-            },
-            {
-              "class": "generic",
-              "label": "Objeto no humano"
+              "label": "Nominal O"
             }
           ],
           "semantic_fields": [
