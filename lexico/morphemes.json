@@ -3293,6 +3293,25 @@
       "row_class": ""
     },
     {
+      "id": "morph-pjo-2",
+      "form": "*-pjo",
+      "gloss": "objeto plano",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "sufijo"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "root_refs": [
+        "root-plat"
+      ]
+    },
+    {
       "id": "morph-a-instrumental",
       "form": "*A-",
       "gloss": "instrumental; ejecutar la acción usando algo o una herramienta como medio",
