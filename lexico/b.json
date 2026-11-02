@@ -7342,27 +7342,28 @@
         },
         {
           "id": "lexeme-braven",
-          "form": "braven",
+          "form": "braver",
           "gloss": "bravo, salvaje (opuesto a manso, domesticado)",
-          "analysis_html": "BRAV + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
-          "analysis_text": "BRAV + -EN",
+          "analysis_html": "BRAV + <a class=\"morph-link\" href=\"#morph-er\">-ER</a>",
+          "analysis_text": "BRAV + -ER",
           "refs": [
             {
-              "id": "morph-en",
-              "label": "-EN"
+              "id": "morph-er",
+              "label": "-ER"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Animado EN"
+              "label": "Adjetivo ER"
             }
           ],
           "semantic_fields": [
             "fauna",
             "conducta",
             "domesticación"
-          ]
+          ],
+          "notes": []
         },
         {
           "id": "lexeme-braviza",
