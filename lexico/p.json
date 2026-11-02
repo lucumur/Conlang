@@ -5768,7 +5768,7 @@
     },
     {
       "id": "root-plat",
-      "form": "*PLA-T",
+      "form": "*PJA-T",
       "gloss": "plano",
       "tags": [
         {
@@ -5776,16 +5776,14 @@
           "label": "Modificada"
         },
         {
-          "class": "latin",
-          "label": "Latin"
+          "class": "italico",
+          "label": "Italico"
         }
       ],
       "letter": "P",
       "section": "sec-p",
-      "etymology": null,
-      "notes": [
-        "Forma primigenia PLA- en compuestos: plaĝero «plancha»."
-      ],
+      "etymology": "< Eo. + Italiano",
+      "notes": [],
       "row_class": "",
       "words": [
         {
