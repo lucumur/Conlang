@@ -125,6 +125,16 @@
               "nota": "Plural de legro (-O → -I)"
             }
           ]
+        },
+        {
+          "original": "La mesa es un escritorio; los libros son libros de texto.",
+          "traduccion": "elo tafpjo ĵes ĉrivapjo; eli legri ĵes por ẑudar",
+          "enlaces": [
+            {
+              "indice": 5,
+              "vocablo_id": "lexeme-legro"
+            }
+          ]
         }
       ],
       "autor": "Lernu"
