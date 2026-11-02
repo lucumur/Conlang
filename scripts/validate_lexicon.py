@@ -72,6 +72,15 @@ for name, w in words:
         if t not in ids:
             errors.append(f'{name} vocablo {w.get("form")}: referencia a «{t}», que no existe')
 
+word_ids = {w.get('id') for _, w in words}
+for name, w in words:
+    for p in w.get('proviene_de', []) or []:
+        pid = p.get('id')
+        if pid == w.get('id'):
+            errors.append(f'{name} vocablo {w.get("form")}: proviene de sí mismo')
+        elif pid not in word_ids:
+            errors.append(f'{name} vocablo {w.get("form")}: proviene_de «{pid}», que no es un vocablo existente')
+
 # index.json debe ser idéntico al que genera el script oficial
 with tempfile.TemporaryDirectory() as tmp:
     tmp = Path(tmp)

@@ -33,6 +33,7 @@
           refs: get(w, 'refs', []).map(function (r) { return get(r, 'id', null); }).filter(Boolean),
           semantic_fields: sf, notes: notes,
           ...(antiguas.length ? { formas_antiguas: antiguas } : {}),
+          ...((get(w, 'proviene_de', null) || []).length ? { proviene_de: get(w, 'proviene_de', []).map(function (p) { return get(p, 'id', null); }).filter(Boolean) } : {}),
           search: [get(w, 'form', ''), get(w, 'gloss', ''), get(e, 'form', ''), get(e, 'gloss', ''), get(w, 'analysis_text', '')]
             .concat(labels(get(w, 'tags', null)), sf, notes, antiguas.map(function (a) { return get(a, 'form', ''); })).join(' ')
         });
@@ -832,6 +833,21 @@
         var fTags = chipInput(w ? labels(w.tags) : [], Object.keys(wtags).sort(coll.compare), 'Etiqueta (Nominal A, Verbal OS…)');
         var fNotes = textArea(w ? (w.notes || []).join('\n') : '', { rows: 2, placeholder: 'Una nota por línea (p. ej. Pendiente: …)' });
         var fOld = textArea(w ? (w.formas_antiguas || []).map(function (a) { return a.form + (a.analysis_text ? ' = ' + a.analysis_text : ''); }).join('\n') : '', { rows: 2, class: 'ce-mono', placeholder: 'Una por línea: forma = análisis (p. ej. imorbos = I + MORB + -OS)' });
+        var wordOpt = function (x) { return x.form + '  ·  ' + x.gloss + '  [' + x.id + ']'; };
+        var wordById = new Map(idx.words.map(function (x) { return [x.id, x]; }));
+        var fFrom = chipInput(w ? (w.proviene_de || []).map(function (p) { return wordById.has(p.id) ? wordOpt(wordById.get(p.id)) : p.id; }) : [],
+          idx.words.filter(function (x) { return x.id !== wordId; }).map(wordOpt), 'Busca el vocablo: forma · glosa');
+        function fromRefs() {
+          var out = [];
+          fFrom.get().forEach(function (v) {
+            var m = v.match(/\[([^\]]+)\]\s*$/), id = m ? m[1] : v.trim();
+            if (!wordById.has(id)) fail('«Proviene de»: elige un vocablo existente de la lista (' + v + ').');
+            if (id === wordId) fail('Un vocablo no puede provenir de sí mismo.');
+            if (!out.some(function (p) { return p.id === id; })) out.push({ id: id, label: wordById.get(id).form });
+          });
+          return out;
+        }
+        var derived = wordId ? idx.words.filter(function (x) { return (x.proviene_de || []).indexOf(wordId) >= 0; }) : [];
         function oldForms() { return lines(fOld.value).map(function (l) { var i = l.indexOf('='); return i < 0 ? { form: l.trim() } : { form: l.slice(0, i).trim(), analysis_text: l.slice(i + 1).trim() }; }).filter(function (a) { return a.form; }); }
         var body = [];
         if (!meta) {
@@ -844,10 +860,12 @@
           body.push(field('Raíz', fRoot, 'Elige de la lista.'));
         }
         body.push(el('div', { class: 'ce-row' }, [field('Forma', el('div', { class: 'ce-word-form-row' }, [fEmoji.el, fForm]), 'Pulsa el icono para elegir, pegar o quitar un emoji.'), field('Glosa', fGloss)]), anSlot,
-          field('Campos semánticos', fSem.el), field('Etiquetas', fTags.el), field('Notas', fNotes), field('Formas antiguas', fOld, 'Variantes desplazadas por la forma actual.'));
+          field('Campos semánticos', fSem.el), field('Etiquetas', fTags.el), field('Notas', fNotes), field('Formas antiguas', fOld, 'Variantes desplazadas por la forma actual.'),
+          field('Proviene de', fFrom.el, 'Vocablo(s) del que deriva (p. ej. el verbo de un participio), aunque no figure en los segmentos. Aparecerá también en la ficha del origen como derivado.'));
+        if (derived.length) body.push(el('small', { class: 'ce-help', text: 'Derivados que declaran provenir de este vocablo: ' + derived.map(function (x) { return x.form; }).join(', ') + '.' }));
         dialog(isNew ? 'Nuevo vocablo' + (root ? ' en ' + root.form : '') : 'Editar vocablo ' + w.form, body, {
           onDelete: isNew ? null : function () {
-            var used = idx.words.filter(function (x) { return x.refs.indexOf(wordId) >= 0; }).length;
+            var used = idx.words.filter(function (x) { return x.refs.indexOf(wordId) >= 0 || (x.proviene_de || []).indexOf(wordId) >= 0; }).length;
             if (!confirm('¿Eliminar el vocablo ' + w.form + ' «' + w.gloss + '»?' + (used ? '\n\nOJO: ' + used + ' vocablos lo citan.' : ''))) return false;
             return transact(function (ctx) {
               return ctx.read('lexico/index.json').then(function (cidx) {
@@ -869,7 +887,7 @@
             if (!gloss) fail('Escribe la glosa.');
             var emoji = fEmoji.get();
             if (!validEmoji(emoji)) fail('El icono debe ser un único emoji Unicode.');
-            var a = an.get(), sem = fSem.get(), tagLabels = fTags.get(), notes = lines(fNotes.value), olds = oldForms();
+            var a = an.get(), sem = fSem.get(), tagLabels = fTags.get(), notes = lines(fNotes.value), olds = oldForms(), from = fromRefs();
             var rid = (an.principal && an.principal()) || chosenRoot.id, srcId = isNew ? null : rootId, moving = !isNew && rid !== srcId;
             return transact(function (ctx) {
               return ctx.read('lexico/index.json').then(function (cidx) {
@@ -891,6 +909,7 @@
                       tags: tagsFrom(tagLabels, []), semantic_fields: sem, notes: notes };
                     if (emoji) nw.emoji = emoji;
                     if (olds.length) nw.formas_antiguas = olds;
+                    if (from.length) nw.proviene_de = from;
                     e.words.push(nw);
                     return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: rootId && rid === rootId ? reload : goRoot(rid) };
                   }
@@ -905,6 +924,7 @@
                   x.tags = tagsFrom(tagLabels, x.tags); x.semantic_fields = sem; x.notes = notes;
                   if (emoji) x.emoji = emoji; else delete x.emoji;
                   if (olds.length) x.formas_antiguas = olds; else delete x.formas_antiguas;
+                  if (from.length) x.proviene_de = from; else delete x.proviene_de;
                   if (moving) {
                     se.words.splice(xi, 1); e.words.push(x);
                     return { files: files, message: 'Vocablo: ' + form + ' pasa de ' + se.form + ' a ' + e.form + ' (raíz principal)', after: goRoot(rid) };

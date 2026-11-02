@@ -35,6 +35,7 @@ for letter,key in LETTER_FILES:
                 'refs':[r.get('id') for r in w.get('refs',[]) if r.get('id')],
                 'semantic_fields':semantic_fields,'notes':notes,
                 **({'formas_antiguas':antiguas} if antiguas else {}),
+                **({'proviene_de':[p.get('id') for p in w.get('proviene_de',[]) if p.get('id')]} if w.get('proviene_de') else {}),
                 'search':' '.join([w.get('form',''),w.get('gloss',''),e.get('form',''),e.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields+notes+[a.get('form','') for a in antiguas])
             })
         roots.append({

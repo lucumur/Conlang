@@ -9,7 +9,7 @@
   <meta name="description" content="Ficha individual de una raíz del conlang">
   <link rel="stylesheet" href="styles.css?v=20261031indigena">
   <script src="refresh.js?v=20261101textos"></script>
-  <script src="editor.js?v=20261102morfraiz"></script>
+  <script src="editor.js?v=20261102proviene"></script>
   <style>
     .root-back{display:inline-flex;align-items:center;gap:6px;margin:0 0 22px;color:var(--muted);text-decoration:none;font-weight:700}.root-back:hover{color:var(--accent)}
     .root-sheet{border:1px solid var(--line);border-left:7px solid var(--relation-accent,#b9b3a9);border-radius:22px;background:var(--etym-bg,var(--paper));padding:clamp(22px,5vw,48px);box-shadow:0 12px 38px rgba(47,42,35,.05)}
@@ -19,7 +19,7 @@
     .root-gloss{margin:14px 0 0;font-size:clamp(1.25rem,2.5vw,1.8rem)}
     .root-tags{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;max-width:300px}
     .root-meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:22px 0 0}.meta-card{border:1px solid var(--line);border-radius:14px;padding:14px 16px}.meta-label{display:block;margin-bottom:4px;color:var(--muted);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em}.meta-text{overflow-wrap:anywhere}
-    .word-old{margin-top:6px;font-size:.84rem;color:var(--muted)}.word-old-label{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-right:4px}.word-old code{text-decoration:line-through;text-decoration-color:rgba(0,0,0,.25)}.word-old-an{font-size:.8rem}
+    .word-lineage{margin-top:6px;font-size:.84rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px;align-items:center}.word-old{margin-top:6px;font-size:.84rem;color:var(--muted)}.word-old-label{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-right:4px}.word-old code{text-decoration:line-through;text-decoration-color:rgba(0,0,0,.25)}.word-old-an{font-size:.8rem}
     .root-notes{margin-top:18px}.root-note{margin:6px 0;color:var(--muted);font-style:italic}
     .detail-section{margin-top:36px}.detail-section h2{margin:0 0 14px;font-size:1.6rem}.detail-section-count{color:var(--muted);font-size:.9rem;font-weight:500}
     .word-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:12px}.word-card{border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:var(--paper)}.word-form a{text-decoration:none}.word-form a:hover{color:var(--accent)}.word-form code{font-size:1.08rem}.word-emoji{display:inline-block;margin-right:6px;font-size:1.15rem;vertical-align:middle}.word-gloss{margin-top:4px}.word-analysis{margin-top:8px;color:var(--muted);font-size:.84rem}.word-note{margin-top:7px;color:var(--muted);font-size:.8rem;font-style:italic}.word-tags,.word-fields{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}.field{display:inline-block;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:var(--paper);font-size:.76rem;text-decoration:none}.field:hover{border-color:var(--accent);color:var(--accent)}
@@ -50,6 +50,13 @@
 (()=>{
   const box=document.getElementById('root-content');
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let derivedBy=new Map(),wordsById=new Map();
+  const wlink=x=>'<a class="morph-link" href="#'+esc(x.id)+'" title="'+esc(x.gloss||'')+'">'+esc(x.form||x.label||x.id)+'</a>';
+  function lineageHTML(w){
+    const from=(w.proviene_de||[]).map(p=>wordsById.get(p.id)||p),der=derivedBy.get(w.id)||[];
+    return (from.length?'<div class="word-lineage"><span class="word-old-label">Proviene de</span> '+from.map(wlink).join(' ')+'</div>':'')+
+      (der.length?'<div class="word-lineage"><span class="word-old-label">Derivados</span> '+der.map(wlink).join(' ')+'</div>':'');
+  }
   function oldFormsHTML(w){const a=w.formas_antiguas||[];return a.length?'<div class="word-old"><span class="word-old-label">Formas antiguas</span> '+a.map(x=>'<code>'+esc(x.form)+'</code>'+(x.analysis_text?' <span class="word-old-an">('+esc(x.analysis_text)+')</span>':'')).join(' · ')+'</div>':''}
   const NOTE_LABELS={'Bas':'note-bas','Part.':'note-part','Sono':'note-sono','formal':'note-formal','Mundial':'note-mundial','arcaico':'note-arcaico','onomato':'note-onomato','nom':'note-nom'};
   const tagHTML=tags=>(tags||[]).map(t=>'<span class="tag '+esc(t.class||'generic')+' '+esc(NOTE_LABELS[t.label]||'')+'">'+esc(RELATION_NAMES[t.class]||t.label)+'</span>').join('');
@@ -82,7 +89,7 @@
   }
 
   function wordCard(w,external=false){
-    const notes=(w.notes||[]).map(n=>'<div class="word-note">'+esc(n)+'</div>').join('')+oldFormsHTML(w);
+    const notes=(w.notes||[]).map(n=>'<div class="word-note">'+esc(n)+'</div>').join('')+oldFormsHTML(w)+lineageHTML(w);
     const tags=(w.tags||[]).length?'<div class="word-tags">'+tagHTML(w.tags)+'</div>':'';
     const fields=(w.semantic_fields||[]).length?'<div class="word-fields">'+fieldHTML(w.semantic_fields)+'</div>':'';
     const externalRoot=external?'<div class="word-analysis">Raíz principal: <a href="raiz.html?id='+encodeURIComponent(w._root.id)+'"><code>'+esc(w._root.form)+'</code></a></div>':'';
@@ -122,6 +129,8 @@
       fetch('lexico/morphemes.json').then(r=>{if(!r.ok)throw Error('morphemes');return r.json()})
     ]);
     index=idx;
+    wordsById=new Map((idx.words||[]).map(w=>[w.id,w]));derivedBy=new Map();
+    for(const w of idx.words||[])for(const p of w.proviene_de||[]){if(!derivedBy.has(p))derivedBy.set(p,[]);derivedBy.get(p).push(w)}
     const meta=(idx.roots||[]).find(r=>r.id===id);
     if(!meta)throw Error('root not found');
     const file=(idx.letters||[]).find(x=>x.key===meta.key)?.file;
