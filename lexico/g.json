@@ -3158,9 +3158,13 @@
           "id": "lexeme-gisgere",
           "form": "gisĝere",
           "gloss": "hierro fundido, hierro colado",
-          "analysis_html": "GIS + <a class=\"morph-link\" href=\"#root-ger-2\">ĜER</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-gis\">GIS</a> + <a class=\"morph-link\" href=\"#root-ger-2\">ĜER</a> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
           "analysis_text": "GIS + ĜER + -E",
           "refs": [
+            {
+              "id": "root-gis",
+              "label": "GIS"
+            },
             {
               "id": "root-ger-2",
               "label": "ĜER"
