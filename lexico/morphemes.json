@@ -3161,6 +3161,25 @@
       "row_class": ""
     },
     {
+      "id": "morph-gxer",
+      "form": "*ĝer-",
+      "gloss": "de hierro",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "prefijo"
+        }
+      ],
+      "letter": "Ĝ",
+      "section": "sec-circ-g",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "root_refs": [
+        "root-ger"
+      ]
+    },
+    {
       "id": "morph-ite-noncount",
       "form": "*-ITE",
       "gloss": "derivativo que produce una forma en -E de valor no cuantificable",
