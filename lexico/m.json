@@ -75,18 +75,26 @@
       "words": [
         {
           "id": "lexeme-majen",
-          "form": "majen",
+          "form": "majan",
           "gloss": "madre",
-          "analysis_html": "MAJ + EN <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "MAJ + EN (pendiente)",
-          "refs": [],
+          "analysis_html": "MAJ + <a class=\"morph-link\" href=\"#morph-an-2\">-AN</a> <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "MAJ + -AN (pendiente)",
+          "refs": [
+            {
+              "id": "morph-an-2",
+              "label": "-AN"
+            }
+          ],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Humano AN"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "familia",
+            "personas femeninas"
+          ],
           "notes": [
             "Registro formal. Antónimo: pajan «padre»."
           ]
