@@ -131,8 +131,16 @@
           "traduccion": "elo tafpjo ĵes ĉrivapjo; eli legri ĵes por ẑudar",
           "enlaces": [
             {
+              "indice": 0,
+              "vocablo_id": "lexeme-elo"
+            },
+            {
               "indice": 5,
               "vocablo_id": "lexeme-legro"
+            },
+            {
+              "indice": 8,
+              "vocablo_id": "lexeme-zxudar"
             }
           ]
         }
