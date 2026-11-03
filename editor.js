@@ -152,7 +152,8 @@
         });
         return read('lexico/index.json').then(function (idx) {
           var out = Object.keys(res.files).map(function (p) { return [p, JSON.stringify(res.files[p], null, 2) + '\n']; });
-          out.push(['lexico/index.json', JSON.stringify(buildIndex(idx, letterData, mdata))]);
+          var built = buildIndex(idx, letterData, mdata); res.index = built;
+          out.push(['lexico/index.json', JSON.stringify(built)]);
           return Promise.all(out.map(function (f) {
             return gh(RP + '/git/blobs', { method: 'POST', body: { content: f[1], encoding: 'utf-8' } })
               .then(function (b) { return { path: f[0], mode: '100644', type: 'blob', sha: b.sha }; });
@@ -163,7 +164,7 @@
           return gh(RP + '/git/commits', { method: 'POST', body: { message: res.message + '\n\nEditado desde la página web (modo edición).', tree: t.sha, parents: [base] } });
         }).then(function (c) {
           return gh(RP + '/git/refs/heads/' + BRANCH, { method: 'PATCH', body: { sha: c.sha, force: false } }).then(function () {
-            setRef(c.sha); res.sha = c.sha; return res;
+            setRef(c.sha); res.sha = c.sha; if (res.index) idxPromise = Promise.resolve(res.index); return res;
           });
         });
       }).catch(function (err) {
@@ -301,6 +302,7 @@
     '.ce-tok{border:1px solid var(--line);border-radius:7px;padding:2px 7px;font:600 .88rem ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;background:#fff;color:var(--ink);cursor:pointer}',
     '.ce-tok.fixed{background:#e0e7ff;border-color:#a5b4fc}.ce-tok.auto{background:#eef7ee;border-color:#b7dcb7}.ce-tok.lookup{border-style:dashed;color:var(--muted)}.ce-tok.plain{background:#f1eee6;color:var(--muted);font-style:italic}.ce-tok.broken{background:#ffe4e4;border-color:#f3a5a5}',
     'small .ce-tok{cursor:default;font-size:.72rem;padding:0 5px}',
+    '.ce-pending{display:grid;gap:6px;padding:8px 10px;border:1px dashed var(--line);border-radius:9px;background:#fbfaf6}.ce-pending-list{display:flex;flex-wrap:wrap;gap:4px}',
     '.ce-tok-pop{display:grid;gap:10px;margin-top:8px;padding:12px;border:1px solid var(--accent);border-radius:10px;background:#fbfbff}.ce-tok-actions{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.ce-tok-actions .ce-spacer{flex:1}',
     '.ce-chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:6px;border:1px solid var(--line);border-radius:9px;background:#fff}',
     '.ce-chips input{flex:1 1 140px;border:0!important;padding:3px 4px!important;outline:0!important}',
@@ -812,7 +814,11 @@
   }
 
   /* ---------- Vocablos ---------- */
-  function wordDialog(rootId, wordId) {
+  /* opts.prefill: { form }   valores iniciales para un vocablo nuevo
+     opts.onSaved(id): en lugar de recargar la página, se llama con el id del vocablo creado
+                       (lo usa el editor de textos para no perder su estado). */
+  function wordDialog(rootId, wordId, opts) {
+    opts = opts || {};
     var isNew = !wordId;
     return loadIndex().then(function (idx) {
       var meta = rootId ? idx.roots.find(function (r) { return r.id === rootId; }) : null;
@@ -825,7 +831,7 @@
         idx.words.forEach(function (x) { (x.semantic_fields || []).forEach(function (f) { fields[f] = 1; }); (x.tags || []).forEach(function (t) { wtags[t] = 1; }); });
         var rootOpts = idx.roots.map(function (r) { return r.form + '  ·  ' + r.gloss + '  [' + r.id + ']'; });
         var chosenRoot = meta, fRoot = null;
-        var fForm = textInput(w ? w.form : '', { class: 'ce-mono', required: true });
+        var fForm = textInput(w ? w.form : (opts.prefill && opts.prefill.form) || '', { class: 'ce-mono', required: true });
         var fEmoji = emojiPicker(w ? w.emoji : '');
         var fGloss = textInput(w ? w.gloss : '', { required: true });
         var an = analysisEditor(w, root ? rootLabel(root.form) : '', idx, rootId || null), anSlot = el('div', {}, [an.el]);
@@ -858,6 +864,16 @@
             if (r) { fRoot.value = r.form + '  ·  ' + r.gloss + '  [' + r.id + ']'; an = analysisEditor(null, rootLabel(r.form), idx, r.id); anSlot.innerHTML = ''; anSlot.appendChild(an.el); }
           });
           body.push(field('Raíz', fRoot, 'Elige de la lista.'));
+          var pf = opts.prefill && opts.prefill.form;
+          if (pf) {
+            // Raíces cuyo segmento coincide con el inicio de la palabra: las más largas primero.
+            var fold = function (x) { return String(x || '').normalize('NFC').toLocaleLowerCase('es').replace(/[-*\s]/g, ''); }, f0 = fold(pf);
+            var sug = idx.roots.filter(function (r) { var l = fold(rootLabel(r.form)); return l.length >= 2 && f0.indexOf(l) === 0; })
+              .sort(function (a, b) { return fold(rootLabel(b.form)).length - fold(rootLabel(a.form)).length; }).slice(0, 8);
+            if (sug.length) body.push(el('div', { class: 'ce-linkrow' }, [el('small', { text: 'Raíces sugeridas:' })].concat(sug.map(function (r) {
+              return el('button', { type: 'button', text: r.form + ' · ' + r.gloss, onclick: function () { fRoot.value = r.form + '  ·  ' + r.gloss + '  [' + r.id + ']'; fRoot.dispatchEvent(new Event('change')); } });
+            }))));
+          }
         }
         body.push(el('div', { class: 'ce-row' }, [field('Forma', el('div', { class: 'ce-word-form-row' }, [fEmoji.el, fForm]), 'Pulsa el icono para elegir, pegar o quitar un emoji.'), field('Glosa', fGloss)]), anSlot,
           field('Campos semánticos', fSem.el), field('Etiquetas', fTags.el), field('Notas', fNotes), field('Formas antiguas', fOld, 'Variantes desplazadas por la forma actual.'),
@@ -911,6 +927,7 @@
                     if (olds.length) nw.formas_antiguas = olds;
                     if (from.length) nw.proviene_de = from;
                     e.words.push(nw);
+                    if (opts.onSaved) return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: function () { opts.onSaved(nw.id); } };
                     return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: page === 'vocablo' ? function () { location.assign('vocablo.html?id=' + encodeURIComponent(nw.id)); } : rootId && rid === rootId ? reload : goRoot(rid) };
                   }
                   var se = sd.entries.find(function (x) { return x.id === srcId; });
@@ -1040,9 +1057,15 @@
     return Promise.all([loadIndex(), readJSON('textos/index.json', currentRef())]).then(function (r) {
       var idx = r[0], lib = r[1], t = isNew ? {} : (lib.textos || []).find(function (x) { return x.id === textId; });
       if (!t) throw Error('Texto no encontrado: ' + textId);
-      var byForm = {}, byId = {};
-      idx.words.forEach(function (w) { var k = tnorm(w.form); (byForm[k] = byForm[k] || []).push(w); byId[w.id] = w; });
-      var wordOpts = idx.words.map(function (w) { return w.form + '  ·  ' + w.gloss + '  [' + w.id + ']'; }), dl = datalist(wordOpts);
+      var byForm, byId, wordOpts, dl = datalist([]);
+      function setLexicon(nidx) {
+        idx = nidx; byForm = {}; byId = {};
+        idx.words.forEach(function (w) { var k = tnorm(w.form); (byForm[k] = byForm[k] || []).push(w); byId[w.id] = w; });
+        wordOpts = idx.words.map(function (w) { return w.form + '  ·  ' + w.gloss + '  [' + w.id + ']'; });
+        var dle = document.getElementById(dl); dle.innerHTML = '';
+        wordOpts.forEach(function (o) { dle.appendChild(el('option', { value: o })); });
+      }
+      setLexicon(idx);
 
       var fTitle = textInput(t.titulo, { required: true }), fTitleO = textInput(t.titulo_original);
       var fLang = textInput(t.idioma_original, { placeholder: 'Esperanto, Latín…' }), fAuthor = textInput(t.autor), fTrans = textInput(t.traductor);
@@ -1085,7 +1108,30 @@
         if (c.length === 1) return { cls: 'auto', title: 'Automático → ' + c[0].form + ' «' + c[0].gloss + '»' };
         return { cls: 'lookup', title: c.length ? c.length + ' homógrafos: elige uno' : 'No está en el léxico: abrirá una búsqueda' };
       }
+      var pendingBox = el('div', { class: 'ce-pending' });
+      function renderPending() {
+        var groups = {}, order = [];
+        state.forEach(function (s, k) {
+          s.tokens.forEach(function (tok, i) {
+            if (status(k, i, tok).cls !== 'lookup') return;
+            var key = tnorm(tok);
+            if (!groups[key]) { groups[key] = { tok: tok, k: k, i: i, n: 0, homo: (byForm[key] || []).length }; order.push(key); }
+            groups[key].n++;
+          });
+        });
+        pendingBox.innerHTML = '';
+        if (!order.length) { pendingBox.appendChild(el('small', { text: 'Todas las palabras de la traducción están identificadas.' })); return; }
+        pendingBox.appendChild(el('small', { text: 'Sin identificar (' + order.length + '): pulsa una para enlazarla o darla de alta.' }));
+        var wrap = el('div', { class: 'ce-pending-list' });
+        order.forEach(function (key) {
+          var g = groups[key];
+          wrap.appendChild(el('button', { type: 'button', class: 'ce-tok lookup', title: g.homo ? g.homo + ' homógrafos' : 'No está en el léxico',
+            text: g.tok + (g.n > 1 ? ' ×' + g.n : '') + (g.homo ? ' (?)' : ''), onclick: function () { editToken(g.k, g.i, g.tok); } }));
+        });
+        pendingBox.appendChild(wrap);
+      }
       function renderReview() {
+        renderPending();
         review.innerHTML = '';
         state.forEach(function (s, k) {
           if (!s.tokens.length) return;
@@ -1114,7 +1160,22 @@
             }, 'primary'),
             btn('Sin enlace (nombre propio)', function () { delete s.links[i]; s.plain[i] = fN.value.trim() || 'Nombre propio'; close(); renderReview(); }),
             btn('Automático', function () { delete s.links[i]; delete s.plain[i]; close(); renderReview(); }),
+            btn('+ Nuevo vocablo', guard(function () {
+              var nota = fN.value.trim();
+              return wordDialog(null, null, { prefill: { form: tok.toLocaleLowerCase('es') }, onSaved: function (id) {
+                loadIndex().then(function (nidx) {
+                  setLexicon(nidx);
+                  var w = byId[id];
+                  s.links[i] = { vocablo_id: id };
+                  if (nota) s.links[i].nota = nota;
+                  else if (w && tnorm(w.form) !== tnorm(tok)) s.links[i].nota = 'Forma de ' + w.form;
+                  delete s.plain[i]; close(); renderReview();
+                  toast('Vocablo ' + (w ? w.form : id) + ' creado y enlazado. Recuerda guardar el texto.', 5000);
+                });
+              } });
+            })),
             el('span', { class: 'ce-spacer' }), btn('Cerrar', close)])]));
+        popSlot.scrollIntoView({ block: 'nearest' });
         fW.focus();
       }
       fTr.addEventListener('input', sync); fOrig.addEventListener('input', sync);
@@ -1126,7 +1187,7 @@
         el('div', { class: 'ce-text-pair' }, [field('Original', fOrig), field('Traducción', fTr)]), countBox,
         el('div', { class: 'ce-field' }, [el('span', { text: 'Enlaces de la traducción' }),
           el('small', { html: 'Pulsa una palabra para fijar su vocablo. <b class="ce-tok fixed">fijado</b> <b class="ce-tok auto">automático</b> <b class="ce-tok lookup">sin identificar</b> <b class="ce-tok plain">sin enlace</b> <b class="ce-tok broken">vocablo inexistente</b>' }),
-          review, popSlot])])];
+          pendingBox, review, popSlot])])];
       sync();
 
       dialog(isNew ? 'Nuevo texto' : 'Editar texto «' + (t.titulo || '') + '»', body, {
