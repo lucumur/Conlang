@@ -59,7 +59,7 @@
         },
         {
           "original": "Ahora esta sentado en su recamara y esta estudiando.",
-          "traduccion": "Ci sidis ĵam sur ĉambral por lernar",
+          "traduccion": "Ci sidis ĵam ĉe ĉambral por lernar",
           "enlaces": [
             {
               "indice": 0,
@@ -73,10 +73,6 @@
             {
               "indice": 2,
               "vocablo_id": "lexeme-jam"
-            },
-            {
-              "indice": 3,
-              "vocablo_id": "lexeme-sur"
             },
             {
               "indice": 4,
@@ -143,6 +139,24 @@
               "vocablo_id": "lexeme-zxudar"
             }
           ]
+        },
+        {
+          "original": "El padre y la madre de mi amigo no se encuentran en la habitación.",
+          "traduccion": "ces pajan kaj ces majan nel avos ĉe ĉambral",
+          "enlaces": [
+            {
+              "indice": 4,
+              "vocablo_id": "lexeme-majen"
+            },
+            {
+              "indice": 5,
+              "vocablo_id": "lexeme-ne"
+            }
+          ]
+        },
+        {
+          "original": "Ellos salieron a trabajar. su padre de hecho trabaja en un hotel.",
+          "traduccion": "Loj foritus al verkor, ces pajan fartuk labros ĉe gaspedal"
         }
       ],
       "autor": "Lernu"
