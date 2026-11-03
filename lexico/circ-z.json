@@ -3064,6 +3064,33 @@
           "tags": [],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-zxudar",
+          "form": "ẑudar",
+          "gloss": "que estudia, estudiante",
+          "analysis_html": "ẐUD + <a class=\"morph-link\" href=\"#morph-ar-2\">-AR</a>",
+          "analysis_text": "ẐUD + -AR",
+          "refs": [
+            {
+              "id": "morph-ar-2",
+              "label": "-AR"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Participio AR"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": [],
+          "proviene_de": [
+            {
+              "id": "lexeme-zxudas",
+              "label": "ẑudas"
+            }
+          ]
         }
       ]
     },
