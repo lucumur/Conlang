@@ -1711,6 +1711,34 @@
             "abstractos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-gaspedal",
+          "form": "gaspedal",
+          "gloss": "hotel",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-ed\">-ED-</a> + <a class=\"morph-link\" href=\"#morph-al-3\">-AL</a>",
+          "analysis_text": "GASP + -ED- + -AL",
+          "refs": [
+            {
+              "id": "morph-ed",
+              "label": "-ED-"
+            },
+            {
+              "id": "morph-al-3",
+              "label": "-AL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Locativo AL"
+            }
+          ],
+          "semantic_fields": [
+            "edificios",
+            "turismo"
+          ],
+          "notes": []
         }
       ]
     },
