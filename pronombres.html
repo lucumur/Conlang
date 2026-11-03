@@ -10,7 +10,27 @@
   <link rel="stylesheet" href="styles.css?v=20261031indigena">
   <script src="refresh.js?v=20261101textos"></script>
   <script src="editor.js?v=20261103textovoc"></script>
-<style>.pron-link{color:inherit;text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px}.pron-link:hover{color:var(--accent)}</style>
+<style>
+    .pron-link{color:inherit;text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--accent) 45%,transparent)}.pron-link:hover{color:var(--accent);border-bottom-color:var(--accent)}
+    .pron-tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin:0 0 14px}
+    .pron-tools input{flex:1 1 320px;min-width:0;max-width:560px;padding:11px 14px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit}.pron-tools input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(67,56,202,.12)}
+    .view-toggle{display:flex;align-items:center;gap:6px}.view-toggle .view-label{margin-right:4px;color:var(--muted);font-size:.82rem;font-weight:700}.view-toggle button{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:8px 11px;border-radius:10px;font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}.view-toggle button[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10)}
+    .pron-nav{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px}.pron-nav a{padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--paper);text-decoration:none;font-size:.86rem;font-weight:700}.pron-nav a:hover{border-color:var(--accent);color:var(--accent)}
+    .pron-section{scroll-margin-top:84px;margin:0 0 40px}.pron-section h2{display:flex;align-items:baseline;gap:10px;margin:0 0 12px;font-size:1.6rem}.pron-section h2 small{color:var(--muted);font-size:.85rem;font-weight:500}
+    .pron-table th{white-space:nowrap}.pron-table td{white-space:nowrap}.pron-table td.pron-base code,.series-head code{font-size:1.02rem}.pron-table td.pron-gloss{white-space:normal;min-width:180px}
+    .pron-empty{color:#b9b3a9}.pron-cell-gloss{display:block;color:var(--muted);font-size:.78rem;white-space:normal}.pron-row-note{display:block;margin-top:4px;color:var(--muted);font-size:.8rem;font-style:italic;white-space:normal}
+    .series-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:12px}
+    .series-card{border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:14px 16px}
+    .series-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px}.series-head code{font-size:1.2rem}.series-head span{color:var(--muted)}
+    .series-cases{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;margin-top:10px;padding:8px;border-radius:10px;background:#f6f4ef;font-size:.84rem}.series-cases div{min-width:0}.series-cases b{display:block;color:var(--muted);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase}
+    .series-members{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:4px;border-top:1px solid var(--line);padding-top:8px}.series-members li{display:flex;gap:8px;align-items:baseline}.series-members span{color:var(--muted);font-size:.9rem}
+    .card-view .pron-table thead{display:none}.card-view .pron-table{display:block;border:0;background:transparent}.card-view .pron-table tbody{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:12px}
+    .card-view .pron-table tbody tr{display:block;border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:12px 14px}.card-view .pron-table tbody td{display:grid;grid-template-columns:136px minmax(0,1fr);column-gap:8px;align-items:baseline;border:0;padding:3px 0;white-space:normal}.card-view .pron-table tbody td.pron-base{display:block}
+    .card-view .pron-table tbody td[data-label]::before{content:attr(data-label);grid-column:1;color:var(--muted);font-size:.66rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase}
+    .card-view .pron-table td.pron-base code{font-size:1.25rem}.card-view .pron-table .table-wrap,.card-view .pron-wrap{overflow:visible;border:0;background:transparent}
+    .pron-source{display:none}.pron-section[hidden],.pron-section [hidden]{display:none!important}
+    @media(max-width:640px){.series-cases{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  </style>
 </head>
 <body>
 <header class="page-header">
@@ -34,9 +54,13 @@
 <section class="hero compact">
   <p class="eyebrow">Morfología pronominal</p>
   <h1>Pronombres, artículos y correlativos</h1>
-  <p>Transcripción de los paradigmas documentados. Las casillas ausentes no se completan por inferencia. Cada forma enlaza con su vocablo; las columnas son: forma básica | ergativo | alativo/dativo | genitivo/ablativo | colectivo.</p>
+  <p>Paradigmas documentados. Las casillas ausentes (—) no se completan por inferencia. Cada forma enlaza con la ficha de su vocablo.</p>
 </section>
-<section class="doc-section"><h2>PRONOMBRES -i</h2><pre class="paradigm">mi = yo | ma / mu | min | mes | mek = conmigo
+<div class="pron-tools"><input id="pron-search" type="search" autocomplete="off" spellcheck="false" placeholder="Buscar forma o significado: ĉok · donde · nosotros"><div class="view-toggle" role="group" aria-label="Modo de visualización"><span class="view-label">Vista</span><button id="view-table" type="button" aria-pressed="true">Tabla</button><button id="view-cards" type="button" aria-pressed="false">Tarjetas</button></div></div>
+<nav class="pron-nav" id="pron-nav" aria-label="Secciones"></nav>
+<div id="pron-content"></div>
+<div class="pron-source">
+<section class="doc-section"><h2>PRONOMBRES -i</h2><pre class="paradigm" data-src>mi = yo | ma / mu | min | mes | mek = conmigo
 vi = tu | va / vu | vin | ves | vek = contigo
 θi = tu inform. | θu | θin | θes | θek = contigo
 ẑi = vos (fem) | ẑu | ẑin | ẑes | voẑek = con vos
@@ -52,10 +76,10 @@ eĉki = cada uno, cada... | eĉku | — | — | —
 ri = algo, anything, lo que sea | ru | rin | res | rem = algo
 ori = algo | oru | orin | ores | —
 neri = ninguno | neru | nerin | neres | nem = nada</pre></section>
-<section class="doc-section"><h2>PRONOMBRES POSESIVOS -i</h2><pre class="paradigm">nori = nuestro | nora | noron | noras | —
+<section class="doc-section"><h2>PRONOMBRES POSESIVOS -i</h2><pre class="paradigm" data-src>nori = nuestro | nora | noron | noras | —
 vori = vuestro | vora | voron | voras | —
 lori = de ellos | lora | loron | loros | —</pre></section>
-<section class="doc-section"><h2>PRONOMBRES -a</h2><pre class="paradigm">ĉan = quien?, el que | ĉa | ĉajn | ĉel | olĉan = quien de los dos?
+<section class="doc-section"><h2>PRONOMBRES -a</h2><pre class="paradigm" data-src>ĉan = quien?, el que | ĉa | ĉajn | ĉel | olĉan = quien de los dos?
 ran = anybody | ra | rajn | rel | —
 neran = nadie | nera | nerajn | nerel | —
 eĉkan = cada quien | eĉka | eĉkajn | eĉkel | —
@@ -63,7 +87,7 @@ oĉaj = todos | oĉas | oĉaf | oĉur | —
 ẑetaj = los demas | ẑetas | ẑetaf | ẑetur | —
 plaj = muchos | plas | plaf | pliur | —
 ĉaj = quienes? | ĉas | ĉaf | ĉiur | —</pre></section>
-<section class="doc-section"><h2>PRONOMBRES -oj</h2><pre class="paradigm">noj = nosotros | nos | nof | nor | noks = con nos
+<section class="doc-section"><h2>PRONOMBRES -oj</h2><pre class="paradigm" data-src>noj = nosotros | nos | nof | nor | noks = con nos
 voj = ustedes | vos | vof | vor | voks = con vos
 θoj = ustedes dos | θos | θof | θor | θoks = con uds
 loj = ellos | los | lof | lor | loks = con ellos
@@ -73,12 +97,12 @@ eloj = aquellos | elos | elof | elor | —
 ĉoj = que cosas?, los que | ĉos | ĉof | ĉor | —
 oĉoj = todo, todos | oĉos | oĉof | oĉor | —
 ploj = muchos | plos | plof | plor | —</pre></section>
-<section class="doc-section"><h2>PRONOMBRES POSESIVOS -el</h2><pre class="paradigm">mel = mio | mer | melin | melur | —
+<section class="doc-section"><h2>PRONOMBRES POSESIVOS -el</h2><pre class="paradigm" data-src>mel = mio | mer | melin | melur | —
 vel = tuyo | ver | velin | velur | —
 θel = tuyo | θer | θelin | θelur | —
 cel = suyo | cer | celin | celur | —
 ŝel = de ella | ŝer | ŝelin | ŝelur | —</pre></section>
-<section class="doc-section"><h2>ARTÍCULOS Y SERIE -o / -i</h2><pre class="paradigm">to = el inanimado | te | ton | tes | —
+<section class="doc-section"><h2>ARTÍCULOS Y SERIE -o / -i</h2><pre class="paradigm" data-src>to = el inanimado | te | ton | tes | —
   endo = este (de otros)
   oldo = el otro
 
@@ -112,36 +136,97 @@ ti = los, inanimado | tos | tof | tor | —
 ĉaj = porque?
   ĉajpor = para que
   taj = porque...</pre></section>
-<section class="doc-section"><h2>OTROS</h2><pre class="paradigm">ajni = cualquier
+<section class="doc-section"><h2>OTROS</h2><pre class="paradigm" data-src>ajni = cualquier
 fi = el mismo</pre></section>
+</div>
 </main>
 <script>
 (()=>{
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const norm=s=>String(s??'').normalize('NFC').toLocaleLowerCase('es');
+  const CASES=['Ergativo','Alativo / dativo','Genitivo / ablativo','Colectivo'];
   const WORD=/[\p{L}\p{M}]+/gu, KINDS=['Pronombre','Pronombre posesivo','Correlativo','Artículo'];
+  const content=document.getElementById('pron-content'),nav=document.getElementById('pron-nav'),search=document.getElementById('pron-search');
+
+  // --- Vista tabla / tarjetas (recordada como en Vocablos y Morfemas)
+  (()=>{const KEY='conlang-pron-view',t=document.getElementById('view-table'),c=document.getElementById('view-cards');let v=(()=>{try{return localStorage.getItem(KEY)}catch(e){return null}})()||'table';
+    const apply=()=>{document.body.classList.toggle('card-view',v==='cards');t.setAttribute('aria-pressed',String(v==='table'));c.setAttribute('aria-pressed',String(v==='cards'))};
+    const set=x=>{v=x;try{localStorage.setItem(KEY,v)}catch(e){}apply()};t.onclick=()=>set('table');c.onclick=()=>set('cards');apply()})();
+
+  // --- Lectura de la fuente: «forma = glosa | caso | caso | caso | colectivo», con líneas sangradas como notas o miembros de serie
+  function splitForm(cell){cell=String(cell||'').trim();const i=cell.indexOf('=');return i<0?{form:cell,gloss:''}:{form:cell.slice(0,i).trim(),gloss:cell.slice(i+1).trim()}}
+  function parse(pre){
+    const groups=[];let cur=null;
+    for(const raw of pre.textContent.split('\n')){
+      if(!raw.trim()){cur=null;continue}
+      const indented=/^\s/.test(raw),line=raw.trim();
+      if(indented&&cur){
+        const m=line.match(/^colectivo adicional visible:\s*(.*)$/i);
+        if(m)cur.notes.push(m[1]);else cur.members.push(splitForm(line));
+        continue;
+      }
+      const cells=line.split('|').map(x=>x.trim()),head=splitForm(cells[0]);
+      cur={form:head.form,gloss:head.gloss,cases:cells.length>1?cells.slice(1).map(splitForm):[],notes:[],members:[]};
+      groups.push(cur);
+    }
+    return groups;
+  }
+  const sections=[...document.querySelectorAll('pre[data-src]')].map((pre,n)=>{
+    const title=pre.closest('section').querySelector('h2').textContent.trim();
+    return {id:'pron-'+(n+1),title,groups:parse(pre)};
+  });
+
+  // --- Enlaces a vocablos (misma desambiguación que antes: notas «Paradigma: base | …»)
+  let by=new Map();
+  const inParadigm=(w,base)=>(w.notes||[]).some(n=>n.startsWith('Paradigma: '+base+' |'));
+  function pick(tok,base){
+    const c=by.get(norm(tok))||[];if(c.length<2)return c[0];
+    if(base)return c.find(w=>inParadigm(w,base))||c[0];
+    return c.find(w=>!(w.notes||[]).some(n=>n.startsWith('Paradigma: ')))||c[0];
+  }
+  function linkForms(text,base){
+    return String(text).replace(WORD,'\u0001$&\u0001').split('\u0001').map((s,j)=>{
+      if(!(j%2))return esc(s);
+      const w=pick(s,base);if(!w)return esc(s);
+      return '<a class="pron-link" href="vocablo.html?id='+encodeURIComponent(w.id)+'" title="'+esc(w.form+' — '+w.gloss)+'">'+esc(s)+'</a>';
+    }).join('');
+  }
+  const formHTML=(f,base)=>!f.form||f.form==='—'?'<span class="pron-empty">—</span>':'<code>'+linkForms(f.form,base)+'</code>'+(f.gloss?'<span class="pron-cell-gloss">'+esc(f.gloss)+'</span>':'');
+  const ctx=g=>g.cases.length?g.form:null;
+  const noteHTML=n=>{const f=splitForm(n);return '<code>'+linkForms(f.form,null)+'</code>'+(f.gloss?' = '+esc(f.gloss):'')};
+
+  function tableHTML(groups){
+    const cols=Math.max(0,...groups.map(g=>g.cases.length));
+    const head='<tr><th>Forma</th><th>Significado</th>'+CASES.slice(0,cols).map(c=>'<th>'+c+'</th>').join('')+'</tr>';
+    const rows=groups.map(g=>'<tr data-search="'+esc(norm([g.form,g.gloss,...g.cases.map(c=>c.form+' '+c.gloss),...g.notes].join(' ')))+'"><td class="pron-base"><code>'+linkForms(g.form,ctx(g))+'</code></td><td class="pron-gloss" data-label="Significado"><div>'+esc(g.gloss)+g.notes.map(n=>'<span class="pron-row-note">'+noteHTML(n)+'</span>').join('')+'</div></td>'+
+      Array.from({length:cols},(_,i)=>'<td data-label="'+CASES[i]+'"><div>'+formHTML(g.cases[i]||{form:'—'},ctx(g))+'</div></td>').join('')+'</tr>').join('');
+    return '<div class="table-wrap pron-wrap"><table class="lex-table pron-table"><thead>'+head+'</thead><tbody>'+rows+'</tbody></table></div>';
+  }
+  function seriesHTML(groups){
+    return '<div class="series-grid">'+groups.map(g=>'<article class="series-card" data-search="'+esc(norm([g.form,g.gloss,...g.cases.map(c=>c.form),...g.members.map(m=>m.form+' '+m.gloss)].join(' ')))+'"><div class="series-head"><code>'+linkForms(g.form,ctx(g))+'</code><span>'+esc(g.gloss)+'</span></div>'+
+      (g.cases.length?'<div class="series-cases">'+g.cases.map((c,i)=>'<div><b>'+CASES[i]+'</b>'+formHTML(c,ctx(g))+'</div>').join('')+'</div>':'')+
+      (g.members.length?'<ul class="series-members">'+g.members.map(m=>'<li><code>'+linkForms(m.form,null)+'</code><span>'+esc(m.gloss)+'</span></li>').join('')+'</ul>':'')+'</article>').join('')+'</div>';
+  }
+  function render(){
+    content.innerHTML=sections.map(sec=>{
+      const series=sec.groups.some(g=>g.members.length);
+      const n=sec.groups.length+sec.groups.reduce((a,g)=>a+g.members.length,0);
+      return '<section class="pron-section" id="'+sec.id+'"><h2>'+esc(sec.title)+' <small>'+n+' forma'+(n===1?'':'s')+'</small></h2>'+(series?seriesHTML(sec.groups):tableHTML(sec.groups))+'</section>';
+    }).join('');
+    nav.innerHTML=sections.map(sec=>'<a href="#'+sec.id+'">'+esc(sec.title)+'</a>').join('');
+    filter();
+  }
+  function filter(){
+    const q=norm(search.value.trim());
+    content.querySelectorAll('[data-search]').forEach(el=>{el.hidden=!!q&&!el.dataset.search.includes(q)});
+    content.querySelectorAll('.pron-section').forEach(sec=>{sec.hidden=!!q&&!sec.querySelector('[data-search]:not([hidden])')});
+  }
+  search.addEventListener('input',filter);
+  render();
   fetch('lexico/index.json').then(r=>r.json()).then(idx=>{
-    const by=new Map();
-    for(const w of idx.words){ if(!(w.tags||[]).some(t=>KINDS.includes(t))) continue; const k=w.form.toLowerCase(); if(!by.has(k))by.set(k,[]); by.get(k).push(w); }
-    const inParadigm=(w,base)=>(w.notes||[]).some(n=>n.startsWith('Paradigma: '+base+' |'));
-    function pick(tok,line){
-      const c=by.get(tok.toLowerCase())||[]; if(c.length<2) return c[0];
-      if(line.includes('|')){ const base=line.split('|')[0].split('=')[0].trim(); return c.find(w=>inParadigm(w,base))||c[0]; }
-      return c.find(w=>!(w.notes||[]).some(n=>n.startsWith('Paradigma: ')))||c[0];
-    }
-    function forms(text,line){
-      return text.replace(WORD,'\u0001$&\u0001').split('\u0001').map((s,j)=>{
-        if(!(j%2)) return esc(s);
-        const w=pick(s,line); if(!w) return esc(s);
-        return '<a class="pron-link" href="vocablo.html?id='+encodeURIComponent(w.id)+'" title="'+esc(w.form+' — '+w.gloss)+'">'+esc(s)+'</a>';
-      }).join('');
-    }
-    document.querySelectorAll('pre.paradigm').forEach(pre=>{
-      pre.innerHTML=pre.textContent.split('\n').map(line=>line.split('|').map(cell=>{
-        let lead='',rest=cell; const m=cell.match(/^(\s*colectivo adicional visible:)(.*)$/); if(m){lead=m[1];rest=m[2];}
-        const i=rest.indexOf('='); const head=i<0?rest:rest.slice(0,i), tail=i<0?'':rest.slice(i);
-        return esc(lead)+forms(head,line)+esc(tail);
-      }).join('|')).join('\n');
-    });
+    by=new Map();
+    for(const w of idx.words){if(!(w.tags||[]).some(t=>KINDS.includes(t)))continue;const k=norm(w.form);if(!by.has(k))by.set(k,[]);by.get(k).push(w)}
+    render();
   }).catch(()=>{});
 })();
 </script>
