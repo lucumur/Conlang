@@ -6058,6 +6058,22 @@
           "notes": [
             "Serie de correlativos (ver Pronombres)."
           ]
+        },
+        {
+          "id": "lexeme-elo",
+          "form": "elo",
+          "gloss": "aquel",
+          "analysis_html": "",
+          "analysis_text": "",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Articulo"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
