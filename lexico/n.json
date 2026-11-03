@@ -25,18 +25,20 @@
       "words": [
         {
           "id": "lexeme-ne",
-          "form": "ne",
+          "form": "nel",
           "gloss": "no",
-          "analysis_html": "N + E <span class=\"meta-extra\">(pendiente)</span>",
-          "analysis_text": "N + E (pendiente)",
+          "analysis_html": "N + El <span class=\"meta-extra\">(pendiente)</span>",
+          "analysis_text": "N + El (pendiente)",
           "refs": [],
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Particula"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "Negativos"
+          ],
           "notes": []
         },
         {
