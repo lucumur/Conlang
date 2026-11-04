@@ -1535,8 +1535,8 @@
       "words": [
         {
           "id": "lexeme-gaspas",
-          "form": "gaspas",
-          "gloss": "recibir de huéspedes",
+          "form": "gaspanos",
+          "gloss": "recibir huéspedes",
           "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
           "analysis_text": "GASP + -AS",
           "refs": [
@@ -1560,7 +1560,7 @@
         },
         {
           "id": "lexeme-gaspos",
-          "form": "gaspos",
+          "form": "gaspis",
           "gloss": "hospedarse",
           "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
           "analysis_text": "GASP + -OS",
@@ -1585,7 +1585,7 @@
         },
         {
           "id": "lexeme-gaspron",
-          "form": "gaspron",
+          "form": "gaspin",
           "gloss": "huésped, extranjero",
           "analysis_html": "GASP + -R- (extensión por precisar) + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
           "analysis_text": "GASP + -R- (extensión por precisar) + -ON",
@@ -1660,7 +1660,7 @@
         },
         {
           "id": "lexeme-gaspa",
-          "form": "gaspa",
+          "form": "gaspanja",
           "gloss": "recepción, recibimiento",
           "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
           "analysis_text": "GASP + -A",
@@ -1685,7 +1685,7 @@
         },
         {
           "id": "lexeme-gaspera",
-          "form": "gaspera",
+          "form": "gaspila",
           "gloss": "hospedaje",
           "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
           "analysis_text": "GASP + -ER + -A",
