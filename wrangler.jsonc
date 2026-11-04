@@ -3,6 +3,8 @@
   "name": "conlang",
   "compatibility_date": "2026-11-01",
   "assets": {
-    "directory": "."
+    "directory": ".",
+    // Servir los .html tal cual: sin esto Cloudflare redirige vocablos.html → /vocablos en cada clic.
+    "html_handling": "none"
   }
 }
