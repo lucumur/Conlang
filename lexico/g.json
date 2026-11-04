@@ -1751,6 +1751,34 @@
             "turismo"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-bodgaspen",
+          "form": "bodgaspen",
+          "gloss": "parasito",
+          "analysis_html": "bod + <a class=\"morph-link\" href=\"#root-gas\">GASP</a> + <a class=\"morph-link\" href=\"#morph-en\">-EN</a>",
+          "analysis_text": "bod + GASP + -EN",
+          "refs": [
+            {
+              "id": "root-gas",
+              "label": "GASP"
+            },
+            {
+              "id": "morph-en",
+              "label": "-EN"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "animales comensales"
+          ],
+          "notes": [],
+          "proviene_de": [
+            {
+              "id": "lexeme-gaspron",
+              "label": "gaspin"
+            }
+          ]
         }
       ]
     },
