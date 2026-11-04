@@ -1537,18 +1537,22 @@
           "id": "lexeme-gaspas",
           "form": "gaspanos",
           "gloss": "recibir huéspedes",
-          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-as\">-AS</a>",
-          "analysis_text": "GASP + -AS",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-an\">-AN</a> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
+          "analysis_text": "GASP + -AN + -OS",
           "refs": [
             {
-              "id": "morph-as",
-              "label": "-AS"
+              "id": "morph-an",
+              "label": "-AN"
+            },
+            {
+              "id": "morph-os",
+              "label": "-OS"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Verbal ANOS"
+              "label": "Predicado OS"
             }
           ],
           "semantic_fields": [
@@ -1562,18 +1566,18 @@
           "id": "lexeme-gaspos",
           "form": "gaspis",
           "gloss": "hospedarse",
-          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
-          "analysis_text": "GASP + -OS",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-is-2\">-IS</a>",
+          "analysis_text": "GASP + -IS",
           "refs": [
             {
-              "id": "morph-os",
-              "label": "-OS"
+              "id": "morph-is-2",
+              "label": "-IS"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Verbal IS"
+              "label": "Predicado IS"
             }
           ],
           "semantic_fields": [
@@ -1587,18 +1591,18 @@
           "id": "lexeme-gaspron",
           "form": "gaspin",
           "gloss": "huésped, extranjero",
-          "analysis_html": "GASP + -R- (extensión por precisar) + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
-          "analysis_text": "GASP + -R- (extensión por precisar) + -ON",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-in\">-IN</a>",
+          "analysis_text": "GASP + -IN",
           "refs": [
             {
-              "id": "morph-on",
-              "label": "-ON"
+              "id": "morph-in",
+              "label": "-IN"
             }
           ],
           "tags": [
             {
               "class": "generic",
-              "label": "Humano IN"
+              "label": "Adjetivo-participio IN"
             }
           ],
           "semantic_fields": [
@@ -1662,9 +1666,17 @@
           "id": "lexeme-gaspa",
           "form": "gaspanja",
           "gloss": "recepción, recibimiento",
-          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "GASP + -A",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-an\">-AN</a> + <a class=\"morph-link\" href=\"#morph-j-theme\">-J-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GASP + -AN + -J- + -A",
           "refs": [
+            {
+              "id": "morph-an",
+              "label": "-AN"
+            },
+            {
+              "id": "morph-j-theme",
+              "label": "-J-"
+            },
             {
               "id": "morph-a-2",
               "label": "-A"
@@ -1687,12 +1699,12 @@
           "id": "lexeme-gaspera",
           "form": "gaspila",
           "gloss": "hospedaje",
-          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-er\">-ER</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
-          "analysis_text": "GASP + -ER + -A",
+          "analysis_html": "GASP + <a class=\"morph-link\" href=\"#morph-il-partitive\">-IL-</a> + <a class=\"morph-link\" href=\"#morph-a-2\">-A</a>",
+          "analysis_text": "GASP + -IL- + -A",
           "refs": [
             {
-              "id": "morph-er",
-              "label": "-ER"
+              "id": "morph-il-partitive",
+              "label": "-IL-"
             },
             {
               "id": "morph-a-2",
