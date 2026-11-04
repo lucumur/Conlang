@@ -1552,7 +1552,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado OS"
+              "label": "Verbal ANOS"
             }
           ],
           "semantic_fields": [
@@ -1577,7 +1577,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado IS"
+              "label": "Verbal IS"
             }
           ],
           "semantic_fields": [
