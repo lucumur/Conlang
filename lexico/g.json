@@ -1548,7 +1548,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado AS"
+              "label": "Verbal ANOS"
             }
           ],
           "semantic_fields": [
@@ -1573,7 +1573,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Predicado OS"
+              "label": "Verbal IS"
             }
           ],
           "semantic_fields": [
@@ -1598,7 +1598,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Humano ON"
+              "label": "Humano IN"
             }
           ],
           "semantic_fields": [
@@ -1673,7 +1673,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Nominalización A"
+              "label": "Nomen A"
             }
           ],
           "semantic_fields": [
@@ -1702,7 +1702,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Nominalización A"
+              "label": "Nomen A"
             }
           ],
           "semantic_fields": [
