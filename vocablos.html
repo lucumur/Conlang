@@ -8,8 +8,8 @@
   <title>Vocablos · Conlang</title>
   <meta name="description" content="Inventario alfabético de vocablos del conlang">
   <link rel="stylesheet" href="styles.css?v=20261031indigena">
-  <script src="refresh.js?v=20261101textos"></script>
-  <script src="editor.js?v=20261103textovoc"></script>
+  <script src="refresh.js?v=20261103cache"></script>
+  <script src="editor.js?v=20261103cache"></script>
   <style>
     .view-toggle{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin:0 0 14px}.view-toggle .view-label{margin-right:4px;color:var(--muted);font-size:.82rem;font-weight:700}.view-toggle button{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:8px 11px;border-radius:10px;font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}.view-toggle button[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10)}
     .card-view .lex-table thead{display:none}.card-view .lex-table{display:block;width:100%;border:0;background:transparent}.card-view .lex-table tbody{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:12px;width:100%}.card-view .lex-table tbody tr{display:block;border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:12px 14px}.card-view .lex-table tbody td{display:block;width:100%!important;max-width:none;border:0!important;padding:4px 0!important;white-space:normal}.card-view .lex-table tbody td[data-label]:not(:empty)::before{content:attr(data-label);display:block;margin:2px 0 2px;color:var(--muted);font-size:.66rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase}.card-view .table-wrap{overflow:visible;border:0;background:transparent}
@@ -59,13 +59,13 @@
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function oldFormsHTML(w){const a=w.formas_antiguas||[];return a.length?'<div class="word-old"><span class="word-old-label">Formas antiguas</span> '+a.map(x=>'<code>'+esc(x.form)+'</code>'+(x.analysis_text?' <span class="word-old-an">('+esc(x.analysis_text)+')</span>':'')).join(' · ')+'</div>':''}
   const norm=s=>String(s??'').toLocaleLowerCase('es').trim();
-  const initial=s=>Array.from(String(s||'').trim().toLocaleUpperCase('es'))[0]||'#';
+  const _ini=new Map(),initial=s=>{s=String(s||'');let r=_ini.get(s);if(r===undefined){r=Array.from(s.trim().toLocaleUpperCase('es'))[0]||'#';_ini.set(s,r)}return r};const COLL=new Intl.Collator('es'),COLL_BASE=new Intl.Collator('es',{sensitivity:'base'});
   const rank=x=>{const i=ORDER.indexOf(x);return i<0?999:i};
   function parseQuery(raw){const q=norm(raw);if(!q)return[];return q.split(/\s+or\s+/i).map(g=>g.split(/\s+and\s+/i).map(norm).filter(Boolean)).filter(g=>g.length)}
   function match(text,groups){const t=norm(text);return !groups.length||groups.some(g=>g.every(term=>t.includes(term)))}
   function rootOf(w){return roots.get(w.root_id)||{}}
   function searchable(w){const r=rootOf(w);return [w.search,w.form,w.gloss,w.root_form,r.form,w.root_gloss,r.gloss,w.analysis_text,(w.tags||[]).join(' '),(w.semantic_fields||[]).join(' '),(w.notes||[]).join(' ')].join(' ')}
-  function sortWords(arr){return [...arr].sort((a,b)=>{const ai=initial(a.form),bi=initial(b.form),d=rank(ai)-rank(bi);if(d)return d;if(ai!==bi)return ai.localeCompare(bi,'es');return String(a.form).localeCompare(String(b.form),'es',{sensitivity:'base'})})}
+  function sortWords(arr){return [...arr].sort((a,b)=>{const ai=initial(a.form),bi=initial(b.form),d=rank(ai)-rank(bi);if(d)return d;if(ai!==bi)return COLL.compare(ai,bi);return COLL_BASE.compare(String(a.form),String(b.form))})}
   function fieldsHTML(w){return (w.semantic_fields||[]).length?'<div class="fields">'+w.semantic_fields.map(f=>'<a class="field" href="vocablos.html?q='+encodeURIComponent(f)+'">'+esc(f)+'</a>').join('')+'</div>':''}
   function tagsHTML(w){return (w.tags||[]).length?'<div class="word-tags">'+w.tags.map(t=>'<span class="tag generic">'+esc(t)+'</span>').join('')+'</div>':''}
   let derivedBy=new Map(),byId=new Map();
@@ -73,7 +73,7 @@
   function emojiHTML(w){return w.emoji?'<span class="word-emoji" aria-hidden="true">'+esc(w.emoji)+'</span>':''}
   function row(w){const r=rootOf(w),rf=w.root_form||r.form||'';return '<tr id="'+esc(w.id)+'"><td class="word-form">'+emojiHTML(w)+'<a class="word-page" href="vocablo.html?id='+encodeURIComponent(w.id)+'" title="Abrir la ficha del vocablo"><code>'+esc(w.form)+'</code></a></td><td class="word-gloss">'+esc(w.gloss)+(w.notes||[]).map(n=>'<div class="word-note">'+esc(n)+'</div>').join('')+oldFormsHTML(w)+lineageHTML(w)+'</td><td class="word-root" data-label="Raíz"><a class="root-link" data-root-id="'+esc(w.root_id)+'" href="raiz.html?id='+encodeURIComponent(w.root_id)+'"><code>'+esc(rf)+'</code></a></td><td class="word-analysis" data-label="Análisis">'+(w.analysis_html||w.analysis_text?'<div class="analysis">'+(w.analysis_html||esc(w.analysis_text))+'</div>':'')+tagsHTML(w)+'</td><td class="word-fields" data-label="Campos">'+fieldsHTML(w)+'</td></tr>'}
   function section(letter,items){return '<section class="lex-section" id="voc-'+encodeURIComponent(letter)+'"><h2>'+esc(letter)+'</h2><div class="table-wrap"><table class="lex-table vocab-table"><thead><tr><th>Forma</th><th>Glosa</th><th>Raíz</th><th>Análisis</th><th>Campos</th></tr></thead><tbody>'+items.map(row).join('')+'</tbody></table></div></section>'}
-  function availableLetters(arr=words){return [...new Set(arr.map(w=>initial(w.form)))].sort((a,b)=>rank(a)-rank(b)||a.localeCompare(b,'es'))}
+  function availableLetters(arr=words){return [...new Set(arr.map(w=>initial(w.form)))].sort((a,b)=>rank(a)-rank(b)||COLL.compare(a,b))}
   function updateAlphabet(){const letters=availableLetters();if(!active||!letters.includes(active))active=letters[0]||null;alphabet.innerHTML=letters.map(l=>'<a href="#voc-'+encodeURIComponent(l)+'" data-letter="'+esc(l)+'" aria-current="'+(mode==='letter'&&l===active?'true':'false')+'">'+esc(l)+'</a>').join('')+'<a href="#voc-all" data-all="1" aria-current="'+(mode==='all'?'true':'false')+'" title="Mostrar todos los vocablos">∞</a>'}
   function render(items,label){const sorted=sortWords(items);const groups=new Map();for(const w of sorted){const l=initial(w.form);if(!groups.has(l))groups.set(l,[]);groups.get(l).push(w)}content.innerHTML=sorted.length?[...groups.entries()].map(([l,x])=>section(l,x)).join(''):'<div class="empty-note">Sin vocablos coincidentes.</div>';count.textContent=(label?label+' · ':'')+sorted.length+' vocablo'+(sorted.length===1?'':'s')}
   function showLetter(letter){mode='letter';active=letter;search.value='';updateAlphabet();render(words.filter(w=>initial(w.form)===letter),letter);history.replaceState(null,'',location.pathname+'#voc-'+encodeURIComponent(letter))}

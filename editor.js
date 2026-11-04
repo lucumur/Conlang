@@ -102,12 +102,33 @@
   }
 
   /* En modo edición, lexico/*.json y textos/*.json se leen desde la API (fresco); si falla, cae a la copia publicada. */
+  /* El contenido de un archivo en un commit concreto (ref = SHA) nunca cambia: se guarda en Cache Storage
+     y al navegar se reutiliza sin volver a pedirlo a la API. Solo se conserva la copia del commit actual. */
+  var CACHE_NAME = 'conlang-api-v1';
+  function isSha(ref) { return /^[0-9a-f]{40}$/i.test(ref || ''); }
+  function cachedApiFetch(url, ref) {
+    var net = function () { return baseFetch(url, { headers: headers(true), cache: 'no-store' }); };
+    if (!isSha(ref) || !window.caches) return net();
+    return caches.open(CACHE_NAME).then(function (c) {
+      return c.match(url).then(function (hit) {
+        if (hit) return hit;
+        return net().then(function (r) {
+          if (r.ok) {
+            c.put(url, r.clone()).then(function () { return c.keys(); }).then(function (ks) {
+              ks.forEach(function (k) { if (k.url.indexOf('ref=' + ref) < 0) c.delete(k); });
+            }).catch(function () {});
+          }
+          return r;
+        });
+      });
+    }, net);
+  }
   if (editOn()) {
     window.fetch = function (input, init) {
       if (typeof input === 'string') {
         var m = input.match(/^(?:\.\/)?(lexico|textos)\/([^?#\/]+\.json)/);
         if (m) {
-          return currentRef().then(function (ref) { return baseFetch(contentsURL(m[1] + '/' + m[2], ref), { headers: headers(true), cache: 'no-store' }); })
+          return currentRef().then(function (ref) { return cachedApiFetch(contentsURL(m[1] + '/' + m[2], ref), ref); })
             .then(function (r) { return r.ok ? r : baseFetch(input, init); }, function () { return baseFetch(input, init); });
         }
       }
