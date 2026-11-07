@@ -157,6 +157,27 @@
         {
           "original": "Ellos salieron a trabajar. su padre de hecho trabaja en un hotel.",
           "traduccion": "Loj foritus al verkor, ces pajan fartuk labros ĉe gaspedal"
+        },
+        {
+          "original": "Su madre da clases. Es profesora en una escuela.",
+          "traduccion": "ces majan kursanos, ŝi ĵes dokantan ĉe jo lernedal"
+        },
+        {
+          "original": "Marko tiene una novia. Se llama Ana",
+          "traduccion": "eci Marko jes karnuboj vek pubelin nomin Ana",
+          "enlaces": [
+            {
+              "indice": 3,
+              "vocablo_id": "lexeme-karnubon",
+              "nota": "dual de karnubon"
+            }
+          ],
+          "sin_enlace": [
+            {
+              "indice": 1,
+              "motivo": "Nombre propio"
+            }
+          ]
         }
       ],
       "autor": "Lernu"
