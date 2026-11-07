@@ -3378,6 +3378,165 @@
       ]
     },
     {
+      "id": "root-orc",
+      "form": "*ORĈ-",
+      "gloss": "testículo; orquídea",
+      "tags": [
+        {
+          "class": "nova",
+          "label": "Nova"
+        },
+        {
+          "class": "frances",
+          "label": "Frances"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": "Raíz de origen francés (fr. orchis, orchidée), del lat. orchis y este del gr. ὄρχις «testículo».",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-orcxo",
+          "form": "orĉo",
+          "gloss": "testículo; orquídea; aguacate",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-orc\">ORĈ</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ORĈ + -O",
+          "refs": [
+            {
+              "id": "root-orc",
+              "label": "ORĈ"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía",
+            "plantas",
+            "alimentación"
+          ],
+          "notes": [
+            "Forma arcaica y poética: puede significar testículo, orquídea o aguacate. En el uso corriente se prefieren orĉoj, orĉolo y pomorĉo."
+          ]
+        },
+        {
+          "id": "lexeme-orcxoj",
+          "form": "orĉoj",
+          "gloss": "testículos (par)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-orc\">ORĈ</a> + <a class=\"morph-link\" href=\"#morph-oj\">-OJ</a>",
+          "analysis_text": "ORĈ + -OJ",
+          "refs": [
+            {
+              "id": "root-orc",
+              "label": "ORĈ"
+            },
+            {
+              "id": "morph-oj",
+              "label": "-OJ"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Dual"
+            }
+          ],
+          "semantic_fields": [
+            "anatomía"
+          ],
+          "notes": [
+            "Dual de orĉo."
+          ]
+        },
+        {
+          "id": "lexeme-orcxolo",
+          "form": "orĉolo",
+          "gloss": "orquídea",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-orc\">ORĈ</a> + <a class=\"morph-link\" href=\"#morph-ol\">-OL-</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "ORĈ + -OL- + -O",
+          "refs": [
+            {
+              "id": "root-orc",
+              "label": "ORĈ"
+            },
+            {
+              "id": "morph-ol",
+              "label": "-OL-"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            }
+          ],
+          "semantic_fields": [
+            "plantas",
+            "flores"
+          ],
+          "notes": [
+            "-OL- similativo: «lo que se asemeja al testículo», como el gr. ὄρχις."
+          ]
+        },
+        {
+          "id": "lexeme-pomorcxo",
+          "form": "pomorĉo",
+          "gloss": "aguacate",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-pom\">POM</a> + <a class=\"morph-link\" href=\"#root-orc\">ORĈ</a> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
+          "analysis_text": "POM + ORĈ + -O",
+          "refs": [
+            {
+              "id": "root-pom",
+              "label": "POM"
+            },
+            {
+              "id": "root-orc",
+              "label": "ORĈ"
+            },
+            {
+              "id": "morph-o",
+              "label": "-O"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen O"
+            },
+            {
+              "class": "generic",
+              "label": "Compuesto"
+            }
+          ],
+          "semantic_fields": [
+            "alimentación",
+            "frutas",
+            "plantas"
+          ],
+          "notes": [
+            "Literalmente «fruta-testículo»."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-ord",
       "form": "*ORD-",
       "gloss": "orden",
