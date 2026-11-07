@@ -9221,7 +9221,7 @@
         },
         {
           "id": "lexeme-parkursanon",
-          "form": "parkursanon",
+          "form": "parkursan",
           "gloss": "compañero de clase",
           "analysis_html": "PAR <span class=\"meta-extra\">(pendiente)</span> + KURS + AN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-on\">-ON</a>",
           "analysis_text": "PAR (pendiente) + KURS + AN (pendiente) + -ON",
@@ -9234,11 +9234,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Humano ON"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Humano AN"
             }
           ],
           "semantic_fields": [],
