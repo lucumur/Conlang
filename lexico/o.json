@@ -1323,6 +1323,32 @@
           "notes": [
             "Paradigma: oli | olu | olin | oles | olik (ver Pronombres)."
           ]
+        },
+        {
+          "id": "lexeme-ol-comparativo",
+          "form": "ol",
+          "gloss": "que (comparativo)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ol\">OL</a>",
+          "analysis_text": "OL",
+          "refs": [
+            {
+              "id": "root-ol",
+              "label": "OL"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula"
+            }
+          ],
+          "semantic_fields": [
+            "comparación"
+          ],
+          "notes": [
+            "Introduce el segundo término de una comparación: Opluk vjoli lin prason ol orĉi tin tombo «Mejor violetas a la persona que orquídeas a la tumba».",
+            "Relacionado con el OL- de elección entre dos de olĉi «¿cuál de los dos?» y olĉan «¿quién de los dos?»; cf. Eo. ol."
+          ]
         }
       ]
     },
