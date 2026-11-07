@@ -9105,7 +9105,7 @@
         },
         {
           "id": "lexeme-kursanos",
-          "form": "kursanos",
+          "form": "kursintas",
           "gloss": "estar cursando, llevar clase",
           "analysis_html": "KURS + AN <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-os\">-OS</a>",
           "analysis_text": "KURS + AN (pendiente) + -OS",
