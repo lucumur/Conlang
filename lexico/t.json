@@ -4038,7 +4038,19 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-tombo",
+          "form": "tombo",
+          "gloss": "tumba",
+          "analysis_html": "TOMB",
+          "analysis_text": "TOMB",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ton",
