@@ -10719,7 +10719,7 @@
         },
         {
           "id": "lexeme-pubjo",
-          "form": "pubjo",
+          "form": "pubelin",
           "gloss": "chica, chava",
           "analysis_html": "PUB + J <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
           "analysis_text": "PUB + J (pendiente) + -O",
@@ -10732,11 +10732,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Nominal O"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Nominal IN"
             }
           ],
           "semantic_fields": [],
