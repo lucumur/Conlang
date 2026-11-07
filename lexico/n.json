@@ -1758,9 +1758,18 @@
           "id": "lexeme-neril",
           "form": "neril",
           "gloss": "negro, ennegrecido",
-          "analysis_html": "NER",
-          "analysis_text": "NER",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-ner\">NER</a> + <a class=\"morph-link\" href=\"#morph-il\">-IL</a>",
+          "analysis_text": "NER + -IL",
+          "refs": [
+            {
+              "id": "root-ner",
+              "label": "NER"
+            },
+            {
+              "id": "morph-il",
+              "label": "-IL"
+            }
+          ],
           "tags": [
             {
               "class": "generic",

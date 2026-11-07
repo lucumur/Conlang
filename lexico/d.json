@@ -473,6 +473,51 @@
       ]
     },
     {
+      "id": "root-de-topico",
+      "form": "*DE-",
+      "gloss": "acerca de; tópico",
+      "tags": [
+        {
+          "class": "generic",
+          "label": "Part."
+        }
+      ],
+      "letter": "D",
+      "section": "sec-d",
+      "etymology": "Cf. lat. dē «acerca de», Eo. de.",
+      "notes": [
+        "Distinta del morfema derivativo DE- ablativo."
+      ],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-de-topico",
+          "form": "de",
+          "gloss": "en cuanto a, acerca de (marcador de tópico)",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-de-topico\">DE</a>",
+          "analysis_text": "DE",
+          "refs": [
+            {
+              "id": "root-de-topico",
+              "label": "DE"
+            }
+          ],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Partícula"
+            }
+          ],
+          "semantic_fields": [
+            "discurso"
+          ],
+          "notes": [
+            "Introduce el tema de la oración, como el japonés は (wa): De lu bablin mej ẑelas pruno, nel faresas neril to suno."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-dez",
       "form": "*DEẐ-",
       "gloss": "propio, decente",
