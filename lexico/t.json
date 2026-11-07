@@ -4024,6 +4024,23 @@
       ]
     },
     {
+      "id": "root-tomb",
+      "form": "*TOMB",
+      "gloss": "tumba",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-ton",
       "form": "*TON-",
       "gloss": "broncear",
