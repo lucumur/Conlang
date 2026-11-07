@@ -4109,6 +4109,35 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-karnubon",
+          "form": "karnubon",
+          "gloss": "novio, novia",
+          "analysis_html": "NUB",
+          "analysis_text": "NUB",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Humano ON"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones sociales",
+            "parejas sociales"
+          ],
+          "notes": [],
+          "proviene_de": [
+            {
+              "id": "lexeme-nubon",
+              "label": "nubon"
+            },
+            {
+              "id": "lexeme-karlon",
+              "label": "karlon"
+            }
+          ]
         }
       ]
     },
