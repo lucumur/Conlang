@@ -181,6 +181,45 @@
         }
       ],
       "autor": "Lernu"
+    },
+    {
+      "id": "refranes",
+      "titulo": "Refranes",
+      "parrafos": [
+        {
+          "original": "aprendiendo yerra y yerra, y un dia estarás educado.",
+          "traduccion": "lernoson, misak kaj misak, kaj samevam vi eris klerin",
+          "enlaces": [
+            {
+              "indice": 0,
+              "vocablo_id": "lexeme-lernas",
+              "nota": "forma gerundiva"
+            },
+            {
+              "indice": 1,
+              "vocablo_id": "lexeme-misas",
+              "nota": "forma imperativa"
+            },
+            {
+              "indice": 3,
+              "vocablo_id": "lexeme-misas",
+              "nota": "forma imperativa"
+            }
+          ]
+        },
+        {
+          "original": "Una llama débil viene; la oscuridad ya no reina totalmente.",
+          "traduccion": "febler kandla ĉevenos; tembra nel plu arcanes nepremek"
+        },
+        {
+          "original": "Explora la caverna, pero lleva linterna.",
+          "traduccion": "forserĉak to groto; maj portos vek lampango"
+        },
+        {
+          "original": "Mejor violetas a la persona, que orquídeas a la tumba.",
+          "traduccion": "Opluk vjoli lin prason ol orĉi tin tombo"
+        }
+      ]
     }
   ]
 }
