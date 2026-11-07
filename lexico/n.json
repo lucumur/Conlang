@@ -1753,6 +1753,22 @@
             "polvos"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-neril",
+          "form": "neril",
+          "gloss": "negro, ennegrecido",
+          "analysis_html": "NER",
+          "analysis_text": "NER",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Adjetivo-participio IL"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
