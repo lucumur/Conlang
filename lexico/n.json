@@ -1715,7 +1715,7 @@
       "words": [
         {
           "id": "lexeme-nerik",
-          "form": "nerik",
+          "form": "nerer",
           "gloss": "negro",
           "analysis_html": "NER + IK <span class=\"meta-extra\">(pendiente)</span>",
           "analysis_text": "NER + IK (pendiente)",
@@ -1723,15 +1723,17 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Adjetivo ER"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "colores"
+          ],
           "notes": []
         },
         {
           "id": "lexeme-nerete",
-          "form": "nerete",
+          "form": "nerte",
           "gloss": "tizne, hollín",
           "analysis_html": "NER + ET <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-e\">-E</a>",
           "analysis_text": "NER + ET (pendiente) + -E",
@@ -1744,14 +1746,12 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Incontable E"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Incontable TE"
             }
           ],
-          "semantic_fields": [],
+          "semantic_fields": [
+            "polvos"
+          ],
           "notes": []
         }
       ]
