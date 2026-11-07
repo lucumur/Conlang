@@ -218,6 +218,28 @@
         {
           "original": "Mejor violetas a la persona, que orquídeas a la tumba.",
           "traduccion": "Opluk vjoli lin prason ol orĉi tin tombo"
+        },
+        {
+          "original": "Que un niño robe una ciruela, no ennegrecerá el sol.",
+          "traduccion": "de lu bablin mej ẑelas pruno, nel faresas neril to suno",
+          "enlaces": [
+            {
+              "indice": 7,
+              "vocablo_id": "lexeme-faras",
+              "nota": "forma futura"
+            }
+          ]
+        },
+        {
+          "original": "Hágame temer y obedeceré por pena; convenzame y voluntariamente obedecere.",
+          "traduccion": "Timak mi, kaj mi obdesos baj punaja; ŝvadak mi, kaj mi ovontin obdesos.",
+          "enlaces": [
+            {
+              "indice": 7,
+              "vocablo_id": "lexeme-ŝvadas",
+              "nota": "forma imperativa"
+            }
+          ]
         }
       ]
     }
