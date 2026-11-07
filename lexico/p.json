@@ -10698,7 +10698,7 @@
         },
         {
           "id": "lexeme-pubro",
-          "form": "pubro",
+          "form": "pubrin",
           "gloss": "chico, chavo",
           "analysis_html": "PUB + R <span class=\"meta-extra\">(pendiente)</span> + <a class=\"morph-link\" href=\"#morph-o\">-O</a>",
           "analysis_text": "PUB + R (pendiente) + -O",
@@ -10711,11 +10711,7 @@
           "tags": [
             {
               "class": "generic",
-              "label": "Nominal O"
-            },
-            {
-              "class": "generic",
-              "label": "Importado de Tana"
+              "label": "Nominal IN"
             }
           ],
           "semantic_fields": [],
