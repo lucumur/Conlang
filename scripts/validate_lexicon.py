@@ -80,6 +80,30 @@ for name, w in words:
             errors.append(f'{name} vocablo {w.get("form")}: proviene de sí mismo')
         elif pid not in word_ids:
             errors.append(f'{name} vocablo {w.get("form")}: proviene_de «{pid}», que no es un vocablo existente')
+    if 'paradigma' in w:
+        where = f'{name} vocablo {w.get("form")}'
+        p = w['paradigma']
+        if not isinstance(p, dict):
+            errors.append(f'{where}: paradigma no es un objeto')
+        else:
+            extra = set(p) - {'tipo', 'titulo', 'nota', 'filas'}
+            if extra:
+                errors.append(f'{where}: paradigma tiene campos no previstos: {", ".join(sorted(extra))}')
+            if p.get('tipo') not in ('conjugacion', 'declinacion'):
+                errors.append(f'{where}: paradigma.tipo debe ser conjugacion o declinacion')
+            filas = p.get('filas')
+            ok = isinstance(filas, list) and filas and all(isinstance(r, list) and r and all(isinstance(c, str) for c in r) for r in filas)
+            if not ok:
+                errors.append(f'{where}: paradigma.filas debe ser una tabla rectangular de textos')
+            else:
+                width = len(filas[0])
+                if any(len(r) != width for r in filas):
+                    errors.append(f'{where}: paradigma con filas de distinto ancho')
+                if not any(c for r in filas for c in r):
+                    errors.append(f'{where}: paradigma vacío; omite el campo')
+            for key in ('titulo', 'nota'):
+                if key in p and (not isinstance(p[key], str) or not p[key]):
+                    errors.append(f'{where}: paradigma.{key} debe ser texto no vacío, u omitirse')
 
 # index.json debe ser idéntico al que genera el script oficial
 with tempfile.TemporaryDirectory() as tmp:

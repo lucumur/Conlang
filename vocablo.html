@@ -32,6 +32,11 @@
     .root-gloss .word-emoji{font-size:1em}.root-form .form-emoji{font-size:.7em;margin-right:.15em;vertical-align:.08em;letter-spacing:0}
     .use-filter{width:100%;max-width:420px;margin:0 0 12px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);font:inherit}
     .use-table td,.use-table th{padding:9px 12px}.use-table td.form{white-space:nowrap}.use-table a{text-decoration:none}.use-table a:hover{color:var(--accent)}
+    .paradigm-table td,.paradigm-table th{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+    .paradigm-table th{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:#f1eee6;font-weight:700}
+    .paradigm-table td:first-child{font-weight:700;white-space:nowrap}
+    .paradigm-table tr:last-child td{border-bottom:0}
+    .paradigm-note{margin-top:8px}
 
   </style>
 </head>
@@ -83,6 +88,16 @@
     return '<article class="word-card"><div class="word-form">'+(w.emoji?'<span class="word-emoji" aria-hidden="true">'+esc(w.emoji)+'</span>':'')+'<a href="'+wordHref(w.id)+'"><code>'+esc(w.form)+'</code></a></div><div class="word-gloss">'+esc(w.gloss)+'</div><div class="word-analysis">Raíz: <a href="'+rootHref(w.root_id)+'"><code>'+esc(w.root_form)+'</code></a></div>'+(w.analysis_html?'<div class="word-analysis">'+w.analysis_html+'</div>':'')+notes+((w.semantic_fields||[]).length?'<div class="word-fields">'+fieldHTML(w.semantic_fields)+'</div>':'')+((w.tags||[]).length?'<div class="word-tags">'+labelTags(w.tags)+'</div>':'')+'</article>';
   }
   const section=(title,n,inner)=>'<section class="detail-section"><h2>'+title+(n!=null?' <span class="detail-section-count">('+n+')</span>':'')+'</h2>'+inner+'</section>';
+  function paradigmHTML(p){
+    if(!p||!Array.isArray(p.filas)||!p.filas.length)return '';
+    const title=p.titulo||(p.tipo==='declinacion'?'Declinación':p.tipo==='conjugacion'?'Conjugación':'Paradigma');
+    const head=p.filas[0]||[];
+    const body=p.filas.slice(1);
+    const ths=head.map(c=>'<th>'+esc(c)+'</th>').join('');
+    const trs=body.map(r=>'<tr>'+head.map((_,i)=>'<td>'+(r[i]?'<code>'+esc(r[i])+'</code>':'')+'</td>').join('')+'</tr>').join('');
+    const note=p.nota?'<p class="root-note paradigm-note">'+esc(p.nota)+'</p>':'';
+    return section(esc(title),null,'<div class="table-wrap"><table class="paradigm-table"><thead><tr>'+ths+'</tr></thead><tbody>'+trs+'</tbody></table></div>'+note);
+  }
   const getJSON=(url,fallback)=>fetch(url).then(r=>{if(!r.ok){if(fallback!==undefined)return fallback;throw Error(url)}return r.json()}).catch(e=>{if(fallback!==undefined)return fallback;throw e});
   function wireLinks(getIndex){
     document.addEventListener('click',e=>{
@@ -148,6 +163,7 @@
 
     box.innerHTML='<article class="root-sheet word-sheet" data-root-id="'+esc(w.root_id)+'" data-word-id="'+esc(w.id)+'"><div class="root-head"><div><p class="eyebrow">Vocablo</p><h1 class="root-form">'+(w.emoji?'<span class="form-emoji" aria-hidden="true">'+esc(w.emoji)+'</span>':'')+esc(w.form)+'</h1><p class="root-gloss">'+esc(w.gloss)+'</p></div><div class="root-tags">'+labelTags(w.tags)+'</div></div>'+
       '<div class="root-meta">'+meta+'</div>'+notes+olds+
+      (w.paradigma?paradigmHTML(w.paradigma):'')+
       ((from.length||derived.length)?section('Procedencia',null,(from.length?'<h3 class="lineage-label">Proviene de</h3><div class="word-grid">'+from.map(wordCard).join('')+'</div>':'')+(derived.length?'<h3 class="lineage-label" style="margin-top:16px">Derivados <span class="detail-section-count">('+derived.length+')</span></h3><div class="word-grid">'+derived.map(wordCard).join('')+'</div>':'')):'')+
       (usedIn.length?section('Usado en otros vocablos',usedIn.length,'<div class="word-grid">'+usedIn.map(wordCard).join('')+'</div>'):'')+
       (homos.length?section('Homógrafos',homos.length,'<div class="word-grid">'+homos.map(wordCard).join('')+'</div>'):'')+
